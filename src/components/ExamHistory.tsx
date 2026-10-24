@@ -12,7 +12,10 @@ import {
   XCircle,
   AlertTriangle,
   ArrowUpDown,
-  Filter
+  Filter,
+  GitBranch,
+  GitCommit,
+  Loader2
 } from 'lucide-react';
 import { ExamAttempt, OrganSystem } from '../types';
 import { ExportService } from '../services/export';
@@ -36,6 +39,29 @@ export const ExamHistory: React.FC<ExamHistoryProps> = ({
   const [sortOrder, setSortOrder] = useState<'asc' | 'desc'>('desc');
   const [deleteCandidateId, setDeleteCandidateId] = useState<string | null>(null);
   const [showClearAllModal, setShowClearAllModal] = useState<boolean>(false);
+  const [isSyncingGit, setIsSyncingGit] = useState<boolean>(false);
+  const [gitStatusMsg, setGitStatusMsg] = useState<{ success: boolean; text: string } | null>(null);
+
+  const handleSyncAllToGit = async () => {
+    if (attempts.length === 0) return;
+    setIsSyncingGit(true);
+    setGitStatusMsg(null);
+    try {
+      const res = await ExportService.recordAttemptToGit(attempts);
+      setGitStatusMsg({
+        success: res.success,
+        text: res.message + (res.commitHash ? ` (Commit: ${res.commitHash})` : '')
+      });
+      setTimeout(() => setGitStatusMsg(null), 6000);
+    } catch (e: any) {
+      setGitStatusMsg({
+        success: false,
+        text: e.message || 'ไม่สามารถซิงค์ขึ้น Git ได้'
+      });
+    } finally {
+      setIsSyncingGit(false);
+    }
+  };
 
   // Filter & Search
   let filtered = attempts.filter(att => {
@@ -99,7 +125,19 @@ export const ExamHistory: React.FC<ExamHistoryProps> = ({
         </div>
 
         {attempts.length > 0 && (
-          <div className="flex items-center gap-2">
+          <div className="flex flex-wrap items-center gap-2">
+            <button
+              onClick={handleSyncAllToGit}
+              disabled={isSyncingGit}
+              className="px-3.5 py-2 rounded-xl bg-purple-600 hover:bg-purple-500 disabled:opacity-60 text-white text-xs font-bold shadow-sm transition-all flex items-center gap-1.5"
+            >
+              {isSyncingGit ? (
+                <Loader2 className="w-3.5 h-3.5 animate-spin" />
+              ) : (
+                <GitBranch className="w-3.5 h-3.5" />
+              )}
+              <span>บันทึกประวัติขึ้น Git</span>
+            </button>
             <button
               onClick={() => ExportService.exportAttemptsToCSV(attempts)}
               className="px-3 py-2 rounded-xl border border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-800 text-slate-700 dark:text-slate-200 text-xs font-semibold hover:bg-slate-50 transition-colors flex items-center gap-1.5"
@@ -124,6 +162,17 @@ export const ExamHistory: React.FC<ExamHistoryProps> = ({
           </div>
         )}
       </div>
+
+      {gitStatusMsg && (
+        <div className={`p-3 rounded-xl text-xs font-medium border flex items-center gap-2 animate-fadeIn ${
+          gitStatusMsg.success 
+            ? 'bg-emerald-50 dark:bg-emerald-950/40 border-emerald-200 dark:border-emerald-800 text-emerald-800 dark:text-emerald-200' 
+            : 'bg-rose-50 dark:bg-rose-950/40 border-rose-200 dark:border-rose-800 text-rose-800 dark:text-rose-200'
+        }`}>
+          {gitStatusMsg.success ? <CheckCircle2 className="w-4 h-4 text-emerald-600" /> : <XCircle className="w-4 h-4 text-rose-600" />}
+          <span>{gitStatusMsg.text}</span>
+        </div>
+      )}
 
       {/* Filter and Search Bar */}
       <div className="p-4 rounded-2xl bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 shadow-sm flex flex-wrap items-center justify-between gap-4">

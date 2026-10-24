@@ -257,5 +257,87 @@ export const ExportService = {
     // Generate and download
     const filename = `Anatomy_Exam_Lab_Complete_${new Date().toISOString().slice(0, 10)}.xlsx`;
     XLSX.writeFile(wb, filename);
+  },
+
+  // 3. GENERATE MISTAKE LOG (MARKDOWN)
+  generateMistakeLogMarkdown(attempt: ExamAttempt): string {
+    const wrongAnswers = (attempt.answers || []).filter(a => !a.isCorrect);
+    const dateStr = new Date(attempt.submittedAt || attempt.startedAt).toLocaleString('th-TH');
+    const isPassed = attempt.percentage >= 60;
+    const gradeBadge = attempt.percentage >= 80 ? '🌟 ดีเยี่ยม (Grade A)' : isPassed ? '✅ ผ่านเกณฑ์ (Passed)' : '❌ ควรทบทวนเพิ่ม (Needs Review)';
+
+    let md = `# 📋 บันทึกผลสอบและจุดผิดพลาด (Anatomy Exam Mistake Log)\n\n`;
+    md += `> วันที่บันทึก: ${dateStr}\n\n`;
+    md += `## 📊 ข้อมูลการสอบรอบนี้\n`;
+    md += `- **รหัสการสอบ:** \`${attempt.id}\`\n`;
+    md += `- **ระบบอวัยวะ:** ${(attempt.selectedSystems || []).join(', ')}\n`;
+    md += `- **โหมดการสอบ:** ${attempt.examMode} Mode\n`;
+    md += `- **คะแนน:** **${attempt.score} / ${attempt.totalQuestions} ข้อ (${attempt.percentage}%)** — ${gradeBadge}\n`;
+    md += `- **จำนวนข้อที่ตอบผิด:** ${attempt.wrongCount} ข้อ | **เวลาที่ใช้:** ${Math.floor(attempt.durationSeconds / 60)} นาที ${attempt.durationSeconds % 60} วินาที\n\n`;
+
+    if (wrongAnswers.length === 0) {
+      md += `🎉 **ยอดเยี่ยมมาก! ไม่มีข้อใดตอบผิดในการสอบครั้งนี้ (100% Correct)**\n`;
+      return md;
+    }
+
+    md += `## ❌ รายละเอียดข้อที่ตอบผิดและวิเคราะห์เหตุผล (${wrongAnswers.length} ข้อ)\n\n`;
+
+    wrongAnswers.forEach((ans, idx) => {
+      const q = ans.questionSnapshot;
+      const userSel = ans.selectedOption;
+      const userSelText = userSel ? `${userSel}) ${q.options[userSel]}` : 'ไม่ได้ตอบ (ข้าม)';
+      const corrSel = q.correctOption;
+      const corrSelText = `${corrSel}) ${q.options[corrSel]}`;
+
+      md += `### ${idx + 1}. [${q.id}] ${q.questionText}\n`;
+      md += `- **ระบบและหัวข้อ:** \`${q.system}\` > **${q.topic}**\n`;
+      md += `- **ระดับความยาก:** ${q.difficulty}\n`;
+      md += `- **คำตอบของคุณ (ผิด):** ❌ \`${userSelText}\`\n`;
+      md += `- **คำตอบที่ถูกต้อง:** ✅ **\`${corrSelText}\`**\n`;
+      md += `- **💡 คำอธิบายทางการแพทย์และเหตุผล:**\n`;
+      md += `  > ${q.explanation.replace(/\n/g, ' ')}\n`;
+      md += `- **📖 เอกสารอ้างอิง:** \`${q.sourceFile}\` **(หน้าที่ ${q.sourcePage})**\n\n`;
+    });
+
+    return md;
+  },
+
+  downloadMistakeLogMarkdown(attempt: ExamAttempt) {
+    const md = this.generateMistakeLogMarkdown(attempt);
+    const blob = new Blob([md], { type: 'text/markdown;charset=utf-8;' });
+    const filename = `MISTAKE_LOG_${attempt.id}.md`;
+    this.downloadBlob(blob, filename);
+  },
+
+  downloadAttemptJSON(attempt: ExamAttempt) {
+    const json = JSON.stringify(attempt, null, 2);
+    const blob = new Blob([json], { type: 'application/json;charset=utf-8;' });
+    const filename = `attempt_${attempt.id}.json`;
+    this.downloadBlob(blob, filename);
+  },
+
+  // 4. SYNC TO GIT ENDPOINT (When running dev server)
+  async recordAttemptToGit(attemptOrList: ExamAttempt | ExamAttempt[]): Promise<{ success: boolean; message: string; commitHash?: string; pushed?: boolean }> {
+    try {
+      const response = await fetch('/api/record-to-git', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json'
+        },
+        body: JSON.stringify(attemptOrList)
+      });
+
+      if (!response.ok) {
+        throw new Error(`HTTP Error: ${response.status}`);
+      }
+
+      const data = await response.json();
+      return data;
+    } catch (err: any) {
+      return {
+        success: false,
+        message: err.message || 'ไม่สามารถติดต่อ Git recording service ได้ (หากอยู่บน Cloud กรุณาดาวน์โหลดไฟล์ไปรัน npm run record)'
+      };
+    }
   }
 };

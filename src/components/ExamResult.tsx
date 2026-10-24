@@ -13,7 +13,14 @@ import {
   Filter,
   Layers,
   Sparkles,
-  Share2
+  Share2,
+  GitBranch,
+  GitCommit,
+  FileText,
+  Copy,
+  Check,
+  Loader2,
+  X
 } from 'lucide-react';
 import { ExamAttempt, OptionKey } from '../types';
 import { ScoringService } from '../services/scoring';
@@ -33,8 +40,34 @@ export const ExamResult: React.FC<ExamResultProps> = ({
   onBackToDashboard
 }) => {
   const [filterMode, setFilterMode] = useState<'all' | 'incorrect' | 'flagged'>('all');
+  const [showGitModal, setShowGitModal] = useState<boolean>(false);
+  const [isSyncingGit, setIsSyncingGit] = useState<boolean>(false);
+  const [gitResult, setGitResult] = useState<{ success: boolean; message: string; commitHash?: string; pushed?: boolean } | null>(null);
+  const [copiedCmd, setCopiedCmd] = useState<boolean>(false);
 
   const systemBreakdown = ScoringService.getSystemBreakdown(attempt.answers);
+
+  const handleSyncGit = async () => {
+    setIsSyncingGit(true);
+    setGitResult(null);
+    try {
+      const res = await ExportService.recordAttemptToGit(attempt);
+      setGitResult(res);
+    } catch (e: any) {
+      setGitResult({
+        success: false,
+        message: e.message || 'เกิดข้อผิดพลาดในการบันทึกลง Git'
+      });
+    } finally {
+      setIsSyncingGit(false);
+    }
+  };
+
+  const copyGitCommand = () => {
+    navigator.clipboard.writeText('npm run record');
+    setCopiedCmd(true);
+    setTimeout(() => setCopiedCmd(false), 2500);
+  };
 
   // Trigger celebration confetti if score >= 80%
   useEffect(() => {
@@ -160,13 +193,35 @@ export const ExamResult: React.FC<ExamResultProps> = ({
           )}
         </div>
 
-        <button
-          onClick={() => ExportService.exportAttemptsToCSV([attempt])}
-          className="px-4 py-2.5 rounded-xl bg-emerald-600 hover:bg-emerald-500 text-white text-sm font-semibold shadow-sm transition-colors flex items-center gap-1.5"
-        >
-          <Download className="w-4 h-4" />
-          <span>ส่งออกผลสอบนี้ (CSV)</span>
-        </button>
+        <div className="flex flex-wrap items-center gap-2">
+          <button
+            onClick={() => {
+              setShowGitModal(true);
+              setGitResult(null);
+            }}
+            className="px-4 py-2.5 rounded-xl bg-purple-600 hover:bg-purple-500 text-white text-sm font-bold shadow-sm transition-all flex items-center gap-2"
+          >
+            <GitBranch className="w-4 h-4" />
+            <span>💾 บันทึกลง Git</span>
+          </button>
+
+          <button
+            onClick={() => ExportService.downloadMistakeLogMarkdown(attempt)}
+            className="px-4 py-2.5 rounded-xl bg-indigo-50 dark:bg-indigo-950/40 border border-indigo-200 dark:border-indigo-800 text-indigo-700 dark:text-indigo-300 hover:bg-indigo-100 text-sm font-semibold transition-colors flex items-center gap-1.5"
+            title="ดาวน์โหลดบันทึกจุดผิดพลาดเป็นไฟล์ Markdown"
+          >
+            <FileText className="w-4 h-4" />
+            <span>บันทึกจุดผิดพลาด (MD)</span>
+          </button>
+
+          <button
+            onClick={() => ExportService.exportAttemptsToCSV([attempt])}
+            className="px-4 py-2.5 rounded-xl bg-emerald-600 hover:bg-emerald-500 text-white text-sm font-semibold shadow-sm transition-colors flex items-center gap-1.5"
+          >
+            <Download className="w-4 h-4" />
+            <span>ส่งออก CSV</span>
+          </button>
+        </div>
       </div>
 
       {/* System Breakdown Card */}
@@ -359,6 +414,140 @@ export const ExamResult: React.FC<ExamResultProps> = ({
           })}
         </div>
       </div>
+
+      {/* Git Sync Modal */}
+      {showGitModal && (
+        <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-slate-900/60 backdrop-blur-sm animate-fadeIn">
+          <div className="bg-white dark:bg-slate-800 rounded-3xl max-w-lg w-full p-6 shadow-2xl border border-slate-200 dark:border-slate-700 space-y-6 animate-scaleUp">
+            
+            <div className="flex items-center justify-between pb-4 border-b border-slate-100 dark:border-slate-700">
+              <div className="flex items-center gap-2.5">
+                <div className="p-2 rounded-xl bg-purple-100 dark:bg-purple-950/60 text-purple-600 dark:text-purple-400">
+                  <GitBranch className="w-5 h-5" />
+                </div>
+                <div>
+                  <h3 className="text-base font-bold text-slate-900 dark:text-white">
+                    บันทึกคะแนนและจุดผิดพลาดลง Git
+                  </h3>
+                  <p className="text-xs text-slate-500">
+                    exam_records/MISTAKE_LOG.md • SCORE_HISTORY.md
+                  </p>
+                </div>
+              </div>
+              <button 
+                onClick={() => setShowGitModal(false)}
+                className="p-1 rounded-lg text-slate-400 hover:text-slate-600 dark:hover:text-slate-200 hover:bg-slate-100 dark:hover:bg-slate-700 transition-colors"
+              >
+                <X className="w-5 h-5" />
+              </button>
+            </div>
+
+            {/* Status / Result display */}
+            {gitResult && (
+              <div className={`p-4 rounded-2xl text-xs space-y-1.5 border ${
+                gitResult.success 
+                  ? 'bg-emerald-50 dark:bg-emerald-950/40 border-emerald-200 dark:border-emerald-800 text-emerald-800 dark:text-emerald-200' 
+                  : 'bg-rose-50 dark:bg-rose-950/40 border-rose-200 dark:border-rose-800 text-rose-800 dark:text-rose-200'
+              }`}>
+                <div className="flex items-center gap-1.5 font-bold text-sm">
+                  {gitResult.success ? <CheckCircle2 className="w-4 h-4 text-emerald-600" /> : <XCircle className="w-4 h-4 text-rose-600" />}
+                  <span>{gitResult.success ? 'บันทึกสำเร็จเรียบร้อย!' : 'การบันทึกขัดข้อง'}</span>
+                </div>
+                <p className="leading-relaxed">{gitResult.message}</p>
+                {gitResult.commitHash && (
+                  <div className="pt-1 flex items-center gap-2 text-[11px] font-mono">
+                    <span className="px-2 py-0.5 rounded bg-emerald-100 dark:bg-emerald-900/60 text-emerald-700 dark:text-emerald-300 font-bold">
+                      Commit: {gitResult.commitHash}
+                    </span>
+                    {gitResult.pushed && <span className="text-emerald-600 font-bold">✓ Pushed to GitHub</span>}
+                  </div>
+                )}
+              </div>
+            )}
+
+            {/* Action 1: Auto Commit & Push (Local dev) */}
+            <div className="space-y-3">
+              <div className="text-xs font-bold text-slate-700 dark:text-slate-300">
+                1. บันทึกและ Commit/Push ขึ้น Git อัตโนมัติ (1-Click)
+              </div>
+              <button
+                onClick={handleSyncGit}
+                disabled={isSyncingGit}
+                className="w-full py-3 px-4 rounded-xl bg-purple-600 hover:bg-purple-500 disabled:opacity-60 text-white font-bold text-sm shadow-md transition-all flex items-center justify-center gap-2"
+              >
+                {isSyncingGit ? (
+                  <>
+                    <Loader2 className="w-4 h-4 animate-spin" />
+                    <span>กำลังประมวลผลและรัน Git Commit...</span>
+                  </>
+                ) : (
+                  <>
+                    <GitCommit className="w-4 h-4" />
+                    <span>🚀 สั่งบันทึกลง Git และ Push ขึ้น GitHub</span>
+                  </>
+                )}
+              </button>
+            </div>
+
+            {/* Action 2: Direct file downloads */}
+            <div className="space-y-2 pt-2 border-t border-slate-100 dark:border-slate-700">
+              <div className="text-xs font-bold text-slate-700 dark:text-slate-300">
+                2. หรือดาวน์โหลดไฟล์นำไปเปิดอ่าน / ซิงค์ด้วยตนเอง
+              </div>
+              <div className="grid grid-cols-2 gap-2">
+                <button
+                  onClick={() => ExportService.downloadMistakeLogMarkdown(attempt)}
+                  className="p-3 rounded-xl border border-slate-200 dark:border-slate-700 hover:bg-slate-50 dark:hover:bg-slate-700/60 text-left transition-colors flex items-center gap-2 text-xs font-semibold text-slate-800 dark:text-slate-200"
+                >
+                  <FileText className="w-4 h-4 text-purple-600 shrink-0" />
+                  <div>
+                    <div className="font-bold">MISTAKE_LOG.md</div>
+                    <div className="text-[10px] text-slate-400">สรุปจุดผิดพร้อมเฉลย</div>
+                  </div>
+                </button>
+
+                <button
+                  onClick={() => ExportService.downloadAttemptJSON(attempt)}
+                  className="p-3 rounded-xl border border-slate-200 dark:border-slate-700 hover:bg-slate-50 dark:hover:bg-slate-700/60 text-left transition-colors flex items-center gap-2 text-xs font-semibold text-slate-800 dark:text-slate-200"
+                >
+                  <Download className="w-4 h-4 text-sky-600 shrink-0" />
+                  <div>
+                    <div className="font-bold">JSON Payload</div>
+                    <div className="text-[10px] text-slate-400">สำหรับ import/sync</div>
+                  </div>
+                </button>
+              </div>
+            </div>
+
+            {/* Action 3: Terminal Command */}
+            <div className="space-y-2 pt-2 border-t border-slate-100 dark:border-slate-700">
+              <div className="flex items-center justify-between text-xs">
+                <span className="font-bold text-slate-700 dark:text-slate-300">3. คำสั่ง Terminal (Sync All to Git)</span>
+                <button
+                  onClick={copyGitCommand}
+                  className="text-purple-600 hover:text-purple-700 dark:text-purple-400 font-bold flex items-center gap-1 text-[11px]"
+                >
+                  {copiedCmd ? <Check className="w-3.5 h-3.5 text-emerald-500" /> : <Copy className="w-3.5 h-3.5" />}
+                  <span>{copiedCmd ? 'คัดลอกแล้ว!' : 'คัดลอกคำสั่ง'}</span>
+                </button>
+              </div>
+              <div className="p-2.5 rounded-xl bg-slate-900 text-slate-100 font-mono text-xs flex items-center justify-between">
+                <code>npm run record</code>
+              </div>
+            </div>
+
+            <div className="pt-2 flex justify-end">
+              <button
+                onClick={() => setShowGitModal(false)}
+                className="px-4 py-2 rounded-xl text-xs font-semibold text-slate-500 hover:text-slate-800 dark:hover:text-slate-200"
+              >
+                ปิดหน้าต่าง
+              </button>
+            </div>
+
+          </div>
+        </div>
+      )}
 
     </div>
   );
