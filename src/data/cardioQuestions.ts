@@ -3,23 +3,24 @@ import { Question } from '../types';
 export const cardioQuestions: Question[] = [
   {
     "id": "CARDIO-001",
-    "questionText": "ปริมาตรของเลือดในร่างกายของผู้ใหญ่ปกติมีประมาณเท่าใด และคิดเป็นกี่เปอร์เซ็นต์ของน้ำหนักตัว?",
+    "questionText": "ผู้ป่วยชายไทยน้ำหนัก 70 กิโลกรัม ประสบอุบัติเหตุเสียเลือดไปประมาณ 1,500 มิลลิลิตร ตามหลักกายวิภาคและสรีรวิทยา ปริมาตรเลือดปกติของผู้ป่วยรายนี้มีประมาณเท่าใด และคิดเป็นสัดส่วนเท่าใดของน้ำหนักตัว?",
     "options": {
-      "A": "ประมาณ 5 ลิตร หรือคิดเป็น 7 - 8% ของน้ำหนักร่างกาย",
-      "B": "ประมาณ 2 ลิตร หรือคิดเป็น 3% ของน้ำหนักร่างกาย",
-      "C": "ประมาณ 10 ลิตร หรือคิดเป็น 15% ของน้ำหนักร่างกาย",
-      "D": "ประมาณ 1 ลิตร หรือคิดเป็น 2% ของน้ำหนักร่างกาย"
+      "A": "ประมาณ 5.0 - 5.6 ลิตร คิดเป็น 7 - 8% ของน้ำหนักตัว",
+      "B": "ประมาณ 3.0 - 3.5 ลิตร คิดเป็น 4 - 5% ของน้ำหนักตัว (คิดเฉพาะปริมาตรพลาสมา)",
+      "C": "ประมาณ 10 - 12 ลิตร คิดเป็น 15% ของน้ำหนักตัว (คิดรวมของเหลวนอกเซลล์)",
+      "D": "ประมาณ 2.0 - 2.5 ลิตร คิดเป็น 3% ของน้ำหนักตัว"
     },
     "correctOption": "A",
-    "explanation": "เลือดในร่างกายมนุษย์มีปริมาตรเฉลี่ยประมาณ 5 ลิตร (ในเพศชายประมาณ 5-6 ลิตร เพศหญิงประมาณ 4-5 ลิตร) คิดเป็นประมาณ 7-8% ของน้ำหนักตัว มี pH เป็นด่างอ่อนๆ อยู่ที่ 7.35 - 7.45",
+    "explanation": "ในผู้ใหญ่ปกติ ปริมาตรเลือดคิดเป็นประมาณ 7-8% ของน้ำหนักร่างกาย (สำหรับน้ำหนัก 70 กก. จะมีเลือดประมาณ 4.9 - 5.6 ลิตร หรือเฉลี่ย 5 ลิตร) โดยแบ่งเป็น Plasma ประมาณ 55% และ Formed elements (เม็ดเลือดและเกล็ดเลือด) ประมาณ 45%",
     "system": "Cardiovascular and Lymphatic Systems",
     "topic": "Blood Components & Hematology",
-    "difficulty": "Easy",
+    "difficulty": "Medium",
     "sourceFile": "BNS102-Anatomy of Cardiovascular and Lymphatic Sys_261024_214357.pdf",
     "sourcePage": 6,
     "tags": [
       "blood-volume",
-      "blood-characteristics"
+      "clinical-blood-loss",
+      "hematology"
     ],
     "createdAt": "2026-10-24",
     "updatedAt": "2026-10-24",
@@ -27,24 +28,24 @@ export const cardioQuestions: Question[] = [
   },
   {
     "id": "CARDIO-002",
-    "questionText": "เซลล์เม็ดเลือดแดง (Red Blood Cells: RBCs / Erythrocytes) ที่โตเต็มที่แล้วมีลักษณะทางสัณฐานวิทยาอย่างไร?",
+    "questionText": "เซลล์เม็ดเลือดแดง (Erythrocyte) ที่โตเต็มที่ในกระแสเลือดมีรูปร่างแบบ Biconcave disc และไม่มีนิวเคลียส การปรับเปลี่ยนโครงสร้างทางกายวิภาคนี้มีประโยชน์เชิงกลไกและสรีรวิทยาอย่างไร?",
     "options": {
-      "A": "มีรูปร่างรี มีนิวเคลียสขนาดใหญ่ 2 พู",
-      "B": "มีรูปร่างกลม เว้าตรงกลางทั้งสองด้านแบบ Biconcave disc และไม่มีนิวเคลียส (Non-nucleated)",
-      "C": "มีรูปร่างไม่แน่นอนและมีแขนงยื่นคล้ายเท้าเทียม",
-      "D": "มีรูปทรงกลมแข็ง มีนิวเคลียสกลมโตตรงกลาง"
+      "A": "เพื่อลดการใช้ออกซิเจนโดยการสร้างพลังงานผ่านกระบวนการ Oxidative phosphorylation ในไมโทคอนเดรีย",
+      "B": "เพิ่มอัตราส่วนพื้นที่ผิวต่อปริมาตร (Surface-to-volume ratio) เพื่อเพิ่มประสิทธิภาพการแพร่ของก๊าซ O2/CO2 และเพิ่มความยืดหยุ่นในการลอดผ่านหลอดเลือดฝอย",
+      "C": "เพื่อเพิ่มพื้นที่ในการบรรจุนิวเคลียสและออร์แกเนลล์สำหรับการแบ่งเซลล์แบบไมโทซิสในกระแสเลือด",
+      "D": "เพื่อป้องกันไม่ให้ฮีโมโกลบินจับกับก๊าซคาร์บอนมอนอกไซด์ในเนื้อเยื่อส่วนปลาย"
     },
     "correctOption": "B",
-    "explanation": "RBCs ที่โตเต็มที่ในกระแสเลือดมีรูปร่างเป็นจานกลมเว้าตรงกลางสองด้าน (Biconcave disc) ขนาดเส้นผ่านศูนย์กลางประมาณ 7-8 ไมครอน ไม่มีนิวเคลียสและออร์แกเนลล์ เพื่อเพิ่มพื้นที่ผิวในการแลกเปลี่ยน O2 และ CO2",
+    "explanation": "รูปร่าง Biconcave disc (จานเว้าสองด้าน ขนาด 7.5 ไมครอน) ร่วมกับการสลายตัวของนิวเคลียส ไมโทคอนเดรีย และไรโบโซม ทำให้มีพื้นที่ผิวต่อปริมาตรสูง ช่วยให้แลกเปลี่ยนก๊าซได้รวดเร็ว และทำให้เซลล์บิดงอตัว (Deformability) ผ่าน Capillary lumen ขนาด 4-5 ไมครอนได้โดยไม่แตก",
     "system": "Cardiovascular and Lymphatic Systems",
     "topic": "Blood Components & Hematology",
-    "difficulty": "Easy",
+    "difficulty": "Medium",
     "sourceFile": "BNS102-Anatomy of Cardiovascular and Lymphatic Sys_261024_214357.pdf",
     "sourcePage": 7,
     "tags": [
-      "rbc",
-      "erythrocytes",
-      "biconcave-disc"
+      "erythrocyte",
+      "biconcave",
+      "microcirculation"
     ],
     "createdAt": "2026-10-24",
     "updatedAt": "2026-10-24",
@@ -52,24 +53,24 @@ export const cardioQuestions: Question[] = [
   },
   {
     "id": "CARDIO-003",
-    "questionText": "เม็ดเลือดขาวชนิดใดที่พบมากที่สุดในกระแสเลือด (ประมาณ 60-70%) มีนิวเคลียส 3-5 พู และทำหน้าที่กำจัดแบคทีเรียด้วยวิธี Phagocytosis เป็นด่านแรก?",
+    "questionText": "ผู้ป่วยเด็กมีไข้สูง ปวดท้องส่วนล่างขวา ผลตรวจเลือดพบเม็ดเลือดขาวรวม 18,000 cells/mm3 โดยมี Neutrophils 85% ร่วมกับพบ Band form สูงขึ้น (Shift to the left) ลักษณะทางจุลกายวิภาคของ Neutrophil ที่โตเต็มที่คือข้อใด?",
     "options": {
-      "A": "Basophil",
-      "B": "Eosinophil",
-      "C": "Neutrophil",
-      "D": "Lymphocyte"
+      "A": "นิวเคลียสเป็นรูป 2 พู (Bilobed) และมีแกรนูลขนาดใหญ่ติดสีส้มแดงสดของสี Eosin",
+      "B": "นิวเคลียสกลมใหญ่เกือบเต็มเซลล์ มีขอบไซโทพลาสซึมติดสีฟ้าจางๆ เป็นวงแหวนบางๆ",
+      "C": "นิวเคลียสแบ่งเป็น 3-5 พู (Lobes) เชื่อมด้วยสายโครมาตินบางๆ และในไซโทพลาสซึมมีแกรนูลขนาดเล็กติดสีชมพูอมม่วงจางๆ",
+      "D": "นิวเคลียสเป็นรูปไต (Kidney-shaped) และไม่มีแกรนูลจำเพาะในไซโทพลาสซึม"
     },
     "correctOption": "C",
-    "explanation": "Neutrophils เป็นเม็ดเลือดขาวกลุ่ม Granulocyte ที่พบมากที่สุด (60-70%) นิวเคลียสแบ่งเป็นหลายพู (Polymorphonuclear) ตอบสนองต่อการติดเชื้อแบคทีเรียอย่างเฉียบพลันเป็นเซลล์กลุ่มแรก",
+    "explanation": "Mature Neutrophil (Polymorphonuclear leukocyte: PMN) มีนิวเคลียส 3-5 พู แกรนูลจำเพาะ (Specific granules) ย้อมติดสีม่วงอมชมพูจางๆ ทำหน้าที่ Phagocytosis กำจัดเชื้อแบคทีเรียเฉียบพลัน ส่วนตัวเลือก B คือ Small lymphocyte, ตัวเลือก C คือ Eosinophil, ตัวเลือก D คือ Monocyte",
     "system": "Cardiovascular and Lymphatic Systems",
     "topic": "Blood Components & Hematology",
-    "difficulty": "Easy",
+    "difficulty": "Hard",
     "sourceFile": "BNS102-Anatomy of Cardiovascular and Lymphatic Sys_261024_214357.pdf",
     "sourcePage": 9,
     "tags": [
-      "neutrophils",
-      "granulocytes",
-      "phagocytosis"
+      "neutrophil",
+      "clinical-cbc",
+      "appendicitis-shift-left"
     ],
     "createdAt": "2026-10-24",
     "updatedAt": "2026-10-24",
@@ -77,23 +78,23 @@ export const cardioQuestions: Question[] = [
   },
   {
     "id": "CARDIO-004",
-    "questionText": "เม็ดเลือดขาวชนิดใดที่มีแกรนูลติดสีส้มแดง (Red-orange granules) มีนิวเคลียส 2 พู และมีบทบาทสำคัญในการต่อต้านการติดเชื้อพยาธิ (Parasitic infections) และภาวะภูมิแพ้?",
+    "questionText": "ผู้ป่วยโรคหอบหืด (Bronchial asthma) หรือผู้ที่มีการติดเชื้อพยาธิในทางเดินอาหาร จะตรวจพบเม็ดเลือดขาวชนิด Eosinophil ในกระแสเลือดสูงขึ้น เม็ดเลือดขาวชนิดนี้ทำลายพยาธิขนาดใหญ่ด้วยกลไกทางโครงสร้างใด?",
     "options": {
-      "A": "Monocyte",
-      "B": "Neutrophil",
-      "C": "Basophil",
-      "D": "Eosinophil"
+      "A": "การหลั่งสาร Heparin ในปริมาณมหาศาลเพื่อทำให้พยาธิเกิดภาวะเลือดออกในทางเดินอาหาร",
+      "B": "การกินพยาธิทั้งตัวเข้าสู่เซลล์ด้วยกระบวนการ Phagocytosis แล้วย่อยด้วย Phagolysosome",
+      "C": "การเปลี่ยนรูปเป็น Plasma cells เพื่อหลั่งแอนติบอดีชนิด IgE เข้าจับกับผิวพยาธิโดยตรง",
+      "D": "การหลั่งเอนไซม์และสารโปรตีนจากแกรนูลจำเพาะที่ติดสีส้มแดง เช่น Major Basic Protein (MBP) และ Eosinophil Cationic Protein ออกมาทำลายผนังตัวพยาธิภายนอกเซลล์"
     },
     "correctOption": "D",
-    "explanation": "Eosinophils (2-4% ของ WBC ทั้งหมด) แกรนูลในไซโทพลาสซึมติดสีส้มแดงของสี Eosin ทำหน้าที่หลั่งเอนไซม์ทำลายพยาธิ และช่วยควบคุมปฏิกิริยาการอักเสบในโรคภูมิแพ้และหอบหืด",
+    "explanation": "เนื่องจากพยาธิมีขนาดใหญ่เกินกว่าที่เม็ดเลือดขาวจะกลืนกินได้ (Cannot be phagocytosed) Eosinophil จึงใช้กลไกการปล่อยสารพิษจาก Specific granules (ย้อมติดสีส้มแดง) ได้แก่ Major Basic Protein, Eosinophil Peroxidase และ Neurotoxin เพื่อทำลาย cuticle และเนื้อเยื่อของพยาธิภายนอกเซลล์",
     "system": "Cardiovascular and Lymphatic Systems",
     "topic": "Blood Components & Hematology",
-    "difficulty": "Medium",
+    "difficulty": "Hard",
     "sourceFile": "BNS102-Anatomy of Cardiovascular and Lymphatic Sys_261024_214357.pdf",
     "sourcePage": 10,
     "tags": [
       "eosinophil",
-      "parasites",
+      "parasitic-infection",
       "allergy"
     ],
     "createdAt": "2026-10-24",
@@ -102,22 +103,23 @@ export const cardioQuestions: Question[] = [
   },
   {
     "id": "CARDIO-005",
-    "questionText": "เม็ดเลือดขาวชนิด Basophil หลั่งสารสำคัญชนิดใดที่มีบทบาทในการขยายหลอดเลือดและป้องกันการแข็งตัวของเลือดในบริเวณที่มีการอักเสบ?",
+    "questionText": "ในภาวะ Anaphylactic shock จากการแพ้ยาเพนิซิลลินอย่างรุนแรง เม็ดเลือดขาวชนิด Basophil และ Mast cell ปล่อยสารเคมีสื่อกลางใดจากแกรนูลที่ส่งผลให้เกิดการขยายตัวของหลอดเลือดทั่วร่างกาย (Vasodilation) และหลอดลมหดเกร็ง (Bronchoconstriction)?",
     "options": {
-      "A": "Histamine (ขยายหลอดเลือด) และ Heparin (ป้องกันการแข็งตัวของเลือด)",
-      "B": "Hemoglobin และ Myoglobin",
-      "C": "Insulin และ Glucagon",
-      "D": "Pepsin และ Trypsin"
+      "A": "Histamine และ Leukotrienes ร่วมกับ Heparin",
+      "B": "Acetylcholine และ Norepinephrine",
+      "C": "Hemoglobin และ Erythropoietin",
+      "D": "Albumin และ Fibrinogen"
     },
     "correctOption": "A",
-    "explanation": "Basophils มีแกรนูลขนาดใหญ่ติดสีน้ำเงินม่วงเข้ม บรรจุสาร Histamine (กระตุ้นการขยายตัวและเพิ่ม permeability ของหลอดเลือด) และ Heparin (สารต้านการแข็งตัวของเลือดธรรมชาติ)",
+    "explanation": "Basophils มีแกรนูลขนาดใหญ่ติดสีน้ำเงินม่วงเข้ม บรรจุ Histamine ซึ่งทำให้เกิด Vasodilation และเพิ่ม Vascular permeability ส่งผลให้ความดันตก เกิดลมพิษและบวมน้ำ ร่วมกับหลั่ง Heparin ป้องกันการแข็งตัวของเลือด และสาร Leukotrienes ที่ทำให้หลอดลมหดเกร็งอย่างรุนแรง",
     "system": "Cardiovascular and Lymphatic Systems",
     "topic": "Blood Components & Hematology",
-    "difficulty": "Medium",
+    "difficulty": "Hard",
     "sourceFile": "BNS102-Anatomy of Cardiovascular and Lymphatic Sys_261024_214357.pdf",
     "sourcePage": 11,
     "tags": [
-      "basophils",
+      "basophil",
+      "anaphylaxis",
       "histamine",
       "heparin"
     ],
@@ -127,15 +129,15 @@ export const cardioQuestions: Question[] = [
   },
   {
     "id": "CARDIO-006",
-    "questionText": "เม็ดเลือดขาวชนิด Agranular leucocyte ที่มีขนาดใหญ่ที่สุด นิวเคลียสเป็นรูปไตหรือเกือกม้า (Kidney/Horseshoe-shaped) เมื่อแทรกตัวเข้าสู่เนื้อเยื่อจะเปลี่ยนเป็นอะไร?",
+    "questionText": "เมื่อเกิดการบาดเจ็บและการอักเสบเรื้อรังในเนื้อเยื่อ เม็ดเลือดขาวชนิด Agranulocyte ที่มีขนาดใหญ่ที่สุด (15-20 ไมครอน) นิวเคลียสเว้าเป็นรูปไต จะแทรกตัวผ่านผนังหลอดเลือด (Diapedesis) ออกไปทำหน้าที่เป็นเซลล์ใดในเนื้อเยื่อ?",
     "options": {
-      "A": "Lymphocyte ซึ่งจะเปลี่ยนเป็น RBC",
-      "B": "Monocyte ซึ่งจะเปลี่ยนเป็น Macrophage ในเนื้อเยื่อ",
-      "C": "Platelet",
-      "D": "Eosinophil"
+      "A": "Plasma cell ทำหน้าที่สร้างและหลั่ง Immunoglobulin เข้าสู่สารคัดหลั่ง",
+      "B": "Macrophage ทำหน้าที่กินเชื้อโรค เศษซากเซลล์ และทำหน้าที่เป็น Antigen Presenting Cell (APC)",
+      "C": "Mast cell ทำหน้าที่หลั่ง Histamine และ Serotonin",
+      "D": "Fibroblast ทำหน้าที่สร้างเฉพาะเส้นใยคอลลาเจนสมานแผล"
     },
     "correctOption": "B",
-    "explanation": "Monocyte (มีประมาณ 3-8% ของ WBC) เป็นเม็ดเลือดขาวขนาดใหญ่ที่สุด นิวเคลียสเว้าเป็นรูปไต เมื่อเคลื่อนออกจากกระแสเลือดเข้าสู่เนื้อเยื่อจะพัฒนาไปเป็น Macrophage คอยเก็บกินเชื้อโรคและเศษเซลล์",
+    "explanation": "Monocyte เป็นเม็ดเลือดขาวขนาดใหญ่ที่สุด นิวเคลียสรูปไต อยู่ในกระแสเลือดเพียง 1-3 วันก่อนเคลื่อนที่ผ่านผนังหลอดเลือดเข้าสู่เนื้อเยื่อแล้วเจริญเปลี่ยนสภาพไปเป็น Macrophage (เช่น Kupffer cells ในตับ, Alveolar macrophages ในปอด, Microglia ในสมอง)",
     "system": "Cardiovascular and Lymphatic Systems",
     "topic": "Blood Components & Hematology",
     "difficulty": "Medium",
@@ -144,7 +146,8 @@ export const cardioQuestions: Question[] = [
     "tags": [
       "monocyte",
       "macrophage",
-      "agranulocytes"
+      "diapedesis",
+      "apc"
     ],
     "createdAt": "2026-10-24",
     "updatedAt": "2026-10-24",
@@ -152,24 +155,25 @@ export const cardioQuestions: Question[] = [
   },
   {
     "id": "CARDIO-007",
-    "questionText": "เกล็ดเลือด (Platelets / Thrombocytes) กำเนิดมาจากชิ้นส่วนไซโทพลาสซึมของเซลล์ขนาดใหญ่ชนิดใดในไขกระดูก?",
+    "questionText": "ผู้ป่วยโรคตับแข็งระยะท้าย (End-stage Cirrhosis) มักมีอาการบวมน้ำทั่วร่างกาย (Generalized edema) และท้องมาน (Ascites) ความผิดปกตินี้สัมพันธ์กับการสูญเสียหน้าที่ในการสร้างโปรตีนในพลาสมาชนิดใดจากตับมากที่สุด?",
     "options": {
-      "A": "Myeloblast",
-      "B": "Erythroblast",
-      "C": "Megakaryocyte",
-      "D": "Lymphoblast"
+      "A": "Gamma-globulin ซึ่งสร้างจากพลาสมาเซลล์เพื่อเป็นแอนติบอดี",
+      "B": "Alpha-globulin ซึ่งทำหน้าที่ขนส่งฮอร์โมนไทรอยด์",
+      "C": "Albumin ซึ่งมีหน้าที่หลักในการสร้างและรักษา Colloid osmotic pressure (Oncotic pressure) ของหลอดเลือด",
+      "D": "Fibrinogen ซึ่งทำหน้าที่เฉพาะในกระบวนการละลายลิ่มเลือด (Fibrinolysis)"
     },
     "correctOption": "C",
-    "explanation": "Platelets ไม่ใช่เซลล์สมบูรณ์ แต่เป็นชิ้นส่วนไซโทพลาสซึมขนาด 2-4 ไมครอนที่หลุดลอกออกมาจาก Megakaryocyte ในไขกระดูก ทำหน้าที่สำคัญในกระบวนการห้ามเลือด (Hemostasis)",
+    "explanation": "Albumin เป็นโปรตีนพลาสมาที่มีสัดส่วนมากที่สุด (ประมาณ 60% ของโปรตีนในเลือด) สร้างจากตับ มีบทบาทสำคัญที่สุดในการรักษาระดับแรงดันคอลลอยด์ออสโมติก (Colloid osmotic pressure) เพื่อดึงน้ำไว้ในหลอดเลือด เมื่อตับวายและสร้าง Albumin ลดลง น้ำจึงรั่วซึมออกสู่ช่องว่างระหว่างเซลล์ เกิดภาวะบวมน้ำ (Edema) และท้องมาน (Ascites)",
     "system": "Cardiovascular and Lymphatic Systems",
     "topic": "Blood Components & Hematology",
-    "difficulty": "Easy",
+    "difficulty": "Hard",
     "sourceFile": "BNS102-Anatomy of Cardiovascular and Lymphatic Sys_261024_214357.pdf",
-    "sourcePage": 14,
+    "sourcePage": 6,
     "tags": [
-      "platelets",
-      "thrombocytes",
-      "megakaryocyte"
+      "plasma-proteins",
+      "albumin",
+      "oncotic-pressure",
+      "edema"
     ],
     "createdAt": "2026-10-24",
     "updatedAt": "2026-10-24",
@@ -177,24 +181,24 @@ export const cardioQuestions: Question[] = [
   },
   {
     "id": "CARDIO-008",
-    "questionText": "หัวใจตั้งอยู่ในบริเวณใดของช่องอก และส่วนยอด (Apex) ชี้ไปในทิศทางใด?",
+    "questionText": "เกล็ดเลือด (Platelets / Thrombocytes) ที่มีบทบาทในกระบวนการ Hemostasis กำเนิดมาจากส่วนใดของเซลล์ต้นกำเนิดชนิดใดในไขกระดูก?",
     "options": {
-      "A": "ตั้งอยู่ใน Posterior mediastinum ชี้ตรงไปทางกระดูกสันหลัง",
-      "B": "ตั้งอยู่ใน Anterior mediastinum โดยมี Apex ชี้ขึ้นไปทางขวา",
-      "C": "ตั้งอยู่ใต้ตับในช่องท้องด้านขวา",
-      "D": "ตั้งอยู่ใน Middle mediastinum โดยมี Apex ชี้ลงล่าง ไปทางหน้า และเอียงไปทางซ้าย ที่ช่องซี่โครงที่ 5 (5th intercostal space)"
+      "A": "การแบ่งตัวแบบไมโทซิสของ Mature endothelial cells บริเวณหลอดเลือดฝอย",
+      "B": "การสลายตัวของนิวเคลียสจาก Myeloblast ในระหว่างการแบ่งตัว",
+      "C": "การแตกตัวของ Erythroblast ที่ไม่สามารถสังเคราะห์ฮีโมโกลบินได้",
+      "D": "การหลุดลอกของชิ้นส่วนไซโทพลาสซึม (Cytoplasmic fragments) จากเซลล์ขนาดยักษ์ Megakaryocyte"
     },
     "correctOption": "D",
-    "explanation": "หัวใจวางตัวอยู่ใน Middle mediastinum ระหว่างปอดสองข้าง ประมาณ 2/3 อยู่ทางซีกซ้าย ยอดหัวใจ (Apex) ซึ่งเกิดจาก Left ventricle ชี้ลงล่างเฉียงไปทางซ้าย สัมผัสกับผนังหน้าอกที่ Intercostal space ที่ 5 แนว Midclavicular line",
+    "explanation": "เกล็ดเลือดไม่ใช่เซลล์ที่มีนิวเคลียส แต่เป็นชิ้นส่วนไซโทพลาสซึม (ขนาด 2-4 ไมครอน) ที่หลุดออกมาจากเซลล์ขนาดใหญ่ชื่อ Megakaryocyte ในไขกระดูก มีอายุขัยประมาณ 8-10 วัน และถูกทำลายที่ม้ามและตับ",
     "system": "Cardiovascular and Lymphatic Systems",
-    "topic": "Heart Wall & Pericardium",
-    "difficulty": "Easy",
+    "topic": "Blood Components & Hematology",
+    "difficulty": "Medium",
     "sourceFile": "BNS102-Anatomy of Cardiovascular and Lymphatic Sys_261024_214357.pdf",
-    "sourcePage": 16,
+    "sourcePage": 14,
     "tags": [
-      "heart-location",
-      "apex",
-      "mediastinum"
+      "platelets",
+      "megakaryocyte",
+      "hemostasis"
     ],
     "createdAt": "2026-10-24",
     "updatedAt": "2026-10-24",
@@ -202,23 +206,24 @@ export const cardioQuestions: Question[] = [
   },
   {
     "id": "CARDIO-009",
-    "questionText": "ถุงหุ้มหัวใจชั้นนอกสุดที่เป็นพังผืดเหนียว (Fibrous sac) ทำหน้าที่ยึดกับ Central tendon ของกะบังลมและป้องกันหัวใจขยายตัวมากเกินไป คือชั้นใด?",
+    "questionText": "ในกระบวนการห้ามเลือด (Hemostasis) ปัจจัยและขั้นตอนใดที่เกิดขึ้นเป็นลำดับแรกสุดทันทีเมื่อผนังหลอดเลือดเกิดรอยฉีกขาด?",
     "options": {
-      "A": "Fibrous pericardium",
-      "B": "Parietal serous pericardium",
-      "C": "Visceral serous pericardium (Epicardium)",
-      "D": "Endocardium"
+      "A": "Vascular spasm (การหดเกร็งตัวของกล้ามเนื้อเรียบในผนังหลอดเลือดเพื่อจำกัดการไหลของเลือด)",
+      "B": "Platelet plug formation (เกล็ดเลือดรวมกลุ่มอุดรอยรั่ว)",
+      "C": "Coagulation cascade (การเปลี่ยน Prothrombin เป็น Thrombin)",
+      "D": "Fibrinolysis (การสลายลิ่มเลือดด้วยเอนไซม์ Plasmin)"
     },
     "correctOption": "A",
-    "explanation": "Fibrous pericardium เป็นถุงพังผืดเนื้อแน่นชั้นนอกสุด ยึดติดกับ central tendon ของกะบังลมและเกาะกับผนังของ great vessels ทำหน้าที่ป้องกันไม่ให้หัวใจโป่งพองขยายตัวเกินขีดจำกัด",
+    "explanation": "ลำดับขั้นตอนของกระบวนการ Hemostasis: 1. Vascular spasm (หลอดเลือดหดเกร็งตัวทันทีจาก Myogenic reflex และ Endothelin) 2. Platelet plug formation (เกล็ดเลือดเกาะกับคอลลาเจนและรวมตัวกันเป็นก้อนอุดชั่วคราว) 3. Coagulation / Blood clotting (การสร้างร่างแห Fibrin เพื่อสร้างลิ่มเลือดถาวร)",
     "system": "Cardiovascular and Lymphatic Systems",
-    "topic": "Heart Wall & Pericardium",
+    "topic": "Blood Components & Hematology",
     "difficulty": "Medium",
     "sourceFile": "BNS102-Anatomy of Cardiovascular and Lymphatic Sys_261024_214357.pdf",
-    "sourcePage": 18,
+    "sourcePage": 15,
     "tags": [
-      "fibrous-pericardium",
-      "diaphragm-attachment"
+      "hemostasis",
+      "vascular-spasm",
+      "coagulation"
     ],
     "createdAt": "2026-10-24",
     "updatedAt": "2026-10-24",
@@ -226,23 +231,24 @@ export const cardioQuestions: Question[] = [
   },
   {
     "id": "CARDIO-010",
-    "questionText": "ช่องว่าง Pericardial cavity บรรจุของเหลวหล่อลื่น (Pericardial fluid) อยู่ระหว่างชั้นเนื้อเยื่อสองชั้นใด?",
+    "questionText": "ผู้ป่วยประสบอุบัติเหตุต้องการรับการให้เลือดฉุกเฉิน ตรวจพบว่าเม็ดเลือดแดงของผู้ป่วยมีทั้ง Antigen A และ Antigen B บนผิวเซลล์ แต่ในซีรัมไม่มีทั้ง Anti-A และ Anti-B แอนติบอดี ผู้ป่วยรายนี้มีหมู่เลือดใด และในทางทฤษฎีสามารถรับเม็ดเลือดแดงจากหมู่เลือดใดได้บ้าง?",
     "options": {
-      "A": "Fibrous pericardium และ Parietal pericardium",
-      "B": "Parietal layer และ Visceral layer (Epicardium) ของ Serous pericardium",
-      "C": "Myocardium และ Endocardium",
-      "D": "ระหว่าง Atrium และ Ventricle"
+      "A": "หมู่เลือด O สามารถรับเม็ดเลือดแดงได้เฉพาะหมู่ O เท่านั้น",
+      "B": "หมู่เลือด AB (Rh-positive) เป็น Universal recipient สามารถรับเม็ดเลือดแดงได้จากทุกหมู่เลือด (A, B, AB, O)",
+      "C": "หมู่เลือด A สามารถรับได้เฉพาะหมู่ A และ AB เท่านั้น",
+      "D": "หมู่เลือด B สามารถรับได้เฉพาะหมู่ B และ O เท่านั้น"
     },
     "correctOption": "B",
-    "explanation": "Pericardial cavity คือช่องว่างแคบๆ ระหว่าง Parietal serous pericardium (เยื่อหุ้มชั้นนอก) และ Visceral serous pericardium (Epicardium เยื่อหุ้มติดผิวหัวใจ) มีน้ำหล่อลื่น 15-50 mL ลดแรงเสียดสีขณะหัวใจบีบตัว",
+    "explanation": "หมู่เลือด AB มีทั้ง Antigen A และ B บนเยื่อหุ้มเซลล์เม็ดเลือดแดง จึงไม่มี Antibodies (ทั้ง Anti-A และ Anti-B) ในพลาสมา ทำให้ในภาวะฉุกเฉินสามารถรับเม็ดเลือดแดงจากผู้บริจาคหมู่เลือดใดก็ได้ (Universal recipient) โดยไม่เกิดปฏิกิริยา Agglutination จากแอนติบอดีของผู้รับ",
     "system": "Cardiovascular and Lymphatic Systems",
-    "topic": "Heart Wall & Pericardium",
+    "topic": "Blood Components & Hematology",
     "difficulty": "Medium",
     "sourceFile": "BNS102-Anatomy of Cardiovascular and Lymphatic Sys_261024_214357.pdf",
-    "sourcePage": 17,
+    "sourcePage": 13,
     "tags": [
-      "pericardial-cavity",
-      "pericardial-fluid"
+      "blood-groups",
+      "abo-system",
+      "universal-recipient"
     ],
     "createdAt": "2026-10-24",
     "updatedAt": "2026-10-24",
@@ -250,24 +256,24 @@ export const cardioQuestions: Question[] = [
   },
   {
     "id": "CARDIO-011",
-    "questionText": "ชั้นผนังหัวใจชั้นใดที่มีความหนามากที่สุด ประกอบด้วยเซลล์กล้ามเนื้อหัวใจที่ทำหน้าที่หดตัวสูบฉีดเลือด?",
+    "questionText": "มารดาที่มีหมู่เลือด Rh-negative ตั้งครรภ์ทารกคนที่ 2 ซึ่งมีหมู่เลือด Rh-positive เกิดภาวะ Erythroblastosis fetalis (Hemolytic disease of the newborn) พยาธิกำเนิดของโรคนี้เกิดจากแอนติบอดีชนิดใด และผ่านรกได้อย่างไร?",
     "options": {
-      "A": "Epicardium",
-      "B": "Endocardium",
-      "C": "Myocardium",
-      "D": "Parietal pericardium"
+      "A": "การส่งผ่านเม็ดเลือดแดงของมารดาเข้าไปอุดกั้นหลอดเลือดสายสะดือของทารก",
+      "B": "แอนติบอดี Anti-A ชนิด IgM ที่มีโมเลกุลขนาดใหญ่แทรกผ่านรกเข้าไปกระตุ้นเม็ดเลือดขาวทารก",
+      "C": "แอนติบอดี Anti-Rh (Anti-D) ชนิด IgG ที่มารดาสร้างขึ้นจากการสัมผัสเลือดทารกคนแรก สามารถซึมผ่านรกเข้าสู่กระแสเลือดทารกคนที่สองและทำลายเม็ดเลือดแดงของทารก",
+      "D": "ทารกสร้างแอนติบอดีออกมาทำลายเม็ดเลือดแดงของมารดาในมดลูก"
     },
     "correctOption": "C",
-    "explanation": "Myocardium เป็นชั้นเนื้อเยื่อกล้ามเนื้อหัวใจ (Cardiac muscle) มีสัดส่วนหนาที่สุดของผนังหัวใจ ทำหน้าที่หดตัวเป็นจังหวะเพื่อสูบฉีดเลือดออกจากห้องหัวใจ",
+    "explanation": "Anti-D antibody จัดเป็น IgG ซึ่งเป็นแอนติบอดีที่มีโมเลกุลขนาดเล็ก สามารถซึมผ่านรก (Placental barrier) ได้ เมื่อมารดา Rh-negative เคยสัมผัสเลือด Rh-positive ในครรภ์แรกแล้ว จะเกิด Sensitization และสร้าง Anti-D (IgG) เมื่อตั้งครรภ์ที่สองเป็นทารก Rh-positive แอนติบอดีนี้จะข้ามรกไปจับกับ Antigen D บนผิว RBC ของทารก ทำให้เกิด Hemolysis อย่างรุนแรง",
     "system": "Cardiovascular and Lymphatic Systems",
-    "topic": "Heart Wall & Pericardium",
-    "difficulty": "Easy",
+    "topic": "Blood Components & Hematology",
+    "difficulty": "Hard",
     "sourceFile": "BNS102-Anatomy of Cardiovascular and Lymphatic Sys_261024_214357.pdf",
-    "sourcePage": 19,
+    "sourcePage": 13,
     "tags": [
-      "myocardium",
-      "heart-wall",
-      "cardiac-muscle"
+      "rh-factor",
+      "erythroblastosis-fetalis",
+      "igg-placenta"
     ],
     "createdAt": "2026-10-24",
     "updatedAt": "2026-10-24",
@@ -275,23 +281,25 @@ export const cardioQuestions: Question[] = [
   },
   {
     "id": "CARDIO-012",
-    "questionText": "ลักษณะเฉพาะของเซลล์กล้ามเนื้อหัวใจ (Cardiac muscle cells) ทางมิญชวิทยาข้อใดถูกต้อง?",
+    "questionText": "ในกระบวนการแข็งตัวของเลือด (Blood coagulation) เอนไซม์ Thrombin ทำหน้าที่เปลี่ยนสารตั้งต้นชนิดใดให้กลายเป็นร่างแหที่ไม่ละลายน้ำเพื่อดักจับเม็ดเลือดแดง?",
     "options": {
-      "A": "เป็นรูปกระสวยไม่มีลายคล้ายกล้ามเนื้อกระเพาะอาหาร",
-      "B": "ไม่มีลาย, มีหลายนิวเคลียสอยู่ที่ขอบเซลล์",
-      "C": "มีหลายนิวเคลียสและควบคุมได้ตามใจชอบ",
-      "D": "เซลล์มีลาย (Striated), นิวเคลียส 1 อันอยู่กึ่งกลางเซลล์, มีการแตกแขนง และเชื่อมต่อกันด้วย Intercalated discs"
+      "A": "เปลี่ยน Albumin ให้กลายเป็น Globulin",
+      "B": "เปลี่ยน Prothrombin ให้กลายเป็น Thromboplastin",
+      "C": "เปลี่ยน Plasminogen ให้กลายเป็น Plasmin",
+      "D": "เปลี่ยน Fibrinogen (โปรตีนละลายน้ำในพลาสมา) ให้กลายเป็น Fibrin polymers (เส้นใยร่างแหที่ไม่ละลายน้ำ)"
     },
     "correctOption": "D",
-    "explanation": "Cardiac muscle cells มีลาย (striated), นิวเคลียสกลมรี 1-2 อันอยู่ตรงกลางเซลล์ มีการแตกแขนงเชื่อมกัน และมีรอยต่อเฉพาะเรียกว่า Intercalated discs ซึ่งมี Gap junctions นำกระแสไฟฟ้าส่งต่อกันอย่างรวดเร็ว",
+    "explanation": "ใน Common pathway ของกระบวนการ Coagulation: Prothrombinase enzyme complex จะเปลี่ยน Prothrombin ให้กลายเป็น Thrombin จากนั้น Thrombin จะเร่งปฏิกิริยาตัดสาย Fibrinogen (ละลายน้ำได้) ให้กลายเป็น Fibrin threads (เส้นใยที่ไม่ละลายน้ำ) ซึ่งจะประสานกับ Factor XIII กลายเป็นร่างแหคลุมก้อนลิ่มเลือด (Clot)",
     "system": "Cardiovascular and Lymphatic Systems",
-    "topic": "Heart Wall & Pericardium",
+    "topic": "Blood Components & Hematology",
     "difficulty": "Medium",
     "sourceFile": "BNS102-Anatomy of Cardiovascular and Lymphatic Sys_261024_214357.pdf",
-    "sourcePage": 20,
+    "sourcePage": 15,
     "tags": [
-      "cardiac-muscle-histology",
-      "intercalated-discs"
+      "coagulation",
+      "thrombin",
+      "fibrinogen",
+      "fibrin"
     ],
     "createdAt": "2026-10-24",
     "updatedAt": "2026-10-24",
@@ -299,23 +307,24 @@ export const cardioQuestions: Question[] = [
   },
   {
     "id": "CARDIO-013",
-    "questionText": "ชั้นเยื่อบุผนังด้านในสุดของหัวใจและลิ้นหัวใจ ซึ่งเป็นเนื้อเยื่อบุผิว Simple squamous ต่อเนื่องกับเยื่อบุหลอดเลือด เรียกว่าอะไร?",
+    "questionText": "ในการเก็บตัวอย่างเลือดส่งตรวจทางห้องปฏิบัติการ เมื่อนำเลือดที่ไม่ได้ใส่สารกันเลือดแข็งมาตั้งทิ้งไว้จนแข็งตัวแล้วนำไปปั่นเหวี่ยง ของเหลวส่วนใสที่แยกตัวออกมาด้านบนเรียกว่าอะไร และมีความแตกต่างจากพลาสมา (Plasma) อย่างไร?",
     "options": {
-      "A": "Endocardium",
-      "B": "Epicardium",
-      "C": "Myocardium",
-      "D": "Pericardium"
+      "A": "Serum (ซีรัม) ซึ่งแตกต่างจากพลาสมาตรงที่ไม่มีโปรตีนไฟบริโนเจน (Fibrinogen) และสารก่อลิ่มเลือด (Clotting factors) บางชนิดเนื่องจากถูกใช้ไปในการสร้างก้อนลิ่มเลือดแล้ว",
+      "B": "Plasma ซึ่งมีส่วนประกอบของ Fibrinogen เข้มข้นกว่าเลือดปกติ 2 เท่า",
+      "C": "Buffy coat ซึ่งประกอบด้วยเกล็ดเลือดบริสุทธิ์",
+      "D": "Lymph ซึ่งมีไขมันและไคโลไมครอนสูงกว่าพลาสมา"
     },
     "correctOption": "A",
-    "explanation": "Endocardium เป็นชั้นในสุดของหัวใจ ประกอบด้วย Endothelium (Simple squamous epithelium) ผิวเรียบมัน ช่วยให้เลือดไหลเวียนสะดวกโดยไม่เกิดลิ่มเลือด และคลุมเป็นลิ้นหัวใจทั้งหมด",
+    "explanation": "Serum = Plasma ลบ Fibrinogen และ Clotting factors (เนื่องจากไฟบริโนเจนถูกเปลี่ยนเป็นไฟบรินและจับอยู่ในก้อนลิ่มเลือดด้านล่างหลอดทดลองไปแล้ว) ดังนั้นในซีรัมจึงไม่มีโปรตีนที่ทำให้เกิดการแข็งตัวของเลือดหลงเหลืออยู่",
     "system": "Cardiovascular and Lymphatic Systems",
-    "topic": "Heart Wall & Pericardium",
-    "difficulty": "Easy",
+    "topic": "Blood Components & Hematology",
+    "difficulty": "Medium",
     "sourceFile": "BNS102-Anatomy of Cardiovascular and Lymphatic Sys_261024_214357.pdf",
-    "sourcePage": 19,
+    "sourcePage": 6,
     "tags": [
-      "endocardium",
-      "endothelium"
+      "serum-vs-plasma",
+      "fibrinogen",
+      "laboratory"
     ],
     "createdAt": "2026-10-24",
     "updatedAt": "2026-10-24",
@@ -323,25 +332,26 @@ export const cardioQuestions: Question[] = [
   },
   {
     "id": "CARDIO-014",
-    "questionText": "หัวใจห้องบนขวา (Right Atrium) รับเลือดดำ (Deoxygenated blood) จากหลอดเลือดหลัก 3 เส้นใด?",
+    "questionText": "เม็ดเลือดขาวชนิด Lymphocyte แบ่งออกเป็น B cells และ T cells ข้อใดเปรียบเทียบสถานที่พัฒนาจนโตเต็มวัย (Maturation) และหน้าที่ทางกายวิภาค-ภูมิคุ้มกันได้ถูกต้อง?",
     "options": {
-      "A": "Pulmonary veins 4 เส้น และ Aorta",
-      "B": "Superior Vena Cava (SVC), Inferior Vena Cava (IVC), และ Coronary Sinus",
-      "C": "Pulmonary trunk, Carotid artery, และ Subclavian vein",
-      "D": "Hepatic vein, Renal vein, และ Femoral vein"
+      "A": "B cells เจริญที่ม้าม (Spleen) ส่วน T cells เจริญที่ต่อมน้ำเหลือง (Lymph nodes)",
+      "B": "B cells เจริญเติบโตเต็มวัยที่ Bone marrow และเปลี่ยนเป็น Plasma cells สร้าง Antibodies ส่วน T cells เคลื่อนที่ไปเจริญเติบโตเต็มวัยที่ต่อม Thymus ทำหน้าที่ในระบบ Cell-mediated immunity",
+      "C": "B cells ทำลายเซลล์ติดเชื้อไวรัสโดยตรง ส่วน T cells สร้างเฉพาะฮิสตามีน",
+      "D": "ทั้ง B cells และ T cells เจริญเติบโตเต็มวัยและสร้างแอนติบอดีที่ต่อมไทรอยด์"
     },
     "correctOption": "B",
-    "explanation": "Right Atrium รับเลือดที่มี O2 ต่ำจาก 1) SVC (จากส่วนบนของร่างกาย) 2) IVC (จากส่วนล่างของร่างกาย) และ 3) Coronary Sinus (จากกล้ามเนื้อหัวใจ)",
+    "explanation": "Lymphocytes ทั้งหมดกำเนิดจากสเต็มเซลล์ในไขกระดูก (Red bone marrow) โดย B cells จะพัฒนาจนเจริญเต็มวัยในไขกระดูก (Bone marrow-derived) รับผิดชอบ Humoral immunity ส่วน T cells จะเคลื่อนตัวผ่านกระแสเลือดไปยังต่อมไทมัส (Thymus-derived) เพื่อรับการคัดเลือกและเจริญเติบโต รับผิดชอบ Cell-mediated immunity",
     "system": "Cardiovascular and Lymphatic Systems",
-    "topic": "Cardiac Chambers & Valves",
-    "difficulty": "Easy",
+    "topic": "Blood Components & Hematology",
+    "difficulty": "Medium",
     "sourceFile": "BNS102-Anatomy of Cardiovascular and Lymphatic Sys_261024_214357.pdf",
-    "sourcePage": 23,
+    "sourcePage": 12,
     "tags": [
-      "right-atrium",
-      "svc",
-      "ivc",
-      "coronary-sinus"
+      "lymphocytes",
+      "b-cells",
+      "t-cells",
+      "thymus",
+      "bone-marrow"
     ],
     "createdAt": "2026-10-24",
     "updatedAt": "2026-10-24",
@@ -349,24 +359,24 @@ export const cardioQuestions: Question[] = [
   },
   {
     "id": "CARDIO-015",
-    "questionText": "ร่องรอยวงรี (Fossa ovalis) บนผนัง Interatrial septum ของหัวใจห้องบนขวา เป็นร่องรอยที่หลงเหลือมาจากโครงสร้างใดในทารกในครรภ์?",
+    "questionText": "ฮีมาโตคริต (Hematocrit / Packed Cell Volume: PCV) มีความหมายทางคลินิกอย่างไร และค่าปกติในผู้ใหญ่เพศชายและเพศหญิงประมาณเท่าใด?",
     "options": {
-      "A": "Ductus venosus",
-      "B": "Ductus arteriosus",
-      "C": "Foramen ovale (รูเปิดเชื่อมระหว่างห้องบนขวาและบนซ้ายในครรภ์)",
-      "D": "Umbilical vein"
+      "A": "สัดส่วนของเกล็ดเลือดในหลอดทดลอง โดยมีค่าเฉลี่ย 10-15% ในทั้งสองเพศ",
+      "B": "ปริมาณกรดอะมิโนทั้งหมดในซีรัม โดยเพศชาย 20% เพศหญิง 15%",
+      "C": "สัดส่วนเปอร์เซ็นต์ปริมาตรของเม็ดเลือดแดงอัดแน่นเทียบกับปริมาตรเลือดทั้งหมด โดยเพศชายปกติประมาณ 40-54% และเพศหญิงประมาณ 37-47%",
+      "D": "อัตราการตกตะกอนของเม็ดเลือดแดงใน 1 ชั่วโมง โดยมีค่าปกติเท่ากับ 0%"
     },
     "correctOption": "C",
-    "explanation": "Fossa ovalis คือหลุมวงรีบนผนังกั้นหัวใจห้องบน (Interatrial septum) ซึ่งเป็นร่องรอยปิดสนิทของ Foramen ovale ที่เคยเปิดให้เลือดลัดจาก Atrium ขวาไปซ้ายขณะอยู่ในครรภ์",
+    "explanation": "Hematocrit (Hct) คือร้อยละของปริมาตรเม็ดเลือดแดงอัดแน่นต่อปริมาตรเลือดรวมหลังจากการปั่นเหวี่ยง (Centrifugation) ในผู้ชายมีค่าเฉลี่ยประมาณ 45% (ช่วง 40-54%) สูงกว่าผู้หญิง (เฉลี่ย 42%, ช่วง 37-47%) เนื่องจากฮอร์โมนเทสโทสเตอโรนกระตุ้นการหลั่ง Erythropoietin จากไตได้มากกว่า",
     "system": "Cardiovascular and Lymphatic Systems",
-    "topic": "Cardiac Chambers & Valves",
+    "topic": "Blood Components & Hematology",
     "difficulty": "Medium",
     "sourceFile": "BNS102-Anatomy of Cardiovascular and Lymphatic Sys_261024_214357.pdf",
-    "sourcePage": 22,
+    "sourcePage": 6,
     "tags": [
-      "fossa-ovalis",
-      "foramen-ovale",
-      "fetal-circulation"
+      "hematocrit",
+      "pcv",
+      "clinical-lab"
     ],
     "createdAt": "2026-10-24",
     "updatedAt": "2026-10-24",
@@ -374,23 +384,24 @@ export const cardioQuestions: Question[] = [
   },
   {
     "id": "CARDIO-016",
-    "questionText": "ลิ้นหัวใจที่กั้นระหว่างหัวใจห้องบนขวา (Right Atrium) และห้องล่างขวา (Right Ventricle) มีชื่อเรียกว่าอะไร?",
+    "questionText": "ในการตรวจร่างกายผู้ป่วย แพทย์ทำการคลำหายอดหัวใจ (Apex of the heart) เพื่อประเมินภาวะหัวใจโต (Cardiomegaly) ตำแหน่งทางกายวิภาคพื้นผิว (Surface anatomy) ปกติของ Apex beat อยู่ที่บริเวณใด?",
     "options": {
-      "A": "Pulmonary semilunar valve",
-      "B": "Bicuspid / Mitral valve",
-      "C": "Aortic semilunar valve",
-      "D": "Tricuspid valve (ลิ้นไตรคัสปิด มี 3 แฉก)"
+      "A": "บริเวณใต้ลิ้นปี่ (Subxiphoid area) ตรงแนว Midsternal line",
+      "B": "ช่องซี่โครงที่ 2 ด้านขวา (Right 2nd intercostal space) ชิดขอบกระดูกอก",
+      "C": "ช่องซี่โครงที่ 3 ด้านซ้าย ชิดขอบกระดูกอก (Left sternal border)",
+      "D": "ช่องซี่โครงที่ 5 ด้านซ้าย (Left 5th intercostal space) ตัดกับแนวระนาบกึ่งกลางกระดูกไหปลาร้า (Midclavicular line)"
     },
     "correctOption": "D",
-    "explanation": "Tricuspid valve (Right atrioventricular valve) มีแผ่นลิ้น 3 แฉก (anterior, posterior, septal cusps) กั้นระหว่าง Right Atrium และ Right Ventricle ป้องกันเลือดไหลย้อนกลับขึ้นห้องบน",
+    "explanation": "Apex ของหัวใจเกิดจากปลายของ Left Ventricle ชี้ลงด้านล่าง หน้า และซ้าย ตำแหน่งทางกายวิภาคปกติอยู่ที่ช่องซี่โครงที่ 5 ตัดกับแนวกึ่งกลางกระดูกไหปลาร้าซ้าย (Left 5th ICS, midclavicular line) ห่างจากขอบกระดูกอกประมาณ 7-9 ซม.",
     "system": "Cardiovascular and Lymphatic Systems",
-    "topic": "Cardiac Chambers & Valves",
-    "difficulty": "Easy",
+    "topic": "Heart Anatomy & Pericardium",
+    "difficulty": "Medium",
     "sourceFile": "BNS102-Anatomy of Cardiovascular and Lymphatic Sys_261024_214357.pdf",
-    "sourcePage": 26,
+    "sourcePage": 18,
     "tags": [
-      "tricuspid-valve",
-      "av-valves"
+      "apex-beat",
+      "surface-anatomy",
+      "mediastinum"
     ],
     "createdAt": "2026-10-24",
     "updatedAt": "2026-10-24",
@@ -398,23 +409,24 @@ export const cardioQuestions: Question[] = [
   },
   {
     "id": "CARDIO-017",
-    "questionText": "เส้นใยเอ็น Chordae tendineae ยึดระหว่างขอบของแผ่นลิ้นหัวใจ AV valves กับกล้ามเนื้อชนิดใดในโพรงหัวใจห้องล่าง?",
+    "questionText": "ผู้ป่วยประสบอุบัติเหตุถูกแทงที่ทรวงอกด้านหน้า มีภาวะ Cardiac tamponade (ของเหลวสะสมในช่องเยื่อหุ้มหัวใจบีบรัดหัวใจ) ช่องว่างทางกายวิภาคที่เกิดการคั่งของเลือดคือช่องใด และอยู่ระหว่างโครงสร้างใด?",
     "options": {
-      "A": "Papillary muscles",
-      "B": "Pectinate muscles",
-      "C": "Trabeculae carneae",
-      "D": "Intercostal muscles"
+      "A": "Pericardial cavity ซึ่งอยู่ระหว่างชั้น Parietal serous pericardium กับ Visceral serous pericardium (Epicardium)",
+      "B": "Pleural cavity ซึ่งอยู่ระหว่าง Fibrous pericardium กับ Endocardium",
+      "C": "Mediastinal space ซึ่งอยู่ระหว่าง Myocardium กับ Endocardium",
+      "D": "Subepicardial space ซึ่งอยู่ระหว่างชั้นกล้ามเนื้อหัวใจกับลิ้นหัวใจ"
     },
     "correctOption": "A",
-    "explanation": "Chordae tendineae (เส้นเอ็นยึดลิ้นหัวใจ คล้ายสายร่มชูชีพ) ยึดขอบ cusps ของ AV valves ไว้กับ Papillary muscles ซึ่งหดตัวพร้อม Ventricular systole ป้องกันไม่ให้ลิ้นหัวใจปลิ้นปลิ้นกลับขึ้น Atrium",
+    "explanation": "เยื่อหุ้มหัวใจชั้น Serous pericardium มี 2 ชั้น คือ Parietal layer บุติดกับ Fibrous pericardium ด้านนอก และ Visceral layer (Epicardium) บุแนบติดผิวกล้ามเนื้อหัวใจ ช่องว่างเสมือนระหว่างสองชั้นนี้เรียกว่า Pericardial cavity บรรจุ Pericardial fluid ปกติ 15-50 มล. หากมีเลือดหรือน้ำสะสมรวดเร็วจะเกิด Cardiac tamponade บีบขัดขวางการคลายตัวรับเลือดของหัวใจ",
     "system": "Cardiovascular and Lymphatic Systems",
-    "topic": "Cardiac Chambers & Valves",
-    "difficulty": "Medium",
+    "topic": "Heart Anatomy & Pericardium",
+    "difficulty": "Hard",
     "sourceFile": "BNS102-Anatomy of Cardiovascular and Lymphatic Sys_261024_214357.pdf",
-    "sourcePage": 28,
+    "sourcePage": 20,
     "tags": [
-      "chordae-tendineae",
-      "papillary-muscles"
+      "pericardium",
+      "cardiac-tamponade",
+      "serous-cavity"
     ],
     "createdAt": "2026-10-24",
     "updatedAt": "2026-10-24",
@@ -422,23 +434,23 @@ export const cardioQuestions: Question[] = [
   },
   {
     "id": "CARDIO-018",
-    "questionText": "หัวใจห้องล่างขวา (Right Ventricle) สูบฉีดเลือดดำไปยังปอดสองข้างผ่านหลอดเลือดใหญ่และลิ้นหัวใจใด?",
+    "questionText": "เยื่อหุ้มหัวใจชั้นนอกสุด Fibrous pericardium มีลักษณะโครงสร้างทางเนื้อเยื่ออย่างไร และมีบทบาทหน้าที่ทางกลไกป้องกันอย่างไร?",
     "options": {
-      "A": "สูบฉีดผ่าน Aortic valve เข้าสู่ Aorta",
-      "B": "สูบฉีดผ่าน Pulmonary semilunar valve เข้าสู่ Pulmonary trunk",
-      "C": "สูบฉีดผ่าน Tricuspid valve เข้าสู่ SVC",
-      "D": "สูบฉีดเข้าสู่ Pulmonary veins"
+      "A": "เป็นเนื้อเยื่อบุผิว Simple squamous epithelium สร้างของเหลวหล่อลื่นลดแรงเสียดทาน",
+      "B": "เป็นเนื้อเยื่อเกี่ยวพันชนิด Dense irregular connective tissue หนา เหนียว ไม่ยืดหยุ่น ป้องกันไม่ให้หัวใจขยายตัวมากเกินไป (Overfilling) และยึดตรึงหัวใจไว้กับกะบังลมและกระดูกอก",
+      "C": "เป็นกล้ามเนื้อเรียบที่ช่วยบีบรูดเลือดออกจากหัวใจห้องบน",
+      "D": "เป็นชั้นไขมันหนาทำหน้าที่ผลิตฮอร์โมนชะลอการเต้นของหัวใจ"
     },
     "correctOption": "B",
-    "explanation": "Right Ventricle บีบตัวส่งเลือดดำผ่าน Pulmonary semilunar valve เข้าสู่ Pulmonary trunk ซึ่งจะแตกแขนงออกเป็น Right และ Left Pulmonary Arteries นำเลือดไปฟอกที่ปอด",
+    "explanation": "Fibrous pericardium เป็นถุงเนื้อเยื่อเกี่ยวพันเหนียวหนา (Dense irregular connective tissue) ไม่มีคุณสมบัติยืดหยุ่น ทำหน้าที่ป้องกันไม่ให้หัวใจพองขยายตัวเกินขีดจำกัด ยึดตรึงหัวใจไว้กับ Central tendon ของกระบังลมและกระดูกอก (Sternopericardial ligaments)",
     "system": "Cardiovascular and Lymphatic Systems",
-    "topic": "Cardiac Chambers & Valves",
-    "difficulty": "Easy",
+    "topic": "Heart Anatomy & Pericardium",
+    "difficulty": "Medium",
     "sourceFile": "BNS102-Anatomy of Cardiovascular and Lymphatic Sys_261024_214357.pdf",
-    "sourcePage": 27,
+    "sourcePage": 19,
     "tags": [
-      "right-ventricle",
-      "pulmonary-trunk"
+      "fibrous-pericardium",
+      "dense-connective-tissue"
     ],
     "createdAt": "2026-10-24",
     "updatedAt": "2026-10-24",
@@ -446,23 +458,23 @@ export const cardioQuestions: Question[] = [
   },
   {
     "id": "CARDIO-019",
-    "questionText": "หัวใจห้องบนซ้าย (Left Atrium) รับเลือดที่มีออกซิเจนสูง (Oxygenated blood) จากปอดผ่านหลอดเลือดใด?",
+    "questionText": "ผนังของหัวใจ (Heart wall) ประกอบด้วย 3 ชั้น ชั้นใดที่มีความหนามากที่สุด ประกอบด้วยเซลล์กล้ามเนื้อหัวใจที่เรียงตัวเป็นเกลียว และมีคุณสมบัติหดตัวบีบเลือด?",
     "options": {
-      "A": "Superior Vena Cava",
-      "B": "Pulmonary artery 2 เส้น",
-      "C": "Pulmonary veins จำนวน 4 เส้น (ขวา 2 เส้น และซ้าย 2 เส้น)",
-      "D": "Coronary sinus"
+      "A": "Endocardium",
+      "B": "Epicardium (Visceral pericardium)",
+      "C": "Myocardium",
+      "D": "Fibrous pericardium"
     },
     "correctOption": "C",
-    "explanation": "Left Atrium รับเลือดแดงที่มี O2 สูงที่ฟอกแล้วจากปอดผ่านทาง Pulmonary veins ทั้งหมด 4 เส้น (Right & Left superior/inferior pulmonary veins) โดยไม่มีลิ้นเปิดปิดที่ปากรู",
+    "explanation": "ผนังหัวใจมี 3 ชั้น: 1. Epicardium (ชั้นนอก มีหลอดเลือดโคโรนารีและไขมัน) 2. Myocardium (ชั้นกลาง หนาที่สุด ประกอบด้วย Cardiac muscle cells) 3. Endocardium (ชั้นในสุด เป็น Endothelium ต่อเนื่องกับหลอดเลือดและคลุมผิวลิ้นหัวใจ)",
     "system": "Cardiovascular and Lymphatic Systems",
-    "topic": "Cardiac Chambers & Valves",
+    "topic": "Heart Wall & Histology",
     "difficulty": "Easy",
     "sourceFile": "BNS102-Anatomy of Cardiovascular and Lymphatic Sys_261024_214357.pdf",
-    "sourcePage": 30,
+    "sourcePage": 22,
     "tags": [
-      "left-atrium",
-      "pulmonary-veins"
+      "heart-wall",
+      "myocardium"
     ],
     "createdAt": "2026-10-24",
     "updatedAt": "2026-10-24",
@@ -470,23 +482,24 @@ export const cardioQuestions: Question[] = [
   },
   {
     "id": "CARDIO-020",
-    "questionText": "ลิ้นหัวใจ Bicuspid valve (Mitral valve) มีลักษณะสำคัญอย่างไร?",
+    "questionText": "ผู้ป่วยโรค Infective Endocarditis มีการติดเชื้อแบคทีเรียที่ชั้นในสุดของหัวใจ ทำให้เกิดก้อน Vegetations บนลิ้นหัวใจ ชั้น Endocardium ประกอบด้วยเซลล์ชนิดใด และต่อเนื่องกับโครงสร้างใดของหลอดเลือด?",
     "options": {
-      "A": "กั้นระหว่างเส้นเลือดดำและหัวใจ",
-      "B": "มีแผ่นลิ้น 3 แฉก กั้นระหว่างบนขวาและล่างขวา",
-      "C": "เป็นลิ้นรูปพระจันทร์เสี้ยวที่โคนหลอดเลือด Aorta",
-      "D": "มีแผ่นลิ้น 2 แฉก กั้นระหว่างหัวใจห้องบนซ้าย (Left Atrium) และห้องล่างซ้าย (Left Ventricle)"
+      "A": "Dense regular elastic tissue ต่อเนื่องกับกระดูกซี่โครง",
+      "B": "Simple cuboidal epithelium ต่อเนื่องกับชั้น Tunica media",
+      "C": "Stratified squamous epithelium ต่อเนื่องกับชั้น Tunica adventitia",
+      "D": "Endothelium (Simple squamous epithelium) ร่วมกับชั้น Subendothelial connective tissue ซึ่งเรียงตัวต่อเนื่องกับชั้น Tunica intima ของหลอดเลือดขนาดใหญ่"
     },
     "correctOption": "D",
-    "explanation": "Bicuspid valve หรือ Mitral valve (ชื่อคล้ายหมวกพระสังฆราช) มี cusp 2 แฉก (anterior และ posterior) กั้นระหว่าง Left Atrium และ Left Ventricle ต้องทนแรงดันบีบตัวสูงของหัวใจซีกซ้าย",
+    "explanation": "Endocardium เป็นชั้นเนื้อเยื่อบุผิวชนิด Simple squamous epithelium (Endothelium) บุแนบติดผิวภายในห้องหัวใจทั้งหมด คลุม Trabeculae carneae, Papillary muscles และแผ่นลิ้นหัวใจทั้งหมด โดยเรียงตัวเชื่อมต่อเป็นผืนเดียวกับ Tunica intima ของหลอดเลือดที่เข้าและออกจากหัวใจ",
     "system": "Cardiovascular and Lymphatic Systems",
-    "topic": "Cardiac Chambers & Valves",
-    "difficulty": "Easy",
+    "topic": "Heart Wall & Histology",
+    "difficulty": "Hard",
     "sourceFile": "BNS102-Anatomy of Cardiovascular and Lymphatic Sys_261024_214357.pdf",
-    "sourcePage": 30,
+    "sourcePage": 22,
     "tags": [
-      "mitral-valve",
-      "bicuspid-valve"
+      "endocardium",
+      "infective-endocarditis",
+      "tunica-intima"
     ],
     "createdAt": "2026-10-24",
     "updatedAt": "2026-10-24",
@@ -494,24 +507,24 @@ export const cardioQuestions: Question[] = [
   },
   {
     "id": "CARDIO-021",
-    "questionText": "เหตุใดผนังกล้ามเนื้อของหัวใจห้องล่างซ้าย (Left Ventricle) จึงมีความหนามากกว่าห้องล่างขวา (Right Ventricle) ถึงประมาณ 3 เท่า?",
+    "questionText": "Intercalated discs ที่พบในเซลล์กล้ามเนื้อหัวใจ (Cardiac muscle tissue) ประกอบด้วยรอยต่อระหว่างเซลล์ (Cell junctions) ที่สำคัญ 2 ชนิด โครงสร้างใดทำหน้าที่นำกระแสประสาทและไอออนอย่างรวดเร็วเพื่อให้หัวใจบีบตัวพร้อมกันแบบ Functional syncytium?",
     "options": {
-      "A": "เพราะต้องสร้างแรงดันสูงในการสูบฉีดเลือดไปเลี้ยงทั่วร่างกายผ่าน Systemic circulation ซึ่งมีความต้านทานหลอดเลือดสูงกว่าปอดมาก",
-      "B": "เพราะบรรจุเลือดมากกว่าห้องล่างขวา 3 เท่า",
-      "C": "เพราะมีหลอดเลือดดำเปิดเข้าโดยตรง",
-      "D": "เพราะไม่มีลิ้นหัวใจกั้น"
+      "A": "Gap junctions (Nexus)",
+      "B": "Desmosomes (Macula adherens)",
+      "C": "Tight junctions (Zonula occludens)",
+      "D": "Hemidesmosomes"
     },
     "correctOption": "A",
-    "explanation": "Left Ventricle ต้องสร้างความดันประมาณ 120 mmHg เพื่อส่งเลือดชนะแรงต้านทานของระบบไหลเวียนร่างกาย (Systemic circulation) ขณะที่ Right Ventricle ส่งเลือดไปปอดที่มีแรงต้านต่ำเพียง ~25 mmHg",
+    "explanation": "Intercalated discs มี Junctions สำคัญ 2 แบบ: 1. Desmosomes (และ Fascia adherens) ทำหน้าที่ยึดเหนี่ยวเชิงกลไม่ให้เซลล์หลุดออกจากกันขณะบีบตัวแรง 2. Gap junctions (Nexus) ทำหน้าที่เป็นช่องทางผ่านของไอออน (Electrical coupling) ส่งต่อ Action potential ได้รวดเร็ว ทำให้กล้ามเนื้อหัวใจทำงานเสมือนเซลล์เดียวยักษ์ (Functional syncytium)",
     "system": "Cardiovascular and Lymphatic Systems",
-    "topic": "Cardiac Chambers & Valves",
-    "difficulty": "Medium",
+    "topic": "Heart Wall & Histology",
+    "difficulty": "Hard",
     "sourceFile": "BNS102-Anatomy of Cardiovascular and Lymphatic Sys_261024_214357.pdf",
-    "sourcePage": 31,
+    "sourcePage": 22,
     "tags": [
-      "left-ventricle",
-      "myocardial-thickness",
-      "systemic-circulation"
+      "intercalated-discs",
+      "gap-junctions",
+      "functional-syncytium"
     ],
     "createdAt": "2026-10-24",
     "updatedAt": "2026-10-24",
@@ -519,24 +532,23 @@ export const cardioQuestions: Question[] = [
   },
   {
     "id": "CARDIO-022",
-    "questionText": "เสียงหัวใจเสียงที่หนึ่ง (First heart sound: S1 หรือเสียง \"Lubb\") เกิดจากปรากฏการณ์ใด?",
+    "questionText": "หัวใจตั้งอยู่ในช่องอกบริเวณใด และมีแกนการวางตัวชี้ไปในทิศทางใด?",
     "options": {
-      "A": "การปิดของ Semilunar valves (Aortic และ Pulmonary valves)",
-      "B": "การปิดของลิ้นหัวใจ Atrioventricular valves (Tricuspid และ Mitral valves) เมื่อเริ่มต้นการบีบตัวของ Ventricles",
-      "C": "การไหลเวียนของเลือดผ่านผนังหัวใจ",
-      "D": "การคลายตัวของกล้ามเนื้อกระบังลม"
+      "A": "Anterior mediastinum โดย Base ชี้ไปทางด้านหน้า และ Apex ชี้ไปทางด้านหลัง",
+      "B": "Middle mediastinum โดย Base ชี้ไปทางด้านหลัง บน และขวา ส่วน Apex ชี้ไปทางด้านหน้า ล่าง และซ้าย",
+      "C": "Superior mediastinum เหนือระดับกระดูกสันหลัง T4",
+      "D": "Posterior mediastinum ระหว่างหลอดอาหารกับกระดูกสันหลัง"
     },
     "correctOption": "B",
-    "explanation": "เสียง S1 เกิดจากการสั่นสะเทือนเมื่อ AV valves (Mitral & Tricuspid) ปิดพร้อมกันตอนต้นจังหวะ Ventricular systole บ่งบอกการเริ่มต้นบีบตัวของหัวใจห้องล่าง",
+    "explanation": "หัวใจและถุงเยื่อหุ้มหัวใจตั้งอยู่ใน Middle mediastinum (ส่วนหนึ่งของ Inferior mediastinum) ระหว่างปอดทั้ง 2 ข้าง 2 ใน 3 ของเนื้อหัวใจอยู่ค่อนไปทางซ้ายของ Midsternal line โดยแกนยาวของหัวใจเอียงจาก Base (หลัง-บน-ขวา) ไปสู่ Apex (หน้า-ล่าง-ซ้าย)",
     "system": "Cardiovascular and Lymphatic Systems",
-    "topic": "Cardiac Chambers & Valves",
+    "topic": "Heart Anatomy & Pericardium",
     "difficulty": "Medium",
     "sourceFile": "BNS102-Anatomy of Cardiovascular and Lymphatic Sys_261024_214357.pdf",
-    "sourcePage": 34,
+    "sourcePage": 17,
     "tags": [
-      "heart-sounds",
-      "s1",
-      "av-valve-closure"
+      "middle-mediastinum",
+      "heart-orientation"
     ],
     "createdAt": "2026-10-24",
     "updatedAt": "2026-10-24",
@@ -544,24 +556,24 @@ export const cardioQuestions: Question[] = [
   },
   {
     "id": "CARDIO-023",
-    "questionText": "เสียงหัวใจเสียงที่สอง (Second heart sound: S2 หรือเสียง \"Dupp\") เกิดจากเหตุการณ์ใด?",
+    "questionText": "ผนังกล้ามเนื้อของหัวใจห้องล่างซ้าย (Left Ventricle) มีความหนามากกว่าหัวใจห้องล่างขวา (Right Ventricle) ประมาณ 3 เท่า ความแตกต่างทางโครงสร้างนี้สอดคล้องกับหน้าที่ทางสรีรวิทยาอย่างไร?",
     "options": {
-      "A": "การเปิดของลิ้นหัวใจทุกอันพร้อมกัน",
-      "B": "การปิดของ AV valves",
-      "C": "การปิดของ Semilunar valves (Aortic และ Pulmonary valves) เมื่อสิ้นสุดการบีบตัวของ Ventricles",
-      "D": "การบีบตัวของหัวใจห้องบน"
+      "A": "Right Ventricle มีลิ้นหัวใจ 3 แฉกจึงต้องการแรงบีบที่น้อยกว่า",
+      "B": "Left Ventricle ต้องรับเลือดที่มีปริมาตรมากกว่า Right Ventricle 3 เท่าในแต่ละรอบหัวใจเต้น",
+      "C": "Left Ventricle ต้องสร้างแรงดันสูงในการบีบเลือดต้านแรงต้านทานของระบบไหลเวียนทั่วร่างกาย (Systemic circulation: ความดันประมาณ 120 mmHg) ขณะที่ Right Ventricle ปั๊มเลือดไปเฉพาะปอด (Pulmonary circulation: ความดันประมาณ 25 mmHg)",
+      "D": "Left Ventricle มีหลอดเลือดดำมากกว่าหลอดเลือดแดงหล่อเลี้ยง"
     },
     "correctOption": "C",
-    "explanation": "เสียง S2 เกิดจากการปิดสนิทของ Semilunar valves (Aortic และ Pulmonary valves) ตอนต้นจังหวะ Ventricular diastole เมื่อความดันใน Ventricle ต่ำลงกว่าหลอดเลือดแดงใหญ่",
+    "explanation": "ปริมาตรเลือดที่บีบออกจากทั้งสองห้องเท่ากัน (Stroke volume เท่ากัน) แต่ Left Ventricle ต้องสูบฉีดเลือดไปยังหลอดเลือดแดงทั่วร่างกายที่มีความต้านทานสูง (Systemic vascular resistance, 120/80 mmHg) ผนังกล้ามเนื้อจึงต้องหนาประมาณ 10-15 มม. ขณะที่ Right Ventricle สูบฉีดเลือดไปปอดที่มีระยะทางสั้นและแรงต้านต่ำ (25/8 mmHg) ผนังจึงหนาเพียง 3-5 มม.",
     "system": "Cardiovascular and Lymphatic Systems",
-    "topic": "Cardiac Chambers & Valves",
+    "topic": "Heart Chambers & Internal Anatomy",
     "difficulty": "Medium",
     "sourceFile": "BNS102-Anatomy of Cardiovascular and Lymphatic Sys_261024_214357.pdf",
-    "sourcePage": 34,
+    "sourcePage": 31,
     "tags": [
-      "heart-sounds",
-      "s2",
-      "semilunar-valves"
+      "left-ventricle",
+      "wall-thickness",
+      "systemic-circulation"
     ],
     "createdAt": "2026-10-24",
     "updatedAt": "2026-10-24",
@@ -569,1705 +581,17 @@ export const cardioQuestions: Question[] = [
   },
   {
     "id": "CARDIO-024",
-    "questionText": "หลอดเลือดแดงโคโรนารี (Right and Left Coronary Arteries) ที่นำเลือดไปเลี้ยงกล้ามเนื้อหัวใจ แตกแขนงออกมาจากตำแหน่งใด?",
+    "questionText": "โครงสร้างที่เรียกว่า Sulcus หรือร่องบนผิวภายนอกของหัวใจที่เป็นรอยคอดระหว่าง Atria กับ Ventricles และเป็นที่ทอดผ่านของหลอดเลือด Coronary sinus คือข้อใด?",
     "options": {
-      "A": "Left Ventricle โดยตรง",
-      "B": "Arch of Aorta",
-      "C": "Pulmonary trunk",
-      "D": "Ascending Aorta (บริเวณ Aortic sinuses เหนือแผ่นลิ้น Aortic valve)"
-    },
-    "correctOption": "D",
-    "explanation": "Coronary arteries แยกตัวออกมาจากบริเวณโคนของ Ascending Aorta (Right and Left aortic sinuses of Valsalva) เหนือใบลิ้น Aortic valve เลือดจะไหลเข้าเลี้ยงกล้ามเนื้อหัวใจสูงสุดในจังหวะ Diastole",
-    "system": "Cardiovascular and Lymphatic Systems",
-    "topic": "Coronary Circulation & Conduction",
-    "difficulty": "Medium",
-    "sourceFile": "BNS102-Anatomy of Cardiovascular and Lymphatic Sys_261024_214357.pdf",
-    "sourcePage": 38,
-    "tags": [
-      "coronary-arteries",
-      "ascending-aorta"
-    ],
-    "createdAt": "2026-10-24",
-    "updatedAt": "2026-10-24",
-    "verificationStatus": "verified"
-  },
-  {
-    "id": "CARDIO-025",
-    "questionText": "แขนงของหลอดเลือดแดง Left Coronary Artery ที่ทอดลงมาตามร่องหน้าหัวใจ เลี้ยงผนังห้องล่างทั้งสองข้างและมักเกิดการอุดตันบ่อยจนได้ฉายาว่า \"Widow maker\" คือแขนงใด?",
-    "options": {
-      "A": "Anterior Interventricular Artery (Left Anterior Descending: LAD)",
-      "B": "Circumflex artery",
-      "C": "Marginal artery",
-      "D": "Posterior interventricular artery"
-    },
-    "correctOption": "A",
-    "explanation": "LAD (Anterior Interventricular branch) วิ่งในร่อง anterior interventricular sulcus เลี้ยงผนังหน้าของ LV และ 2/3 ส่วนหน้าของ interventricular septum หากตันเฉียบพลันจะเกิดกล้ามเนื้อหัวใจตายรุนแรง",
-    "system": "Cardiovascular and Lymphatic Systems",
-    "topic": "Coronary Circulation & Conduction",
-    "difficulty": "Medium",
-    "sourceFile": "BNS102-Anatomy of Cardiovascular and Lymphatic Sys_261024_214357.pdf",
-    "sourcePage": 39,
-    "tags": [
-      "lad",
-      "widow-maker",
-      "coronary-circulation"
-    ],
-    "createdAt": "2026-10-24",
-    "updatedAt": "2026-10-24",
-    "verificationStatus": "verified"
-  },
-  {
-    "id": "CARDIO-026",
-    "questionText": "โครงสร้างใดทำหน้าที่เป็นตัวกำหนดจังหวะการเต้นของหัวใจตามธรรมชาติ (Natural Pacemaker of the heart) โดยสามารถสร้างกระแสไฟฟ้าได้ 60-100 ครั้งต่อนาที?",
-    "options": {
-      "A": "Atrioventricular node (AV node)",
-      "B": "Sinoatrial node (SA node)",
-      "C": "Bundle of His",
-      "D": "Purkinje fibers"
-    },
-    "correctOption": "B",
-    "explanation": "SA node ตั้งอยู่บริเวณผนังของหัวใจห้องบนขวาใกล้รูเปิดของ SVC มีเซลล์ Pacemaker ที่เกิด spontaneous depolarization เร็วที่สุด (60-100 ครั้ง/นาที) จึงเป็นตัวคุมจังหวะหลักของหัวใจ",
-    "system": "Cardiovascular and Lymphatic Systems",
-    "topic": "Coronary Circulation & Conduction",
-    "difficulty": "Easy",
-    "sourceFile": "BNS102-Anatomy of Cardiovascular and Lymphatic Sys_261024_214357.pdf",
-    "sourcePage": 43,
-    "tags": [
-      "sa-node",
-      "pacemaker",
-      "conduction-system"
-    ],
-    "createdAt": "2026-10-24",
-    "updatedAt": "2026-10-24",
-    "verificationStatus": "verified"
-  },
-  {
-    "id": "CARDIO-027",
-    "questionText": "Atrioventricular node (AV node) ตั้งอยู่ ณ บริเวณใด และมีหน้าที่สำคัญประการใดต่อระบบการนำไฟฟ้าของหัวใจ?",
-    "options": {
-      "A": "ตั้งอยู่ใน Aorta เพื่อปรับความดัน",
-      "B": "ตั้งอยู่ที่ยอดหัวใจ ทำหน้าที่สร้างน้ำหล่อลื่น",
-      "C": "ตั้งอยู่ที่ Interatrial septum ใกล้รูเปิด Coronary sinus ทำหน้าที่หน่วงสัญญาณไฟฟ้าชั่วครู่ (~0.1 วินาที) เพื่อให้ Atrium บีบเลือดลง Ventricle ให้เสร็จสิ้นก่อน",
-      "D": "ตั้งอยู่ในปอดเพื่อรับออกซิเจน"
-    },
-    "correctOption": "C",
-    "explanation": "AV node ตั้งอยู่ที่รอยต่อ interatrial septum ทำหน้าที่หน่วงกระแสไฟฟ้าประมาณ 0.09-0.12 วินาที (AV delay) เพื่อให้หัวใจห้องบนบีบเลือดลงห้องล่างได้สมบูรณ์ก่อนที่ห้องล่างจะเริ่มบีบตัว",
-    "system": "Cardiovascular and Lymphatic Systems",
-    "topic": "Coronary Circulation & Conduction",
-    "difficulty": "Medium",
-    "sourceFile": "BNS102-Anatomy of Cardiovascular and Lymphatic Sys_261024_214357.pdf",
-    "sourcePage": 44,
-    "tags": [
-      "av-node",
-      "av-delay",
-      "interatrial-septum"
-    ],
-    "createdAt": "2026-10-24",
-    "updatedAt": "2026-10-24",
-    "verificationStatus": "verified"
-  },
-  {
-    "id": "CARDIO-028",
-    "questionText": "ลำดับเส้นทางการนำกระแสไฟฟ้าภายในหัวใจข้อใดเรียงลำดับได้อย่างถูกต้อง?",
-    "options": {
-      "A": "SA node -> Bundle branches -> AV node -> Purkinje fibers",
-      "B": "AV node -> SA node -> Purkinje fibers -> Bundle of His",
-      "C": "Purkinje fibers -> Bundle of His -> AV node -> SA node",
-      "D": "SA node -> AV node -> AV bundle (Bundle of His) -> Bundle branches -> Purkinje fibers"
-    },
-    "correctOption": "D",
-    "explanation": "กระแสประสาทเริ่มจาก SA node -> วิ่งผ่าน Atrium สู่ AV node -> เข้าสู่ Bundle of His ทะลุ Fibrous skeleton -> แยกเป็น Right และ Left bundle branches ใน Interventricular septum -> กระจายสู่ Purkinje fibers สู่กล้ามเนื้อ Ventricles",
-    "system": "Cardiovascular and Lymphatic Systems",
-    "topic": "Coronary Circulation & Conduction",
-    "difficulty": "Easy",
-    "sourceFile": "BNS102-Anatomy of Cardiovascular and Lymphatic Sys_261024_214357.pdf",
-    "sourcePage": 45,
-    "tags": [
-      "cardiac-conduction-pathway",
-      "purkinje-fibers"
-    ],
-    "createdAt": "2026-10-24",
-    "updatedAt": "2026-10-24",
-    "verificationStatus": "verified"
-  },
-  {
-    "id": "CARDIO-029",
-    "questionText": "ผนังของหลอดเลือดโดยทั่วไปประกอบด้วยเนื้อเยื่อ 3 ชั้น ลำดับจากด้านในสู่ด้านนอกข้อใดถูกต้อง?",
-    "options": {
-      "A": "Tunica intima -> Tunica media -> Tunica externa (Adventitia)",
-      "B": "Tunica media -> Tunica intima -> Tunica externa",
-      "C": "Tunica externa -> Tunica media -> Tunica intima",
-      "D": "Tunica intima -> Tunica serosa -> Tunica muscularis"
-    },
-    "correctOption": "A",
-    "explanation": "ผนังหลอดเลือดเรียงจากในออกนอก: 1. Tunica intima (Endothelium + subendothelial layer) 2. Tunica media (กล้ามเนื้อเรียบและ elastic fibers) และ 3. Tunica externa/adventitia (คอลลาเจนยึดโครงสร้าง)",
-    "system": "Cardiovascular and Lymphatic Systems",
-    "topic": "Blood Vessels & Hemodynamics",
-    "difficulty": "Easy",
-    "sourceFile": "BNS102-Anatomy of Cardiovascular and Lymphatic Sys_261024_214357.pdf",
-    "sourcePage": 49,
-    "tags": [
-      "tunics-of-vessels",
-      "tunica-intima",
-      "tunica-media"
-    ],
-    "createdAt": "2026-10-24",
-    "updatedAt": "2026-10-24",
-    "verificationStatus": "verified"
-  },
-  {
-    "id": "CARDIO-030",
-    "questionText": "ชั้น Tunica media ของหลอดเลือดแดง (Artery) แตกต่างจากหลอดเลือดดำ (Vein) อย่างไร?",
-    "options": {
-      "A": "หลอดเลือดดำมี Tunica media หนาที่สุดในร่างกาย",
-      "B": "หลอดเลือดแดงมีชั้น Tunica media ที่หนาและมีเส้นใยกล้ามเนื้อเรียบกับ Elastic fibers หนาแน่นกว่ามากเพื่อรองรับแรงดันสูง",
-      "C": "หลอดเลือดแดงไม่มีชั้น Tunica media",
-      "D": "หลอดเลือดดำมีกล้ามเนื้อลายในชั้น Tunica media"
-    },
-    "correctOption": "B",
-    "explanation": "หลอดเลือดแดงมี Tunica media หนามากเพื่อทนต่อแรงดันโลหิตสูงและควบคุมแรงต้านหลอดเลือด (Vasoconstriction/Vasodilation) ส่วนหลอดเลือดดำมี Tunica media บางกว่า แต่มีลูเมนกว้างและมี Tunica externa หนาสุด",
-    "system": "Cardiovascular and Lymphatic Systems",
-    "topic": "Blood Vessels & Hemodynamics",
-    "difficulty": "Medium",
-    "sourceFile": "BNS102-Anatomy of Cardiovascular and Lymphatic Sys_261024_214357.pdf",
-    "sourcePage": 50,
-    "tags": [
-      "artery-vs-vein",
-      "tunica-media"
-    ],
-    "createdAt": "2026-10-24",
-    "updatedAt": "2026-10-24",
-    "verificationStatus": "verified"
-  },
-  {
-    "id": "CARDIO-031",
-    "questionText": "หลอดเลือดแดงชนิดใดที่ทำหน้าที่เป็น \"Resistance vessels\" มีบทบาทหลักในการควบคุมความดันโลหิตทั่วร่างกายโดยการหดหรือขยายตัวของกล้ามเนื้อเรียบ?",
-    "options": {
-      "A": "Large veins (เช่น Vena Cava)",
-      "B": "Elastic arteries (เช่น Aorta)",
-      "C": "Arterioles (หลอดเลือดแดงฝอยขนาดเล็ก)",
-      "D": "Capillaries"
-    },
-    "correctOption": "C",
-    "explanation": "Arterioles เป็นหลอดเลือดที่มีเส้นผ่านศูนย์กลางเล็กแต่มีสัดส่วนของกล้ามเนื้อเรียบสูงมาก เป็นจุดหลักที่สร้างความต้านทานส่วนปลาย (Systemic Vascular Resistance: SVR) ควบคุมความดันโลหิตและกระจายเลือด",
-    "system": "Cardiovascular and Lymphatic Systems",
-    "topic": "Blood Vessels & Hemodynamics",
-    "difficulty": "Medium",
-    "sourceFile": "BNS102-Anatomy of Cardiovascular and Lymphatic Sys_261024_214357.pdf",
-    "sourcePage": 52,
-    "tags": [
-      "arterioles",
-      "resistance-vessels",
-      "blood-pressure"
-    ],
-    "createdAt": "2026-10-24",
-    "updatedAt": "2026-10-24",
-    "verificationStatus": "verified"
-  },
-  {
-    "id": "CARDIO-032",
-    "questionText": "หลอดเลือดฝอย (Capillaries) ชนิดใดที่พบใน Glomerulus ของไต และต่อมไร้ท่อ ซึ่งมีรูพรุนขนาดเล็ก (Pores/Fenestrae) เพื่อให้สารละลายและโมเลกุลขนาดเล็กผ่านได้รวดเร็ว?",
-    "options": {
-      "A": "Discontinuous capillaries",
-      "B": "Continuous capillaries",
-      "C": "Sinusoid capillaries",
-      "D": "Fenestrated capillaries"
-    },
-    "correctOption": "D",
-    "explanation": "Fenestrated capillaries มีรูพรุน (fenestrae) ทะลุผ่านเซลล์ endothelium พบในอวัยวะที่มีการกรองหรือดูดซึมสารสูง เช่น Glomerulus ของไต, เยื่อบุลำไส้เล็ก และต่อมไร้ท่อ",
-    "system": "Cardiovascular and Lymphatic Systems",
-    "topic": "Blood Vessels & Hemodynamics",
-    "difficulty": "Medium",
-    "sourceFile": "BNS102-Anatomy of Cardiovascular and Lymphatic Sys_261024_214357.pdf",
-    "sourcePage": 56,
-    "tags": [
-      "fenestrated-capillaries",
-      "capillary-types"
-    ],
-    "createdAt": "2026-10-24",
-    "updatedAt": "2026-10-24",
-    "verificationStatus": "verified"
-  },
-  {
-    "id": "CARDIO-033",
-    "questionText": "หลอดเลือดดำ (Veins) มีโครงสร้างพิเศษใดที่ยื่นออกมาจากชั้น Tunica intima เพื่อป้องกันไม่ให้เลือดดำไหลย้อนกลับ (Prevent backflow) จากแรงโน้มถ่วง?",
-    "options": {
-      "A": "Venous valves (ลิ้นในหลอดเลือดดำ)",
-      "B": "Chordae tendineae",
-      "C": "Precapillary sphincters",
-      "D": "Pectinate folds"
-    },
-    "correctOption": "A",
-    "explanation": "Venous valves เป็นแผ่นพับของชั้น Tunica intima พบได้มากในหลอดเลือดดำของรยางค์ล่าง (แขนขา) ทำหน้าที่เปิดให้เลือดไหลขึ้นสู่หัวใจ และปิดสนิทเมื่อเลือดจะไหลย้อนกลับ",
-    "system": "Cardiovascular and Lymphatic Systems",
-    "topic": "Blood Vessels & Hemodynamics",
-    "difficulty": "Easy",
-    "sourceFile": "BNS102-Anatomy of Cardiovascular and Lymphatic Sys_261024_214357.pdf",
-    "sourcePage": 61,
-    "tags": [
-      "venous-valves",
-      "vein-structure"
-    ],
-    "createdAt": "2026-10-24",
-    "updatedAt": "2026-10-24",
-    "verificationStatus": "verified"
-  },
-  {
-    "id": "CARDIO-034",
-    "questionText": "ส่วนโค้งของหลอดเลือดแดงใหญ่ (Arch of Aorta) มีแขนงหลอดเลือดแดงใหญ่แยกออกไป 3 เส้น ข้อใดเรียงลำดับจากขวาไปซ้ายได้อย่างถูกต้อง?",
-    "options": {
-      "A": "Left Common Carotid -> Right Common Carotid -> Subclavian",
-      "B": "Brachiocephalic trunk -> Left Common Carotid artery -> Left Subclavian artery",
-      "C": "Left Subclavian -> Left Common Carotid -> Brachiocephalic",
-      "D": "Celiac trunk -> SMA -> IMA"
-    },
-    "correctOption": "B",
-    "explanation": "Arch of Aorta ให้ 3 แขนงเรียงจากขวาไปซ้าย: 1. Brachiocephalic artery/trunk (แยกต่อเป็น Right common carotid และ Right subclavian) 2. Left common carotid artery และ 3. Left subclavian artery",
-    "system": "Cardiovascular and Lymphatic Systems",
-    "topic": "Blood Vessels & Hemodynamics",
-    "difficulty": "Medium",
-    "sourceFile": "BNS102-Anatomy of Cardiovascular and Lymphatic Sys_261024_214357.pdf",
-    "sourcePage": 69,
-    "tags": [
-      "arch-of-aorta",
-      "aortic-branches"
-    ],
-    "createdAt": "2026-10-24",
-    "updatedAt": "2026-10-24",
-    "verificationStatus": "verified"
-  },
-  {
-    "id": "CARDIO-035",
-    "questionText": "ท่อน้ำเหลืองฝอย (Lymphatic capillaries) แตกต่างจากหลอดเลือดฝอย (Blood capillaries) ทางโครงสร้างที่สำคัญอย่างไร?",
-    "options": {
-      "A": "มีเม็ดเลือดแดงไหลเวียนหนาแน่น",
-      "B": "เป็นวงจรปิดต่อเนื่องกับหลอดเลือดดำ",
-      "C": "เป็นท่อปลายตัน (Blind-ended), มีผนังที่ยอมให้สารโมเลกุลใหญ่และแบคทีเรียผ่านเข้าได้ง่ายกว่า และมี Flap-like minivalves",
-      "D": "มีกล้ามเนื้อหัวใจบีบตัวเป็นจังหวะ"
-    },
-    "correctOption": "C",
-    "explanation": "Lymphatic capillaries เริ่มต้นเป็นท่อปลายตันในเนื้อเยื่อ รอยต่อระหว่าง endothelial cells ซ้อนทับกันคล้ายลิ้นทางเดียว (Minivalves) ยอมให้น้ำคั่ง โปรตีนขนาดใหญ่ และเซลล์เม็ดเลือดขาวไหลเข้าได้ แต่ไม่ให้ไหลย้อน",
-    "system": "Cardiovascular and Lymphatic Systems",
-    "topic": "Lymphatic Organs & Circulation",
-    "difficulty": "Medium",
-    "sourceFile": "BNS102-Anatomy of Cardiovascular and Lymphatic Sys_261024_214357.pdf",
-    "sourcePage": 90,
-    "tags": [
-      "lymphatic-capillaries",
-      "blind-ended"
-    ],
-    "createdAt": "2026-10-24",
-    "updatedAt": "2026-10-24",
-    "verificationStatus": "verified"
-  },
-  {
-    "id": "CARDIO-036",
-    "questionText": "ท่อน้ำเหลืองขนาดใหญ่ที่สุดในร่างกายมนุษย์ที่ระบายน้ำเหลืองจากร่างกายส่วนล่างทั้งหมดและซีกซ้ายส่วนบน มีชื่อว่าอะไร?",
-    "options": {
-      "A": "Hepatopancreatic duct",
-      "B": "Right lymphatic duct",
-      "C": "Cisterna chyli",
-      "D": "Thoracic duct (Left lymphatic duct)"
-    },
-    "correctOption": "D",
-    "explanation": "Thoracic duct เป็นท่อน้ำเหลืองหลักที่ยาวและใหญ่ที่สุด ระบายน้ำเหลืองจากร่างกายประมาณ 75% (ขาทั้งสองข้าง อุ้งเชิงกราน ช่องท้อง แขนซ้าย อกซ้าย ศีรษะและคอซีกซ้าย) เทเข้าสู่ Left Subclavian Vein",
-    "system": "Cardiovascular and Lymphatic Systems",
-    "topic": "Lymphatic Organs & Circulation",
-    "difficulty": "Easy",
-    "sourceFile": "BNS102-Anatomy of Cardiovascular and Lymphatic Sys_261024_214357.pdf",
-    "sourcePage": 92,
-    "tags": [
-      "thoracic-duct",
-      "lymphatic-drainage"
-    ],
-    "createdAt": "2026-10-24",
-    "updatedAt": "2026-10-24",
-    "verificationStatus": "verified"
-  },
-  {
-    "id": "CARDIO-037",
-    "questionText": "กระเปาะถุงน้ำเหลือง Cisterna chyli ซึ่งเป็นจุดเริ่มต้นของ Thoracic duct ในช่องท้อง รับน้ำเหลืองที่มีลักษณะขุ่นขาวคล้ายน้ำนม (Chyle) เนื่องจากการดูดซึมสารอาหารชนิดใดจากลำไส้?",
-    "options": {
-      "A": "Fat / Lipids (ไขมันในรูป Chylomicrons)",
-      "B": "Glucose",
-      "C": "Amino acids",
-      "D": "Water soluble vitamins"
-    },
-    "correctOption": "A",
-    "explanation": "Cisterna chyli ตั้งอยู่หน้าระดับกระดูก L1-L2 รับน้ำเหลืองจาก Intestinal trunk ซึ่งอุดมไปด้วยไขมันที่ถูกดูดซึมจาก Lacteals ในลำไส้เล็ก น้ำเหลืองที่มีไขมันนี้จึงมีสีขาวขุ่น เรียกว่า Chyle",
-    "system": "Cardiovascular and Lymphatic Systems",
-    "topic": "Lymphatic Organs & Circulation",
-    "difficulty": "Medium",
-    "sourceFile": "BNS102-Anatomy of Cardiovascular and Lymphatic Sys_261024_214357.pdf",
-    "sourcePage": 92,
-    "tags": [
-      "cisterna-chyli",
-      "chyle",
-      "fat-transport"
-    ],
-    "createdAt": "2026-10-24",
-    "updatedAt": "2026-10-24",
-    "verificationStatus": "verified"
-  },
-  {
-    "id": "CARDIO-038",
-    "questionText": "ท่อน้ำเหลือง Right Lymphatic Duct ระบายน้ำเหลืองจากบริเวณใดของร่างกายเข้าสู่ Right Subclavian Vein?",
-    "options": {
-      "A": "ขาทั้งสองข้างและช่องท้อง",
-      "B": "ศีรษะและคอด้านขวา, แขนขวา, และช่องอกด้านขวา (ประมาณ 25% ของร่างกาย)",
-      "C": "ร่างกายซีกซ้ายทั้งหมด",
-      "D": "อวัยวะสืบพันธุ์"
-    },
-    "correctOption": "B",
-    "explanation": "Right Lymphatic Duct มีขนาดยาวเพียง 1.25 cm รับน้ำเหลืองเฉพาะจากส่วนขวาบนของร่างกาย (Right upper quadrant: แขนขวา ด้านขวาของศีรษะ คอ และทรวงอก) เทเข้ามุมต่อมน้ำเลือดดำขวา (Right subclavian/internal jugular junction)",
-    "system": "Cardiovascular and Lymphatic Systems",
-    "topic": "Lymphatic Organs & Circulation",
-    "difficulty": "Medium",
-    "sourceFile": "BNS102-Anatomy of Cardiovascular and Lymphatic Sys_261024_214357.pdf",
-    "sourcePage": 93,
-    "tags": [
-      "right-lymphatic-duct",
-      "lymphatic-drainage"
-    ],
-    "createdAt": "2026-10-24",
-    "updatedAt": "2026-10-24",
-    "verificationStatus": "verified"
-  },
-  {
-    "id": "CARDIO-039",
-    "questionText": "อวัยวะน้ำเหลืองที่มีขนาดใหญ่ที่สุดในร่างกายมนุษย์ (Largest lymphoid organ) คืออวัยวะใด?",
-    "options": {
-      "A": "Palatine tonsil",
-      "B": "Thymus gland",
-      "C": "Spleen (ม้าม)",
-      "D": "Appendix"
-    },
-    "correctOption": "C",
-    "explanation": "ม้าม (Spleen) ตั้งอยู่ในช่องท้องด้านบนซ้ายใต้กะบังลม เป็นอวัยวะน้ำเหลืองที่ใหญ่ที่สุด มีน้ำหนักประมาณ 150-200 กรัม ทำหน้าที่กรองเลือด ทำลายเม็ดเลือดแดงที่หมดอายุ และสร้างภูมิคุ้มกัน",
-    "system": "Cardiovascular and Lymphatic Systems",
-    "topic": "Lymphatic Organs & Circulation",
-    "difficulty": "Easy",
-    "sourceFile": "BNS102-Anatomy of Cardiovascular and Lymphatic Sys_261024_214357.pdf",
-    "sourcePage": 97,
-    "tags": [
-      "spleen",
-      "largest-lymphoid-organ"
-    ],
-    "createdAt": "2026-10-24",
-    "updatedAt": "2026-10-24",
-    "verificationStatus": "verified"
-  },
-  {
-    "id": "CARDIO-040",
-    "questionText": "เนื้อเยื่อส่วน Red pulp และ White pulp ของม้าม (Spleen) มีความแตกต่างกันในด้านหน้าที่อย่างไร?",
-    "options": {
-      "A": "ทั้งสองมีหน้าที่เหมือนกันทุกประการ",
-      "B": "Red pulp สร้างน้ำลาย ส่วน White pulp สร้างอินซูลิน",
-      "C": "Red pulp ทำลายไวรัส ส่วน White pulp ผลิตฮอร์โมนเพศ",
-      "D": "Red pulp กรองและทำลายเม็ดเลือดแดงที่เสื่อมสภาพ พร้อมกักเก็บเกล็ดเลือด ส่วน White pulp เป็นเนื้อเยื่อน้ำเหลืองทำหน้าที่เกี่ยวกับระบบภูมิคุ้มกัน (Immune response)"
-    },
-    "correctOption": "D",
-    "explanation": "White pulp ประกอบด้วย Lymphoid tissue ล้อมรอบ Central arteries (PALS) ทำหน้าที่ดักจับสิ่งแปลกปลอมในกระแสเลือด ส่วน Red pulp ประกอบด้วย Splenic sinusoids และ Splenic cords (of Billroth) กรองและทำลาย RBCs ที่อายุเกิน 120 วัน",
-    "system": "Cardiovascular and Lymphatic Systems",
-    "topic": "Lymphatic Organs & Circulation",
-    "difficulty": "Medium",
-    "sourceFile": "BNS102-Anatomy of Cardiovascular and Lymphatic Sys_261024_214357.pdf",
-    "sourcePage": 98,
-    "tags": [
-      "spleen-histology",
-      "red-pulp",
-      "white-pulp"
-    ],
-    "createdAt": "2026-10-24",
-    "updatedAt": "2026-10-24",
-    "verificationStatus": "verified"
-  },
-  {
-    "id": "CARDIO-041",
-    "questionText": "ต่อมไทมัส (Thymus gland) มีบทบาทสำคัญอย่างยิ่งต่อการเจริญเติบโตและการพัฒนาของเซลล์เม็ดเลือดขาวชนิดใด?",
-    "options": {
-      "A": "T lymphocytes (T cells)",
-      "B": "B lymphocytes (B cells)",
-      "C": "Neutrophils",
-      "D": "Erythrocytes"
-    },
-    "correctOption": "A",
-    "explanation": "Thymus เป็น primary lymphoid organ ในช่องอกตอนบน เป็นสถานที่ที่ T progenitor cells จากไขกระดูกจะเดินทางมาเจริญเติบโตและผ่านกระบวนการคัดกรอง (T cell maturation & education)",
-    "system": "Cardiovascular and Lymphatic Systems",
-    "topic": "Lymphatic Organs & Circulation",
-    "difficulty": "Easy",
-    "sourceFile": "BNS102-Anatomy of Cardiovascular and Lymphatic Sys_261024_214357.pdf",
-    "sourcePage": 99,
-    "tags": [
-      "thymus",
-      "t-cell-maturation"
-    ],
-    "createdAt": "2026-10-24",
-    "updatedAt": "2026-10-24",
-    "verificationStatus": "verified"
-  },
-  {
-    "id": "CARDIO-042",
-    "questionText": "ต่อมไทมัส (Thymus) มีการเปลี่ยนแปลงตามอายุ (Age-related changes) อย่างไรในผู้ใหญ่?",
-    "options": {
-      "A": "จะเจริญเติบโตใหญ่ขึ้นเรื่อยๆ ตลอดชีวิต",
-      "B": "มีขนาดใหญ่ที่สุดและทำงานสูงสุดในวัยเด็ก จากนั้นจะค่อยๆ ฝ่อเล็กลง (Involution) และถูกแทนที่ด้วยเนื้อเยื่อไขมันหลังวัยเจริญพันธุ์",
-      "C": "สลายตัวหายไปตั้งแต่แรกเกิด",
-      "D": "กลายเป็นกระดูกแข็ง"
-    },
-    "correctOption": "B",
-    "explanation": "Thymus มีอัตราส่วนการทำงานสูงสุดในวัยทารกและเด็ก เมื่อเข้าสู่วัยรุ่นจะเกิดกระบวนการ Thymic involution คือค่อยๆ ฝ่อตัวลงและถูกแทนที่ด้วย Adipose tissue ในวัยผู้ใหญ่",
-    "system": "Cardiovascular and Lymphatic Systems",
-    "topic": "Lymphatic Organs & Circulation",
-    "difficulty": "Medium",
-    "sourceFile": "BNS102-Anatomy of Cardiovascular and Lymphatic Sys_261024_214357.pdf",
-    "sourcePage": 99,
-    "tags": [
-      "thymic-involution",
-      "thymus-atrophy"
-    ],
-    "createdAt": "2026-10-24",
-    "updatedAt": "2026-10-24",
-    "verificationStatus": "verified"
-  },
-  {
-    "id": "CARDIO-043",
-    "questionText": "ต่อมทอนซิลคู่ใดที่ตั้งอยู่สองข้างของคอหอยหลังช่องปาก (Oropharynx) ระหว่าง Palatoglossal arch และ Palatopharyngeal arch ซึ่งมักเกิดการอักเสบ (Tonsillitis) ได้บ่อยที่สุด?",
-    "options": {
-      "A": "Lingual tonsils",
-      "B": "Pharyngeal tonsil (Adenoid)",
-      "C": "Palatine tonsils",
-      "D": "Tubal tonsils"
-    },
-    "correctOption": "C",
-    "explanation": "Palatine tonsils คือต่อมทอนซิลคู่ที่เราอ้าปากแล้วมองเห็นได้ชัดเจนที่ช่องปากด้านหลัง เป็นต่อมทอนซิลที่พบการติดเชื้ออักเสบบ่อยที่สุดและมักได้รับการผ่าตัดต่อมทอนซิล (Tonsillectomy)",
-    "system": "Cardiovascular and Lymphatic Systems",
-    "topic": "Lymphatic Organs & Circulation",
-    "difficulty": "Easy",
-    "sourceFile": "BNS102-Anatomy of Cardiovascular and Lymphatic Sys_261024_214357.pdf",
-    "sourcePage": 100,
-    "tags": [
-      "palatine-tonsils",
-      "tonsillitis"
-    ],
-    "createdAt": "2026-10-24",
-    "updatedAt": "2026-10-24",
-    "verificationStatus": "verified"
-  },
-  {
-    "id": "CARDIO-044",
-    "questionText": "ต่อมทอนซิล Pharyngeal tonsil ตั้งอยู่บริเวณใด และหากบวมโตผิดปกติในเด็กจะเรียกว่าอะไร?",
-    "options": {
-      "A": "ตั้งอยู่ในกล่องเสียง",
-      "B": "ตั้งอยู่ที่โคนลิ้น เรียกว่า Lingual goiter",
-      "C": "ตั้งอยู่ในกระเพาะอาหาร",
-      "D": "ตั้งอยู่บนผนังหลังของ Nasopharynx เมื่อบวมโตจะเรียกว่า Adenoids (อาจอุดกั้นทางเดินหายใจ)"
-    },
-    "correctOption": "D",
-    "explanation": "Pharyngeal tonsil อยู่ที่เพดานด้านหลังของ Nasopharynx หากอักเสบหรือโตมากจะเรียกว่า Adenoids ซึ่งอาจอุดกั้นทางเดินหายใจส่วนบน ทำให้เด็กต้องนอนอ้าปากหายใจหรือกรน",
-    "system": "Cardiovascular and Lymphatic Systems",
-    "topic": "Lymphatic Organs & Circulation",
-    "difficulty": "Medium",
-    "sourceFile": "BNS102-Anatomy of Cardiovascular and Lymphatic Sys_261024_214357.pdf",
-    "sourcePage": 100,
-    "tags": [
-      "adenoids",
-      "pharyngeal-tonsil",
-      "nasopharynx"
-    ],
-    "createdAt": "2026-10-24",
-    "updatedAt": "2026-10-24",
-    "verificationStatus": "verified"
-  },
-  {
-    "id": "CARDIO-045",
-    "questionText": "วงแหวนของเนื้อเยื่อต่อมน้ำเหลืองรอบช่องทางเข้าคอหอยที่ช่วยดักจับเชื้อโรคที่เข้ามาทางการหายใจและการกิน เรียกว่าอะไร?",
-    "options": {
-      "A": "Waldeyer's tonsillar ring",
-      "B": "Circle of Willis",
-      "C": "Inguinal ring",
-      "D": "Fibrous ring"
-    },
-    "correctOption": "A",
-    "explanation": "Waldeyer's lymphatic ring เป็นแนววงแหวนภูมิคุ้มกันด่านหน้า ประกอบด้วย Pharyngeal tonsil (บน), Tubal tonsils (ข้าง), Palatine tonsils (ข้างล่าง) และ Lingual tonsils (ที่โคนลิ้น)",
-    "system": "Cardiovascular and Lymphatic Systems",
-    "topic": "Lymphatic Organs & Circulation",
-    "difficulty": "Medium",
-    "sourceFile": "BNS102-Anatomy of Cardiovascular and Lymphatic Sys_261024_214357.pdf",
-    "sourcePage": 100,
-    "tags": [
-      "waldeyers-ring",
-      "tonsillar-ring"
-    ],
-    "createdAt": "2026-10-24",
-    "updatedAt": "2026-10-24",
-    "verificationStatus": "verified"
-  },
-  {
-    "id": "CARDIO-046",
-    "questionText": "ทิศทางการไหลของน้ำเหลืองผ่านต่อมน้ำเหลือง (Lymph node) ข้อใดถูกต้อง?",
-    "options": {
-      "A": "น้ำเหลืองเข้าทาง Efferent และออกทาง Afferent",
-      "B": "น้ำเหลืองเข้าสู่ต่อมทาง Afferent lymphatic vessels หลายเส้น และไหลออกจากต่อมทาง Efferent lymphatic vessel เพียง 1-2 เส้นที่บริเวณ Hilum",
-      "C": "ไม่มีท่อน้ำเหลืองเข้าออก",
-      "D": "น้ำเหลืองไหลวนเป็นวงกลมโดยไม่ออกจากต่อม"
-    },
-    "correctOption": "B",
-    "explanation": "น้ำเหลืองนำพาเชื้อโรคและแอนติเจนเข้าสู่ต่อมน้ำเหลืองผ่าน Afferent vessels หลายท่อรอบขอบนอก กรองผ่านไซนัส และไหลออกจากต่อมทาง Efferent vessels 1-2 ท่อที่รอยเว้า Hilum",
-    "system": "Cardiovascular and Lymphatic Systems",
-    "topic": "Lymphatic Organs & Circulation",
-    "difficulty": "Medium",
-    "sourceFile": "BNS102-Anatomy of Cardiovascular and Lymphatic Sys_261024_214357.pdf",
-    "sourcePage": 94,
-    "tags": [
-      "lymph-node-circulation",
-      "afferent-efferent"
-    ],
-    "createdAt": "2026-10-24",
-    "updatedAt": "2026-10-24",
-    "verificationStatus": "verified"
-  },
-  {
-    "id": "CARDIO-047",
-    "questionText": "บริเวณ Germinal centers ในชั้นนอก (Cortex) ของต่อมน้ำเหลืองเป็นแหล่งรวมของเซลล์เม็ดเลือดขาวชนิดใดที่กำลังแบ่งตัวเมื่อถูกกระตุ้นด้วยแอนติเจน?",
-    "options": {
-      "A": "Platelets",
-      "B": "Erythrocytes",
-      "C": "B lymphocytes (B cells ซึ่งจะพัฒนาเป็น Plasma cells สร้าง Antibody)",
-      "D": "Basophils"
-    },
-    "correctOption": "C",
-    "explanation": "Germinal centers ใน Lymphoid follicles ของชั้น Cortex เป็นบริเวณที่มีการเพิ่มจำนวนอย่างรวดเร็วของ B cells เพื่อคัดเลือกและพัฒนาเป็น Plasma cells ทำหน้าที่หลั่ง Antibodies เข้าสู่กระแสเลือด",
-    "system": "Cardiovascular and Lymphatic Systems",
-    "topic": "Lymphatic Organs & Circulation",
-    "difficulty": "Hard",
-    "sourceFile": "BNS102-Anatomy of Cardiovascular and Lymphatic Sys_261024_214357.pdf",
-    "sourcePage": 95,
-    "tags": [
-      "germinal-centers",
-      "b-cells",
-      "lymph-node-cortex"
-    ],
-    "createdAt": "2026-10-24",
-    "updatedAt": "2026-10-24",
-    "verificationStatus": "verified"
-  },
-  {
-    "id": "CARDIO-048",
-    "questionText": "หลอดเลือดแดงคู่ใดที่วิ่งขึ้นไปตามด้านข้างของลำคอเพื่อส่งเลือดไปเลี้ยงศีรษะและสมอง และสามารถคลำชีพจร (Pulse) ได้ชัดเจนที่สุด?",
-    "options": {
-      "A": "Femoral arteries",
-      "B": "Subclavian arteries",
-      "C": "Brachial arteries",
-      "D": "Common Carotid arteries"
-    },
-    "correctOption": "D",
-    "explanation": "Common Carotid artery (ซ้ายและขวา) วิ่งขึ้นไปใน Carotid sheath ข้างหลอดลม สามารถคลำชีพจร Carotid pulse ได้ง่ายข้างกระดูกอ่อนไทรอยด์ และจะแตกแขนงเป็น Internal และ External carotid arteries",
-    "system": "Cardiovascular and Lymphatic Systems",
-    "topic": "Blood Vessels & Hemodynamics",
-    "difficulty": "Easy",
-    "sourceFile": "BNS102-Anatomy of Cardiovascular and Lymphatic Sys_261024_214357.pdf",
-    "sourcePage": 70,
-    "tags": [
-      "carotid-artery",
-      "carotid-pulse"
-    ],
-    "createdAt": "2026-10-24",
-    "updatedAt": "2026-10-24",
-    "verificationStatus": "verified"
-  },
-  {
-    "id": "CARDIO-049",
-    "questionText": "หลอดเลือดดำที่อยู่ตื้นบริเวณข้อพับแขน (Cubital fossa) ซึ่งพยาบาลนิยมใช้ในการเจาะเลือดและให้สารน้ำบ่อยที่สุดคือเส้นใด?",
-    "options": {
-      "A": "Median Cubital Vein",
-      "B": "Great Saphenous Vein",
-      "C": "Femoral Vein",
-      "D": "Subclavian Vein"
-    },
-    "correctOption": "A",
-    "explanation": "Median Cubital Vein ทอดตัวเชื่อมระหว่าง Cephalic vein และ Basilic vein บริเวณข้อพับแขน (Antecubital fossa) เป็นตำแหน่งยอดนิยมสำหรับการเจาะเลือด (Venipuncture) เพราะมีขนาดใหญ่และอยู่ตื้น",
-    "system": "Cardiovascular and Lymphatic Systems",
-    "topic": "Blood Vessels & Hemodynamics",
-    "difficulty": "Easy",
-    "sourceFile": "BNS102-Anatomy of Cardiovascular and Lymphatic Sys_261024_214357.pdf",
-    "sourcePage": 82,
-    "tags": [
-      "median-cubital-vein",
-      "venipuncture",
-      "nursing-skills"
-    ],
-    "createdAt": "2026-10-24",
-    "updatedAt": "2026-10-24",
-    "verificationStatus": "verified"
-  },
-  {
-    "id": "CARDIO-050",
-    "questionText": "หลอดเลือดดำที่ยาวที่สุดในร่างกายมนุษย์ (Longest vein) ซึ่งทอดตัวอยู่ด้านในของขาจากข้อเท้าขึ้นสู่ต้นขาคือเส้นใด?",
-    "options": {
-      "A": "Small Saphenous Vein",
-      "B": "Great Saphenous Vein",
-      "C": "Femoral Vein",
-      "D": "Popliteal Vein"
-    },
-    "correctOption": "B",
-    "explanation": "Great Saphenous Vein เป็นหลอดเลือดดำตื้นที่ยาวที่สุด เริ่มต้นจากหลังเท้า ทอดผ่านหน้าตาตุ่มด้านใน ขึ้นมาตามขาด้านใน เข้าสู่ Femoral vein นิยมนำมาใช้ทำ Coronary Artery Bypass Graft (CABG)",
-    "system": "Cardiovascular and Lymphatic Systems",
-    "topic": "Blood Vessels & Hemodynamics",
-    "difficulty": "Easy",
-    "sourceFile": "BNS102-Anatomy of Cardiovascular and Lymphatic Sys_261024_214357.pdf",
-    "sourcePage": 85,
-    "tags": [
-      "great-saphenous-vein",
-      "longest-vein",
-      "cabg"
-    ],
-    "createdAt": "2026-10-24",
-    "updatedAt": "2026-10-24",
-    "verificationStatus": "verified"
-  },
-  {
-    "id": "CARDIO-051",
-    "questionText": "สารโปรตีนชนิดใดที่มีสัดส่วนมากที่สุดในพลาสมา (ประมาณ 54-60%) ทำหน้าที่สร้างแรงดันคอลลอยด์ออสโมติก (Colloid Osmotic Pressure) เพื่อดึงน้ำไว้ในหลอดเลือด?",
-    "options": {
-      "A": "Fibrinogen",
-      "B": "Globulin",
-      "C": "Albumin",
-      "D": "Hemoglobin"
-    },
-    "correctOption": "C",
-    "explanation": "Albumin สังเคราะห์จากตับ เป็นโปรตีนพลาสมาที่มีสัดส่วนสูงที่สุด ทำหน้าที่หลักในการรักษา Blood Colloid Osmotic Pressure หากขาดอัลบูมินจะเกิดอาการบวมน้ำ (Edema)",
-    "system": "Cardiovascular and Lymphatic Systems",
-    "topic": "Blood Components & Hematology",
-    "difficulty": "Easy",
-    "sourceFile": "BNS102-Anatomy of Cardiovascular and Lymphatic Sys_261024_214357.pdf",
-    "sourcePage": 6,
-    "tags": [
-      "plasma-proteins",
-      "albumin",
-      "oncotic-pressure"
-    ],
-    "createdAt": "2026-10-24",
-    "updatedAt": "2026-10-24",
-    "verificationStatus": "verified"
-  },
-  {
-    "id": "CARDIO-052",
-    "questionText": "อายุขัยเฉลี่ย (Lifespan) ของเซลล์เม็ดเลือดแดง (RBC) ในกระแสเลือดคนปกติคือประมาณกี่วัน?",
-    "options": {
-      "A": "ตลอดชีวิตโดยไม่ตาย",
-      "B": "ประมาณ 10 วัน",
-      "C": "ประมาณ 3 - 5 วัน",
-      "D": "ประมาณ 120 วัน"
-    },
-    "correctOption": "D",
-    "explanation": "เนื่องจาก RBC ไม่มีนิวเคลียสและไม่สามารถสังเคราะห์โปรตีนใหม่ได้ จึงมีอายุเฉลี่ยประมาณ 120 วัน จากนั้นจะเสื่อมสภาพและถูกทำลายโดย Macrophages ในม้าม ตับ และไขกระดูก",
-    "system": "Cardiovascular and Lymphatic Systems",
-    "topic": "Blood Components & Hematology",
-    "difficulty": "Easy",
-    "sourceFile": "BNS102-Anatomy of Cardiovascular and Lymphatic Sys_261024_214357.pdf",
-    "sourcePage": 7,
-    "tags": [
-      "rbc-lifespan",
-      "erythrocyte-turnover"
-    ],
-    "createdAt": "2026-10-24",
-    "updatedAt": "2026-10-24",
-    "verificationStatus": "verified"
-  },
-  {
-    "id": "CARDIO-053",
-    "questionText": "ฮีโมโกลบิน 1 โมเลกุล (Hemoglobin molecule) สามารถจับกับโมเลกุลของก๊าซออกซิเจน (O2) ได้สูงสุดกี่โมเลกุล?",
-    "options": {
-      "A": "4 โมเลกุล (เพราะมี Heme group 4 หน่วย บรรจุ Fe2+ หน่วยละ 1 อะตอม)",
-      "B": "2 โมเลกุล",
-      "C": "1 โมเลกุล",
-      "D": "8 โมเลกุล"
-    },
-    "correctOption": "A",
-    "explanation": "Hemoglobin ประกอบด้วยสาย polypeptide 4 สาย (Globin) แต่ละสายมีหมู่วงแหวน Heme ที่มีเหล็ก Fe2+ ตรงกลาง 1 อะตอม จึงสามารถจับกับ O2 ได้ 4 โมเลกุล (เกิดเป็น Oxyhemoglobin)",
-    "system": "Cardiovascular and Lymphatic Systems",
-    "topic": "Blood Components & Hematology",
-    "difficulty": "Medium",
-    "sourceFile": "BNS102-Anatomy of Cardiovascular and Lymphatic Sys_261024_214357.pdf",
-    "sourcePage": 7,
-    "tags": [
-      "hemoglobin",
-      "oxygen-binding",
-      "heme"
-    ],
-    "createdAt": "2026-10-24",
-    "updatedAt": "2026-10-24",
-    "verificationStatus": "verified"
-  },
-  {
-    "id": "CARDIO-054",
-    "questionText": "เซลล์เม็ดเลือดขาวชนิดใดที่ทำหน้าที่ผลิตแอนติบอดี (Antibodies / Immunoglobulins) ในกระแสเลือด?",
-    "options": {
-      "A": "T cytotoxic cells",
-      "B": "B lymphocytes เมื่อพัฒนาไปเป็น Plasma cells",
-      "C": "Neutrophils",
-      "D": "Natural killer cells"
-    },
-    "correctOption": "B",
-    "explanation": "B lymphocytes เมื่อตรวจจับแอนติเจนและได้รับการกระตุ้น จะแบ่งตัวและพัฒนาเป็น Plasma cells ทำหน้าที่เป็นโรงงานสังเคราะห์และหลั่ง Antibody จำเพาะเข้าสู่ระบบไหลเวียนโลหิต (Humoral immunity)",
-    "system": "Cardiovascular and Lymphatic Systems",
-    "topic": "Blood Components & Hematology",
-    "difficulty": "Easy",
-    "sourceFile": "BNS102-Anatomy of Cardiovascular and Lymphatic Sys_261024_214357.pdf",
-    "sourcePage": 13,
-    "tags": [
-      "plasma-cells",
-      "antibodies",
-      "b-cells"
-    ],
-    "createdAt": "2026-10-24",
-    "updatedAt": "2026-10-24",
-    "verificationStatus": "verified"
-  },
-  {
-    "id": "CARDIO-055",
-    "questionText": "กล้ามเนื้อสันนูนคล้ายฟันหวี (Pectinate muscles) พบได้ที่ผนังด้านในของโครงสร้างหัวใจใด?",
-    "options": {
-      "A": "Right Ventricle",
-      "B": "Left Ventricle",
-      "C": "Right Atrium (ผนังด้านหน้า) และ Auricles (ติ่งหูช้างของ Atrium)",
-      "D": "Aortic valve"
-    },
-    "correctOption": "C",
-    "explanation": "Pectinate muscles เป็นสันกล้ามเนื้อนูนขนานกันคล้ายซี่หวี พบที่ผนังด้านหน้าของ Right Atrium และภายใน Auricle ทั้งสองข้าง โดยมีรอยแบ่ง Crista terminalis กั้นกับผนังเรียบด้านหลัง",
-    "system": "Cardiovascular and Lymphatic Systems",
-    "topic": "Cardiac Chambers & Valves",
-    "difficulty": "Medium",
-    "sourceFile": "BNS102-Anatomy of Cardiovascular and Lymphatic Sys_261024_214357.pdf",
-    "sourcePage": 22,
-    "tags": [
-      "pectinate-muscles",
-      "auricles",
-      "atrium"
-    ],
-    "createdAt": "2026-10-24",
-    "updatedAt": "2026-10-24",
-    "verificationStatus": "verified"
-  },
-  {
-    "id": "CARDIO-056",
-    "questionText": "สันกล้ามเนื้อนูนสานกันเป็นร่างแหบนผนังด้านในของโพรงหัวใจห้องล่างทั้งสองข้าง (Ventricles) มีชื่อเรียกว่าอะไร?",
-    "options": {
-      "A": "Intercalated discs",
-      "B": "Pectinate muscles",
-      "C": "Chordae tendineae",
-      "D": "Trabeculae carneae"
-    },
-    "correctOption": "D",
-    "explanation": "Trabeculae carneae คือสันกล้ามเนื้อนูนสานกันเป็นร่างแหที่ผนังด้านในของ Ventricles ช่วยเพิ่มประสิทธิภาพการบีบตัวและลดแรงกระแทกของกระแสน้ำเลือด",
-    "system": "Cardiovascular and Lymphatic Systems",
-    "topic": "Cardiac Chambers & Valves",
-    "difficulty": "Medium",
-    "sourceFile": "BNS102-Anatomy of Cardiovascular and Lymphatic Sys_261024_214357.pdf",
-    "sourcePage": 27,
-    "tags": [
-      "trabeculae-carneae",
-      "ventricles"
-    ],
-    "createdAt": "2026-10-24",
-    "updatedAt": "2026-10-24",
-    "verificationStatus": "verified"
-  },
-  {
-    "id": "CARDIO-057",
-    "questionText": "ลิ้นหัวใจ Semilunar valves (Aortic valve และ Pulmonary valve) มีโครงสร้างแผ่นลิ้นกี่แฉก และมีรูปร่างอย่างไร?",
-    "options": {
-      "A": "มี 3 แฉก รูปกระเปาะเสี้ยวพระจันทร์ (Crescent / Half-moon shaped cusps) โดยไม่มี Chordae tendineae ยึด",
-      "B": "มี 2 แฉก และมี Chordae tendineae ยึดแน่น",
-      "C": "มี 4 แฉก รูปสี่เหลี่ยม",
-      "D": "มี 1 แฉกกลม"
-    },
-    "correctOption": "A",
-    "explanation": "Semilunar valves แต่ละอันประกอบด้วยแผ่นลิ้นรูปกระเปาะเสี้ยวจันทร์ 3 ชิ้น ยึดกับผนังหลอดเลือดแดง ทำงานตามแรงดันเลือด เมื่อ Ventricle คลายตัว เลือดจะไหลกลับมาเติมเต็มกระเปาะทำให้ลิ้นแนบปิดสนิท",
-    "system": "Cardiovascular and Lymphatic Systems",
-    "topic": "Cardiac Chambers & Valves",
-    "difficulty": "Medium",
-    "sourceFile": "BNS102-Anatomy of Cardiovascular and Lymphatic Sys_261024_214357.pdf",
-    "sourcePage": 32,
-    "tags": [
-      "semilunar-valves",
-      "aortic-valve",
-      "pulmonary-valve"
-    ],
-    "createdAt": "2026-10-24",
-    "updatedAt": "2026-10-24",
-    "verificationStatus": "verified"
-  },
-  {
-    "id": "CARDIO-058",
-    "questionText": "หลอดเลือด Coronary Sinus รวบรวมเลือดดำจากกล้ามเนื้อหัวใจทั้งหมดมาเปิดเข้าสู่หัวใจห้องใด?",
-    "options": {
-      "A": "Left Atrium",
-      "B": "Right Atrium (หัวใจห้องบนขวา)",
-      "C": "Right Ventricle",
-      "D": "Superior Vena Cava"
-    },
-    "correctOption": "B",
-    "explanation": "Coronary Sinus เป็นหลอดเลือดดำขนาดใหญ่ทอดอยู่ใน Coronary sulcus ทางด้านหลังของหัวใจ รับเลือดดำจาก Great, Middle, และ Small cardiac veins แล้วเทตรงเข้าสู่ Right Atrium",
-    "system": "Cardiovascular and Lymphatic Systems",
-    "topic": "Coronary Circulation & Conduction",
-    "difficulty": "Easy",
-    "sourceFile": "BNS102-Anatomy of Cardiovascular and Lymphatic Sys_261024_214357.pdf",
-    "sourcePage": 40,
-    "tags": [
-      "coronary-sinus",
-      "cardiac-veins",
-      "right-atrium"
-    ],
-    "createdAt": "2026-10-24",
-    "updatedAt": "2026-10-24",
-    "verificationStatus": "verified"
-  },
-  {
-    "id": "CARDIO-059",
-    "questionText": "หลอดเลือดแดงแขนง Circumflex artery แยกตัวมาจากหลอดเลือดแดงใด และวิ่งไปเลี้ยงหัวใจส่วนใด?",
-    "options": {
-      "A": "แยกมาจาก Aorta เลี้ยงปอด",
-      "B": "แยกมาจาก Right Coronary Artery เลี้ยง Atrium ขวา",
-      "C": "แยกมาจาก Left Coronary Artery (LCA) วิ่งอ้อมไปตาม Coronary sulcus เลี้ยง Atrium ซ้าย และผนังด้านข้าง/หลังของ Ventricle ซ้าย",
-      "D": "แยกมาจาก Carotid artery"
-    },
-    "correctOption": "C",
-    "explanation": "Left Coronary Artery แตกเป็น 2 แขนงหลักคือ LAD และ Circumflex artery โดย Circumflex วิ่งอ้อมไปทางด้านซ้ายและหลังใน Coronary groove เลี้ยง Left Atrium และ Lateral/Posterior wall ของ Left Ventricle",
-    "system": "Cardiovascular and Lymphatic Systems",
-    "topic": "Coronary Circulation & Conduction",
-    "difficulty": "Medium",
-    "sourceFile": "BNS102-Anatomy of Cardiovascular and Lymphatic Sys_261024_214357.pdf",
-    "sourcePage": 39,
-    "tags": [
-      "circumflex-artery",
-      "lca"
-    ],
-    "createdAt": "2026-10-24",
-    "updatedAt": "2026-10-24",
-    "verificationStatus": "verified"
-  },
-  {
-    "id": "CARDIO-060",
-    "questionText": "หลอดเลือดแดง Posterior Interventricular Artery (PDA) ในคนส่วนใหญ่ (~70-80% Right dominant) แยกออกมาจากหลอดเลือดแดงใด?",
-    "options": {
-      "A": "Internal thoracic artery",
-      "B": "Left Anterior Descending artery (LAD)",
-      "C": "Circumflex artery",
-      "D": "Right Coronary Artery (RCA)"
-    },
-    "correctOption": "D",
-    "explanation": "ในสรีรวิทยาแบบ Right dominance หลอดเลือด Posterior Interventricular Artery (วิ่งในร่องด้านหลังของหัวใจ) แยกตัวออกมาจาก Right Coronary Artery เลี้ยงผนังล่างและ 1/3 หลังของ septum",
-    "system": "Cardiovascular and Lymphatic Systems",
-    "topic": "Coronary Circulation & Conduction",
-    "difficulty": "Hard",
-    "sourceFile": "BNS102-Anatomy of Cardiovascular and Lymphatic Sys_261024_214357.pdf",
-    "sourcePage": 39,
-    "tags": [
-      "posterior-descending-artery",
-      "rca",
-      "cardiac-dominance"
-    ],
-    "createdAt": "2026-10-24",
-    "updatedAt": "2026-10-24",
-    "verificationStatus": "verified"
-  },
-  {
-    "id": "CARDIO-061",
-    "questionText": "โครงสร้างกระดูกพังผืดของหัวใจ (Fibrous skeleton of the heart) มีหน้าที่สำคัญอย่างไรนอกจากเป็นที่เกาะของลิ้นหัวใจและกล้ามเนื้อ?",
-    "options": {
-      "A": "ทำหน้าที่เป็นฉนวนกั้นไฟฟ้า (Electrical insulator) ป้องกันไม่ให้สัญญาณไฟฟ้าลัดจากห้องบนลงห้องล่างโดยไม่ผ่าน AV node",
-      "B": "ผลิตฮอร์โมนควบคุมความดัน",
-      "C": "สร้างเม็ดเลือดแดง",
-      "D": "ป้องกันการติดเชื้อไวรัส"
-    },
-    "correctOption": "A",
-    "explanation": "Fibrous skeleton ประกอบด้วยวงแหวน fibrous rings รอบลิ้นหัวใจทั้ง 4 นอกจากเป็นโครงร่างยึดเกาะแล้ว ยังทำหน้าที่เป็นฉนวนกั้นกระแสไฟฟ้า ทำให้คลื่นไฟฟ้าต้องผ่านทาง AV bundle เท่านั้น",
-    "system": "Cardiovascular and Lymphatic Systems",
-    "topic": "Cardiac Chambers & Valves",
-    "difficulty": "Hard",
-    "sourceFile": "BNS102-Anatomy of Cardiovascular and Lymphatic Sys_261024_214357.pdf",
-    "sourcePage": 36,
-    "tags": [
-      "fibrous-skeleton",
-      "electrical-insulator"
-    ],
-    "createdAt": "2026-10-24",
-    "updatedAt": "2026-10-24",
-    "verificationStatus": "verified"
-  },
-  {
-    "id": "CARDIO-062",
-    "questionText": "หลอดเลือดชนิดใดที่มีโครงสร้างผนังแบบ Elastic tissue หนาแน่นมาก (Elastic / Conducting arteries) เพื่อทำหน้าที่เป็น \"Pressure reservoir\" ช่วยรองรับแรงกระแทกของเลือดและเปลี่ยนการไหลแบบจังหวะให้ต่อเนื่อง?",
-    "options": {
-      "A": "Radial artery และ Ulnar artery",
-      "B": "Aorta และ Pulmonary trunk",
-      "C": "Arterioles",
-      "D": "Venules"
-    },
-    "correctOption": "B",
-    "explanation": "Elastic (Conducting) arteries เช่น Aorta มีชั้น Tunica media เต็มไปด้วย Elastic laminae สามารถขยายตัวรับแรงดันขณะ Systole (Windkessel effect) และหดตัวคืนรูปผลักดันเลือดไปข้างหน้าขณะ Diastole",
-    "system": "Cardiovascular and Lymphatic Systems",
-    "topic": "Blood Vessels & Hemodynamics",
-    "difficulty": "Medium",
-    "sourceFile": "BNS102-Anatomy of Cardiovascular and Lymphatic Sys_261024_214357.pdf",
-    "sourcePage": 51,
-    "tags": [
-      "elastic-arteries",
-      "aorta",
-      "windkessel-effect"
-    ],
-    "createdAt": "2026-10-24",
-    "updatedAt": "2026-10-24",
-    "verificationStatus": "verified"
-  },
-  {
-    "id": "CARDIO-063",
-    "questionText": "หลอดเลือดฝอยชนิด Sinusoids (Discontinuous capillaries) มีลักษณะเด่นอย่างไร และพบได้ในอวัยวะใด?",
-    "options": {
-      "A": "พบในผิวหนังเท่านั้น",
-      "B": "มีผนังทึบไม่มีรูพรุน พบในสมอง",
-      "C": "มีช่องว่างระหว่างเซลล์ขนาดใหญ่มากและมี Basement membrane ที่ไม่สมบูรณ์ พบในตับ (Liver), ม้าม (Spleen), และไขกระดูก (Bone marrow)",
-      "D": "มีลิ้นเปิดปิดคล้ายหลอดเลือดดำ"
-    },
-    "correctOption": "C",
-    "explanation": "Sinusoids มีเส้นผ่านศูนย์กลางกว้าง มีรอยแยกขนาดใหญ่ และ basement membrane ขาดช่วง ช่วยให้โปรตีนขนาดใหญ่และเซลล์เม็ดเลือดเคลื่อนผ่านเข้าออกจากเนื้อเยื่อได้ พบในตับ ม้าม และไขกระดูก",
-    "system": "Cardiovascular and Lymphatic Systems",
-    "topic": "Blood Vessels & Hemodynamics",
-    "difficulty": "Hard",
-    "sourceFile": "BNS102-Anatomy of Cardiovascular and Lymphatic Sys_261024_214357.pdf",
-    "sourcePage": 57,
-    "tags": [
-      "sinusoids",
-      "discontinuous-capillaries",
-      "liver-spleen"
-    ],
-    "createdAt": "2026-10-24",
-    "updatedAt": "2026-10-24",
-    "verificationStatus": "verified"
-  },
-  {
-    "id": "CARDIO-064",
-    "questionText": "โครงสร้างใดทำหน้าที่ควบคุมการไหลของเลือดเข้าสู่ร่างแหหลอดเลือดฝอย (Capillary bed) โดยสามารถหดรัดปิดกั้นเลือดไม่ให้เข้าสู่ร่างแหเมื่อเนื้อเยื่อไม่ต้องการ?",
-    "options": {
-      "A": "Aortic semilunar valves",
-      "B": "Venous valves",
-      "C": "Papillary muscles",
-      "D": "Precapillary sphincters (หูรูดก่อนหลอดเลือดฝอย)"
-    },
-    "correctOption": "D",
-    "explanation": "Precapillary sphincter เป็นวงแหวนกล้ามเนื้อเรียบที่จุดเริ่มต้นของแต่ละหลอดเลือดฝอยแท้ (True capillary) หดหรือคลายตามความต้องการสารอาหารและออกซิเจนของเนื้อเยื่อเฉพาะที่ (Vasomotion)",
-    "system": "Cardiovascular and Lymphatic Systems",
-    "topic": "Blood Vessels & Hemodynamics",
-    "difficulty": "Medium",
-    "sourceFile": "BNS102-Anatomy of Cardiovascular and Lymphatic Sys_261024_214357.pdf",
-    "sourcePage": 58,
-    "tags": [
-      "precapillary-sphincters",
-      "microcirculation"
-    ],
-    "createdAt": "2026-10-24",
-    "updatedAt": "2026-10-24",
-    "verificationStatus": "verified"
-  },
-  {
-    "id": "CARDIO-065",
-    "questionText": "กลไก Skeletal muscle pump ช่วยในการไหลเวียนของเลือดดำกลับสู่หัวใจ (Venous return) ได้อย่างไร?",
-    "options": {
-      "A": "การหดตัวของกล้ามเนื้อลายรอบหลอดเลือดดำจะบีบดันเลือดขึ้นบน และมีลิ้นหลอดเลือดดำคอยกั้นไม่ให้เลือดไหลย้อนกลับ",
-      "B": "การบีบตัวของหลอดเลือดแดงใหญ่",
-      "C": "การขยายตัวของกระเพาะปัสสาวะ",
-      "D": "การเต้นของชีพจรข้อมือ"
-    },
-    "correctOption": "A",
-    "explanation": "เมื่อกล้ามเนื้อขาหดตัวขณะเดิน จะกดบีบหลอดเลือดดำส่วนลึก (Deep veins) ดันเลือดพุ่งขึ้นสู่หัวใจ โดยมี Venous valves ป้องกันไม่ให้เลือดไหลย้อนลงตามแรงดึงดูดของโลก",
-    "system": "Cardiovascular and Lymphatic Systems",
-    "topic": "Blood Vessels & Hemodynamics",
-    "difficulty": "Easy",
-    "sourceFile": "BNS102-Anatomy of Cardiovascular and Lymphatic Sys_261024_214357.pdf",
-    "sourcePage": 63,
-    "tags": [
-      "skeletal-muscle-pump",
-      "venous-return"
-    ],
-    "createdAt": "2026-10-24",
-    "updatedAt": "2026-10-24",
-    "verificationStatus": "verified"
-  },
-  {
-    "id": "CARDIO-066",
-    "questionText": "เส้นเลือดแดงใหญ่ Abdominal Aorta สิ้นสุดลงที่ระดับกระดูกสันหลังระดับ L4 โดยแตกแขนงออกเป็นหลอดเลือดใด?",
-    "options": {
-      "A": "Femoral arteries",
-      "B": "Right and Left Common Iliac arteries",
-      "C": "Renal arteries",
-      "D": "Celiac trunk"
-    },
-    "correctOption": "B",
-    "explanation": "Abdominal Aorta วิ่งลงมาตามแนวกระดูกสันหลังจนถึงระดับ L4 (ระดับเดียวกับยอดสะโพก Iliac crest) จากนั้นจะแตกออกเป็น 2 แขนงใหญ่คือ Right และ Left Common Iliac arteries ไปเลี้ยงอุ้งเชิงกรานและขา",
-    "system": "Cardiovascular and Lymphatic Systems",
-    "topic": "Blood Vessels & Hemodynamics",
-    "difficulty": "Medium",
-    "sourceFile": "BNS102-Anatomy of Cardiovascular and Lymphatic Sys_261024_214357.pdf",
-    "sourcePage": 74,
-    "tags": [
-      "abdominal-aorta-bifurcation",
-      "common-iliac-arteries"
-    ],
-    "createdAt": "2026-10-24",
-    "updatedAt": "2026-10-24",
-    "verificationStatus": "verified"
-  },
-  {
-    "id": "CARDIO-067",
-    "questionText": "หลอดเลือดแดงใดที่ทอดผ่านบริเวณข้อมือด้านหัวแม่มือ และเป็นตำแหน่งที่นิยมใช้ในการคลำนับอัตราชีพจร (Radial pulse) มากที่สุด?",
-    "options": {
-      "A": "Brachial artery",
-      "B": "Ulnar artery",
-      "C": "Radial artery",
-      "D": "Axillary artery"
-    },
-    "correctOption": "C",
-    "explanation": "Radial artery วิ่งลงมาตามขอบด้านข้าง (Lateral) ของปลายแขน วางตัวตื้นอยู่บนกระดูก Radius บริเวณร่องข้อมือด้านนิ้วหัวแม่มือ เป็นตำแหน่งมาตรฐานที่นิยมคลำ Radial pulse",
-    "system": "Cardiovascular and Lymphatic Systems",
-    "topic": "Blood Vessels & Hemodynamics",
-    "difficulty": "Easy",
-    "sourceFile": "BNS102-Anatomy of Cardiovascular and Lymphatic Sys_261024_214357.pdf",
-    "sourcePage": 72,
-    "tags": [
-      "radial-artery",
-      "radial-pulse"
-    ],
-    "createdAt": "2026-10-24",
-    "updatedAt": "2026-10-24",
-    "verificationStatus": "verified"
-  },
-  {
-    "id": "CARDIO-068",
-    "questionText": "หลอดเลือดแดงใดที่ใช้เป็นตำแหน่งหลักในการวางแป้นหูฟัง (Stethoscope) เพื่อฟังเสียง Korotkoff sounds ในการวัดความดันโลหิตที่ต้นแขน?",
-    "options": {
-      "A": "Femoral artery",
-      "B": "Radial artery",
-      "C": "Carotid artery",
-      "D": "Brachial artery"
-    },
-    "correctOption": "D",
-    "explanation": "Brachial artery ทอดตัวอยู่ด้านในของกล้ามเนื้อ Biceps brachii และวิ่งผ่านกึ่งกลางด้านในของข้อพับแขน (Cubital fossa) เป็นตำแหน่งหลักในการฟังเสียงเพื่อวัดความดันโลหิตด้วย Sphygmomanometer",
-    "system": "Cardiovascular and Lymphatic Systems",
-    "topic": "Blood Vessels & Hemodynamics",
-    "difficulty": "Easy",
-    "sourceFile": "BNS102-Anatomy of Cardiovascular and Lymphatic Sys_261024_214357.pdf",
-    "sourcePage": 71,
-    "tags": [
-      "brachial-artery",
-      "blood-pressure-measurement"
-    ],
-    "createdAt": "2026-10-24",
-    "updatedAt": "2026-10-24",
-    "verificationStatus": "verified"
-  },
-  {
-    "id": "CARDIO-069",
-    "questionText": "Circle of Willis (Cerebral arterial circle) ฐานสมองเกิดจากการเชื่อมต่อกันระหว่างระบบหลอดเลือดคู่ใด?",
-    "options": {
-      "A": "Internal Carotid arteries และ Vertebrobasilar system (Vertebral / Basilar arteries)",
-      "B": "External Carotid arteries และ Jugular veins",
-      "C": "Aorta และ Pulmonary trunk",
-      "D": "Subclavian artery และ Axillary artery"
-    },
-    "correctOption": "A",
-    "explanation": "Circle of Willis เป็นวงแหวนเชื่อมต่อของหลอดเลือดแดงที่ฐานสมอง เกิดจากการเชื่อมกันของ Internal Carotid arteries (ระบบหน้า) และ Vertebrobasilar system (ระบบหลัง) ผ่าน Communicating arteries ป้องกันสมองขาดเลือด",
-    "system": "Cardiovascular and Lymphatic Systems",
-    "topic": "Blood Vessels & Hemodynamics",
-    "difficulty": "Hard",
-    "sourceFile": "BNS102-Anatomy of Cardiovascular and Lymphatic Sys_261024_214357.pdf",
-    "sourcePage": 70,
-    "tags": [
-      "circle-of-willis",
-      "cerebral-circulation"
-    ],
-    "createdAt": "2026-10-24",
-    "updatedAt": "2026-10-24",
-    "verificationStatus": "verified"
-  },
-  {
-    "id": "CARDIO-070",
-    "questionText": "หลอดเลือดดำ Inferior Vena Cava (IVC) เกิดจากการรวมตัวกันของหลอดเลือดดำใดที่ระดับกระดูกสันหลัง L5?",
-    "options": {
-      "A": "Renal veins",
-      "B": "Right and Left Common Iliac veins",
-      "C": "Hepatic portal veins",
-      "D": "Femoral veins"
-    },
-    "correctOption": "B",
-    "explanation": "IVC เกิดจากการรวมตัวกันของ Right และ Left Common Iliac veins ที่ระดับกระดูก L5 หลังจุดแยกของ Common iliac arteries แล้วทอดขึ้นขนานทางขวาของ Aorta เข้าสู่หัวใจห้องบนขวา",
-    "system": "Cardiovascular and Lymphatic Systems",
-    "topic": "Blood Vessels & Hemodynamics",
-    "difficulty": "Medium",
-    "sourceFile": "BNS102-Anatomy of Cardiovascular and Lymphatic Sys_261024_214357.pdf",
-    "sourcePage": 84,
-    "tags": [
-      "ivc",
-      "common-iliac-veins"
-    ],
-    "createdAt": "2026-10-24",
-    "updatedAt": "2026-10-24",
-    "verificationStatus": "verified"
-  },
-  {
-    "id": "CARDIO-071",
-    "questionText": "ระบบหลอดเลือดดำ Azygos system (Azygos, Hemiazygos, Accessory hemiazygos veins) ทำหน้าที่ระบายเลือดดำจากบริเวณใดเข้าสู่ SVC?",
-    "options": {
-      "A": "ตับและลำไส้เล็ก",
-      "B": "สมองและกะโหลกศีรษะ",
-      "C": "ผนังทรวงอก (Thoracic wall), ช่องว่างระหว่างซี่โครง, และอวัยวะภายในช่องอก",
-      "D": "ขาหนีบและต้นขา"
-    },
-    "correctOption": "C",
-    "explanation": "Azygos vein ทอดตัวทางด้านขวาของกระดูกสันหลังอก รับเลือดดำจาก Intercostal veins ของผนังทรวงอกและหลอดอาหาร แล้วโค้งข้ามขั้วปอดขวาเทเข้าสู่ Superior Vena Cava โดยตรง",
-    "system": "Cardiovascular and Lymphatic Systems",
-    "topic": "Blood Vessels & Hemodynamics",
-    "difficulty": "Hard",
-    "sourceFile": "BNS102-Anatomy of Cardiovascular and Lymphatic Sys_261024_214357.pdf",
-    "sourcePage": 81,
-    "tags": [
-      "azygos-system",
-      "thoracic-wall-veins"
-    ],
-    "createdAt": "2026-10-24",
-    "updatedAt": "2026-10-24",
-    "verificationStatus": "verified"
-  },
-  {
-    "id": "CARDIO-072",
-    "questionText": "หลอดเลือดขนาดเล็กที่ทำหน้าที่ส่งเลือดไปเลี้ยงเซลล์ในชั้นนอก (Tunica media และ Adventitia) ของผนังหลอดเลือดขนาดใหญ่ เช่น Aorta เรียกว่าอะไร?",
-    "options": {
-      "A": "Metarterioles",
-      "B": "Coronary arteries",
-      "C": "Precapillary sphincters",
-      "D": "Vasa vasorum (หลอดเลือดเลี้ยงหลอดเลือด)"
-    },
-    "correctOption": "D",
-    "explanation": "Vasa vasorum (Vessels of the vessels) เป็นเครือข่ายหลอดเลือดแดงและดำขนาดจิ๋วที่แทรกตัวอยู่ในชั้น Tunica adventitia เพื่อนำ O2 และสารอาหารไปเลี้ยงเซลล์ผนังหลอดเลือดขนาดใหญ่ที่มีผนังหนาเกินกว่าจะรับอาหารจากการแพร่",
-    "system": "Cardiovascular and Lymphatic Systems",
-    "topic": "Blood Vessels & Hemodynamics",
-    "difficulty": "Hard",
-    "sourceFile": "BNS102-Anatomy of Cardiovascular and Lymphatic Sys_261024_214357.pdf",
-    "sourcePage": 49,
-    "tags": [
-      "vasa-vasorum",
-      "vessel-nutrition"
-    ],
-    "createdAt": "2026-10-24",
-    "updatedAt": "2026-10-24",
-    "verificationStatus": "verified"
-  },
-  {
-    "id": "CARDIO-073",
-    "questionText": "การอุดตันของท่อน้ำเหลือง (Lymphatic obstruction) เช่น จากพยาธิโรคเท้าช้าง (Filariasis) หรือการผ่าตัดเลาะต่อมน้ำเหลือง จะส่งผลให้เกิดพยาธิสภาพข้อใด?",
-    "options": {
-      "A": "Lymphedema (อาการบวมน้ำเหลืองอย่างรุนแรงของเนื้อเยื่อส่วนปลาย)",
-      "B": "ความดันโลหิตต่ำเฉียบพลัน",
-      "C": "ดีซ่านตัวเหลืองตาเหลือง",
-      "D": "เลือดออกไม่หยุด"
-    },
-    "correctOption": "A",
-    "explanation": "เมื่อท่อน้ำเหลืองอุดตัน น้ำและโปรตีนที่ซึมออกจากหลอดเลือดฝอยจะไม่สามารถระบายกลับเข้าสู่ระบบไหลเวียนได้ เกิดการสะสมของ interstitial fluid นำไปสู่ภาวะบวมน้ำเหลือง (Lymphedema)",
-    "system": "Cardiovascular and Lymphatic Systems",
-    "topic": "Lymphatic Organs & Circulation",
-    "difficulty": "Medium",
-    "sourceFile": "BNS102-Anatomy of Cardiovascular and Lymphatic Sys_261024_214357.pdf",
-    "sourcePage": 91,
-    "tags": [
-      "lymphedema",
-      "lymphatic-obstruction",
-      "clinical"
-    ],
-    "createdAt": "2026-10-24",
-    "updatedAt": "2026-10-24",
-    "verificationStatus": "verified"
-  },
-  {
-    "id": "CARDIO-074",
-    "questionText": "ต่อมน้ำเหลือง Sentinel lymph node มีความสำคัญอย่างไรในทางคลินิกโรคมะเร็งเต้านม?",
-    "options": {
-      "A": "เป็นต่อมที่ผลิตฮอร์โมนเอสโตรเจน",
-      "B": "เป็นต่อมน้ำเหลืองต่อมแรกที่รับการระบายน้ำเหลืองจากเนื้องอก หากตรวจไม่พบเซลล์มะเร็ง โอกาสที่มะเร็งจะแพร่กระจายไปต่อมอื่นจะมีน้อยมาก",
-      "C": "เป็นต่อมน้ำเหลืองที่มีขนาดใหญ่ที่สุดในรักแร้",
-      "D": "เป็นต่อมน้ำเหลืองที่สร้างเม็ดเลือดขาวชนิดเดียว"
-    },
-    "correctOption": "B",
-    "explanation": "Sentinel node เป็นต่อมน้ำเหลืองด่านแรก (First guardian) ในสายธารน้ำเหลืองจากก้อนมะเร็ง ศัลยแพทย์มักตัดไปตรวจ (Sentinel lymph node biopsy) เพื่อประเมินการแพร่กระจายก่อนตัดสินใจเลาะต่อมน้ำเหลืองทั้งหมด",
-    "system": "Cardiovascular and Lymphatic Systems",
-    "topic": "Lymphatic Organs & Circulation",
-    "difficulty": "Hard",
-    "sourceFile": "BNS102-Anatomy of Cardiovascular and Lymphatic Sys_261024_214357.pdf",
-    "sourcePage": 96,
-    "tags": [
-      "sentinel-node",
-      "breast-cancer",
-      "clinical-application"
-    ],
-    "createdAt": "2026-10-24",
-    "updatedAt": "2026-10-24",
-    "verificationStatus": "verified"
-  },
-  {
-    "id": "CARDIO-075",
-    "questionText": "กลุ่มต่อมน้ำเหลืองบริเวณรักแร้ (Axillary lymph nodes) รับน้ำเหลืองจากบริเวณใดเป็นหลัก?",
-    "options": {
-      "A": "สมองและใบหน้า",
-      "B": "ขาทั้งสองข้างและฝีเย็บ",
-      "C": "เต้านม (ประมาณ 75%), ผนังทรวงอกส่วนบน, และแขนข้างเดียวกัน",
-      "D": "ตับและลำไส้"
-    },
-    "correctOption": "C",
-    "explanation": "Axillary lymph nodes รับการระบายน้ำเหลืองมากกว่า 75% จากเต้านม (Mammary gland), รยางค์บน (Upper limb) ทั้งหมด และผนังหน้าอก/หน้าท้องส่วนบนเหนือระดับสะดือ",
-    "system": "Cardiovascular and Lymphatic Systems",
-    "topic": "Lymphatic Organs & Circulation",
-    "difficulty": "Medium",
-    "sourceFile": "BNS102-Anatomy of Cardiovascular and Lymphatic Sys_261024_214357.pdf",
-    "sourcePage": 96,
-    "tags": [
-      "axillary-lymph-nodes",
-      "breast-drainage"
-    ],
-    "createdAt": "2026-10-24",
-    "updatedAt": "2026-10-24",
-    "verificationStatus": "verified"
-  },
-  {
-    "id": "CARDIO-076",
-    "questionText": "กลุ่มต่อมน้ำเหลืองบริเวณขาหนีบ (Inguinal lymph nodes) ทำหน้าที่รับน้ำเหลืองจากบริเวณใด?",
-    "options": {
-      "A": "หัวใจและปอด",
-      "B": "เต้านมและคอ",
-      "C": "ม้ามและกระเพาะอาหาร",
-      "D": "รยางค์ล่าง (Lower limb), ผนังหน้าท้องใต้สะดือ, ก้น, และอวัยวะสืบพันธุ์ภายนอก"
-    },
-    "correctOption": "D",
-    "explanation": "Inguinal lymph nodes (ทั้งกลุ่ม Superficial และ Deep) กรองน้ำเหลืองจากขาทั้งข้าง, ผนังหน้าท้องส่วนล่างใต้ระดับสะดือ, บริเวณฝีเย็บ (Perineum) และอวัยวะเพศภายนอก",
-    "system": "Cardiovascular and Lymphatic Systems",
-    "topic": "Lymphatic Organs & Circulation",
-    "difficulty": "Medium",
-    "sourceFile": "BNS102-Anatomy of Cardiovascular and Lymphatic Sys_261024_214357.pdf",
-    "sourcePage": 96,
-    "tags": [
-      "inguinal-lymph-nodes",
-      "lower-limb-drainage"
-    ],
-    "createdAt": "2026-10-24",
-    "updatedAt": "2026-10-24",
-    "verificationStatus": "verified"
-  },
-  {
-    "id": "CARDIO-077",
-    "questionText": "เซลล์เม็ดเลือดขาวชนิดใดที่ทำหน้าที่เป็นเซลล์เม็ดเลือดขาวจำเพาะ (Specific immunity) แบ่งออกเป็น T cells และ B cells?",
-    "options": {
-      "A": "Lymphocytes",
-      "B": "Neutrophils",
-      "C": "Monocytes",
-      "D": "Eosinophils"
-    },
-    "correctOption": "A",
-    "explanation": "Lymphocytes (มีประมาณ 20-25% ของ WBC ทั้งหมด) เป็นเซลล์หลักของระบบภูมิคุ้มกันแบบจำเพาะเจาะจง (Adaptive immunity) มีนิวเคลียสกลมเข้มเกือบเต็มเซลล์ แบ่งเป็น T cells, B cells และ NK cells",
-    "system": "Cardiovascular and Lymphatic Systems",
-    "topic": "Blood Components & Hematology",
-    "difficulty": "Easy",
-    "sourceFile": "BNS102-Anatomy of Cardiovascular and Lymphatic Sys_261024_214357.pdf",
-    "sourcePage": 13,
-    "tags": [
-      "lymphocytes",
-      "adaptive-immunity"
-    ],
-    "createdAt": "2026-10-24",
-    "updatedAt": "2026-10-24",
-    "verificationStatus": "verified"
-  },
-  {
-    "id": "CARDIO-078",
-    "questionText": "ในวงจรไหลเวียนเลือดของทารกในครรภ์ (Fetal circulation) หลอดเลือด Ductus arteriosus เชื่อมระหว่างโครงสร้างใดเพื่อลัดเลือดไม่ให้ผ่านปอด?",
-    "options": {
-      "A": "เชื่อมระหว่าง Umbilical vein กับ IVC",
-      "B": "เชื่อมระหว่าง Pulmonary trunk กับ Arch of Aorta (กลายเป็น Ligamentum arteriosum หลังคลอด)",
-      "C": "เชื่อมระหว่าง Right atrium กับ Left atrium",
-      "D": "เชื่อมระหว่าง Carotid artery กับ Jugular vein"
-    },
-    "correctOption": "B",
-    "explanation": "Ductus arteriosus เป็นหลอดเลือดลัดเชื่อมระหว่าง Pulmonary trunk กับ Aorta เพื่อเบี่ยงเบนเลือดดำที่มี O2 ต่ำไม่ให้เข้าสู่ปอดที่ยังไม่ขยายตัว เมื่อทารกหายใจครั้งแรกจะหดตัวกลายเป็น Ligamentum arteriosum",
-    "system": "Cardiovascular and Lymphatic Systems",
-    "topic": "Cardiac Chambers & Valves",
-    "difficulty": "Hard",
-    "sourceFile": "BNS102-Anatomy of Cardiovascular and Lymphatic Sys_261024_214357.pdf",
-    "sourcePage": 37,
-    "tags": [
-      "ductus-arteriosus",
-      "fetal-circulation",
-      "ligamentum-arteriosum"
-    ],
-    "createdAt": "2026-10-24",
-    "updatedAt": "2026-10-24",
-    "verificationStatus": "verified"
-  },
-  {
-    "id": "CARDIO-079",
-    "questionText": "หลอดเลือดแดงใดที่นำเลือดดำ (Deoxygenated blood) ออกจากหัวใจ?",
-    "options": {
-      "A": "Coronary arteries",
-      "B": "Aorta",
-      "C": "Pulmonary arteries (หลอดเลือดแดงปอด)",
-      "D": "Carotid arteries"
-    },
-    "correctOption": "C",
-    "explanation": "ข้อยกเว้นสำคัญ! Pulmonary arteries เป็นหลอดเลือดแดงเพียงชนิดเดียวในผู้ใหญ่ที่นำ \"เลือดดำ\" (O2 ต่ำ) ออกจากหัวใจห้องล่างขวาไปสู่ปอดเพื่อฟอกออกซิเจน",
-    "system": "Cardiovascular and Lymphatic Systems",
-    "topic": "Cardiac Chambers & Valves",
-    "difficulty": "Easy",
-    "sourceFile": "BNS102-Anatomy of Cardiovascular and Lymphatic Sys_261024_214357.pdf",
-    "sourcePage": 27,
-    "tags": [
-      "pulmonary-arteries",
-      "deoxygenated-blood",
-      "exceptions"
-    ],
-    "createdAt": "2026-10-24",
-    "updatedAt": "2026-10-24",
-    "verificationStatus": "verified"
-  },
-  {
-    "id": "CARDIO-080",
-    "questionText": "หลอดเลือดดำใดที่นำเลือดแดง (Oxygenated blood) เข้าสู่หัวใจ?",
-    "options": {
-      "A": "Jugular veins",
-      "B": "Superior Vena Cava",
-      "C": "Inferior Vena Cava",
-      "D": "Pulmonary veins (หลอดเลือดดำปอด 4 เส้น)"
-    },
-    "correctOption": "D",
-    "explanation": "ข้อยกเว้นสำคัญ! Pulmonary veins เป็นหลอดเลือดดำที่นำ \"เลือดแดง\" (O2 สูง) ที่ฟอกแล้วจากปอดกลับเข้าสู่หัวใจห้องบนซ้าย (Left Atrium)",
-    "system": "Cardiovascular and Lymphatic Systems",
-    "topic": "Cardiac Chambers & Valves",
-    "difficulty": "Easy",
-    "sourceFile": "BNS102-Anatomy of Cardiovascular and Lymphatic Sys_261024_214357.pdf",
-    "sourcePage": 30,
-    "tags": [
-      "pulmonary-veins",
-      "oxygenated-blood"
-    ],
-    "createdAt": "2026-10-24",
-    "updatedAt": "2026-10-24",
-    "verificationStatus": "verified"
-  },
-  {
-    "id": "CARDIO-081",
-    "questionText": "ภาวะ Cardiac Tamponade (ภาวะบีบรัดหัวใจเฉียบพลัน) เกิดจากพยาธิสภาพข้อใด?",
-    "options": {
-      "A": "การมีของเหลวหรือเลือดสะสมในช่อง Pericardial cavity ในปริมาณมากจนเพิ่มแรงดันกดเบียดหัวใจ ทำให้ Ventricles ขยายตัวรับเลือดไม่ได้",
-      "B": "การติดเชื้อแบคทีเรียที่ลิ้นหัวใจ",
-      "C": "การขาดเลือดของกล้ามเนื้อหัวใจ",
-      "D": "การเต้นของหัวใจช้าเกินไป"
-    },
-    "correctOption": "A",
-    "explanation": "เมื่อมีของเหลวคั่งใน Pericardial space เกินความจุของ Fibrous pericardium ที่ไม่ยืดหยุ่น จะเกิดแรงดันกดทับบีบห้องหัวใจ (Cardiac Tamponade) เลือดไหลกลับเข้า Atrium ไม่ได้ ความดันตกและถึงแก่ชีวิต",
-    "system": "Cardiovascular and Lymphatic Systems",
-    "topic": "Heart Wall & Pericardium",
-    "difficulty": "Hard",
-    "sourceFile": "BNS102-Anatomy of Cardiovascular and Lymphatic Sys_261024_214357.pdf",
-    "sourcePage": 17,
-    "tags": [
-      "cardiac-tamponade",
-      "pericardial-effusion",
-      "clinical"
-    ],
-    "createdAt": "2026-10-24",
-    "updatedAt": "2026-10-24",
-    "verificationStatus": "verified"
-  },
-  {
-    "id": "CARDIO-082",
-    "questionText": "แผ่นกั้นระหว่างหัวใจห้องล่างซ้ายและห้องล่างขวา มีชื่อเรียกว่าอะไร?",
-    "options": {
-      "A": "Interatrial septum",
-      "B": "Interventricular septum (IVS)",
-      "C": "Crista terminalis",
-      "D": "Sulcus terminalis"
-    },
-    "correctOption": "B",
-    "explanation": "Interventricular septum (IVS) เป็นผนังหนาที่กั้นระหว่าง Left และ Right Ventricles ประกอบด้วยส่วนกล้ามเนื้อหนา (Muscular part) ตอนล่าง และส่วนพังผืดบาง (Membranous part) ตอนบน",
-    "system": "Cardiovascular and Lymphatic Systems",
-    "topic": "Cardiac Chambers & Valves",
-    "difficulty": "Easy",
-    "sourceFile": "BNS102-Anatomy of Cardiovascular and Lymphatic Sys_261024_214357.pdf",
-    "sourcePage": 31,
-    "tags": [
-      "interventricular-septum",
-      "septum"
-    ],
-    "createdAt": "2026-10-24",
-    "updatedAt": "2026-10-24",
-    "verificationStatus": "verified"
-  },
-  {
-    "id": "CARDIO-083",
-    "questionText": "Moderator band (Septomarginal trabecula) เป็นแถบกล้ามเนื้อพิเศษที่พบเฉพาะในหัวใจห้องใด และมีหน้าที่อะไร?",
-    "options": {
-      "A": "พบใน Right Atrium กั้นเลือดดำ",
-      "B": "พบใน Left Ventricle ช่วยสร้างความดัน",
-      "C": "พบใน Right Ventricle ทำหน้าที่นำแขนง Purkinje fibers ของ Right bundle branch ข้ามจาก Septum ไปยัง Anterior papillary muscle",
-      "D": "พบใน Left Atrium รับเลือดแดง"
-    },
-    "correctOption": "C",
-    "explanation": "Moderator band เป็นสันกล้ามเนื้อข้ามระหว่าง Interventricular septum กับฐานของ Anterior papillary muscle ใน Right Ventricle ช่วยส่งผ่านสัญญาณไฟฟ้าให้ Papillary muscle หดตัวก่อน Ventricle บีบตัวเต็มที่",
-    "system": "Cardiovascular and Lymphatic Systems",
-    "topic": "Cardiac Chambers & Valves",
-    "difficulty": "Hard",
-    "sourceFile": "BNS102-Anatomy of Cardiovascular and Lymphatic Sys_261024_214357.pdf",
-    "sourcePage": 28,
-    "tags": [
-      "moderator-band",
-      "right-ventricle",
-      "conduction"
-    ],
-    "createdAt": "2026-10-24",
-    "updatedAt": "2026-10-24",
-    "verificationStatus": "verified"
-  },
-  {
-    "id": "CARDIO-084",
-    "questionText": "หลอดเลือดดำ Great Saphenous Vein ทอดตัวผ่านขึ้นมาจากเท้าโดยอยู่ตำแหน่งใดของตาตุ่มข้อเท้า (Malleolus)?",
-    "options": {
-      "A": "อยู่ระหว่างนิ้วเท้า",
-      "B": "อยู่ด้านหลังต่อตาตุ่มด้านนอก",
-      "C": "อยู่ใต้ฝ่าเท้า",
-      "D": "อยู่ด้านหน้าต่อตาตุ่มด้านใน (Anterior to Medial Malleolus)"
-    },
-    "correctOption": "D",
-    "explanation": "Great Saphenous Vein วิ่งพาดขึ้นหน้าตาตุ่มด้านใน (Anterior to medial malleolus) เป็นแลนด์มาร์กสำคัญในการทำ Venous cutdown เพื่อเปิดเส้นเลือดให้สารน้ำในภาวะฉุกเฉินเมื่อหาเส้นอื่นไม่ได้",
-    "system": "Cardiovascular and Lymphatic Systems",
-    "topic": "Blood Vessels & Hemodynamics",
-    "difficulty": "Hard",
-    "sourceFile": "BNS102-Anatomy of Cardiovascular and Lymphatic Sys_261024_214357.pdf",
-    "sourcePage": 85,
-    "tags": [
-      "great-saphenous-vein",
-      "medial-malleolus",
-      "cutdown"
-    ],
-    "createdAt": "2026-10-24",
-    "updatedAt": "2026-10-24",
-    "verificationStatus": "verified"
-  },
-  {
-    "id": "CARDIO-085",
-    "questionText": "หลอดเลือดแดงใดที่แยกออกมาจาก Brachial artery ที่บริเวณข้อพับแขน แล้ววิ่งลงไปตามด้านนิ้วก้อย (Medial side) ของปลายแขน?",
-    "options": {
-      "A": "Ulnar artery",
-      "B": "Radial artery",
-      "C": "Axillary artery",
-      "D": "Subclavian artery"
-    },
-    "correctOption": "A",
-    "explanation": "Brachial artery แตกออกเป็น 2 แขนงที่ปลายแขน: Radial artery ทางด้าน lateral (นิ้วหัวแม่มือ) และ Ulnar artery ทางด้าน medial (นิ้วก้อย) ซึ่งจะไปรวมกันเป็น Superficial และ Deep palmar arches ที่ฝ่ามือ",
-    "system": "Cardiovascular and Lymphatic Systems",
-    "topic": "Blood Vessels & Hemodynamics",
-    "difficulty": "Medium",
-    "sourceFile": "BNS102-Anatomy of Cardiovascular and Lymphatic Sys_261024_214357.pdf",
-    "sourcePage": 72,
-    "tags": [
-      "ulnar-artery",
-      "forearm-vasculature"
-    ],
-    "createdAt": "2026-10-24",
-    "updatedAt": "2026-10-24",
-    "verificationStatus": "verified"
-  },
-  {
-    "id": "CARDIO-086",
-    "questionText": "หลอดเลือดแดง Femoral artery เป็นการทอดตัวต่อเนื่องของหลอดเลือดแดงใด หลังจากลอดผ่านใต้ Inguinal ligament เข้าสู่ต้นขา?",
-    "options": {
-      "A": "Internal Iliac artery",
-      "B": "External Iliac artery",
-      "C": "Abdominal Aorta",
-      "D": "Celiac artery"
-    },
-    "correctOption": "B",
-    "explanation": "เมื่อหลอดเลือดแดง External Iliac artery วิ่งลอดใต้เอ็นขาหนีบ (Inguinal ligament) เข้าสู่ Femoral triangle ของต้นขา จะเปลี่ยนชื่อเป็น Femoral artery เพื่อเลี้ยงขาทั้งหมด",
-    "system": "Cardiovascular and Lymphatic Systems",
-    "topic": "Blood Vessels & Hemodynamics",
-    "difficulty": "Medium",
-    "sourceFile": "BNS102-Anatomy of Cardiovascular and Lymphatic Sys_261024_214357.pdf",
-    "sourcePage": 75,
-    "tags": [
-      "femoral-artery",
-      "external-iliac",
-      "inguinal-ligament"
-    ],
-    "createdAt": "2026-10-24",
-    "updatedAt": "2026-10-24",
-    "verificationStatus": "verified"
-  },
-  {
-    "id": "CARDIO-087",
-    "questionText": "หลอดเลือดแดง Dorsalis pedis artery ซึ่งใช้คลำชีพจรที่หลังเท้า เป็นแขนงปลายที่ต่อเนื่องมาจากหลอดเลือดแดงใด?",
-    "options": {
-      "A": "Fibular / Peroneal artery",
-      "B": "Posterior Tibial artery",
-      "C": "Anterior Tibial artery",
-      "D": "Popliteal artery"
-    },
-    "correctOption": "C",
-    "explanation": "Anterior Tibial artery วิ่งลงมาตามหน้าแข้ง เมื่อข้ามข้อเท้าเข้าสู่หลังเท้าจะเปลี่ยนชื่อเป็น Dorsalis pedis artery สามารถคลำชีพจรได้ระหว่างเอ็นเหยียดนิ้วโป้งและนิ้วชี้เท้า",
-    "system": "Cardiovascular and Lymphatic Systems",
-    "topic": "Blood Vessels & Hemodynamics",
-    "difficulty": "Medium",
-    "sourceFile": "BNS102-Anatomy of Cardiovascular and Lymphatic Sys_261024_214357.pdf",
-    "sourcePage": 76,
-    "tags": [
-      "dorsalis-pedis",
-      "anterior-tibial",
-      "pedal-pulse"
-    ],
-    "createdAt": "2026-10-24",
-    "updatedAt": "2026-10-24",
-    "verificationStatus": "verified"
-  },
-  {
-    "id": "CARDIO-088",
-    "questionText": "หลอดเลือดดำคู่ใดที่รวมตัวกันเป็น Brachiocephalic vein (Innominate vein) ในช่องอก?",
-    "options": {
-      "A": "Femoral vein และ Iliac vein",
-      "B": "External Jugular vein และ Cephalic vein",
-      "C": "Azygos vein และ IVC",
-      "D": "Internal Jugular vein และ Subclavian vein"
-    },
-    "correctOption": "D",
-    "explanation": "ที่บริเวณรอยต่อคอกับอก (Venous angle) หลอดเลือด Internal Jugular vein (จากสมอง) และ Subclavian vein (จากแขน) จะรวมกันกลายเป็น Brachiocephalic vein ซึ่ง Brachiocephalic ซ้ายและขวาจะรวมกันเป็น SVC",
-    "system": "Cardiovascular and Lymphatic Systems",
-    "topic": "Blood Vessels & Hemodynamics",
-    "difficulty": "Medium",
-    "sourceFile": "BNS102-Anatomy of Cardiovascular and Lymphatic Sys_261024_214357.pdf",
-    "sourcePage": 80,
-    "tags": [
-      "brachiocephalic-vein",
-      "internal-jugular",
-      "subclavian"
-    ],
-    "createdAt": "2026-10-24",
-    "updatedAt": "2026-10-24",
-    "verificationStatus": "verified"
-  },
-  {
-    "id": "CARDIO-089",
-    "questionText": "หลอดเลือดดำ Internal Jugular Vein (IJV) ทอดตัวคู่ขนานกับโครงสร้างใดภายในปลอก Carotid sheath?",
-    "options": {
-      "A": "Common Carotid artery และ Vagus nerve (CN X)",
-      "B": "Phrenic nerve และ Subclavian artery",
-      "C": "Trachea และ Esophagus",
-      "D": "Femoral nerve และ Femoral artery"
-    },
-    "correctOption": "A",
-    "explanation": "ภายใน Carotid sheath บรรจุโครงสร้างสำคัญ 3 อย่าง: 1. Common/Internal carotid artery (อยู่ด้านใน) 2. Internal jugular vein (อยู่ด้านนอก) และ 3. Vagus nerve (CN X อยู่ทางด้านหลังระหว่างเส้นเลือดทั้งสอง)",
-    "system": "Cardiovascular and Lymphatic Systems",
-    "topic": "Blood Vessels & Hemodynamics",
-    "difficulty": "Hard",
-    "sourceFile": "BNS102-Anatomy of Cardiovascular and Lymphatic Sys_261024_214357.pdf",
-    "sourcePage": 80,
-    "tags": [
-      "carotid-sheath",
-      "internal-jugular-vein",
-      "vagus-nerve"
-    ],
-    "createdAt": "2026-10-24",
-    "updatedAt": "2026-10-24",
-    "verificationStatus": "verified"
-  },
-  {
-    "id": "CARDIO-090",
-    "questionText": "เซลล์เม็ดเลือดขาวชนิด Monocytes มีสัดส่วนคิดเป็นประมาณกี่เปอร์เซ็นต์ของเม็ดเลือดขาวทั้งหมดในกระแสเลือดปกติ?",
-    "options": {
-      "A": "60 - 70%",
-      "B": "3 - 8%",
-      "C": "20 - 25%",
-      "D": "น้อยกว่า 0.1%"
-    },
-    "correctOption": "B",
-    "explanation": "Monocyte พบได้ประมาณ 3-8% ของเม็ดเลือดขาวทั้งหมดในกระแสเลือด (อันดับที่สามรองจาก Neutrophils 60-70% และ Lymphocytes 20-25%)",
-    "system": "Cardiovascular and Lymphatic Systems",
-    "topic": "Blood Components & Hematology",
-    "difficulty": "Easy",
-    "sourceFile": "BNS102-Anatomy of Cardiovascular and Lymphatic Sys_261024_214357.pdf",
-    "sourcePage": 12,
-    "tags": [
-      "monocyte-percentage",
-      "wbc-differential"
-    ],
-    "createdAt": "2026-10-24",
-    "updatedAt": "2026-10-24",
-    "verificationStatus": "verified"
-  },
-  {
-    "id": "CARDIO-091",
-    "questionText": "ขนาดเฉลี่ยของหัวใจมนุษย์ผู้ใหญ่ปกติมีขนาดกว้าง ยาว และหนาประมาณเท่าใด?",
-    "options": {
-      "A": "ยาวประมาณ 5 cm, กว้างประมาณ 2 cm",
-      "B": "ยาวประมาณ 25 cm, กว้างประมาณ 20 cm",
-      "C": "ยาวประมาณ 12 cm, กว้างประมาณ 9 cm, และหนาประมาณ 6 cm (ขนาดเท่ากำปั้นของผู้เป็นเจ้าของ)",
-      "D": "ยาวประมาณ 50 cm"
-    },
-    "correctOption": "C",
-    "explanation": "หัวใจผู้ใหญ่โดยเฉลี่ยมีขนาดยาวประมาณ 12 cm กว้าง 9 cm และหนา 6 cm น้ำหนักประมาณ 250-300 กรัม โดยประมาณเท่ากับขนาดกำปั้นของคนๆ นั้น",
-    "system": "Cardiovascular and Lymphatic Systems",
-    "topic": "Heart Wall & Pericardium",
-    "difficulty": "Easy",
-    "sourceFile": "BNS102-Anatomy of Cardiovascular and Lymphatic Sys_261024_214357.pdf",
-    "sourcePage": 16,
-    "tags": [
-      "heart-dimensions",
-      "heart-size"
-    ],
-    "createdAt": "2026-10-24",
-    "updatedAt": "2026-10-24",
-    "verificationStatus": "verified"
-  },
-  {
-    "id": "CARDIO-092",
-    "questionText": "หลอดเลือดแดงแขนงแรกสุดที่แยกตัวออกจาก Abdominal Aorta ทันทีที่ลอดผ่านกะบังลมคือหลอดเลือดใด?",
-    "options": {
-      "A": "Gonadal arteries",
-      "B": "Renal arteries",
-      "C": "Common iliac arteries",
-      "D": "Inferior phrenic arteries (และตามด้วย Celiac trunk)"
-    },
-    "correctOption": "D",
-    "explanation": "ทันทีที่ Abdominal Aorta ลอดผ่าน aortic hiatus (ระดับ T12) จะให้แขนง Inferior phrenic arteries ไปเลี้ยงกะบังลมด้านล่าง และให้แขนงเดี่ยวขนาดใหญ่แรกคือ Celiac trunk เลี้ยง Foregut",
-    "system": "Cardiovascular and Lymphatic Systems",
-    "topic": "Blood Vessels & Hemodynamics",
-    "difficulty": "Hard",
-    "sourceFile": "BNS102-Anatomy of Cardiovascular and Lymphatic Sys_261024_214357.pdf",
-    "sourcePage": 74,
-    "tags": [
-      "abdominal-aorta-branches",
-      "inferior-phrenic",
-      "celiac-trunk"
-    ],
-    "createdAt": "2026-10-24",
-    "updatedAt": "2026-10-24",
-    "verificationStatus": "verified"
-  },
-  {
-    "id": "CARDIO-093",
-    "questionText": "ร่องภายนอกของหัวใจที่แบ่งแยกระหว่างหัวใจห้องบน (Atria) และหัวใจห้องล่าง (Ventricles) ซึ่งมีหลอดเลือดโคโรนารีทอดตัวอยู่ มีชื่อเรียกว่าอะไร?",
-    "options": {
-      "A": "Coronary sulcus (Atrioventricular groove)",
+      "A": "Terminal sulcus",
       "B": "Anterior interventricular sulcus",
       "C": "Posterior interventricular sulcus",
-      "D": "Sulcus terminalis"
+      "D": "Coronary sulcus (Atrioventricular groove)"
     },
-    "correctOption": "A",
-    "explanation": "Coronary sulcus (AV groove) เป็นร่องวงแหวนรอบหัวใจที่คั่นระหว่าง Atria และ Ventricles ภายในเป็นที่ทอดตัวของ Right coronary artery, Circumflex artery, และ Coronary sinus",
+    "correctOption": "D",
+    "explanation": "Coronary sulcus (AV groove) เป็นร่องวงแหวนที่แบ่งขอบเขตภายนอกระหว่างหัวใจห้องบน (Atria) กับห้องล่าง (Ventricles) เป็นที่อยู่ของ Right coronary artery, Circumflex artery และ Coronary sinus",
     "system": "Cardiovascular and Lymphatic Systems",
-    "topic": "Heart Wall & Pericardium",
+    "topic": "Heart Anatomy & Pericardium",
     "difficulty": "Medium",
     "sourceFile": "BNS102-Anatomy of Cardiovascular and Lymphatic Sys_261024_214357.pdf",
     "sourcePage": 21,
@@ -2280,21 +604,496 @@ export const cardioQuestions: Question[] = [
     "verificationStatus": "verified"
   },
   {
-    "id": "CARDIO-094",
-    "questionText": "ในการนำกระแสไฟฟ้าของหัวใจ ใย Purkinje fibers มีคุณสมบัติเด่นข้อใดที่ทำให้กล้ามเนื้อหัวใจห้องล่างบีบตัวพร้อมกันได้อย่างมีประสิทธิภาพ?",
+    "id": "CARDIO-025",
+    "questionText": "ร่องภายนอกที่แบ่งขอบเขตระหว่าง Left Ventricle และ Right Ventricle ทางด้านหน้าของหัวใจคือข้อใด และมีหลอดเลือดสำคัญคู่ใดทอดผ่านอยู่ภายในร่องนี้?",
     "options": {
-      "A": "นำกระแสไฟฟ้าช้าที่สุดในร่างกาย",
-      "B": "มีความเร็วในการนำกระแสไฟฟ้าสูงที่สุด (ประมาณ 4 เมตรต่อวินาที) มี Gap junctions หนาแน่น และมีเส้นผ่านศูนย์กลางขนาดใหญ่",
-      "C": "ไม่สามารถส่งกระแสไฟฟ้าได้",
-      "D": "ส่งสัญญาณเฉพาะเมื่อหัวใจหยุดเต้น"
+      "A": "Anterior interventricular sulcus โดยมี Anterior Interventricular Artery (LAD) และ Great Cardiac Vein ทอดผ่าน",
+      "B": "Posterior interventricular sulcus โดยมี Posterior interventricular artery และ Middle cardiac vein ทอดผ่าน",
+      "C": "Coronary sulcus โดยมี Small cardiac vein ทอดผ่าน",
+      "D": "Terminal sulcus โดยมี Right marginal artery ทอดผ่าน"
     },
-    "correctOption": "B",
-    "explanation": "Purkinje fibers เป็นเซลล์กล้ามเนื้อหัวใจดัดแปลงที่มีขนาดใหญ่ มีไกลโคเจนสูง และมี Gap junctions จำนวนมาก นำสัญญาณเร็วถึง 1-4 m/s เพื่อให้ผนัง Ventricle หดตัวรีดเลือดพร้อมกันจาก Apex ขึ้นสู่ Base",
+    "correctOption": "A",
+    "explanation": "Anterior interventricular sulcus ทอดตัวอยู่บนผิวด้านหน้าของหัวใจ แยก RV ออกจาก LV โดยภายในร่องนี้มีเส้นเลือดแดง Anterior Interventricular Artery (Left Anterior Descending: LAD) ทอดคู่กับเส้นเลือดดำ Great Cardiac Vein",
     "system": "Cardiovascular and Lymphatic Systems",
-    "topic": "Coronary Circulation & Conduction",
+    "topic": "Heart Anatomy & Pericardium",
     "difficulty": "Hard",
     "sourceFile": "BNS102-Anatomy of Cardiovascular and Lymphatic Sys_261024_214357.pdf",
-    "sourcePage": 47,
+    "sourcePage": 21,
+    "tags": [
+      "anterior-interventricular-sulcus",
+      "lad",
+      "great-cardiac-vein"
+    ],
+    "createdAt": "2026-10-24",
+    "updatedAt": "2026-10-24",
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "CARDIO-026",
+    "questionText": "หัวใจห้องบนขวา (Right Atrium) ได้รับเลือดที่มีออกซิเจนต่ำ (Deoxygenated blood) กลับเข้าสู่หัวใจผ่านช่องเปิดของหลอดเลือดดำกี่สาย และได้แก่หลอดเลือดใดบ้าง?",
+    "options": {
+      "A": "4 สาย ได้แก่ Pulmonary veins 4 เส้น",
+      "B": "3 สาย ได้แก่ Superior Vena Cava, Inferior Vena Cava และ Coronary Sinus",
+      "C": "2 สาย ได้แก่ Superior Vena Cava และ Aorta",
+      "D": "1 สาย ได้แก่ Pulmonary trunk"
+    },
+    "correctOption": "B",
+    "explanation": "Right Atrium รับเลือดดำจากทั่วร่างกายผ่าน 3 ช่องเปิดหลัก: 1. Superior Vena Cava (SVC) รับเลือดจากศีรษะ คอ แขน และทรวงอก 2. Inferior Vena Cava (IVC) รับเลือดจากลำตัวส่วนล่าง ท้อง และขา 3. Coronary Sinus รับเลือดดำจากกล้ามเนื้อหัวใจเอง",
+    "system": "Cardiovascular and Lymphatic Systems",
+    "topic": "Heart Chambers & Internal Anatomy",
+    "difficulty": "Medium",
+    "sourceFile": "BNS102-Anatomy of Cardiovascular and Lymphatic Sys_261024_214357.pdf",
+    "sourcePage": 24,
+    "tags": [
+      "right-atrium",
+      "svc",
+      "ivc",
+      "coronary-sinus"
+    ],
+    "createdAt": "2026-10-24",
+    "updatedAt": "2026-10-24",
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "CARDIO-027",
+    "questionText": "ในหัวใจห้องบนขวา (Right Atrium) ผนังด้านในแบ่งออกเป็น 2 ส่วน คือส่วนผนังขรุขระด้านหน้าและส่วนผนังเรียบด้านหลัง สันนูนของกล้ามเนื้อที่ทำให้เกิดลักษณะขรุขระคล้ายซี่หวีเรียกว่าอะไร?",
+    "options": {
+      "A": "Papillary muscles",
+      "B": "Trabeculae carneae",
+      "C": "Pectinate muscles (Musculi pectinati)",
+      "D": "Chordae tendineae"
+    },
+    "correctOption": "C",
+    "explanation": "ใน Right Atrium ผนังด้านหน้าและภายใน Right auricle มีสันกล้ามเนื้อนูนคล้ายซี่หวีเรียกว่า Pectinate muscles โดยแยกออกจากส่วนผนังเรียบด้านหลัง (Sinus venarum) ด้วยสันนูนแนวดิ่งที่เรียกว่า Crista terminalis",
+    "system": "Cardiovascular and Lymphatic Systems",
+    "topic": "Heart Chambers & Internal Anatomy",
+    "difficulty": "Medium",
+    "sourceFile": "BNS102-Anatomy of Cardiovascular and Lymphatic Sys_261024_214357.pdf",
+    "sourcePage": 25,
+    "tags": [
+      "pectinate-muscles",
+      "right-atrium",
+      "crista-terminalis"
+    ],
+    "createdAt": "2026-10-24",
+    "updatedAt": "2026-10-24",
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "CARDIO-028",
+    "questionText": "โครงสร้างรูปไข่บุ๋ม (Oval depression) ที่พบบนผนังกั้นระหว่างหัวใจห้องบน (Interatrial septum) ในหัวใจของผู้ใหญ่คือข้อใด และเป็นโครงสร้างที่หลงเหลือมาจากสิ่งใดในระยะทารกในครรภ์?",
+    "options": {
+      "A": "Ligamentum teres ซึ่งเป็นซากของ Umbilical vein",
+      "B": "Ligamentum arteriosum ซึ่งเป็นซากของ Ductus arteriosus",
+      "C": "Fossa navicularis ซึ่งเป็นซากของ Ductus venosus",
+      "D": "Fossa ovalis ซึ่งเป็นซากที่ปิดตัวลงของ Foramen ovale"
+    },
+    "correctOption": "D",
+    "explanation": "Fossa ovalis อยู่บน Interatrial septum เกิดจากการปิดตัวของ Foramen ovale ซึ่งเป็นรูลัดเชื่อมระหว่าง RA กับ LA ในทารกในครรภ์เพื่อบายพาสปอดที่ยังไม่ทำงาน หากรูนี้ปิดไม่สนิทหลังคลอดจะทำให้เกิดโรคหัวใจพิการแต่กำเนิดชนิด Atrial Septal Defect (ASD)",
+    "system": "Cardiovascular and Lymphatic Systems",
+    "topic": "Heart Chambers & Internal Anatomy",
+    "difficulty": "Medium",
+    "sourceFile": "BNS102-Anatomy of Cardiovascular and Lymphatic Sys_261024_214357.pdf",
+    "sourcePage": 25,
+    "tags": [
+      "fossa-ovalis",
+      "foramen-ovale",
+      "asd"
+    ],
+    "createdAt": "2026-10-24",
+    "updatedAt": "2026-10-24",
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "CARDIO-029",
+    "questionText": "ผนังภายในของหัวใจห้องล่างขวา (Right Ventricle) และห้องล่างซ้าย (Left Ventricle) มีสันกล้ามเนื้อนูนไขว้ประสานกันเป็นร่างแหจำนวนมาก สันกล้ามเนื้อนี้มีชื่อเรียกว่าอะไร?",
+    "options": {
+      "A": "Trabeculae carneae",
+      "B": "Pectinate muscles",
+      "C": "Papillary muscles",
+      "D": "Moderator band"
+    },
+    "correctOption": "A",
+    "explanation": "Trabeculae carneae เป็นสันกล้ามเนื้อนูนคล้ายแท่งเนื้อไขว้กันบนผนังภายในของ Ventricle ทั้งสองห้อง ช่วยป้องกันไม่ให้เกิดแรงดูดติดกันของผนังห้องหัวใจในขณะบีบตัว ส่วน Pectinate muscles พบเฉพาะใน Atria",
+    "system": "Cardiovascular and Lymphatic Systems",
+    "topic": "Heart Chambers & Internal Anatomy",
+    "difficulty": "Medium",
+    "sourceFile": "BNS102-Anatomy of Cardiovascular and Lymphatic Sys_261024_214357.pdf",
+    "sourcePage": 27,
+    "tags": [
+      "trabeculae-carneae",
+      "ventricles"
+    ],
+    "createdAt": "2026-10-24",
+    "updatedAt": "2026-10-24",
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "CARDIO-030",
+    "questionText": "ผู้ป่วยมีภาวะลิ้นหัวใจ Tricuspid ปลิ้นรั่วรุนแรง (Tricuspid regurgitation) จากการฉีกขาดของเส้นเอ็นยึดลิ้นหัวใจ เส้นใยคอลลาเจนเหนียวที่เชื่อมระหว่างขอบแผ่นลิ้นหัวใจ AV valves กับกล้ามเนื้อ Papillary muscles คือโครงสร้างใด?",
+    "options": {
+      "A": "Ligamentum arteriosum",
+      "B": "Chordae tendineae (เอ็นยึดลิ้นหัวใจ)",
+      "C": "Fibrous trigone",
+      "D": "Annulus fibrosus"
+    },
+    "correctOption": "B",
+    "explanation": "Chordae tendineae (Heart strings) เป็นสายเอ็นคอลลาเจนเหนียวที่ยึดระหว่างขอบของ Cusp ของ Atrioventricular (AV) valves (ทั้ง Tricuspid และ Mitral) กับปลายของ Papillary muscles ทำหน้าที่ดึงรั้งลิ้นไว้ไม่ให้ปลิ้นกลับเข้าไปใน Atria ในช่วง Ventricular systole",
+    "system": "Cardiovascular and Lymphatic Systems",
+    "topic": "Heart Valves & Mechanism",
+    "difficulty": "Medium",
+    "sourceFile": "BNS102-Anatomy of Cardiovascular and Lymphatic Sys_261024_214357.pdf",
+    "sourcePage": 27,
+    "tags": [
+      "chordae-tendineae",
+      "papillary-muscles",
+      "tricuspid-regurgitation"
+    ],
+    "createdAt": "2026-10-24",
+    "updatedAt": "2026-10-24",
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "CARDIO-031",
+    "questionText": "ในขณะที่หัวใจห้องล่าง (Ventricles) กำลังบีบตัวดันเลือดออกสู่หลอดเลือดแดงใหญ่ (Ventricular systole) กลไกทางกายวิภาคใดที่ช่วยป้องกันไม่ให้ลิ้น Atrioventricular (AV) valves ปลิ้นถอยหลังเข้าไปในหัวใจห้องบน?",
+    "options": {
+      "A": "Pectinate muscles ในห้องบนบีบดันแผ่นลิ้นลงด้านล่าง",
+      "B": "เลือดในหลอดเลือด Aorta ไหลย้อนกลับลงมาดันแผ่นลิ้นให้ประกบกัน",
+      "C": "Papillary muscles หดตัวพร้อมกันเพื่อดึงสายเอ็น Chordae tendineae ให้ตึงรั้งแผ่นลิ้นไว้",
+      "D": "ความดันในห้อง Atrium สูงกว่าความดันในห้อง Ventricle"
+    },
+    "correctOption": "C",
+    "explanation": "ขณะ Ventricular systole ความดันใน Ventricle จะพุ่งสูงขึ้นมาก ซึ่งจะผลักให้แผ่นลิ้น AV valves ปิดแนบกัน ในเวลาเดียวกัน Papillary muscles จะหดตัวดึงสาย Chordae tendineae ให้ตึงแน่น ป้องกันไม่ให้ Cusps ปลิ้น (Eversion/Prolapse) เข้าสู่ Atria",
+    "system": "Cardiovascular and Lymphatic Systems",
+    "topic": "Heart Valves & Mechanism",
+    "difficulty": "Hard",
+    "sourceFile": "BNS102-Anatomy of Cardiovascular and Lymphatic Sys_261024_214357.pdf",
+    "sourcePage": 28,
+    "tags": [
+      "papillary-muscles",
+      "valve-mechanism",
+      "systole"
+    ],
+    "createdAt": "2026-10-24",
+    "updatedAt": "2026-10-24",
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "CARDIO-032",
+    "questionText": "โครงสร้างกล้ามเนื้อชนิดพิเศษที่พาดผ่านช่องภายในหัวใจห้องล่างขวา เชื่อมระหว่าง Interventricular septum กับฐานของ Anterior papillary muscle มีบทบาทนำกระแสไฟฟ้าไปยังผนังห้องล่างขวา คือโครงสร้างใด?",
+    "options": {
+      "A": "Fossa ovalis",
+      "B": "Crista terminalis",
+      "C": "Tendon of Todaro",
+      "D": "Moderator band (Septomarginal trabecula)"
+    },
+    "correctOption": "D",
+    "explanation": "Moderator band (Septomarginal trabecula) เป็นมัดกล้ามเนื้อและ Purkinje fibers พิเศษที่พบเฉพาะใน Right Ventricle เชื่อมจาก Interventricular septum ไปยัง Anterior papillary muscle ทำหน้าที่เป็นทางลัดนำสัญญาณกระแสประสาท (Right bundle branch) ช่วยให้ Papillary muscle หดตัวประสานเวลากับการบีบตัวของ Ventricle",
+    "system": "Cardiovascular and Lymphatic Systems",
+    "topic": "Heart Chambers & Internal Anatomy",
+    "difficulty": "Hard",
+    "sourceFile": "BNS102-Anatomy of Cardiovascular and Lymphatic Sys_261024_214357.pdf",
+    "sourcePage": 27,
+    "tags": [
+      "moderator-band",
+      "septomarginal-trabecula",
+      "right-ventricle"
+    ],
+    "createdAt": "2026-10-24",
+    "updatedAt": "2026-10-24",
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "CARDIO-033",
+    "questionText": "หัวใจห้องบนซ้าย (Left Atrium) รับเลือดที่มีความเข้มข้นของออกซิเจนสูง (Oxygenated blood) ที่ฟอกแล้วจากปอดผ่านหลอดเลือดใด และมีจำนวนกี่เส้น?",
+    "options": {
+      "A": "Pulmonary veins จำนวน 4 เส้น (ขวา 2 เส้น และซ้าย 2 เส้น)",
+      "B": "Pulmonary arteries จำนวน 2 เส้น",
+      "C": "Superior vena cava จำนวน 1 เส้น",
+      "D": "Bronchial veins จำนวน 6 เส้น"
+    },
+    "correctOption": "A",
+    "explanation": "Left Atrium รับเลือดแดงที่มีออกซิเจนสูงจากปอดผ่าน Pulmonary veins จำนวน 4 เส้น (Right superior/inferior และ Left superior/inferior pulmonary veins) เข้าสู่ผนังเรียบด้านหลังของ Left Atrium โดยไม่มีลิ้นเปิดปิด",
+    "system": "Cardiovascular and Lymphatic Systems",
+    "topic": "Heart Chambers & Internal Anatomy",
+    "difficulty": "Medium",
+    "sourceFile": "BNS102-Anatomy of Cardiovascular and Lymphatic Sys_261024_214357.pdf",
+    "sourcePage": 29,
+    "tags": [
+      "left-atrium",
+      "pulmonary-veins"
+    ],
+    "createdAt": "2026-10-24",
+    "updatedAt": "2026-10-24",
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "CARDIO-034",
+    "questionText": "ลิ้นหัวใจที่กั้นระหว่างหัวใจห้องบนซ้าย (Left Atrium) กับห้องล่างซ้าย (Left Ventricle) ประกอบด้วยแผ่นลิ้น 2 แฉก และต้องรับแรงดันบีบตัวสูงสุดของหัวใจ มีชื่อเรียกทางการแพทย์ว่าอะไร?",
+    "options": {
+      "A": "Tricuspid valve",
+      "B": "Bicuspid valve หรือ Mitral valve",
+      "C": "Aortic semilunar valve",
+      "D": "Pulmonary semilunar valve"
+    },
+    "correctOption": "B",
+    "explanation": "Bicuspid valve (มี 2 แฉก: Anterior และ Posterior cusps) หรือ Mitral valve (เนื่องจากรูปร่างคล้ายหมวก Mitre ของบิชอป) กั้นระหว่าง LA กับ LV เป็นลิ้นที่รับแรงดันสูงที่สุดในร่างกาย จึงเกิดภาวะพยาธิสภาพ เช่น Mitral stenosis หรือ Mitral regurgitation ได้บ่อยที่สุด",
+    "system": "Cardiovascular and Lymphatic Systems",
+    "topic": "Heart Valves & Mechanism",
+    "difficulty": "Medium",
+    "sourceFile": "BNS102-Anatomy of Cardiovascular and Lymphatic Sys_261024_214357.pdf",
+    "sourcePage": 30,
+    "tags": [
+      "bicuspid-valve",
+      "mitral-valve",
+      "valvular-heart-disease"
+    ],
+    "createdAt": "2026-10-24",
+    "updatedAt": "2026-10-24",
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "CARDIO-035",
+    "questionText": "ลิ้นหัวใจกลุ่ม Semilunar valves (ได้แก่ Aortic valve และ Pulmonary valve) มีลักษณะทางกายวิภาคและกลไกการปิดแตกต่างจาก Atrioventricular valves อย่างไร?",
+    "options": {
+      "A": "มีกล้ามเนื้อหูรูดล้อมรอบเหมือน Sphincter คอยบีบรูดปิดกั้น",
+      "B": "มีสาย Chordae tendineae ขนาดใหญ่ช่วยดึงให้ปิดในจังหวะหัวใจคลายตัว",
+      "C": "ประกอบด้วยแผ่นลิ้นรูปเสี้ยวพระจันทร์ 3 แผ่น คล้ายกระเปาะ (Cusps/Pockets) ไม่มีสาย Chordae tendineae หรือ Papillary muscles โดยปิดเมื่อเลือดในหลอดเลือดใหญ่ไหลย้อนกลับมาขังในกระเปาะขณะ Ventricular diastole",
+      "D": "เปิดออกเมื่อหัวใจคลายตัว และปิดสนิทเมื่อหัวใจบีบตัว"
+    },
+    "correctOption": "C",
+    "explanation": "Semilunar valves ประกอบด้วย Cusps รูปเสี้ยวพระจันทร์ 3 ชิ้นรูปถ้วยกระเปาะ ไม่มีเอ็น Chordae tendineae ยึด เมื่อ Ventricles บีบตัว เลือดจะผลักให้ลิ้นเปิดแนบผนัง แต่เมื่อ Ventricles คลายตัว (Diastole) เลือดใน Aorta/Pulmonary trunk จะไหลย้อนกลับมาขังเต็มกระเปาะ (Sinuses) ทำให้ขอบลิ้นแนบชนกันสนิท ป้องกันเลือดไหลย้อนกลับ",
+    "system": "Cardiovascular and Lymphatic Systems",
+    "topic": "Heart Valves & Mechanism",
+    "difficulty": "Hard",
+    "sourceFile": "BNS102-Anatomy of Cardiovascular and Lymphatic Sys_261024_214357.pdf",
+    "sourcePage": 33,
+    "tags": [
+      "semilunar-valves",
+      "aortic-valve",
+      "valve-closure-mechanism"
+    ],
+    "createdAt": "2026-10-24",
+    "updatedAt": "2026-10-24",
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "CARDIO-036",
+    "questionText": "เสียงหัวใจเต้นเสียงที่หนึ่ง (First heart sound: S1 หรือ \"LUB\") ทางกายวิภาคและสรีรวิทยาเกิดจากการเปลี่ยนแปลงของโครงสร้างใดในหัวใจ?",
+    "options": {
+      "A": "การเปิดตัวอย่างรวดเร็วของลิ้น Aortic valve",
+      "B": "การปิดของลิ้น Semilunar valves (Aortic และ Pulmonary) เมื่อสิ้นสุดระยะ Ventricular systole",
+      "C": "การไหลเชี่ยวกรากของเลือดกระทบผนัง Atrium ขณะออกกำลังกาย",
+      "D": "การปิดพร้อมกันของลิ้น Atrioventricular (AV) valves (Tricuspid และ Mitral) เมื่อเริ่มเข้าสู่ระยะ Ventricular systole"
+    },
+    "correctOption": "D",
+    "explanation": "เสียง S1 (\"LUB\") เกิดจากการสั่นสะเทือนของเลือดและผนังหัวใจเมื่อลิ้น AV valves (Mitral และ Tricuspid) ปิดสนิทพร้อมกันในจังหวะเริ่มต้นของการบีบตัวของหัวใจห้องล่าง (Ventricular isovolumetric contraction) สอดคล้องกับตำแหน่ง QRS complex บนคลื่นไฟฟ้าหัวใจ",
+    "system": "Cardiovascular and Lymphatic Systems",
+    "topic": "Heart Valves & Mechanism",
+    "difficulty": "Medium",
+    "sourceFile": "BNS102-Anatomy of Cardiovascular and Lymphatic Sys_261024_214357.pdf",
+    "sourcePage": 34,
+    "tags": [
+      "heart-sounds",
+      "s1",
+      "lub",
+      "av-valves-closure"
+    ],
+    "createdAt": "2026-10-24",
+    "updatedAt": "2026-10-24",
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "CARDIO-037",
+    "questionText": "เสียงหัวใจเต้นเสียงที่สอง (Second heart sound: S2 หรือ \"DUB\") เกิดขึ้นจากกลไกทางกายวิภาคใด?",
+    "options": {
+      "A": "การปิดสนิทพร้อมกันของลิ้น Semilunar valves (Aortic valve และ Pulmonary valve) ในช่วงต้นของระยะ Ventricular diastole",
+      "B": "การปิดของลิ้น Tricuspid และ Bicuspid valves",
+      "C": "การหดตัวของ Papillary muscles ดึง Chordae tendineae",
+      "D": "การบีบตัวของหัวใจห้องบน Atria"
+    },
+    "correctOption": "A",
+    "explanation": "เสียง S2 (\"DUB\") เกิดจากการปิดอย่างกะทันหันของ Semilunar valves (Aortic และ Pulmonary valves) เมื่อความดันใน Ventricles ลดลงต่ำกว่าความดันในหลอดเลือด Aorta และ Pulmonary trunk ในจังหวะที่หัวใจห้องล่างเริ่มคลายตัว (Ventricular diastole)",
+    "system": "Cardiovascular and Lymphatic Systems",
+    "topic": "Heart Valves & Mechanism",
+    "difficulty": "Medium",
+    "sourceFile": "BNS102-Anatomy of Cardiovascular and Lymphatic Sys_261024_214357.pdf",
+    "sourcePage": 34,
+    "tags": [
+      "heart-sounds",
+      "s2",
+      "dub",
+      "semilunar-valves"
+    ],
+    "createdAt": "2026-10-24",
+    "updatedAt": "2026-10-24",
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "CARDIO-038",
+    "questionText": "แพทย์ใช้หูฟัง (Stethoscope) ฟังเสียงลิ้นหัวใจ Aortic valve บริเวณผนังทรวงอก ตำแหน่งฟังตรวจที่ดีที่สุด (Aortic auscultation area) คือบริเวณใด?",
+    "options": {
+      "A": "ช่องซี่โครงที่ 2 ด้านซ้าย ชิดขอบกระดูกอก (Left 2nd intercostal space)",
+      "B": "ช่องซี่โครงที่ 2 ด้านขวา ชิดขอบกระดูกอก (Right 2nd intercostal space, sternal border)",
+      "C": "ช่องซี่โครงที่ 5 ด้านซ้าย แนว Midclavicular line (Apex)",
+      "D": "ช่องซี่โครงที่ 4-5 ด้านซ้าย ชิดขอบล่างของกระดูกอก"
+    },
+    "correctOption": "B",
+    "explanation": "ตำแหน่งฟังเสียงลิ้นหัวใจบนผนังทรวงอก: 1. Aortic area = Right 2nd ICS ชิดขอบกระดูกอก 2. Pulmonic area = Left 2nd ICS ชิดขอบกระดูกอก 3. Tricuspid area = Left 4th-5th ICS ชิดขอบกระดูกอก 4. Mitral/Apical area = Left 5th ICS แนว Midclavicular line",
+    "system": "Cardiovascular and Lymphatic Systems",
+    "topic": "Heart Valves & Mechanism",
+    "difficulty": "Hard",
+    "sourceFile": "BNS102-Anatomy of Cardiovascular and Lymphatic Sys_261024_214357.pdf",
+    "sourcePage": 35,
+    "tags": [
+      "auscultation-areas",
+      "aortic-valve",
+      "physical-examination"
+    ],
+    "createdAt": "2026-10-24",
+    "updatedAt": "2026-10-24",
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "CARDIO-039",
+    "questionText": "โครงกระดูกเนื้อเยื่อเกี่ยวพันของหัวใจ (Fibrous skeleton of the heart) ซึ่งประกอบด้วยวงแหวนเส้นใยคอลลาเจนหนาแน่นรอบลิ้นหัวใจทั้งสี่ มีบทบาทสำคัญทางสรีรวิทยาและกายวิภาคอย่างไร?",
+    "options": {
+      "A": "ทำหน้าที่ปล่อยกระแสประสาทอัตโนมัติทดแทน SA node",
+      "B": "ทำหน้าที่สร้างเซลล์เม็ดเลือดแดงทดแทนไขกระดูก",
+      "C": "ทำหน้าที่เป็นฉนวนกั้นกระแสไฟฟ้า (Electrical insulator) ระหว่าง Atria กับ Ventricles บังคับให้คลื่นไฟฟ้าผ่านได้ทางเดียวคือผ่าน AV bundle และเป็นจุดเกาะยึดของลิ้นหัวใจและกล้ามเนื้อหัวใจ",
+      "D": "ทำหน้าที่ป้องกันไม่ให้เลือดแดงผสมกับเลือดดำในปอด"
+    },
+    "correctOption": "C",
+    "explanation": "Fibrous skeleton ประกอบด้วยวงแหวน Anuli fibrosi 4 วงรอบลิ้นหัวใจ ทำหน้าที่สำคัญ 3 ประการ: 1. ยึดตรึงโครงสร้างลิ้นหัวใจไม่ให้บิดเบี้ยว 2. เป็นจุดเกาะยึดของใยกล้ามเนื้อหัวใจ 3. ทำหน้าที่เป็นฉนวนกั้นไฟฟ้า (Electrically insulates Atria from Ventricles) ทำให้การส่งสัญญาณไฟฟ้าจากบนสู่ล่างต้องผ่านทาง AV bundle (Bundle of His) เท่านั้น",
+    "system": "Cardiovascular and Lymphatic Systems",
+    "topic": "Heart Valves & Mechanism",
+    "difficulty": "Hard",
+    "sourceFile": "BNS102-Anatomy of Cardiovascular and Lymphatic Sys_261024_214357.pdf",
+    "sourcePage": 32,
+    "tags": [
+      "fibrous-skeleton",
+      "electrical-insulator",
+      "av-bundle"
+    ],
+    "createdAt": "2026-10-24",
+    "updatedAt": "2026-10-24",
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "CARDIO-040",
+    "questionText": "ลำดับเส้นทางการไหลเวียนของเลือด (Blood circulation pathway) ผ่านหัวใจและปอดที่ถูกต้องและสมบูรณ์ที่สุดคือข้อใด?",
+    "options": {
+      "A": "Aorta -> Left Ventricle -> Bicuspid valve -> Left Atrium -> Pulmonary veins -> Lungs",
+      "B": "Vena cava -> Left Atrium -> Bicuspid valve -> Left Ventricle -> Lungs -> Right Atrium -> Aorta",
+      "C": "Pulmonary veins -> Right Atrium -> Pulmonary trunk -> Lungs -> Left Atrium -> Aorta",
+      "D": "Vena cava -> Right Atrium -> Tricuspid valve -> Right Ventricle -> Pulmonary valve -> Pulmonary trunk -> Lungs -> Pulmonary veins -> Left Atrium -> Bicuspid valve -> Left Ventricle -> Aortic valve -> Aorta"
+    },
+    "correctOption": "D",
+    "explanation": "เส้นทางไหลเวียน: เลือดดำจาก Vena cava เข้าสู่ RA -> ผ่าน Tricuspid valve เข้า RV -> ผ่าน Pulmonary semilunar valve สู่ Pulmonary trunk ไปฟอกที่ปอด -> เลือดแดงกลับทาง Pulmonary veins เข้า LA -> ผ่าน Bicuspid (Mitral) valve สู่ LV -> ผ่าน Aortic valve สูบฉีดออกทาง Aorta ไปเลี้ยงทั่วร่างกาย",
+    "system": "Cardiovascular and Lymphatic Systems",
+    "topic": "Heart Chambers & Internal Anatomy",
+    "difficulty": "Medium",
+    "sourceFile": "BNS102-Anatomy of Cardiovascular and Lymphatic Sys_261024_214357.pdf",
+    "sourcePage": 23,
+    "tags": [
+      "cardiac-circulation-pathway",
+      "systemic-pulmonary"
+    ],
+    "createdAt": "2026-10-24",
+    "updatedAt": "2026-10-24",
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "CARDIO-041",
+    "questionText": "ศูนย์กำเนิดจังหวะการเต้นของหัวใจหลัก (Primary Pacemaker of the heart) คือโครงสร้างใด และมีตำแหน่งทางกายวิภาคอยู่ที่ใดในหัวใจ?",
+    "options": {
+      "A": "Sinoatrial (SA) node ตั้งอยู่ที่ผนังด้านบนของ Right Atrium บริเวณรอยต่อกับ Superior Vena Cava",
+      "B": "Atrioventricular (AV) node ตั้งอยู่ที่ยอดของ Left Ventricle",
+      "C": "Bundle of His ตั้งอยู่ภายใน Interatrial septum",
+      "D": "Purkinje fibers ตั้งอยู่ที่ขอบของลิ้นหัวใจ Mitral"
+    },
+    "correctOption": "A",
+    "explanation": "SA node ตั้งอยู่ที่ผนังด้านบนของ Right Atrium ชิดกับจุดเปิดของ Superior Vena Cava ทำหน้าที่เป็น Primary Pacemaker เนื่องจากมีอัตราการปล่อยกระแสไฟฟ้า (Inherent firing rate) สูงที่สุด คือประมาณ 60-100 ครั้งต่อนาที",
+    "system": "Cardiovascular and Lymphatic Systems",
+    "topic": "Cardiac Conduction System",
+    "difficulty": "Medium",
+    "sourceFile": "BNS102-Anatomy of Cardiovascular and Lymphatic Sys_261024_214357.pdf",
+    "sourcePage": 38,
+    "tags": [
+      "sa-node",
+      "pacemaker",
+      "right-atrium"
+    ],
+    "createdAt": "2026-10-24",
+    "updatedAt": "2026-10-24",
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "CARDIO-042",
+    "questionText": "เมื่อกระแสไฟฟ้าเดินทางจาก SA node ผ่านผนังหัวใจห้องบนมาถึง Atrioventricular (AV) node จะเกิดการหน่วงสัญญาณไฟฟ้าช้าลงประมาณ 0.1 วินาที (AV nodal delay) ปรากฏการณ์นี้มีความสำคัญทางสรีรวิทยาอย่างไร?",
+    "options": {
+      "A": "เพื่อป้องกันไม่ให้กระแสไฟฟ้ากระจายไปยังปอดและกะบังลม",
+      "B": "เพื่อให้เวลาแก่หัวใจห้องบน (Atria) ในการบีบตัวส่งเลือดลงสู่ห้องล่าง (Ventricles) ให้เสร็จสิ้นสมบูรณ์ก่อนที่ห้องล่างจะเริ่มบีบตัว",
+      "C": "เพื่อลดความดันโลหิตในหลอดเลือด Aorta ให้เท่ากับความดันในปอด",
+      "D": "เพื่อให้ลิ้น Semilunar valves เปิดออกก่อนที่ลิ้น AV valves จะปิด"
+    },
+    "correctOption": "B",
+    "explanation": "AV nodal delay (ชะลอสัญญาณประมาณ 0.09-0.12 วินาที) มีความสำคัญอย่างยิ่ง เพื่อให้ Atria มีเวลาบีบตัวผลักเลือดปริมาตรสุดท้าย (Atrial kick) ลงสู่ Ventricles ให้เต็มที่ (Ventricular filling) ก่อนที่ Ventricles จะเริ่มหดเกร็งบีบเลือดออกไป",
+    "system": "Cardiovascular and Lymphatic Systems",
+    "topic": "Cardiac Conduction System",
+    "difficulty": "Hard",
+    "sourceFile": "BNS102-Anatomy of Cardiovascular and Lymphatic Sys_261024_214357.pdf",
+    "sourcePage": 39,
+    "tags": [
+      "av-node",
+      "nodal-delay",
+      "atrial-kick"
+    ],
+    "createdAt": "2026-10-24",
+    "updatedAt": "2026-10-24",
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "CARDIO-043",
+    "questionText": "โครงสร้างทางเดินไฟฟ้าเพียงโครงสร้างเดียวที่สามารถนำสัญญาณกระแสไฟฟ้าทะลุผ่านฉนวน Fibrous skeleton จากหัวใจห้องบนลงสู่หัวใจห้องล่างได้คือข้อใด?",
+    "options": {
+      "A": "Bachmann's bundle",
+      "B": "Anterior internodal pathway",
+      "C": "Atrioventricular bundle (Bundle of His)",
+      "D": "Pectinate muscle bundle"
+    },
+    "correctOption": "C",
+    "explanation": "เนื่องจาก Fibrous skeleton ทำหน้าที่เป็นฉนวนกั้นไฟฟ้าอย่างสมบูรณ์ โครงสร้างเดียวที่สามารถเจาะผ่านฉนวนนี้เพื่อนำ Action potential จาก AV node ใน Atria ลงสู่ Ventricles ได้คือ Bundle of His (AV bundle) ซึ่งจะทอดลงมาที่ยอดของ Interventricular septum",
+    "system": "Cardiovascular and Lymphatic Systems",
+    "topic": "Cardiac Conduction System",
+    "difficulty": "Hard",
+    "sourceFile": "BNS102-Anatomy of Cardiovascular and Lymphatic Sys_261024_214357.pdf",
+    "sourcePage": 40,
+    "tags": [
+      "bundle-of-his",
+      "av-bundle",
+      "fibrous-skeleton"
+    ],
+    "createdAt": "2026-10-24",
+    "updatedAt": "2026-10-24",
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "CARDIO-044",
+    "questionText": "เซลล์นำกระแสประสาทขนาดใหญ่ที่มีการสะสมไกลโคเจนสูง และมีอัตราเร็วในการนำสัญญาณไฟฟ้าสูงที่สุดในระบบนำไฟฟ้าของหัวใจ (ประมาณ 4 เมตรต่อวินาที) เพื่อกระจายสัญญาณสู่กล้ามเนื้อ Ventricles คือโครงสร้างใด?",
+    "options": {
+      "A": "Contractile cardiomyocytes ทั่วไป",
+      "B": "SA nodal cells",
+      "C": "AV nodal cells",
+      "D": "Purkinje fibers (Subendocardial conducting network)"
+    },
+    "correctOption": "D",
+    "explanation": "Purkinje fibers เป็นเซลล์กล้ามเนื้อหัวใจที่ดัดแปลงพิเศษ มีขนาดใหญ่กว่าเซลล์กล้ามเนื้อทั่วไป มี Myofibrils น้อยแต่สะสม Glycogen สูง และมี Gap junctions จำนวนมาก ทำให้นำกระแสไฟฟ้าได้เร็วที่สุด (1-4 m/s) เพื่อให้กล้ามเนื้อ Ventricles ทั้งหมดบีบตัวประสานกันอย่างมีประสิทธิภาพ",
+    "system": "Cardiovascular and Lymphatic Systems",
+    "topic": "Cardiac Conduction System",
+    "difficulty": "Medium",
+    "sourceFile": "BNS102-Anatomy of Cardiovascular and Lymphatic Sys_261024_214357.pdf",
+    "sourcePage": 41,
     "tags": [
       "purkinje-fibers",
       "conduction-velocity"
@@ -2304,73 +1103,49 @@ export const cardioQuestions: Question[] = [
     "verificationStatus": "verified"
   },
   {
-    "id": "CARDIO-095",
-    "questionText": "หลอดเลือดแดง Popliteal artery ตั้งอยู่บริเวณใด และแตกแขนงต่อเป็นหลอดเลือดใด?",
+    "id": "CARDIO-045",
+    "questionText": "ลำดับการนำสัญญาณไฟฟ้าผ่านระบบ Conduction system ของหัวใจจากจุดกำเนิดไปจนถึงปลายทางข้อใดถูกต้อง?",
     "options": {
-      "A": "ตั้งอยู่บนใบหน้า",
-      "B": "ตั้งอยู่บริเวณข้อศอก",
-      "C": "ตั้งอยู่ในแอ่งพับหลังข้อเข่า (Popliteal fossa) และแตกเป็น Anterior Tibial และ Posterior Tibial arteries",
-      "D": "ตั้งอยู่ในทรวงอก"
-    },
-    "correctOption": "C",
-    "explanation": "Femoral artery เมื่อลอดผ่าน Adductor hiatus ของกล้ามเนื้อ adductor magnus เข้าสู่แอ่งข้อพับหลังเข่าจะเปลี่ยนชื่อเป็น Popliteal artery จากนั้นจะแตกเป็น Anterior และ Posterior Tibial arteries",
-    "system": "Cardiovascular and Lymphatic Systems",
-    "topic": "Blood Vessels & Hemodynamics",
-    "difficulty": "Medium",
-    "sourceFile": "BNS102-Anatomy of Cardiovascular and Lymphatic Sys_261024_214357.pdf",
-    "sourcePage": 76,
-    "tags": [
-      "popliteal-artery",
-      "popliteal-fossa"
-    ],
-    "createdAt": "2026-10-24",
-    "updatedAt": "2026-10-24",
-    "verificationStatus": "verified"
-  },
-  {
-    "id": "CARDIO-096",
-    "questionText": "ระบบประสาทซิมพาเทติก (Sympathetic stimulation จาก Cardiac accelerator nerves) ส่งผลต่อหัวใจอย่างไร?",
-    "options": {
-      "A": "ยับยั้งการไหลเวียนเลือดเข้าสู่หัวใจ",
-      "B": "ลดอัตราการเต้นของหัวใจลงต่ำกว่า 40 ครั้ง/นาที",
-      "C": "ทำให้หัวใจหยุดเต้นชั่วขณะ",
-      "D": "เพิ่มอัตราการเต้นของหัวใจ (Heart rate) และเพิ่มแรงบีบตัวของกล้ามเนื้อหัวใจ (Contractility)"
-    },
-    "correctOption": "D",
-    "explanation": "Sympathetic nerves ปล่อย Norepinephrine จับกับ Beta-1 adrenergic receptors บน SA node และ Myocardium ส่งผลเพิ่มทั้งความเร็วในการยิงสัญญาณ (Positive chronotropic) และเพิ่มแรงบีบตัว (Positive inotropic)",
-    "system": "Cardiovascular and Lymphatic Systems",
-    "topic": "Coronary Circulation & Conduction",
-    "difficulty": "Easy",
-    "sourceFile": "BNS102-Anatomy of Cardiovascular and Lymphatic Sys_261024_214357.pdf",
-    "sourcePage": 48,
-    "tags": [
-      "sympathetic",
-      "heart-rate",
-      "contractility"
-    ],
-    "createdAt": "2026-10-24",
-    "updatedAt": "2026-10-24",
-    "verificationStatus": "verified"
-  },
-  {
-    "id": "CARDIO-097",
-    "questionText": "ระบบประสาทพาราซิมพาเทติกผ่านเส้นประสาท Vagus nerve (CN X) ส่งผลหลักต่อหัวใจอย่างไร?",
-    "options": {
-      "A": "ลดอัตราการเต้นของหัวใจ (Decrease heart rate) โดยออกฤทธิ์หลักที่ SA node และ AV node",
-      "B": "เพิ่มแรงดันเลือดเป็นสองเท่า",
-      "C": "ทำให้หลอดเลือดหัวใจอุดตัน",
-      "D": "กระตุ้นให้ลิ้นหัวใจเปิดค้าง"
+      "A": "SA node -> Internodal pathways -> AV node -> AV bundle (Bundle of His) -> Right and Left bundle branches -> Purkinje fibers",
+      "B": "AV node -> SA node -> Bundle of His -> Purkinje fibers -> Bundle branches",
+      "C": "Purkinje fibers -> Bundle branches -> AV bundle -> AV node -> SA node",
+      "D": "SA node -> AV bundle -> AV node -> Purkinje fibers -> Bundle branches"
     },
     "correctOption": "A",
-    "explanation": "Vagus nerve (Parasympathetic) ปล่อย Acetylcholine จับกับ Muscarinic (M2) receptors ที่ SA node และ AV node ทำหน้าที่หน่วงเวลาและลดอัตราการเต้นของหัวใจ (Negative chronotropic) ขณะพักผ่อน",
+    "explanation": "ลำดับการนำไฟฟ้าของหัวใจที่ถูกต้อง: 1. SA node (Pacemaker) -> 2. Internodal pathways (ใน Atria) -> 3. AV node (หน่วงสัญญาณ) -> 4. Bundle of His (เจาะผ่าน Fibrous skeleton) -> 5. Right & Left bundle branches (ใน Interventricular septum) -> 6. Purkinje fibers (กระจายทั่วผนัง Ventricles)",
     "system": "Cardiovascular and Lymphatic Systems",
-    "topic": "Coronary Circulation & Conduction",
+    "topic": "Cardiac Conduction System",
     "difficulty": "Medium",
     "sourceFile": "BNS102-Anatomy of Cardiovascular and Lymphatic Sys_261024_214357.pdf",
-    "sourcePage": 48,
+    "sourcePage": 37,
+    "tags": [
+      "conduction-pathway",
+      "sa-to-purkinje"
+    ],
+    "createdAt": "2026-10-24",
+    "updatedAt": "2026-10-24",
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "CARDIO-046",
+    "questionText": "การกระตุ้นประสาทพาราซิมพาเทติก (Parasympathetic innervation) ผ่านทางเส้นประสาทสมองคู่ใดที่ส่งผลให้หัวใจเต้นช้าลง (Negative chronotropic effect) และสารสื่อประสาทชนิดใดที่หลั่งออกมาที่ SA node?",
+    "options": {
+      "A": "เส้นประสาทสมองคู่ที่ 9 (Glossopharyngeal nerve: CN IX) หลั่งสาร Norepinephrine",
+      "B": "เส้นประสาทสมองคู่ที่ 10 (Vagus nerve: CN X) หลั่งสารสื่อประสาท Acetylcholine (ACh)",
+      "C": "เส้นประสาทสมองคู่ที่ 11 (Accessory nerve: CN XI) หลั่งสาร Dopamine",
+      "D": "เส้นประสาทสมองคู่ที่ 7 (Facial nerve: CN VII) หลั่งสาร Epinephrine"
+    },
+    "correctOption": "B",
+    "explanation": "ระบบ Parasympathetic เลี้ยงหัวใจผ่าน Vagus nerve (CN X) โดยแขนงประสาทจะไปสิ้นสุดที่ SA node และ AV node เป็นหลัก เมื่อถูกกระตุ้นจะหลั่ง Acetylcholine (ACh) จับกับ Muscarinic M2 receptors ส่งผลให้ Hyperpolarization ของเซลล์ ทำให้อัตราการเต้นของหัวใจช้าลง (Bradycardia)",
+    "system": "Cardiovascular and Lymphatic Systems",
+    "topic": "Cardiac Conduction System",
+    "difficulty": "Hard",
+    "sourceFile": "BNS102-Anatomy of Cardiovascular and Lymphatic Sys_261024_214357.pdf",
+    "sourcePage": 42,
     "tags": [
       "vagus-nerve",
       "parasympathetic",
+      "acetylcholine",
       "bradycardia"
     ],
     "createdAt": "2026-10-24",
@@ -2378,24 +1153,1305 @@ export const cardioQuestions: Question[] = [
     "verificationStatus": "verified"
   },
   {
-    "id": "CARDIO-098",
-    "questionText": "หน้าที่สำคัญที่สุดของระบบน้ำเหลือง (Lymphatic System) ในการรักษาสมดุลของสารน้ำในร่างกายคือข้อใด?",
+    "id": "CARDIO-047",
+    "questionText": "การกระตุ้นระบบประสาทซิมพาเทติก (Sympathetic innervation) มาจากไขสันหลังระดับใด และส่งผลต่อการทำงานของหัวใจอย่างไรผ่านตัวรับชนิดใด?",
     "options": {
-      "A": "สร้างน้ำปัสสาวะขับออกนอกร่างกาย",
-      "B": "ดูดซึมสารน้ำและโปรตีนส่วนเกินที่คั่งค้างในเนื้อเยื่อ (ประมาณ 3 ลิตรต่อวัน) ส่งกลับคืนเข้าสู่ระบบไหลเวียนโลหิตทางหลอดเลือดดำ",
-      "C": "ส่งออกซิเจนไปยังเซลล์กล้ามเนื้อโดยตรง",
-      "D": "ควบคุมอุณหภูมิร่างกายให้เย็นลง"
+      "A": "ไขสันหลังระดับ S2 - S4 หลั่ง Serotonin ทำให้หลอดเลือดหัวใจหดตัว",
+      "B": "ไขสันหลังระดับ L1 - L3 หลั่ง Acetylcholine ทำให้หัวใจคลายตัว",
+      "C": "ไขสันหลังระดับ T1 - T5 (Sympathetic trunk) หลั่ง Norepinephrine จับกับ Beta-1 adrenergic receptors ทำให้ทั้งอัตราการเต้น (Heart rate) และแรงบีบตัว (Contractility) ของหัวใจเพิ่มขึ้น",
+      "D": "ก้านสมองส่วน Medulla หลั่ง GABA ทำให้หัวใจหยุดเต้นชั่วคราว"
+    },
+    "correctOption": "C",
+    "explanation": "Sympathetic preganglionic fibers ออกมาจากไขสันหลังระดับ T1-T5 ไปยัง Sympathetic chain ganglia แล้วส่ง Postganglionic cardiac nerves ไปเลี้ยงทั้ง SA node, AV node และ Myocardium ทั่วทั้งห้องบนและห้องล่าง หลั่ง Norepinephrine จับกับ Beta-1 adrenergic receptors เพิ่มทั้ง Heart rate, Conduction velocity และ Contractility",
+    "system": "Cardiovascular and Lymphatic Systems",
+    "topic": "Cardiac Conduction System",
+    "difficulty": "Hard",
+    "sourceFile": "BNS102-Anatomy of Cardiovascular and Lymphatic Sys_261024_214357.pdf",
+    "sourcePage": 42,
+    "tags": [
+      "sympathetic-innervation",
+      "beta-1-receptors",
+      "norepinephrine"
+    ],
+    "createdAt": "2026-10-24",
+    "updatedAt": "2026-10-24",
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "CARDIO-048",
+    "questionText": "หาก SA node เสียหายหรือหยุดทำงาน โครงสร้างใดในระบบนำไฟฟ้าจะเข้ามารับหน้าที่เป็น Pacemaker สำรองอันดับถัดไป (Secondary pacemaker) และจะมีอัตราการปล่อยกระแสไฟฟ้าประมาณเท่าใด?",
+    "options": {
+      "A": "กล้ามเนื้อ Atrium โดยมีอัตราการเต้น 0 ครั้งต่อนาที",
+      "B": "Purkinje fibers โดยมีอัตราการเต้นประมาณ 80 - 100 ครั้งต่อนาที",
+      "C": "Bundle of His โดยมีอัตราการเต้นประมาณ 100 - 120 ครั้งต่อนาที",
+      "D": "AV node โดยมีอัตราการปล่อยกระแสไฟฟ้าประมาณ 40 - 60 ครั้งต่อนาที"
+    },
+    "correctOption": "D",
+    "explanation": "ระบบนำไฟฟ้ามีลำดับ Pacemaker สำรอง: 1. SA node = 60-100 bpm (Primary) 2. AV node = 40-60 bpm (Secondary, เข้าทำงานแทนเมื่อ SA node ล้มเหลว) 3. Bundle of His และ Purkinje fibers = 20-40 bpm (Tertiary / Ventricular escape rhythm)",
+    "system": "Cardiovascular and Lymphatic Systems",
+    "topic": "Cardiac Conduction System",
+    "difficulty": "Medium",
+    "sourceFile": "BNS102-Anatomy of Cardiovascular and Lymphatic Sys_261024_214357.pdf",
+    "sourcePage": 39,
+    "tags": [
+      "pacemaker-hierarchy",
+      "av-node-intrinsic-rate"
+    ],
+    "createdAt": "2026-10-24",
+    "updatedAt": "2026-10-24",
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "CARDIO-049",
+    "questionText": "คลื่น P wave บนกราฟคลื่นไฟฟ้าหัวใจ (Electrocardiogram: ECG) แสดงถึงเหตุการณ์ทางไฟฟ้าและทางกายวิภาคใดของหัวใจ?",
+    "options": {
+      "A": "Atrial depolarization (การกระจายของกระแสไฟฟ้ากระตุ้นการหดตัวของกล้ามเนื้อหัวใจห้องบน)",
+      "B": "Ventricular depolarization (การกระตุ้นหัวใจห้องล่าง)",
+      "C": "Ventricular repolarization (การฟื้นตัวของหัวใจห้องล่าง)",
+      "D": "Atrial repolarization (การฟื้นตัวของหัวใจห้องบน)"
+    },
+    "correctOption": "A",
+    "explanation": "คลื่นบน ECG: 1. P wave = Atrial depolarization (กระแสไฟฟ้าแพร่ผ่าน Atria) 2. QRS complex = Ventricular depolarization (กระแสไฟฟ้าแพร่ผ่าน Ventricles กลบ Atrial repolarization) 3. T wave = Ventricular repolarization (การฟื้นตัวทางไฟฟ้าของ Ventricles)",
+    "system": "Cardiovascular and Lymphatic Systems",
+    "topic": "Cardiac Conduction System",
+    "difficulty": "Medium",
+    "sourceFile": "BNS102-Anatomy of Cardiovascular and Lymphatic Sys_261024_214357.pdf",
+    "sourcePage": 38,
+    "tags": [
+      "ecg",
+      "p-wave",
+      "atrial-depolarization"
+    ],
+    "createdAt": "2026-10-24",
+    "updatedAt": "2026-10-24",
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "CARDIO-050",
+    "questionText": "คลื่นกลุ่ม QRS complex บนกราฟ ECG สัมพันธ์กับเหตุการณ์ทางกลศาสตร์ใดของหัวใจที่กำลังจะเกิดขึ้นตามมาทันที?",
+    "options": {
+      "A": "Atrial systole (การบีบตัวของหัวใจห้องบน)",
+      "B": "Ventricular systole (การเริ่มบีบตัวของหัวใจห้องล่างเพื่อฉีดเลือดออกสู่หลอดเลือดแดงใหญ่)",
+      "C": "Ventricular diastole (การคลายตัวของหัวใจห้องล่าง)",
+      "D": "การปิดของลิ้น Aortic valve"
     },
     "correctOption": "B",
-    "explanation": "ในแต่ละวัน สารน้ำจากหลอดเลือดฝอยซึมออกสู่ interstitial space มากกว่าที่ดูดกลับได้ประมาณ 3 ลิตร ระบบน้ำเหลืองมีหน้าที่เก็บรวบรวมสารน้ำและโปรตีนส่วนเกินนี้กลับเข้าสู่ระบบไหลเวียนเลือด หากล้มเหลวจะเกิด Edema ทันที",
+    "explanation": "QRS complex แสดงถึง Ventricular depolarization ซึ่งเป็นสัญญาณทางไฟฟ้าที่เกิดขึ้นก่อนการหดตัวทางกลศาสตร์ (Mechanical contraction) ของกล้ามเนื้อ Ventricles เล็กน้อย ดังนั้นทันทีหลังเกิด QRS complex หัวใจห้องล่างจะเริ่มบีบตัวเข้าสู่ระยะ Ventricular systole",
     "system": "Cardiovascular and Lymphatic Systems",
-    "topic": "Lymphatic Organs & Circulation",
+    "topic": "Cardiac Conduction System",
+    "difficulty": "Medium",
+    "sourceFile": "BNS102-Anatomy of Cardiovascular and Lymphatic Sys_261024_214357.pdf",
+    "sourcePage": 38,
+    "tags": [
+      "qrs-complex",
+      "ventricular-systole"
+    ],
+    "createdAt": "2026-10-24",
+    "updatedAt": "2026-10-24",
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "CARDIO-051",
+    "questionText": "หลอดเลือดแดงโคโรนารี (Coronary arteries) ทั้งด้านซ้ายและขวามีจุดกำเนิดทางกายวิภาค (Anatomical origin) ออกมาจากโครงสร้างใดของระบบไหลเวียนโลหิต?",
+    "options": {
+      "A": "Pulmonary trunk เหนือแผ่นลิ้น Pulmonary valve",
+      "B": "Aortic arch ร่วมกับ Brachiocephalic artery",
+      "C": "Aortic sinuses (Sinuses of Valsalva) ที่โคนของ Ascending aorta เหนือระดับแผ่นลิ้น Aortic valve เล็กน้อย",
+      "D": "Left Ventricle โดยตรงผ่านรูเปิดพิเศษใน Myocardium"
+    },
+    "correctOption": "C",
+    "explanation": "Right and Left coronary arteries แตกแขนงออกมาจาก Right และ Left aortic sinuses (Sinuses of Valsalva) บริเวณโคนของ Ascending aorta เหนือต่อแผ่นลิ้น Aortic valve โดยเลือดจะไหลเข้าสู่หลอดเลือดโคโรนารีมากที่สุดในช่วง Ventricular diastole เมื่อลิ้น Aortic valve ปิดลง",
+    "system": "Cardiovascular and Lymphatic Systems",
+    "topic": "Coronary Circulation & Clinical Ischemia",
+    "difficulty": "Medium",
+    "sourceFile": "BNS102-Anatomy of Cardiovascular and Lymphatic Sys_261024_214357.pdf",
+    "sourcePage": 44,
+    "tags": [
+      "coronary-arteries",
+      "aortic-sinus",
+      "ascending-aorta"
+    ],
+    "createdAt": "2026-10-24",
+    "updatedAt": "2026-10-24",
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "CARDIO-052",
+    "questionText": "ผู้ป่วยชายอายุ 58 ปี มาโรงพยาบาลด้วยอาการเจ็บแน่นหน้าอกรุนแรงเหมือนมีของหนักทับ ร้าวไปที่กรามและแขนซ้าย ตรวจคลื่นไฟฟ้าหัวใจพบ ST-elevation ที่ Lead V1-V4 บ่งชี้ภาวะกล้ามเนื้อหัวใจตายเฉียบพลันบริเวณ Anterior wall ของ Left Ventricle และ Interventricular septum หลอดเลือดโคโรนารีเส้นใดที่เกิดการอุดตันบ่อยที่สุดและเรียกกันว่า \"Widow maker\"?",
+    "options": {
+      "A": "Right Marginal artery",
+      "B": "Right Coronary Artery (RCA)",
+      "C": "Circumflex artery (LCx)",
+      "D": "Anterior Interventricular Artery (Left Anterior Descending: LAD)"
+    },
+    "correctOption": "D",
+    "explanation": "Anterior Interventricular Artery หรือ LAD เป็นแขนงของ Left Coronary Artery ทอดตัวใน Anterior interventricular sulcus เลี้ยงผนังด้านหน้าของ Ventricles ทั้งสองและ 2/3 ส่วนหน้าของ Interventricular septum เป็นเส้นเลือดที่เกิดการอุดตันบ่อยที่สุด (40-50%) และอันตรายถึงชีวิตมากที่สุดจนได้ฉายาว่า \"Widow maker\"",
+    "system": "Cardiovascular and Lymphatic Systems",
+    "topic": "Coronary Circulation & Clinical Ischemia",
+    "difficulty": "Hard",
+    "sourceFile": "BNS102-Anatomy of Cardiovascular and Lymphatic Sys_261024_214357.pdf",
+    "sourcePage": 45,
+    "tags": [
+      "lad",
+      "anterior-wall-mi",
+      "widow-maker",
+      "clinical-ecg"
+    ],
+    "createdAt": "2026-10-24",
+    "updatedAt": "2026-10-24",
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "CARDIO-053",
+    "questionText": "แขนงของ Left Coronary Artery (LCA) ที่ทอดตัวเลี้ยวไปตามร่อง Coronary sulcus ทางด้านหลังของหัวใจ เพื่อไปเลี้ยงผนังด้านข้าง (Lateral wall) และด้านหลังของ Left Atrium และ Left Ventricle คือหลอดเลือดใด?",
+    "options": {
+      "A": "Circumflex artery (LCx)",
+      "B": "Posterior interventricular artery",
+      "C": "Right marginal artery",
+      "D": "Conus arteriosus branch"
+    },
+    "correctOption": "A",
+    "explanation": "Left Coronary Artery จะแยกออกเป็น 2 แขนงหลัก: 1. Anterior interventricular artery (LAD) ทอดลงด้านหน้าสู่ Apex 2. Circumflex artery (LCx) โค้งไปตาม Coronary sulcus ไปทางด้านหลัง เลี้ยง Left Atrium และผนังด้านข้าง/หลังของ Left Ventricle",
+    "system": "Cardiovascular and Lymphatic Systems",
+    "topic": "Coronary Circulation & Clinical Ischemia",
+    "difficulty": "Medium",
+    "sourceFile": "BNS102-Anatomy of Cardiovascular and Lymphatic Sys_261024_214357.pdf",
+    "sourcePage": 45,
+    "tags": [
+      "circumflex-artery",
+      "lca-branches"
+    ],
+    "createdAt": "2026-10-24",
+    "updatedAt": "2026-10-24",
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "CARDIO-054",
+    "questionText": "หลอดเลือด Right Coronary Artery (RCA) ทอดไปตาม Coronary sulcus ด้านขวา และให้แขนงสำคัญที่ทอดลงมาตามขอบล่างของหัวใจห้องล่างขวาเพื่อไปเลี้ยงผนังด้านข้างของ Right Ventricle คือแขนงใด?",
+    "options": {
+      "A": "Circumflex branch",
+      "B": "Right marginal branch",
+      "C": "Left anterior descending branch",
+      "D": "Great cardiac branch"
+    },
+    "correctOption": "B",
+    "explanation": "Right Coronary Artery (RCA) ให้แขนงสำคัญ 2 แขนง: 1. Right marginal artery ทอดขนานตามขอบล่างของหัวใจเลี้ยง Right Ventricle 2. Posterior interventricular artery (PDA) ทอดใน Posterior interventricular groove เลี้ยงผนังล่างและด้านหลังของ Ventricles",
+    "system": "Cardiovascular and Lymphatic Systems",
+    "topic": "Coronary Circulation & Clinical Ischemia",
+    "difficulty": "Medium",
+    "sourceFile": "BNS102-Anatomy of Cardiovascular and Lymphatic Sys_261024_214357.pdf",
+    "sourcePage": 46,
+    "tags": [
+      "rca",
+      "marginal-artery"
+    ],
+    "createdAt": "2026-10-24",
+    "updatedAt": "2026-10-24",
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "CARDIO-055",
+    "questionText": "ในภาวะ Inferior wall Myocardial Infarction ผู้ป่วยมักมีอาการหัวใจเต้นช้าผิดปกติและเกิด AV block เนื่องจากหลอดเลือดเส้นที่อุดตันทำหน้าที่ส่งเลือดไปเลี้ยง SA node และ AV node หลอดเลือดที่มีพยาธิสภาพในกรณีนี้คือเส้นใด?",
+    "options": {
+      "A": "Great cardiac vein",
+      "B": "Left anterior descending artery",
+      "C": "Right Coronary Artery (RCA) ซึ่งให้แขนง Nodal branches ไปเลี้ยง SA node (ประมาณ 60% ของประชากร) และ AV node (ประมาณ 90% ของประชากร)",
+      "D": "Pulmonary artery"
+    },
+    "correctOption": "C",
+    "explanation": "RCA เลี้ยง Right Atrium, Right Ventricle ผนังด้านล่าง (Inferior/diaphragmatic wall) และให้แขนงไปเลี้ยงระบบนำไฟฟ้าหัวใจ ได้แก่ SA nodal branch (60%) และ AV nodal branch (90%) ดังนั้นเมื่อเกิด Inferior wall MI จาก RCA occlusion ผู้ป่วยจึงมักมีภาวะ Bradycardia หรือ AV nodal block ร่วมด้วย",
+    "system": "Cardiovascular and Lymphatic Systems",
+    "topic": "Coronary Circulation & Clinical Ischemia",
+    "difficulty": "Hard",
+    "sourceFile": "BNS102-Anatomy of Cardiovascular and Lymphatic Sys_261024_214357.pdf",
+    "sourcePage": 46,
+    "tags": [
+      "rca-occlusion",
+      "inferior-mi",
+      "av-block",
+      "nodal-artery"
+    ],
+    "createdAt": "2026-10-24",
+    "updatedAt": "2026-10-24",
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "CARDIO-056",
+    "questionText": "หลอดเลือดดำ Great Cardiac Vein ทอดคู่กับหลอดเลือดแดงใด และนำเลือดดำจากกล้ามเนื้อหัวใจไหลไปเทรวมเข้าสู่โครงสร้างใดทางด้านหลังของหัวใจ?",
+    "options": {
+      "A": "ทอดคู่กับ Pulmonary trunk แล้วเทเข้าสู่ปอด",
+      "B": "ทอดคู่กับ Posterior interventricular artery แล้วเทเข้า Inferior Vena Cava",
+      "C": "ทอดคู่กับ Aorta แล้วเทเข้าสู่ Left Atrium",
+      "D": "ทอดคู่กับ Anterior Interventricular Artery (LAD) ในร่องด้านหน้า แล้วเทเข้าสู่ Coronary Sinus"
+    },
+    "correctOption": "D",
+    "explanation": "Great Cardiac Vein ทอดคู่กับ Anterior Interventricular Artery (LAD) ใน Anterior interventricular sulcus รับเลือดดำจากผิวด้านหน้าของ Ventricles ทั้งสอง จากนั้นจะโค้งไปตาม Coronary sulcus ด้านหลังเพื่อเทเข้าสู่ Coronary Sinus",
+    "system": "Cardiovascular and Lymphatic Systems",
+    "topic": "Coronary Circulation & Clinical Ischemia",
+    "difficulty": "Medium",
+    "sourceFile": "BNS102-Anatomy of Cardiovascular and Lymphatic Sys_261024_214357.pdf",
+    "sourcePage": 48,
+    "tags": [
+      "great-cardiac-vein",
+      "coronary-sinus",
+      "lad"
+    ],
+    "createdAt": "2026-10-24",
+    "updatedAt": "2026-10-24",
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "CARDIO-057",
+    "questionText": "หลอดเลือดดำ Middle Cardiac Vein ทอดตัวอยู่ในร่องใดทางด้านหลังของหัวใจ และทอดตัวคู่ขนานไปกับหลอดเลือดแดงเส้นใด?",
+    "options": {
+      "A": "ทอดอยู่ใน Posterior interventricular sulcus คู่กับ Posterior Interventricular Artery",
+      "B": "ทอดอยู่ใน Anterior interventricular sulcus คู่กับ LAD",
+      "C": "ทอดอยู่ข้างขอบล่างหัวใจคู่กับ Right marginal artery",
+      "D": "ทอดอยู่บน Superior vena cava"
+    },
+    "correctOption": "A",
+    "explanation": "Middle Cardiac Vein ทอดตัวอยู่ใน Posterior interventricular sulcus ทางด้านหลังของหัวใจ คู่กับ Posterior Interventricular Artery (แขนงของ RCA) และนำเลือดดำเทเข้าสู่ Coronary Sinus",
+    "system": "Cardiovascular and Lymphatic Systems",
+    "topic": "Coronary Circulation & Clinical Ischemia",
+    "difficulty": "Medium",
+    "sourceFile": "BNS102-Anatomy of Cardiovascular and Lymphatic Sys_261024_214357.pdf",
+    "sourcePage": 48,
+    "tags": [
+      "middle-cardiac-vein",
+      "posterior-interventricular"
+    ],
+    "createdAt": "2026-10-24",
+    "updatedAt": "2026-10-24",
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "CARDIO-058",
+    "questionText": "กระเปาะหลอดเลือดดำขนาดใหญ่ทางด้านหลังของหัวใจในร่อง Coronary sulcus ที่ทำหน้าที่รวบรวมเลือดดำเกือบทั้งหมดจากกล้ามเนื้อหัวใจเพื่อส่งตรงเข้าสู่ Right Atrium คือโครงสร้างใด?",
+    "options": {
+      "A": "Superior Vena Cava",
+      "B": "Coronary Sinus",
+      "C": "Inferior Vena Cava",
+      "D": "Cisterna Chyli"
+    },
+    "correctOption": "B",
+    "explanation": "Coronary Sinus เป็นแอ่งหลอดเลือดดำกว้างที่อยู่บนผิวด้านหลังของหัวใจใน Coronary sulcus รับเลือดดำจาก Great, Middle, และ Small cardiac veins แล้วเทเข้าสู่ Right Atrium โดยตรงผ่านทาง Coronary sinus orifice (มี Thebesian valve กั้นบางส่วน)",
+    "system": "Cardiovascular and Lymphatic Systems",
+    "topic": "Coronary Circulation & Clinical Ischemia",
     "difficulty": "Easy",
     "sourceFile": "BNS102-Anatomy of Cardiovascular and Lymphatic Sys_261024_214357.pdf",
-    "sourcePage": 89,
+    "sourcePage": 47,
     "tags": [
-      "lymphatic-function",
-      "fluid-balance"
+      "coronary-sinus",
+      "right-atrium"
+    ],
+    "createdAt": "2026-10-24",
+    "updatedAt": "2026-10-24",
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "CARDIO-059",
+    "questionText": "การไหลเวียนของเลือดในหลอดเลือดโคโรนารี (Coronary blood flow) แตกต่างจากอวัยวะอื่นในร่างกายอย่างไร โดยเฉพาะในกล้ามเนื้อหัวใจห้องล่างซ้าย?",
+    "options": {
+      "A": "อัตราการไหลคงที่ตลอดเวลาไม่ขึ้นกับวงรอบการเต้นของหัวใจ",
+      "B": "เลือดจะไหลเข้าได้เฉพาะในช่วง Ventricular systole ที่มีความดันสูงสุดเท่านั้น",
+      "C": "เลือดจะไหลเข้าสู่กล้ามเนื้อหัวใจห้องล่างซ้ายได้มากที่สุดในช่วง Ventricular diastole (หัวใจคลายตัว) เนื่องจากในช่วง Systole ผนังกล้ามเนื้อหัวใจจะบีบตัวแน่นจนกดเบียดหลอดเลือดฝอยโคโรนารีให้ตีบลง",
+      "D": "เลือดจะหยุดไหลทั้งหมดเมื่อความดันโลหิตสูงขึ้น"
+    },
+    "correctOption": "C",
+    "explanation": "กล้ามเนื้อหัวใจห้องล่างซ้ายสร้างแรงบีบตัวมหาศาลขณะ Systole ซึ่งบีบกด Intramyocardial coronary vessels ทำให้เลือดแทบไม่สามารถไหลผ่านได้ แต่เมื่อเข้าสู่ระยะ Ventricular diastole ผนังคลายตัว และมีแรงดันย้อนกลับใน Aorta เลือดจึงไหลเข้าสู่ Coronary arteries และ Myocardium ได้อย่างเต็มที่ (ประมาณ 70-80% ของ Coronary flow เกิดใน Diastole)",
+    "system": "Cardiovascular and Lymphatic Systems",
+    "topic": "Coronary Circulation & Clinical Ischemia",
+    "difficulty": "Hard",
+    "sourceFile": "BNS102-Anatomy of Cardiovascular and Lymphatic Sys_261024_214357.pdf",
+    "sourcePage": 44,
+    "tags": [
+      "coronary-flow-diastole",
+      "myocardial-perfusion"
+    ],
+    "createdAt": "2026-10-24",
+    "updatedAt": "2026-10-24",
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "CARDIO-060",
+    "questionText": "ผู้ป่วยโรคหลอดเลือดหัวใจตีบมักได้รับการผ่าตัดทำทางเบี่ยงหลอดเลือดหัวใจ (Coronary Artery Bypass Graft: CABG) หลอดเลือดดำและหลอดเลือดแดงของร่างกายที่นิยมนำมาทำ Graft มากที่สุดคือข้อใด?",
+    "options": {
+      "A": "Renal artery และ Portal vein",
+      "B": "Femoral artery และ Jugular vein",
+      "C": "Brachial artery และ Cephalic vein",
+      "D": "Great saphenous vein (จากขา) และ Internal thoracic artery (Internal mammary artery: LIMA จากผนังทรวงอก)"
+    },
+    "correctOption": "D",
+    "explanation": "ในการผ่าตัด CABG หลอดเลือดที่นิยมใช้มากที่สุดคือ 1. Great saphenous vein จากรยางค์ล่าง (เนื่องจากยาวและตัดออกได้โดยไม่กระทบต่อการไหลเวียนหลัก) 2. Left Internal Thoracic Artery (LIMA) จากผนังทรวงอกด้านใน (ซึ่งมีอัตราการเปิดโล่งในระยะยาวดีที่สุด)",
+    "system": "Cardiovascular and Lymphatic Systems",
+    "topic": "Coronary Circulation & Clinical Ischemia",
+    "difficulty": "Hard",
+    "sourceFile": "BNS102-Anatomy of Cardiovascular and Lymphatic Sys_261024_214357.pdf",
+    "sourcePage": 50,
+    "tags": [
+      "cabg",
+      "great-saphenous-vein",
+      "internal-thoracic-artery"
+    ],
+    "createdAt": "2026-10-24",
+    "updatedAt": "2026-10-24",
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "CARDIO-061",
+    "questionText": "ผนังของหลอดเลือดแดงและหลอดเลือดดำทั่วไปประกอบด้วยชั้นเนื้อเยื่อ 3 ชั้น ลำดับจากชั้นในสุดสัมผัสกับเลือดออกสู่ชั้นนอกสุดข้อใดถูกต้อง?",
+    "options": {
+      "A": "Tunica intima -> Tunica media -> Tunica externa (Tunica adventitia)",
+      "B": "Tunica media -> Tunica intima -> Tunica externa",
+      "C": "Tunica externa -> Tunica media -> Tunica intima",
+      "D": "Tunica intima -> Tunica adventitia -> Tunica media"
+    },
+    "correctOption": "A",
+    "explanation": "ผนังหลอดเลือดเรียงจากในออกนอก: 1. Tunica intima (ชั้นในสุด มี Endothelium และ Internal elastic lamina) 2. Tunica media (ชั้นกลาง ประกอบด้วยกล้ามเนื้อเรียบและ Elastic fibers) 3. Tunica externa/adventitia (ชั้นนอกสุด ประกอบด้วยคอลลาเจนและ Vasa vasorum)",
+    "system": "Cardiovascular and Lymphatic Systems",
+    "topic": "Blood Vessels Anatomy & Histology",
+    "difficulty": "Easy",
+    "sourceFile": "BNS102-Anatomy of Cardiovascular and Lymphatic Sys_261024_214357.pdf",
+    "sourcePage": 52,
+    "tags": [
+      "vessel-wall-layers",
+      "tunica-intima-media-adventitia"
+    ],
+    "createdAt": "2026-10-24",
+    "updatedAt": "2026-10-24",
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "CARDIO-062",
+    "questionText": "หลอดเลือดแดงขนาดใหญ่ เช่น Aorta และ Pulmonary trunk จัดเป็นกลุ่ม Elastic arteries (Conducting arteries) ในชั้น Tunica media ของหลอดเลือดกลุ่มนี้มีลักษณะพิเศษทางเนื้อเยื่ออย่างไรที่ช่วยทำหน้าที่ Windkessel effect?",
+    "options": {
+      "A": "มีเซลล์กล้ามเนื้อลายหนาแน่นช่วยบีบรูดเลือด",
+      "B": "มีแผ่นเส้นใยอิลาสติน (Elastic lamellae) เรียงตัวสลับกันจำนวนมากในชั้น Tunica media ทำให้สามารถขยายตัวรับแรงกระแทกของเลือดในจังหวะ Systole และหดตัวดันเลือดไหลต่อเนื่องในจังหวะ Diastole",
+      "C": "มีลิ้นเปิดปิดภายในท่อตลอดความยาว",
+      "D": "ไม่มีชั้น Tunica media เพื่อให้ผนังบางที่สุด"
+    },
+    "correctOption": "B",
+    "explanation": "Elastic arteries (เช่น Aorta) มี Elastic fibers จำนวนมากใน Tunica media ทำหน้าที่เป็นถังรับแรงดัน (Windkessel effect) ยืดขยายตัวรับ Stroke volume ขณะ Systole และหดตัวกลับ (Elastic recoil) ดันเลือดให้ไหลต่อเนื่องไปข้างหน้าในขณะ Diastole ช่วยลดความดันตัวบนและคงความดันตัวล่างไม่ให้ตกเป็นศูนย์",
+    "system": "Cardiovascular and Lymphatic Systems",
+    "topic": "Blood Vessels Anatomy & Histology",
+    "difficulty": "Hard",
+    "sourceFile": "BNS102-Anatomy of Cardiovascular and Lymphatic Sys_261024_214357.pdf",
+    "sourcePage": 53,
+    "tags": [
+      "elastic-arteries",
+      "windkessel-effect",
+      "aorta"
+    ],
+    "createdAt": "2026-10-24",
+    "updatedAt": "2026-10-24",
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "CARDIO-063",
+    "questionText": "หลอดเลือดชนิดใดในระบบไหลเวียนโลหิตที่ทำหน้าที่เป็น Major resistance vessels (ตัวต้านทานหลักของระบบ) ซึ่งมีผลต่อการควบคุมความดันโลหิตทั่วร่างกาย (Systemic blood pressure) มากที่สุดจากการหดและขยายตัวของกล้ามเนื้อเรียบ?",
+    "options": {
+      "A": "Large veins",
+      "B": "Elastic arteries",
+      "C": "Arterioles (หลอดเลือดแดงเล็ก)",
+      "D": "Continuous capillaries"
+    },
+    "correctOption": "C",
+    "explanation": "Arterioles มีสัดส่วนของกล้ามเนื้อเรียบในชั้น Tunica media หนามากเมื่อเทียบกับขนาด Lumen และถูกควบคุมอย่างใกล้ชิดโดยระบบประสาทอัตโนมัติ การเปลี่ยนแปลงขนาดเส้นผ่านศูนย์กลางเพียงเล็กน้อยของ Arterioles จะส่งผลต่อแรงต้านทานส่วนปลาย (Total Peripheral Resistance: TPR) และความดันโลหิตอย่างมหาศาลตามกฎของ Poiseuille",
+    "system": "Cardiovascular and Lymphatic Systems",
+    "topic": "Blood Vessels Anatomy & Histology",
+    "difficulty": "Hard",
+    "sourceFile": "BNS102-Anatomy of Cardiovascular and Lymphatic Sys_261024_214357.pdf",
+    "sourcePage": 54,
+    "tags": [
+      "arterioles",
+      "resistance-vessels",
+      "tpr",
+      "blood-pressure"
+    ],
+    "createdAt": "2026-10-24",
+    "updatedAt": "2026-10-24",
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "CARDIO-064",
+    "questionText": "หลอดเลือดฝอย (Capillaries) ชนิด Fenestrated capillaries มีลักษณะทางจุลกายวิภาคอย่างไร และพบได้เด่นชัดที่สุดในอวัยวะใด?",
+    "options": {
+      "A": "มีชั้นกล้ามเนื้อเรียบ 3 ชั้นล้อมรอบ",
+      "B": "ไม่มีรูพรุนใดๆ มี Tight junctions แนบสนิท พบที่ Blood-Brain Barrier ในสมอง",
+      "C": "มีช่องว่างกว้างมากระหว่างเซลล์และ Basement membrane ไม่สมบูรณ์ พบที่ตับ ม้าม และไขกระดูก",
+      "D": "เซลล์ Endothelial มีรูพรุนขนาดเล็ก (Fenestrations) แต่ยังมี Basement membrane ต่อเนื่อง พบได้ที่ Glomerulus ของไต, ต่อมไร้ท่อ และเยื่อบุทางเดินอาหาร"
+    },
+    "correctOption": "D",
+    "explanation": "Fenestrated capillaries มีรูพรุน (Pores/Fenestrae ขนาด 60-80 nm) บนผนังเซลล์บุผิว ช่วยให้โมเลกุลขนาดเล็กและของเหลวซึมผ่านได้อย่างรวดเร็ว พบในอวัยวะที่มีการกรองหรือดูดซึมสารสูง เช่น Glomerulus ของไต, เยื่อบุลำไส้เล็ก และต่อมไร้ท่อต่างๆ",
+    "system": "Cardiovascular and Lymphatic Systems",
+    "topic": "Blood Vessels Anatomy & Histology",
+    "difficulty": "Hard",
+    "sourceFile": "BNS102-Anatomy of Cardiovascular and Lymphatic Sys_261024_214357.pdf",
+    "sourcePage": 55,
+    "tags": [
+      "fenestrated-capillaries",
+      "renal-glomerulus",
+      "microcirculation"
+    ],
+    "createdAt": "2026-10-24",
+    "updatedAt": "2026-10-24",
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "CARDIO-065",
+    "questionText": "หลอดเลือดฝอยชนิด Sinusoid (Discontinuous capillaries) มีลักษณะเด่นอย่างไร และมีความสัมพันธ์เชิงโครงสร้างและหน้าที่กับอวัยวะใด?",
+    "options": {
+      "A": "มี Lumen กว้าง ผนังเซลล์ Endothelial มีช่องว่างขนาดใหญ่ (Intercellular gaps) และมี Incomplete/absent basement membrane ช่วยให้เซลล์เม็ดเลือดและโปรตีนขนาดใหญ่ผ่านได้ พบที่ตับ (Liver), ม้าม (Spleen) และไขกระดูก (Bone marrow)",
+      "B": "ผนังเซลล์ติดกันแน่นไม่มีช่องว่าง พบที่กล้ามเนื้อลายและปอด",
+      "C": "มีรูพรุนขนาดเล็กเฉพาะน้ำผ่านได้ พบที่กระจกตา",
+      "D": "ผนังประกอบด้วยเซลล์ Schwann ล้อมรอบ"
+    },
+    "correctOption": "A",
+    "explanation": "Sinusoids (Discontinuous capillaries) มีทางเดินคดเคี้ยว รูเปิดกว้าง และเยื่อเบสเมนต์ไม่ต่อเนื่องหรือขาดหายไป ช่วยให้สารโมเลกุลขนาดใหญ่มาก รวมถึงเซลล์เม็ดเลือดที่สร้างขึ้นใหม่สามารถเข้าหรือออกจากกระแสเลือดได้ พบในอวัยวะสร้างและทำลายเม็ดเลือด ได้แก่ ไขกระดูก, ตับ (Liver sinusoids), และม้าม",
+    "system": "Cardiovascular and Lymphatic Systems",
+    "topic": "Blood Vessels Anatomy & Histology",
+    "difficulty": "Hard",
+    "sourceFile": "BNS102-Anatomy of Cardiovascular and Lymphatic Sys_261024_214357.pdf",
+    "sourcePage": 55,
+    "tags": [
+      "sinusoids",
+      "discontinuous-capillaries",
+      "spleen",
+      "liver",
+      "bone-marrow"
+    ],
+    "createdAt": "2026-10-24",
+    "updatedAt": "2026-10-24",
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "CARDIO-066",
+    "questionText": "หลอดเลือดกลุ่มใดในระบบไหลเวียนโลหิตที่ทำหน้าที่เป็น Capacitance vessels หรือ Blood reservoir ซึ่งบรรจุเลือดอยู่ถึงประมาณ 60-65% ของปริมาตรเลือดทั้งหมดในร่างกายขณะพัก?",
+    "options": {
+      "A": "Systemic arteries",
+      "B": "Veins and Venules (หลอดเลือดดำและหลอดเลือดดำเล็ก)",
+      "C": "Capillaries",
+      "D": "Heart chambers"
+    },
+    "correctOption": "B",
+    "explanation": "Veins มีผนังบาง มีความยืดหยุ่นสูง (High compliance) และมี Lumen กว้าง ทำให้สามารถกักเก็บปริมาตรเลือดไว้ได้มากถึง 60-65% ของร่างกาย จึงทำหน้าที่เป็น Blood reservoir (Capacitance vessels) เมื่อร่างกายต้องการเลือดเพิ่ม (เช่น ขณะออกกำลังกายหรือตกเลือด) หลอดเลือดดำจะถูกกระตุ้นให้หดตัว (Venoconstriction) เพื่อเพิ่ม Venous return เข้าสู่หัวใจ",
+    "system": "Cardiovascular and Lymphatic Systems",
+    "topic": "Blood Vessels Anatomy & Histology",
+    "difficulty": "Medium",
+    "sourceFile": "BNS102-Anatomy of Cardiovascular and Lymphatic Sys_261024_214357.pdf",
+    "sourcePage": 56,
+    "tags": [
+      "capacitance-vessels",
+      "veins",
+      "blood-reservoir"
+    ],
+    "createdAt": "2026-10-24",
+    "updatedAt": "2026-10-24",
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "CARDIO-067",
+    "questionText": "กลไกสำคัญที่ช่วยให้เลือดดำจากรยางค์ล่างสามารถไหลย้อนแรงโน้มถ่วงกลับเข้าสู่หัวใจห้องบนขวาได้โดยไม่เกิดการไหลย้อนกลับคือข้อใด?",
+    "options": {
+      "A": "การหดตัวของเซลล์เยื่อบุผิว Endothelium",
+      "B": "แรงสูบฉีดโดยตรงจาก Ventricle ซ้าย",
+      "C": "การทำงานร่วมกันของ Venous valves (ลิ้นภายในหลอดเลือดดำ) กับ Skeletal muscle pump และ Respiratory pump",
+      "D": "ความดันในช่องอกที่เป็นบวกตลอดเวลา"
+    },
+    "correctOption": "C",
+    "explanation": "เลือดดำมีความดันต่ำมาก การไหลกลับเข้าสู่หัวใจ (Venous return) จึงต้องอาศัย: 1. Venous valves (ส่วนพับของ Tunica intima ทำหน้าที่กั้นไม่ให้เลือดไหลย้อนกลับ) 2. Skeletal muscle pump (กล้ามเนื้อน่องบีบอัดหลอดเลือดดำขณะก้าวเดิน) 3. Respiratory pump (ความดันในช่องอกลดลงเป็นลบขณะหายใจเข้าช่วยดูดเลือดเข้าสู่ IVC)",
+    "system": "Cardiovascular and Lymphatic Systems",
+    "topic": "Blood Vessels Anatomy & Histology",
+    "difficulty": "Medium",
+    "sourceFile": "BNS102-Anatomy of Cardiovascular and Lymphatic Sys_261024_214357.pdf",
+    "sourcePage": 57,
+    "tags": [
+      "venous-return",
+      "venous-valves",
+      "skeletal-muscle-pump"
+    ],
+    "createdAt": "2026-10-24",
+    "updatedAt": "2026-10-24",
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "CARDIO-068",
+    "questionText": "ผู้ป่วยหญิงมีอาการเส้นเลือดขอดรุนแรงที่ขาทั้งสองข้าง (Varicose veins) พยาธิสภาพทางกายวิภาคเกิดจากความผิดปกติของโครงสร้างใดในหลอดเลือดดำ?",
+    "options": {
+      "A": "การสร้างลิ่มเลือดในหลอดเลือดฝอย",
+      "B": "การตีบตันของหลอดเลือดแดง Femoral artery",
+      "C": "การขาดหายไปของชั้น Tunica adventitia",
+      "D": "ลิ้นในหลอดเลือดดำ (Venous valves) เสื่อมสภาพและปิดไม่สนิท (Incompetent valves) ทำให้เลือดดำไหลย้อนกลับมาคั่งและเพิ่มแรงดันจนผนังหลอดเลือดโป่งพองคดเคี้ยว"
+    },
+    "correctOption": "D",
+    "explanation": "Varicose veins เกิดขึ้นเมื่อ Venous valves ใน Superficial veins (โดยเฉพาะ Great saphenous vein) เกิดการรั่วหรือเสื่อมสภาพ (Valvular incompetence) ส่งผลให้เลือดไหลย้อนลงสู่ส่วนล่างตามแรงโน้มถ่วง เกิดภาวะหลอดเลือดดำคั่ง แรงดันในหลอดเลือดดำสูงขึ้น ผนังหลอดเลือดจึงยืดขยาย โป่งพอง และคดงอ",
+    "system": "Cardiovascular and Lymphatic Systems",
+    "topic": "Blood Vessels Anatomy & Histology",
+    "difficulty": "Medium",
+    "sourceFile": "BNS102-Anatomy of Cardiovascular and Lymphatic Sys_261024_214357.pdf",
+    "sourcePage": 57,
+    "tags": [
+      "varicose-veins",
+      "valvular-incompetence",
+      "saphenous-vein"
+    ],
+    "createdAt": "2026-10-24",
+    "updatedAt": "2026-10-24",
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "CARDIO-069",
+    "questionText": "หลอดเลือดแดงขนาดใหญ่ Aorta เมื่อทอดตัวออกจากหัวใจจะโค้งเป็นรูปตัวยูคว่ำเรียกว่า Aortic Arch แขนงใหญ่ 3 แขนงที่แตกออกจากส่วนโค้งของ Aortic Arch เรียงลำดับจากขวาไปซ้ายคือข้อใด?",
+    "options": {
+      "A": "Brachiocephalic trunk -> Left Common Carotid artery -> Left Subclavian artery",
+      "B": "Right Subclavian artery -> Right Common Carotid artery -> Left Subclavian artery",
+      "C": "Left Common Carotid artery -> Right Common Carotid artery -> Brachiocephalic trunk",
+      "D": "Celiac trunk -> Superior mesenteric artery -> Inferior mesenteric artery"
+    },
+    "correctOption": "A",
+    "explanation": "แขนง 3 เส้นที่แตกออกจาก Aortic Arch จากขวาไปซ้ายตามลำดับ ได้แก่: 1. Brachiocephalic trunk (ซึ่งจะไปแตกแขนงต่อเป็น Right subclavian และ Right common carotid) 2. Left common carotid artery (ไปเลี้ยงศีรษะและสมองด้านซ้าย) 3. Left subclavian artery (ไปเลี้ยงแขนซ้าย)",
+    "system": "Cardiovascular and Lymphatic Systems",
+    "topic": "Major Arteries & Systemic Circulation",
+    "difficulty": "Medium",
+    "sourceFile": "BNS102-Anatomy of Cardiovascular and Lymphatic Sys_261024_214357.pdf",
+    "sourcePage": 59,
+    "tags": [
+      "aortic-arch",
+      "brachiocephalic-trunk",
+      "carotid",
+      "subclavian"
+    ],
+    "createdAt": "2026-10-24",
+    "updatedAt": "2026-10-24",
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "CARDIO-070",
+    "questionText": "หลอดเลือดโครงสร้างวงแหวนหลอดเลือดแดงที่ฐานสมอง (Cerebral arterial circle หรือ Circle of Willis) เกิดจากการเชื่อมประสานกัน (Anastomosis) ระหว่างระบบหลอดเลือดคู่ใด?",
+    "options": {
+      "A": "External Carotid arteries กับ Subclavian arteries",
+      "B": "Internal Carotid arteries (ผ่าน Anterior cerebral & Anterior communicating) กับ Vertebral arteries (ผ่าน Basilar, Posterior cerebral & Posterior communicating)",
+      "C": "Facial arteries กับ Maxillary arteries",
+      "D": "Jugular veins กับ Superior sagittal sinus"
+    },
+    "correctOption": "B",
+    "explanation": "Circle of Willis ตั้งอยู่ที่ฐานสมองรอบ Pituitary gland และ Optic chiasm เกิดจากการเชื่อมต่อกันระหว่างระบบ Internal Carotid (Anterior circulation) กับระบบ Vertebrobasilar (Posterior circulation) ผ่าน Anterior communicating artery และคู่ของ Posterior communicating arteries ทำหน้าที่เป็น Collateral circulation ป้องกันเนื้อสมองขาดเลือด",
+    "system": "Cardiovascular and Lymphatic Systems",
+    "topic": "Major Arteries & Systemic Circulation",
+    "difficulty": "Hard",
+    "sourceFile": "BNS102-Anatomy of Cardiovascular and Lymphatic Sys_261024_214357.pdf",
+    "sourcePage": 60,
+    "tags": [
+      "circle-of-willis",
+      "internal-carotid",
+      "vertebral-artery"
+    ],
+    "createdAt": "2026-10-24",
+    "updatedAt": "2026-10-24",
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "CARDIO-071",
+    "questionText": "Baroreceptors ที่ทำหน้าที่ตรวจจับการเปลี่ยนแปลงของความดันโลหิต (Blood pressure sensors) และส่งสัญญาณประสาทไปควบคุมที่ศูนย์ในก้านสมอง (Medulla oblongata) ตั้งอยู่ที่ตำแหน่งทางกายวิภาคใดบ้าง?",
+    "options": {
+      "A": "Apex of heart และ Left atrium",
+      "B": "Subclavian vein และ Jugular bulb",
+      "C": "Carotid sinus (ที่โคนของ Internal carotid artery) และ Aortic arch",
+      "D": "Femoral artery และ Popliteal artery"
+    },
+    "correctOption": "C",
+    "explanation": "Baroreceptors เป็น Mechanoreceptors ตรวจจับแรงตึงผนังหลอดเลือด ตั้งอยู่ที่ Carotid sinus (ส่งสัญญาณผ่าน Glossopharyngeal nerve: CN IX) และ Aortic arch (ส่งสัญญาณผ่าน Vagus nerve: CN X) ไปยัง Nucleus tractus solitarius (NTS) ใน Medulla เพื่อควบคุมความดันโลหิตผ่าน Baroreceptor reflex",
+    "system": "Cardiovascular and Lymphatic Systems",
+    "topic": "Blood Vessels Anatomy & Histology",
+    "difficulty": "Hard",
+    "sourceFile": "BNS102-Anatomy of Cardiovascular and Lymphatic Sys_261024_214357.pdf",
+    "sourcePage": 61,
+    "tags": [
+      "baroreceptors",
+      "carotid-sinus",
+      "aortic-arch",
+      "cn-ix",
+      "cn-x"
+    ],
+    "createdAt": "2026-10-24",
+    "updatedAt": "2026-10-24",
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "CARDIO-072",
+    "questionText": "หลอดเลือดแดง Abdominal Aorta จะสิ้นสุดลงที่ระดับกระดูกสันหลังระดับใด โดยแยกแขนงออกเป็นหลอดเลือดคู่ใด?",
+    "options": {
+      "A": "ระดับกระดูกกระเบนเหน็บข้อที่ 1 (S1) แยกเป็น Internal iliac arteries",
+      "B": "ระดับกระดูกสันหลังส่วนอกข้อที่ 12 (T12) แยกเป็น Renal arteries",
+      "C": "ระดับกระดูกสันหลังส่วนเอวข้อที่ 1 (L1) แยกเป็น Femoral arteries",
+      "D": "ระดับกระดูกสันหลังส่วนเอวข้อที่ 4 (L4) โดยแยกออกเป็น Right and Left Common Iliac arteries"
+    },
+    "correctOption": "D",
+    "explanation": "Abdominal aorta ทอดผ่านกะบังลมที่ระดับ T12 (Aortic hiatus) ลงมาจนถึงระดับกระดูกสันหลังระดับ L4 (แนวระนาบของ Iliac crest) จากนั้นจะสิ้นสุดโดยแยกออกเป็น 2 แขนงใหญ่คือ Right Common Iliac Artery และ Left Common Iliac Artery เพื่อไปเลี้ยงเชิงกรานและขาทั้งสองข้าง",
+    "system": "Cardiovascular and Lymphatic Systems",
+    "topic": "Major Arteries & Systemic Circulation",
+    "difficulty": "Medium",
+    "sourceFile": "BNS102-Anatomy of Cardiovascular and Lymphatic Sys_261024_214357.pdf",
+    "sourcePage": 62,
+    "tags": [
+      "abdominal-aorta",
+      "bifurcation-l4",
+      "common-iliac"
+    ],
+    "createdAt": "2026-10-24",
+    "updatedAt": "2026-10-24",
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "CARDIO-073",
+    "questionText": "ในระบบไหลเวียนพอร์ทัลของตับ (Hepatic Portal System) หลอดเลือดดำ Hepatic Portal Vein เกิดจากการรวมตัวกันของหลอดเลือดดำใหญ่คู่ใดทางด้านหลังของคอตับอ่อน?",
+    "options": {
+      "A": "Superior Mesenteric Vein (SMV) และ Splenic Vein",
+      "B": "Inferior Vena Cava และ Hepatic Vein",
+      "C": "Renal Vein และ Femoral Vein",
+      "D": "Internal Iliac Vein และ External Iliac Vein"
+    },
+    "correctOption": "A",
+    "explanation": "Hepatic Portal Vein เกิดจากการรวมตัวกันของ Superior Mesenteric Vein (นำเลือดที่มีสารอาหารจากลำไส้เล็กและลำไส้ใหญ่ส่วนต้น) กับ Splenic Vein (ซึ่งรับ Inferior Mesenteric Vein มาก่อนหน้า) ทางด้านหลัง Neck of Pancreas แล้วนำเลือดเข้าสู่ตับเพื่อประมวลผลสารอาหารและกำจัดสารพิษ",
+    "system": "Cardiovascular and Lymphatic Systems",
+    "topic": "Major Veins & Portal System",
+    "difficulty": "Hard",
+    "sourceFile": "BNS102-Anatomy of Cardiovascular and Lymphatic Sys_261024_214357.pdf",
+    "sourcePage": 64,
+    "tags": [
+      "hepatic-portal-system",
+      "smv",
+      "splenic-vein"
+    ],
+    "createdAt": "2026-10-24",
+    "updatedAt": "2026-10-24",
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "CARDIO-074",
+    "questionText": "เลือดจากระบบ Hepatic Portal System หลังจากผ่านการแลกเปลี่ยนสารและกรองใน Sinusoids ของตับแล้ว จะไหลออกจากเนื้อตับเข้าสู่ระบบไหลเวียนหลักผ่านหลอดเลือดใด?",
+    "options": {
+      "A": "Celiac trunk เพื่อเทเข้าสู่ Aorta",
+      "B": "Hepatic veins (หลอดเลือดดำตับ 3 เส้นหลัก) เพื่อเทเข้าสู่ Inferior Vena Cava (IVC)",
+      "C": "Bile duct เพื่อเทเข้าสู่ถุงน้ำดี",
+      "D": "Portal triad เพื่อเทกลับสู่กระเพาะอาหาร"
+    },
+    "correctOption": "B",
+    "explanation": "เส้นทางไหลของเลือดในตับ: Portal vein + Hepatic artery -> Liver sinusoids (สัมผัส Hepatocytes และ Kupffer cells) -> Central vein -> Hepatic veins (Right, Middle, Left) -> เทเข้าสู่ Inferior Vena Cava (IVC) บริเวณใต้กะบังลม เพื่อกลับสู่หัวใจห้องบนขวา",
+    "system": "Cardiovascular and Lymphatic Systems",
+    "topic": "Major Veins & Portal System",
+    "difficulty": "Medium",
+    "sourceFile": "BNS102-Anatomy of Cardiovascular and Lymphatic Sys_261024_214357.pdf",
+    "sourcePage": 65,
+    "tags": [
+      "hepatic-veins",
+      "liver-sinusoids",
+      "ivc"
+    ],
+    "createdAt": "2026-10-24",
+    "updatedAt": "2026-10-24",
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "CARDIO-075",
+    "questionText": "หลอดเลือดดำที่อยู่ตื้นบริเวณข้อพับแขน (Cubital fossa) ที่แพทย์และพยาบาลนิยมใช้ในการเจาะเก็บตัวอย่างเลือดส่งตรวจ (Venipuncture) และการให้สารน้ำทางหลอดเลือดมากที่สุดคือหลอดเลือดใด?",
+    "options": {
+      "A": "Great saphenous vein",
+      "B": "Brachial artery",
+      "C": "Median Cubital Vein (ซึ่งเชื่อมระหว่าง Cephalic vein กับ Basilic vein)",
+      "D": "Subclavian vein"
+    },
+    "correctOption": "C",
+    "explanation": "Median Cubital Vein อยู่ในชั้นตื้นใต้ผิวหนังบริเวณ Cubital fossa เชื่อมระหว่าง Cephalic vein (ด้าน Lateral) กับ Basilic vein (ด้าน Medial) เป็นตำแหน่งยอดนิยมที่สุดในการเจาะเลือด (Venipuncture) เนื่องจากขนาดใหญ่ อยู่ตื้น และถูกตรึงด้วย Bicipital aponeurosis ทำให้ไม่เลื่อนหลุดง่าย",
+    "system": "Cardiovascular and Lymphatic Systems",
+    "topic": "Major Veins & Portal System",
+    "difficulty": "Easy",
+    "sourceFile": "BNS102-Anatomy of Cardiovascular and Lymphatic Sys_261024_214357.pdf",
+    "sourcePage": 63,
+    "tags": [
+      "median-cubital-vein",
+      "venipuncture",
+      "cubital-fossa"
+    ],
+    "createdAt": "2026-10-24",
+    "updatedAt": "2026-10-24",
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "CARDIO-076",
+    "questionText": "หลอดน้ำเหลืองฝอย (Lymphatic capillaries) มีลักษณะโครงสร้างทางกายวิภาคพิเศษที่แตกต่างจากหลอดเลือดฝอยของระบบไหลเวียนโลหิตอย่างไร?",
+    "options": {
+      "A": "มีรูพรุนขนาดใหญ่ที่ยอมให้เม็ดเลือดแดงผ่านได้ตลอดเวลา",
+      "B": "มีปลายเปิดเชื่อมต่อโดยตรงกับหลอดเลือดแดง Arterioles",
+      "C": "มีผนังกล้ามเนื้อหนากว่าหลอดเลือดแดงเพื่อปั๊มน้ำเหลือง",
+      "D": "มีปลายปิดตัน (Blind-ended) ผนังเซลล์ Endothelial เรียงซ้อนเกยกันคล้ายกระเบื้องมุงหลังคาเกิดเป็น Minivalves เปิดทิศทางเดียว และมี Anchoring filaments ยึดกับคอลลาเจนในเนื้อเยื่อ"
+    },
+    "correctOption": "D",
+    "explanation": "Lymphatic capillaries มีปลายปิดตัน (Blind-ended tubes) แทรกอยู่ในช่องว่างระหว่างเซลล์ เซลล์ Endothelium เกยซ้อนกันกลายเป็น One-way minivalves เมื่อแรงดันของเหลวใน Interstitial fluid สูงขึ้นจะดันให้ลิ้นเปิดยอมให้ของเหลว โปรตีน แบคทีเรียเข้าสู่ท่อได้ โดยมี Anchoring filaments ช่วยยึดไม่ให้ท่อแฟบ",
+    "system": "Cardiovascular and Lymphatic Systems",
+    "topic": "Lymphatic System & Organs",
+    "difficulty": "Hard",
+    "sourceFile": "BNS102-Anatomy of Cardiovascular and Lymphatic Sys_261024_214357.pdf",
+    "sourcePage": 68,
+    "tags": [
+      "lymphatic-capillaries",
+      "blind-ended",
+      "minivalves",
+      "anchoring-filaments"
+    ],
+    "createdAt": "2026-10-24",
+    "updatedAt": "2026-10-24",
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "CARDIO-077",
+    "questionText": "หลอดน้ำเหลืองพิเศษที่พบในชั้น Mucosa ของวิลไล (Villi) ในลำไส้เล็ก ทำหน้าที่ดูดซึมไขมันและสารอาหารที่ละลายในไขมันในรูปของไคโลไมครอน (Chylomicrons) มีชื่อเรียกว่าอะไร?",
+    "options": {
+      "A": "Lacteals (หลอดน้ำเหลืองแล็กทีล)",
+      "B": "Peyer's patches",
+      "C": "Crypts of Lieberkühn",
+      "D": "Brunner's glands"
+    },
+    "correctOption": "A",
+    "explanation": "Lacteals เป็นหลอดน้ำเหลืองฝอยปลายตันขนาดใหญ่ที่อยู่ในแกนกลางของแต่ละ Villi ในลำไส้เล็ก ทำหน้าที่ดูดซึมไขมันที่ย่อยแล้วในรูป Chylomicrons ทำให้น้ำเหลืองที่ไหลออกมามีลักษณะขุ่นขาวคล้ายน้ำนม เรียกว่า Chyle",
+    "system": "Cardiovascular and Lymphatic Systems",
+    "topic": "Lymphatic System & Organs",
+    "difficulty": "Medium",
+    "sourceFile": "BNS102-Anatomy of Cardiovascular and Lymphatic Sys_261024_214357.pdf",
+    "sourcePage": 69,
+    "tags": [
+      "lacteals",
+      "chyle",
+      "fat-absorption",
+      "small-intestine"
+    ],
+    "createdAt": "2026-10-24",
+    "updatedAt": "2026-10-24",
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "CARDIO-078",
+    "questionText": "ท่อน้ำเหลืองขนาดใหญ่ที่สุดในร่างกายคือ Thoracic Duct มีจุดกำเนิดทางกายวิภาคเริ่มต้นมาจากถุงพักน้ำเหลืองรูปกระเปาะบริเวณช่องท้องส่วนบนชื่อว่าอะไร และอยู่ที่ระดับกระดูกสันหลังใด?",
+    "options": {
+      "A": "Chyle pouch ที่ระดับ T4",
+      "B": "Cisterna Chyli ซึ่งตั้งอยู่ด้านหน้าของกระดูกสันหลังระดับ L1 - L2",
+      "C": "Thoracic sinus ที่ระดับ T12",
+      "D": "Spleen hilum ที่ระดับ L4"
+    },
+    "correctOption": "B",
+    "explanation": "Thoracic duct เริ่มต้นจากกระเปาะพักน้ำเหลืองขนาดใหญ่ชื่อ Cisterna chyli ซึ่งตั้งอยู่ด้านหน้าของกระดูกสันหลังส่วนเอว L1-L2 ทำหน้าที่รวบรวมน้ำเหลืองจากลำตัวส่วนล่าง ขาทั้งสองข้าง และอวัยวะในช่องท้อง ก่อนจะทอดตัวขึ้นสู่ช่องอกผ่าน Aortic hiatus ของกะบังลม",
+    "system": "Cardiovascular and Lymphatic Systems",
+    "topic": "Lymphatic System & Organs",
+    "difficulty": "Hard",
+    "sourceFile": "BNS102-Anatomy of Cardiovascular and Lymphatic Sys_261024_214357.pdf",
+    "sourcePage": 70,
+    "tags": [
+      "cisterna-chyli",
+      "thoracic-duct",
+      "l1-l2"
+    ],
+    "createdAt": "2026-10-24",
+    "updatedAt": "2026-10-24",
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "CARDIO-079",
+    "questionText": "ท่อน้ำเหลือง Thoracic Duct ทำหน้าที่รวบรวมน้ำเหลืองจากบริเวณใดของร่างกาย และนำน้ำเหลืองกลับเข้าสู่ระบบไหลเวียนโลหิตดำที่ตำแหน่งใด?",
+    "options": {
+      "A": "รวบรวมน้ำเหลืองจากศีรษะทั้งหมดเทเข้า Superior vena cava โดยตรง",
+      "B": "รวบรวมน้ำเหลืองจากแขนขวาและศีรษะขวา เทเข้า Right Subclavian vein",
+      "C": "รวบรวมน้ำเหลืองจากร่างกายประมาณ 3 ใน 4 ส่วน (ขาทั้งสองข้าง, ช่องท้อง, ทรวงอกซ้าย, แขนซ้าย, ศีรษะและคอด้านซ้าย) เทเข้าสู่รอยต่อระหว่าง Left Internal Jugular Vein และ Left Subclavian Vein",
+      "D": "รวบรวมน้ำเหลืองเฉพาะจากช่องท้องเทเข้าสู่ Hepatic portal vein"
+    },
+    "correctOption": "C",
+    "explanation": "Thoracic duct รวบรวมน้ำเหลืองจาก 75% ของร่างกาย (ครึ่งล่างทั้งหมด + ครึ่งบนซีกซ้าย) แล้วนำไปเทเข้าสู่กระแสเลือดดำที่ Junction ระหว่าง Left Internal Jugular vein และ Left Subclavian vein (Left venous angle)",
+    "system": "Cardiovascular and Lymphatic Systems",
+    "topic": "Lymphatic System & Organs",
+    "difficulty": "Hard",
+    "sourceFile": "BNS102-Anatomy of Cardiovascular and Lymphatic Sys_261024_214357.pdf",
+    "sourcePage": 70,
+    "tags": [
+      "thoracic-duct",
+      "left-venous-angle",
+      "lymphatic-drainage"
+    ],
+    "createdAt": "2026-10-24",
+    "updatedAt": "2026-10-24",
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "CARDIO-080",
+    "questionText": "ท่อน้ำเหลือง Right Lymphatic Duct ทำหน้าที่รวบรวมน้ำเหลืองจากบริเวณใดของร่างกาย และนำเข้าสู่ระบบหลอดเลือดดำที่ตำแหน่งใด?",
+    "options": {
+      "A": "รวบรวมน้ำเหลืองจากทั่วร่างกายยกเว้นศีรษะ",
+      "B": "รวบรวมน้ำเหลืองจากขาทั้งสองข้างเทเข้าสู่ Inferior vena cava",
+      "C": "รวบรวมน้ำเหลืองจากลำไส้เล็กและตับเทเข้าสู่ Right atrium",
+      "D": "รวบรวมน้ำเหลืองจากร่างกายส่วนบนซีกขวา (แขนขวา, ทรวงอกซีกขวา, ศีรษะและคอซีกขวา) เทเข้าสู่รอยต่อระหว่าง Right Internal Jugular Vein และ Right Subclavian Vein"
+    },
+    "correctOption": "D",
+    "explanation": "Right Lymphatic Duct มีความยาวเพียงประมาณ 1-2 ซม. รับน้ำเหลืองจากร่างกายเพียง 25% (ศีรษะและคอด้านขวา, แขนขวา, ทรวงอกด้านขวา และปอดขวา) แล้วเทเข้าสู่ Right venous angle (รอยต่อระหว่าง Right internal jugular vein และ Right subclavian vein)",
+    "system": "Cardiovascular and Lymphatic Systems",
+    "topic": "Lymphatic System & Organs",
+    "difficulty": "Medium",
+    "sourceFile": "BNS102-Anatomy of Cardiovascular and Lymphatic Sys_261024_214357.pdf",
+    "sourcePage": 70,
+    "tags": [
+      "right-lymphatic-duct",
+      "right-venous-angle"
+    ],
+    "createdAt": "2026-10-24",
+    "updatedAt": "2026-10-24",
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "CARDIO-081",
+    "questionText": "ผู้ป่วยหญิงได้รับการผ่าตัดเต้านมข้างขวาพร้อมเลาะต่อมน้ำเหลืองบริเวณรักแร้ออกทั้งหมด (Axillary lymph node dissection) ต่อมาเกิดภาวะแขนขวาบวมโตเรื้อรัง (Lymphedema) พยาธิกำเนิดของภาวะนี้เกิดจากกลไกทางกายวิภาคใด?",
+    "options": {
+      "A": "การอุดกั้นหรือถูกทำลายของท่อและต่อมน้ำเหลือง ทำให้ของเหลวและโปรตีนในช่องว่างระหว่างเซลล์ไม่สามารถระบายกลับเข้าสู่ระบบไหลเวียนได้ เกิดการสะสมของของเหลวที่มีโปรตีนสูงในเนื้อเยื่อ",
+      "B": "การฉีกขาดของหลอดเลือดแดง Brachial artery",
+      "C": "การทำงานผิดปกติของลิ้นหัวใจ Tricuspid",
+      "D": "การติดเชื้อไวรัสในไขกระดูก"
+    },
+    "correctOption": "A",
+    "explanation": "Lymphedema เกิดจากการขัดขวางทางเดินน้ำเหลือง (Lymphatic obstruction) จากการผ่าตัดหรือฉายรังสี ทำให้ Lymphatic drainage จากแขนหยุดชะงัก โปรตีนและของเหลวคั่งค้างใน Interstitial space ดึงน้ำไว้ตามแรงดึงออสโมติก เกิดอาการบวมตึงเรื้อรังของรยางค์ข้างนั้น",
+    "system": "Cardiovascular and Lymphatic Systems",
+    "topic": "Lymphatic System & Organs",
+    "difficulty": "Hard",
+    "sourceFile": "BNS102-Anatomy of Cardiovascular and Lymphatic Sys_261024_214357.pdf",
+    "sourcePage": 71,
+    "tags": [
+      "lymphedema",
+      "axillary-dissection",
+      "lymphatic-obstruction"
+    ],
+    "createdAt": "2026-10-24",
+    "updatedAt": "2026-10-24",
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "CARDIO-082",
+    "questionText": "โครงสร้างทางกายวิภาคของต่อมน้ำเหลือง (Lymph node) มีหลอดน้ำเหลืองนำน้ำเหลืองเข้าและออกจากต่อมในลักษณะใด?",
+    "options": {
+      "A": "มี Efferent vessels หลายท่อนำเข้าทาง Hilum และ Afferent ท่อเดียวนำออก",
+      "B": "มี Afferent lymphatic vessels หลายท่อนำน้ำเหลืองเข้าทางด้านนูน (Convex surface) และมี Efferent lymphatic vessel เพียง 1-2 ท่อนำน้ำเหลืองออกทางรอยบุ๋ม (Hilum)",
+      "C": "มีเฉพาะหลอดเลือดแดงนำน้ำเหลืองเข้า และหลอดเลือดดำนำน้ำเหลืองออก",
+      "D": "ไม่มีท่อน้ำเหลืองเข้าหรือออก น้ำเหลืองซึมผ่านแคปซูลโดยตรง"
+    },
+    "correctOption": "B",
+    "explanation": "ต่อมน้ำเหลืองมีท่อน้ำเหลืองเข้า (Afferent lymphatic vessels) จำนวนมากเจาะผ่าน Capsule ด้านนูน แต่น้ำเหลืองที่ผ่านการกรองแล้วจะออกจากต่อมผ่านท่อน้ำเหลืองออก (Efferent lymphatic vessel) เพียง 1 หรือ 2 ท่อทางด้านเว้าหรือรอยบุ๋ม (Hilum) ซึ่งการมีท่อเข้าน้อยกว่าท่อออกช่วยชะลอการไหลให้น้ำเหลืองสัมผัสกับ Macrophages และ Lymphocytes ได้นานขึ้น",
+    "system": "Cardiovascular and Lymphatic Systems",
+    "topic": "Lymphatic System & Organs",
+    "difficulty": "Hard",
+    "sourceFile": "BNS102-Anatomy of Cardiovascular and Lymphatic Sys_261024_214357.pdf",
+    "sourcePage": 72,
+    "tags": [
+      "lymph-node-anatomy",
+      "afferent-vs-efferent",
+      "hilum"
+    ],
+    "createdAt": "2026-10-24",
+    "updatedAt": "2026-10-24",
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "CARDIO-083",
+    "questionText": "บริเวณชั้นนอกของต่อมน้ำเหลือง (Cortex) มีโครงสร้างทรงกลมที่เรียกว่า Lymphoid follicles (Lymphatic nodules) บริเวณตรงกลางของ Follicle ที่ย้อมติดสีจางเรียกว่า Germinal center เป็นแหล่งที่มีการแบ่งตัวและพัฒนาของเซลล์เม็ดเลือดชนิดใด?",
+    "options": {
+      "A": "เม็ดเลือดแดง Erythroblasts ที่กำลังสร้างฮีโมโกลบิน",
+      "B": "T-lymphocytes ที่กำลังเจริญเต็มวัย",
+      "C": "B-lymphocytes ที่กำลังแบ่งตัวและพัฒนาไปเป็น Plasma cells และ Memory B cells หลังจากสัมผัสแอนติเจน",
+      "D": "เกล็ดเลือด Megakaryocytes"
+    },
+    "correctOption": "C",
+    "explanation": "Germinal centers ในชั้น Cortex ของต่อมน้ำเหลือง เป็นบริเวณที่มีการแบ่งตัวอย่างรวดเร็ว (Proliferation) ของ B-lymphocytes เพื่อเปลี่ยนสภาพเป็น Plasma cells ทำหน้าที่สร้างแอนติบอดี และสร้าง Memory B cells เพื่อจดจำเชื้อโรค ส่วน T-lymphocytes จะพบหนาแน่นในบริเวณ Paracortex (Deep cortex)",
+    "system": "Cardiovascular and Lymphatic Systems",
+    "topic": "Lymphatic System & Organs",
+    "difficulty": "Hard",
+    "sourceFile": "BNS102-Anatomy of Cardiovascular and Lymphatic Sys_261024_214357.pdf",
+    "sourcePage": 73,
+    "tags": [
+      "germinal-center",
+      "b-lymphocytes",
+      "lymph-node-histology"
+    ],
+    "createdAt": "2026-10-24",
+    "updatedAt": "2026-10-24",
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "CARDIO-084",
+    "questionText": "ม้าม (Spleen) เป็นอวัยวะน้ำเหลืองขนาดใหญ่ที่สุดในร่างกาย ตั้งอยู่ในช่องท้องส่วนบนซ้าย ใต้กะบังลม เนื้อเยื่อของม้ามแบ่งออกเป็น White pulp และ Red pulp บริเวณ White pulp มีลักษณะทางเนื้อเยื่อและหน้าที่อย่างไร?",
+    "options": {
+      "A": "ประกอบด้วยไขมันสีน้ำตาลทำหน้าที่สร้างความร้อน",
+      "B": "ประกอบด้วยหลอดเลือดฝอยไซนูซอยด์บรรจุเม็ดเลือดแดงจำนวนมากเพื่อกักเก็บเลือดสำรอง",
+      "C": "ทำหน้าที่สร้างน้ำดีและเอนไซม์ย่อยโปรตีน",
+      "D": "ประกอบด้วยกลุ่มเซลล์เม็ดเลือดขาว Lymphocytes ล้อมรอบหลอดเลือดแดง Central arterioles (PALS) ทำหน้าที่ในระบบภูมิคุ้มกันในการดักจับและตอบสนองต่อแอนติเจนในกระแสเลือด"
+    },
+    "correctOption": "D",
+    "explanation": "White pulp ของม้ามประกอบด้วยเนื้อเยื่อน้ำเหลืองที่มี T-cells ล้อมรอบ Central arteriole เรียกว่า Periarteriolar Lymphoid Sheath (PALS) และมี Lymphoid follicles ที่อุดมด้วย B-cells ทำหน้าที่ตรวจจับเชื้อโรคและแอนติเจนที่ไหลเวียนมาในกระแสเลือดโดยตรง",
+    "system": "Cardiovascular and Lymphatic Systems",
+    "topic": "Lymphatic System & Organs",
+    "difficulty": "Hard",
+    "sourceFile": "BNS102-Anatomy of Cardiovascular and Lymphatic Sys_261024_214357.pdf",
+    "sourcePage": 74,
+    "tags": [
+      "spleen",
+      "white-pulp",
+      "pals",
+      "immune-function"
+    ],
+    "createdAt": "2026-10-24",
+    "updatedAt": "2026-10-24",
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "CARDIO-085",
+    "questionText": "เนื้อเยื่อส่วน Red pulp ของม้ามประกอบด้วย Splenic cords (Cords of Billroth) และ Splenic sinusoids ทำหน้าที่หลักที่สำคัญที่สุดทางสรีรวิทยาและกายวิภาคคือข้อใด?",
+    "options": {
+      "A": "การตรวจกรองและทำลายเม็ดเลือดแดงที่แก่ชรา หมดอายุขัย (มากกว่า 120 วัน) หรือมีความผิดปกติทางสัณฐานวิทยา โดยอาศัยเซลล์ Macrophages",
+      "B": "การคัดเลือกและฝึกฝน T-lymphocytes ให้รู้จักแอนติเจนของตนเอง",
+      "C": "การสร้างน้ำย่อยอะไมเลส",
+      "D": "การกรองน้ำเหลืองที่มาจากระบบทางเดินอาหาร"
+    },
+    "correctOption": "A",
+    "explanation": "Red pulp ของม้ามประกอบด้วยร่างแหเซลล์และเส้นใยเรติคูลาร์ (Cords of Billroth) เต็มไปด้วย Macrophages ทำหน้าที่เสมือนตะแกรงตรวจกรองเม็ดเลือดแดง เม็ดเลือดแดงที่แก่ (อายุ >120 วัน) ขาดความยืดหยุ่น หรือผิดรูป จะลอดผ่านช่อง Sinusoids ไม่ได้และถูก Macrophages จับกินและรีไซเคิลธาตุเหล็ก (Phagocytosis of aged RBCs)",
+    "system": "Cardiovascular and Lymphatic Systems",
+    "topic": "Lymphatic System & Organs",
+    "difficulty": "Hard",
+    "sourceFile": "BNS102-Anatomy of Cardiovascular and Lymphatic Sys_261024_214357.pdf",
+    "sourcePage": 75,
+    "tags": [
+      "red-pulp",
+      "cords-of-billroth",
+      "rbc-destruction",
+      "macrophages"
+    ],
+    "createdAt": "2026-10-24",
+    "updatedAt": "2026-10-24",
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "CARDIO-086",
+    "questionText": "ผู้ป่วยประสบอุบัติเหตุม้ามแตก (Splenic rupture) และได้รับการผ่าตัดตัดม้ามออก (Splenectomy) หลังการผ่าตัดผู้ป่วยจะมีความเสี่ยงสูงขึ้นต่อการติดเชื้อแบคทีเรียกลุ่มใดมากที่สุดตลอดชีวิต?",
+    "options": {
+      "A": "Anaerobic bacteria ในลำไส้ใหญ่",
+      "B": "Encapsulated bacteria (แบคทีเรียที่มีแคปซูลหุ้ม เช่น Streptococcus pneumoniae, Neisseria meningitidis, Haemophilus influenzae)",
+      "C": "แบคทีเรียในช่องปากที่ทำให้เกิดฟันผุ",
+      "D": "พยาธิใบไม้ในตับ"
+    },
+    "correctOption": "B",
+    "explanation": "ม้ามเป็นแหล่งสร้าง Opsonin, Properdin และแอนติบอดี IgM ที่สำคัญในการกำจัดแบคทีเรียที่มีแคปซูลหุ้ม (Encapsulated organisms) ผู้ที่ถูกตัดม้ามจึงสูญเสียกลไก Phagocytosis ใน Red pulp และเสี่ยงต่อภาวะ Overwhelming Post-Splenectomy Infection (OPSI) จากเชื้อ S. pneumoniae อย่างรุนแรงจนต้องฉีดวัคซีนป้องกัน",
+    "system": "Cardiovascular and Lymphatic Systems",
+    "topic": "Lymphatic System & Organs",
+    "difficulty": "Hard",
+    "sourceFile": "BNS102-Anatomy of Cardiovascular and Lymphatic Sys_261024_214357.pdf",
+    "sourcePage": 75,
+    "tags": [
+      "splenectomy",
+      "encapsulated-bacteria",
+      "opsi",
+      "pneumococcus"
+    ],
+    "createdAt": "2026-10-24",
+    "updatedAt": "2026-10-24",
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "CARDIO-087",
+    "questionText": "ต่อมไทมัส (Thymus gland) ตั้งอยู่ในช่องอกบริเวณ Superior และ Anterior mediastinum มีการเปลี่ยนแปลงตามช่วงอายุของมนุษย์อย่างไร?",
+    "options": {
+      "A": "ไม่มีการเปลี่ยนแปลงขนาดตลอดช่วงอายุขัย",
+      "B": "มีขนาดเล็กมากในวัยเด็กและจะเจริญเติบโตขยายใหญ่สุดในวัยชรา",
+      "C": "มีขนาดใหญ่และทำหน้าที่สูงสุดในวัยทารกและวัยเด็ก จากนั้นจะเริ่มฝ่อตัวลงเรื่อยๆ หลังเข้าสู่วัยเจริญพันธุ์ (Thymic involution) โดยเนื้อเยื่อน้ำเหลืองจะถูกแทนที่ด้วยเนื้อเยื่อไขมันและเนื้อเยื่อเกี่ยวพันในวัยผู้ใหญ่",
+      "D": "จะสลายตัวหมดสิ้นทันทีหลังคลอด 24 ชั่วโมง"
+    },
+    "correctOption": "C",
+    "explanation": "ต่อมไทมัสมีขนาดใหญ่และกิจกรรมการสร้าง T-cells สูงสุดในช่วงทารกจนถึงวัยเด็ก เมื่อเข้าสู่วัยแรกรุ่น (Puberty) อิทธิพลของฮอร์โมนเพศจะทำให้ต่อมไทมัสค่อยๆ ฝ่อเล็กลง (Involution) เนื้อเยื่อน้ำเหลืองถูกแทนที่ด้วย Adipose tissue ในผู้สูงอายุ แต่ยังคงมีเซลล์ทำหน้าที่เหลืออยู่บางส่วน",
+    "system": "Cardiovascular and Lymphatic Systems",
+    "topic": "Lymphatic System & Organs",
+    "difficulty": "Medium",
+    "sourceFile": "BNS102-Anatomy of Cardiovascular and Lymphatic Sys_261024_214357.pdf",
+    "sourcePage": 76,
+    "tags": [
+      "thymus",
+      "thymic-involution",
+      "age-changes"
+    ],
+    "createdAt": "2026-10-24",
+    "updatedAt": "2026-10-24",
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "CARDIO-088",
+    "questionText": "โครงสร้างจุลกายวิภาคที่มีลักษณะเป็นชั้นเซลล์เยื่อบุผิวเรียงตัวซ้อนกันเป็นวงกลมคล้ายหัวหอม (Concentric whorls of keratinized epithelial cells) ซึ่งพบเฉพาะในชั้น Medulla ของต่อมไทมัส คือข้อใด?",
+    "options": {
+      "A": "Germinal centers",
+      "B": "Malpighian corpuscles",
+      "C": "Peyer's patches",
+      "D": "Thymic corpuscles (Hassall's corpuscles)"
+    },
+    "correctOption": "D",
+    "explanation": "Thymic (Hassall's) corpuscles เป็นโครงสร้างเอกลักษณ์ที่พบเฉพาะในชั้น Medulla ของต่อมไทมัส เกิดจาก Epithelioreticular cells ชนิด Type VI เรียงตัวซ้อนกันเป็นวงซ้อนคล้ายหัวหอม เชื่อว่าทำหน้าที่หลั่งไซโตไคน์ เช่น TSLP ในการคัดเลือก Regulatory T cells",
+    "system": "Cardiovascular and Lymphatic Systems",
+    "topic": "Lymphatic System & Organs",
+    "difficulty": "Hard",
+    "sourceFile": "BNS102-Anatomy of Cardiovascular and Lymphatic Sys_261024_214357.pdf",
+    "sourcePage": 76,
+    "tags": [
+      "hassalls-corpuscles",
+      "thymus-medulla",
+      "epithelioreticular-cells"
+    ],
+    "createdAt": "2026-10-24",
+    "updatedAt": "2026-10-24",
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "CARDIO-089",
+    "questionText": "ต่อมทอนซิลคู่ใดที่มีขนาดใหญ่ที่สุด ตั้งอยู่บริเวณโพรงปากด้านหลังระหว่าง Palatoglossal arch และ Palatopharyngeal arch ซึ่งมักเกิดการอักเสบเป็นหนองบ่อยที่สุด (Acute tonsillitis)?",
+    "options": {
+      "A": "Palatine tonsils (ต่อมทอนซิลพาลาไทน์)",
+      "B": "Pharyngeal tonsil (Adenoid)",
+      "C": "Lingual tonsils",
+      "D": "Tubal tonsils"
+    },
+    "correctOption": "A",
+    "explanation": "Palatine tonsils ตั้งอยู่ใน Tonsillar fossa บริเวณ Oropharynx ระหว่าง Palatoglossal arch ด้านหน้าและ Palatopharyngeal arch ด้านหลัง เป็นต่อมทอนซิลคู่ที่พบการติดเชื้อและการอักเสบบ่อยที่สุด และเป็นตำแหน่งที่ทำผ่าตัด Tonsillectomy",
+    "system": "Cardiovascular and Lymphatic Systems",
+    "topic": "Lymphatic System & Organs",
+    "difficulty": "Medium",
+    "sourceFile": "BNS102-Anatomy of Cardiovascular and Lymphatic Sys_261024_214357.pdf",
+    "sourcePage": 77,
+    "tags": [
+      "palatine-tonsils",
+      "tonsillitis",
+      "tonsillar-fossa"
+    ],
+    "createdAt": "2026-10-24",
+    "updatedAt": "2026-10-24",
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "CARDIO-090",
+    "questionText": "ในเด็กที่มีต่อมน้ำเหลืองบริเวณ Nasopharynx โตมากผิดปกติ จนอุดกั้นทางเดินหายใจส่วนบนทำให้ต้องหายใจทางปากและนอนกรน ต่อมน้ำเหลืองที่มีปัญหาดังกล่าวคือต่อมใด?",
+    "options": {
+      "A": "Palatine tonsils",
+      "B": "Pharyngeal tonsil (ซึ่งเมื่อโตผิดปกติจะเรียกว่า Adenoids)",
+      "C": "Lingual tonsils",
+      "D": "Submandibular lymph node"
+    },
+    "correctOption": "B",
+    "explanation": "Pharyngeal tonsil ตั้งอยู่ที่ผนังด้านหลังบนของ Nasopharynx เมื่อเกิดการอักเสบหรือขยายขนาดโตขึ้นจะเรียกว่า Adenoids ส่งผลให้อุดกั้นโพรงจมูกด้านหลัง เด็กต้องหายใจทางปาก เกิด Adenoid hypertrophy นอนกรน และอาจเกิดภาวะ Obstructive sleep apnea (OSA)",
+    "system": "Cardiovascular and Lymphatic Systems",
+    "topic": "Lymphatic System & Organs",
+    "difficulty": "Medium",
+    "sourceFile": "BNS102-Anatomy of Cardiovascular and Lymphatic Sys_261024_214357.pdf",
+    "sourcePage": 77,
+    "tags": [
+      "pharyngeal-tonsil",
+      "adenoids",
+      "nasopharynx"
+    ],
+    "createdAt": "2026-10-24",
+    "updatedAt": "2026-10-24",
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "CARDIO-091",
+    "questionText": "วงแหวนของเนื้อเยื่อน้ำเหลืองที่เรียงตัวล้อมรอบทางเข้าสู่ระบบทางเดินหายใจและทางเดินอาหารในคอหอย (Pharynx) เพื่อดักจับเชื้อโรคที่เข้าสู่ร่างกายทางปากและจมูก มีชื่อเรียกว่าอะไร?",
+    "options": {
+      "A": "Annulus fibrosus",
+      "B": "Circle of Willis",
+      "C": "Waldeyer's tonsillar ring",
+      "D": "Peyer's ring"
+    },
+    "correctOption": "C",
+    "explanation": "Waldeyer's ring ประกอบด้วยเนื้อเยื่อน้ำเหลือง 4 กลุ่มรอบคอหอย ได้แก่: 1. Pharyngeal tonsil (Adenoid) ด้านบน 2. Tubal tonsils สองข้าง 3. Palatine tonsils สองข้าง และ 4. Lingual tonsils ด้านล่างที่โคนลิ้น ทำหน้าที่เป็นด่านหน้าทางภูมิคุ้มกันดักจับเชื้อโรค",
+    "system": "Cardiovascular and Lymphatic Systems",
+    "topic": "Lymphatic System & Organs",
+    "difficulty": "Medium",
+    "sourceFile": "BNS102-Anatomy of Cardiovascular and Lymphatic Sys_261024_214357.pdf",
+    "sourcePage": 78,
+    "tags": [
+      "waldeyers-ring",
+      "tonsils-pharynx"
+    ],
+    "createdAt": "2026-10-24",
+    "updatedAt": "2026-10-24",
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "CARDIO-092",
+    "questionText": "กลุ่มก้อนเนื้อเยื่อน้ำเหลืองชนิด Mucosa-Associated Lymphoid Tissue (MALT) ที่รวมตัวกันหนาแน่นเป็นหย่อมๆ ขนาดใหญ่ในชั้น Lamina propria และ Submucosa ของลำไส้เล็กส่วนปลาย (Ileum) มีชื่อเรียกว่าอะไร?",
+    "options": {
+      "A": "Hassall's corpuscles",
+      "B": "Brunner's glands",
+      "C": "Islets of Langerhans",
+      "D": "Peyer's patches (Aggregated lymphoid nodules)"
+    },
+    "correctOption": "D",
+    "explanation": "Peyer's patches เป็นกลุ่มของ Lymphoid follicles ที่พบหนาแน่นที่สุดในชั้น Mucosa และ Submucosa ของลำไส้เล็กส่วน Ileum ทำหน้าที่เฝ้าระวังและป้องกันไม่ให้เชื้อแบคทีเรียจากลำไส้ใหญ่รุกล้ำย้อนกลับเข้ามาในระบบทางเดินอาหารส่วนบน",
+    "system": "Cardiovascular and Lymphatic Systems",
+    "topic": "Lymphatic System & Organs",
+    "difficulty": "Medium",
+    "sourceFile": "BNS102-Anatomy of Cardiovascular and Lymphatic Sys_261024_214357.pdf",
+    "sourcePage": 78,
+    "tags": [
+      "peyers-patches",
+      "ileum",
+      "malt"
+    ],
+    "createdAt": "2026-10-24",
+    "updatedAt": "2026-10-24",
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "CARDIO-093",
+    "questionText": "อวัยวะน้ำเหลืองปฐมภูมิ (Primary lymphoid organs) ซึ่งเป็นสถานที่กำเนิดและพัฒนาจนเจริญเต็มวัยของเซลล์ลิมโฟไซต์ประกอบด้วยอวัยวะใดบ้าง?",
+    "options": {
+      "A": "Red bone marrow (ไขกระดูกแดง) และต่อม Thymus",
+      "B": "ม้าม (Spleen) และต่อมน้ำเหลือง (Lymph nodes)",
+      "C": "ต่อมทอนซิลและไส้ติ่ง",
+      "D": "ตับและถุงน้ำดี"
+    },
+    "correctOption": "A",
+    "explanation": "Primary lymphoid organs คืออวัยวะที่ Lymphocytes กำเนิดและพัฒนาจนกลายเป็น Immunocompetent cells ได้แก่ Red bone marrow (สำหรับ B cells) และ Thymus (สำหรับ T cells) ส่วนอวัยวะอื่น เช่น Lymph nodes, Spleen, Tonsils จัดเป็น Secondary lymphoid organs ที่เซลล์ไปทำหน้าที่ตอบสนองต่อแอนติเจน",
+    "system": "Cardiovascular and Lymphatic Systems",
+    "topic": "Lymphatic System & Organs",
+    "difficulty": "Medium",
+    "sourceFile": "BNS102-Anatomy of Cardiovascular and Lymphatic Sys_261024_214357.pdf",
+    "sourcePage": 67,
+    "tags": [
+      "primary-lymphoid-organs",
+      "bone-marrow",
+      "thymus"
+    ],
+    "createdAt": "2026-10-24",
+    "updatedAt": "2026-10-24",
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "CARDIO-094",
+    "questionText": "อวัยวะใดต่อไปนี้ในร่างกายมนุษย์ที่ไม่มีหลอดน้ำเหลืองฝอย (Lymphatic capillaries) อยู่เลยตามหลักกายวิภาค?",
+    "options": {
+      "A": "ผิวหนังและเนื้อเยื่อใต้ผิวหนัง",
+      "B": "ระบบประสาทส่วนกลาง (Central Nervous System: Brain and Spinal cord), กระดูก และกระจกตา (Cornea)",
+      "C": "ปอดและกล้ามเนื้อหัวใจ",
+      "D": "ลำไส้เล็กและลำไส้ใหญ่"
+    },
+    "correctOption": "B",
+    "explanation": "เนื้อเยื่อที่ไม่มีท่อน้ำเหลือง (Avascular or specialized tissues) ได้แก่: กระจกตา (Cornea), กระดูกอ่อนโปร่งแสง (Hyaline cartilage), ระบบประสาทส่วนกลาง (CNS ซึ่งใช้น้ำไขสันหลัง CSF และ Glymphatic system แทน), ไขกระดูก และเนื้อเยื่อชั้นหนังกำพร้า (Epidermis)",
+    "system": "Cardiovascular and Lymphatic Systems",
+    "topic": "Lymphatic System & Organs",
+    "difficulty": "Hard",
+    "sourceFile": "BNS102-Anatomy of Cardiovascular and Lymphatic Sys_261024_214357.pdf",
+    "sourcePage": 68,
+    "tags": [
+      "avascular-tissues",
+      "no-lymphatics",
+      "cns",
+      "cornea"
+    ],
+    "createdAt": "2026-10-24",
+    "updatedAt": "2026-10-24",
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "CARDIO-095",
+    "questionText": "ต่อมน้ำเหลืองบริเวณใดที่ทำหน้าที่รับน้ำเหลืองจากเต้านม (ประมาณ 75%) และเป็นตำแหน่งที่เซลล์มะเร็งเต้านมมักแพร่กระจายไปถึงเป็นด่านแรก (Sentinel lymph nodes)?",
+    "options": {
+      "A": "Cervical lymph nodes (ต่อมน้ำเหลืองที่คอ)",
+      "B": "Inguinal lymph nodes (ต่อมน้ำเหลืองขาหนีบ)",
+      "C": "Axillary lymph nodes (ต่อมน้ำเหลืองบริเวณรักแร้)",
+      "D": "Mesenteric lymph nodes"
+    },
+    "correctOption": "C",
+    "explanation": "น้ำเหลืองมากกว่า 75% จากเนื้อเต้านมจะระบายไปยัง Axillary lymph nodes (กลุ่ม Pectoral, Central, Lateral, Subscapular และ Apical) ดังนั้นในการวินิจฉัยและรักษามะเร็งเต้านม จึงต้องมีการตรวจประเมินต่อมน้ำเหลืองรักแร้ (Sentinel node biopsy) เพื่อดูการแพร่กระจายของมะเร็ง",
+    "system": "Cardiovascular and Lymphatic Systems",
+    "topic": "Lymphatic System & Organs",
+    "difficulty": "Hard",
+    "sourceFile": "BNS102-Anatomy of Cardiovascular and Lymphatic Sys_261024_214357.pdf",
+    "sourcePage": 71,
+    "tags": [
+      "breast-lymphatic-drainage",
+      "axillary-nodes",
+      "sentinel-node"
+    ],
+    "createdAt": "2026-10-24",
+    "updatedAt": "2026-10-24",
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "CARDIO-096",
+    "questionText": "ต่อมน้ำเหลืองบริเวณเหนือกระดูกไหปลาร้าซ้ายที่โตและคลำได้ก้อนแข็งไม่เจ็บ (Virchow's node หรือ Troisier's sign) มีความสำคัญทางคลินิกอย่างไร?",
+    "options": {
+      "A": "บ่งชี้ถึงการแพร่กระจายของมะเร็งสมองส่วนหน้า",
+      "B": "บ่งชี้ถึงการติดเชื้อไวรัสหวัดธรรมดาในโพรงจมูก",
+      "C": "บ่งชี้ถึงภาวะกระดูกไหปลาร้าหัก",
+      "D": "บ่งชี้ถึงการแพร่กระจายของมะเร็งในช่องท้อง (เช่น มะเร็งกระเพาะอาหาร หรือมะเร็งตับอ่อน) ผ่านทาง Thoracic duct"
+    },
+    "correctOption": "D",
+    "explanation": "Virchow's node (Supraclavicular lymph node ด้านซ้าย) อยู่ใกล้จุดบรรจบของ Thoracic duct เข้าสู่ Left subclavian vein เมื่อมีมะเร็งในช่องท้องหรืออุ้งเชิงกราน (โดยเฉพาะ Gastric cancer) เซลล์มะเร็งจะหลุดลอยมาตาม Thoracic duct และมาสะสมโตที่ต่อมน้ำเหลืองนี้ เรียกว่า Troisier's sign",
+    "system": "Cardiovascular and Lymphatic Systems",
+    "topic": "Lymphatic System & Organs",
+    "difficulty": "Hard",
+    "sourceFile": "BNS102-Anatomy of Cardiovascular and Lymphatic Sys_261024_214357.pdf",
+    "sourcePage": 71,
+    "tags": [
+      "virchows-node",
+      "gastric-cancer",
+      "troisiers-sign",
+      "thoracic-duct"
+    ],
+    "createdAt": "2026-10-24",
+    "updatedAt": "2026-10-24",
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "CARDIO-097",
+    "questionText": "การเคลื่อนที่ของน้ำเหลืองภายในหลอดน้ำเหลือง (Lymph flow) ให้ไหลไปข้างหน้าเข้าสู่ระบบหลอดเลือดดำ อาศัยปัจจัยผลักดันทางสรีรวิทยาใดเป็นหลัก?",
+    "options": {
+      "A": "การบีบตัวของกล้ามเนื้อลายรอบข้าง, การเต้นตุบๆ ของหลอดเลือดแดงข้างเคียง, แรงดันลบในช่องอกขณะหายใจเข้า, การหดตัวของกล้ามเนื้อเรียบในผนังท่อน้ำเหลือง และลิ้นเปิดปิดทิศทางเดียวภายในท่อ",
+      "B": "แรงสูบฉีดโดยตรงจากหัวใจห้องล่างซ้าย",
+      "C": "แรงดันแรงโน้มถ่วงของโลกเพียงอย่างเดียว",
+      "D": "แรงดันของอากาศภายนอกร่างกาย"
+    },
+    "correctOption": "A",
+    "explanation": "เนื่องจากระบบน้ำเหลืองไม่มีปั๊มหัวใจของตนเอง การไหลจึงอาศัย: 1. ลิ้นภายในท่อ (Lymphatic valves) บังคับไหลทางเดียว 2. กล้ามเนื้อลายบีบตัว (Skeletal muscle pump) 3. Pulsation ของหลอดเลือดแดงที่ทอดคู่กัน 4. Respiratory pump ในช่องอก 5. การบีบตัวเป็นจังหวะของกล้ามเนื้อเรียบในผนังท่อน้ำเหลืองใหญ่ (Lymphangion contraction)",
+    "system": "Cardiovascular and Lymphatic Systems",
+    "topic": "Lymphatic System & Organs",
+    "difficulty": "Medium",
+    "sourceFile": "BNS102-Anatomy of Cardiovascular and Lymphatic Sys_261024_214357.pdf",
+    "sourcePage": 69,
+    "tags": [
+      "lymph-propulsion",
+      "valves",
+      "lymphangion"
+    ],
+    "createdAt": "2026-10-24",
+    "updatedAt": "2026-10-24",
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "CARDIO-098",
+    "questionText": "โรคเท้าช้าง (Lymphatic Filariasis / Elephantiasis) เกิดจากการติดเชื้อพยาธิตัวกลมชนิด Wuchereria bancrofti เข้าไปอาศัยและทำให้เกิดพยาธิสภาพที่อวัยวะใดของระบบน้ำเหลือง?",
+    "options": {
+      "A": "พยาธิเข้าไปทำลายเซลล์เม็ดเลือดแดงในม้าม",
+      "B": "พยาธิตัวเต็มวัยอาศัยและอุดกั้นหลอดน้ำเหลืองและต่อมน้ำเหลือง (โดยเฉพาะบริเวณขาหนีบ Inguinal nodes) ทำให้เกิดการอักเสบเรื้อรัง พังผืด และน้ำเหลืองคั่งบวมจนขยายขนาดผิดรูป",
+      "C": "พยาธิเข้าไปกัดกินเยื่อหุ้มหัวใจ Pericardium",
+      "D": "พยาธิเข้าไปอุดกั้นลิ้นหัวใจ Mitral valve"
+    },
+    "correctOption": "B",
+    "explanation": "Wuchereria bancrofti มีรังโรคในระบบน้ำเหลือง ตัวพยาธิที่โตเต็มวัยจะอุดตันในท่อน้ำเหลืองและต่อมน้ำเหลือง (โดยเฉพาะ Inguinal lymph nodes) กระตุ้นปฏิกิริยาอักเสบ ก่อให้เกิด Fibrosis ขัดขวางการระบายน้ำเหลืองจากขากลับสู่ร่างกาย เกิดอาการบวมน้ำเหลืองรุนแรง (Elephantiasis) ผิวหนังหนาตัวและติดเชื้อซ้ำซ้อน",
+    "system": "Cardiovascular and Lymphatic Systems",
+    "topic": "Lymphatic System & Organs",
+    "difficulty": "Hard",
+    "sourceFile": "BNS102-Anatomy of Cardiovascular and Lymphatic Sys_261024_214357.pdf",
+    "sourcePage": 71,
+    "tags": [
+      "filariasis",
+      "elephantiasis",
+      "wuchereria-bancrofti"
     ],
     "createdAt": "2026-10-24",
     "updatedAt": "2026-10-24",
@@ -2403,23 +2459,24 @@ export const cardioQuestions: Question[] = [
   },
   {
     "id": "CARDIO-099",
-    "questionText": "หลอดเลือดดำ Great Cardiac Vein ทอดตัวคู่ขนานไปกับหลอดเลือดแดงเส้นใดในร่องด้านหน้าของหัวใจ?",
+    "questionText": "ในระบบภูมิคุ้มกันของต่อมน้ำเหลือง เซลล์ทำหน้าที่กรองและเก็บกิน (Phagocytosis) สิ่งแปลกปลอม แบคทีเรีย และเซลล์มะเร็งที่ลอยมากับน้ำเหลืองก่อนที่น้ำเหลืองจะไหลออกจากต่อมคือเซลล์ชนิดใด?",
     "options": {
-      "A": "Marginal artery",
-      "B": "Right Coronary Artery",
-      "C": "Anterior Interventricular Artery (LAD)",
-      "D": "Aorta"
+      "A": "Platelets (เกล็ดเลือด)",
+      "B": "Erythrocytes (เม็ดเลือดแดง)",
+      "C": "Macrophages (แมคโครฟาจ) ซึ่งเรียงตัวเกาะอยู่ตามผนังของ Lymphatic sinuses",
+      "D": "Adipocytes (เซลล์ไขมัน)"
     },
     "correctOption": "C",
-    "explanation": "Great Cardiac Vein วิ่งขึ้นตามร่อง anterior interventricular sulcus คู่ขนานไปกับ Anterior Interventricular artery (LAD) ก่อนจะอ้อมไปทางซ้ายเพื่อเทเข้าสู่ Coronary Sinus",
+    "explanation": "ภายใน Sinuses ของต่อมน้ำเหลือง (Subcapsular, Trabecular, และ Medullary sinuses) มีร่างแหเส้นใย Reticular fibers ที่มี Macrophages เกาะอยู่หนาแน่น เมื่อน้ำเหลืองไหลผ่านอย่างช้าๆ Macrophages จะทำหน้าที่ Phagocytosis ดักจับเศษซากเซลล์ จุลชีพ และอนุภาคแปลกปลอมได้มากกว่า 99% ก่อนน้ำเหลืองจะเข้าสู่หลอดน้ำเหลืองนำออก",
     "system": "Cardiovascular and Lymphatic Systems",
-    "topic": "Coronary Circulation & Conduction",
-    "difficulty": "Hard",
+    "topic": "Lymphatic System & Organs",
+    "difficulty": "Medium",
     "sourceFile": "BNS102-Anatomy of Cardiovascular and Lymphatic Sys_261024_214357.pdf",
-    "sourcePage": 40,
+    "sourcePage": 73,
     "tags": [
-      "great-cardiac-vein",
-      "lad-companion"
+      "lymph-node-filtration",
+      "macrophages",
+      "sinuses"
     ],
     "createdAt": "2026-10-24",
     "updatedAt": "2026-10-24",
@@ -2427,25 +2484,25 @@ export const cardioQuestions: Question[] = [
   },
   {
     "id": "CARDIO-100",
-    "questionText": "Baroreceptors (ตัวรับรู้แรงดันเลือด) ที่สำคัญในการส่งสัญญาณควบคุมความดันโลหิตแบบรีเฟล็กซ์ไปยังสมอง Medulla oblongata ตั้งอยู่ที่ใด?",
+    "questionText": "ข้อใดสรุปหน้าที่หลัก 3 ประการของระบบน้ำเหลือง (Lymphatic System) ต่อร่างกายมนุษย์ได้อย่างถูกต้องและครบถ้วนสมบูรณ์ที่สุด?",
     "options": {
-      "A": "Inferior Vena Cava",
-      "B": "Pulmonary veins และ Left ventricle",
-      "C": "Femoral artery และ Radial artery",
-      "D": "Carotid sinus (ที่โคน Internal Carotid) และ Aortic arch"
+      "A": "1. สูบฉีดเลือดด้วยแรงดันสูง 2. แลกเปลี่ยนก๊าซในถุงลม 3. ย่อยสลายโปรตีน",
+      "B": "1. สร้างเม็ดเลือดแดง 2. ขนส่งก๊าซคาร์บอนมอนอกไซด์ 3. ผลิตฮอร์โมนอินซูลิน",
+      "C": "1. ควบคุมอุณหภูมิร่างกาย 2. สร้างสารหล่อลื่นข้อต่อ 3. ผลิตกรดยูริก",
+      "D": "1. รักษาสมดุลของเหลวในเนื้อเยื่อโดยนำ Fluid และโปรตีนส่วนเกินกลับสู่ระบบไหลเวียนโลหิต 2. ดูดซึมไขมันจากทางเดินอาหารผ่าน Lacteals 3. ทำหน้าที่ในระบบภูมิคุ้มกันดักจับเชื้อโรคและกระตุ้นการแบ่งตัวของ Lymphocytes"
     },
     "correctOption": "D",
-    "explanation": "Baroreceptors เป็น stretch receptors รับรู้แรงดันเลือด ตั้งอยู่ที่ Carotid sinus (ส่งสัญญาณผ่าน Glossopharyngeal nerve: CN IX) และ Aortic arch (ส่งสัญญาณผ่าน Vagus nerve: CN X) ส่งไปศูนย์ควบคุมใน Medulla เพื่อปรับความดันทันที",
+    "explanation": "หน้าที่หลัก 3 ประการของระบบน้ำเหลือง: 1. Fluid balance (ดึงของเหลวส่วนเกินประมาณ 2-3 ลิตร/วัน และโปรตีนที่รั่วซึมจาก Capillaries กลับสู่กระแสเลือดดำ) 2. Lipid absorption (ดูดซึมไขมันและวิตามินละลายในไขมัน A, D, E, K จากลำไส้เล็กผ่าน Lacteals) 3. Defense/Immunity (กรองเชื้อโรคและเป็นแหล่งสร้าง/เพิ่มจำนวน B และ T lymphocytes)",
     "system": "Cardiovascular and Lymphatic Systems",
-    "topic": "Blood Vessels & Hemodynamics",
+    "topic": "Lymphatic System & Organs",
     "difficulty": "Medium",
     "sourceFile": "BNS102-Anatomy of Cardiovascular and Lymphatic Sys_261024_214357.pdf",
-    "sourcePage": 70,
+    "sourcePage": 66,
     "tags": [
-      "baroreceptors",
-      "carotid-sinus",
-      "aortic-arch",
-      "bp-reflex"
+      "lymphatic-functions",
+      "fluid-balance",
+      "lipid-absorption",
+      "immunity"
     ],
     "createdAt": "2026-10-24",
     "updatedAt": "2026-10-24",
