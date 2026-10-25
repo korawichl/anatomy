@@ -53,7 +53,7 @@ export const cardioQuestions: Question[] = [
   },
   {
     "id": "CARDIO-003",
-    "questionText": "ผู้ป่วยเด็กมีไข้สูง ปวดท้องส่วนล่างขวา ผลตรวจเลือดพบเม็ดเลือดขาวรวม 18,000 cells/mm3 โดยมี Neutrophils 85% ร่วมกับพบ Band form สูงขึ้น (Shift to the left) ลักษณะทางจุลกายวิภาคของ Neutrophil ที่โตเต็มที่คือข้อใด?",
+    "questionText": "[🖼️ ข้อสอบวิเคราะห์ภาพประกอบกายวิภาค — พิจารณาแผนภาพและจุดชี้ตำแหน่ง [A]–[F] โดยเฉพาะบริเวณตำแหน่ง [A]] ผู้ป่วยเด็กมีไข้สูง ปวดท้องส่วนล่างขวา ผลตรวจเลือดพบเม็ดเลือดขาวรวม 18,000 cells/mm3 โดยมี Neutrophils 85% ร่วมกับพบ Band form สูงขึ้น (Shift to the left) ลักษณะทางจุลกายวิภาคของ Neutrophil ที่โตเต็มที่คือข้อใด?",
     "options": {
       "A": "นิวเคลียสเป็นรูป 2 พู (Bilobed) และมีแกรนูลขนาดใหญ่ติดสีส้มแดงสดของสี Eosin",
       "B": "นิวเคลียสกลมใหญ่เกือบเต็มเซลล์ มีขอบไซโทพลาสซึมติดสีฟ้าจางๆ เป็นวงแหวนบางๆ",
@@ -61,7 +61,7 @@ export const cardioQuestions: Question[] = [
       "D": "นิวเคลียสเป็นรูปไต (Kidney-shaped) และไม่มีแกรนูลจำเพาะในไซโทพลาสซึม"
     },
     "correctOption": "C",
-    "explanation": "Mature Neutrophil (Polymorphonuclear leukocyte: PMN) มีนิวเคลียส 3-5 พู แกรนูลจำเพาะ (Specific granules) ย้อมติดสีม่วงอมชมพูจางๆ ทำหน้าที่ Phagocytosis กำจัดเชื้อแบคทีเรียเฉียบพลัน ส่วนตัวเลือก B คือ Small lymphocyte, ตัวเลือก C คือ Eosinophil, ตัวเลือก D คือ Monocyte",
+    "explanation": "Mature Neutrophil (Polymorphonuclear leukocyte: PMN) มีนิวเคลียส 3-5 พู แกรนูลจำเพาะ (Specific granules) ย้อมติดสีม่วงอมชมพูจางๆ ทำหน้าที่ Phagocytosis กำจัดเชื้อแบคทีเรียเฉียบพลัน ส่วนตัวเลือก B คือ Small lymphocyte, ตัวเลือก C คือ Eosinophil, ตัวเลือก D คือ Monocyte\n\n📌 สรุปจุดชี้ตำแหน่งในภาพประกอบ (Hematology (Formed Elements) & Blood Vessel Wall Layers): จุดที่เกี่ยวข้องโดยตรงกับข้อนี้คือตำแหน่ง [A] (Erythrocyte (Biconcave RBC) — เม็ดเลือดแดงรูปจานเว้าสองด้าน ไม่มีนิวเคลียส) สามารถกดสลับดู \"ภาพเฉลยครบทุกจุด (Master Labeled Diagram)\" ด้านบนเพื่อทบทวนตำแหน่ง [A] ถึง [F] ทั้งหมดได้ทันที",
     "system": "Cardiovascular and Lymphatic Systems",
     "topic": "Blood Components & Hematology",
     "difficulty": "Hard",
@@ -70,11 +70,54 @@ export const cardioQuestions: Question[] = [
     "tags": [
       "neutrophil",
       "clinical-cbc",
-      "appendicitis-shift-left"
+      "appendicitis-shift-left",
+      "has-diagram",
+      "diagram-blood_cells_vessels"
     ],
     "createdAt": "2026-10-24",
     "updatedAt": "2026-10-24",
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "imageUrl": "/images/anatomy/blood_cells_vessels_exam.svg",
+    "labeledImageUrl": "/images/anatomy/blood_cells_vessels_labeled.svg",
+    "imageCaption": "Hematology (Formed Elements) & Blood Vessel Wall Layers — สัณฐานวิทยาเม็ดเลือดชนิดต่างๆ และโครงสร้างผนังหลอดเลือด 3 ชั้น",
+    "imageLabels": [
+      {
+        "pin": "A",
+        "term": "Erythrocyte (Biconcave RBC)",
+        "thaiName": "เม็ดเลือดแดงรูปจานเว้าสองด้าน ไม่มีนิวเคลียส",
+        "description": "ตำแหน่ง [A] คือ Erythrocyte (Biconcave RBC) — เม็ดเลือดแดงรูปจานเว้าสองด้าน ไม่มีนิวเคลียส"
+      },
+      {
+        "pin": "B",
+        "term": "Neutrophil (3-5 Lobed PMN)",
+        "thaiName": "นิวโทรฟิล (60-70%) กำจัดแบคทีเรียด่านแรก",
+        "description": "ตำแหน่ง [B] คือ Neutrophil (3-5 Lobed PMN) — นิวโทรฟิล (60-70%) กำจัดแบคทีเรียด่านแรก"
+      },
+      {
+        "pin": "C",
+        "term": "Eosinophil (Bilobed Nucleus)",
+        "thaiName": "อีโอซิโนฟิล (แกรนูลสีส้มแดง ทำลายพยาธิ/ภูมิแพ้)",
+        "description": "ตำแหน่ง [C] คือ Eosinophil (Bilobed Nucleus) — อีโอซิโนฟิล (แกรนูลสีส้มแดง ทำลายพยาธิ/ภูมิแพ้)"
+      },
+      {
+        "pin": "D",
+        "term": "Monocyte (Kidney-shaped Nucleus)",
+        "thaiName": "โมโนไซต์ (ใหญ่ที่สุด เปลี่ยนเป็น Macrophage)",
+        "description": "ตำแหน่ง [D] คือ Monocyte (Kidney-shaped Nucleus) — โมโนไซต์ (ใหญ่ที่สุด เปลี่ยนเป็น Macrophage)"
+      },
+      {
+        "pin": "E",
+        "term": "Tunica Intima (Endothelium)",
+        "thaiName": "ผนังชั้นในสุดสัมผัสเลือด ต่อเนื่องกับ Endocardium",
+        "description": "ตำแหน่ง [E] คือ Tunica Intima (Endothelium) — ผนังชั้นในสุดสัมผัสเลือด ต่อเนื่องกับ Endocardium"
+      },
+      {
+        "pin": "F",
+        "term": "Tunica Media (Smooth Muscle & Elastin)",
+        "thaiName": "ผนังชั้นกลาง (หนาสุดใน Artery ควบคุมความดัน)",
+        "description": "ตำแหน่ง [F] คือ Tunica Media (Smooth Muscle & Elastin) — ผนังชั้นกลาง (หนาสุดใน Artery ควบคุมความดัน)"
+      }
+    ]
   },
   {
     "id": "CARDIO-004",
@@ -129,7 +172,7 @@ export const cardioQuestions: Question[] = [
   },
   {
     "id": "CARDIO-006",
-    "questionText": "เมื่อเกิดการบาดเจ็บและการอักเสบเรื้อรังในเนื้อเยื่อ เม็ดเลือดขาวชนิด Agranulocyte ที่มีขนาดใหญ่ที่สุด (15-20 ไมครอน) นิวเคลียสเว้าเป็นรูปไต จะแทรกตัวผ่านผนังหลอดเลือด (Diapedesis) ออกไปทำหน้าที่เป็นเซลล์ใดในเนื้อเยื่อ?",
+    "questionText": "[🖼️ ข้อสอบวิเคราะห์ภาพประกอบกายวิภาค — พิจารณาแผนภาพและจุดชี้ตำแหน่ง [A]–[F] โดยเฉพาะบริเวณตำแหน่ง [B]] เมื่อเกิดการบาดเจ็บและการอักเสบเรื้อรังในเนื้อเยื่อ เม็ดเลือดขาวชนิด Agranulocyte ที่มีขนาดใหญ่ที่สุด (15-20 ไมครอน) นิวเคลียสเว้าเป็นรูปไต จะแทรกตัวผ่านผนังหลอดเลือด (Diapedesis) ออกไปทำหน้าที่เป็นเซลล์ใดในเนื้อเยื่อ?",
     "options": {
       "A": "Plasma cell ทำหน้าที่สร้างและหลั่ง Immunoglobulin เข้าสู่สารคัดหลั่ง",
       "B": "Macrophage ทำหน้าที่กินเชื้อโรค เศษซากเซลล์ และทำหน้าที่เป็น Antigen Presenting Cell (APC)",
@@ -137,7 +180,7 @@ export const cardioQuestions: Question[] = [
       "D": "Fibroblast ทำหน้าที่สร้างเฉพาะเส้นใยคอลลาเจนสมานแผล"
     },
     "correctOption": "B",
-    "explanation": "Monocyte เป็นเม็ดเลือดขาวขนาดใหญ่ที่สุด นิวเคลียสรูปไต อยู่ในกระแสเลือดเพียง 1-3 วันก่อนเคลื่อนที่ผ่านผนังหลอดเลือดเข้าสู่เนื้อเยื่อแล้วเจริญเปลี่ยนสภาพไปเป็น Macrophage (เช่น Kupffer cells ในตับ, Alveolar macrophages ในปอด, Microglia ในสมอง)",
+    "explanation": "Monocyte เป็นเม็ดเลือดขาวขนาดใหญ่ที่สุด นิวเคลียสรูปไต อยู่ในกระแสเลือดเพียง 1-3 วันก่อนเคลื่อนที่ผ่านผนังหลอดเลือดเข้าสู่เนื้อเยื่อแล้วเจริญเปลี่ยนสภาพไปเป็น Macrophage (เช่น Kupffer cells ในตับ, Alveolar macrophages ในปอด, Microglia ในสมอง)\n\n📌 สรุปจุดชี้ตำแหน่งในภาพประกอบ (Hematology (Formed Elements) & Blood Vessel Wall Layers): จุดที่เกี่ยวข้องโดยตรงกับข้อนี้คือตำแหน่ง [B] (Neutrophil (3-5 Lobed PMN) — นิวโทรฟิล (60-70%) กำจัดแบคทีเรียด่านแรก) สามารถกดสลับดู \"ภาพเฉลยครบทุกจุด (Master Labeled Diagram)\" ด้านบนเพื่อทบทวนตำแหน่ง [A] ถึง [F] ทั้งหมดได้ทันที",
     "system": "Cardiovascular and Lymphatic Systems",
     "topic": "Blood Components & Hematology",
     "difficulty": "Medium",
@@ -147,15 +190,58 @@ export const cardioQuestions: Question[] = [
       "monocyte",
       "macrophage",
       "diapedesis",
-      "apc"
+      "apc",
+      "has-diagram",
+      "diagram-blood_cells_vessels"
     ],
     "createdAt": "2026-10-24",
     "updatedAt": "2026-10-24",
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "imageUrl": "/images/anatomy/blood_cells_vessels_exam.svg",
+    "labeledImageUrl": "/images/anatomy/blood_cells_vessels_labeled.svg",
+    "imageCaption": "Hematology (Formed Elements) & Blood Vessel Wall Layers — สัณฐานวิทยาเม็ดเลือดชนิดต่างๆ และโครงสร้างผนังหลอดเลือด 3 ชั้น",
+    "imageLabels": [
+      {
+        "pin": "A",
+        "term": "Erythrocyte (Biconcave RBC)",
+        "thaiName": "เม็ดเลือดแดงรูปจานเว้าสองด้าน ไม่มีนิวเคลียส",
+        "description": "ตำแหน่ง [A] คือ Erythrocyte (Biconcave RBC) — เม็ดเลือดแดงรูปจานเว้าสองด้าน ไม่มีนิวเคลียส"
+      },
+      {
+        "pin": "B",
+        "term": "Neutrophil (3-5 Lobed PMN)",
+        "thaiName": "นิวโทรฟิล (60-70%) กำจัดแบคทีเรียด่านแรก",
+        "description": "ตำแหน่ง [B] คือ Neutrophil (3-5 Lobed PMN) — นิวโทรฟิล (60-70%) กำจัดแบคทีเรียด่านแรก"
+      },
+      {
+        "pin": "C",
+        "term": "Eosinophil (Bilobed Nucleus)",
+        "thaiName": "อีโอซิโนฟิล (แกรนูลสีส้มแดง ทำลายพยาธิ/ภูมิแพ้)",
+        "description": "ตำแหน่ง [C] คือ Eosinophil (Bilobed Nucleus) — อีโอซิโนฟิล (แกรนูลสีส้มแดง ทำลายพยาธิ/ภูมิแพ้)"
+      },
+      {
+        "pin": "D",
+        "term": "Monocyte (Kidney-shaped Nucleus)",
+        "thaiName": "โมโนไซต์ (ใหญ่ที่สุด เปลี่ยนเป็น Macrophage)",
+        "description": "ตำแหน่ง [D] คือ Monocyte (Kidney-shaped Nucleus) — โมโนไซต์ (ใหญ่ที่สุด เปลี่ยนเป็น Macrophage)"
+      },
+      {
+        "pin": "E",
+        "term": "Tunica Intima (Endothelium)",
+        "thaiName": "ผนังชั้นในสุดสัมผัสเลือด ต่อเนื่องกับ Endocardium",
+        "description": "ตำแหน่ง [E] คือ Tunica Intima (Endothelium) — ผนังชั้นในสุดสัมผัสเลือด ต่อเนื่องกับ Endocardium"
+      },
+      {
+        "pin": "F",
+        "term": "Tunica Media (Smooth Muscle & Elastin)",
+        "thaiName": "ผนังชั้นกลาง (หนาสุดใน Artery ควบคุมความดัน)",
+        "description": "ตำแหน่ง [F] คือ Tunica Media (Smooth Muscle & Elastin) — ผนังชั้นกลาง (หนาสุดใน Artery ควบคุมความดัน)"
+      }
+    ]
   },
   {
     "id": "CARDIO-007",
-    "questionText": "ผู้ป่วยโรคตับแข็งระยะท้าย (End-stage Cirrhosis) มักมีอาการบวมน้ำทั่วร่างกาย (Generalized edema) และท้องมาน (Ascites) ความผิดปกตินี้สัมพันธ์กับการสูญเสียหน้าที่ในการสร้างโปรตีนในพลาสมาชนิดใดจากตับมากที่สุด?",
+    "questionText": "[🖼️ ข้อสอบวิเคราะห์ภาพประกอบกายวิภาค — พิจารณาแผนภาพและจุดชี้ตำแหน่ง [A]–[F] โดยเฉพาะบริเวณตำแหน่ง [C]] ผู้ป่วยโรคตับแข็งระยะท้าย (End-stage Cirrhosis) มักมีอาการบวมน้ำทั่วร่างกาย (Generalized edema) และท้องมาน (Ascites) ความผิดปกตินี้สัมพันธ์กับการสูญเสียหน้าที่ในการสร้างโปรตีนในพลาสมาชนิดใดจากตับมากที่สุด?",
     "options": {
       "A": "Gamma-globulin ซึ่งสร้างจากพลาสมาเซลล์เพื่อเป็นแอนติบอดี",
       "B": "Alpha-globulin ซึ่งทำหน้าที่ขนส่งฮอร์โมนไทรอยด์",
@@ -163,7 +249,7 @@ export const cardioQuestions: Question[] = [
       "D": "Fibrinogen ซึ่งทำหน้าที่เฉพาะในกระบวนการละลายลิ่มเลือด (Fibrinolysis)"
     },
     "correctOption": "C",
-    "explanation": "Albumin เป็นโปรตีนพลาสมาที่มีสัดส่วนมากที่สุด (ประมาณ 60% ของโปรตีนในเลือด) สร้างจากตับ มีบทบาทสำคัญที่สุดในการรักษาระดับแรงดันคอลลอยด์ออสโมติก (Colloid osmotic pressure) เพื่อดึงน้ำไว้ในหลอดเลือด เมื่อตับวายและสร้าง Albumin ลดลง น้ำจึงรั่วซึมออกสู่ช่องว่างระหว่างเซลล์ เกิดภาวะบวมน้ำ (Edema) และท้องมาน (Ascites)",
+    "explanation": "Albumin เป็นโปรตีนพลาสมาที่มีสัดส่วนมากที่สุด (ประมาณ 60% ของโปรตีนในเลือด) สร้างจากตับ มีบทบาทสำคัญที่สุดในการรักษาระดับแรงดันคอลลอยด์ออสโมติก (Colloid osmotic pressure) เพื่อดึงน้ำไว้ในหลอดเลือด เมื่อตับวายและสร้าง Albumin ลดลง น้ำจึงรั่วซึมออกสู่ช่องว่างระหว่างเซลล์ เกิดภาวะบวมน้ำ (Edema) และท้องมาน (Ascites)\n\n📌 สรุปจุดชี้ตำแหน่งในภาพประกอบ (Hematology (Formed Elements) & Blood Vessel Wall Layers): จุดที่เกี่ยวข้องโดยตรงกับข้อนี้คือตำแหน่ง [C] (Eosinophil (Bilobed Nucleus) — อีโอซิโนฟิล (แกรนูลสีส้มแดง ทำลายพยาธิ/ภูมิแพ้)) สามารถกดสลับดู \"ภาพเฉลยครบทุกจุด (Master Labeled Diagram)\" ด้านบนเพื่อทบทวนตำแหน่ง [A] ถึง [F] ทั้งหมดได้ทันที",
     "system": "Cardiovascular and Lymphatic Systems",
     "topic": "Blood Components & Hematology",
     "difficulty": "Hard",
@@ -173,11 +259,54 @@ export const cardioQuestions: Question[] = [
       "plasma-proteins",
       "albumin",
       "oncotic-pressure",
-      "edema"
+      "edema",
+      "has-diagram",
+      "diagram-blood_cells_vessels"
     ],
     "createdAt": "2026-10-24",
     "updatedAt": "2026-10-24",
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "imageUrl": "/images/anatomy/blood_cells_vessels_exam.svg",
+    "labeledImageUrl": "/images/anatomy/blood_cells_vessels_labeled.svg",
+    "imageCaption": "Hematology (Formed Elements) & Blood Vessel Wall Layers — สัณฐานวิทยาเม็ดเลือดชนิดต่างๆ และโครงสร้างผนังหลอดเลือด 3 ชั้น",
+    "imageLabels": [
+      {
+        "pin": "A",
+        "term": "Erythrocyte (Biconcave RBC)",
+        "thaiName": "เม็ดเลือดแดงรูปจานเว้าสองด้าน ไม่มีนิวเคลียส",
+        "description": "ตำแหน่ง [A] คือ Erythrocyte (Biconcave RBC) — เม็ดเลือดแดงรูปจานเว้าสองด้าน ไม่มีนิวเคลียส"
+      },
+      {
+        "pin": "B",
+        "term": "Neutrophil (3-5 Lobed PMN)",
+        "thaiName": "นิวโทรฟิล (60-70%) กำจัดแบคทีเรียด่านแรก",
+        "description": "ตำแหน่ง [B] คือ Neutrophil (3-5 Lobed PMN) — นิวโทรฟิล (60-70%) กำจัดแบคทีเรียด่านแรก"
+      },
+      {
+        "pin": "C",
+        "term": "Eosinophil (Bilobed Nucleus)",
+        "thaiName": "อีโอซิโนฟิล (แกรนูลสีส้มแดง ทำลายพยาธิ/ภูมิแพ้)",
+        "description": "ตำแหน่ง [C] คือ Eosinophil (Bilobed Nucleus) — อีโอซิโนฟิล (แกรนูลสีส้มแดง ทำลายพยาธิ/ภูมิแพ้)"
+      },
+      {
+        "pin": "D",
+        "term": "Monocyte (Kidney-shaped Nucleus)",
+        "thaiName": "โมโนไซต์ (ใหญ่ที่สุด เปลี่ยนเป็น Macrophage)",
+        "description": "ตำแหน่ง [D] คือ Monocyte (Kidney-shaped Nucleus) — โมโนไซต์ (ใหญ่ที่สุด เปลี่ยนเป็น Macrophage)"
+      },
+      {
+        "pin": "E",
+        "term": "Tunica Intima (Endothelium)",
+        "thaiName": "ผนังชั้นในสุดสัมผัสเลือด ต่อเนื่องกับ Endocardium",
+        "description": "ตำแหน่ง [E] คือ Tunica Intima (Endothelium) — ผนังชั้นในสุดสัมผัสเลือด ต่อเนื่องกับ Endocardium"
+      },
+      {
+        "pin": "F",
+        "term": "Tunica Media (Smooth Muscle & Elastin)",
+        "thaiName": "ผนังชั้นกลาง (หนาสุดใน Artery ควบคุมความดัน)",
+        "description": "ตำแหน่ง [F] คือ Tunica Media (Smooth Muscle & Elastin) — ผนังชั้นกลาง (หนาสุดใน Artery ควบคุมความดัน)"
+      }
+    ]
   },
   {
     "id": "CARDIO-008",
@@ -206,7 +335,7 @@ export const cardioQuestions: Question[] = [
   },
   {
     "id": "CARDIO-009",
-    "questionText": "ในกระบวนการห้ามเลือด (Hemostasis) ปัจจัยและขั้นตอนใดที่เกิดขึ้นเป็นลำดับแรกสุดทันทีเมื่อผนังหลอดเลือดเกิดรอยฉีกขาด?",
+    "questionText": "[🖼️ ข้อสอบวิเคราะห์ภาพประกอบกายวิภาค — พิจารณาแผนภาพและจุดชี้ตำแหน่ง [A]–[F] โดยเฉพาะบริเวณตำแหน่ง [D]] ในกระบวนการห้ามเลือด (Hemostasis) ปัจจัยและขั้นตอนใดที่เกิดขึ้นเป็นลำดับแรกสุดทันทีเมื่อผนังหลอดเลือดเกิดรอยฉีกขาด?",
     "options": {
       "A": "Vascular spasm (การหดเกร็งตัวของกล้ามเนื้อเรียบในผนังหลอดเลือดเพื่อจำกัดการไหลของเลือด)",
       "B": "Platelet plug formation (เกล็ดเลือดรวมกลุ่มอุดรอยรั่ว)",
@@ -214,7 +343,7 @@ export const cardioQuestions: Question[] = [
       "D": "Fibrinolysis (การสลายลิ่มเลือดด้วยเอนไซม์ Plasmin)"
     },
     "correctOption": "A",
-    "explanation": "ลำดับขั้นตอนของกระบวนการ Hemostasis: 1. Vascular spasm (หลอดเลือดหดเกร็งตัวทันทีจาก Myogenic reflex และ Endothelin) 2. Platelet plug formation (เกล็ดเลือดเกาะกับคอลลาเจนและรวมตัวกันเป็นก้อนอุดชั่วคราว) 3. Coagulation / Blood clotting (การสร้างร่างแห Fibrin เพื่อสร้างลิ่มเลือดถาวร)",
+    "explanation": "ลำดับขั้นตอนของกระบวนการ Hemostasis: 1. Vascular spasm (หลอดเลือดหดเกร็งตัวทันทีจาก Myogenic reflex และ Endothelin) 2. Platelet plug formation (เกล็ดเลือดเกาะกับคอลลาเจนและรวมตัวกันเป็นก้อนอุดชั่วคราว) 3. Coagulation / Blood clotting (การสร้างร่างแห Fibrin เพื่อสร้างลิ่มเลือดถาวร)\n\n📌 สรุปจุดชี้ตำแหน่งในภาพประกอบ (Hematology (Formed Elements) & Blood Vessel Wall Layers): จุดที่เกี่ยวข้องโดยตรงกับข้อนี้คือตำแหน่ง [D] (Monocyte (Kidney-shaped Nucleus) — โมโนไซต์ (ใหญ่ที่สุด เปลี่ยนเป็น Macrophage)) สามารถกดสลับดู \"ภาพเฉลยครบทุกจุด (Master Labeled Diagram)\" ด้านบนเพื่อทบทวนตำแหน่ง [A] ถึง [F] ทั้งหมดได้ทันที",
     "system": "Cardiovascular and Lymphatic Systems",
     "topic": "Blood Components & Hematology",
     "difficulty": "Medium",
@@ -223,11 +352,54 @@ export const cardioQuestions: Question[] = [
     "tags": [
       "hemostasis",
       "vascular-spasm",
-      "coagulation"
+      "coagulation",
+      "has-diagram",
+      "diagram-blood_cells_vessels"
     ],
     "createdAt": "2026-10-24",
     "updatedAt": "2026-10-24",
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "imageUrl": "/images/anatomy/blood_cells_vessels_exam.svg",
+    "labeledImageUrl": "/images/anatomy/blood_cells_vessels_labeled.svg",
+    "imageCaption": "Hematology (Formed Elements) & Blood Vessel Wall Layers — สัณฐานวิทยาเม็ดเลือดชนิดต่างๆ และโครงสร้างผนังหลอดเลือด 3 ชั้น",
+    "imageLabels": [
+      {
+        "pin": "A",
+        "term": "Erythrocyte (Biconcave RBC)",
+        "thaiName": "เม็ดเลือดแดงรูปจานเว้าสองด้าน ไม่มีนิวเคลียส",
+        "description": "ตำแหน่ง [A] คือ Erythrocyte (Biconcave RBC) — เม็ดเลือดแดงรูปจานเว้าสองด้าน ไม่มีนิวเคลียส"
+      },
+      {
+        "pin": "B",
+        "term": "Neutrophil (3-5 Lobed PMN)",
+        "thaiName": "นิวโทรฟิล (60-70%) กำจัดแบคทีเรียด่านแรก",
+        "description": "ตำแหน่ง [B] คือ Neutrophil (3-5 Lobed PMN) — นิวโทรฟิล (60-70%) กำจัดแบคทีเรียด่านแรก"
+      },
+      {
+        "pin": "C",
+        "term": "Eosinophil (Bilobed Nucleus)",
+        "thaiName": "อีโอซิโนฟิล (แกรนูลสีส้มแดง ทำลายพยาธิ/ภูมิแพ้)",
+        "description": "ตำแหน่ง [C] คือ Eosinophil (Bilobed Nucleus) — อีโอซิโนฟิล (แกรนูลสีส้มแดง ทำลายพยาธิ/ภูมิแพ้)"
+      },
+      {
+        "pin": "D",
+        "term": "Monocyte (Kidney-shaped Nucleus)",
+        "thaiName": "โมโนไซต์ (ใหญ่ที่สุด เปลี่ยนเป็น Macrophage)",
+        "description": "ตำแหน่ง [D] คือ Monocyte (Kidney-shaped Nucleus) — โมโนไซต์ (ใหญ่ที่สุด เปลี่ยนเป็น Macrophage)"
+      },
+      {
+        "pin": "E",
+        "term": "Tunica Intima (Endothelium)",
+        "thaiName": "ผนังชั้นในสุดสัมผัสเลือด ต่อเนื่องกับ Endocardium",
+        "description": "ตำแหน่ง [E] คือ Tunica Intima (Endothelium) — ผนังชั้นในสุดสัมผัสเลือด ต่อเนื่องกับ Endocardium"
+      },
+      {
+        "pin": "F",
+        "term": "Tunica Media (Smooth Muscle & Elastin)",
+        "thaiName": "ผนังชั้นกลาง (หนาสุดใน Artery ควบคุมความดัน)",
+        "description": "ตำแหน่ง [F] คือ Tunica Media (Smooth Muscle & Elastin) — ผนังชั้นกลาง (หนาสุดใน Artery ควบคุมความดัน)"
+      }
+    ]
   },
   {
     "id": "CARDIO-010",
@@ -630,7 +802,7 @@ export const cardioQuestions: Question[] = [
   },
   {
     "id": "CARDIO-026",
-    "questionText": "หัวใจห้องบนขวา (Right Atrium) ได้รับเลือดที่มีออกซิเจนต่ำ (Deoxygenated blood) กลับเข้าสู่หัวใจผ่านช่องเปิดของหลอดเลือดดำกี่สาย และได้แก่หลอดเลือดใดบ้าง?",
+    "questionText": "[🖼️ ข้อสอบวิเคราะห์ภาพประกอบกายวิภาค — พิจารณาแผนภาพและจุดชี้ตำแหน่ง [A]–[F] โดยเฉพาะบริเวณตำแหน่ง [A]] หัวใจห้องบนขวา (Right Atrium) ได้รับเลือดที่มีออกซิเจนต่ำ (Deoxygenated blood) กลับเข้าสู่หัวใจผ่านช่องเปิดของหลอดเลือดดำกี่สาย และได้แก่หลอดเลือดใดบ้าง?",
     "options": {
       "A": "4 สาย ได้แก่ Pulmonary veins 4 เส้น",
       "B": "3 สาย ได้แก่ Superior Vena Cava, Inferior Vena Cava และ Coronary Sinus",
@@ -638,7 +810,7 @@ export const cardioQuestions: Question[] = [
       "D": "1 สาย ได้แก่ Pulmonary trunk"
     },
     "correctOption": "B",
-    "explanation": "Right Atrium รับเลือดดำจากทั่วร่างกายผ่าน 3 ช่องเปิดหลัก: 1. Superior Vena Cava (SVC) รับเลือดจากศีรษะ คอ แขน และทรวงอก 2. Inferior Vena Cava (IVC) รับเลือดจากลำตัวส่วนล่าง ท้อง และขา 3. Coronary Sinus รับเลือดดำจากกล้ามเนื้อหัวใจเอง",
+    "explanation": "Right Atrium รับเลือดดำจากทั่วร่างกายผ่าน 3 ช่องเปิดหลัก: 1. Superior Vena Cava (SVC) รับเลือดจากศีรษะ คอ แขน และทรวงอก 2. Inferior Vena Cava (IVC) รับเลือดจากลำตัวส่วนล่าง ท้อง และขา 3. Coronary Sinus รับเลือดดำจากกล้ามเนื้อหัวใจเอง\n\n📌 สรุปจุดชี้ตำแหน่งในภาพประกอบ (Internal Anatomy of the Heart: Chambers, Valves & Great Vessels): จุดที่เกี่ยวข้องโดยตรงกับข้อนี้คือตำแหน่ง [A] (Superior Vena Cava (SVC) — หลอดเลือดดำใหญ่ส่วนบนเทเข้า RA) สามารถกดสลับดู \"ภาพเฉลยครบทุกจุด (Master Labeled Diagram)\" ด้านบนเพื่อทบทวนตำแหน่ง [A] ถึง [F] ทั้งหมดได้ทันที",
     "system": "Cardiovascular and Lymphatic Systems",
     "topic": "Heart Chambers & Internal Anatomy",
     "difficulty": "Medium",
@@ -648,15 +820,58 @@ export const cardioQuestions: Question[] = [
       "right-atrium",
       "svc",
       "ivc",
-      "coronary-sinus"
+      "coronary-sinus",
+      "has-diagram",
+      "diagram-heart_chambers"
     ],
     "createdAt": "2026-10-24",
     "updatedAt": "2026-10-24",
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "imageUrl": "/images/anatomy/heart_chambers_exam.svg",
+    "labeledImageUrl": "/images/anatomy/heart_chambers_labeled.svg",
+    "imageCaption": "Internal Anatomy of the Heart: Chambers, Valves & Great Vessels — ภาพตัดขวางภายในห้องหัวใจ ลิ้นหัวใจทั้ง 4 และหลอดเลือดใหญ่",
+    "imageLabels": [
+      {
+        "pin": "A",
+        "term": "Superior Vena Cava (SVC)",
+        "thaiName": "หลอดเลือดดำใหญ่ส่วนบนเทเข้า RA",
+        "description": "ตำแหน่ง [A] คือ Superior Vena Cava (SVC) — หลอดเลือดดำใหญ่ส่วนบนเทเข้า RA"
+      },
+      {
+        "pin": "B",
+        "term": "Fossa Ovalis (Interatrial Septum)",
+        "thaiName": "รอยบุ๋มรูปไข่ (ซาก Foramen ovale)",
+        "description": "ตำแหน่ง [B] คือ Fossa Ovalis (Interatrial Septum) — รอยบุ๋มรูปไข่ (ซาก Foramen ovale)"
+      },
+      {
+        "pin": "C",
+        "term": "Tricuspid Valve & Chordae Tendineae",
+        "thaiName": "ลิ้นไตรคัสปิดและเอ็นยึดลิ้นหัวใจ",
+        "description": "ตำแหน่ง [C] คือ Tricuspid Valve & Chordae Tendineae — ลิ้นไตรคัสปิดและเอ็นยึดลิ้นหัวใจ"
+      },
+      {
+        "pin": "D",
+        "term": "Interventricular Septum",
+        "thaiName": "ผนังกั้นหัวใจห้องล่างซ้าย-ขวา",
+        "description": "ตำแหน่ง [D] คือ Interventricular Septum — ผนังกั้นหัวใจห้องล่างซ้าย-ขวา"
+      },
+      {
+        "pin": "E",
+        "term": "Bicuspid (Mitral) Valve",
+        "thaiName": "ลิ้นไมทรัล (2 แฉก) กั้น LA กับ LV",
+        "description": "ตำแหน่ง [E] คือ Bicuspid (Mitral) Valve — ลิ้นไมทรัล (2 แฉก) กั้น LA กับ LV"
+      },
+      {
+        "pin": "F",
+        "term": "Left Ventricular Myocardium",
+        "thaiName": "กล้ามเนื้อหัวใจห้องล่างซ้าย (หนา 3 เท่า)",
+        "description": "ตำแหน่ง [F] คือ Left Ventricular Myocardium — กล้ามเนื้อหัวใจห้องล่างซ้าย (หนา 3 เท่า)"
+      }
+    ]
   },
   {
     "id": "CARDIO-027",
-    "questionText": "ในหัวใจห้องบนขวา (Right Atrium) ผนังด้านในแบ่งออกเป็น 2 ส่วน คือส่วนผนังขรุขระด้านหน้าและส่วนผนังเรียบด้านหลัง สันนูนของกล้ามเนื้อที่ทำให้เกิดลักษณะขรุขระคล้ายซี่หวีเรียกว่าอะไร?",
+    "questionText": "[🖼️ ข้อสอบวิเคราะห์ภาพประกอบกายวิภาค — พิจารณาแผนภาพและจุดชี้ตำแหน่ง [A]–[F] โดยเฉพาะบริเวณตำแหน่ง [B]] ในหัวใจห้องบนขวา (Right Atrium) ผนังด้านในแบ่งออกเป็น 2 ส่วน คือส่วนผนังขรุขระด้านหน้าและส่วนผนังเรียบด้านหลัง สันนูนของกล้ามเนื้อที่ทำให้เกิดลักษณะขรุขระคล้ายซี่หวีเรียกว่าอะไร?",
     "options": {
       "A": "Papillary muscles",
       "B": "Trabeculae carneae",
@@ -664,7 +879,7 @@ export const cardioQuestions: Question[] = [
       "D": "Chordae tendineae"
     },
     "correctOption": "C",
-    "explanation": "ใน Right Atrium ผนังด้านหน้าและภายใน Right auricle มีสันกล้ามเนื้อนูนคล้ายซี่หวีเรียกว่า Pectinate muscles โดยแยกออกจากส่วนผนังเรียบด้านหลัง (Sinus venarum) ด้วยสันนูนแนวดิ่งที่เรียกว่า Crista terminalis",
+    "explanation": "ใน Right Atrium ผนังด้านหน้าและภายใน Right auricle มีสันกล้ามเนื้อนูนคล้ายซี่หวีเรียกว่า Pectinate muscles โดยแยกออกจากส่วนผนังเรียบด้านหลัง (Sinus venarum) ด้วยสันนูนแนวดิ่งที่เรียกว่า Crista terminalis\n\n📌 สรุปจุดชี้ตำแหน่งในภาพประกอบ (Internal Anatomy of the Heart: Chambers, Valves & Great Vessels): จุดที่เกี่ยวข้องโดยตรงกับข้อนี้คือตำแหน่ง [B] (Fossa Ovalis (Interatrial Septum) — รอยบุ๋มรูปไข่ (ซาก Foramen ovale)) สามารถกดสลับดู \"ภาพเฉลยครบทุกจุด (Master Labeled Diagram)\" ด้านบนเพื่อทบทวนตำแหน่ง [A] ถึง [F] ทั้งหมดได้ทันที",
     "system": "Cardiovascular and Lymphatic Systems",
     "topic": "Heart Chambers & Internal Anatomy",
     "difficulty": "Medium",
@@ -673,15 +888,58 @@ export const cardioQuestions: Question[] = [
     "tags": [
       "pectinate-muscles",
       "right-atrium",
-      "crista-terminalis"
+      "crista-terminalis",
+      "has-diagram",
+      "diagram-heart_chambers"
     ],
     "createdAt": "2026-10-24",
     "updatedAt": "2026-10-24",
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "imageUrl": "/images/anatomy/heart_chambers_exam.svg",
+    "labeledImageUrl": "/images/anatomy/heart_chambers_labeled.svg",
+    "imageCaption": "Internal Anatomy of the Heart: Chambers, Valves & Great Vessels — ภาพตัดขวางภายในห้องหัวใจ ลิ้นหัวใจทั้ง 4 และหลอดเลือดใหญ่",
+    "imageLabels": [
+      {
+        "pin": "A",
+        "term": "Superior Vena Cava (SVC)",
+        "thaiName": "หลอดเลือดดำใหญ่ส่วนบนเทเข้า RA",
+        "description": "ตำแหน่ง [A] คือ Superior Vena Cava (SVC) — หลอดเลือดดำใหญ่ส่วนบนเทเข้า RA"
+      },
+      {
+        "pin": "B",
+        "term": "Fossa Ovalis (Interatrial Septum)",
+        "thaiName": "รอยบุ๋มรูปไข่ (ซาก Foramen ovale)",
+        "description": "ตำแหน่ง [B] คือ Fossa Ovalis (Interatrial Septum) — รอยบุ๋มรูปไข่ (ซาก Foramen ovale)"
+      },
+      {
+        "pin": "C",
+        "term": "Tricuspid Valve & Chordae Tendineae",
+        "thaiName": "ลิ้นไตรคัสปิดและเอ็นยึดลิ้นหัวใจ",
+        "description": "ตำแหน่ง [C] คือ Tricuspid Valve & Chordae Tendineae — ลิ้นไตรคัสปิดและเอ็นยึดลิ้นหัวใจ"
+      },
+      {
+        "pin": "D",
+        "term": "Interventricular Septum",
+        "thaiName": "ผนังกั้นหัวใจห้องล่างซ้าย-ขวา",
+        "description": "ตำแหน่ง [D] คือ Interventricular Septum — ผนังกั้นหัวใจห้องล่างซ้าย-ขวา"
+      },
+      {
+        "pin": "E",
+        "term": "Bicuspid (Mitral) Valve",
+        "thaiName": "ลิ้นไมทรัล (2 แฉก) กั้น LA กับ LV",
+        "description": "ตำแหน่ง [E] คือ Bicuspid (Mitral) Valve — ลิ้นไมทรัล (2 แฉก) กั้น LA กับ LV"
+      },
+      {
+        "pin": "F",
+        "term": "Left Ventricular Myocardium",
+        "thaiName": "กล้ามเนื้อหัวใจห้องล่างซ้าย (หนา 3 เท่า)",
+        "description": "ตำแหน่ง [F] คือ Left Ventricular Myocardium — กล้ามเนื้อหัวใจห้องล่างซ้าย (หนา 3 เท่า)"
+      }
+    ]
   },
   {
     "id": "CARDIO-028",
-    "questionText": "โครงสร้างรูปไข่บุ๋ม (Oval depression) ที่พบบนผนังกั้นระหว่างหัวใจห้องบน (Interatrial septum) ในหัวใจของผู้ใหญ่คือข้อใด และเป็นโครงสร้างที่หลงเหลือมาจากสิ่งใดในระยะทารกในครรภ์?",
+    "questionText": "[🖼️ ข้อสอบวิเคราะห์ภาพประกอบกายวิภาค — พิจารณาแผนภาพและจุดชี้ตำแหน่ง [A]–[F] โดยเฉพาะบริเวณตำแหน่ง [C]] โครงสร้างรูปไข่บุ๋ม (Oval depression) ที่พบบนผนังกั้นระหว่างหัวใจห้องบน (Interatrial septum) ในหัวใจของผู้ใหญ่คือข้อใด และเป็นโครงสร้างที่หลงเหลือมาจากสิ่งใดในระยะทารกในครรภ์?",
     "options": {
       "A": "Ligamentum teres ซึ่งเป็นซากของ Umbilical vein",
       "B": "Ligamentum arteriosum ซึ่งเป็นซากของ Ductus arteriosus",
@@ -689,7 +947,7 @@ export const cardioQuestions: Question[] = [
       "D": "Fossa ovalis ซึ่งเป็นซากที่ปิดตัวลงของ Foramen ovale"
     },
     "correctOption": "D",
-    "explanation": "Fossa ovalis อยู่บน Interatrial septum เกิดจากการปิดตัวของ Foramen ovale ซึ่งเป็นรูลัดเชื่อมระหว่าง RA กับ LA ในทารกในครรภ์เพื่อบายพาสปอดที่ยังไม่ทำงาน หากรูนี้ปิดไม่สนิทหลังคลอดจะทำให้เกิดโรคหัวใจพิการแต่กำเนิดชนิด Atrial Septal Defect (ASD)",
+    "explanation": "Fossa ovalis อยู่บน Interatrial septum เกิดจากการปิดตัวของ Foramen ovale ซึ่งเป็นรูลัดเชื่อมระหว่าง RA กับ LA ในทารกในครรภ์เพื่อบายพาสปอดที่ยังไม่ทำงาน หากรูนี้ปิดไม่สนิทหลังคลอดจะทำให้เกิดโรคหัวใจพิการแต่กำเนิดชนิด Atrial Septal Defect (ASD)\n\n📌 สรุปจุดชี้ตำแหน่งในภาพประกอบ (Internal Anatomy of the Heart: Chambers, Valves & Great Vessels): จุดที่เกี่ยวข้องโดยตรงกับข้อนี้คือตำแหน่ง [C] (Tricuspid Valve & Chordae Tendineae — ลิ้นไตรคัสปิดและเอ็นยึดลิ้นหัวใจ) สามารถกดสลับดู \"ภาพเฉลยครบทุกจุด (Master Labeled Diagram)\" ด้านบนเพื่อทบทวนตำแหน่ง [A] ถึง [F] ทั้งหมดได้ทันที",
     "system": "Cardiovascular and Lymphatic Systems",
     "topic": "Heart Chambers & Internal Anatomy",
     "difficulty": "Medium",
@@ -698,15 +956,58 @@ export const cardioQuestions: Question[] = [
     "tags": [
       "fossa-ovalis",
       "foramen-ovale",
-      "asd"
+      "asd",
+      "has-diagram",
+      "diagram-heart_chambers"
     ],
     "createdAt": "2026-10-24",
     "updatedAt": "2026-10-24",
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "imageUrl": "/images/anatomy/heart_chambers_exam.svg",
+    "labeledImageUrl": "/images/anatomy/heart_chambers_labeled.svg",
+    "imageCaption": "Internal Anatomy of the Heart: Chambers, Valves & Great Vessels — ภาพตัดขวางภายในห้องหัวใจ ลิ้นหัวใจทั้ง 4 และหลอดเลือดใหญ่",
+    "imageLabels": [
+      {
+        "pin": "A",
+        "term": "Superior Vena Cava (SVC)",
+        "thaiName": "หลอดเลือดดำใหญ่ส่วนบนเทเข้า RA",
+        "description": "ตำแหน่ง [A] คือ Superior Vena Cava (SVC) — หลอดเลือดดำใหญ่ส่วนบนเทเข้า RA"
+      },
+      {
+        "pin": "B",
+        "term": "Fossa Ovalis (Interatrial Septum)",
+        "thaiName": "รอยบุ๋มรูปไข่ (ซาก Foramen ovale)",
+        "description": "ตำแหน่ง [B] คือ Fossa Ovalis (Interatrial Septum) — รอยบุ๋มรูปไข่ (ซาก Foramen ovale)"
+      },
+      {
+        "pin": "C",
+        "term": "Tricuspid Valve & Chordae Tendineae",
+        "thaiName": "ลิ้นไตรคัสปิดและเอ็นยึดลิ้นหัวใจ",
+        "description": "ตำแหน่ง [C] คือ Tricuspid Valve & Chordae Tendineae — ลิ้นไตรคัสปิดและเอ็นยึดลิ้นหัวใจ"
+      },
+      {
+        "pin": "D",
+        "term": "Interventricular Septum",
+        "thaiName": "ผนังกั้นหัวใจห้องล่างซ้าย-ขวา",
+        "description": "ตำแหน่ง [D] คือ Interventricular Septum — ผนังกั้นหัวใจห้องล่างซ้าย-ขวา"
+      },
+      {
+        "pin": "E",
+        "term": "Bicuspid (Mitral) Valve",
+        "thaiName": "ลิ้นไมทรัล (2 แฉก) กั้น LA กับ LV",
+        "description": "ตำแหน่ง [E] คือ Bicuspid (Mitral) Valve — ลิ้นไมทรัล (2 แฉก) กั้น LA กับ LV"
+      },
+      {
+        "pin": "F",
+        "term": "Left Ventricular Myocardium",
+        "thaiName": "กล้ามเนื้อหัวใจห้องล่างซ้าย (หนา 3 เท่า)",
+        "description": "ตำแหน่ง [F] คือ Left Ventricular Myocardium — กล้ามเนื้อหัวใจห้องล่างซ้าย (หนา 3 เท่า)"
+      }
+    ]
   },
   {
     "id": "CARDIO-029",
-    "questionText": "ผนังภายในของหัวใจห้องล่างขวา (Right Ventricle) และห้องล่างซ้าย (Left Ventricle) มีสันกล้ามเนื้อนูนไขว้ประสานกันเป็นร่างแหจำนวนมาก สันกล้ามเนื้อนี้มีชื่อเรียกว่าอะไร?",
+    "questionText": "[🖼️ ข้อสอบวิเคราะห์ภาพประกอบกายวิภาค — พิจารณาแผนภาพและจุดชี้ตำแหน่ง [A]–[F] โดยเฉพาะบริเวณตำแหน่ง [F]] ผนังภายในของหัวใจห้องล่างขวา (Right Ventricle) และห้องล่างซ้าย (Left Ventricle) มีสันกล้ามเนื้อนูนไขว้ประสานกันเป็นร่างแหจำนวนมาก สันกล้ามเนื้อนี้มีชื่อเรียกว่าอะไร?",
     "options": {
       "A": "Trabeculae carneae",
       "B": "Pectinate muscles",
@@ -714,7 +1015,7 @@ export const cardioQuestions: Question[] = [
       "D": "Moderator band"
     },
     "correctOption": "A",
-    "explanation": "Trabeculae carneae เป็นสันกล้ามเนื้อนูนคล้ายแท่งเนื้อไขว้กันบนผนังภายในของ Ventricle ทั้งสองห้อง ช่วยป้องกันไม่ให้เกิดแรงดูดติดกันของผนังห้องหัวใจในขณะบีบตัว ส่วน Pectinate muscles พบเฉพาะใน Atria",
+    "explanation": "Trabeculae carneae เป็นสันกล้ามเนื้อนูนคล้ายแท่งเนื้อไขว้กันบนผนังภายในของ Ventricle ทั้งสองห้อง ช่วยป้องกันไม่ให้เกิดแรงดูดติดกันของผนังห้องหัวใจในขณะบีบตัว ส่วน Pectinate muscles พบเฉพาะใน Atria\n\n📌 สรุปจุดชี้ตำแหน่งในภาพประกอบ (Internal Anatomy of the Heart: Chambers, Valves & Great Vessels): จุดที่เกี่ยวข้องโดยตรงกับข้อนี้คือตำแหน่ง [F] (Left Ventricular Myocardium — กล้ามเนื้อหัวใจห้องล่างซ้าย (หนา 3 เท่า)) สามารถกดสลับดู \"ภาพเฉลยครบทุกจุด (Master Labeled Diagram)\" ด้านบนเพื่อทบทวนตำแหน่ง [A] ถึง [F] ทั้งหมดได้ทันที",
     "system": "Cardiovascular and Lymphatic Systems",
     "topic": "Heart Chambers & Internal Anatomy",
     "difficulty": "Medium",
@@ -722,15 +1023,58 @@ export const cardioQuestions: Question[] = [
     "sourcePage": 27,
     "tags": [
       "trabeculae-carneae",
-      "ventricles"
+      "ventricles",
+      "has-diagram",
+      "diagram-heart_chambers"
     ],
     "createdAt": "2026-10-24",
     "updatedAt": "2026-10-24",
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "imageUrl": "/images/anatomy/heart_chambers_exam.svg",
+    "labeledImageUrl": "/images/anatomy/heart_chambers_labeled.svg",
+    "imageCaption": "Internal Anatomy of the Heart: Chambers, Valves & Great Vessels — ภาพตัดขวางภายในห้องหัวใจ ลิ้นหัวใจทั้ง 4 และหลอดเลือดใหญ่",
+    "imageLabels": [
+      {
+        "pin": "A",
+        "term": "Superior Vena Cava (SVC)",
+        "thaiName": "หลอดเลือดดำใหญ่ส่วนบนเทเข้า RA",
+        "description": "ตำแหน่ง [A] คือ Superior Vena Cava (SVC) — หลอดเลือดดำใหญ่ส่วนบนเทเข้า RA"
+      },
+      {
+        "pin": "B",
+        "term": "Fossa Ovalis (Interatrial Septum)",
+        "thaiName": "รอยบุ๋มรูปไข่ (ซาก Foramen ovale)",
+        "description": "ตำแหน่ง [B] คือ Fossa Ovalis (Interatrial Septum) — รอยบุ๋มรูปไข่ (ซาก Foramen ovale)"
+      },
+      {
+        "pin": "C",
+        "term": "Tricuspid Valve & Chordae Tendineae",
+        "thaiName": "ลิ้นไตรคัสปิดและเอ็นยึดลิ้นหัวใจ",
+        "description": "ตำแหน่ง [C] คือ Tricuspid Valve & Chordae Tendineae — ลิ้นไตรคัสปิดและเอ็นยึดลิ้นหัวใจ"
+      },
+      {
+        "pin": "D",
+        "term": "Interventricular Septum",
+        "thaiName": "ผนังกั้นหัวใจห้องล่างซ้าย-ขวา",
+        "description": "ตำแหน่ง [D] คือ Interventricular Septum — ผนังกั้นหัวใจห้องล่างซ้าย-ขวา"
+      },
+      {
+        "pin": "E",
+        "term": "Bicuspid (Mitral) Valve",
+        "thaiName": "ลิ้นไมทรัล (2 แฉก) กั้น LA กับ LV",
+        "description": "ตำแหน่ง [E] คือ Bicuspid (Mitral) Valve — ลิ้นไมทรัล (2 แฉก) กั้น LA กับ LV"
+      },
+      {
+        "pin": "F",
+        "term": "Left Ventricular Myocardium",
+        "thaiName": "กล้ามเนื้อหัวใจห้องล่างซ้าย (หนา 3 เท่า)",
+        "description": "ตำแหน่ง [F] คือ Left Ventricular Myocardium — กล้ามเนื้อหัวใจห้องล่างซ้าย (หนา 3 เท่า)"
+      }
+    ]
   },
   {
     "id": "CARDIO-030",
-    "questionText": "ผู้ป่วยมีภาวะลิ้นหัวใจ Tricuspid ปลิ้นรั่วรุนแรง (Tricuspid regurgitation) จากการฉีกขาดของเส้นเอ็นยึดลิ้นหัวใจ เส้นใยคอลลาเจนเหนียวที่เชื่อมระหว่างขอบแผ่นลิ้นหัวใจ AV valves กับกล้ามเนื้อ Papillary muscles คือโครงสร้างใด?",
+    "questionText": "[🖼️ ข้อสอบวิเคราะห์ภาพประกอบกายวิภาค — พิจารณาแผนภาพและจุดชี้ตำแหน่ง [A]–[F] โดยเฉพาะบริเวณตำแหน่ง [C]] ผู้ป่วยมีภาวะลิ้นหัวใจ Tricuspid ปลิ้นรั่วรุนแรง (Tricuspid regurgitation) จากการฉีกขาดของเส้นเอ็นยึดลิ้นหัวใจ เส้นใยคอลลาเจนเหนียวที่เชื่อมระหว่างขอบแผ่นลิ้นหัวใจ AV valves กับกล้ามเนื้อ Papillary muscles คือโครงสร้างใด?",
     "options": {
       "A": "Ligamentum arteriosum",
       "B": "Chordae tendineae (เอ็นยึดลิ้นหัวใจ)",
@@ -738,7 +1082,7 @@ export const cardioQuestions: Question[] = [
       "D": "Annulus fibrosus"
     },
     "correctOption": "B",
-    "explanation": "Chordae tendineae (Heart strings) เป็นสายเอ็นคอลลาเจนเหนียวที่ยึดระหว่างขอบของ Cusp ของ Atrioventricular (AV) valves (ทั้ง Tricuspid และ Mitral) กับปลายของ Papillary muscles ทำหน้าที่ดึงรั้งลิ้นไว้ไม่ให้ปลิ้นกลับเข้าไปใน Atria ในช่วง Ventricular systole",
+    "explanation": "Chordae tendineae (Heart strings) เป็นสายเอ็นคอลลาเจนเหนียวที่ยึดระหว่างขอบของ Cusp ของ Atrioventricular (AV) valves (ทั้ง Tricuspid และ Mitral) กับปลายของ Papillary muscles ทำหน้าที่ดึงรั้งลิ้นไว้ไม่ให้ปลิ้นกลับเข้าไปใน Atria ในช่วง Ventricular systole\n\n📌 สรุปจุดชี้ตำแหน่งในภาพประกอบ (Internal Anatomy of the Heart: Chambers, Valves & Great Vessels): จุดที่เกี่ยวข้องโดยตรงกับข้อนี้คือตำแหน่ง [C] (Tricuspid Valve & Chordae Tendineae — ลิ้นไตรคัสปิดและเอ็นยึดลิ้นหัวใจ) สามารถกดสลับดู \"ภาพเฉลยครบทุกจุด (Master Labeled Diagram)\" ด้านบนเพื่อทบทวนตำแหน่ง [A] ถึง [F] ทั้งหมดได้ทันที",
     "system": "Cardiovascular and Lymphatic Systems",
     "topic": "Heart Valves & Mechanism",
     "difficulty": "Medium",
@@ -747,15 +1091,58 @@ export const cardioQuestions: Question[] = [
     "tags": [
       "chordae-tendineae",
       "papillary-muscles",
-      "tricuspid-regurgitation"
+      "tricuspid-regurgitation",
+      "has-diagram",
+      "diagram-heart_chambers"
     ],
     "createdAt": "2026-10-24",
     "updatedAt": "2026-10-24",
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "imageUrl": "/images/anatomy/heart_chambers_exam.svg",
+    "labeledImageUrl": "/images/anatomy/heart_chambers_labeled.svg",
+    "imageCaption": "Internal Anatomy of the Heart: Chambers, Valves & Great Vessels — ภาพตัดขวางภายในห้องหัวใจ ลิ้นหัวใจทั้ง 4 และหลอดเลือดใหญ่",
+    "imageLabels": [
+      {
+        "pin": "A",
+        "term": "Superior Vena Cava (SVC)",
+        "thaiName": "หลอดเลือดดำใหญ่ส่วนบนเทเข้า RA",
+        "description": "ตำแหน่ง [A] คือ Superior Vena Cava (SVC) — หลอดเลือดดำใหญ่ส่วนบนเทเข้า RA"
+      },
+      {
+        "pin": "B",
+        "term": "Fossa Ovalis (Interatrial Septum)",
+        "thaiName": "รอยบุ๋มรูปไข่ (ซาก Foramen ovale)",
+        "description": "ตำแหน่ง [B] คือ Fossa Ovalis (Interatrial Septum) — รอยบุ๋มรูปไข่ (ซาก Foramen ovale)"
+      },
+      {
+        "pin": "C",
+        "term": "Tricuspid Valve & Chordae Tendineae",
+        "thaiName": "ลิ้นไตรคัสปิดและเอ็นยึดลิ้นหัวใจ",
+        "description": "ตำแหน่ง [C] คือ Tricuspid Valve & Chordae Tendineae — ลิ้นไตรคัสปิดและเอ็นยึดลิ้นหัวใจ"
+      },
+      {
+        "pin": "D",
+        "term": "Interventricular Septum",
+        "thaiName": "ผนังกั้นหัวใจห้องล่างซ้าย-ขวา",
+        "description": "ตำแหน่ง [D] คือ Interventricular Septum — ผนังกั้นหัวใจห้องล่างซ้าย-ขวา"
+      },
+      {
+        "pin": "E",
+        "term": "Bicuspid (Mitral) Valve",
+        "thaiName": "ลิ้นไมทรัล (2 แฉก) กั้น LA กับ LV",
+        "description": "ตำแหน่ง [E] คือ Bicuspid (Mitral) Valve — ลิ้นไมทรัล (2 แฉก) กั้น LA กับ LV"
+      },
+      {
+        "pin": "F",
+        "term": "Left Ventricular Myocardium",
+        "thaiName": "กล้ามเนื้อหัวใจห้องล่างซ้าย (หนา 3 เท่า)",
+        "description": "ตำแหน่ง [F] คือ Left Ventricular Myocardium — กล้ามเนื้อหัวใจห้องล่างซ้าย (หนา 3 เท่า)"
+      }
+    ]
   },
   {
     "id": "CARDIO-031",
-    "questionText": "ในขณะที่หัวใจห้องล่าง (Ventricles) กำลังบีบตัวดันเลือดออกสู่หลอดเลือดแดงใหญ่ (Ventricular systole) กลไกทางกายวิภาคใดที่ช่วยป้องกันไม่ให้ลิ้น Atrioventricular (AV) valves ปลิ้นถอยหลังเข้าไปในหัวใจห้องบน?",
+    "questionText": "[🖼️ ข้อสอบวิเคราะห์ภาพประกอบกายวิภาค — พิจารณาแผนภาพและจุดชี้ตำแหน่ง [A]–[F] โดยเฉพาะบริเวณตำแหน่ง [E]] ในขณะที่หัวใจห้องล่าง (Ventricles) กำลังบีบตัวดันเลือดออกสู่หลอดเลือดแดงใหญ่ (Ventricular systole) กลไกทางกายวิภาคใดที่ช่วยป้องกันไม่ให้ลิ้น Atrioventricular (AV) valves ปลิ้นถอยหลังเข้าไปในหัวใจห้องบน?",
     "options": {
       "A": "Pectinate muscles ในห้องบนบีบดันแผ่นลิ้นลงด้านล่าง",
       "B": "เลือดในหลอดเลือด Aorta ไหลย้อนกลับลงมาดันแผ่นลิ้นให้ประกบกัน",
@@ -763,7 +1150,7 @@ export const cardioQuestions: Question[] = [
       "D": "ความดันในห้อง Atrium สูงกว่าความดันในห้อง Ventricle"
     },
     "correctOption": "C",
-    "explanation": "ขณะ Ventricular systole ความดันใน Ventricle จะพุ่งสูงขึ้นมาก ซึ่งจะผลักให้แผ่นลิ้น AV valves ปิดแนบกัน ในเวลาเดียวกัน Papillary muscles จะหดตัวดึงสาย Chordae tendineae ให้ตึงแน่น ป้องกันไม่ให้ Cusps ปลิ้น (Eversion/Prolapse) เข้าสู่ Atria",
+    "explanation": "ขณะ Ventricular systole ความดันใน Ventricle จะพุ่งสูงขึ้นมาก ซึ่งจะผลักให้แผ่นลิ้น AV valves ปิดแนบกัน ในเวลาเดียวกัน Papillary muscles จะหดตัวดึงสาย Chordae tendineae ให้ตึงแน่น ป้องกันไม่ให้ Cusps ปลิ้น (Eversion/Prolapse) เข้าสู่ Atria\n\n📌 สรุปจุดชี้ตำแหน่งในภาพประกอบ (Internal Anatomy of the Heart: Chambers, Valves & Great Vessels): จุดที่เกี่ยวข้องโดยตรงกับข้อนี้คือตำแหน่ง [E] (Bicuspid (Mitral) Valve — ลิ้นไมทรัล (2 แฉก) กั้น LA กับ LV) สามารถกดสลับดู \"ภาพเฉลยครบทุกจุด (Master Labeled Diagram)\" ด้านบนเพื่อทบทวนตำแหน่ง [A] ถึง [F] ทั้งหมดได้ทันที",
     "system": "Cardiovascular and Lymphatic Systems",
     "topic": "Heart Valves & Mechanism",
     "difficulty": "Hard",
@@ -772,15 +1159,58 @@ export const cardioQuestions: Question[] = [
     "tags": [
       "papillary-muscles",
       "valve-mechanism",
-      "systole"
+      "systole",
+      "has-diagram",
+      "diagram-heart_chambers"
     ],
     "createdAt": "2026-10-24",
     "updatedAt": "2026-10-24",
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "imageUrl": "/images/anatomy/heart_chambers_exam.svg",
+    "labeledImageUrl": "/images/anatomy/heart_chambers_labeled.svg",
+    "imageCaption": "Internal Anatomy of the Heart: Chambers, Valves & Great Vessels — ภาพตัดขวางภายในห้องหัวใจ ลิ้นหัวใจทั้ง 4 และหลอดเลือดใหญ่",
+    "imageLabels": [
+      {
+        "pin": "A",
+        "term": "Superior Vena Cava (SVC)",
+        "thaiName": "หลอดเลือดดำใหญ่ส่วนบนเทเข้า RA",
+        "description": "ตำแหน่ง [A] คือ Superior Vena Cava (SVC) — หลอดเลือดดำใหญ่ส่วนบนเทเข้า RA"
+      },
+      {
+        "pin": "B",
+        "term": "Fossa Ovalis (Interatrial Septum)",
+        "thaiName": "รอยบุ๋มรูปไข่ (ซาก Foramen ovale)",
+        "description": "ตำแหน่ง [B] คือ Fossa Ovalis (Interatrial Septum) — รอยบุ๋มรูปไข่ (ซาก Foramen ovale)"
+      },
+      {
+        "pin": "C",
+        "term": "Tricuspid Valve & Chordae Tendineae",
+        "thaiName": "ลิ้นไตรคัสปิดและเอ็นยึดลิ้นหัวใจ",
+        "description": "ตำแหน่ง [C] คือ Tricuspid Valve & Chordae Tendineae — ลิ้นไตรคัสปิดและเอ็นยึดลิ้นหัวใจ"
+      },
+      {
+        "pin": "D",
+        "term": "Interventricular Septum",
+        "thaiName": "ผนังกั้นหัวใจห้องล่างซ้าย-ขวา",
+        "description": "ตำแหน่ง [D] คือ Interventricular Septum — ผนังกั้นหัวใจห้องล่างซ้าย-ขวา"
+      },
+      {
+        "pin": "E",
+        "term": "Bicuspid (Mitral) Valve",
+        "thaiName": "ลิ้นไมทรัล (2 แฉก) กั้น LA กับ LV",
+        "description": "ตำแหน่ง [E] คือ Bicuspid (Mitral) Valve — ลิ้นไมทรัล (2 แฉก) กั้น LA กับ LV"
+      },
+      {
+        "pin": "F",
+        "term": "Left Ventricular Myocardium",
+        "thaiName": "กล้ามเนื้อหัวใจห้องล่างซ้าย (หนา 3 เท่า)",
+        "description": "ตำแหน่ง [F] คือ Left Ventricular Myocardium — กล้ามเนื้อหัวใจห้องล่างซ้าย (หนา 3 เท่า)"
+      }
+    ]
   },
   {
     "id": "CARDIO-032",
-    "questionText": "โครงสร้างกล้ามเนื้อชนิดพิเศษที่พาดผ่านช่องภายในหัวใจห้องล่างขวา เชื่อมระหว่าง Interventricular septum กับฐานของ Anterior papillary muscle มีบทบาทนำกระแสไฟฟ้าไปยังผนังห้องล่างขวา คือโครงสร้างใด?",
+    "questionText": "[🖼️ ข้อสอบวิเคราะห์ภาพประกอบกายวิภาค — พิจารณาแผนภาพและจุดชี้ตำแหน่ง [A]–[F] โดยเฉพาะบริเวณตำแหน่ง [D]] โครงสร้างกล้ามเนื้อชนิดพิเศษที่พาดผ่านช่องภายในหัวใจห้องล่างขวา เชื่อมระหว่าง Interventricular septum กับฐานของ Anterior papillary muscle มีบทบาทนำกระแสไฟฟ้าไปยังผนังห้องล่างขวา คือโครงสร้างใด?",
     "options": {
       "A": "Fossa ovalis",
       "B": "Crista terminalis",
@@ -788,7 +1218,7 @@ export const cardioQuestions: Question[] = [
       "D": "Moderator band (Septomarginal trabecula)"
     },
     "correctOption": "D",
-    "explanation": "Moderator band (Septomarginal trabecula) เป็นมัดกล้ามเนื้อและ Purkinje fibers พิเศษที่พบเฉพาะใน Right Ventricle เชื่อมจาก Interventricular septum ไปยัง Anterior papillary muscle ทำหน้าที่เป็นทางลัดนำสัญญาณกระแสประสาท (Right bundle branch) ช่วยให้ Papillary muscle หดตัวประสานเวลากับการบีบตัวของ Ventricle",
+    "explanation": "Moderator band (Septomarginal trabecula) เป็นมัดกล้ามเนื้อและ Purkinje fibers พิเศษที่พบเฉพาะใน Right Ventricle เชื่อมจาก Interventricular septum ไปยัง Anterior papillary muscle ทำหน้าที่เป็นทางลัดนำสัญญาณกระแสประสาท (Right bundle branch) ช่วยให้ Papillary muscle หดตัวประสานเวลากับการบีบตัวของ Ventricle\n\n📌 สรุปจุดชี้ตำแหน่งในภาพประกอบ (Internal Anatomy of the Heart: Chambers, Valves & Great Vessels): จุดที่เกี่ยวข้องโดยตรงกับข้อนี้คือตำแหน่ง [D] (Interventricular Septum — ผนังกั้นหัวใจห้องล่างซ้าย-ขวา) สามารถกดสลับดู \"ภาพเฉลยครบทุกจุด (Master Labeled Diagram)\" ด้านบนเพื่อทบทวนตำแหน่ง [A] ถึง [F] ทั้งหมดได้ทันที",
     "system": "Cardiovascular and Lymphatic Systems",
     "topic": "Heart Chambers & Internal Anatomy",
     "difficulty": "Hard",
@@ -797,11 +1227,54 @@ export const cardioQuestions: Question[] = [
     "tags": [
       "moderator-band",
       "septomarginal-trabecula",
-      "right-ventricle"
+      "right-ventricle",
+      "has-diagram",
+      "diagram-heart_chambers"
     ],
     "createdAt": "2026-10-24",
     "updatedAt": "2026-10-24",
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "imageUrl": "/images/anatomy/heart_chambers_exam.svg",
+    "labeledImageUrl": "/images/anatomy/heart_chambers_labeled.svg",
+    "imageCaption": "Internal Anatomy of the Heart: Chambers, Valves & Great Vessels — ภาพตัดขวางภายในห้องหัวใจ ลิ้นหัวใจทั้ง 4 และหลอดเลือดใหญ่",
+    "imageLabels": [
+      {
+        "pin": "A",
+        "term": "Superior Vena Cava (SVC)",
+        "thaiName": "หลอดเลือดดำใหญ่ส่วนบนเทเข้า RA",
+        "description": "ตำแหน่ง [A] คือ Superior Vena Cava (SVC) — หลอดเลือดดำใหญ่ส่วนบนเทเข้า RA"
+      },
+      {
+        "pin": "B",
+        "term": "Fossa Ovalis (Interatrial Septum)",
+        "thaiName": "รอยบุ๋มรูปไข่ (ซาก Foramen ovale)",
+        "description": "ตำแหน่ง [B] คือ Fossa Ovalis (Interatrial Septum) — รอยบุ๋มรูปไข่ (ซาก Foramen ovale)"
+      },
+      {
+        "pin": "C",
+        "term": "Tricuspid Valve & Chordae Tendineae",
+        "thaiName": "ลิ้นไตรคัสปิดและเอ็นยึดลิ้นหัวใจ",
+        "description": "ตำแหน่ง [C] คือ Tricuspid Valve & Chordae Tendineae — ลิ้นไตรคัสปิดและเอ็นยึดลิ้นหัวใจ"
+      },
+      {
+        "pin": "D",
+        "term": "Interventricular Septum",
+        "thaiName": "ผนังกั้นหัวใจห้องล่างซ้าย-ขวา",
+        "description": "ตำแหน่ง [D] คือ Interventricular Septum — ผนังกั้นหัวใจห้องล่างซ้าย-ขวา"
+      },
+      {
+        "pin": "E",
+        "term": "Bicuspid (Mitral) Valve",
+        "thaiName": "ลิ้นไมทรัล (2 แฉก) กั้น LA กับ LV",
+        "description": "ตำแหน่ง [E] คือ Bicuspid (Mitral) Valve — ลิ้นไมทรัล (2 แฉก) กั้น LA กับ LV"
+      },
+      {
+        "pin": "F",
+        "term": "Left Ventricular Myocardium",
+        "thaiName": "กล้ามเนื้อหัวใจห้องล่างซ้าย (หนา 3 เท่า)",
+        "description": "ตำแหน่ง [F] คือ Left Ventricular Myocardium — กล้ามเนื้อหัวใจห้องล่างซ้าย (หนา 3 เท่า)"
+      }
+    ]
   },
   {
     "id": "CARDIO-033",
@@ -1005,7 +1478,7 @@ export const cardioQuestions: Question[] = [
   },
   {
     "id": "CARDIO-041",
-    "questionText": "ศูนย์กำเนิดจังหวะการเต้นของหัวใจหลัก (Primary Pacemaker of the heart) คือโครงสร้างใด และมีตำแหน่งทางกายวิภาคอยู่ที่ใดในหัวใจ?",
+    "questionText": "[🖼️ ข้อสอบวิเคราะห์ภาพประกอบกายวิภาค — พิจารณาแผนภาพและจุดชี้ตำแหน่ง [A]–[F] โดยเฉพาะบริเวณตำแหน่ง [A]] ศูนย์กำเนิดจังหวะการเต้นของหัวใจหลัก (Primary Pacemaker of the heart) คือโครงสร้างใด และมีตำแหน่งทางกายวิภาคอยู่ที่ใดในหัวใจ?",
     "options": {
       "A": "Sinoatrial (SA) node ตั้งอยู่ที่ผนังด้านบนของ Right Atrium บริเวณรอยต่อกับ Superior Vena Cava",
       "B": "Atrioventricular (AV) node ตั้งอยู่ที่ยอดของ Left Ventricle",
@@ -1013,7 +1486,7 @@ export const cardioQuestions: Question[] = [
       "D": "Purkinje fibers ตั้งอยู่ที่ขอบของลิ้นหัวใจ Mitral"
     },
     "correctOption": "A",
-    "explanation": "SA node ตั้งอยู่ที่ผนังด้านบนของ Right Atrium ชิดกับจุดเปิดของ Superior Vena Cava ทำหน้าที่เป็น Primary Pacemaker เนื่องจากมีอัตราการปล่อยกระแสไฟฟ้า (Inherent firing rate) สูงที่สุด คือประมาณ 60-100 ครั้งต่อนาที",
+    "explanation": "SA node ตั้งอยู่ที่ผนังด้านบนของ Right Atrium ชิดกับจุดเปิดของ Superior Vena Cava ทำหน้าที่เป็น Primary Pacemaker เนื่องจากมีอัตราการปล่อยกระแสไฟฟ้า (Inherent firing rate) สูงที่สุด คือประมาณ 60-100 ครั้งต่อนาที\n\n📌 สรุปจุดชี้ตำแหน่งในภาพประกอบ (Cardiac Conduction System & Electrocardiogram (ECG) Correlation): จุดที่เกี่ยวข้องโดยตรงกับข้อนี้คือตำแหน่ง [A] (Sinoatrial (SA) Node — ศูนย์กำเนิดจังหวะหลัก (Primary Pacemaker)) สามารถกดสลับดู \"ภาพเฉลยครบทุกจุด (Master Labeled Diagram)\" ด้านบนเพื่อทบทวนตำแหน่ง [A] ถึง [F] ทั้งหมดได้ทันที",
     "system": "Cardiovascular and Lymphatic Systems",
     "topic": "Cardiac Conduction System",
     "difficulty": "Medium",
@@ -1022,15 +1495,58 @@ export const cardioQuestions: Question[] = [
     "tags": [
       "sa-node",
       "pacemaker",
-      "right-atrium"
+      "right-atrium",
+      "has-diagram",
+      "diagram-conduction_system"
     ],
     "createdAt": "2026-10-24",
     "updatedAt": "2026-10-24",
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "imageUrl": "/images/anatomy/conduction_system_exam.svg",
+    "labeledImageUrl": "/images/anatomy/conduction_system_labeled.svg",
+    "imageCaption": "Cardiac Conduction System & Electrocardiogram (ECG) Correlation — ระบบนำกระแสไฟฟ้าของหัวใจและกราฟคลื่นไฟฟ้าหัวใจ",
+    "imageLabels": [
+      {
+        "pin": "A",
+        "term": "Sinoatrial (SA) Node",
+        "thaiName": "ศูนย์กำเนิดจังหวะหลัก (Primary Pacemaker)",
+        "description": "ตำแหน่ง [A] คือ Sinoatrial (SA) Node — ศูนย์กำเนิดจังหวะหลัก (Primary Pacemaker)"
+      },
+      {
+        "pin": "B",
+        "term": "Atrioventricular (AV) Node",
+        "thaiName": "ปม AV (หน่วงสัญญาณไฟฟ้า 0.1 วินาที)",
+        "description": "ตำแหน่ง [B] คือ Atrioventricular (AV) Node — ปม AV (หน่วงสัญญาณไฟฟ้า 0.1 วินาที)"
+      },
+      {
+        "pin": "C",
+        "term": "AV Bundle (Bundle of His)",
+        "thaiName": "ทางเชื่อมไฟฟ้าหนึ่งเดียวที่ทะลุ Fibrous skeleton",
+        "description": "ตำแหน่ง [C] คือ AV Bundle (Bundle of His) — ทางเชื่อมไฟฟ้าหนึ่งเดียวที่ทะลุ Fibrous skeleton"
+      },
+      {
+        "pin": "D",
+        "term": "Purkinje Fibers",
+        "thaiName": "เส้นใยเพอร์คินเจ (นำไฟฟ้าเร็วที่สุด 4 m/s)",
+        "description": "ตำแหน่ง [D] คือ Purkinje Fibers — เส้นใยเพอร์คินเจ (นำไฟฟ้าเร็วที่สุด 4 m/s)"
+      },
+      {
+        "pin": "E",
+        "term": "P Wave (Atrial Depolarization)",
+        "thaiName": "คลื่นกระตุ้นการหดตัวของหัวใจห้องบน",
+        "description": "ตำแหน่ง [E] คือ P Wave (Atrial Depolarization) — คลื่นกระตุ้นการหดตัวของหัวใจห้องบน"
+      },
+      {
+        "pin": "F",
+        "term": "QRS Complex (Ventricular Depolarization)",
+        "thaiName": "คลื่นกระตุ้นการบีบตัวของหัวใจห้องล่าง",
+        "description": "ตำแหน่ง [F] คือ QRS Complex (Ventricular Depolarization) — คลื่นกระตุ้นการบีบตัวของหัวใจห้องล่าง"
+      }
+    ]
   },
   {
     "id": "CARDIO-042",
-    "questionText": "เมื่อกระแสไฟฟ้าเดินทางจาก SA node ผ่านผนังหัวใจห้องบนมาถึง Atrioventricular (AV) node จะเกิดการหน่วงสัญญาณไฟฟ้าช้าลงประมาณ 0.1 วินาที (AV nodal delay) ปรากฏการณ์นี้มีความสำคัญทางสรีรวิทยาอย่างไร?",
+    "questionText": "[🖼️ ข้อสอบวิเคราะห์ภาพประกอบกายวิภาค — พิจารณาแผนภาพและจุดชี้ตำแหน่ง [A]–[F] โดยเฉพาะบริเวณตำแหน่ง [B]] เมื่อกระแสไฟฟ้าเดินทางจาก SA node ผ่านผนังหัวใจห้องบนมาถึง Atrioventricular (AV) node จะเกิดการหน่วงสัญญาณไฟฟ้าช้าลงประมาณ 0.1 วินาที (AV nodal delay) ปรากฏการณ์นี้มีความสำคัญทางสรีรวิทยาอย่างไร?",
     "options": {
       "A": "เพื่อป้องกันไม่ให้กระแสไฟฟ้ากระจายไปยังปอดและกะบังลม",
       "B": "เพื่อให้เวลาแก่หัวใจห้องบน (Atria) ในการบีบตัวส่งเลือดลงสู่ห้องล่าง (Ventricles) ให้เสร็จสิ้นสมบูรณ์ก่อนที่ห้องล่างจะเริ่มบีบตัว",
@@ -1038,7 +1554,7 @@ export const cardioQuestions: Question[] = [
       "D": "เพื่อให้ลิ้น Semilunar valves เปิดออกก่อนที่ลิ้น AV valves จะปิด"
     },
     "correctOption": "B",
-    "explanation": "AV nodal delay (ชะลอสัญญาณประมาณ 0.09-0.12 วินาที) มีความสำคัญอย่างยิ่ง เพื่อให้ Atria มีเวลาบีบตัวผลักเลือดปริมาตรสุดท้าย (Atrial kick) ลงสู่ Ventricles ให้เต็มที่ (Ventricular filling) ก่อนที่ Ventricles จะเริ่มหดเกร็งบีบเลือดออกไป",
+    "explanation": "AV nodal delay (ชะลอสัญญาณประมาณ 0.09-0.12 วินาที) มีความสำคัญอย่างยิ่ง เพื่อให้ Atria มีเวลาบีบตัวผลักเลือดปริมาตรสุดท้าย (Atrial kick) ลงสู่ Ventricles ให้เต็มที่ (Ventricular filling) ก่อนที่ Ventricles จะเริ่มหดเกร็งบีบเลือดออกไป\n\n📌 สรุปจุดชี้ตำแหน่งในภาพประกอบ (Cardiac Conduction System & Electrocardiogram (ECG) Correlation): จุดที่เกี่ยวข้องโดยตรงกับข้อนี้คือตำแหน่ง [B] (Atrioventricular (AV) Node — ปม AV (หน่วงสัญญาณไฟฟ้า 0.1 วินาที)) สามารถกดสลับดู \"ภาพเฉลยครบทุกจุด (Master Labeled Diagram)\" ด้านบนเพื่อทบทวนตำแหน่ง [A] ถึง [F] ทั้งหมดได้ทันที",
     "system": "Cardiovascular and Lymphatic Systems",
     "topic": "Cardiac Conduction System",
     "difficulty": "Hard",
@@ -1047,15 +1563,58 @@ export const cardioQuestions: Question[] = [
     "tags": [
       "av-node",
       "nodal-delay",
-      "atrial-kick"
+      "atrial-kick",
+      "has-diagram",
+      "diagram-conduction_system"
     ],
     "createdAt": "2026-10-24",
     "updatedAt": "2026-10-24",
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "imageUrl": "/images/anatomy/conduction_system_exam.svg",
+    "labeledImageUrl": "/images/anatomy/conduction_system_labeled.svg",
+    "imageCaption": "Cardiac Conduction System & Electrocardiogram (ECG) Correlation — ระบบนำกระแสไฟฟ้าของหัวใจและกราฟคลื่นไฟฟ้าหัวใจ",
+    "imageLabels": [
+      {
+        "pin": "A",
+        "term": "Sinoatrial (SA) Node",
+        "thaiName": "ศูนย์กำเนิดจังหวะหลัก (Primary Pacemaker)",
+        "description": "ตำแหน่ง [A] คือ Sinoatrial (SA) Node — ศูนย์กำเนิดจังหวะหลัก (Primary Pacemaker)"
+      },
+      {
+        "pin": "B",
+        "term": "Atrioventricular (AV) Node",
+        "thaiName": "ปม AV (หน่วงสัญญาณไฟฟ้า 0.1 วินาที)",
+        "description": "ตำแหน่ง [B] คือ Atrioventricular (AV) Node — ปม AV (หน่วงสัญญาณไฟฟ้า 0.1 วินาที)"
+      },
+      {
+        "pin": "C",
+        "term": "AV Bundle (Bundle of His)",
+        "thaiName": "ทางเชื่อมไฟฟ้าหนึ่งเดียวที่ทะลุ Fibrous skeleton",
+        "description": "ตำแหน่ง [C] คือ AV Bundle (Bundle of His) — ทางเชื่อมไฟฟ้าหนึ่งเดียวที่ทะลุ Fibrous skeleton"
+      },
+      {
+        "pin": "D",
+        "term": "Purkinje Fibers",
+        "thaiName": "เส้นใยเพอร์คินเจ (นำไฟฟ้าเร็วที่สุด 4 m/s)",
+        "description": "ตำแหน่ง [D] คือ Purkinje Fibers — เส้นใยเพอร์คินเจ (นำไฟฟ้าเร็วที่สุด 4 m/s)"
+      },
+      {
+        "pin": "E",
+        "term": "P Wave (Atrial Depolarization)",
+        "thaiName": "คลื่นกระตุ้นการหดตัวของหัวใจห้องบน",
+        "description": "ตำแหน่ง [E] คือ P Wave (Atrial Depolarization) — คลื่นกระตุ้นการหดตัวของหัวใจห้องบน"
+      },
+      {
+        "pin": "F",
+        "term": "QRS Complex (Ventricular Depolarization)",
+        "thaiName": "คลื่นกระตุ้นการบีบตัวของหัวใจห้องล่าง",
+        "description": "ตำแหน่ง [F] คือ QRS Complex (Ventricular Depolarization) — คลื่นกระตุ้นการบีบตัวของหัวใจห้องล่าง"
+      }
+    ]
   },
   {
     "id": "CARDIO-043",
-    "questionText": "โครงสร้างทางเดินไฟฟ้าเพียงโครงสร้างเดียวที่สามารถนำสัญญาณกระแสไฟฟ้าทะลุผ่านฉนวน Fibrous skeleton จากหัวใจห้องบนลงสู่หัวใจห้องล่างได้คือข้อใด?",
+    "questionText": "[🖼️ ข้อสอบวิเคราะห์ภาพประกอบกายวิภาค — พิจารณาแผนภาพและจุดชี้ตำแหน่ง [A]–[F] โดยเฉพาะบริเวณตำแหน่ง [C]] โครงสร้างทางเดินไฟฟ้าเพียงโครงสร้างเดียวที่สามารถนำสัญญาณกระแสไฟฟ้าทะลุผ่านฉนวน Fibrous skeleton จากหัวใจห้องบนลงสู่หัวใจห้องล่างได้คือข้อใด?",
     "options": {
       "A": "Bachmann's bundle",
       "B": "Anterior internodal pathway",
@@ -1063,7 +1622,7 @@ export const cardioQuestions: Question[] = [
       "D": "Pectinate muscle bundle"
     },
     "correctOption": "C",
-    "explanation": "เนื่องจาก Fibrous skeleton ทำหน้าที่เป็นฉนวนกั้นไฟฟ้าอย่างสมบูรณ์ โครงสร้างเดียวที่สามารถเจาะผ่านฉนวนนี้เพื่อนำ Action potential จาก AV node ใน Atria ลงสู่ Ventricles ได้คือ Bundle of His (AV bundle) ซึ่งจะทอดลงมาที่ยอดของ Interventricular septum",
+    "explanation": "เนื่องจาก Fibrous skeleton ทำหน้าที่เป็นฉนวนกั้นไฟฟ้าอย่างสมบูรณ์ โครงสร้างเดียวที่สามารถเจาะผ่านฉนวนนี้เพื่อนำ Action potential จาก AV node ใน Atria ลงสู่ Ventricles ได้คือ Bundle of His (AV bundle) ซึ่งจะทอดลงมาที่ยอดของ Interventricular septum\n\n📌 สรุปจุดชี้ตำแหน่งในภาพประกอบ (Cardiac Conduction System & Electrocardiogram (ECG) Correlation): จุดที่เกี่ยวข้องโดยตรงกับข้อนี้คือตำแหน่ง [C] (AV Bundle (Bundle of His) — ทางเชื่อมไฟฟ้าหนึ่งเดียวที่ทะลุ Fibrous skeleton) สามารถกดสลับดู \"ภาพเฉลยครบทุกจุด (Master Labeled Diagram)\" ด้านบนเพื่อทบทวนตำแหน่ง [A] ถึง [F] ทั้งหมดได้ทันที",
     "system": "Cardiovascular and Lymphatic Systems",
     "topic": "Cardiac Conduction System",
     "difficulty": "Hard",
@@ -1072,15 +1631,58 @@ export const cardioQuestions: Question[] = [
     "tags": [
       "bundle-of-his",
       "av-bundle",
-      "fibrous-skeleton"
+      "fibrous-skeleton",
+      "has-diagram",
+      "diagram-conduction_system"
     ],
     "createdAt": "2026-10-24",
     "updatedAt": "2026-10-24",
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "imageUrl": "/images/anatomy/conduction_system_exam.svg",
+    "labeledImageUrl": "/images/anatomy/conduction_system_labeled.svg",
+    "imageCaption": "Cardiac Conduction System & Electrocardiogram (ECG) Correlation — ระบบนำกระแสไฟฟ้าของหัวใจและกราฟคลื่นไฟฟ้าหัวใจ",
+    "imageLabels": [
+      {
+        "pin": "A",
+        "term": "Sinoatrial (SA) Node",
+        "thaiName": "ศูนย์กำเนิดจังหวะหลัก (Primary Pacemaker)",
+        "description": "ตำแหน่ง [A] คือ Sinoatrial (SA) Node — ศูนย์กำเนิดจังหวะหลัก (Primary Pacemaker)"
+      },
+      {
+        "pin": "B",
+        "term": "Atrioventricular (AV) Node",
+        "thaiName": "ปม AV (หน่วงสัญญาณไฟฟ้า 0.1 วินาที)",
+        "description": "ตำแหน่ง [B] คือ Atrioventricular (AV) Node — ปม AV (หน่วงสัญญาณไฟฟ้า 0.1 วินาที)"
+      },
+      {
+        "pin": "C",
+        "term": "AV Bundle (Bundle of His)",
+        "thaiName": "ทางเชื่อมไฟฟ้าหนึ่งเดียวที่ทะลุ Fibrous skeleton",
+        "description": "ตำแหน่ง [C] คือ AV Bundle (Bundle of His) — ทางเชื่อมไฟฟ้าหนึ่งเดียวที่ทะลุ Fibrous skeleton"
+      },
+      {
+        "pin": "D",
+        "term": "Purkinje Fibers",
+        "thaiName": "เส้นใยเพอร์คินเจ (นำไฟฟ้าเร็วที่สุด 4 m/s)",
+        "description": "ตำแหน่ง [D] คือ Purkinje Fibers — เส้นใยเพอร์คินเจ (นำไฟฟ้าเร็วที่สุด 4 m/s)"
+      },
+      {
+        "pin": "E",
+        "term": "P Wave (Atrial Depolarization)",
+        "thaiName": "คลื่นกระตุ้นการหดตัวของหัวใจห้องบน",
+        "description": "ตำแหน่ง [E] คือ P Wave (Atrial Depolarization) — คลื่นกระตุ้นการหดตัวของหัวใจห้องบน"
+      },
+      {
+        "pin": "F",
+        "term": "QRS Complex (Ventricular Depolarization)",
+        "thaiName": "คลื่นกระตุ้นการบีบตัวของหัวใจห้องล่าง",
+        "description": "ตำแหน่ง [F] คือ QRS Complex (Ventricular Depolarization) — คลื่นกระตุ้นการบีบตัวของหัวใจห้องล่าง"
+      }
+    ]
   },
   {
     "id": "CARDIO-044",
-    "questionText": "เซลล์นำกระแสประสาทขนาดใหญ่ที่มีการสะสมไกลโคเจนสูง และมีอัตราเร็วในการนำสัญญาณไฟฟ้าสูงที่สุดในระบบนำไฟฟ้าของหัวใจ (ประมาณ 4 เมตรต่อวินาที) เพื่อกระจายสัญญาณสู่กล้ามเนื้อ Ventricles คือโครงสร้างใด?",
+    "questionText": "[🖼️ ข้อสอบวิเคราะห์ภาพประกอบกายวิภาค — พิจารณาแผนภาพและจุดชี้ตำแหน่ง [A]–[F] โดยเฉพาะบริเวณตำแหน่ง [D]] เซลล์นำกระแสประสาทขนาดใหญ่ที่มีการสะสมไกลโคเจนสูง และมีอัตราเร็วในการนำสัญญาณไฟฟ้าสูงที่สุดในระบบนำไฟฟ้าของหัวใจ (ประมาณ 4 เมตรต่อวินาที) เพื่อกระจายสัญญาณสู่กล้ามเนื้อ Ventricles คือโครงสร้างใด?",
     "options": {
       "A": "Contractile cardiomyocytes ทั่วไป",
       "B": "SA nodal cells",
@@ -1088,7 +1690,7 @@ export const cardioQuestions: Question[] = [
       "D": "Purkinje fibers (Subendocardial conducting network)"
     },
     "correctOption": "D",
-    "explanation": "Purkinje fibers เป็นเซลล์กล้ามเนื้อหัวใจที่ดัดแปลงพิเศษ มีขนาดใหญ่กว่าเซลล์กล้ามเนื้อทั่วไป มี Myofibrils น้อยแต่สะสม Glycogen สูง และมี Gap junctions จำนวนมาก ทำให้นำกระแสไฟฟ้าได้เร็วที่สุด (1-4 m/s) เพื่อให้กล้ามเนื้อ Ventricles ทั้งหมดบีบตัวประสานกันอย่างมีประสิทธิภาพ",
+    "explanation": "Purkinje fibers เป็นเซลล์กล้ามเนื้อหัวใจที่ดัดแปลงพิเศษ มีขนาดใหญ่กว่าเซลล์กล้ามเนื้อทั่วไป มี Myofibrils น้อยแต่สะสม Glycogen สูง และมี Gap junctions จำนวนมาก ทำให้นำกระแสไฟฟ้าได้เร็วที่สุด (1-4 m/s) เพื่อให้กล้ามเนื้อ Ventricles ทั้งหมดบีบตัวประสานกันอย่างมีประสิทธิภาพ\n\n📌 สรุปจุดชี้ตำแหน่งในภาพประกอบ (Cardiac Conduction System & Electrocardiogram (ECG) Correlation): จุดที่เกี่ยวข้องโดยตรงกับข้อนี้คือตำแหน่ง [D] (Purkinje Fibers — เส้นใยเพอร์คินเจ (นำไฟฟ้าเร็วที่สุด 4 m/s)) สามารถกดสลับดู \"ภาพเฉลยครบทุกจุด (Master Labeled Diagram)\" ด้านบนเพื่อทบทวนตำแหน่ง [A] ถึง [F] ทั้งหมดได้ทันที",
     "system": "Cardiovascular and Lymphatic Systems",
     "topic": "Cardiac Conduction System",
     "difficulty": "Medium",
@@ -1096,15 +1698,58 @@ export const cardioQuestions: Question[] = [
     "sourcePage": 41,
     "tags": [
       "purkinje-fibers",
-      "conduction-velocity"
+      "conduction-velocity",
+      "has-diagram",
+      "diagram-conduction_system"
     ],
     "createdAt": "2026-10-24",
     "updatedAt": "2026-10-24",
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "imageUrl": "/images/anatomy/conduction_system_exam.svg",
+    "labeledImageUrl": "/images/anatomy/conduction_system_labeled.svg",
+    "imageCaption": "Cardiac Conduction System & Electrocardiogram (ECG) Correlation — ระบบนำกระแสไฟฟ้าของหัวใจและกราฟคลื่นไฟฟ้าหัวใจ",
+    "imageLabels": [
+      {
+        "pin": "A",
+        "term": "Sinoatrial (SA) Node",
+        "thaiName": "ศูนย์กำเนิดจังหวะหลัก (Primary Pacemaker)",
+        "description": "ตำแหน่ง [A] คือ Sinoatrial (SA) Node — ศูนย์กำเนิดจังหวะหลัก (Primary Pacemaker)"
+      },
+      {
+        "pin": "B",
+        "term": "Atrioventricular (AV) Node",
+        "thaiName": "ปม AV (หน่วงสัญญาณไฟฟ้า 0.1 วินาที)",
+        "description": "ตำแหน่ง [B] คือ Atrioventricular (AV) Node — ปม AV (หน่วงสัญญาณไฟฟ้า 0.1 วินาที)"
+      },
+      {
+        "pin": "C",
+        "term": "AV Bundle (Bundle of His)",
+        "thaiName": "ทางเชื่อมไฟฟ้าหนึ่งเดียวที่ทะลุ Fibrous skeleton",
+        "description": "ตำแหน่ง [C] คือ AV Bundle (Bundle of His) — ทางเชื่อมไฟฟ้าหนึ่งเดียวที่ทะลุ Fibrous skeleton"
+      },
+      {
+        "pin": "D",
+        "term": "Purkinje Fibers",
+        "thaiName": "เส้นใยเพอร์คินเจ (นำไฟฟ้าเร็วที่สุด 4 m/s)",
+        "description": "ตำแหน่ง [D] คือ Purkinje Fibers — เส้นใยเพอร์คินเจ (นำไฟฟ้าเร็วที่สุด 4 m/s)"
+      },
+      {
+        "pin": "E",
+        "term": "P Wave (Atrial Depolarization)",
+        "thaiName": "คลื่นกระตุ้นการหดตัวของหัวใจห้องบน",
+        "description": "ตำแหน่ง [E] คือ P Wave (Atrial Depolarization) — คลื่นกระตุ้นการหดตัวของหัวใจห้องบน"
+      },
+      {
+        "pin": "F",
+        "term": "QRS Complex (Ventricular Depolarization)",
+        "thaiName": "คลื่นกระตุ้นการบีบตัวของหัวใจห้องล่าง",
+        "description": "ตำแหน่ง [F] คือ QRS Complex (Ventricular Depolarization) — คลื่นกระตุ้นการบีบตัวของหัวใจห้องล่าง"
+      }
+    ]
   },
   {
     "id": "CARDIO-045",
-    "questionText": "ลำดับการนำสัญญาณไฟฟ้าผ่านระบบ Conduction system ของหัวใจจากจุดกำเนิดไปจนถึงปลายทางข้อใดถูกต้อง?",
+    "questionText": "[🖼️ ข้อสอบวิเคราะห์ภาพประกอบกายวิภาค — พิจารณาแผนภาพและจุดชี้ตำแหน่ง [A]–[F] โดยเฉพาะบริเวณตำแหน่ง [E]] ลำดับการนำสัญญาณไฟฟ้าผ่านระบบ Conduction system ของหัวใจจากจุดกำเนิดไปจนถึงปลายทางข้อใดถูกต้อง?",
     "options": {
       "A": "SA node -> Internodal pathways -> AV node -> AV bundle (Bundle of His) -> Right and Left bundle branches -> Purkinje fibers",
       "B": "AV node -> SA node -> Bundle of His -> Purkinje fibers -> Bundle branches",
@@ -1112,7 +1757,7 @@ export const cardioQuestions: Question[] = [
       "D": "SA node -> AV bundle -> AV node -> Purkinje fibers -> Bundle branches"
     },
     "correctOption": "A",
-    "explanation": "ลำดับการนำไฟฟ้าของหัวใจที่ถูกต้อง: 1. SA node (Pacemaker) -> 2. Internodal pathways (ใน Atria) -> 3. AV node (หน่วงสัญญาณ) -> 4. Bundle of His (เจาะผ่าน Fibrous skeleton) -> 5. Right & Left bundle branches (ใน Interventricular septum) -> 6. Purkinje fibers (กระจายทั่วผนัง Ventricles)",
+    "explanation": "ลำดับการนำไฟฟ้าของหัวใจที่ถูกต้อง: 1. SA node (Pacemaker) -> 2. Internodal pathways (ใน Atria) -> 3. AV node (หน่วงสัญญาณ) -> 4. Bundle of His (เจาะผ่าน Fibrous skeleton) -> 5. Right & Left bundle branches (ใน Interventricular septum) -> 6. Purkinje fibers (กระจายทั่วผนัง Ventricles)\n\n📌 สรุปจุดชี้ตำแหน่งในภาพประกอบ (Cardiac Conduction System & Electrocardiogram (ECG) Correlation): จุดที่เกี่ยวข้องโดยตรงกับข้อนี้คือตำแหน่ง [E] (P Wave (Atrial Depolarization) — คลื่นกระตุ้นการหดตัวของหัวใจห้องบน) สามารถกดสลับดู \"ภาพเฉลยครบทุกจุด (Master Labeled Diagram)\" ด้านบนเพื่อทบทวนตำแหน่ง [A] ถึง [F] ทั้งหมดได้ทันที",
     "system": "Cardiovascular and Lymphatic Systems",
     "topic": "Cardiac Conduction System",
     "difficulty": "Medium",
@@ -1120,15 +1765,58 @@ export const cardioQuestions: Question[] = [
     "sourcePage": 37,
     "tags": [
       "conduction-pathway",
-      "sa-to-purkinje"
+      "sa-to-purkinje",
+      "has-diagram",
+      "diagram-conduction_system"
     ],
     "createdAt": "2026-10-24",
     "updatedAt": "2026-10-24",
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "imageUrl": "/images/anatomy/conduction_system_exam.svg",
+    "labeledImageUrl": "/images/anatomy/conduction_system_labeled.svg",
+    "imageCaption": "Cardiac Conduction System & Electrocardiogram (ECG) Correlation — ระบบนำกระแสไฟฟ้าของหัวใจและกราฟคลื่นไฟฟ้าหัวใจ",
+    "imageLabels": [
+      {
+        "pin": "A",
+        "term": "Sinoatrial (SA) Node",
+        "thaiName": "ศูนย์กำเนิดจังหวะหลัก (Primary Pacemaker)",
+        "description": "ตำแหน่ง [A] คือ Sinoatrial (SA) Node — ศูนย์กำเนิดจังหวะหลัก (Primary Pacemaker)"
+      },
+      {
+        "pin": "B",
+        "term": "Atrioventricular (AV) Node",
+        "thaiName": "ปม AV (หน่วงสัญญาณไฟฟ้า 0.1 วินาที)",
+        "description": "ตำแหน่ง [B] คือ Atrioventricular (AV) Node — ปม AV (หน่วงสัญญาณไฟฟ้า 0.1 วินาที)"
+      },
+      {
+        "pin": "C",
+        "term": "AV Bundle (Bundle of His)",
+        "thaiName": "ทางเชื่อมไฟฟ้าหนึ่งเดียวที่ทะลุ Fibrous skeleton",
+        "description": "ตำแหน่ง [C] คือ AV Bundle (Bundle of His) — ทางเชื่อมไฟฟ้าหนึ่งเดียวที่ทะลุ Fibrous skeleton"
+      },
+      {
+        "pin": "D",
+        "term": "Purkinje Fibers",
+        "thaiName": "เส้นใยเพอร์คินเจ (นำไฟฟ้าเร็วที่สุด 4 m/s)",
+        "description": "ตำแหน่ง [D] คือ Purkinje Fibers — เส้นใยเพอร์คินเจ (นำไฟฟ้าเร็วที่สุด 4 m/s)"
+      },
+      {
+        "pin": "E",
+        "term": "P Wave (Atrial Depolarization)",
+        "thaiName": "คลื่นกระตุ้นการหดตัวของหัวใจห้องบน",
+        "description": "ตำแหน่ง [E] คือ P Wave (Atrial Depolarization) — คลื่นกระตุ้นการหดตัวของหัวใจห้องบน"
+      },
+      {
+        "pin": "F",
+        "term": "QRS Complex (Ventricular Depolarization)",
+        "thaiName": "คลื่นกระตุ้นการบีบตัวของหัวใจห้องล่าง",
+        "description": "ตำแหน่ง [F] คือ QRS Complex (Ventricular Depolarization) — คลื่นกระตุ้นการบีบตัวของหัวใจห้องล่าง"
+      }
+    ]
   },
   {
     "id": "CARDIO-046",
-    "questionText": "การกระตุ้นประสาทพาราซิมพาเทติก (Parasympathetic innervation) ผ่านทางเส้นประสาทสมองคู่ใดที่ส่งผลให้หัวใจเต้นช้าลง (Negative chronotropic effect) และสารสื่อประสาทชนิดใดที่หลั่งออกมาที่ SA node?",
+    "questionText": "[🖼️ ข้อสอบวิเคราะห์ภาพประกอบกายวิภาค — พิจารณาแผนภาพและจุดชี้ตำแหน่ง [A]–[F] โดยเฉพาะบริเวณตำแหน่ง [F]] การกระตุ้นประสาทพาราซิมพาเทติก (Parasympathetic innervation) ผ่านทางเส้นประสาทสมองคู่ใดที่ส่งผลให้หัวใจเต้นช้าลง (Negative chronotropic effect) และสารสื่อประสาทชนิดใดที่หลั่งออกมาที่ SA node?",
     "options": {
       "A": "เส้นประสาทสมองคู่ที่ 9 (Glossopharyngeal nerve: CN IX) หลั่งสาร Norepinephrine",
       "B": "เส้นประสาทสมองคู่ที่ 10 (Vagus nerve: CN X) หลั่งสารสื่อประสาท Acetylcholine (ACh)",
@@ -1136,7 +1824,7 @@ export const cardioQuestions: Question[] = [
       "D": "เส้นประสาทสมองคู่ที่ 7 (Facial nerve: CN VII) หลั่งสาร Epinephrine"
     },
     "correctOption": "B",
-    "explanation": "ระบบ Parasympathetic เลี้ยงหัวใจผ่าน Vagus nerve (CN X) โดยแขนงประสาทจะไปสิ้นสุดที่ SA node และ AV node เป็นหลัก เมื่อถูกกระตุ้นจะหลั่ง Acetylcholine (ACh) จับกับ Muscarinic M2 receptors ส่งผลให้ Hyperpolarization ของเซลล์ ทำให้อัตราการเต้นของหัวใจช้าลง (Bradycardia)",
+    "explanation": "ระบบ Parasympathetic เลี้ยงหัวใจผ่าน Vagus nerve (CN X) โดยแขนงประสาทจะไปสิ้นสุดที่ SA node และ AV node เป็นหลัก เมื่อถูกกระตุ้นจะหลั่ง Acetylcholine (ACh) จับกับ Muscarinic M2 receptors ส่งผลให้ Hyperpolarization ของเซลล์ ทำให้อัตราการเต้นของหัวใจช้าลง (Bradycardia)\n\n📌 สรุปจุดชี้ตำแหน่งในภาพประกอบ (Cardiac Conduction System & Electrocardiogram (ECG) Correlation): จุดที่เกี่ยวข้องโดยตรงกับข้อนี้คือตำแหน่ง [F] (QRS Complex (Ventricular Depolarization) — คลื่นกระตุ้นการบีบตัวของหัวใจห้องล่าง) สามารถกดสลับดู \"ภาพเฉลยครบทุกจุด (Master Labeled Diagram)\" ด้านบนเพื่อทบทวนตำแหน่ง [A] ถึง [F] ทั้งหมดได้ทันที",
     "system": "Cardiovascular and Lymphatic Systems",
     "topic": "Cardiac Conduction System",
     "difficulty": "Hard",
@@ -1146,15 +1834,58 @@ export const cardioQuestions: Question[] = [
       "vagus-nerve",
       "parasympathetic",
       "acetylcholine",
-      "bradycardia"
+      "bradycardia",
+      "has-diagram",
+      "diagram-conduction_system"
     ],
     "createdAt": "2026-10-24",
     "updatedAt": "2026-10-24",
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "imageUrl": "/images/anatomy/conduction_system_exam.svg",
+    "labeledImageUrl": "/images/anatomy/conduction_system_labeled.svg",
+    "imageCaption": "Cardiac Conduction System & Electrocardiogram (ECG) Correlation — ระบบนำกระแสไฟฟ้าของหัวใจและกราฟคลื่นไฟฟ้าหัวใจ",
+    "imageLabels": [
+      {
+        "pin": "A",
+        "term": "Sinoatrial (SA) Node",
+        "thaiName": "ศูนย์กำเนิดจังหวะหลัก (Primary Pacemaker)",
+        "description": "ตำแหน่ง [A] คือ Sinoatrial (SA) Node — ศูนย์กำเนิดจังหวะหลัก (Primary Pacemaker)"
+      },
+      {
+        "pin": "B",
+        "term": "Atrioventricular (AV) Node",
+        "thaiName": "ปม AV (หน่วงสัญญาณไฟฟ้า 0.1 วินาที)",
+        "description": "ตำแหน่ง [B] คือ Atrioventricular (AV) Node — ปม AV (หน่วงสัญญาณไฟฟ้า 0.1 วินาที)"
+      },
+      {
+        "pin": "C",
+        "term": "AV Bundle (Bundle of His)",
+        "thaiName": "ทางเชื่อมไฟฟ้าหนึ่งเดียวที่ทะลุ Fibrous skeleton",
+        "description": "ตำแหน่ง [C] คือ AV Bundle (Bundle of His) — ทางเชื่อมไฟฟ้าหนึ่งเดียวที่ทะลุ Fibrous skeleton"
+      },
+      {
+        "pin": "D",
+        "term": "Purkinje Fibers",
+        "thaiName": "เส้นใยเพอร์คินเจ (นำไฟฟ้าเร็วที่สุด 4 m/s)",
+        "description": "ตำแหน่ง [D] คือ Purkinje Fibers — เส้นใยเพอร์คินเจ (นำไฟฟ้าเร็วที่สุด 4 m/s)"
+      },
+      {
+        "pin": "E",
+        "term": "P Wave (Atrial Depolarization)",
+        "thaiName": "คลื่นกระตุ้นการหดตัวของหัวใจห้องบน",
+        "description": "ตำแหน่ง [E] คือ P Wave (Atrial Depolarization) — คลื่นกระตุ้นการหดตัวของหัวใจห้องบน"
+      },
+      {
+        "pin": "F",
+        "term": "QRS Complex (Ventricular Depolarization)",
+        "thaiName": "คลื่นกระตุ้นการบีบตัวของหัวใจห้องล่าง",
+        "description": "ตำแหน่ง [F] คือ QRS Complex (Ventricular Depolarization) — คลื่นกระตุ้นการบีบตัวของหัวใจห้องล่าง"
+      }
+    ]
   },
   {
     "id": "CARDIO-047",
-    "questionText": "การกระตุ้นระบบประสาทซิมพาเทติก (Sympathetic innervation) มาจากไขสันหลังระดับใด และส่งผลต่อการทำงานของหัวใจอย่างไรผ่านตัวรับชนิดใด?",
+    "questionText": "[🖼️ ข้อสอบวิเคราะห์ภาพประกอบกายวิภาค — พิจารณาแผนภาพและจุดชี้ตำแหน่ง [A]–[F] โดยเฉพาะบริเวณตำแหน่ง [B]] การกระตุ้นระบบประสาทซิมพาเทติก (Sympathetic innervation) มาจากไขสันหลังระดับใด และส่งผลต่อการทำงานของหัวใจอย่างไรผ่านตัวรับชนิดใด?",
     "options": {
       "A": "ไขสันหลังระดับ S2 - S4 หลั่ง Serotonin ทำให้หลอดเลือดหัวใจหดตัว",
       "B": "ไขสันหลังระดับ L1 - L3 หลั่ง Acetylcholine ทำให้หัวใจคลายตัว",
@@ -1162,7 +1893,7 @@ export const cardioQuestions: Question[] = [
       "D": "ก้านสมองส่วน Medulla หลั่ง GABA ทำให้หัวใจหยุดเต้นชั่วคราว"
     },
     "correctOption": "C",
-    "explanation": "Sympathetic preganglionic fibers ออกมาจากไขสันหลังระดับ T1-T5 ไปยัง Sympathetic chain ganglia แล้วส่ง Postganglionic cardiac nerves ไปเลี้ยงทั้ง SA node, AV node และ Myocardium ทั่วทั้งห้องบนและห้องล่าง หลั่ง Norepinephrine จับกับ Beta-1 adrenergic receptors เพิ่มทั้ง Heart rate, Conduction velocity และ Contractility",
+    "explanation": "Sympathetic preganglionic fibers ออกมาจากไขสันหลังระดับ T1-T5 ไปยัง Sympathetic chain ganglia แล้วส่ง Postganglionic cardiac nerves ไปเลี้ยงทั้ง SA node, AV node และ Myocardium ทั่วทั้งห้องบนและห้องล่าง หลั่ง Norepinephrine จับกับ Beta-1 adrenergic receptors เพิ่มทั้ง Heart rate, Conduction velocity และ Contractility\n\n📌 สรุปจุดชี้ตำแหน่งในภาพประกอบ (Cardiac Conduction System & Electrocardiogram (ECG) Correlation): จุดที่เกี่ยวข้องโดยตรงกับข้อนี้คือตำแหน่ง [B] (Atrioventricular (AV) Node — ปม AV (หน่วงสัญญาณไฟฟ้า 0.1 วินาที)) สามารถกดสลับดู \"ภาพเฉลยครบทุกจุด (Master Labeled Diagram)\" ด้านบนเพื่อทบทวนตำแหน่ง [A] ถึง [F] ทั้งหมดได้ทันที",
     "system": "Cardiovascular and Lymphatic Systems",
     "topic": "Cardiac Conduction System",
     "difficulty": "Hard",
@@ -1171,11 +1902,54 @@ export const cardioQuestions: Question[] = [
     "tags": [
       "sympathetic-innervation",
       "beta-1-receptors",
-      "norepinephrine"
+      "norepinephrine",
+      "has-diagram",
+      "diagram-conduction_system"
     ],
     "createdAt": "2026-10-24",
     "updatedAt": "2026-10-24",
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "imageUrl": "/images/anatomy/conduction_system_exam.svg",
+    "labeledImageUrl": "/images/anatomy/conduction_system_labeled.svg",
+    "imageCaption": "Cardiac Conduction System & Electrocardiogram (ECG) Correlation — ระบบนำกระแสไฟฟ้าของหัวใจและกราฟคลื่นไฟฟ้าหัวใจ",
+    "imageLabels": [
+      {
+        "pin": "A",
+        "term": "Sinoatrial (SA) Node",
+        "thaiName": "ศูนย์กำเนิดจังหวะหลัก (Primary Pacemaker)",
+        "description": "ตำแหน่ง [A] คือ Sinoatrial (SA) Node — ศูนย์กำเนิดจังหวะหลัก (Primary Pacemaker)"
+      },
+      {
+        "pin": "B",
+        "term": "Atrioventricular (AV) Node",
+        "thaiName": "ปม AV (หน่วงสัญญาณไฟฟ้า 0.1 วินาที)",
+        "description": "ตำแหน่ง [B] คือ Atrioventricular (AV) Node — ปม AV (หน่วงสัญญาณไฟฟ้า 0.1 วินาที)"
+      },
+      {
+        "pin": "C",
+        "term": "AV Bundle (Bundle of His)",
+        "thaiName": "ทางเชื่อมไฟฟ้าหนึ่งเดียวที่ทะลุ Fibrous skeleton",
+        "description": "ตำแหน่ง [C] คือ AV Bundle (Bundle of His) — ทางเชื่อมไฟฟ้าหนึ่งเดียวที่ทะลุ Fibrous skeleton"
+      },
+      {
+        "pin": "D",
+        "term": "Purkinje Fibers",
+        "thaiName": "เส้นใยเพอร์คินเจ (นำไฟฟ้าเร็วที่สุด 4 m/s)",
+        "description": "ตำแหน่ง [D] คือ Purkinje Fibers — เส้นใยเพอร์คินเจ (นำไฟฟ้าเร็วที่สุด 4 m/s)"
+      },
+      {
+        "pin": "E",
+        "term": "P Wave (Atrial Depolarization)",
+        "thaiName": "คลื่นกระตุ้นการหดตัวของหัวใจห้องบน",
+        "description": "ตำแหน่ง [E] คือ P Wave (Atrial Depolarization) — คลื่นกระตุ้นการหดตัวของหัวใจห้องบน"
+      },
+      {
+        "pin": "F",
+        "term": "QRS Complex (Ventricular Depolarization)",
+        "thaiName": "คลื่นกระตุ้นการบีบตัวของหัวใจห้องล่าง",
+        "description": "ตำแหน่ง [F] คือ QRS Complex (Ventricular Depolarization) — คลื่นกระตุ้นการบีบตัวของหัวใจห้องล่าง"
+      }
+    ]
   },
   {
     "id": "CARDIO-048",
@@ -1252,7 +2026,7 @@ export const cardioQuestions: Question[] = [
   },
   {
     "id": "CARDIO-051",
-    "questionText": "หลอดเลือดแดงโคโรนารี (Coronary arteries) ทั้งด้านซ้ายและขวามีจุดกำเนิดทางกายวิภาค (Anatomical origin) ออกมาจากโครงสร้างใดของระบบไหลเวียนโลหิต?",
+    "questionText": "[🖼️ ข้อสอบวิเคราะห์ภาพประกอบกายวิภาค — พิจารณาแผนภาพและจุดชี้ตำแหน่ง [A]–[F] โดยเฉพาะบริเวณตำแหน่ง [A]] หลอดเลือดแดงโคโรนารี (Coronary arteries) ทั้งด้านซ้ายและขวามีจุดกำเนิดทางกายวิภาค (Anatomical origin) ออกมาจากโครงสร้างใดของระบบไหลเวียนโลหิต?",
     "options": {
       "A": "Pulmonary trunk เหนือแผ่นลิ้น Pulmonary valve",
       "B": "Aortic arch ร่วมกับ Brachiocephalic artery",
@@ -1260,7 +2034,7 @@ export const cardioQuestions: Question[] = [
       "D": "Left Ventricle โดยตรงผ่านรูเปิดพิเศษใน Myocardium"
     },
     "correctOption": "C",
-    "explanation": "Right and Left coronary arteries แตกแขนงออกมาจาก Right และ Left aortic sinuses (Sinuses of Valsalva) บริเวณโคนของ Ascending aorta เหนือต่อแผ่นลิ้น Aortic valve โดยเลือดจะไหลเข้าสู่หลอดเลือดโคโรนารีมากที่สุดในช่วง Ventricular diastole เมื่อลิ้น Aortic valve ปิดลง",
+    "explanation": "Right and Left coronary arteries แตกแขนงออกมาจาก Right และ Left aortic sinuses (Sinuses of Valsalva) บริเวณโคนของ Ascending aorta เหนือต่อแผ่นลิ้น Aortic valve โดยเลือดจะไหลเข้าสู่หลอดเลือดโคโรนารีมากที่สุดในช่วง Ventricular diastole เมื่อลิ้น Aortic valve ปิดลง\n\n📌 สรุปจุดชี้ตำแหน่งในภาพประกอบ (Coronary Arteries & Cardiac Venous Drainage): จุดที่เกี่ยวข้องโดยตรงกับข้อนี้คือตำแหน่ง [A] (Aortic Sinus (Origin of Coronary a.) — จุดกำเนิดหลอดเลือดโคโรนารีที่โคน Aorta) สามารถกดสลับดู \"ภาพเฉลยครบทุกจุด (Master Labeled Diagram)\" ด้านบนเพื่อทบทวนตำแหน่ง [A] ถึง [F] ทั้งหมดได้ทันที",
     "system": "Cardiovascular and Lymphatic Systems",
     "topic": "Coronary Circulation & Clinical Ischemia",
     "difficulty": "Medium",
@@ -1269,15 +2043,58 @@ export const cardioQuestions: Question[] = [
     "tags": [
       "coronary-arteries",
       "aortic-sinus",
-      "ascending-aorta"
+      "ascending-aorta",
+      "has-diagram",
+      "diagram-coronary_vessels"
     ],
     "createdAt": "2026-10-24",
     "updatedAt": "2026-10-24",
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "imageUrl": "/images/anatomy/coronary_vessels_exam.svg",
+    "labeledImageUrl": "/images/anatomy/coronary_vessels_labeled.svg",
+    "imageCaption": "Coronary Arteries & Cardiac Venous Drainage — หลอดเลือดแดงโคโรนารี (RCA, LCA, LAD, LCx) และหลอดเลือดดำหัวใจ",
+    "imageLabels": [
+      {
+        "pin": "A",
+        "term": "Aortic Sinus (Origin of Coronary a.)",
+        "thaiName": "จุดกำเนิดหลอดเลือดโคโรนารีที่โคน Aorta",
+        "description": "ตำแหน่ง [A] คือ Aortic Sinus (Origin of Coronary a.) — จุดกำเนิดหลอดเลือดโคโรนารีที่โคน Aorta"
+      },
+      {
+        "pin": "B",
+        "term": "Right Coronary Artery (RCA)",
+        "thaiName": "หลอดเลือดโคโรนารีขวา (เลี้ยง RA, RV, SA/AV node)",
+        "description": "ตำแหน่ง [B] คือ Right Coronary Artery (RCA) — หลอดเลือดโคโรนารีขวา (เลี้ยง RA, RV, SA/AV node)"
+      },
+      {
+        "pin": "C",
+        "term": "Right Marginal Artery",
+        "thaiName": "แขนงมาร์จินัลขวาเลี้ยงผนังด้านข้าง RV",
+        "description": "ตำแหน่ง [C] คือ Right Marginal Artery — แขนงมาร์จินัลขวาเลี้ยงผนังด้านข้าง RV"
+      },
+      {
+        "pin": "D",
+        "term": "Anterior Interventricular Artery (LAD)",
+        "thaiName": "หลอดเลือด LAD (\"Widow maker\" เลี้ยงผนังหน้า LV)",
+        "description": "ตำแหน่ง [D] คือ Anterior Interventricular Artery (LAD) — หลอดเลือด LAD (\"Widow maker\" เลี้ยงผนังหน้า LV)"
+      },
+      {
+        "pin": "E",
+        "term": "Circumflex Artery (LCx)",
+        "thaiName": "หลอดเลือดเซอร์คัมเฟลกซ์อ้อมไปด้านหลังซ้าย",
+        "description": "ตำแหน่ง [E] คือ Circumflex Artery (LCx) — หลอดเลือดเซอร์คัมเฟลกซ์อ้อมไปด้านหลังซ้าย"
+      },
+      {
+        "pin": "F",
+        "term": "Coronary Sinus & Great Cardiac Vein",
+        "thaiName": "แอ่งรวมเลือดดำหัวใจเทเข้าสู่ Right Atrium",
+        "description": "ตำแหน่ง [F] คือ Coronary Sinus & Great Cardiac Vein — แอ่งรวมเลือดดำหัวใจเทเข้าสู่ Right Atrium"
+      }
+    ]
   },
   {
     "id": "CARDIO-052",
-    "questionText": "ผู้ป่วยชายอายุ 58 ปี มาโรงพยาบาลด้วยอาการเจ็บแน่นหน้าอกรุนแรงเหมือนมีของหนักทับ ร้าวไปที่กรามและแขนซ้าย ตรวจคลื่นไฟฟ้าหัวใจพบ ST-elevation ที่ Lead V1-V4 บ่งชี้ภาวะกล้ามเนื้อหัวใจตายเฉียบพลันบริเวณ Anterior wall ของ Left Ventricle และ Interventricular septum หลอดเลือดโคโรนารีเส้นใดที่เกิดการอุดตันบ่อยที่สุดและเรียกกันว่า \"Widow maker\"?",
+    "questionText": "[🖼️ ข้อสอบวิเคราะห์ภาพประกอบกายวิภาค — พิจารณาแผนภาพและจุดชี้ตำแหน่ง [A]–[F] โดยเฉพาะบริเวณตำแหน่ง [D]] ผู้ป่วยชายอายุ 58 ปี มาโรงพยาบาลด้วยอาการเจ็บแน่นหน้าอกรุนแรงเหมือนมีของหนักทับ ร้าวไปที่กรามและแขนซ้าย ตรวจคลื่นไฟฟ้าหัวใจพบ ST-elevation ที่ Lead V1-V4 บ่งชี้ภาวะกล้ามเนื้อหัวใจตายเฉียบพลันบริเวณ Anterior wall ของ Left Ventricle และ Interventricular septum หลอดเลือดโคโรนารีเส้นใดที่เกิดการอุดตันบ่อยที่สุดและเรียกกันว่า \"Widow maker\"?",
     "options": {
       "A": "Right Marginal artery",
       "B": "Right Coronary Artery (RCA)",
@@ -1285,7 +2102,7 @@ export const cardioQuestions: Question[] = [
       "D": "Anterior Interventricular Artery (Left Anterior Descending: LAD)"
     },
     "correctOption": "D",
-    "explanation": "Anterior Interventricular Artery หรือ LAD เป็นแขนงของ Left Coronary Artery ทอดตัวใน Anterior interventricular sulcus เลี้ยงผนังด้านหน้าของ Ventricles ทั้งสองและ 2/3 ส่วนหน้าของ Interventricular septum เป็นเส้นเลือดที่เกิดการอุดตันบ่อยที่สุด (40-50%) และอันตรายถึงชีวิตมากที่สุดจนได้ฉายาว่า \"Widow maker\"",
+    "explanation": "Anterior Interventricular Artery หรือ LAD เป็นแขนงของ Left Coronary Artery ทอดตัวใน Anterior interventricular sulcus เลี้ยงผนังด้านหน้าของ Ventricles ทั้งสองและ 2/3 ส่วนหน้าของ Interventricular septum เป็นเส้นเลือดที่เกิดการอุดตันบ่อยที่สุด (40-50%) และอันตรายถึงชีวิตมากที่สุดจนได้ฉายาว่า \"Widow maker\"\n\n📌 สรุปจุดชี้ตำแหน่งในภาพประกอบ (Coronary Arteries & Cardiac Venous Drainage): จุดที่เกี่ยวข้องโดยตรงกับข้อนี้คือตำแหน่ง [D] (Anterior Interventricular Artery (LAD) — หลอดเลือด LAD (\"Widow maker\" เลี้ยงผนังหน้า LV)) สามารถกดสลับดู \"ภาพเฉลยครบทุกจุด (Master Labeled Diagram)\" ด้านบนเพื่อทบทวนตำแหน่ง [A] ถึง [F] ทั้งหมดได้ทันที",
     "system": "Cardiovascular and Lymphatic Systems",
     "topic": "Coronary Circulation & Clinical Ischemia",
     "difficulty": "Hard",
@@ -1295,15 +2112,58 @@ export const cardioQuestions: Question[] = [
       "lad",
       "anterior-wall-mi",
       "widow-maker",
-      "clinical-ecg"
+      "clinical-ecg",
+      "has-diagram",
+      "diagram-coronary_vessels"
     ],
     "createdAt": "2026-10-24",
     "updatedAt": "2026-10-24",
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "imageUrl": "/images/anatomy/coronary_vessels_exam.svg",
+    "labeledImageUrl": "/images/anatomy/coronary_vessels_labeled.svg",
+    "imageCaption": "Coronary Arteries & Cardiac Venous Drainage — หลอดเลือดแดงโคโรนารี (RCA, LCA, LAD, LCx) และหลอดเลือดดำหัวใจ",
+    "imageLabels": [
+      {
+        "pin": "A",
+        "term": "Aortic Sinus (Origin of Coronary a.)",
+        "thaiName": "จุดกำเนิดหลอดเลือดโคโรนารีที่โคน Aorta",
+        "description": "ตำแหน่ง [A] คือ Aortic Sinus (Origin of Coronary a.) — จุดกำเนิดหลอดเลือดโคโรนารีที่โคน Aorta"
+      },
+      {
+        "pin": "B",
+        "term": "Right Coronary Artery (RCA)",
+        "thaiName": "หลอดเลือดโคโรนารีขวา (เลี้ยง RA, RV, SA/AV node)",
+        "description": "ตำแหน่ง [B] คือ Right Coronary Artery (RCA) — หลอดเลือดโคโรนารีขวา (เลี้ยง RA, RV, SA/AV node)"
+      },
+      {
+        "pin": "C",
+        "term": "Right Marginal Artery",
+        "thaiName": "แขนงมาร์จินัลขวาเลี้ยงผนังด้านข้าง RV",
+        "description": "ตำแหน่ง [C] คือ Right Marginal Artery — แขนงมาร์จินัลขวาเลี้ยงผนังด้านข้าง RV"
+      },
+      {
+        "pin": "D",
+        "term": "Anterior Interventricular Artery (LAD)",
+        "thaiName": "หลอดเลือด LAD (\"Widow maker\" เลี้ยงผนังหน้า LV)",
+        "description": "ตำแหน่ง [D] คือ Anterior Interventricular Artery (LAD) — หลอดเลือด LAD (\"Widow maker\" เลี้ยงผนังหน้า LV)"
+      },
+      {
+        "pin": "E",
+        "term": "Circumflex Artery (LCx)",
+        "thaiName": "หลอดเลือดเซอร์คัมเฟลกซ์อ้อมไปด้านหลังซ้าย",
+        "description": "ตำแหน่ง [E] คือ Circumflex Artery (LCx) — หลอดเลือดเซอร์คัมเฟลกซ์อ้อมไปด้านหลังซ้าย"
+      },
+      {
+        "pin": "F",
+        "term": "Coronary Sinus & Great Cardiac Vein",
+        "thaiName": "แอ่งรวมเลือดดำหัวใจเทเข้าสู่ Right Atrium",
+        "description": "ตำแหน่ง [F] คือ Coronary Sinus & Great Cardiac Vein — แอ่งรวมเลือดดำหัวใจเทเข้าสู่ Right Atrium"
+      }
+    ]
   },
   {
     "id": "CARDIO-053",
-    "questionText": "แขนงของ Left Coronary Artery (LCA) ที่ทอดตัวเลี้ยวไปตามร่อง Coronary sulcus ทางด้านหลังของหัวใจ เพื่อไปเลี้ยงผนังด้านข้าง (Lateral wall) และด้านหลังของ Left Atrium และ Left Ventricle คือหลอดเลือดใด?",
+    "questionText": "[🖼️ ข้อสอบวิเคราะห์ภาพประกอบกายวิภาค — พิจารณาแผนภาพและจุดชี้ตำแหน่ง [A]–[F] โดยเฉพาะบริเวณตำแหน่ง [E]] แขนงของ Left Coronary Artery (LCA) ที่ทอดตัวเลี้ยวไปตามร่อง Coronary sulcus ทางด้านหลังของหัวใจ เพื่อไปเลี้ยงผนังด้านข้าง (Lateral wall) และด้านหลังของ Left Atrium และ Left Ventricle คือหลอดเลือดใด?",
     "options": {
       "A": "Circumflex artery (LCx)",
       "B": "Posterior interventricular artery",
@@ -1311,7 +2171,7 @@ export const cardioQuestions: Question[] = [
       "D": "Conus arteriosus branch"
     },
     "correctOption": "A",
-    "explanation": "Left Coronary Artery จะแยกออกเป็น 2 แขนงหลัก: 1. Anterior interventricular artery (LAD) ทอดลงด้านหน้าสู่ Apex 2. Circumflex artery (LCx) โค้งไปตาม Coronary sulcus ไปทางด้านหลัง เลี้ยง Left Atrium และผนังด้านข้าง/หลังของ Left Ventricle",
+    "explanation": "Left Coronary Artery จะแยกออกเป็น 2 แขนงหลัก: 1. Anterior interventricular artery (LAD) ทอดลงด้านหน้าสู่ Apex 2. Circumflex artery (LCx) โค้งไปตาม Coronary sulcus ไปทางด้านหลัง เลี้ยง Left Atrium และผนังด้านข้าง/หลังของ Left Ventricle\n\n📌 สรุปจุดชี้ตำแหน่งในภาพประกอบ (Coronary Arteries & Cardiac Venous Drainage): จุดที่เกี่ยวข้องโดยตรงกับข้อนี้คือตำแหน่ง [E] (Circumflex Artery (LCx) — หลอดเลือดเซอร์คัมเฟลกซ์อ้อมไปด้านหลังซ้าย) สามารถกดสลับดู \"ภาพเฉลยครบทุกจุด (Master Labeled Diagram)\" ด้านบนเพื่อทบทวนตำแหน่ง [A] ถึง [F] ทั้งหมดได้ทันที",
     "system": "Cardiovascular and Lymphatic Systems",
     "topic": "Coronary Circulation & Clinical Ischemia",
     "difficulty": "Medium",
@@ -1319,15 +2179,58 @@ export const cardioQuestions: Question[] = [
     "sourcePage": 45,
     "tags": [
       "circumflex-artery",
-      "lca-branches"
+      "lca-branches",
+      "has-diagram",
+      "diagram-coronary_vessels"
     ],
     "createdAt": "2026-10-24",
     "updatedAt": "2026-10-24",
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "imageUrl": "/images/anatomy/coronary_vessels_exam.svg",
+    "labeledImageUrl": "/images/anatomy/coronary_vessels_labeled.svg",
+    "imageCaption": "Coronary Arteries & Cardiac Venous Drainage — หลอดเลือดแดงโคโรนารี (RCA, LCA, LAD, LCx) และหลอดเลือดดำหัวใจ",
+    "imageLabels": [
+      {
+        "pin": "A",
+        "term": "Aortic Sinus (Origin of Coronary a.)",
+        "thaiName": "จุดกำเนิดหลอดเลือดโคโรนารีที่โคน Aorta",
+        "description": "ตำแหน่ง [A] คือ Aortic Sinus (Origin of Coronary a.) — จุดกำเนิดหลอดเลือดโคโรนารีที่โคน Aorta"
+      },
+      {
+        "pin": "B",
+        "term": "Right Coronary Artery (RCA)",
+        "thaiName": "หลอดเลือดโคโรนารีขวา (เลี้ยง RA, RV, SA/AV node)",
+        "description": "ตำแหน่ง [B] คือ Right Coronary Artery (RCA) — หลอดเลือดโคโรนารีขวา (เลี้ยง RA, RV, SA/AV node)"
+      },
+      {
+        "pin": "C",
+        "term": "Right Marginal Artery",
+        "thaiName": "แขนงมาร์จินัลขวาเลี้ยงผนังด้านข้าง RV",
+        "description": "ตำแหน่ง [C] คือ Right Marginal Artery — แขนงมาร์จินัลขวาเลี้ยงผนังด้านข้าง RV"
+      },
+      {
+        "pin": "D",
+        "term": "Anterior Interventricular Artery (LAD)",
+        "thaiName": "หลอดเลือด LAD (\"Widow maker\" เลี้ยงผนังหน้า LV)",
+        "description": "ตำแหน่ง [D] คือ Anterior Interventricular Artery (LAD) — หลอดเลือด LAD (\"Widow maker\" เลี้ยงผนังหน้า LV)"
+      },
+      {
+        "pin": "E",
+        "term": "Circumflex Artery (LCx)",
+        "thaiName": "หลอดเลือดเซอร์คัมเฟลกซ์อ้อมไปด้านหลังซ้าย",
+        "description": "ตำแหน่ง [E] คือ Circumflex Artery (LCx) — หลอดเลือดเซอร์คัมเฟลกซ์อ้อมไปด้านหลังซ้าย"
+      },
+      {
+        "pin": "F",
+        "term": "Coronary Sinus & Great Cardiac Vein",
+        "thaiName": "แอ่งรวมเลือดดำหัวใจเทเข้าสู่ Right Atrium",
+        "description": "ตำแหน่ง [F] คือ Coronary Sinus & Great Cardiac Vein — แอ่งรวมเลือดดำหัวใจเทเข้าสู่ Right Atrium"
+      }
+    ]
   },
   {
     "id": "CARDIO-054",
-    "questionText": "หลอดเลือด Right Coronary Artery (RCA) ทอดไปตาม Coronary sulcus ด้านขวา และให้แขนงสำคัญที่ทอดลงมาตามขอบล่างของหัวใจห้องล่างขวาเพื่อไปเลี้ยงผนังด้านข้างของ Right Ventricle คือแขนงใด?",
+    "questionText": "[🖼️ ข้อสอบวิเคราะห์ภาพประกอบกายวิภาค — พิจารณาแผนภาพและจุดชี้ตำแหน่ง [A]–[F] โดยเฉพาะบริเวณตำแหน่ง [B]] หลอดเลือด Right Coronary Artery (RCA) ทอดไปตาม Coronary sulcus ด้านขวา และให้แขนงสำคัญที่ทอดลงมาตามขอบล่างของหัวใจห้องล่างขวาเพื่อไปเลี้ยงผนังด้านข้างของ Right Ventricle คือแขนงใด?",
     "options": {
       "A": "Circumflex branch",
       "B": "Right marginal branch",
@@ -1335,7 +2238,7 @@ export const cardioQuestions: Question[] = [
       "D": "Great cardiac branch"
     },
     "correctOption": "B",
-    "explanation": "Right Coronary Artery (RCA) ให้แขนงสำคัญ 2 แขนง: 1. Right marginal artery ทอดขนานตามขอบล่างของหัวใจเลี้ยง Right Ventricle 2. Posterior interventricular artery (PDA) ทอดใน Posterior interventricular groove เลี้ยงผนังล่างและด้านหลังของ Ventricles",
+    "explanation": "Right Coronary Artery (RCA) ให้แขนงสำคัญ 2 แขนง: 1. Right marginal artery ทอดขนานตามขอบล่างของหัวใจเลี้ยง Right Ventricle 2. Posterior interventricular artery (PDA) ทอดใน Posterior interventricular groove เลี้ยงผนังล่างและด้านหลังของ Ventricles\n\n📌 สรุปจุดชี้ตำแหน่งในภาพประกอบ (Coronary Arteries & Cardiac Venous Drainage): จุดที่เกี่ยวข้องโดยตรงกับข้อนี้คือตำแหน่ง [B] (Right Coronary Artery (RCA) — หลอดเลือดโคโรนารีขวา (เลี้ยง RA, RV, SA/AV node)) สามารถกดสลับดู \"ภาพเฉลยครบทุกจุด (Master Labeled Diagram)\" ด้านบนเพื่อทบทวนตำแหน่ง [A] ถึง [F] ทั้งหมดได้ทันที",
     "system": "Cardiovascular and Lymphatic Systems",
     "topic": "Coronary Circulation & Clinical Ischemia",
     "difficulty": "Medium",
@@ -1343,15 +2246,58 @@ export const cardioQuestions: Question[] = [
     "sourcePage": 46,
     "tags": [
       "rca",
-      "marginal-artery"
+      "marginal-artery",
+      "has-diagram",
+      "diagram-coronary_vessels"
     ],
     "createdAt": "2026-10-24",
     "updatedAt": "2026-10-24",
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "imageUrl": "/images/anatomy/coronary_vessels_exam.svg",
+    "labeledImageUrl": "/images/anatomy/coronary_vessels_labeled.svg",
+    "imageCaption": "Coronary Arteries & Cardiac Venous Drainage — หลอดเลือดแดงโคโรนารี (RCA, LCA, LAD, LCx) และหลอดเลือดดำหัวใจ",
+    "imageLabels": [
+      {
+        "pin": "A",
+        "term": "Aortic Sinus (Origin of Coronary a.)",
+        "thaiName": "จุดกำเนิดหลอดเลือดโคโรนารีที่โคน Aorta",
+        "description": "ตำแหน่ง [A] คือ Aortic Sinus (Origin of Coronary a.) — จุดกำเนิดหลอดเลือดโคโรนารีที่โคน Aorta"
+      },
+      {
+        "pin": "B",
+        "term": "Right Coronary Artery (RCA)",
+        "thaiName": "หลอดเลือดโคโรนารีขวา (เลี้ยง RA, RV, SA/AV node)",
+        "description": "ตำแหน่ง [B] คือ Right Coronary Artery (RCA) — หลอดเลือดโคโรนารีขวา (เลี้ยง RA, RV, SA/AV node)"
+      },
+      {
+        "pin": "C",
+        "term": "Right Marginal Artery",
+        "thaiName": "แขนงมาร์จินัลขวาเลี้ยงผนังด้านข้าง RV",
+        "description": "ตำแหน่ง [C] คือ Right Marginal Artery — แขนงมาร์จินัลขวาเลี้ยงผนังด้านข้าง RV"
+      },
+      {
+        "pin": "D",
+        "term": "Anterior Interventricular Artery (LAD)",
+        "thaiName": "หลอดเลือด LAD (\"Widow maker\" เลี้ยงผนังหน้า LV)",
+        "description": "ตำแหน่ง [D] คือ Anterior Interventricular Artery (LAD) — หลอดเลือด LAD (\"Widow maker\" เลี้ยงผนังหน้า LV)"
+      },
+      {
+        "pin": "E",
+        "term": "Circumflex Artery (LCx)",
+        "thaiName": "หลอดเลือดเซอร์คัมเฟลกซ์อ้อมไปด้านหลังซ้าย",
+        "description": "ตำแหน่ง [E] คือ Circumflex Artery (LCx) — หลอดเลือดเซอร์คัมเฟลกซ์อ้อมไปด้านหลังซ้าย"
+      },
+      {
+        "pin": "F",
+        "term": "Coronary Sinus & Great Cardiac Vein",
+        "thaiName": "แอ่งรวมเลือดดำหัวใจเทเข้าสู่ Right Atrium",
+        "description": "ตำแหน่ง [F] คือ Coronary Sinus & Great Cardiac Vein — แอ่งรวมเลือดดำหัวใจเทเข้าสู่ Right Atrium"
+      }
+    ]
   },
   {
     "id": "CARDIO-055",
-    "questionText": "ในภาวะ Inferior wall Myocardial Infarction ผู้ป่วยมักมีอาการหัวใจเต้นช้าผิดปกติและเกิด AV block เนื่องจากหลอดเลือดเส้นที่อุดตันทำหน้าที่ส่งเลือดไปเลี้ยง SA node และ AV node หลอดเลือดที่มีพยาธิสภาพในกรณีนี้คือเส้นใด?",
+    "questionText": "[🖼️ ข้อสอบวิเคราะห์ภาพประกอบกายวิภาค — พิจารณาแผนภาพและจุดชี้ตำแหน่ง [A]–[F] โดยเฉพาะบริเวณตำแหน่ง [F]] ในภาวะ Inferior wall Myocardial Infarction ผู้ป่วยมักมีอาการหัวใจเต้นช้าผิดปกติและเกิด AV block เนื่องจากหลอดเลือดเส้นที่อุดตันทำหน้าที่ส่งเลือดไปเลี้ยง SA node และ AV node หลอดเลือดที่มีพยาธิสภาพในกรณีนี้คือเส้นใด?",
     "options": {
       "A": "Great cardiac vein",
       "B": "Left anterior descending artery",
@@ -1359,7 +2305,7 @@ export const cardioQuestions: Question[] = [
       "D": "Pulmonary artery"
     },
     "correctOption": "C",
-    "explanation": "RCA เลี้ยง Right Atrium, Right Ventricle ผนังด้านล่าง (Inferior/diaphragmatic wall) และให้แขนงไปเลี้ยงระบบนำไฟฟ้าหัวใจ ได้แก่ SA nodal branch (60%) และ AV nodal branch (90%) ดังนั้นเมื่อเกิด Inferior wall MI จาก RCA occlusion ผู้ป่วยจึงมักมีภาวะ Bradycardia หรือ AV nodal block ร่วมด้วย",
+    "explanation": "RCA เลี้ยง Right Atrium, Right Ventricle ผนังด้านล่าง (Inferior/diaphragmatic wall) และให้แขนงไปเลี้ยงระบบนำไฟฟ้าหัวใจ ได้แก่ SA nodal branch (60%) และ AV nodal branch (90%) ดังนั้นเมื่อเกิด Inferior wall MI จาก RCA occlusion ผู้ป่วยจึงมักมีภาวะ Bradycardia หรือ AV nodal block ร่วมด้วย\n\n📌 สรุปจุดชี้ตำแหน่งในภาพประกอบ (Coronary Arteries & Cardiac Venous Drainage): จุดที่เกี่ยวข้องโดยตรงกับข้อนี้คือตำแหน่ง [F] (Coronary Sinus & Great Cardiac Vein — แอ่งรวมเลือดดำหัวใจเทเข้าสู่ Right Atrium) สามารถกดสลับดู \"ภาพเฉลยครบทุกจุด (Master Labeled Diagram)\" ด้านบนเพื่อทบทวนตำแหน่ง [A] ถึง [F] ทั้งหมดได้ทันที",
     "system": "Cardiovascular and Lymphatic Systems",
     "topic": "Coronary Circulation & Clinical Ischemia",
     "difficulty": "Hard",
@@ -1369,15 +2315,58 @@ export const cardioQuestions: Question[] = [
       "rca-occlusion",
       "inferior-mi",
       "av-block",
-      "nodal-artery"
+      "nodal-artery",
+      "has-diagram",
+      "diagram-coronary_vessels"
     ],
     "createdAt": "2026-10-24",
     "updatedAt": "2026-10-24",
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "imageUrl": "/images/anatomy/coronary_vessels_exam.svg",
+    "labeledImageUrl": "/images/anatomy/coronary_vessels_labeled.svg",
+    "imageCaption": "Coronary Arteries & Cardiac Venous Drainage — หลอดเลือดแดงโคโรนารี (RCA, LCA, LAD, LCx) และหลอดเลือดดำหัวใจ",
+    "imageLabels": [
+      {
+        "pin": "A",
+        "term": "Aortic Sinus (Origin of Coronary a.)",
+        "thaiName": "จุดกำเนิดหลอดเลือดโคโรนารีที่โคน Aorta",
+        "description": "ตำแหน่ง [A] คือ Aortic Sinus (Origin of Coronary a.) — จุดกำเนิดหลอดเลือดโคโรนารีที่โคน Aorta"
+      },
+      {
+        "pin": "B",
+        "term": "Right Coronary Artery (RCA)",
+        "thaiName": "หลอดเลือดโคโรนารีขวา (เลี้ยง RA, RV, SA/AV node)",
+        "description": "ตำแหน่ง [B] คือ Right Coronary Artery (RCA) — หลอดเลือดโคโรนารีขวา (เลี้ยง RA, RV, SA/AV node)"
+      },
+      {
+        "pin": "C",
+        "term": "Right Marginal Artery",
+        "thaiName": "แขนงมาร์จินัลขวาเลี้ยงผนังด้านข้าง RV",
+        "description": "ตำแหน่ง [C] คือ Right Marginal Artery — แขนงมาร์จินัลขวาเลี้ยงผนังด้านข้าง RV"
+      },
+      {
+        "pin": "D",
+        "term": "Anterior Interventricular Artery (LAD)",
+        "thaiName": "หลอดเลือด LAD (\"Widow maker\" เลี้ยงผนังหน้า LV)",
+        "description": "ตำแหน่ง [D] คือ Anterior Interventricular Artery (LAD) — หลอดเลือด LAD (\"Widow maker\" เลี้ยงผนังหน้า LV)"
+      },
+      {
+        "pin": "E",
+        "term": "Circumflex Artery (LCx)",
+        "thaiName": "หลอดเลือดเซอร์คัมเฟลกซ์อ้อมไปด้านหลังซ้าย",
+        "description": "ตำแหน่ง [E] คือ Circumflex Artery (LCx) — หลอดเลือดเซอร์คัมเฟลกซ์อ้อมไปด้านหลังซ้าย"
+      },
+      {
+        "pin": "F",
+        "term": "Coronary Sinus & Great Cardiac Vein",
+        "thaiName": "แอ่งรวมเลือดดำหัวใจเทเข้าสู่ Right Atrium",
+        "description": "ตำแหน่ง [F] คือ Coronary Sinus & Great Cardiac Vein — แอ่งรวมเลือดดำหัวใจเทเข้าสู่ Right Atrium"
+      }
+    ]
   },
   {
     "id": "CARDIO-056",
-    "questionText": "หลอดเลือดดำ Great Cardiac Vein ทอดคู่กับหลอดเลือดแดงใด และนำเลือดดำจากกล้ามเนื้อหัวใจไหลไปเทรวมเข้าสู่โครงสร้างใดทางด้านหลังของหัวใจ?",
+    "questionText": "[🖼️ ข้อสอบวิเคราะห์ภาพประกอบกายวิภาค — พิจารณาแผนภาพและจุดชี้ตำแหน่ง [A]–[F] โดยเฉพาะบริเวณตำแหน่ง [D]] หลอดเลือดดำ Great Cardiac Vein ทอดคู่กับหลอดเลือดแดงใด และนำเลือดดำจากกล้ามเนื้อหัวใจไหลไปเทรวมเข้าสู่โครงสร้างใดทางด้านหลังของหัวใจ?",
     "options": {
       "A": "ทอดคู่กับ Pulmonary trunk แล้วเทเข้าสู่ปอด",
       "B": "ทอดคู่กับ Posterior interventricular artery แล้วเทเข้า Inferior Vena Cava",
@@ -1385,7 +2374,7 @@ export const cardioQuestions: Question[] = [
       "D": "ทอดคู่กับ Anterior Interventricular Artery (LAD) ในร่องด้านหน้า แล้วเทเข้าสู่ Coronary Sinus"
     },
     "correctOption": "D",
-    "explanation": "Great Cardiac Vein ทอดคู่กับ Anterior Interventricular Artery (LAD) ใน Anterior interventricular sulcus รับเลือดดำจากผิวด้านหน้าของ Ventricles ทั้งสอง จากนั้นจะโค้งไปตาม Coronary sulcus ด้านหลังเพื่อเทเข้าสู่ Coronary Sinus",
+    "explanation": "Great Cardiac Vein ทอดคู่กับ Anterior Interventricular Artery (LAD) ใน Anterior interventricular sulcus รับเลือดดำจากผิวด้านหน้าของ Ventricles ทั้งสอง จากนั้นจะโค้งไปตาม Coronary sulcus ด้านหลังเพื่อเทเข้าสู่ Coronary Sinus\n\n📌 สรุปจุดชี้ตำแหน่งในภาพประกอบ (Coronary Arteries & Cardiac Venous Drainage): จุดที่เกี่ยวข้องโดยตรงกับข้อนี้คือตำแหน่ง [D] (Anterior Interventricular Artery (LAD) — หลอดเลือด LAD (\"Widow maker\" เลี้ยงผนังหน้า LV)) สามารถกดสลับดู \"ภาพเฉลยครบทุกจุด (Master Labeled Diagram)\" ด้านบนเพื่อทบทวนตำแหน่ง [A] ถึง [F] ทั้งหมดได้ทันที",
     "system": "Cardiovascular and Lymphatic Systems",
     "topic": "Coronary Circulation & Clinical Ischemia",
     "difficulty": "Medium",
@@ -1394,15 +2383,58 @@ export const cardioQuestions: Question[] = [
     "tags": [
       "great-cardiac-vein",
       "coronary-sinus",
-      "lad"
+      "lad",
+      "has-diagram",
+      "diagram-coronary_vessels"
     ],
     "createdAt": "2026-10-24",
     "updatedAt": "2026-10-24",
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "imageUrl": "/images/anatomy/coronary_vessels_exam.svg",
+    "labeledImageUrl": "/images/anatomy/coronary_vessels_labeled.svg",
+    "imageCaption": "Coronary Arteries & Cardiac Venous Drainage — หลอดเลือดแดงโคโรนารี (RCA, LCA, LAD, LCx) และหลอดเลือดดำหัวใจ",
+    "imageLabels": [
+      {
+        "pin": "A",
+        "term": "Aortic Sinus (Origin of Coronary a.)",
+        "thaiName": "จุดกำเนิดหลอดเลือดโคโรนารีที่โคน Aorta",
+        "description": "ตำแหน่ง [A] คือ Aortic Sinus (Origin of Coronary a.) — จุดกำเนิดหลอดเลือดโคโรนารีที่โคน Aorta"
+      },
+      {
+        "pin": "B",
+        "term": "Right Coronary Artery (RCA)",
+        "thaiName": "หลอดเลือดโคโรนารีขวา (เลี้ยง RA, RV, SA/AV node)",
+        "description": "ตำแหน่ง [B] คือ Right Coronary Artery (RCA) — หลอดเลือดโคโรนารีขวา (เลี้ยง RA, RV, SA/AV node)"
+      },
+      {
+        "pin": "C",
+        "term": "Right Marginal Artery",
+        "thaiName": "แขนงมาร์จินัลขวาเลี้ยงผนังด้านข้าง RV",
+        "description": "ตำแหน่ง [C] คือ Right Marginal Artery — แขนงมาร์จินัลขวาเลี้ยงผนังด้านข้าง RV"
+      },
+      {
+        "pin": "D",
+        "term": "Anterior Interventricular Artery (LAD)",
+        "thaiName": "หลอดเลือด LAD (\"Widow maker\" เลี้ยงผนังหน้า LV)",
+        "description": "ตำแหน่ง [D] คือ Anterior Interventricular Artery (LAD) — หลอดเลือด LAD (\"Widow maker\" เลี้ยงผนังหน้า LV)"
+      },
+      {
+        "pin": "E",
+        "term": "Circumflex Artery (LCx)",
+        "thaiName": "หลอดเลือดเซอร์คัมเฟลกซ์อ้อมไปด้านหลังซ้าย",
+        "description": "ตำแหน่ง [E] คือ Circumflex Artery (LCx) — หลอดเลือดเซอร์คัมเฟลกซ์อ้อมไปด้านหลังซ้าย"
+      },
+      {
+        "pin": "F",
+        "term": "Coronary Sinus & Great Cardiac Vein",
+        "thaiName": "แอ่งรวมเลือดดำหัวใจเทเข้าสู่ Right Atrium",
+        "description": "ตำแหน่ง [F] คือ Coronary Sinus & Great Cardiac Vein — แอ่งรวมเลือดดำหัวใจเทเข้าสู่ Right Atrium"
+      }
+    ]
   },
   {
     "id": "CARDIO-057",
-    "questionText": "หลอดเลือดดำ Middle Cardiac Vein ทอดตัวอยู่ในร่องใดทางด้านหลังของหัวใจ และทอดตัวคู่ขนานไปกับหลอดเลือดแดงเส้นใด?",
+    "questionText": "[🖼️ ข้อสอบวิเคราะห์ภาพประกอบกายวิภาค — พิจารณาแผนภาพและจุดชี้ตำแหน่ง [A]–[F] โดยเฉพาะบริเวณตำแหน่ง [C]] หลอดเลือดดำ Middle Cardiac Vein ทอดตัวอยู่ในร่องใดทางด้านหลังของหัวใจ และทอดตัวคู่ขนานไปกับหลอดเลือดแดงเส้นใด?",
     "options": {
       "A": "ทอดอยู่ใน Posterior interventricular sulcus คู่กับ Posterior Interventricular Artery",
       "B": "ทอดอยู่ใน Anterior interventricular sulcus คู่กับ LAD",
@@ -1410,7 +2442,7 @@ export const cardioQuestions: Question[] = [
       "D": "ทอดอยู่บน Superior vena cava"
     },
     "correctOption": "A",
-    "explanation": "Middle Cardiac Vein ทอดตัวอยู่ใน Posterior interventricular sulcus ทางด้านหลังของหัวใจ คู่กับ Posterior Interventricular Artery (แขนงของ RCA) และนำเลือดดำเทเข้าสู่ Coronary Sinus",
+    "explanation": "Middle Cardiac Vein ทอดตัวอยู่ใน Posterior interventricular sulcus ทางด้านหลังของหัวใจ คู่กับ Posterior Interventricular Artery (แขนงของ RCA) และนำเลือดดำเทเข้าสู่ Coronary Sinus\n\n📌 สรุปจุดชี้ตำแหน่งในภาพประกอบ (Coronary Arteries & Cardiac Venous Drainage): จุดที่เกี่ยวข้องโดยตรงกับข้อนี้คือตำแหน่ง [C] (Right Marginal Artery — แขนงมาร์จินัลขวาเลี้ยงผนังด้านข้าง RV) สามารถกดสลับดู \"ภาพเฉลยครบทุกจุด (Master Labeled Diagram)\" ด้านบนเพื่อทบทวนตำแหน่ง [A] ถึง [F] ทั้งหมดได้ทันที",
     "system": "Cardiovascular and Lymphatic Systems",
     "topic": "Coronary Circulation & Clinical Ischemia",
     "difficulty": "Medium",
@@ -1418,11 +2450,54 @@ export const cardioQuestions: Question[] = [
     "sourcePage": 48,
     "tags": [
       "middle-cardiac-vein",
-      "posterior-interventricular"
+      "posterior-interventricular",
+      "has-diagram",
+      "diagram-coronary_vessels"
     ],
     "createdAt": "2026-10-24",
     "updatedAt": "2026-10-24",
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "imageUrl": "/images/anatomy/coronary_vessels_exam.svg",
+    "labeledImageUrl": "/images/anatomy/coronary_vessels_labeled.svg",
+    "imageCaption": "Coronary Arteries & Cardiac Venous Drainage — หลอดเลือดแดงโคโรนารี (RCA, LCA, LAD, LCx) และหลอดเลือดดำหัวใจ",
+    "imageLabels": [
+      {
+        "pin": "A",
+        "term": "Aortic Sinus (Origin of Coronary a.)",
+        "thaiName": "จุดกำเนิดหลอดเลือดโคโรนารีที่โคน Aorta",
+        "description": "ตำแหน่ง [A] คือ Aortic Sinus (Origin of Coronary a.) — จุดกำเนิดหลอดเลือดโคโรนารีที่โคน Aorta"
+      },
+      {
+        "pin": "B",
+        "term": "Right Coronary Artery (RCA)",
+        "thaiName": "หลอดเลือดโคโรนารีขวา (เลี้ยง RA, RV, SA/AV node)",
+        "description": "ตำแหน่ง [B] คือ Right Coronary Artery (RCA) — หลอดเลือดโคโรนารีขวา (เลี้ยง RA, RV, SA/AV node)"
+      },
+      {
+        "pin": "C",
+        "term": "Right Marginal Artery",
+        "thaiName": "แขนงมาร์จินัลขวาเลี้ยงผนังด้านข้าง RV",
+        "description": "ตำแหน่ง [C] คือ Right Marginal Artery — แขนงมาร์จินัลขวาเลี้ยงผนังด้านข้าง RV"
+      },
+      {
+        "pin": "D",
+        "term": "Anterior Interventricular Artery (LAD)",
+        "thaiName": "หลอดเลือด LAD (\"Widow maker\" เลี้ยงผนังหน้า LV)",
+        "description": "ตำแหน่ง [D] คือ Anterior Interventricular Artery (LAD) — หลอดเลือด LAD (\"Widow maker\" เลี้ยงผนังหน้า LV)"
+      },
+      {
+        "pin": "E",
+        "term": "Circumflex Artery (LCx)",
+        "thaiName": "หลอดเลือดเซอร์คัมเฟลกซ์อ้อมไปด้านหลังซ้าย",
+        "description": "ตำแหน่ง [E] คือ Circumflex Artery (LCx) — หลอดเลือดเซอร์คัมเฟลกซ์อ้อมไปด้านหลังซ้าย"
+      },
+      {
+        "pin": "F",
+        "term": "Coronary Sinus & Great Cardiac Vein",
+        "thaiName": "แอ่งรวมเลือดดำหัวใจเทเข้าสู่ Right Atrium",
+        "description": "ตำแหน่ง [F] คือ Coronary Sinus & Great Cardiac Vein — แอ่งรวมเลือดดำหัวใจเทเข้าสู่ Right Atrium"
+      }
+    ]
   },
   {
     "id": "CARDIO-058",
@@ -1499,7 +2574,7 @@ export const cardioQuestions: Question[] = [
   },
   {
     "id": "CARDIO-061",
-    "questionText": "ผนังของหลอดเลือดแดงและหลอดเลือดดำทั่วไปประกอบด้วยชั้นเนื้อเยื่อ 3 ชั้น ลำดับจากชั้นในสุดสัมผัสกับเลือดออกสู่ชั้นนอกสุดข้อใดถูกต้อง?",
+    "questionText": "[🖼️ ข้อสอบวิเคราะห์ภาพประกอบกายวิภาค — พิจารณาแผนภาพและจุดชี้ตำแหน่ง [A]–[F] โดยเฉพาะบริเวณตำแหน่ง [E]] ผนังของหลอดเลือดแดงและหลอดเลือดดำทั่วไปประกอบด้วยชั้นเนื้อเยื่อ 3 ชั้น ลำดับจากชั้นในสุดสัมผัสกับเลือดออกสู่ชั้นนอกสุดข้อใดถูกต้อง?",
     "options": {
       "A": "Tunica intima -> Tunica media -> Tunica externa (Tunica adventitia)",
       "B": "Tunica media -> Tunica intima -> Tunica externa",
@@ -1507,7 +2582,7 @@ export const cardioQuestions: Question[] = [
       "D": "Tunica intima -> Tunica adventitia -> Tunica media"
     },
     "correctOption": "A",
-    "explanation": "ผนังหลอดเลือดเรียงจากในออกนอก: 1. Tunica intima (ชั้นในสุด มี Endothelium และ Internal elastic lamina) 2. Tunica media (ชั้นกลาง ประกอบด้วยกล้ามเนื้อเรียบและ Elastic fibers) 3. Tunica externa/adventitia (ชั้นนอกสุด ประกอบด้วยคอลลาเจนและ Vasa vasorum)",
+    "explanation": "ผนังหลอดเลือดเรียงจากในออกนอก: 1. Tunica intima (ชั้นในสุด มี Endothelium และ Internal elastic lamina) 2. Tunica media (ชั้นกลาง ประกอบด้วยกล้ามเนื้อเรียบและ Elastic fibers) 3. Tunica externa/adventitia (ชั้นนอกสุด ประกอบด้วยคอลลาเจนและ Vasa vasorum)\n\n📌 สรุปจุดชี้ตำแหน่งในภาพประกอบ (Hematology (Formed Elements) & Blood Vessel Wall Layers): จุดที่เกี่ยวข้องโดยตรงกับข้อนี้คือตำแหน่ง [E] (Tunica Intima (Endothelium) — ผนังชั้นในสุดสัมผัสเลือด ต่อเนื่องกับ Endocardium) สามารถกดสลับดู \"ภาพเฉลยครบทุกจุด (Master Labeled Diagram)\" ด้านบนเพื่อทบทวนตำแหน่ง [A] ถึง [F] ทั้งหมดได้ทันที",
     "system": "Cardiovascular and Lymphatic Systems",
     "topic": "Blood Vessels Anatomy & Histology",
     "difficulty": "Easy",
@@ -1515,15 +2590,58 @@ export const cardioQuestions: Question[] = [
     "sourcePage": 52,
     "tags": [
       "vessel-wall-layers",
-      "tunica-intima-media-adventitia"
+      "tunica-intima-media-adventitia",
+      "has-diagram",
+      "diagram-blood_cells_vessels"
     ],
     "createdAt": "2026-10-24",
     "updatedAt": "2026-10-24",
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "imageUrl": "/images/anatomy/blood_cells_vessels_exam.svg",
+    "labeledImageUrl": "/images/anatomy/blood_cells_vessels_labeled.svg",
+    "imageCaption": "Hematology (Formed Elements) & Blood Vessel Wall Layers — สัณฐานวิทยาเม็ดเลือดชนิดต่างๆ และโครงสร้างผนังหลอดเลือด 3 ชั้น",
+    "imageLabels": [
+      {
+        "pin": "A",
+        "term": "Erythrocyte (Biconcave RBC)",
+        "thaiName": "เม็ดเลือดแดงรูปจานเว้าสองด้าน ไม่มีนิวเคลียส",
+        "description": "ตำแหน่ง [A] คือ Erythrocyte (Biconcave RBC) — เม็ดเลือดแดงรูปจานเว้าสองด้าน ไม่มีนิวเคลียส"
+      },
+      {
+        "pin": "B",
+        "term": "Neutrophil (3-5 Lobed PMN)",
+        "thaiName": "นิวโทรฟิล (60-70%) กำจัดแบคทีเรียด่านแรก",
+        "description": "ตำแหน่ง [B] คือ Neutrophil (3-5 Lobed PMN) — นิวโทรฟิล (60-70%) กำจัดแบคทีเรียด่านแรก"
+      },
+      {
+        "pin": "C",
+        "term": "Eosinophil (Bilobed Nucleus)",
+        "thaiName": "อีโอซิโนฟิล (แกรนูลสีส้มแดง ทำลายพยาธิ/ภูมิแพ้)",
+        "description": "ตำแหน่ง [C] คือ Eosinophil (Bilobed Nucleus) — อีโอซิโนฟิล (แกรนูลสีส้มแดง ทำลายพยาธิ/ภูมิแพ้)"
+      },
+      {
+        "pin": "D",
+        "term": "Monocyte (Kidney-shaped Nucleus)",
+        "thaiName": "โมโนไซต์ (ใหญ่ที่สุด เปลี่ยนเป็น Macrophage)",
+        "description": "ตำแหน่ง [D] คือ Monocyte (Kidney-shaped Nucleus) — โมโนไซต์ (ใหญ่ที่สุด เปลี่ยนเป็น Macrophage)"
+      },
+      {
+        "pin": "E",
+        "term": "Tunica Intima (Endothelium)",
+        "thaiName": "ผนังชั้นในสุดสัมผัสเลือด ต่อเนื่องกับ Endocardium",
+        "description": "ตำแหน่ง [E] คือ Tunica Intima (Endothelium) — ผนังชั้นในสุดสัมผัสเลือด ต่อเนื่องกับ Endocardium"
+      },
+      {
+        "pin": "F",
+        "term": "Tunica Media (Smooth Muscle & Elastin)",
+        "thaiName": "ผนังชั้นกลาง (หนาสุดใน Artery ควบคุมความดัน)",
+        "description": "ตำแหน่ง [F] คือ Tunica Media (Smooth Muscle & Elastin) — ผนังชั้นกลาง (หนาสุดใน Artery ควบคุมความดัน)"
+      }
+    ]
   },
   {
     "id": "CARDIO-062",
-    "questionText": "หลอดเลือดแดงขนาดใหญ่ เช่น Aorta และ Pulmonary trunk จัดเป็นกลุ่ม Elastic arteries (Conducting arteries) ในชั้น Tunica media ของหลอดเลือดกลุ่มนี้มีลักษณะพิเศษทางเนื้อเยื่ออย่างไรที่ช่วยทำหน้าที่ Windkessel effect?",
+    "questionText": "[🖼️ ข้อสอบวิเคราะห์ภาพประกอบกายวิภาค — พิจารณาแผนภาพและจุดชี้ตำแหน่ง [A]–[F] โดยเฉพาะบริเวณตำแหน่ง [F]] หลอดเลือดแดงขนาดใหญ่ เช่น Aorta และ Pulmonary trunk จัดเป็นกลุ่ม Elastic arteries (Conducting arteries) ในชั้น Tunica media ของหลอดเลือดกลุ่มนี้มีลักษณะพิเศษทางเนื้อเยื่ออย่างไรที่ช่วยทำหน้าที่ Windkessel effect?",
     "options": {
       "A": "มีเซลล์กล้ามเนื้อลายหนาแน่นช่วยบีบรูดเลือด",
       "B": "มีแผ่นเส้นใยอิลาสติน (Elastic lamellae) เรียงตัวสลับกันจำนวนมากในชั้น Tunica media ทำให้สามารถขยายตัวรับแรงกระแทกของเลือดในจังหวะ Systole และหดตัวดันเลือดไหลต่อเนื่องในจังหวะ Diastole",
@@ -1531,7 +2649,7 @@ export const cardioQuestions: Question[] = [
       "D": "ไม่มีชั้น Tunica media เพื่อให้ผนังบางที่สุด"
     },
     "correctOption": "B",
-    "explanation": "Elastic arteries (เช่น Aorta) มี Elastic fibers จำนวนมากใน Tunica media ทำหน้าที่เป็นถังรับแรงดัน (Windkessel effect) ยืดขยายตัวรับ Stroke volume ขณะ Systole และหดตัวกลับ (Elastic recoil) ดันเลือดให้ไหลต่อเนื่องไปข้างหน้าในขณะ Diastole ช่วยลดความดันตัวบนและคงความดันตัวล่างไม่ให้ตกเป็นศูนย์",
+    "explanation": "Elastic arteries (เช่น Aorta) มี Elastic fibers จำนวนมากใน Tunica media ทำหน้าที่เป็นถังรับแรงดัน (Windkessel effect) ยืดขยายตัวรับ Stroke volume ขณะ Systole และหดตัวกลับ (Elastic recoil) ดันเลือดให้ไหลต่อเนื่องไปข้างหน้าในขณะ Diastole ช่วยลดความดันตัวบนและคงความดันตัวล่างไม่ให้ตกเป็นศูนย์\n\n📌 สรุปจุดชี้ตำแหน่งในภาพประกอบ (Hematology (Formed Elements) & Blood Vessel Wall Layers): จุดที่เกี่ยวข้องโดยตรงกับข้อนี้คือตำแหน่ง [F] (Tunica Media (Smooth Muscle & Elastin) — ผนังชั้นกลาง (หนาสุดใน Artery ควบคุมความดัน)) สามารถกดสลับดู \"ภาพเฉลยครบทุกจุด (Master Labeled Diagram)\" ด้านบนเพื่อทบทวนตำแหน่ง [A] ถึง [F] ทั้งหมดได้ทันที",
     "system": "Cardiovascular and Lymphatic Systems",
     "topic": "Blood Vessels Anatomy & Histology",
     "difficulty": "Hard",
@@ -1540,15 +2658,58 @@ export const cardioQuestions: Question[] = [
     "tags": [
       "elastic-arteries",
       "windkessel-effect",
-      "aorta"
+      "aorta",
+      "has-diagram",
+      "diagram-blood_cells_vessels"
     ],
     "createdAt": "2026-10-24",
     "updatedAt": "2026-10-24",
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "imageUrl": "/images/anatomy/blood_cells_vessels_exam.svg",
+    "labeledImageUrl": "/images/anatomy/blood_cells_vessels_labeled.svg",
+    "imageCaption": "Hematology (Formed Elements) & Blood Vessel Wall Layers — สัณฐานวิทยาเม็ดเลือดชนิดต่างๆ และโครงสร้างผนังหลอดเลือด 3 ชั้น",
+    "imageLabels": [
+      {
+        "pin": "A",
+        "term": "Erythrocyte (Biconcave RBC)",
+        "thaiName": "เม็ดเลือดแดงรูปจานเว้าสองด้าน ไม่มีนิวเคลียส",
+        "description": "ตำแหน่ง [A] คือ Erythrocyte (Biconcave RBC) — เม็ดเลือดแดงรูปจานเว้าสองด้าน ไม่มีนิวเคลียส"
+      },
+      {
+        "pin": "B",
+        "term": "Neutrophil (3-5 Lobed PMN)",
+        "thaiName": "นิวโทรฟิล (60-70%) กำจัดแบคทีเรียด่านแรก",
+        "description": "ตำแหน่ง [B] คือ Neutrophil (3-5 Lobed PMN) — นิวโทรฟิล (60-70%) กำจัดแบคทีเรียด่านแรก"
+      },
+      {
+        "pin": "C",
+        "term": "Eosinophil (Bilobed Nucleus)",
+        "thaiName": "อีโอซิโนฟิล (แกรนูลสีส้มแดง ทำลายพยาธิ/ภูมิแพ้)",
+        "description": "ตำแหน่ง [C] คือ Eosinophil (Bilobed Nucleus) — อีโอซิโนฟิล (แกรนูลสีส้มแดง ทำลายพยาธิ/ภูมิแพ้)"
+      },
+      {
+        "pin": "D",
+        "term": "Monocyte (Kidney-shaped Nucleus)",
+        "thaiName": "โมโนไซต์ (ใหญ่ที่สุด เปลี่ยนเป็น Macrophage)",
+        "description": "ตำแหน่ง [D] คือ Monocyte (Kidney-shaped Nucleus) — โมโนไซต์ (ใหญ่ที่สุด เปลี่ยนเป็น Macrophage)"
+      },
+      {
+        "pin": "E",
+        "term": "Tunica Intima (Endothelium)",
+        "thaiName": "ผนังชั้นในสุดสัมผัสเลือด ต่อเนื่องกับ Endocardium",
+        "description": "ตำแหน่ง [E] คือ Tunica Intima (Endothelium) — ผนังชั้นในสุดสัมผัสเลือด ต่อเนื่องกับ Endocardium"
+      },
+      {
+        "pin": "F",
+        "term": "Tunica Media (Smooth Muscle & Elastin)",
+        "thaiName": "ผนังชั้นกลาง (หนาสุดใน Artery ควบคุมความดัน)",
+        "description": "ตำแหน่ง [F] คือ Tunica Media (Smooth Muscle & Elastin) — ผนังชั้นกลาง (หนาสุดใน Artery ควบคุมความดัน)"
+      }
+    ]
   },
   {
     "id": "CARDIO-063",
-    "questionText": "หลอดเลือดชนิดใดในระบบไหลเวียนโลหิตที่ทำหน้าที่เป็น Major resistance vessels (ตัวต้านทานหลักของระบบ) ซึ่งมีผลต่อการควบคุมความดันโลหิตทั่วร่างกาย (Systemic blood pressure) มากที่สุดจากการหดและขยายตัวของกล้ามเนื้อเรียบ?",
+    "questionText": "[🖼️ ข้อสอบวิเคราะห์ภาพประกอบกายวิภาค — พิจารณาแผนภาพและจุดชี้ตำแหน่ง [A]–[F] โดยเฉพาะบริเวณตำแหน่ง [F]] หลอดเลือดชนิดใดในระบบไหลเวียนโลหิตที่ทำหน้าที่เป็น Major resistance vessels (ตัวต้านทานหลักของระบบ) ซึ่งมีผลต่อการควบคุมความดันโลหิตทั่วร่างกาย (Systemic blood pressure) มากที่สุดจากการหดและขยายตัวของกล้ามเนื้อเรียบ?",
     "options": {
       "A": "Large veins",
       "B": "Elastic arteries",
@@ -1556,7 +2717,7 @@ export const cardioQuestions: Question[] = [
       "D": "Continuous capillaries"
     },
     "correctOption": "C",
-    "explanation": "Arterioles มีสัดส่วนของกล้ามเนื้อเรียบในชั้น Tunica media หนามากเมื่อเทียบกับขนาด Lumen และถูกควบคุมอย่างใกล้ชิดโดยระบบประสาทอัตโนมัติ การเปลี่ยนแปลงขนาดเส้นผ่านศูนย์กลางเพียงเล็กน้อยของ Arterioles จะส่งผลต่อแรงต้านทานส่วนปลาย (Total Peripheral Resistance: TPR) และความดันโลหิตอย่างมหาศาลตามกฎของ Poiseuille",
+    "explanation": "Arterioles มีสัดส่วนของกล้ามเนื้อเรียบในชั้น Tunica media หนามากเมื่อเทียบกับขนาด Lumen และถูกควบคุมอย่างใกล้ชิดโดยระบบประสาทอัตโนมัติ การเปลี่ยนแปลงขนาดเส้นผ่านศูนย์กลางเพียงเล็กน้อยของ Arterioles จะส่งผลต่อแรงต้านทานส่วนปลาย (Total Peripheral Resistance: TPR) และความดันโลหิตอย่างมหาศาลตามกฎของ Poiseuille\n\n📌 สรุปจุดชี้ตำแหน่งในภาพประกอบ (Hematology (Formed Elements) & Blood Vessel Wall Layers): จุดที่เกี่ยวข้องโดยตรงกับข้อนี้คือตำแหน่ง [F] (Tunica Media (Smooth Muscle & Elastin) — ผนังชั้นกลาง (หนาสุดใน Artery ควบคุมความดัน)) สามารถกดสลับดู \"ภาพเฉลยครบทุกจุด (Master Labeled Diagram)\" ด้านบนเพื่อทบทวนตำแหน่ง [A] ถึง [F] ทั้งหมดได้ทันที",
     "system": "Cardiovascular and Lymphatic Systems",
     "topic": "Blood Vessels Anatomy & Histology",
     "difficulty": "Hard",
@@ -1566,11 +2727,54 @@ export const cardioQuestions: Question[] = [
       "arterioles",
       "resistance-vessels",
       "tpr",
-      "blood-pressure"
+      "blood-pressure",
+      "has-diagram",
+      "diagram-blood_cells_vessels"
     ],
     "createdAt": "2026-10-24",
     "updatedAt": "2026-10-24",
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "imageUrl": "/images/anatomy/blood_cells_vessels_exam.svg",
+    "labeledImageUrl": "/images/anatomy/blood_cells_vessels_labeled.svg",
+    "imageCaption": "Hematology (Formed Elements) & Blood Vessel Wall Layers — สัณฐานวิทยาเม็ดเลือดชนิดต่างๆ และโครงสร้างผนังหลอดเลือด 3 ชั้น",
+    "imageLabels": [
+      {
+        "pin": "A",
+        "term": "Erythrocyte (Biconcave RBC)",
+        "thaiName": "เม็ดเลือดแดงรูปจานเว้าสองด้าน ไม่มีนิวเคลียส",
+        "description": "ตำแหน่ง [A] คือ Erythrocyte (Biconcave RBC) — เม็ดเลือดแดงรูปจานเว้าสองด้าน ไม่มีนิวเคลียส"
+      },
+      {
+        "pin": "B",
+        "term": "Neutrophil (3-5 Lobed PMN)",
+        "thaiName": "นิวโทรฟิล (60-70%) กำจัดแบคทีเรียด่านแรก",
+        "description": "ตำแหน่ง [B] คือ Neutrophil (3-5 Lobed PMN) — นิวโทรฟิล (60-70%) กำจัดแบคทีเรียด่านแรก"
+      },
+      {
+        "pin": "C",
+        "term": "Eosinophil (Bilobed Nucleus)",
+        "thaiName": "อีโอซิโนฟิล (แกรนูลสีส้มแดง ทำลายพยาธิ/ภูมิแพ้)",
+        "description": "ตำแหน่ง [C] คือ Eosinophil (Bilobed Nucleus) — อีโอซิโนฟิล (แกรนูลสีส้มแดง ทำลายพยาธิ/ภูมิแพ้)"
+      },
+      {
+        "pin": "D",
+        "term": "Monocyte (Kidney-shaped Nucleus)",
+        "thaiName": "โมโนไซต์ (ใหญ่ที่สุด เปลี่ยนเป็น Macrophage)",
+        "description": "ตำแหน่ง [D] คือ Monocyte (Kidney-shaped Nucleus) — โมโนไซต์ (ใหญ่ที่สุด เปลี่ยนเป็น Macrophage)"
+      },
+      {
+        "pin": "E",
+        "term": "Tunica Intima (Endothelium)",
+        "thaiName": "ผนังชั้นในสุดสัมผัสเลือด ต่อเนื่องกับ Endocardium",
+        "description": "ตำแหน่ง [E] คือ Tunica Intima (Endothelium) — ผนังชั้นในสุดสัมผัสเลือด ต่อเนื่องกับ Endocardium"
+      },
+      {
+        "pin": "F",
+        "term": "Tunica Media (Smooth Muscle & Elastin)",
+        "thaiName": "ผนังชั้นกลาง (หนาสุดใน Artery ควบคุมความดัน)",
+        "description": "ตำแหน่ง [F] คือ Tunica Media (Smooth Muscle & Elastin) — ผนังชั้นกลาง (หนาสุดใน Artery ควบคุมความดัน)"
+      }
+    ]
   },
   {
     "id": "CARDIO-064",
@@ -1905,7 +3109,7 @@ export const cardioQuestions: Question[] = [
   },
   {
     "id": "CARDIO-077",
-    "questionText": "หลอดน้ำเหลืองพิเศษที่พบในชั้น Mucosa ของวิลไล (Villi) ในลำไส้เล็ก ทำหน้าที่ดูดซึมไขมันและสารอาหารที่ละลายในไขมันในรูปของไคโลไมครอน (Chylomicrons) มีชื่อเรียกว่าอะไร?",
+    "questionText": "[🖼️ ข้อสอบวิเคราะห์ภาพประกอบกายวิภาค — พิจารณาแผนภาพและจุดชี้ตำแหน่ง [A]–[F] โดยเฉพาะบริเวณตำแหน่ง [F]] หลอดน้ำเหลืองพิเศษที่พบในชั้น Mucosa ของวิลไล (Villi) ในลำไส้เล็ก ทำหน้าที่ดูดซึมไขมันและสารอาหารที่ละลายในไขมันในรูปของไคโลไมครอน (Chylomicrons) มีชื่อเรียกว่าอะไร?",
     "options": {
       "A": "Lacteals (หลอดน้ำเหลืองแล็กทีล)",
       "B": "Peyer's patches",
@@ -1913,7 +3117,7 @@ export const cardioQuestions: Question[] = [
       "D": "Brunner's glands"
     },
     "correctOption": "A",
-    "explanation": "Lacteals เป็นหลอดน้ำเหลืองฝอยปลายตันขนาดใหญ่ที่อยู่ในแกนกลางของแต่ละ Villi ในลำไส้เล็ก ทำหน้าที่ดูดซึมไขมันที่ย่อยแล้วในรูป Chylomicrons ทำให้น้ำเหลืองที่ไหลออกมามีลักษณะขุ่นขาวคล้ายน้ำนม เรียกว่า Chyle",
+    "explanation": "Lacteals เป็นหลอดน้ำเหลืองฝอยปลายตันขนาดใหญ่ที่อยู่ในแกนกลางของแต่ละ Villi ในลำไส้เล็ก ทำหน้าที่ดูดซึมไขมันที่ย่อยแล้วในรูป Chylomicrons ทำให้น้ำเหลืองที่ไหลออกมามีลักษณะขุ่นขาวคล้ายน้ำนม เรียกว่า Chyle\n\n📌 สรุปจุดชี้ตำแหน่งในภาพประกอบ (Lymph Node Structure, Spleen Pulp & Thoracic Duct Drainage): จุดที่เกี่ยวข้องโดยตรงกับข้อนี้คือตำแหน่ง [F] (Cisterna Chyli & Thoracic Duct — กระเปาะพักน้ำเหลืองระดับ L1-L2 ต้นกำเนิด Thoracic duct) สามารถกดสลับดู \"ภาพเฉลยครบทุกจุด (Master Labeled Diagram)\" ด้านบนเพื่อทบทวนตำแหน่ง [A] ถึง [F] ทั้งหมดได้ทันที",
     "system": "Cardiovascular and Lymphatic Systems",
     "topic": "Lymphatic System & Organs",
     "difficulty": "Medium",
@@ -1923,15 +3127,58 @@ export const cardioQuestions: Question[] = [
       "lacteals",
       "chyle",
       "fat-absorption",
-      "small-intestine"
+      "small-intestine",
+      "has-diagram",
+      "diagram-lymphatic_system"
     ],
     "createdAt": "2026-10-24",
     "updatedAt": "2026-10-24",
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "imageUrl": "/images/anatomy/lymphatic_system_exam.svg",
+    "labeledImageUrl": "/images/anatomy/lymphatic_system_labeled.svg",
+    "imageCaption": "Lymph Node Structure, Spleen Pulp & Thoracic Duct Drainage — โครงสร้างต่อมน้ำเหลือง ม้าม (White/Red Pulp) และท่อน้ำเหลืองใหญ่",
+    "imageLabels": [
+      {
+        "pin": "A",
+        "term": "Afferent Lymphatic Vessels",
+        "thaiName": "ท่อน้ำเหลืองนำเข้าทางด้านนูน (มีหลายท่อ)",
+        "description": "ตำแหน่ง [A] คือ Afferent Lymphatic Vessels — ท่อน้ำเหลืองนำเข้าทางด้านนูน (มีหลายท่อ)"
+      },
+      {
+        "pin": "B",
+        "term": "Germinal Center in Cortex",
+        "thaiName": "ศูนย์กลางแบ่งตัวของ B-lymphocytes ในชั้น Cortex",
+        "description": "ตำแหน่ง [B] คือ Germinal Center in Cortex — ศูนย์กลางแบ่งตัวของ B-lymphocytes ในชั้น Cortex"
+      },
+      {
+        "pin": "C",
+        "term": "Efferent Lymphatic Vessel at Hilum",
+        "thaiName": "ท่อน้ำเหลืองนำออกบริเวณขั้วรอยบุ๋ม (Hilum)",
+        "description": "ตำแหน่ง [C] คือ Efferent Lymphatic Vessel at Hilum — ท่อน้ำเหลืองนำออกบริเวณขั้วรอยบุ๋ม (Hilum)"
+      },
+      {
+        "pin": "D",
+        "term": "Splenic White Pulp (Lymphocytes)",
+        "thaiName": "เนื้อเยื่อม้ามส่วนสีขาว (T & B cells รอบหลอดเลือดแดง)",
+        "description": "ตำแหน่ง [D] คือ Splenic White Pulp (Lymphocytes) — เนื้อเยื่อม้ามส่วนสีขาว (T & B cells รอบหลอดเลือดแดง)"
+      },
+      {
+        "pin": "E",
+        "term": "Splenic Red Pulp (Cords of Billroth)",
+        "thaiName": "เนื้อเยื่อม้ามส่วนสีแดง (ทำลาย RBC ที่หมดอายุ >120 วัน)",
+        "description": "ตำแหน่ง [E] คือ Splenic Red Pulp (Cords of Billroth) — เนื้อเยื่อม้ามส่วนสีแดง (ทำลาย RBC ที่หมดอายุ >120 วัน)"
+      },
+      {
+        "pin": "F",
+        "term": "Cisterna Chyli & Thoracic Duct",
+        "thaiName": "กระเปาะพักน้ำเหลืองระดับ L1-L2 ต้นกำเนิด Thoracic duct",
+        "description": "ตำแหน่ง [F] คือ Cisterna Chyli & Thoracic Duct — กระเปาะพักน้ำเหลืองระดับ L1-L2 ต้นกำเนิด Thoracic duct"
+      }
+    ]
   },
   {
     "id": "CARDIO-078",
-    "questionText": "ท่อน้ำเหลืองขนาดใหญ่ที่สุดในร่างกายคือ Thoracic Duct มีจุดกำเนิดทางกายวิภาคเริ่มต้นมาจากถุงพักน้ำเหลืองรูปกระเปาะบริเวณช่องท้องส่วนบนชื่อว่าอะไร และอยู่ที่ระดับกระดูกสันหลังใด?",
+    "questionText": "[🖼️ ข้อสอบวิเคราะห์ภาพประกอบกายวิภาค — พิจารณาแผนภาพและจุดชี้ตำแหน่ง [A]–[F] โดยเฉพาะบริเวณตำแหน่ง [F]] ท่อน้ำเหลืองขนาดใหญ่ที่สุดในร่างกายคือ Thoracic Duct มีจุดกำเนิดทางกายวิภาคเริ่มต้นมาจากถุงพักน้ำเหลืองรูปกระเปาะบริเวณช่องท้องส่วนบนชื่อว่าอะไร และอยู่ที่ระดับกระดูกสันหลังใด?",
     "options": {
       "A": "Chyle pouch ที่ระดับ T4",
       "B": "Cisterna Chyli ซึ่งตั้งอยู่ด้านหน้าของกระดูกสันหลังระดับ L1 - L2",
@@ -1939,7 +3186,7 @@ export const cardioQuestions: Question[] = [
       "D": "Spleen hilum ที่ระดับ L4"
     },
     "correctOption": "B",
-    "explanation": "Thoracic duct เริ่มต้นจากกระเปาะพักน้ำเหลืองขนาดใหญ่ชื่อ Cisterna chyli ซึ่งตั้งอยู่ด้านหน้าของกระดูกสันหลังส่วนเอว L1-L2 ทำหน้าที่รวบรวมน้ำเหลืองจากลำตัวส่วนล่าง ขาทั้งสองข้าง และอวัยวะในช่องท้อง ก่อนจะทอดตัวขึ้นสู่ช่องอกผ่าน Aortic hiatus ของกะบังลม",
+    "explanation": "Thoracic duct เริ่มต้นจากกระเปาะพักน้ำเหลืองขนาดใหญ่ชื่อ Cisterna chyli ซึ่งตั้งอยู่ด้านหน้าของกระดูกสันหลังส่วนเอว L1-L2 ทำหน้าที่รวบรวมน้ำเหลืองจากลำตัวส่วนล่าง ขาทั้งสองข้าง และอวัยวะในช่องท้อง ก่อนจะทอดตัวขึ้นสู่ช่องอกผ่าน Aortic hiatus ของกะบังลม\n\n📌 สรุปจุดชี้ตำแหน่งในภาพประกอบ (Lymph Node Structure, Spleen Pulp & Thoracic Duct Drainage): จุดที่เกี่ยวข้องโดยตรงกับข้อนี้คือตำแหน่ง [F] (Cisterna Chyli & Thoracic Duct — กระเปาะพักน้ำเหลืองระดับ L1-L2 ต้นกำเนิด Thoracic duct) สามารถกดสลับดู \"ภาพเฉลยครบทุกจุด (Master Labeled Diagram)\" ด้านบนเพื่อทบทวนตำแหน่ง [A] ถึง [F] ทั้งหมดได้ทันที",
     "system": "Cardiovascular and Lymphatic Systems",
     "topic": "Lymphatic System & Organs",
     "difficulty": "Hard",
@@ -1948,11 +3195,54 @@ export const cardioQuestions: Question[] = [
     "tags": [
       "cisterna-chyli",
       "thoracic-duct",
-      "l1-l2"
+      "l1-l2",
+      "has-diagram",
+      "diagram-lymphatic_system"
     ],
     "createdAt": "2026-10-24",
     "updatedAt": "2026-10-24",
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "imageUrl": "/images/anatomy/lymphatic_system_exam.svg",
+    "labeledImageUrl": "/images/anatomy/lymphatic_system_labeled.svg",
+    "imageCaption": "Lymph Node Structure, Spleen Pulp & Thoracic Duct Drainage — โครงสร้างต่อมน้ำเหลือง ม้าม (White/Red Pulp) และท่อน้ำเหลืองใหญ่",
+    "imageLabels": [
+      {
+        "pin": "A",
+        "term": "Afferent Lymphatic Vessels",
+        "thaiName": "ท่อน้ำเหลืองนำเข้าทางด้านนูน (มีหลายท่อ)",
+        "description": "ตำแหน่ง [A] คือ Afferent Lymphatic Vessels — ท่อน้ำเหลืองนำเข้าทางด้านนูน (มีหลายท่อ)"
+      },
+      {
+        "pin": "B",
+        "term": "Germinal Center in Cortex",
+        "thaiName": "ศูนย์กลางแบ่งตัวของ B-lymphocytes ในชั้น Cortex",
+        "description": "ตำแหน่ง [B] คือ Germinal Center in Cortex — ศูนย์กลางแบ่งตัวของ B-lymphocytes ในชั้น Cortex"
+      },
+      {
+        "pin": "C",
+        "term": "Efferent Lymphatic Vessel at Hilum",
+        "thaiName": "ท่อน้ำเหลืองนำออกบริเวณขั้วรอยบุ๋ม (Hilum)",
+        "description": "ตำแหน่ง [C] คือ Efferent Lymphatic Vessel at Hilum — ท่อน้ำเหลืองนำออกบริเวณขั้วรอยบุ๋ม (Hilum)"
+      },
+      {
+        "pin": "D",
+        "term": "Splenic White Pulp (Lymphocytes)",
+        "thaiName": "เนื้อเยื่อม้ามส่วนสีขาว (T & B cells รอบหลอดเลือดแดง)",
+        "description": "ตำแหน่ง [D] คือ Splenic White Pulp (Lymphocytes) — เนื้อเยื่อม้ามส่วนสีขาว (T & B cells รอบหลอดเลือดแดง)"
+      },
+      {
+        "pin": "E",
+        "term": "Splenic Red Pulp (Cords of Billroth)",
+        "thaiName": "เนื้อเยื่อม้ามส่วนสีแดง (ทำลาย RBC ที่หมดอายุ >120 วัน)",
+        "description": "ตำแหน่ง [E] คือ Splenic Red Pulp (Cords of Billroth) — เนื้อเยื่อม้ามส่วนสีแดง (ทำลาย RBC ที่หมดอายุ >120 วัน)"
+      },
+      {
+        "pin": "F",
+        "term": "Cisterna Chyli & Thoracic Duct",
+        "thaiName": "กระเปาะพักน้ำเหลืองระดับ L1-L2 ต้นกำเนิด Thoracic duct",
+        "description": "ตำแหน่ง [F] คือ Cisterna Chyli & Thoracic Duct — กระเปาะพักน้ำเหลืองระดับ L1-L2 ต้นกำเนิด Thoracic duct"
+      }
+    ]
   },
   {
     "id": "CARDIO-079",
@@ -2005,7 +3295,7 @@ export const cardioQuestions: Question[] = [
   },
   {
     "id": "CARDIO-081",
-    "questionText": "ผู้ป่วยหญิงได้รับการผ่าตัดเต้านมข้างขวาพร้อมเลาะต่อมน้ำเหลืองบริเวณรักแร้ออกทั้งหมด (Axillary lymph node dissection) ต่อมาเกิดภาวะแขนขวาบวมโตเรื้อรัง (Lymphedema) พยาธิกำเนิดของภาวะนี้เกิดจากกลไกทางกายวิภาคใด?",
+    "questionText": "[🖼️ ข้อสอบวิเคราะห์ภาพประกอบกายวิภาค — พิจารณาแผนภาพและจุดชี้ตำแหน่ง [A]–[F] โดยเฉพาะบริเวณตำแหน่ง [A]] ผู้ป่วยหญิงได้รับการผ่าตัดเต้านมข้างขวาพร้อมเลาะต่อมน้ำเหลืองบริเวณรักแร้ออกทั้งหมด (Axillary lymph node dissection) ต่อมาเกิดภาวะแขนขวาบวมโตเรื้อรัง (Lymphedema) พยาธิกำเนิดของภาวะนี้เกิดจากกลไกทางกายวิภาคใด?",
     "options": {
       "A": "การอุดกั้นหรือถูกทำลายของท่อและต่อมน้ำเหลือง ทำให้ของเหลวและโปรตีนในช่องว่างระหว่างเซลล์ไม่สามารถระบายกลับเข้าสู่ระบบไหลเวียนได้ เกิดการสะสมของของเหลวที่มีโปรตีนสูงในเนื้อเยื่อ",
       "B": "การฉีกขาดของหลอดเลือดแดง Brachial artery",
@@ -2013,7 +3303,7 @@ export const cardioQuestions: Question[] = [
       "D": "การติดเชื้อไวรัสในไขกระดูก"
     },
     "correctOption": "A",
-    "explanation": "Lymphedema เกิดจากการขัดขวางทางเดินน้ำเหลือง (Lymphatic obstruction) จากการผ่าตัดหรือฉายรังสี ทำให้ Lymphatic drainage จากแขนหยุดชะงัก โปรตีนและของเหลวคั่งค้างใน Interstitial space ดึงน้ำไว้ตามแรงดึงออสโมติก เกิดอาการบวมตึงเรื้อรังของรยางค์ข้างนั้น",
+    "explanation": "Lymphedema เกิดจากการขัดขวางทางเดินน้ำเหลือง (Lymphatic obstruction) จากการผ่าตัดหรือฉายรังสี ทำให้ Lymphatic drainage จากแขนหยุดชะงัก โปรตีนและของเหลวคั่งค้างใน Interstitial space ดึงน้ำไว้ตามแรงดึงออสโมติก เกิดอาการบวมตึงเรื้อรังของรยางค์ข้างนั้น\n\n📌 สรุปจุดชี้ตำแหน่งในภาพประกอบ (Lymph Node Structure, Spleen Pulp & Thoracic Duct Drainage): จุดที่เกี่ยวข้องโดยตรงกับข้อนี้คือตำแหน่ง [A] (Afferent Lymphatic Vessels — ท่อน้ำเหลืองนำเข้าทางด้านนูน (มีหลายท่อ)) สามารถกดสลับดู \"ภาพเฉลยครบทุกจุด (Master Labeled Diagram)\" ด้านบนเพื่อทบทวนตำแหน่ง [A] ถึง [F] ทั้งหมดได้ทันที",
     "system": "Cardiovascular and Lymphatic Systems",
     "topic": "Lymphatic System & Organs",
     "difficulty": "Hard",
@@ -2022,15 +3312,58 @@ export const cardioQuestions: Question[] = [
     "tags": [
       "lymphedema",
       "axillary-dissection",
-      "lymphatic-obstruction"
+      "lymphatic-obstruction",
+      "has-diagram",
+      "diagram-lymphatic_system"
     ],
     "createdAt": "2026-10-24",
     "updatedAt": "2026-10-24",
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "imageUrl": "/images/anatomy/lymphatic_system_exam.svg",
+    "labeledImageUrl": "/images/anatomy/lymphatic_system_labeled.svg",
+    "imageCaption": "Lymph Node Structure, Spleen Pulp & Thoracic Duct Drainage — โครงสร้างต่อมน้ำเหลือง ม้าม (White/Red Pulp) และท่อน้ำเหลืองใหญ่",
+    "imageLabels": [
+      {
+        "pin": "A",
+        "term": "Afferent Lymphatic Vessels",
+        "thaiName": "ท่อน้ำเหลืองนำเข้าทางด้านนูน (มีหลายท่อ)",
+        "description": "ตำแหน่ง [A] คือ Afferent Lymphatic Vessels — ท่อน้ำเหลืองนำเข้าทางด้านนูน (มีหลายท่อ)"
+      },
+      {
+        "pin": "B",
+        "term": "Germinal Center in Cortex",
+        "thaiName": "ศูนย์กลางแบ่งตัวของ B-lymphocytes ในชั้น Cortex",
+        "description": "ตำแหน่ง [B] คือ Germinal Center in Cortex — ศูนย์กลางแบ่งตัวของ B-lymphocytes ในชั้น Cortex"
+      },
+      {
+        "pin": "C",
+        "term": "Efferent Lymphatic Vessel at Hilum",
+        "thaiName": "ท่อน้ำเหลืองนำออกบริเวณขั้วรอยบุ๋ม (Hilum)",
+        "description": "ตำแหน่ง [C] คือ Efferent Lymphatic Vessel at Hilum — ท่อน้ำเหลืองนำออกบริเวณขั้วรอยบุ๋ม (Hilum)"
+      },
+      {
+        "pin": "D",
+        "term": "Splenic White Pulp (Lymphocytes)",
+        "thaiName": "เนื้อเยื่อม้ามส่วนสีขาว (T & B cells รอบหลอดเลือดแดง)",
+        "description": "ตำแหน่ง [D] คือ Splenic White Pulp (Lymphocytes) — เนื้อเยื่อม้ามส่วนสีขาว (T & B cells รอบหลอดเลือดแดง)"
+      },
+      {
+        "pin": "E",
+        "term": "Splenic Red Pulp (Cords of Billroth)",
+        "thaiName": "เนื้อเยื่อม้ามส่วนสีแดง (ทำลาย RBC ที่หมดอายุ >120 วัน)",
+        "description": "ตำแหน่ง [E] คือ Splenic Red Pulp (Cords of Billroth) — เนื้อเยื่อม้ามส่วนสีแดง (ทำลาย RBC ที่หมดอายุ >120 วัน)"
+      },
+      {
+        "pin": "F",
+        "term": "Cisterna Chyli & Thoracic Duct",
+        "thaiName": "กระเปาะพักน้ำเหลืองระดับ L1-L2 ต้นกำเนิด Thoracic duct",
+        "description": "ตำแหน่ง [F] คือ Cisterna Chyli & Thoracic Duct — กระเปาะพักน้ำเหลืองระดับ L1-L2 ต้นกำเนิด Thoracic duct"
+      }
+    ]
   },
   {
     "id": "CARDIO-082",
-    "questionText": "โครงสร้างทางกายวิภาคของต่อมน้ำเหลือง (Lymph node) มีหลอดน้ำเหลืองนำน้ำเหลืองเข้าและออกจากต่อมในลักษณะใด?",
+    "questionText": "[🖼️ ข้อสอบวิเคราะห์ภาพประกอบกายวิภาค — พิจารณาแผนภาพและจุดชี้ตำแหน่ง [A]–[F] โดยเฉพาะบริเวณตำแหน่ง [B]] โครงสร้างทางกายวิภาคของต่อมน้ำเหลือง (Lymph node) มีหลอดน้ำเหลืองนำน้ำเหลืองเข้าและออกจากต่อมในลักษณะใด?",
     "options": {
       "A": "มี Efferent vessels หลายท่อนำเข้าทาง Hilum และ Afferent ท่อเดียวนำออก",
       "B": "มี Afferent lymphatic vessels หลายท่อนำน้ำเหลืองเข้าทางด้านนูน (Convex surface) และมี Efferent lymphatic vessel เพียง 1-2 ท่อนำน้ำเหลืองออกทางรอยบุ๋ม (Hilum)",
@@ -2038,7 +3371,7 @@ export const cardioQuestions: Question[] = [
       "D": "ไม่มีท่อน้ำเหลืองเข้าหรือออก น้ำเหลืองซึมผ่านแคปซูลโดยตรง"
     },
     "correctOption": "B",
-    "explanation": "ต่อมน้ำเหลืองมีท่อน้ำเหลืองเข้า (Afferent lymphatic vessels) จำนวนมากเจาะผ่าน Capsule ด้านนูน แต่น้ำเหลืองที่ผ่านการกรองแล้วจะออกจากต่อมผ่านท่อน้ำเหลืองออก (Efferent lymphatic vessel) เพียง 1 หรือ 2 ท่อทางด้านเว้าหรือรอยบุ๋ม (Hilum) ซึ่งการมีท่อเข้าน้อยกว่าท่อออกช่วยชะลอการไหลให้น้ำเหลืองสัมผัสกับ Macrophages และ Lymphocytes ได้นานขึ้น",
+    "explanation": "ต่อมน้ำเหลืองมีท่อน้ำเหลืองเข้า (Afferent lymphatic vessels) จำนวนมากเจาะผ่าน Capsule ด้านนูน แต่น้ำเหลืองที่ผ่านการกรองแล้วจะออกจากต่อมผ่านท่อน้ำเหลืองออก (Efferent lymphatic vessel) เพียง 1 หรือ 2 ท่อทางด้านเว้าหรือรอยบุ๋ม (Hilum) ซึ่งการมีท่อเข้าน้อยกว่าท่อออกช่วยชะลอการไหลให้น้ำเหลืองสัมผัสกับ Macrophages และ Lymphocytes ได้นานขึ้น\n\n📌 สรุปจุดชี้ตำแหน่งในภาพประกอบ (Lymph Node Structure, Spleen Pulp & Thoracic Duct Drainage): จุดที่เกี่ยวข้องโดยตรงกับข้อนี้คือตำแหน่ง [B] (Germinal Center in Cortex — ศูนย์กลางแบ่งตัวของ B-lymphocytes ในชั้น Cortex) สามารถกดสลับดู \"ภาพเฉลยครบทุกจุด (Master Labeled Diagram)\" ด้านบนเพื่อทบทวนตำแหน่ง [A] ถึง [F] ทั้งหมดได้ทันที",
     "system": "Cardiovascular and Lymphatic Systems",
     "topic": "Lymphatic System & Organs",
     "difficulty": "Hard",
@@ -2047,11 +3380,54 @@ export const cardioQuestions: Question[] = [
     "tags": [
       "lymph-node-anatomy",
       "afferent-vs-efferent",
-      "hilum"
+      "hilum",
+      "has-diagram",
+      "diagram-lymphatic_system"
     ],
     "createdAt": "2026-10-24",
     "updatedAt": "2026-10-24",
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "imageUrl": "/images/anatomy/lymphatic_system_exam.svg",
+    "labeledImageUrl": "/images/anatomy/lymphatic_system_labeled.svg",
+    "imageCaption": "Lymph Node Structure, Spleen Pulp & Thoracic Duct Drainage — โครงสร้างต่อมน้ำเหลือง ม้าม (White/Red Pulp) และท่อน้ำเหลืองใหญ่",
+    "imageLabels": [
+      {
+        "pin": "A",
+        "term": "Afferent Lymphatic Vessels",
+        "thaiName": "ท่อน้ำเหลืองนำเข้าทางด้านนูน (มีหลายท่อ)",
+        "description": "ตำแหน่ง [A] คือ Afferent Lymphatic Vessels — ท่อน้ำเหลืองนำเข้าทางด้านนูน (มีหลายท่อ)"
+      },
+      {
+        "pin": "B",
+        "term": "Germinal Center in Cortex",
+        "thaiName": "ศูนย์กลางแบ่งตัวของ B-lymphocytes ในชั้น Cortex",
+        "description": "ตำแหน่ง [B] คือ Germinal Center in Cortex — ศูนย์กลางแบ่งตัวของ B-lymphocytes ในชั้น Cortex"
+      },
+      {
+        "pin": "C",
+        "term": "Efferent Lymphatic Vessel at Hilum",
+        "thaiName": "ท่อน้ำเหลืองนำออกบริเวณขั้วรอยบุ๋ม (Hilum)",
+        "description": "ตำแหน่ง [C] คือ Efferent Lymphatic Vessel at Hilum — ท่อน้ำเหลืองนำออกบริเวณขั้วรอยบุ๋ม (Hilum)"
+      },
+      {
+        "pin": "D",
+        "term": "Splenic White Pulp (Lymphocytes)",
+        "thaiName": "เนื้อเยื่อม้ามส่วนสีขาว (T & B cells รอบหลอดเลือดแดง)",
+        "description": "ตำแหน่ง [D] คือ Splenic White Pulp (Lymphocytes) — เนื้อเยื่อม้ามส่วนสีขาว (T & B cells รอบหลอดเลือดแดง)"
+      },
+      {
+        "pin": "E",
+        "term": "Splenic Red Pulp (Cords of Billroth)",
+        "thaiName": "เนื้อเยื่อม้ามส่วนสีแดง (ทำลาย RBC ที่หมดอายุ >120 วัน)",
+        "description": "ตำแหน่ง [E] คือ Splenic Red Pulp (Cords of Billroth) — เนื้อเยื่อม้ามส่วนสีแดง (ทำลาย RBC ที่หมดอายุ >120 วัน)"
+      },
+      {
+        "pin": "F",
+        "term": "Cisterna Chyli & Thoracic Duct",
+        "thaiName": "กระเปาะพักน้ำเหลืองระดับ L1-L2 ต้นกำเนิด Thoracic duct",
+        "description": "ตำแหน่ง [F] คือ Cisterna Chyli & Thoracic Duct — กระเปาะพักน้ำเหลืองระดับ L1-L2 ต้นกำเนิด Thoracic duct"
+      }
+    ]
   },
   {
     "id": "CARDIO-083",
@@ -2132,7 +3508,7 @@ export const cardioQuestions: Question[] = [
   },
   {
     "id": "CARDIO-086",
-    "questionText": "ผู้ป่วยประสบอุบัติเหตุม้ามแตก (Splenic rupture) และได้รับการผ่าตัดตัดม้ามออก (Splenectomy) หลังการผ่าตัดผู้ป่วยจะมีความเสี่ยงสูงขึ้นต่อการติดเชื้อแบคทีเรียกลุ่มใดมากที่สุดตลอดชีวิต?",
+    "questionText": "[🖼️ ข้อสอบวิเคราะห์ภาพประกอบกายวิภาค — พิจารณาแผนภาพและจุดชี้ตำแหน่ง [A]–[F] โดยเฉพาะบริเวณตำแหน่ง [D]] ผู้ป่วยประสบอุบัติเหตุม้ามแตก (Splenic rupture) และได้รับการผ่าตัดตัดม้ามออก (Splenectomy) หลังการผ่าตัดผู้ป่วยจะมีความเสี่ยงสูงขึ้นต่อการติดเชื้อแบคทีเรียกลุ่มใดมากที่สุดตลอดชีวิต?",
     "options": {
       "A": "Anaerobic bacteria ในลำไส้ใหญ่",
       "B": "Encapsulated bacteria (แบคทีเรียที่มีแคปซูลหุ้ม เช่น Streptococcus pneumoniae, Neisseria meningitidis, Haemophilus influenzae)",
@@ -2140,7 +3516,7 @@ export const cardioQuestions: Question[] = [
       "D": "พยาธิใบไม้ในตับ"
     },
     "correctOption": "B",
-    "explanation": "ม้ามเป็นแหล่งสร้าง Opsonin, Properdin และแอนติบอดี IgM ที่สำคัญในการกำจัดแบคทีเรียที่มีแคปซูลหุ้ม (Encapsulated organisms) ผู้ที่ถูกตัดม้ามจึงสูญเสียกลไก Phagocytosis ใน Red pulp และเสี่ยงต่อภาวะ Overwhelming Post-Splenectomy Infection (OPSI) จากเชื้อ S. pneumoniae อย่างรุนแรงจนต้องฉีดวัคซีนป้องกัน",
+    "explanation": "ม้ามเป็นแหล่งสร้าง Opsonin, Properdin และแอนติบอดี IgM ที่สำคัญในการกำจัดแบคทีเรียที่มีแคปซูลหุ้ม (Encapsulated organisms) ผู้ที่ถูกตัดม้ามจึงสูญเสียกลไก Phagocytosis ใน Red pulp และเสี่ยงต่อภาวะ Overwhelming Post-Splenectomy Infection (OPSI) จากเชื้อ S. pneumoniae อย่างรุนแรงจนต้องฉีดวัคซีนป้องกัน\n\n📌 สรุปจุดชี้ตำแหน่งในภาพประกอบ (Lymph Node Structure, Spleen Pulp & Thoracic Duct Drainage): จุดที่เกี่ยวข้องโดยตรงกับข้อนี้คือตำแหน่ง [D] (Splenic White Pulp (Lymphocytes) — เนื้อเยื่อม้ามส่วนสีขาว (T & B cells รอบหลอดเลือดแดง)) สามารถกดสลับดู \"ภาพเฉลยครบทุกจุด (Master Labeled Diagram)\" ด้านบนเพื่อทบทวนตำแหน่ง [A] ถึง [F] ทั้งหมดได้ทันที",
     "system": "Cardiovascular and Lymphatic Systems",
     "topic": "Lymphatic System & Organs",
     "difficulty": "Hard",
@@ -2150,15 +3526,58 @@ export const cardioQuestions: Question[] = [
       "splenectomy",
       "encapsulated-bacteria",
       "opsi",
-      "pneumococcus"
+      "pneumococcus",
+      "has-diagram",
+      "diagram-lymphatic_system"
     ],
     "createdAt": "2026-10-24",
     "updatedAt": "2026-10-24",
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "imageUrl": "/images/anatomy/lymphatic_system_exam.svg",
+    "labeledImageUrl": "/images/anatomy/lymphatic_system_labeled.svg",
+    "imageCaption": "Lymph Node Structure, Spleen Pulp & Thoracic Duct Drainage — โครงสร้างต่อมน้ำเหลือง ม้าม (White/Red Pulp) และท่อน้ำเหลืองใหญ่",
+    "imageLabels": [
+      {
+        "pin": "A",
+        "term": "Afferent Lymphatic Vessels",
+        "thaiName": "ท่อน้ำเหลืองนำเข้าทางด้านนูน (มีหลายท่อ)",
+        "description": "ตำแหน่ง [A] คือ Afferent Lymphatic Vessels — ท่อน้ำเหลืองนำเข้าทางด้านนูน (มีหลายท่อ)"
+      },
+      {
+        "pin": "B",
+        "term": "Germinal Center in Cortex",
+        "thaiName": "ศูนย์กลางแบ่งตัวของ B-lymphocytes ในชั้น Cortex",
+        "description": "ตำแหน่ง [B] คือ Germinal Center in Cortex — ศูนย์กลางแบ่งตัวของ B-lymphocytes ในชั้น Cortex"
+      },
+      {
+        "pin": "C",
+        "term": "Efferent Lymphatic Vessel at Hilum",
+        "thaiName": "ท่อน้ำเหลืองนำออกบริเวณขั้วรอยบุ๋ม (Hilum)",
+        "description": "ตำแหน่ง [C] คือ Efferent Lymphatic Vessel at Hilum — ท่อน้ำเหลืองนำออกบริเวณขั้วรอยบุ๋ม (Hilum)"
+      },
+      {
+        "pin": "D",
+        "term": "Splenic White Pulp (Lymphocytes)",
+        "thaiName": "เนื้อเยื่อม้ามส่วนสีขาว (T & B cells รอบหลอดเลือดแดง)",
+        "description": "ตำแหน่ง [D] คือ Splenic White Pulp (Lymphocytes) — เนื้อเยื่อม้ามส่วนสีขาว (T & B cells รอบหลอดเลือดแดง)"
+      },
+      {
+        "pin": "E",
+        "term": "Splenic Red Pulp (Cords of Billroth)",
+        "thaiName": "เนื้อเยื่อม้ามส่วนสีแดง (ทำลาย RBC ที่หมดอายุ >120 วัน)",
+        "description": "ตำแหน่ง [E] คือ Splenic Red Pulp (Cords of Billroth) — เนื้อเยื่อม้ามส่วนสีแดง (ทำลาย RBC ที่หมดอายุ >120 วัน)"
+      },
+      {
+        "pin": "F",
+        "term": "Cisterna Chyli & Thoracic Duct",
+        "thaiName": "กระเปาะพักน้ำเหลืองระดับ L1-L2 ต้นกำเนิด Thoracic duct",
+        "description": "ตำแหน่ง [F] คือ Cisterna Chyli & Thoracic Duct — กระเปาะพักน้ำเหลืองระดับ L1-L2 ต้นกำเนิด Thoracic duct"
+      }
+    ]
   },
   {
     "id": "CARDIO-087",
-    "questionText": "ต่อมไทมัส (Thymus gland) ตั้งอยู่ในช่องอกบริเวณ Superior และ Anterior mediastinum มีการเปลี่ยนแปลงตามช่วงอายุของมนุษย์อย่างไร?",
+    "questionText": "[🖼️ ข้อสอบวิเคราะห์ภาพประกอบกายวิภาค — พิจารณาแผนภาพและจุดชี้ตำแหน่ง [A]–[F] โดยเฉพาะบริเวณตำแหน่ง [E]] ต่อมไทมัส (Thymus gland) ตั้งอยู่ในช่องอกบริเวณ Superior และ Anterior mediastinum มีการเปลี่ยนแปลงตามช่วงอายุของมนุษย์อย่างไร?",
     "options": {
       "A": "ไม่มีการเปลี่ยนแปลงขนาดตลอดช่วงอายุขัย",
       "B": "มีขนาดเล็กมากในวัยเด็กและจะเจริญเติบโตขยายใหญ่สุดในวัยชรา",
@@ -2166,7 +3585,7 @@ export const cardioQuestions: Question[] = [
       "D": "จะสลายตัวหมดสิ้นทันทีหลังคลอด 24 ชั่วโมง"
     },
     "correctOption": "C",
-    "explanation": "ต่อมไทมัสมีขนาดใหญ่และกิจกรรมการสร้าง T-cells สูงสุดในช่วงทารกจนถึงวัยเด็ก เมื่อเข้าสู่วัยแรกรุ่น (Puberty) อิทธิพลของฮอร์โมนเพศจะทำให้ต่อมไทมัสค่อยๆ ฝ่อเล็กลง (Involution) เนื้อเยื่อน้ำเหลืองถูกแทนที่ด้วย Adipose tissue ในผู้สูงอายุ แต่ยังคงมีเซลล์ทำหน้าที่เหลืออยู่บางส่วน",
+    "explanation": "ต่อมไทมัสมีขนาดใหญ่และกิจกรรมการสร้าง T-cells สูงสุดในช่วงทารกจนถึงวัยเด็ก เมื่อเข้าสู่วัยแรกรุ่น (Puberty) อิทธิพลของฮอร์โมนเพศจะทำให้ต่อมไทมัสค่อยๆ ฝ่อเล็กลง (Involution) เนื้อเยื่อน้ำเหลืองถูกแทนที่ด้วย Adipose tissue ในผู้สูงอายุ แต่ยังคงมีเซลล์ทำหน้าที่เหลืออยู่บางส่วน\n\n📌 สรุปจุดชี้ตำแหน่งในภาพประกอบ (Lymph Node Structure, Spleen Pulp & Thoracic Duct Drainage): จุดที่เกี่ยวข้องโดยตรงกับข้อนี้คือตำแหน่ง [E] (Splenic Red Pulp (Cords of Billroth) — เนื้อเยื่อม้ามส่วนสีแดง (ทำลาย RBC ที่หมดอายุ >120 วัน)) สามารถกดสลับดู \"ภาพเฉลยครบทุกจุด (Master Labeled Diagram)\" ด้านบนเพื่อทบทวนตำแหน่ง [A] ถึง [F] ทั้งหมดได้ทันที",
     "system": "Cardiovascular and Lymphatic Systems",
     "topic": "Lymphatic System & Organs",
     "difficulty": "Medium",
@@ -2175,15 +3594,58 @@ export const cardioQuestions: Question[] = [
     "tags": [
       "thymus",
       "thymic-involution",
-      "age-changes"
+      "age-changes",
+      "has-diagram",
+      "diagram-lymphatic_system"
     ],
     "createdAt": "2026-10-24",
     "updatedAt": "2026-10-24",
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "imageUrl": "/images/anatomy/lymphatic_system_exam.svg",
+    "labeledImageUrl": "/images/anatomy/lymphatic_system_labeled.svg",
+    "imageCaption": "Lymph Node Structure, Spleen Pulp & Thoracic Duct Drainage — โครงสร้างต่อมน้ำเหลือง ม้าม (White/Red Pulp) และท่อน้ำเหลืองใหญ่",
+    "imageLabels": [
+      {
+        "pin": "A",
+        "term": "Afferent Lymphatic Vessels",
+        "thaiName": "ท่อน้ำเหลืองนำเข้าทางด้านนูน (มีหลายท่อ)",
+        "description": "ตำแหน่ง [A] คือ Afferent Lymphatic Vessels — ท่อน้ำเหลืองนำเข้าทางด้านนูน (มีหลายท่อ)"
+      },
+      {
+        "pin": "B",
+        "term": "Germinal Center in Cortex",
+        "thaiName": "ศูนย์กลางแบ่งตัวของ B-lymphocytes ในชั้น Cortex",
+        "description": "ตำแหน่ง [B] คือ Germinal Center in Cortex — ศูนย์กลางแบ่งตัวของ B-lymphocytes ในชั้น Cortex"
+      },
+      {
+        "pin": "C",
+        "term": "Efferent Lymphatic Vessel at Hilum",
+        "thaiName": "ท่อน้ำเหลืองนำออกบริเวณขั้วรอยบุ๋ม (Hilum)",
+        "description": "ตำแหน่ง [C] คือ Efferent Lymphatic Vessel at Hilum — ท่อน้ำเหลืองนำออกบริเวณขั้วรอยบุ๋ม (Hilum)"
+      },
+      {
+        "pin": "D",
+        "term": "Splenic White Pulp (Lymphocytes)",
+        "thaiName": "เนื้อเยื่อม้ามส่วนสีขาว (T & B cells รอบหลอดเลือดแดง)",
+        "description": "ตำแหน่ง [D] คือ Splenic White Pulp (Lymphocytes) — เนื้อเยื่อม้ามส่วนสีขาว (T & B cells รอบหลอดเลือดแดง)"
+      },
+      {
+        "pin": "E",
+        "term": "Splenic Red Pulp (Cords of Billroth)",
+        "thaiName": "เนื้อเยื่อม้ามส่วนสีแดง (ทำลาย RBC ที่หมดอายุ >120 วัน)",
+        "description": "ตำแหน่ง [E] คือ Splenic Red Pulp (Cords of Billroth) — เนื้อเยื่อม้ามส่วนสีแดง (ทำลาย RBC ที่หมดอายุ >120 วัน)"
+      },
+      {
+        "pin": "F",
+        "term": "Cisterna Chyli & Thoracic Duct",
+        "thaiName": "กระเปาะพักน้ำเหลืองระดับ L1-L2 ต้นกำเนิด Thoracic duct",
+        "description": "ตำแหน่ง [F] คือ Cisterna Chyli & Thoracic Duct — กระเปาะพักน้ำเหลืองระดับ L1-L2 ต้นกำเนิด Thoracic duct"
+      }
+    ]
   },
   {
     "id": "CARDIO-088",
-    "questionText": "โครงสร้างจุลกายวิภาคที่มีลักษณะเป็นชั้นเซลล์เยื่อบุผิวเรียงตัวซ้อนกันเป็นวงกลมคล้ายหัวหอม (Concentric whorls of keratinized epithelial cells) ซึ่งพบเฉพาะในชั้น Medulla ของต่อมไทมัส คือข้อใด?",
+    "questionText": "[🖼️ ข้อสอบวิเคราะห์ภาพประกอบกายวิภาค — พิจารณาแผนภาพและจุดชี้ตำแหน่ง [A]–[F] โดยเฉพาะบริเวณตำแหน่ง [C]] โครงสร้างจุลกายวิภาคที่มีลักษณะเป็นชั้นเซลล์เยื่อบุผิวเรียงตัวซ้อนกันเป็นวงกลมคล้ายหัวหอม (Concentric whorls of keratinized epithelial cells) ซึ่งพบเฉพาะในชั้น Medulla ของต่อมไทมัส คือข้อใด?",
     "options": {
       "A": "Germinal centers",
       "B": "Malpighian corpuscles",
@@ -2191,7 +3653,7 @@ export const cardioQuestions: Question[] = [
       "D": "Thymic corpuscles (Hassall's corpuscles)"
     },
     "correctOption": "D",
-    "explanation": "Thymic (Hassall's) corpuscles เป็นโครงสร้างเอกลักษณ์ที่พบเฉพาะในชั้น Medulla ของต่อมไทมัส เกิดจาก Epithelioreticular cells ชนิด Type VI เรียงตัวซ้อนกันเป็นวงซ้อนคล้ายหัวหอม เชื่อว่าทำหน้าที่หลั่งไซโตไคน์ เช่น TSLP ในการคัดเลือก Regulatory T cells",
+    "explanation": "Thymic (Hassall's) corpuscles เป็นโครงสร้างเอกลักษณ์ที่พบเฉพาะในชั้น Medulla ของต่อมไทมัส เกิดจาก Epithelioreticular cells ชนิด Type VI เรียงตัวซ้อนกันเป็นวงซ้อนคล้ายหัวหอม เชื่อว่าทำหน้าที่หลั่งไซโตไคน์ เช่น TSLP ในการคัดเลือก Regulatory T cells\n\n📌 สรุปจุดชี้ตำแหน่งในภาพประกอบ (Lymph Node Structure, Spleen Pulp & Thoracic Duct Drainage): จุดที่เกี่ยวข้องโดยตรงกับข้อนี้คือตำแหน่ง [C] (Efferent Lymphatic Vessel at Hilum — ท่อน้ำเหลืองนำออกบริเวณขั้วรอยบุ๋ม (Hilum)) สามารถกดสลับดู \"ภาพเฉลยครบทุกจุด (Master Labeled Diagram)\" ด้านบนเพื่อทบทวนตำแหน่ง [A] ถึง [F] ทั้งหมดได้ทันที",
     "system": "Cardiovascular and Lymphatic Systems",
     "topic": "Lymphatic System & Organs",
     "difficulty": "Hard",
@@ -2200,11 +3662,54 @@ export const cardioQuestions: Question[] = [
     "tags": [
       "hassalls-corpuscles",
       "thymus-medulla",
-      "epithelioreticular-cells"
+      "epithelioreticular-cells",
+      "has-diagram",
+      "diagram-lymphatic_system"
     ],
     "createdAt": "2026-10-24",
     "updatedAt": "2026-10-24",
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "imageUrl": "/images/anatomy/lymphatic_system_exam.svg",
+    "labeledImageUrl": "/images/anatomy/lymphatic_system_labeled.svg",
+    "imageCaption": "Lymph Node Structure, Spleen Pulp & Thoracic Duct Drainage — โครงสร้างต่อมน้ำเหลือง ม้าม (White/Red Pulp) และท่อน้ำเหลืองใหญ่",
+    "imageLabels": [
+      {
+        "pin": "A",
+        "term": "Afferent Lymphatic Vessels",
+        "thaiName": "ท่อน้ำเหลืองนำเข้าทางด้านนูน (มีหลายท่อ)",
+        "description": "ตำแหน่ง [A] คือ Afferent Lymphatic Vessels — ท่อน้ำเหลืองนำเข้าทางด้านนูน (มีหลายท่อ)"
+      },
+      {
+        "pin": "B",
+        "term": "Germinal Center in Cortex",
+        "thaiName": "ศูนย์กลางแบ่งตัวของ B-lymphocytes ในชั้น Cortex",
+        "description": "ตำแหน่ง [B] คือ Germinal Center in Cortex — ศูนย์กลางแบ่งตัวของ B-lymphocytes ในชั้น Cortex"
+      },
+      {
+        "pin": "C",
+        "term": "Efferent Lymphatic Vessel at Hilum",
+        "thaiName": "ท่อน้ำเหลืองนำออกบริเวณขั้วรอยบุ๋ม (Hilum)",
+        "description": "ตำแหน่ง [C] คือ Efferent Lymphatic Vessel at Hilum — ท่อน้ำเหลืองนำออกบริเวณขั้วรอยบุ๋ม (Hilum)"
+      },
+      {
+        "pin": "D",
+        "term": "Splenic White Pulp (Lymphocytes)",
+        "thaiName": "เนื้อเยื่อม้ามส่วนสีขาว (T & B cells รอบหลอดเลือดแดง)",
+        "description": "ตำแหน่ง [D] คือ Splenic White Pulp (Lymphocytes) — เนื้อเยื่อม้ามส่วนสีขาว (T & B cells รอบหลอดเลือดแดง)"
+      },
+      {
+        "pin": "E",
+        "term": "Splenic Red Pulp (Cords of Billroth)",
+        "thaiName": "เนื้อเยื่อม้ามส่วนสีแดง (ทำลาย RBC ที่หมดอายุ >120 วัน)",
+        "description": "ตำแหน่ง [E] คือ Splenic Red Pulp (Cords of Billroth) — เนื้อเยื่อม้ามส่วนสีแดง (ทำลาย RBC ที่หมดอายุ >120 วัน)"
+      },
+      {
+        "pin": "F",
+        "term": "Cisterna Chyli & Thoracic Duct",
+        "thaiName": "กระเปาะพักน้ำเหลืองระดับ L1-L2 ต้นกำเนิด Thoracic duct",
+        "description": "ตำแหน่ง [F] คือ Cisterna Chyli & Thoracic Duct — กระเปาะพักน้ำเหลืองระดับ L1-L2 ต้นกำเนิด Thoracic duct"
+      }
+    ]
   },
   {
     "id": "CARDIO-089",

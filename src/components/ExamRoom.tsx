@@ -14,6 +14,7 @@ import {
 } from 'lucide-react';
 import { Question, OptionKey, ExamMode } from '../types';
 import { StorageService } from '../services/storage';
+import { AnatomyImageViewer } from './AnatomyImageViewer';
 
 interface ActiveExamSession {
   attemptId: string;
@@ -243,6 +244,17 @@ export const ExamRoom: React.FC<ExamRoomProps> = ({
         <div className="text-base sm:text-lg font-bold text-slate-900 dark:text-white leading-relaxed">
           {currentQuestion.questionText}
         </div>
+
+        {/* Anatomical Diagram Preview & Fullscreen Zoom Viewer */}
+        {currentQuestion.imageUrl && (
+          <AnatomyImageViewer
+            imageUrl={currentQuestion.imageUrl}
+            labeledImageUrl={currentQuestion.labeledImageUrl}
+            imageCaption={currentQuestion.imageCaption}
+            imageLabels={currentQuestion.imageLabels}
+            showSolution={session.examMode === 'practice' && Boolean(userAnswers[currentQuestion.id])}
+          />
+        )}
 
         {/* Options A, B, C, D */}
         <div className="space-y-3 pt-2">

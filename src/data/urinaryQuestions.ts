@@ -157,7 +157,7 @@ export const urinaryQuestions: Question[] = [
   },
   {
     "id": "URINARY-007",
-    "questionText": "ในผู้ป่วยที่มีภาวะน้ำหนักตัวลดลงอย่างรวดเร็วและรุนแรง อาจเกิดภาวะไตเลื่อนหลุดลงสู่ช่องเชิงกราน (Renal ptosis / Nephroptosis) ซึ่งอาจทำให้ท่อไตหักพับและเกิดการอุดตันของปัสสาวะ ภาวะนี้เกิดจากการสูญเสียเนื้อเยื่อห่อหุ้มไตชั้นใด?",
+    "questionText": "[🖼️ ข้อสอบวิเคราะห์ภาพประกอบกายวิภาค — พิจารณาแผนภาพและจุดชี้ตำแหน่ง [A]–[F] โดยเฉพาะบริเวณตำแหน่ง [E]] ในผู้ป่วยที่มีภาวะน้ำหนักตัวลดลงอย่างรวดเร็วและรุนแรง อาจเกิดภาวะไตเลื่อนหลุดลงสู่ช่องเชิงกราน (Renal ptosis / Nephroptosis) ซึ่งอาจทำให้ท่อไตหักพับและเกิดการอุดตันของปัสสาวะ ภาวะนี้เกิดจากการสูญเสียเนื้อเยื่อห่อหุ้มไตชั้นใด?",
     "options": {
       "A": "Renal cortex",
       "B": "Renal fibrous capsule",
@@ -165,7 +165,7 @@ export const urinaryQuestions: Question[] = [
       "D": "Glomerular basement membrane"
     },
     "correctOption": "C",
-    "explanation": "Adipose capsule (Perirenal fat) เป็นก้อนไขมันหนาที่โอบล้อมรอบไต ทำหน้าที่ค้ำจุนพยุงไตให้อยู่ในตำแหน่งปกติทางกายวิภาค หากน้ำหนักลดลงอย่างรวดเร็ว (เช่น ภาวะ Anorexia nervosa หรือโรคมะเร็ง) ก้อนไขมันนี้จะสลายไป ทำให้ไตเลื่อนหล่นลงล่าง (Nephroptosis / Floating kidney) ส่งผลให้ Ureter บิดงอ (Kinking) เกิดภาวะ Hydronephrosis",
+    "explanation": "Adipose capsule (Perirenal fat) เป็นก้อนไขมันหนาที่โอบล้อมรอบไต ทำหน้าที่ค้ำจุนพยุงไตให้อยู่ในตำแหน่งปกติทางกายวิภาค หากน้ำหนักลดลงอย่างรวดเร็ว (เช่น ภาวะ Anorexia nervosa หรือโรคมะเร็ง) ก้อนไขมันนี้จะสลายไป ทำให้ไตเลื่อนหล่นลงล่าง (Nephroptosis / Floating kidney) ส่งผลให้ Ureter บิดงอ (Kinking) เกิดภาวะ Hydronephrosis\n\n📌 สรุปจุดชี้ตำแหน่งในภาพประกอบ (Internal Structure of the Kidney: Cortex, Medulla, Calyces & Hilum): จุดที่เกี่ยวข้องโดยตรงกับข้อนี้คือตำแหน่ง [E] (Renal Hilum (Vein-Artery-Pelvis) — ขั้วไตทางด้านใน เรียงจากหน้าไปหลัง: Renal Vein -> Artery -> Pelvis) สามารถกดสลับดู \"ภาพเฉลยครบทุกจุด (Master Labeled Diagram)\" ด้านบนเพื่อทบทวนตำแหน่ง [A] ถึง [F] ทั้งหมดได้ทันที",
     "system": "Urinary System",
     "topic": "Kidney Gross Anatomy & Position",
     "difficulty": "Hard",
@@ -175,11 +175,54 @@ export const urinaryQuestions: Question[] = [
       "nephroptosis",
       "renal-ptosis",
       "perirenal-fat",
-      "hydronephrosis"
+      "hydronephrosis",
+      "has-diagram",
+      "diagram-kidney_gross_internal"
     ],
     "createdAt": "2026-10-24",
     "updatedAt": "2026-10-24",
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "imageUrl": "/images/anatomy/kidney_gross_internal_exam.svg",
+    "labeledImageUrl": "/images/anatomy/kidney_gross_internal_labeled.svg",
+    "imageCaption": "Internal Structure of the Kidney: Cortex, Medulla, Calyces & Hilum — โครงสร้างภายในไต ชั้น Cortex, Medullary Pyramids, กรวยไต และหลอดเลือดไต",
+    "imageLabels": [
+      {
+        "pin": "A",
+        "term": "Renal Cortex & Fibrous Capsule",
+        "thaiName": "เนื้อไตชั้นนอก (ที่อยู่ของ Renal corpuscles ทั้งหมด) และแคปซูลหุ้มไต",
+        "description": "ตำแหน่ง [A] คือ Renal Cortex & Fibrous Capsule — เนื้อไตชั้นนอก (ที่อยู่ของ Renal corpuscles ทั้งหมด) และแคปซูลหุ้มไต"
+      },
+      {
+        "pin": "B",
+        "term": "Renal Pyramid in Medulla & Papilla",
+        "thaiName": "พีระมิดไตในชั้น Medulla มียอดแหลม Renal papilla เปิดเข้ากรวยไต",
+        "description": "ตำแหน่ง [B] คือ Renal Pyramid in Medulla & Papilla — พีระมิดไตในชั้น Medulla มียอดแหลม Renal papilla เปิดเข้ากรวยไต"
+      },
+      {
+        "pin": "C",
+        "term": "Renal Column (Column of Bertin)",
+        "thaiName": "เนื้อไตชั้น Cortex ที่ยื่นแทรกคั่นระหว่างพีระมิดไต (ทางผ่าน Interlobar a.)",
+        "description": "ตำแหน่ง [C] คือ Renal Column (Column of Bertin) — เนื้อไตชั้น Cortex ที่ยื่นแทรกคั่นระหว่างพีระมิดไต (ทางผ่าน Interlobar a.)"
+      },
+      {
+        "pin": "D",
+        "term": "Minor & Major Calyces",
+        "thaiName": "กรวยไตย่อย (รองรับปัสสาวะจาก Renal papilla) รวมเป็นกรวยไตใหญ่",
+        "description": "ตำแหน่ง [D] คือ Minor & Major Calyces — กรวยไตย่อย (รองรับปัสสาวะจาก Renal papilla) รวมเป็นกรวยไตใหญ่"
+      },
+      {
+        "pin": "E",
+        "term": "Renal Hilum (Vein-Artery-Pelvis)",
+        "thaiName": "ขั้วไตทางด้านใน เรียงจากหน้าไปหลัง: Renal Vein -> Artery -> Pelvis",
+        "description": "ตำแหน่ง [E] คือ Renal Hilum (Vein-Artery-Pelvis) — ขั้วไตทางด้านใน เรียงจากหน้าไปหลัง: Renal Vein -> Artery -> Pelvis"
+      },
+      {
+        "pin": "F",
+        "term": "Renal Pelvis & Ureter",
+        "thaiName": "แอ่งกรวยไตใหญ่ต่อลงไปเป็นท่อไต (Ureter) สู่กระเพาะปัสสาวะ",
+        "description": "ตำแหน่ง [F] คือ Renal Pelvis & Ureter — แอ่งกรวยไตใหญ่ต่อลงไปเป็นท่อไต (Ureter) สู่กระเพาะปัสสาวะ"
+      }
+    ]
   },
   {
     "id": "URINARY-008",
@@ -208,7 +251,7 @@ export const urinaryQuestions: Question[] = [
   },
   {
     "id": "URINARY-009",
-    "questionText": "เนื้อไตส่วนเปลือกนอก (Renal Cortex) มีส่วนที่แทรกตัวลึกลงมาคั่นระหว่างพีระมิดไต (Renal pyramids) แต่ละอันในชั้น Medulla ส่วนของเนื้อไตชั้นนอกที่แทรกเข้ามานี้มีชื่อเรียกว่าอะไร?",
+    "questionText": "[🖼️ ข้อสอบวิเคราะห์ภาพประกอบกายวิภาค — พิจารณาแผนภาพและจุดชี้ตำแหน่ง [A]–[F] โดยเฉพาะบริเวณตำแหน่ง [A]] เนื้อไตส่วนเปลือกนอก (Renal Cortex) มีส่วนที่แทรกตัวลึกลงมาคั่นระหว่างพีระมิดไต (Renal pyramids) แต่ละอันในชั้น Medulla ส่วนของเนื้อไตชั้นนอกที่แทรกเข้ามานี้มีชื่อเรียกว่าอะไร?",
     "options": {
       "A": "Renal columns (Columns of Bertin)",
       "B": "Renal papillae",
@@ -216,7 +259,7 @@ export const urinaryQuestions: Question[] = [
       "D": "Medullary rays"
     },
     "correctOption": "A",
-    "explanation": "Renal columns (Columns of Bertin) คือส่วนของเนื้อไตชั้น Renal cortex ที่ยื่นแทรกลงมาในชั้น Renal medulla ระหว่างพีระมิดไตแต่ละอัน เป็นทางทอดผ่านของหลอดเลือด Interlobar arteries และ Interlobar veins",
+    "explanation": "Renal columns (Columns of Bertin) คือส่วนของเนื้อไตชั้น Renal cortex ที่ยื่นแทรกลงมาในชั้น Renal medulla ระหว่างพีระมิดไตแต่ละอัน เป็นทางทอดผ่านของหลอดเลือด Interlobar arteries และ Interlobar veins\n\n📌 สรุปจุดชี้ตำแหน่งในภาพประกอบ (Internal Structure of the Kidney: Cortex, Medulla, Calyces & Hilum): จุดที่เกี่ยวข้องโดยตรงกับข้อนี้คือตำแหน่ง [A] (Renal Cortex & Fibrous Capsule — เนื้อไตชั้นนอก (ที่อยู่ของ Renal corpuscles ทั้งหมด) และแคปซูลหุ้มไต) สามารถกดสลับดู \"ภาพเฉลยครบทุกจุด (Master Labeled Diagram)\" ด้านบนเพื่อทบทวนตำแหน่ง [A] ถึง [F] ทั้งหมดได้ทันที",
     "system": "Urinary System",
     "topic": "Kidney Internal Anatomy",
     "difficulty": "Medium",
@@ -225,15 +268,58 @@ export const urinaryQuestions: Question[] = [
     "tags": [
       "renal-columns",
       "columns-of-bertin",
-      "renal-cortex"
+      "renal-cortex",
+      "has-diagram",
+      "diagram-kidney_gross_internal"
     ],
     "createdAt": "2026-10-24",
     "updatedAt": "2026-10-24",
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "imageUrl": "/images/anatomy/kidney_gross_internal_exam.svg",
+    "labeledImageUrl": "/images/anatomy/kidney_gross_internal_labeled.svg",
+    "imageCaption": "Internal Structure of the Kidney: Cortex, Medulla, Calyces & Hilum — โครงสร้างภายในไต ชั้น Cortex, Medullary Pyramids, กรวยไต และหลอดเลือดไต",
+    "imageLabels": [
+      {
+        "pin": "A",
+        "term": "Renal Cortex & Fibrous Capsule",
+        "thaiName": "เนื้อไตชั้นนอก (ที่อยู่ของ Renal corpuscles ทั้งหมด) และแคปซูลหุ้มไต",
+        "description": "ตำแหน่ง [A] คือ Renal Cortex & Fibrous Capsule — เนื้อไตชั้นนอก (ที่อยู่ของ Renal corpuscles ทั้งหมด) และแคปซูลหุ้มไต"
+      },
+      {
+        "pin": "B",
+        "term": "Renal Pyramid in Medulla & Papilla",
+        "thaiName": "พีระมิดไตในชั้น Medulla มียอดแหลม Renal papilla เปิดเข้ากรวยไต",
+        "description": "ตำแหน่ง [B] คือ Renal Pyramid in Medulla & Papilla — พีระมิดไตในชั้น Medulla มียอดแหลม Renal papilla เปิดเข้ากรวยไต"
+      },
+      {
+        "pin": "C",
+        "term": "Renal Column (Column of Bertin)",
+        "thaiName": "เนื้อไตชั้น Cortex ที่ยื่นแทรกคั่นระหว่างพีระมิดไต (ทางผ่าน Interlobar a.)",
+        "description": "ตำแหน่ง [C] คือ Renal Column (Column of Bertin) — เนื้อไตชั้น Cortex ที่ยื่นแทรกคั่นระหว่างพีระมิดไต (ทางผ่าน Interlobar a.)"
+      },
+      {
+        "pin": "D",
+        "term": "Minor & Major Calyces",
+        "thaiName": "กรวยไตย่อย (รองรับปัสสาวะจาก Renal papilla) รวมเป็นกรวยไตใหญ่",
+        "description": "ตำแหน่ง [D] คือ Minor & Major Calyces — กรวยไตย่อย (รองรับปัสสาวะจาก Renal papilla) รวมเป็นกรวยไตใหญ่"
+      },
+      {
+        "pin": "E",
+        "term": "Renal Hilum (Vein-Artery-Pelvis)",
+        "thaiName": "ขั้วไตทางด้านใน เรียงจากหน้าไปหลัง: Renal Vein -> Artery -> Pelvis",
+        "description": "ตำแหน่ง [E] คือ Renal Hilum (Vein-Artery-Pelvis) — ขั้วไตทางด้านใน เรียงจากหน้าไปหลัง: Renal Vein -> Artery -> Pelvis"
+      },
+      {
+        "pin": "F",
+        "term": "Renal Pelvis & Ureter",
+        "thaiName": "แอ่งกรวยไตใหญ่ต่อลงไปเป็นท่อไต (Ureter) สู่กระเพาะปัสสาวะ",
+        "description": "ตำแหน่ง [F] คือ Renal Pelvis & Ureter — แอ่งกรวยไตใหญ่ต่อลงไปเป็นท่อไต (Ureter) สู่กระเพาะปัสสาวะ"
+      }
+    ]
   },
   {
     "id": "URINARY-010",
-    "questionText": "เนื้อไตชั้นใน Renal Medulla ประกอบด้วยพีระมิดรูปกรวยไต (Renal pyramids) จำนวนประมาณ 8-18 อัน โดยส่วนปลายยอดแหลมของพีระมิดที่ชี้เข้าหาขั้วไตมีชื่อเรียกว่าอะไร และทำหน้าที่ปล่อยน้ำปัสสาวะเข้าสู่โครงสร้างใด?",
+    "questionText": "[🖼️ ข้อสอบวิเคราะห์ภาพประกอบกายวิภาค — พิจารณาแผนภาพและจุดชี้ตำแหน่ง [A]–[F] โดยเฉพาะบริเวณตำแหน่ง [B]] เนื้อไตชั้นใน Renal Medulla ประกอบด้วยพีระมิดรูปกรวยไต (Renal pyramids) จำนวนประมาณ 8-18 อัน โดยส่วนปลายยอดแหลมของพีระมิดที่ชี้เข้าหาขั้วไตมีชื่อเรียกว่าอะไร และทำหน้าที่ปล่อยน้ำปัสสาวะเข้าสู่โครงสร้างใด?",
     "options": {
       "A": "Renal pelvis ซึ่งปล่อยเข้า Ureter",
       "B": "Renal papilla ซึ่งปล่อยน้ำปัสสาวะออกจากท่อ Collecting ducts เข้าสู่กรวยไตย่อย Minor calyx",
@@ -241,7 +327,7 @@ export const urinaryQuestions: Question[] = [
       "D": "Renal hilum ซึ่งปล่อยเข้าสู่ Renal vein"
     },
     "correctOption": "B",
-    "explanation": "ยอดแหลมของแต่ละ Renal pyramid เรียกว่า Renal papilla บนผิวมีรูเปิดเล็กๆ (Area cribrosa) ของ Papillary ducts (Ducts of Bellini) ทำหน้าที่ปล่อยน้ำปัสสาวะที่สร้างเสร็จสมบูรณ์แล้วเข้าสู่ Minor calyx (โดย Minor calyx แต่ละอันจะประกบครอบ Renal papilla เอาไว้)",
+    "explanation": "ยอดแหลมของแต่ละ Renal pyramid เรียกว่า Renal papilla บนผิวมีรูเปิดเล็กๆ (Area cribrosa) ของ Papillary ducts (Ducts of Bellini) ทำหน้าที่ปล่อยน้ำปัสสาวะที่สร้างเสร็จสมบูรณ์แล้วเข้าสู่ Minor calyx (โดย Minor calyx แต่ละอันจะประกบครอบ Renal papilla เอาไว้)\n\n📌 สรุปจุดชี้ตำแหน่งในภาพประกอบ (Internal Structure of the Kidney: Cortex, Medulla, Calyces & Hilum): จุดที่เกี่ยวข้องโดยตรงกับข้อนี้คือตำแหน่ง [B] (Renal Pyramid in Medulla & Papilla — พีระมิดไตในชั้น Medulla มียอดแหลม Renal papilla เปิดเข้ากรวยไต) สามารถกดสลับดู \"ภาพเฉลยครบทุกจุด (Master Labeled Diagram)\" ด้านบนเพื่อทบทวนตำแหน่ง [A] ถึง [F] ทั้งหมดได้ทันที",
     "system": "Urinary System",
     "topic": "Kidney Internal Anatomy",
     "difficulty": "Medium",
@@ -250,15 +336,58 @@ export const urinaryQuestions: Question[] = [
     "tags": [
       "renal-papilla",
       "minor-calyx",
-      "ducts-of-bellini"
+      "ducts-of-bellini",
+      "has-diagram",
+      "diagram-kidney_gross_internal"
     ],
     "createdAt": "2026-10-24",
     "updatedAt": "2026-10-24",
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "imageUrl": "/images/anatomy/kidney_gross_internal_exam.svg",
+    "labeledImageUrl": "/images/anatomy/kidney_gross_internal_labeled.svg",
+    "imageCaption": "Internal Structure of the Kidney: Cortex, Medulla, Calyces & Hilum — โครงสร้างภายในไต ชั้น Cortex, Medullary Pyramids, กรวยไต และหลอดเลือดไต",
+    "imageLabels": [
+      {
+        "pin": "A",
+        "term": "Renal Cortex & Fibrous Capsule",
+        "thaiName": "เนื้อไตชั้นนอก (ที่อยู่ของ Renal corpuscles ทั้งหมด) และแคปซูลหุ้มไต",
+        "description": "ตำแหน่ง [A] คือ Renal Cortex & Fibrous Capsule — เนื้อไตชั้นนอก (ที่อยู่ของ Renal corpuscles ทั้งหมด) และแคปซูลหุ้มไต"
+      },
+      {
+        "pin": "B",
+        "term": "Renal Pyramid in Medulla & Papilla",
+        "thaiName": "พีระมิดไตในชั้น Medulla มียอดแหลม Renal papilla เปิดเข้ากรวยไต",
+        "description": "ตำแหน่ง [B] คือ Renal Pyramid in Medulla & Papilla — พีระมิดไตในชั้น Medulla มียอดแหลม Renal papilla เปิดเข้ากรวยไต"
+      },
+      {
+        "pin": "C",
+        "term": "Renal Column (Column of Bertin)",
+        "thaiName": "เนื้อไตชั้น Cortex ที่ยื่นแทรกคั่นระหว่างพีระมิดไต (ทางผ่าน Interlobar a.)",
+        "description": "ตำแหน่ง [C] คือ Renal Column (Column of Bertin) — เนื้อไตชั้น Cortex ที่ยื่นแทรกคั่นระหว่างพีระมิดไต (ทางผ่าน Interlobar a.)"
+      },
+      {
+        "pin": "D",
+        "term": "Minor & Major Calyces",
+        "thaiName": "กรวยไตย่อย (รองรับปัสสาวะจาก Renal papilla) รวมเป็นกรวยไตใหญ่",
+        "description": "ตำแหน่ง [D] คือ Minor & Major Calyces — กรวยไตย่อย (รองรับปัสสาวะจาก Renal papilla) รวมเป็นกรวยไตใหญ่"
+      },
+      {
+        "pin": "E",
+        "term": "Renal Hilum (Vein-Artery-Pelvis)",
+        "thaiName": "ขั้วไตทางด้านใน เรียงจากหน้าไปหลัง: Renal Vein -> Artery -> Pelvis",
+        "description": "ตำแหน่ง [E] คือ Renal Hilum (Vein-Artery-Pelvis) — ขั้วไตทางด้านใน เรียงจากหน้าไปหลัง: Renal Vein -> Artery -> Pelvis"
+      },
+      {
+        "pin": "F",
+        "term": "Renal Pelvis & Ureter",
+        "thaiName": "แอ่งกรวยไตใหญ่ต่อลงไปเป็นท่อไต (Ureter) สู่กระเพาะปัสสาวะ",
+        "description": "ตำแหน่ง [F] คือ Renal Pelvis & Ureter — แอ่งกรวยไตใหญ่ต่อลงไปเป็นท่อไต (Ureter) สู่กระเพาะปัสสาวะ"
+      }
+    ]
   },
   {
     "id": "URINARY-011",
-    "questionText": "ลำดับเส้นทางการไหลของน้ำปัสสาวะ (Urine flow pathway) ภายในไตตั้งแต่จุดปลายของท่อไตจนกระทั่งออกจากขั้วไตสู่ท่อไตข้อใดถูกต้อง?",
+    "questionText": "[🖼️ ข้อสอบวิเคราะห์ภาพประกอบกายวิภาค — พิจารณาแผนภาพและจุดชี้ตำแหน่ง [A]–[F] โดยเฉพาะบริเวณตำแหน่ง [D]] ลำดับเส้นทางการไหลของน้ำปัสสาวะ (Urine flow pathway) ภายในไตตั้งแต่จุดปลายของท่อไตจนกระทั่งออกจากขั้วไตสู่ท่อไตข้อใดถูกต้อง?",
     "options": {
       "A": "Renal pelvis -> Major calyx -> Minor calyx -> Papillary duct -> Ureter",
       "B": "Major calyx -> Minor calyx -> Renal pelvis -> Papillary duct -> Ureter",
@@ -266,7 +395,7 @@ export const urinaryQuestions: Question[] = [
       "D": "Collecting duct -> Renal pelvis -> Major calyx -> Minor calyx -> Ureter"
     },
     "correctOption": "C",
-    "explanation": "เส้นทางการไหลของปัสสาวะ: 1. Papillary duct (ที่ยอด Renal papilla) -> 2. Minor calyx (กรวยไตย่อย 8-18 อัน) -> 3. รวมตัวกันเป็น Major calyx (กรวยไตใหญ่ 2-3 อัน) -> 4. เทรวมเข้าสู่ Renal pelvis (แอ่งกรวยไตใหญ่รูปกรวย) -> 5. ไหลออกจากขั้วไตเข้าสู่ Ureter ไปยังกระเพาะปัสสาวะ",
+    "explanation": "เส้นทางการไหลของปัสสาวะ: 1. Papillary duct (ที่ยอด Renal papilla) -> 2. Minor calyx (กรวยไตย่อย 8-18 อัน) -> 3. รวมตัวกันเป็น Major calyx (กรวยไตใหญ่ 2-3 อัน) -> 4. เทรวมเข้าสู่ Renal pelvis (แอ่งกรวยไตใหญ่รูปกรวย) -> 5. ไหลออกจากขั้วไตเข้าสู่ Ureter ไปยังกระเพาะปัสสาวะ\n\n📌 สรุปจุดชี้ตำแหน่งในภาพประกอบ (Internal Structure of the Kidney: Cortex, Medulla, Calyces & Hilum): จุดที่เกี่ยวข้องโดยตรงกับข้อนี้คือตำแหน่ง [D] (Minor & Major Calyces — กรวยไตย่อย (รองรับปัสสาวะจาก Renal papilla) รวมเป็นกรวยไตใหญ่) สามารถกดสลับดู \"ภาพเฉลยครบทุกจุด (Master Labeled Diagram)\" ด้านบนเพื่อทบทวนตำแหน่ง [A] ถึง [F] ทั้งหมดได้ทันที",
     "system": "Urinary System",
     "topic": "Kidney Internal Anatomy",
     "difficulty": "Medium",
@@ -275,15 +404,58 @@ export const urinaryQuestions: Question[] = [
     "tags": [
       "urine-flow-pathway",
       "calyces",
-      "renal-pelvis"
+      "renal-pelvis",
+      "has-diagram",
+      "diagram-kidney_gross_internal"
     ],
     "createdAt": "2026-10-24",
     "updatedAt": "2026-10-24",
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "imageUrl": "/images/anatomy/kidney_gross_internal_exam.svg",
+    "labeledImageUrl": "/images/anatomy/kidney_gross_internal_labeled.svg",
+    "imageCaption": "Internal Structure of the Kidney: Cortex, Medulla, Calyces & Hilum — โครงสร้างภายในไต ชั้น Cortex, Medullary Pyramids, กรวยไต และหลอดเลือดไต",
+    "imageLabels": [
+      {
+        "pin": "A",
+        "term": "Renal Cortex & Fibrous Capsule",
+        "thaiName": "เนื้อไตชั้นนอก (ที่อยู่ของ Renal corpuscles ทั้งหมด) และแคปซูลหุ้มไต",
+        "description": "ตำแหน่ง [A] คือ Renal Cortex & Fibrous Capsule — เนื้อไตชั้นนอก (ที่อยู่ของ Renal corpuscles ทั้งหมด) และแคปซูลหุ้มไต"
+      },
+      {
+        "pin": "B",
+        "term": "Renal Pyramid in Medulla & Papilla",
+        "thaiName": "พีระมิดไตในชั้น Medulla มียอดแหลม Renal papilla เปิดเข้ากรวยไต",
+        "description": "ตำแหน่ง [B] คือ Renal Pyramid in Medulla & Papilla — พีระมิดไตในชั้น Medulla มียอดแหลม Renal papilla เปิดเข้ากรวยไต"
+      },
+      {
+        "pin": "C",
+        "term": "Renal Column (Column of Bertin)",
+        "thaiName": "เนื้อไตชั้น Cortex ที่ยื่นแทรกคั่นระหว่างพีระมิดไต (ทางผ่าน Interlobar a.)",
+        "description": "ตำแหน่ง [C] คือ Renal Column (Column of Bertin) — เนื้อไตชั้น Cortex ที่ยื่นแทรกคั่นระหว่างพีระมิดไต (ทางผ่าน Interlobar a.)"
+      },
+      {
+        "pin": "D",
+        "term": "Minor & Major Calyces",
+        "thaiName": "กรวยไตย่อย (รองรับปัสสาวะจาก Renal papilla) รวมเป็นกรวยไตใหญ่",
+        "description": "ตำแหน่ง [D] คือ Minor & Major Calyces — กรวยไตย่อย (รองรับปัสสาวะจาก Renal papilla) รวมเป็นกรวยไตใหญ่"
+      },
+      {
+        "pin": "E",
+        "term": "Renal Hilum (Vein-Artery-Pelvis)",
+        "thaiName": "ขั้วไตทางด้านใน เรียงจากหน้าไปหลัง: Renal Vein -> Artery -> Pelvis",
+        "description": "ตำแหน่ง [E] คือ Renal Hilum (Vein-Artery-Pelvis) — ขั้วไตทางด้านใน เรียงจากหน้าไปหลัง: Renal Vein -> Artery -> Pelvis"
+      },
+      {
+        "pin": "F",
+        "term": "Renal Pelvis & Ureter",
+        "thaiName": "แอ่งกรวยไตใหญ่ต่อลงไปเป็นท่อไต (Ureter) สู่กระเพาะปัสสาวะ",
+        "description": "ตำแหน่ง [F] คือ Renal Pelvis & Ureter — แอ่งกรวยไตใหญ่ต่อลงไปเป็นท่อไต (Ureter) สู่กระเพาะปัสสาวะ"
+      }
+    ]
   },
   {
     "id": "URINARY-012",
-    "questionText": "ไตทั้งสองข้างได้รับปริมาณเลือดที่สูบฉีดออกจากหัวใจ (Cardiac Output) สูงถึงประมาณกี่เปอร์เซ็นต์ และมีอัตราการไหลเวียนของเลือดผ่านไต (Renal Blood Flow: RBF) ประมาณเท่าใดในภาวะพัก?",
+    "questionText": "[🖼️ ข้อสอบวิเคราะห์ภาพประกอบกายวิภาค — พิจารณาแผนภาพและจุดชี้ตำแหน่ง [A]–[F] โดยเฉพาะบริเวณตำแหน่ง [C]] ไตทั้งสองข้างได้รับปริมาณเลือดที่สูบฉีดออกจากหัวใจ (Cardiac Output) สูงถึงประมาณกี่เปอร์เซ็นต์ และมีอัตราการไหลเวียนของเลือดผ่านไต (Renal Blood Flow: RBF) ประมาณเท่าใดในภาวะพัก?",
     "options": {
       "A": "ประมาณ 10% ของ Cardiac output หรือประมาณ 500 มล./นาที",
       "B": "ประมาณ 5% ของ Cardiac output หรือประมาณ 250 มล./นาที",
@@ -291,7 +463,7 @@ export const urinaryQuestions: Question[] = [
       "D": "ประมาณ 20 - 25% ของ Cardiac output หรือคิดเป็นอัตราการไหลประมาณ 1,200 มิลลิลิตรต่อนาที"
     },
     "correctOption": "D",
-    "explanation": "แม้ไตทั้งสองข้างจะมีน้ำหนักรวมกันไม่ถึง 0.5% ของน้ำหนักตัว แต่ได้รับเลือดมากถึง 20-25% ของ Resting Cardiac Output (ประมาณ 1,200 มล./นาที) ซึ่งการไหลเวียนที่สูงมหาศาลนี้ไม่ได้เป็นไปเพื่อตอบสนองความต้องการเมแทบอลิซึมของเนื้อไตเอง แต่เพื่อทำหน้าที่กรองและปรับสมดุลของพลาสมาทั่วร่างกายอย่างต่อเนื่อง",
+    "explanation": "แม้ไตทั้งสองข้างจะมีน้ำหนักรวมกันไม่ถึง 0.5% ของน้ำหนักตัว แต่ได้รับเลือดมากถึง 20-25% ของ Resting Cardiac Output (ประมาณ 1,200 มล./นาที) ซึ่งการไหลเวียนที่สูงมหาศาลนี้ไม่ได้เป็นไปเพื่อตอบสนองความต้องการเมแทบอลิซึมของเนื้อไตเอง แต่เพื่อทำหน้าที่กรองและปรับสมดุลของพลาสมาทั่วร่างกายอย่างต่อเนื่อง\n\n📌 สรุปจุดชี้ตำแหน่งในภาพประกอบ (Internal Structure of the Kidney: Cortex, Medulla, Calyces & Hilum): จุดที่เกี่ยวข้องโดยตรงกับข้อนี้คือตำแหน่ง [C] (Renal Column (Column of Bertin) — เนื้อไตชั้น Cortex ที่ยื่นแทรกคั่นระหว่างพีระมิดไต (ทางผ่าน Interlobar a.)) สามารถกดสลับดู \"ภาพเฉลยครบทุกจุด (Master Labeled Diagram)\" ด้านบนเพื่อทบทวนตำแหน่ง [A] ถึง [F] ทั้งหมดได้ทันที",
     "system": "Urinary System",
     "topic": "Kidney Blood Supply",
     "difficulty": "Medium",
@@ -300,15 +472,58 @@ export const urinaryQuestions: Question[] = [
     "tags": [
       "renal-blood-flow",
       "rbf",
-      "cardiac-output-fraction"
+      "cardiac-output-fraction",
+      "has-diagram",
+      "diagram-kidney_gross_internal"
     ],
     "createdAt": "2026-10-24",
     "updatedAt": "2026-10-24",
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "imageUrl": "/images/anatomy/kidney_gross_internal_exam.svg",
+    "labeledImageUrl": "/images/anatomy/kidney_gross_internal_labeled.svg",
+    "imageCaption": "Internal Structure of the Kidney: Cortex, Medulla, Calyces & Hilum — โครงสร้างภายในไต ชั้น Cortex, Medullary Pyramids, กรวยไต และหลอดเลือดไต",
+    "imageLabels": [
+      {
+        "pin": "A",
+        "term": "Renal Cortex & Fibrous Capsule",
+        "thaiName": "เนื้อไตชั้นนอก (ที่อยู่ของ Renal corpuscles ทั้งหมด) และแคปซูลหุ้มไต",
+        "description": "ตำแหน่ง [A] คือ Renal Cortex & Fibrous Capsule — เนื้อไตชั้นนอก (ที่อยู่ของ Renal corpuscles ทั้งหมด) และแคปซูลหุ้มไต"
+      },
+      {
+        "pin": "B",
+        "term": "Renal Pyramid in Medulla & Papilla",
+        "thaiName": "พีระมิดไตในชั้น Medulla มียอดแหลม Renal papilla เปิดเข้ากรวยไต",
+        "description": "ตำแหน่ง [B] คือ Renal Pyramid in Medulla & Papilla — พีระมิดไตในชั้น Medulla มียอดแหลม Renal papilla เปิดเข้ากรวยไต"
+      },
+      {
+        "pin": "C",
+        "term": "Renal Column (Column of Bertin)",
+        "thaiName": "เนื้อไตชั้น Cortex ที่ยื่นแทรกคั่นระหว่างพีระมิดไต (ทางผ่าน Interlobar a.)",
+        "description": "ตำแหน่ง [C] คือ Renal Column (Column of Bertin) — เนื้อไตชั้น Cortex ที่ยื่นแทรกคั่นระหว่างพีระมิดไต (ทางผ่าน Interlobar a.)"
+      },
+      {
+        "pin": "D",
+        "term": "Minor & Major Calyces",
+        "thaiName": "กรวยไตย่อย (รองรับปัสสาวะจาก Renal papilla) รวมเป็นกรวยไตใหญ่",
+        "description": "ตำแหน่ง [D] คือ Minor & Major Calyces — กรวยไตย่อย (รองรับปัสสาวะจาก Renal papilla) รวมเป็นกรวยไตใหญ่"
+      },
+      {
+        "pin": "E",
+        "term": "Renal Hilum (Vein-Artery-Pelvis)",
+        "thaiName": "ขั้วไตทางด้านใน เรียงจากหน้าไปหลัง: Renal Vein -> Artery -> Pelvis",
+        "description": "ตำแหน่ง [E] คือ Renal Hilum (Vein-Artery-Pelvis) — ขั้วไตทางด้านใน เรียงจากหน้าไปหลัง: Renal Vein -> Artery -> Pelvis"
+      },
+      {
+        "pin": "F",
+        "term": "Renal Pelvis & Ureter",
+        "thaiName": "แอ่งกรวยไตใหญ่ต่อลงไปเป็นท่อไต (Ureter) สู่กระเพาะปัสสาวะ",
+        "description": "ตำแหน่ง [F] คือ Renal Pelvis & Ureter — แอ่งกรวยไตใหญ่ต่อลงไปเป็นท่อไต (Ureter) สู่กระเพาะปัสสาวะ"
+      }
+    ]
   },
   {
     "id": "URINARY-013",
-    "questionText": "ลำดับการแตกแขนงของหลอดเลือดแดงภายในไตจาก Renal Artery เข้าสู่หน่วยกรอง Glomerulus ข้อใดเรียงลำดับได้อย่างถูกต้องตามหลักกายวิภาค?",
+    "questionText": "[🖼️ ข้อสอบวิเคราะห์ภาพประกอบกายวิภาค — พิจารณาแผนภาพและจุดชี้ตำแหน่ง [A]–[F] โดยเฉพาะบริเวณตำแหน่ง [E]] ลำดับการแตกแขนงของหลอดเลือดแดงภายในไตจาก Renal Artery เข้าสู่หน่วยกรอง Glomerulus ข้อใดเรียงลำดับได้อย่างถูกต้องตามหลักกายวิภาค?",
     "options": {
       "A": "Renal artery -> Segmental arteries -> Interlobar arteries -> Arcuate arteries -> Cortical radiate (Interlobular) arteries -> Afferent arterioles -> Glomerular capillaries",
       "B": "Renal artery -> Arcuate arteries -> Segmental arteries -> Afferent arterioles",
@@ -316,7 +531,7 @@ export const urinaryQuestions: Question[] = [
       "D": "Renal artery -> Glomerular capillaries -> Afferent arterioles -> Arcuate arteries"
     },
     "correctOption": "A",
-    "explanation": "การแตกแขนงของหลอดเลือดแดงในไต: 1. Renal artery -> 2. Segmental arteries (5 เส้นที่ขั้วไต) -> 3. Interlobar arteries (ทอดใน Renal columns) -> 4. Arcuate arteries (โค้งขนานกับฐานของพีระมิดไตที่รอยต่อ Cortex-Medulla) -> 5. Cortical radiate / Interlobular arteries (ทอดตรงขึ้นสู่ Cortex) -> 6. Afferent arterioles นำเลือดเข้าสู่ Glomerulus",
+    "explanation": "การแตกแขนงของหลอดเลือดแดงในไต: 1. Renal artery -> 2. Segmental arteries (5 เส้นที่ขั้วไต) -> 3. Interlobar arteries (ทอดใน Renal columns) -> 4. Arcuate arteries (โค้งขนานกับฐานของพีระมิดไตที่รอยต่อ Cortex-Medulla) -> 5. Cortical radiate / Interlobular arteries (ทอดตรงขึ้นสู่ Cortex) -> 6. Afferent arterioles นำเลือดเข้าสู่ Glomerulus\n\n📌 สรุปจุดชี้ตำแหน่งในภาพประกอบ (Internal Structure of the Kidney: Cortex, Medulla, Calyces & Hilum): จุดที่เกี่ยวข้องโดยตรงกับข้อนี้คือตำแหน่ง [E] (Renal Hilum (Vein-Artery-Pelvis) — ขั้วไตทางด้านใน เรียงจากหน้าไปหลัง: Renal Vein -> Artery -> Pelvis) สามารถกดสลับดู \"ภาพเฉลยครบทุกจุด (Master Labeled Diagram)\" ด้านบนเพื่อทบทวนตำแหน่ง [A] ถึง [F] ทั้งหมดได้ทันที",
     "system": "Urinary System",
     "topic": "Kidney Blood Supply",
     "difficulty": "Hard",
@@ -325,11 +540,54 @@ export const urinaryQuestions: Question[] = [
     "tags": [
       "renal-artery-branching",
       "arcuate-artery",
-      "afferent-arteriole"
+      "afferent-arteriole",
+      "has-diagram",
+      "diagram-kidney_gross_internal"
     ],
     "createdAt": "2026-10-24",
     "updatedAt": "2026-10-24",
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "imageUrl": "/images/anatomy/kidney_gross_internal_exam.svg",
+    "labeledImageUrl": "/images/anatomy/kidney_gross_internal_labeled.svg",
+    "imageCaption": "Internal Structure of the Kidney: Cortex, Medulla, Calyces & Hilum — โครงสร้างภายในไต ชั้น Cortex, Medullary Pyramids, กรวยไต และหลอดเลือดไต",
+    "imageLabels": [
+      {
+        "pin": "A",
+        "term": "Renal Cortex & Fibrous Capsule",
+        "thaiName": "เนื้อไตชั้นนอก (ที่อยู่ของ Renal corpuscles ทั้งหมด) และแคปซูลหุ้มไต",
+        "description": "ตำแหน่ง [A] คือ Renal Cortex & Fibrous Capsule — เนื้อไตชั้นนอก (ที่อยู่ของ Renal corpuscles ทั้งหมด) และแคปซูลหุ้มไต"
+      },
+      {
+        "pin": "B",
+        "term": "Renal Pyramid in Medulla & Papilla",
+        "thaiName": "พีระมิดไตในชั้น Medulla มียอดแหลม Renal papilla เปิดเข้ากรวยไต",
+        "description": "ตำแหน่ง [B] คือ Renal Pyramid in Medulla & Papilla — พีระมิดไตในชั้น Medulla มียอดแหลม Renal papilla เปิดเข้ากรวยไต"
+      },
+      {
+        "pin": "C",
+        "term": "Renal Column (Column of Bertin)",
+        "thaiName": "เนื้อไตชั้น Cortex ที่ยื่นแทรกคั่นระหว่างพีระมิดไต (ทางผ่าน Interlobar a.)",
+        "description": "ตำแหน่ง [C] คือ Renal Column (Column of Bertin) — เนื้อไตชั้น Cortex ที่ยื่นแทรกคั่นระหว่างพีระมิดไต (ทางผ่าน Interlobar a.)"
+      },
+      {
+        "pin": "D",
+        "term": "Minor & Major Calyces",
+        "thaiName": "กรวยไตย่อย (รองรับปัสสาวะจาก Renal papilla) รวมเป็นกรวยไตใหญ่",
+        "description": "ตำแหน่ง [D] คือ Minor & Major Calyces — กรวยไตย่อย (รองรับปัสสาวะจาก Renal papilla) รวมเป็นกรวยไตใหญ่"
+      },
+      {
+        "pin": "E",
+        "term": "Renal Hilum (Vein-Artery-Pelvis)",
+        "thaiName": "ขั้วไตทางด้านใน เรียงจากหน้าไปหลัง: Renal Vein -> Artery -> Pelvis",
+        "description": "ตำแหน่ง [E] คือ Renal Hilum (Vein-Artery-Pelvis) — ขั้วไตทางด้านใน เรียงจากหน้าไปหลัง: Renal Vein -> Artery -> Pelvis"
+      },
+      {
+        "pin": "F",
+        "term": "Renal Pelvis & Ureter",
+        "thaiName": "แอ่งกรวยไตใหญ่ต่อลงไปเป็นท่อไต (Ureter) สู่กระเพาะปัสสาวะ",
+        "description": "ตำแหน่ง [F] คือ Renal Pelvis & Ureter — แอ่งกรวยไตใหญ่ต่อลงไปเป็นท่อไต (Ureter) สู่กระเพาะปัสสาวะ"
+      }
+    ]
   },
   {
     "id": "URINARY-014",
@@ -407,7 +665,7 @@ export const urinaryQuestions: Question[] = [
   },
   {
     "id": "URINARY-017",
-    "questionText": "หน่วยไต (Nephron) ประกอบด้วยส่วนสำคัญ 2 ส่วนหลัก ได้แก่ Renal Corpuscle (มัลพิเกียนคอร์ปัสเซิล) และ Renal Tubule (ท่อหน่วยไต) ส่วนของ Renal Corpuscle ประกอบด้วยโครงสร้างใดบ้าง?",
+    "questionText": "[🖼️ ข้อสอบวิเคราะห์ภาพประกอบกายวิภาค — พิจารณาแผนภาพและจุดชี้ตำแหน่ง [A]–[F] โดยเฉพาะบริเวณตำแหน่ง [E]] หน่วยไต (Nephron) ประกอบด้วยส่วนสำคัญ 2 ส่วนหลัก ได้แก่ Renal Corpuscle (มัลพิเกียนคอร์ปัสเซิล) และ Renal Tubule (ท่อหน่วยไต) ส่วนของ Renal Corpuscle ประกอบด้วยโครงสร้างใดบ้าง?",
     "options": {
       "A": "Glomerulus (กระจุกหลอดเลือดฝอย) และ Bowman's capsule (Glomerular capsule ถุงหุ้มโกลเมอรูลัส)",
       "B": "Proximal tubule และ Distal tubule",
@@ -415,7 +673,7 @@ export const urinaryQuestions: Question[] = [
       "D": "Afferent arteriole และ Efferent arteriole"
     },
     "correctOption": "A",
-    "explanation": "Renal Corpuscle (Malpighian corpuscle) ทำหน้าที่กรองพลาสมา ประกอบด้วย 2 ส่วน: 1. Glomerulus: กระจุกหลอดเลือดฝอยชนิดมีรูพรุน (Fenestrated capillaries) ประมาณ 20-40 ลูป 2. Bowman's capsule: ถุงเยื่อสองชั้นรูปถ้วยที่โอบอุ้ม Glomerulus เอาไว้เพื่อรับน้ำกรอง (Filtrate)",
+    "explanation": "Renal Corpuscle (Malpighian corpuscle) ทำหน้าที่กรองพลาสมา ประกอบด้วย 2 ส่วน: 1. Glomerulus: กระจุกหลอดเลือดฝอยชนิดมีรูพรุน (Fenestrated capillaries) ประมาณ 20-40 ลูป 2. Bowman's capsule: ถุงเยื่อสองชั้นรูปถ้วยที่โอบอุ้ม Glomerulus เอาไว้เพื่อรับน้ำกรอง (Filtrate)\n\n📌 สรุปจุดชี้ตำแหน่งในภาพประกอบ (Renal Corpuscle, Glomerular Filtration Barrier & Juxtaglomerular Apparatus): จุดที่เกี่ยวข้องโดยตรงกับข้อนี้คือตำแหน่ง [E] (Bowman's Capsule (Parietal Layer & Space) — ถุงหุ้มโกลเมอรูลัสชั้นนอก (Simple squamous) และช่องรับน้ำกรอง) สามารถกดสลับดู \"ภาพเฉลยครบทุกจุด (Master Labeled Diagram)\" ด้านบนเพื่อทบทวนตำแหน่ง [A] ถึง [F] ทั้งหมดได้ทันที",
     "system": "Urinary System",
     "topic": "Nephron Structure & Histology",
     "difficulty": "Medium",
@@ -424,15 +682,58 @@ export const urinaryQuestions: Question[] = [
     "tags": [
       "renal-corpuscle",
       "glomerulus",
-      "bowmans-capsule"
+      "bowmans-capsule",
+      "has-diagram",
+      "diagram-renal_corpuscle_jga"
     ],
     "createdAt": "2026-10-24",
     "updatedAt": "2026-10-24",
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "imageUrl": "/images/anatomy/renal_corpuscle_jga_exam.svg",
+    "labeledImageUrl": "/images/anatomy/renal_corpuscle_jga_labeled.svg",
+    "imageCaption": "Renal Corpuscle, Glomerular Filtration Barrier & Juxtaglomerular Apparatus — โครงสร้างโกลเมอรูลัส เซลล์มีเท้า Podocytes และชุดควบคุมความดัน JGA",
+    "imageLabels": [
+      {
+        "pin": "A",
+        "term": "Afferent Arteriole & JG Granular Cells",
+        "thaiName": "หลอดเลือดแดงขาเข้า (กว้างกว่า) และเซลล์ JG ที่หลั่งเอนไซม์ Renin",
+        "description": "ตำแหน่ง [A] คือ Afferent Arteriole & JG Granular Cells — หลอดเลือดแดงขาเข้า (กว้างกว่า) และเซลล์ JG ที่หลั่งเอนไซม์ Renin"
+      },
+      {
+        "pin": "B",
+        "term": "Macula Densa (in Distal Tubule)",
+        "thaiName": "กลุ่มเซลล์ทรงสูงในผนัง DCT ทำหน้าที่ตรวจจับความเข้มข้น NaCl",
+        "description": "ตำแหน่ง [B] คือ Macula Densa (in Distal Tubule) — กลุ่มเซลล์ทรงสูงในผนัง DCT ทำหน้าที่ตรวจจับความเข้มข้น NaCl"
+      },
+      {
+        "pin": "C",
+        "term": "Efferent Arteriole (Narrower Lumen)",
+        "thaiName": "หลอดเลือดแดงขาออก (แคบกว่า เพื่อสร้างแรงดันกรอง GHP สูง 55 mmHg)",
+        "description": "ตำแหน่ง [C] คือ Efferent Arteriole (Narrower Lumen) — หลอดเลือดแดงขาออก (แคบกว่า เพื่อสร้างแรงดันกรอง GHP สูง 55 mmHg)"
+      },
+      {
+        "pin": "D",
+        "term": "Podocytes & Filtration Slits (Visceral Layer)",
+        "thaiName": "เซลล์มีเท้าโอบรอบโกลเมอรูลัส เกิดเป็นร่องกรอง Filtration slits",
+        "description": "ตำแหน่ง [D] คือ Podocytes & Filtration Slits (Visceral Layer) — เซลล์มีเท้าโอบรอบโกลเมอรูลัส เกิดเป็นร่องกรอง Filtration slits"
+      },
+      {
+        "pin": "E",
+        "term": "Bowman's Capsule (Parietal Layer & Space)",
+        "thaiName": "ถุงหุ้มโกลเมอรูลัสชั้นนอก (Simple squamous) และช่องรับน้ำกรอง",
+        "description": "ตำแหน่ง [E] คือ Bowman's Capsule (Parietal Layer & Space) — ถุงหุ้มโกลเมอรูลัสชั้นนอก (Simple squamous) และช่องรับน้ำกรอง"
+      },
+      {
+        "pin": "F",
+        "term": "Proximal Convoluted Tubule (Urinary Pole)",
+        "thaiName": "ท่อหน่วยไตส่วนต้น (PCT) มี Brush border ดูดกลับน้ำตาล 100%",
+        "description": "ตำแหน่ง [F] คือ Proximal Convoluted Tubule (Urinary Pole) — ท่อหน่วยไตส่วนต้น (PCT) มี Brush border ดูดกลับน้ำตาล 100%"
+      }
+    ]
   },
   {
     "id": "URINARY-018",
-    "questionText": "ถุงหุ้มโกลเมอรูลัส (Bowman's capsule) ประกอบด้วยผนัง 2 ชั้น ชั้นในสุด (Visceral layer) แนบชิดกับผนังหลอดเลือดฝอยของโกลเมอรูลัส ประกอบด้วยเซลล์ชนิดพิเศษที่มีแขนงเท้ายื่นออกไปหุ้มหลอดเลือดฝอย เซลล์ดังกล่าวมีชื่อเรียกว่าอะไร?",
+    "questionText": "[🖼️ ข้อสอบวิเคราะห์ภาพประกอบกายวิภาค — พิจารณาแผนภาพและจุดชี้ตำแหน่ง [A]–[F] โดยเฉพาะบริเวณตำแหน่ง [D]] ถุงหุ้มโกลเมอรูลัส (Bowman's capsule) ประกอบด้วยผนัง 2 ชั้น ชั้นในสุด (Visceral layer) แนบชิดกับผนังหลอดเลือดฝอยของโกลเมอรูลัส ประกอบด้วยเซลล์ชนิดพิเศษที่มีแขนงเท้ายื่นออกไปหุ้มหลอดเลือดฝอย เซลล์ดังกล่าวมีชื่อเรียกว่าอะไร?",
     "options": {
       "A": "Mesangial cells",
       "B": "Podocytes (เซลล์มีเท้า)",
@@ -440,7 +741,7 @@ export const urinaryQuestions: Question[] = [
       "D": "Macula densa cells"
     },
     "correctOption": "B",
-    "explanation": "Bowman's capsule มี 2 ชั้น: ชั้นนอก Parietal layer บุด้วย Simple squamous epithelium ชั้นใน Visceral layer ประกอบด้วยเซลล์รูปร่างพิเศษชื่อ Podocytes ซึ่งมี Primary processes แตกแขนงย่อยออกเป็น Foot processes (Pedicels) ไปโอบรัดรอบ Glomerular capillaries เกิดเป็นร่องกรอง (Filtration slits)",
+    "explanation": "Bowman's capsule มี 2 ชั้น: ชั้นนอก Parietal layer บุด้วย Simple squamous epithelium ชั้นใน Visceral layer ประกอบด้วยเซลล์รูปร่างพิเศษชื่อ Podocytes ซึ่งมี Primary processes แตกแขนงย่อยออกเป็น Foot processes (Pedicels) ไปโอบรัดรอบ Glomerular capillaries เกิดเป็นร่องกรอง (Filtration slits)\n\n📌 สรุปจุดชี้ตำแหน่งในภาพประกอบ (Renal Corpuscle, Glomerular Filtration Barrier & Juxtaglomerular Apparatus): จุดที่เกี่ยวข้องโดยตรงกับข้อนี้คือตำแหน่ง [D] (Podocytes & Filtration Slits (Visceral Layer) — เซลล์มีเท้าโอบรอบโกลเมอรูลัส เกิดเป็นร่องกรอง Filtration slits) สามารถกดสลับดู \"ภาพเฉลยครบทุกจุด (Master Labeled Diagram)\" ด้านบนเพื่อทบทวนตำแหน่ง [A] ถึง [F] ทั้งหมดได้ทันที",
     "system": "Urinary System",
     "topic": "Nephron Structure & Histology",
     "difficulty": "Medium",
@@ -450,15 +751,58 @@ export const urinaryQuestions: Question[] = [
       "podocytes",
       "visceral-layer",
       "pedicels",
-      "filtration-slits"
+      "filtration-slits",
+      "has-diagram",
+      "diagram-renal_corpuscle_jga"
     ],
     "createdAt": "2026-10-24",
     "updatedAt": "2026-10-24",
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "imageUrl": "/images/anatomy/renal_corpuscle_jga_exam.svg",
+    "labeledImageUrl": "/images/anatomy/renal_corpuscle_jga_labeled.svg",
+    "imageCaption": "Renal Corpuscle, Glomerular Filtration Barrier & Juxtaglomerular Apparatus — โครงสร้างโกลเมอรูลัส เซลล์มีเท้า Podocytes และชุดควบคุมความดัน JGA",
+    "imageLabels": [
+      {
+        "pin": "A",
+        "term": "Afferent Arteriole & JG Granular Cells",
+        "thaiName": "หลอดเลือดแดงขาเข้า (กว้างกว่า) และเซลล์ JG ที่หลั่งเอนไซม์ Renin",
+        "description": "ตำแหน่ง [A] คือ Afferent Arteriole & JG Granular Cells — หลอดเลือดแดงขาเข้า (กว้างกว่า) และเซลล์ JG ที่หลั่งเอนไซม์ Renin"
+      },
+      {
+        "pin": "B",
+        "term": "Macula Densa (in Distal Tubule)",
+        "thaiName": "กลุ่มเซลล์ทรงสูงในผนัง DCT ทำหน้าที่ตรวจจับความเข้มข้น NaCl",
+        "description": "ตำแหน่ง [B] คือ Macula Densa (in Distal Tubule) — กลุ่มเซลล์ทรงสูงในผนัง DCT ทำหน้าที่ตรวจจับความเข้มข้น NaCl"
+      },
+      {
+        "pin": "C",
+        "term": "Efferent Arteriole (Narrower Lumen)",
+        "thaiName": "หลอดเลือดแดงขาออก (แคบกว่า เพื่อสร้างแรงดันกรอง GHP สูง 55 mmHg)",
+        "description": "ตำแหน่ง [C] คือ Efferent Arteriole (Narrower Lumen) — หลอดเลือดแดงขาออก (แคบกว่า เพื่อสร้างแรงดันกรอง GHP สูง 55 mmHg)"
+      },
+      {
+        "pin": "D",
+        "term": "Podocytes & Filtration Slits (Visceral Layer)",
+        "thaiName": "เซลล์มีเท้าโอบรอบโกลเมอรูลัส เกิดเป็นร่องกรอง Filtration slits",
+        "description": "ตำแหน่ง [D] คือ Podocytes & Filtration Slits (Visceral Layer) — เซลล์มีเท้าโอบรอบโกลเมอรูลัส เกิดเป็นร่องกรอง Filtration slits"
+      },
+      {
+        "pin": "E",
+        "term": "Bowman's Capsule (Parietal Layer & Space)",
+        "thaiName": "ถุงหุ้มโกลเมอรูลัสชั้นนอก (Simple squamous) และช่องรับน้ำกรอง",
+        "description": "ตำแหน่ง [E] คือ Bowman's Capsule (Parietal Layer & Space) — ถุงหุ้มโกลเมอรูลัสชั้นนอก (Simple squamous) และช่องรับน้ำกรอง"
+      },
+      {
+        "pin": "F",
+        "term": "Proximal Convoluted Tubule (Urinary Pole)",
+        "thaiName": "ท่อหน่วยไตส่วนต้น (PCT) มี Brush border ดูดกลับน้ำตาล 100%",
+        "description": "ตำแหน่ง [F] คือ Proximal Convoluted Tubule (Urinary Pole) — ท่อหน่วยไตส่วนต้น (PCT) มี Brush border ดูดกลับน้ำตาล 100%"
+      }
+    ]
   },
   {
     "id": "URINARY-019",
-    "questionText": "แผงกั้นการกรองของโกลเมอรูลัส (Glomerular Filtration Membrane / Barrier) ประกอบด้วยชั้นเนื้อเยื่อ 3 ชั้นที่เรียงซ้อนกันเพื่อคัดกรองสารตามขนาดและประจุไฟฟ้า ข้อใดเรียงลำดับจากด้านในลูเมนของหลอดเลือดฝอยออกสู่ช่องว่างแคปซูลได้ถูกต้อง?",
+    "questionText": "[🖼️ ข้อสอบวิเคราะห์ภาพประกอบกายวิภาค — พิจารณาแผนภาพและจุดชี้ตำแหน่ง [A]–[F] โดยเฉพาะบริเวณตำแหน่ง [D]] แผงกั้นการกรองของโกลเมอรูลัส (Glomerular Filtration Membrane / Barrier) ประกอบด้วยชั้นเนื้อเยื่อ 3 ชั้นที่เรียงซ้อนกันเพื่อคัดกรองสารตามขนาดและประจุไฟฟ้า ข้อใดเรียงลำดับจากด้านในลูเมนของหลอดเลือดฝอยออกสู่ช่องว่างแคปซูลได้ถูกต้อง?",
     "options": {
       "A": "GBM -> Endothelium -> Parietal epithelium",
       "B": "Podocytes -> GBM -> Endothelium",
@@ -466,7 +810,7 @@ export const urinaryQuestions: Question[] = [
       "D": "Endothelium -> Mesangial matrix -> Tubule epithelium"
     },
     "correctOption": "C",
-    "explanation": "Filtration barrier ประกอบด้วย 3 ชั้นจากในออกนอก: 1. Fenestrated endothelium ของหลอดเลือดฝอย (มีรูพรุน 70-100 nm กันเซลล์เม็ดเลือด) 2. Glomerular Basement Membrane (GBM: มีประจุลบของ Heparan sulfate กันโปรตีนที่มีประจุลบ) 3. Filtration slit diaphragms ระหว่างแขนงเท้า Pedicels ของ Podocytes (ช่องกว้าง 20-30 nm คัดกรองโมเลกุลขนาดเล็ก)",
+    "explanation": "Filtration barrier ประกอบด้วย 3 ชั้นจากในออกนอก: 1. Fenestrated endothelium ของหลอดเลือดฝอย (มีรูพรุน 70-100 nm กันเซลล์เม็ดเลือด) 2. Glomerular Basement Membrane (GBM: มีประจุลบของ Heparan sulfate กันโปรตีนที่มีประจุลบ) 3. Filtration slit diaphragms ระหว่างแขนงเท้า Pedicels ของ Podocytes (ช่องกว้าง 20-30 nm คัดกรองโมเลกุลขนาดเล็ก)\n\n📌 สรุปจุดชี้ตำแหน่งในภาพประกอบ (Renal Corpuscle, Glomerular Filtration Barrier & Juxtaglomerular Apparatus): จุดที่เกี่ยวข้องโดยตรงกับข้อนี้คือตำแหน่ง [D] (Podocytes & Filtration Slits (Visceral Layer) — เซลล์มีเท้าโอบรอบโกลเมอรูลัส เกิดเป็นร่องกรอง Filtration slits) สามารถกดสลับดู \"ภาพเฉลยครบทุกจุด (Master Labeled Diagram)\" ด้านบนเพื่อทบทวนตำแหน่ง [A] ถึง [F] ทั้งหมดได้ทันที",
     "system": "Urinary System",
     "topic": "Nephron Structure & Histology",
     "difficulty": "Hard",
@@ -476,15 +820,58 @@ export const urinaryQuestions: Question[] = [
       "filtration-barrier",
       "gbm",
       "fenestrations",
-      "podocyte-slits"
+      "podocyte-slits",
+      "has-diagram",
+      "diagram-renal_corpuscle_jga"
     ],
     "createdAt": "2026-10-24",
     "updatedAt": "2026-10-24",
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "imageUrl": "/images/anatomy/renal_corpuscle_jga_exam.svg",
+    "labeledImageUrl": "/images/anatomy/renal_corpuscle_jga_labeled.svg",
+    "imageCaption": "Renal Corpuscle, Glomerular Filtration Barrier & Juxtaglomerular Apparatus — โครงสร้างโกลเมอรูลัส เซลล์มีเท้า Podocytes และชุดควบคุมความดัน JGA",
+    "imageLabels": [
+      {
+        "pin": "A",
+        "term": "Afferent Arteriole & JG Granular Cells",
+        "thaiName": "หลอดเลือดแดงขาเข้า (กว้างกว่า) และเซลล์ JG ที่หลั่งเอนไซม์ Renin",
+        "description": "ตำแหน่ง [A] คือ Afferent Arteriole & JG Granular Cells — หลอดเลือดแดงขาเข้า (กว้างกว่า) และเซลล์ JG ที่หลั่งเอนไซม์ Renin"
+      },
+      {
+        "pin": "B",
+        "term": "Macula Densa (in Distal Tubule)",
+        "thaiName": "กลุ่มเซลล์ทรงสูงในผนัง DCT ทำหน้าที่ตรวจจับความเข้มข้น NaCl",
+        "description": "ตำแหน่ง [B] คือ Macula Densa (in Distal Tubule) — กลุ่มเซลล์ทรงสูงในผนัง DCT ทำหน้าที่ตรวจจับความเข้มข้น NaCl"
+      },
+      {
+        "pin": "C",
+        "term": "Efferent Arteriole (Narrower Lumen)",
+        "thaiName": "หลอดเลือดแดงขาออก (แคบกว่า เพื่อสร้างแรงดันกรอง GHP สูง 55 mmHg)",
+        "description": "ตำแหน่ง [C] คือ Efferent Arteriole (Narrower Lumen) — หลอดเลือดแดงขาออก (แคบกว่า เพื่อสร้างแรงดันกรอง GHP สูง 55 mmHg)"
+      },
+      {
+        "pin": "D",
+        "term": "Podocytes & Filtration Slits (Visceral Layer)",
+        "thaiName": "เซลล์มีเท้าโอบรอบโกลเมอรูลัส เกิดเป็นร่องกรอง Filtration slits",
+        "description": "ตำแหน่ง [D] คือ Podocytes & Filtration Slits (Visceral Layer) — เซลล์มีเท้าโอบรอบโกลเมอรูลัส เกิดเป็นร่องกรอง Filtration slits"
+      },
+      {
+        "pin": "E",
+        "term": "Bowman's Capsule (Parietal Layer & Space)",
+        "thaiName": "ถุงหุ้มโกลเมอรูลัสชั้นนอก (Simple squamous) และช่องรับน้ำกรอง",
+        "description": "ตำแหน่ง [E] คือ Bowman's Capsule (Parietal Layer & Space) — ถุงหุ้มโกลเมอรูลัสชั้นนอก (Simple squamous) และช่องรับน้ำกรอง"
+      },
+      {
+        "pin": "F",
+        "term": "Proximal Convoluted Tubule (Urinary Pole)",
+        "thaiName": "ท่อหน่วยไตส่วนต้น (PCT) มี Brush border ดูดกลับน้ำตาล 100%",
+        "description": "ตำแหน่ง [F] คือ Proximal Convoluted Tubule (Urinary Pole) — ท่อหน่วยไตส่วนต้น (PCT) มี Brush border ดูดกลับน้ำตาล 100%"
+      }
+    ]
   },
   {
     "id": "URINARY-020",
-    "questionText": "ผู้ป่วยโรคไตอักเสบชนิด Nephrotic syndrome มีอาการบวมน้ำทั่วร่างกายและตรวจปัสสาวะพบไข่ขาวรั่วปริมาณมหาศาล (Massive proteinuria / Albuminuria) พยาธิสภาพหลักทางจุลกายวิภาคเกิดจากความเสียหายของโครงสร้างและประจุไฟฟ้าใดใน Glomerular filtration barrier?",
+    "questionText": "[🖼️ ข้อสอบวิเคราะห์ภาพประกอบกายวิภาค — พิจารณาแผนภาพและจุดชี้ตำแหน่ง [A]–[F] โดยเฉพาะบริเวณตำแหน่ง [C]] ผู้ป่วยโรคไตอักเสบชนิด Nephrotic syndrome มีอาการบวมน้ำทั่วร่างกายและตรวจปัสสาวะพบไข่ขาวรั่วปริมาณมหาศาล (Massive proteinuria / Albuminuria) พยาธิสภาพหลักทางจุลกายวิภาคเกิดจากความเสียหายของโครงสร้างและประจุไฟฟ้าใดใน Glomerular filtration barrier?",
     "options": {
       "A": "การหดตัวของ Tunica adventitia",
       "B": "การฉีกขาดของ Renal pelvis",
@@ -492,7 +879,7 @@ export const urinaryQuestions: Question[] = [
       "D": "การสูญเสียประจุลบ (Negative electrostatic charges) ของ Heparan sulfate ในชั้น Glomerular Basement Membrane ร่วมกับการหลุดลอกหรือฝ่อแบนของ Podocyte foot processes (Effacement of pedicels)"
     },
     "correctOption": "D",
-    "explanation": "ในภาวะปกติ โปรตีน Albumin แม้จะมีขนาดเส้นผ่านศูนย์กลางเล็กพอที่จะผ่านรูพรุนได้ แต่ไม่สามารถผ่านการกรองออกมาได้เนื่องจาก Albumin มีประจุลบ จึงถูกผลักโดยประจุลบของ Heparan sulfate proteoglycans ใน GBM (Charge-selective barrier) เมื่อเกิดโรคไตเนโฟรติก มีการสูญเสียประจุลบร่วมกับ Podocyte effacement อัลบูมินจึงรั่วหลุดออกมาในปัสสาวะ เกิด Proteinuria รุนแรง",
+    "explanation": "ในภาวะปกติ โปรตีน Albumin แม้จะมีขนาดเส้นผ่านศูนย์กลางเล็กพอที่จะผ่านรูพรุนได้ แต่ไม่สามารถผ่านการกรองออกมาได้เนื่องจาก Albumin มีประจุลบ จึงถูกผลักโดยประจุลบของ Heparan sulfate proteoglycans ใน GBM (Charge-selective barrier) เมื่อเกิดโรคไตเนโฟรติก มีการสูญเสียประจุลบร่วมกับ Podocyte effacement อัลบูมินจึงรั่วหลุดออกมาในปัสสาวะ เกิด Proteinuria รุนแรง\n\n📌 สรุปจุดชี้ตำแหน่งในภาพประกอบ (Renal Corpuscle, Glomerular Filtration Barrier & Juxtaglomerular Apparatus): จุดที่เกี่ยวข้องโดยตรงกับข้อนี้คือตำแหน่ง [C] (Efferent Arteriole (Narrower Lumen) — หลอดเลือดแดงขาออก (แคบกว่า เพื่อสร้างแรงดันกรอง GHP สูง 55 mmHg)) สามารถกดสลับดู \"ภาพเฉลยครบทุกจุด (Master Labeled Diagram)\" ด้านบนเพื่อทบทวนตำแหน่ง [A] ถึง [F] ทั้งหมดได้ทันที",
     "system": "Urinary System",
     "topic": "Nephron Structure & Histology",
     "difficulty": "Hard",
@@ -502,11 +889,54 @@ export const urinaryQuestions: Question[] = [
       "nephrotic-syndrome",
       "proteinuria",
       "negative-charge-barrier",
-      "podocyte-effacement"
+      "podocyte-effacement",
+      "has-diagram",
+      "diagram-renal_corpuscle_jga"
     ],
     "createdAt": "2026-10-24",
     "updatedAt": "2026-10-24",
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "imageUrl": "/images/anatomy/renal_corpuscle_jga_exam.svg",
+    "labeledImageUrl": "/images/anatomy/renal_corpuscle_jga_labeled.svg",
+    "imageCaption": "Renal Corpuscle, Glomerular Filtration Barrier & Juxtaglomerular Apparatus — โครงสร้างโกลเมอรูลัส เซลล์มีเท้า Podocytes และชุดควบคุมความดัน JGA",
+    "imageLabels": [
+      {
+        "pin": "A",
+        "term": "Afferent Arteriole & JG Granular Cells",
+        "thaiName": "หลอดเลือดแดงขาเข้า (กว้างกว่า) และเซลล์ JG ที่หลั่งเอนไซม์ Renin",
+        "description": "ตำแหน่ง [A] คือ Afferent Arteriole & JG Granular Cells — หลอดเลือดแดงขาเข้า (กว้างกว่า) และเซลล์ JG ที่หลั่งเอนไซม์ Renin"
+      },
+      {
+        "pin": "B",
+        "term": "Macula Densa (in Distal Tubule)",
+        "thaiName": "กลุ่มเซลล์ทรงสูงในผนัง DCT ทำหน้าที่ตรวจจับความเข้มข้น NaCl",
+        "description": "ตำแหน่ง [B] คือ Macula Densa (in Distal Tubule) — กลุ่มเซลล์ทรงสูงในผนัง DCT ทำหน้าที่ตรวจจับความเข้มข้น NaCl"
+      },
+      {
+        "pin": "C",
+        "term": "Efferent Arteriole (Narrower Lumen)",
+        "thaiName": "หลอดเลือดแดงขาออก (แคบกว่า เพื่อสร้างแรงดันกรอง GHP สูง 55 mmHg)",
+        "description": "ตำแหน่ง [C] คือ Efferent Arteriole (Narrower Lumen) — หลอดเลือดแดงขาออก (แคบกว่า เพื่อสร้างแรงดันกรอง GHP สูง 55 mmHg)"
+      },
+      {
+        "pin": "D",
+        "term": "Podocytes & Filtration Slits (Visceral Layer)",
+        "thaiName": "เซลล์มีเท้าโอบรอบโกลเมอรูลัส เกิดเป็นร่องกรอง Filtration slits",
+        "description": "ตำแหน่ง [D] คือ Podocytes & Filtration Slits (Visceral Layer) — เซลล์มีเท้าโอบรอบโกลเมอรูลัส เกิดเป็นร่องกรอง Filtration slits"
+      },
+      {
+        "pin": "E",
+        "term": "Bowman's Capsule (Parietal Layer & Space)",
+        "thaiName": "ถุงหุ้มโกลเมอรูลัสชั้นนอก (Simple squamous) และช่องรับน้ำกรอง",
+        "description": "ตำแหน่ง [E] คือ Bowman's Capsule (Parietal Layer & Space) — ถุงหุ้มโกลเมอรูลัสชั้นนอก (Simple squamous) และช่องรับน้ำกรอง"
+      },
+      {
+        "pin": "F",
+        "term": "Proximal Convoluted Tubule (Urinary Pole)",
+        "thaiName": "ท่อหน่วยไตส่วนต้น (PCT) มี Brush border ดูดกลับน้ำตาล 100%",
+        "description": "ตำแหน่ง [F] คือ Proximal Convoluted Tubule (Urinary Pole) — ท่อหน่วยไตส่วนต้น (PCT) มี Brush border ดูดกลับน้ำตาล 100%"
+      }
+    ]
   },
   {
     "id": "URINARY-021",
@@ -536,7 +966,7 @@ export const urinaryQuestions: Question[] = [
   },
   {
     "id": "URINARY-022",
-    "questionText": "ท่อหน่วยไตส่วนต้น (Proximal Convoluted Tubule: PCT) มีลักษณะทางจุลกายวิภาคศาสตร์ที่ปรับตัวเพื่อรองรับหน้าที่การดูดซึมกลับสารปริมาณมหาศาล (Massive reabsorption) อย่างไร?",
+    "questionText": "[🖼️ ข้อสอบวิเคราะห์ภาพประกอบกายวิภาค — พิจารณาแผนภาพและจุดชี้ตำแหน่ง [A]–[F] โดยเฉพาะบริเวณตำแหน่ง [A]] ท่อหน่วยไตส่วนต้น (Proximal Convoluted Tubule: PCT) มีลักษณะทางจุลกายวิภาคศาสตร์ที่ปรับตัวเพื่อรองรับหน้าที่การดูดซึมกลับสารปริมาณมหาศาล (Massive reabsorption) อย่างไร?",
     "options": {
       "A": "เป็นเซลล์แบนบาง Simple squamous เพื่อให้สารผ่านแบบ Passive diffusion อย่างเดียว",
       "B": "เซลล์บุผิวเป็น Simple cuboidal epithelium ที่มี Microvilli ยาวและหนาแน่นมากเกิดเป็น Brush border ทางผิวด้านใน และมีไมโทคอนเดรียจำนวนมากที่ Basolateral invaginations เพื่อสร้าง ATP สำหรับ Active transport",
@@ -544,7 +974,7 @@ export const urinaryQuestions: Question[] = [
       "D": "ไม่มี Microvilli แต่มี Cilia โบกพัด"
     },
     "correctOption": "B",
-    "explanation": "PCT เป็นส่วนที่มีการดูดซึมสารกลับมากที่สุด (65-70% ของน้ำและโซเดียม, 100% ของกลูโคสและกรดอะมิโน) เซลล์จึงมี Dense brush border (Microvilli) เพิ่มพื้นที่ผิวดูดซึม และมีรอยพับ Basolateral interdigitations อุดมไปด้วย Mitochondria เพื่อผลิตพลังงานขับเคลื่อน Na+/K+ ATPase pumps",
+    "explanation": "PCT เป็นส่วนที่มีการดูดซึมสารกลับมากที่สุด (65-70% ของน้ำและโซเดียม, 100% ของกลูโคสและกรดอะมิโน) เซลล์จึงมี Dense brush border (Microvilli) เพิ่มพื้นที่ผิวดูดซึม และมีรอยพับ Basolateral interdigitations อุดมไปด้วย Mitochondria เพื่อผลิตพลังงานขับเคลื่อน Na+/K+ ATPase pumps\n\n📌 สรุปจุดชี้ตำแหน่งในภาพประกอบ (Nephron Tubular Segments: PCT, Loop of Henle, DCT & Collecting Duct): จุดที่เกี่ยวข้องโดยตรงกับข้อนี้คือตำแหน่ง [A] (Proximal Convoluted Tubule (PCT) — ดูดกลับน้ำ/Na+ 65-70% และดูดกลับ Glucose/Amino acids 100%) สามารถกดสลับดู \"ภาพเฉลยครบทุกจุด (Master Labeled Diagram)\" ด้านบนเพื่อทบทวนตำแหน่ง [A] ถึง [F] ทั้งหมดได้ทันที",
     "system": "Urinary System",
     "topic": "Nephron Structure & Histology",
     "difficulty": "Medium",
@@ -554,11 +984,54 @@ export const urinaryQuestions: Question[] = [
       "pct-histology",
       "brush-border",
       "microvilli",
-      "active-transport"
+      "active-transport",
+      "has-diagram",
+      "diagram-nephron_tubules"
     ],
     "createdAt": "2026-10-24",
     "updatedAt": "2026-10-24",
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "imageUrl": "/images/anatomy/nephron_tubules_exam.svg",
+    "labeledImageUrl": "/images/anatomy/nephron_tubules_labeled.svg",
+    "imageCaption": "Nephron Tubular Segments: PCT, Loop of Henle, DCT & Collecting Duct — ท่อหน่วยไตส่วนต่างๆ และกลไกการดูดซึมกลับและสร้างปัสสาวะเข้มข้น",
+    "imageLabels": [
+      {
+        "pin": "A",
+        "term": "Proximal Convoluted Tubule (PCT)",
+        "thaiName": "ดูดกลับน้ำ/Na+ 65-70% และดูดกลับ Glucose/Amino acids 100%",
+        "description": "ตำแหน่ง [A] คือ Proximal Convoluted Tubule (PCT) — ดูดกลับน้ำ/Na+ 65-70% และดูดกลับ Glucose/Amino acids 100%"
+      },
+      {
+        "pin": "B",
+        "term": "Thin Descending Limb of Loop of Henle",
+        "thaiName": "ยอมให้น้ำซึมออกอย่างอิสระ (Aquaporin-1) แต่ไม่ยอมให้เกลือผ่าน",
+        "description": "ตำแหน่ง [B] คือ Thin Descending Limb of Loop of Henle — ยอมให้น้ำซึมออกอย่างอิสระ (Aquaporin-1) แต่ไม่ยอมให้เกลือผ่าน"
+      },
+      {
+        "pin": "C",
+        "term": "Hairpin Turn of Juxtamedullary Loop (1200 mOsm)",
+        "thaiName": "ก้นห่วงเฮนเลใน Medulla ชั้นลึก ล้อมรอบด้วยหลอดเลือด Vasa recta",
+        "description": "ตำแหน่ง [C] คือ Hairpin Turn of Juxtamedullary Loop (1200 mOsm) — ก้นห่วงเฮนเลใน Medulla ชั้นลึก ล้อมรอบด้วยหลอดเลือด Vasa recta"
+      },
+      {
+        "pin": "D",
+        "term": "Thick Ascending Limb (NKCC2 Symporter)",
+        "thaiName": "ไม่ยอมให้น้ำผ่านเลย แต่ปั๊ม Na+/K+/2Cl- ออก (เป้าหมายยา Furosemide)",
+        "description": "ตำแหน่ง [D] คือ Thick Ascending Limb (NKCC2 Symporter) — ไม่ยอมให้น้ำผ่านเลย แต่ปั๊ม Na+/K+/2Cl- ออก (เป้าหมายยา Furosemide)"
+      },
+      {
+        "pin": "E",
+        "term": "Distal Convoluted Tubule (DCT)",
+        "thaiName": "ไม่มี Brush border ดูดกลับ Ca2+ (กระตุ้นโดย PTH) และ NaCl (Thiazides)",
+        "description": "ตำแหน่ง [E] คือ Distal Convoluted Tubule (DCT) — ไม่มี Brush border ดูดกลับ Ca2+ (กระตุ้นโดย PTH) และ NaCl (Thiazides)"
+      },
+      {
+        "pin": "F",
+        "term": "Collecting Duct (Principal & Intercalated Cells)",
+        "thaiName": "ท่อรวม (ออกฤทธิ์โดย Aldosterone และ ADH ผ่าน Aquaporin-2)",
+        "description": "ตำแหน่ง [F] คือ Collecting Duct (Principal & Intercalated Cells) — ท่อรวม (ออกฤทธิ์โดย Aldosterone และ ADH ผ่าน Aquaporin-2)"
+      }
+    ]
   },
   {
     "id": "URINARY-023",
@@ -588,7 +1061,7 @@ export const urinaryQuestions: Question[] = [
   },
   {
     "id": "URINARY-024",
-    "questionText": "ห่วงเฮนเลขาลง (Descending limb of the Loop of Henle) มีคุณสมบัติความสามารถในการซึมผ่าน (Permeability) ของผนังท่ออย่างไรที่สอดคล้องกับกลไกสร้างปัสสาวะเข้มข้น?",
+    "questionText": "[🖼️ ข้อสอบวิเคราะห์ภาพประกอบกายวิภาค — พิจารณาแผนภาพและจุดชี้ตำแหน่ง [A]–[F] โดยเฉพาะบริเวณตำแหน่ง [B]] ห่วงเฮนเลขาลง (Descending limb of the Loop of Henle) มีคุณสมบัติความสามารถในการซึมผ่าน (Permeability) ของผนังท่ออย่างไรที่สอดคล้องกับกลไกสร้างปัสสาวะเข้มข้น?",
     "options": {
       "A": "มีการปั๊มน้ำออกด้วย ATP",
       "B": "ยอมให้เฉพาะโซเดียมผ่าน แต่ไม่ยอมให้น้ำผ่าน",
@@ -596,7 +1069,7 @@ export const urinaryQuestions: Question[] = [
       "D": "ยอมให้น้ำซึมผ่านได้อย่างอิสระสูง (Highly permeable to water ผ่าน Aquaporin-1) แต่แทบไม่ยอมให้โซเดียมคลอไรด์หรือสารละลายซึมผ่าน (Impermeable to solutes)"
     },
     "correctOption": "D",
-    "explanation": "Descending limb (โดยเฉพาะ Thin descending limb) มีท่อ Aquaporin-1 หนาแน่น ยอมให้น้ำออสโมซิสออกจากลูเมนเข้าสู่ Interstitium ที่มีความเข้มข้นสูงได้อย่างอิสระ แต่ไม่ยอมให้ NaCl ซึมผ่าน ทำให้ของเหลวภายในท่อมีความเข้มข้น (Osmolality) สูงขึ้นเรื่อยๆ จนสูงสุดที่จุดวกกลับก้นห่วง (ประมาณ 1,200 mOsm/kg)",
+    "explanation": "Descending limb (โดยเฉพาะ Thin descending limb) มีท่อ Aquaporin-1 หนาแน่น ยอมให้น้ำออสโมซิสออกจากลูเมนเข้าสู่ Interstitium ที่มีความเข้มข้นสูงได้อย่างอิสระ แต่ไม่ยอมให้ NaCl ซึมผ่าน ทำให้ของเหลวภายในท่อมีความเข้มข้น (Osmolality) สูงขึ้นเรื่อยๆ จนสูงสุดที่จุดวกกลับก้นห่วง (ประมาณ 1,200 mOsm/kg)\n\n📌 สรุปจุดชี้ตำแหน่งในภาพประกอบ (Nephron Tubular Segments: PCT, Loop of Henle, DCT & Collecting Duct): จุดที่เกี่ยวข้องโดยตรงกับข้อนี้คือตำแหน่ง [B] (Thin Descending Limb of Loop of Henle — ยอมให้น้ำซึมออกอย่างอิสระ (Aquaporin-1) แต่ไม่ยอมให้เกลือผ่าน) สามารถกดสลับดู \"ภาพเฉลยครบทุกจุด (Master Labeled Diagram)\" ด้านบนเพื่อทบทวนตำแหน่ง [A] ถึง [F] ทั้งหมดได้ทันที",
     "system": "Urinary System",
     "topic": "Nephron Structure & Histology",
     "difficulty": "Hard",
@@ -605,15 +1078,58 @@ export const urinaryQuestions: Question[] = [
     "tags": [
       "descending-limb",
       "permeable-to-water",
-      "countercurrent-multiplier"
+      "countercurrent-multiplier",
+      "has-diagram",
+      "diagram-nephron_tubules"
     ],
     "createdAt": "2026-10-24",
     "updatedAt": "2026-10-24",
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "imageUrl": "/images/anatomy/nephron_tubules_exam.svg",
+    "labeledImageUrl": "/images/anatomy/nephron_tubules_labeled.svg",
+    "imageCaption": "Nephron Tubular Segments: PCT, Loop of Henle, DCT & Collecting Duct — ท่อหน่วยไตส่วนต่างๆ และกลไกการดูดซึมกลับและสร้างปัสสาวะเข้มข้น",
+    "imageLabels": [
+      {
+        "pin": "A",
+        "term": "Proximal Convoluted Tubule (PCT)",
+        "thaiName": "ดูดกลับน้ำ/Na+ 65-70% และดูดกลับ Glucose/Amino acids 100%",
+        "description": "ตำแหน่ง [A] คือ Proximal Convoluted Tubule (PCT) — ดูดกลับน้ำ/Na+ 65-70% และดูดกลับ Glucose/Amino acids 100%"
+      },
+      {
+        "pin": "B",
+        "term": "Thin Descending Limb of Loop of Henle",
+        "thaiName": "ยอมให้น้ำซึมออกอย่างอิสระ (Aquaporin-1) แต่ไม่ยอมให้เกลือผ่าน",
+        "description": "ตำแหน่ง [B] คือ Thin Descending Limb of Loop of Henle — ยอมให้น้ำซึมออกอย่างอิสระ (Aquaporin-1) แต่ไม่ยอมให้เกลือผ่าน"
+      },
+      {
+        "pin": "C",
+        "term": "Hairpin Turn of Juxtamedullary Loop (1200 mOsm)",
+        "thaiName": "ก้นห่วงเฮนเลใน Medulla ชั้นลึก ล้อมรอบด้วยหลอดเลือด Vasa recta",
+        "description": "ตำแหน่ง [C] คือ Hairpin Turn of Juxtamedullary Loop (1200 mOsm) — ก้นห่วงเฮนเลใน Medulla ชั้นลึก ล้อมรอบด้วยหลอดเลือด Vasa recta"
+      },
+      {
+        "pin": "D",
+        "term": "Thick Ascending Limb (NKCC2 Symporter)",
+        "thaiName": "ไม่ยอมให้น้ำผ่านเลย แต่ปั๊ม Na+/K+/2Cl- ออก (เป้าหมายยา Furosemide)",
+        "description": "ตำแหน่ง [D] คือ Thick Ascending Limb (NKCC2 Symporter) — ไม่ยอมให้น้ำผ่านเลย แต่ปั๊ม Na+/K+/2Cl- ออก (เป้าหมายยา Furosemide)"
+      },
+      {
+        "pin": "E",
+        "term": "Distal Convoluted Tubule (DCT)",
+        "thaiName": "ไม่มี Brush border ดูดกลับ Ca2+ (กระตุ้นโดย PTH) และ NaCl (Thiazides)",
+        "description": "ตำแหน่ง [E] คือ Distal Convoluted Tubule (DCT) — ไม่มี Brush border ดูดกลับ Ca2+ (กระตุ้นโดย PTH) และ NaCl (Thiazides)"
+      },
+      {
+        "pin": "F",
+        "term": "Collecting Duct (Principal & Intercalated Cells)",
+        "thaiName": "ท่อรวม (ออกฤทธิ์โดย Aldosterone และ ADH ผ่าน Aquaporin-2)",
+        "description": "ตำแหน่ง [F] คือ Collecting Duct (Principal & Intercalated Cells) — ท่อรวม (ออกฤทธิ์โดย Aldosterone และ ADH ผ่าน Aquaporin-2)"
+      }
+    ]
   },
   {
     "id": "URINARY-025",
-    "questionText": "ห่วงเฮนเลขากลับส่วนหนา (Thick Ascending Limb: TAL of Loop of Henle) มีคุณสมบัติทางสรีรวิทยาและโปรตีนตัวพาชนิดใดที่ทำหน้าที่ปั๊มไอออน และเป็นเป้าหมายของยาขับปัสสาวะกลุ่ม Loop diuretics (เช่น Furosemide)?",
+    "questionText": "[🖼️ ข้อสอบวิเคราะห์ภาพประกอบกายวิภาค — พิจารณาแผนภาพและจุดชี้ตำแหน่ง [A]–[F] โดยเฉพาะบริเวณตำแหน่ง [D]] ห่วงเฮนเลขากลับส่วนหนา (Thick Ascending Limb: TAL of Loop of Henle) มีคุณสมบัติทางสรีรวิทยาและโปรตีนตัวพาชนิดใดที่ทำหน้าที่ปั๊มไอออน และเป็นเป้าหมายของยาขับปัสสาวะกลุ่ม Loop diuretics (เช่น Furosemide)?",
     "options": {
       "A": "ผนังท่อ \"ไม่ยอมให้น้ำซึมผ่านอย่างสมบูรณ์ (Impermeable to water)\" แต่มีการปั๊มไอออนอย่างแข็งขันผ่าน Na+/K+/2Cl- cotransporter (NKCC2)",
       "B": "ยอมให้น้ำผ่านได้ดีผ่านช่องทาง Aquaporin-2",
@@ -621,7 +1137,7 @@ export const urinaryQuestions: Question[] = [
       "D": "มีตัวรับ Aldosterone receptor ควบคุมการดูดซึมกลูโคส"
     },
     "correctOption": "A",
-    "explanation": "Thick Ascending Limb (TAL) มีคุณสมบัติสำคัญยิ่งยวด: ผนังท่อไม่ยอมให้น้ำผ่านได้เลย (Water-impermeable) แต่เซลล์ใช้พลังงาน ATP ปั๊มไอออน Na+, K+, และ 2Cl- ออกจากลูเมนเข้าสู่เนื้อเยื่อ Medullary interstitium ผ่านตัวพา NKCC2 ยาขับปัสสาวะ Furosemide จะออกฤทธิ์ยับยั้งตัวพานี้ ทำให้ไอออนไม่ถูกดูดกลับและดึงน้ำขับออกเป็นปัสสาวะปริมาณมาก",
+    "explanation": "Thick Ascending Limb (TAL) มีคุณสมบัติสำคัญยิ่งยวด: ผนังท่อไม่ยอมให้น้ำผ่านได้เลย (Water-impermeable) แต่เซลล์ใช้พลังงาน ATP ปั๊มไอออน Na+, K+, และ 2Cl- ออกจากลูเมนเข้าสู่เนื้อเยื่อ Medullary interstitium ผ่านตัวพา NKCC2 ยาขับปัสสาวะ Furosemide จะออกฤทธิ์ยับยั้งตัวพานี้ ทำให้ไอออนไม่ถูกดูดกลับและดึงน้ำขับออกเป็นปัสสาวะปริมาณมาก\n\n📌 สรุปจุดชี้ตำแหน่งในภาพประกอบ (Nephron Tubular Segments: PCT, Loop of Henle, DCT & Collecting Duct): จุดที่เกี่ยวข้องโดยตรงกับข้อนี้คือตำแหน่ง [D] (Thick Ascending Limb (NKCC2 Symporter) — ไม่ยอมให้น้ำผ่านเลย แต่ปั๊ม Na+/K+/2Cl- ออก (เป้าหมายยา Furosemide)) สามารถกดสลับดู \"ภาพเฉลยครบทุกจุด (Master Labeled Diagram)\" ด้านบนเพื่อทบทวนตำแหน่ง [A] ถึง [F] ทั้งหมดได้ทันที",
     "system": "Urinary System",
     "topic": "Nephron Structure & Histology",
     "difficulty": "Hard",
@@ -632,11 +1148,54 @@ export const urinaryQuestions: Question[] = [
       "nkcc2",
       "furosemide",
       "loop-diuretics",
-      "water-impermeable"
+      "water-impermeable",
+      "has-diagram",
+      "diagram-nephron_tubules"
     ],
     "createdAt": "2026-10-24",
     "updatedAt": "2026-10-24",
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "imageUrl": "/images/anatomy/nephron_tubules_exam.svg",
+    "labeledImageUrl": "/images/anatomy/nephron_tubules_labeled.svg",
+    "imageCaption": "Nephron Tubular Segments: PCT, Loop of Henle, DCT & Collecting Duct — ท่อหน่วยไตส่วนต่างๆ และกลไกการดูดซึมกลับและสร้างปัสสาวะเข้มข้น",
+    "imageLabels": [
+      {
+        "pin": "A",
+        "term": "Proximal Convoluted Tubule (PCT)",
+        "thaiName": "ดูดกลับน้ำ/Na+ 65-70% และดูดกลับ Glucose/Amino acids 100%",
+        "description": "ตำแหน่ง [A] คือ Proximal Convoluted Tubule (PCT) — ดูดกลับน้ำ/Na+ 65-70% และดูดกลับ Glucose/Amino acids 100%"
+      },
+      {
+        "pin": "B",
+        "term": "Thin Descending Limb of Loop of Henle",
+        "thaiName": "ยอมให้น้ำซึมออกอย่างอิสระ (Aquaporin-1) แต่ไม่ยอมให้เกลือผ่าน",
+        "description": "ตำแหน่ง [B] คือ Thin Descending Limb of Loop of Henle — ยอมให้น้ำซึมออกอย่างอิสระ (Aquaporin-1) แต่ไม่ยอมให้เกลือผ่าน"
+      },
+      {
+        "pin": "C",
+        "term": "Hairpin Turn of Juxtamedullary Loop (1200 mOsm)",
+        "thaiName": "ก้นห่วงเฮนเลใน Medulla ชั้นลึก ล้อมรอบด้วยหลอดเลือด Vasa recta",
+        "description": "ตำแหน่ง [C] คือ Hairpin Turn of Juxtamedullary Loop (1200 mOsm) — ก้นห่วงเฮนเลใน Medulla ชั้นลึก ล้อมรอบด้วยหลอดเลือด Vasa recta"
+      },
+      {
+        "pin": "D",
+        "term": "Thick Ascending Limb (NKCC2 Symporter)",
+        "thaiName": "ไม่ยอมให้น้ำผ่านเลย แต่ปั๊ม Na+/K+/2Cl- ออก (เป้าหมายยา Furosemide)",
+        "description": "ตำแหน่ง [D] คือ Thick Ascending Limb (NKCC2 Symporter) — ไม่ยอมให้น้ำผ่านเลย แต่ปั๊ม Na+/K+/2Cl- ออก (เป้าหมายยา Furosemide)"
+      },
+      {
+        "pin": "E",
+        "term": "Distal Convoluted Tubule (DCT)",
+        "thaiName": "ไม่มี Brush border ดูดกลับ Ca2+ (กระตุ้นโดย PTH) และ NaCl (Thiazides)",
+        "description": "ตำแหน่ง [E] คือ Distal Convoluted Tubule (DCT) — ไม่มี Brush border ดูดกลับ Ca2+ (กระตุ้นโดย PTH) และ NaCl (Thiazides)"
+      },
+      {
+        "pin": "F",
+        "term": "Collecting Duct (Principal & Intercalated Cells)",
+        "thaiName": "ท่อรวม (ออกฤทธิ์โดย Aldosterone และ ADH ผ่าน Aquaporin-2)",
+        "description": "ตำแหน่ง [F] คือ Collecting Duct (Principal & Intercalated Cells) — ท่อรวม (ออกฤทธิ์โดย Aldosterone และ ADH ผ่าน Aquaporin-2)"
+      }
+    ]
   },
   {
     "id": "URINARY-026",
@@ -665,7 +1224,7 @@ export const urinaryQuestions: Question[] = [
   },
   {
     "id": "URINARY-027",
-    "questionText": "ฮอร์โมนพาราไทรอยด์ (Parathyroid Hormone: PTH) ออกฤทธิ์กระตุ้นการดูดซึมกลับของแคลเซียมไอออน (Ca2+ reabsorption) ที่ท่อหน่วยไตส่วนใดมากที่สุด?",
+    "questionText": "[🖼️ ข้อสอบวิเคราะห์ภาพประกอบกายวิภาค — พิจารณาแผนภาพและจุดชี้ตำแหน่ง [A]–[F] โดยเฉพาะบริเวณตำแหน่ง [E]] ฮอร์โมนพาราไทรอยด์ (Parathyroid Hormone: PTH) ออกฤทธิ์กระตุ้นการดูดซึมกลับของแคลเซียมไอออน (Ca2+ reabsorption) ที่ท่อหน่วยไตส่วนใดมากที่สุด?",
     "options": {
       "A": "Descending limb of Loop of Henle",
       "B": "Proximal Convoluted Tubule (PCT)",
@@ -673,7 +1232,7 @@ export const urinaryQuestions: Question[] = [
       "D": "Collecting duct"
     },
     "correctOption": "C",
-    "explanation": "PTH ทำหน้าที่เพิ่มระดับแคลเซียมในกระแสเลือด โดยออกฤทธิ์กระตุ้นช่องแคลเซียม TRPV5 และ Calbindin ที่บริเวณ Distal Convoluted Tubule (DCT) และส่วนต้นของ Connecting tubule ส่งผลให้มีการดูดกลับ Ca2+ เพิ่มขึ้น ขณะเดียวกัน PTH จะยับยั้งการดูดกลับฟอสเฟตที่ PCT เพื่อขับฟอสเฟตทิ้งทางปัสสาวะ",
+    "explanation": "PTH ทำหน้าที่เพิ่มระดับแคลเซียมในกระแสเลือด โดยออกฤทธิ์กระตุ้นช่องแคลเซียม TRPV5 และ Calbindin ที่บริเวณ Distal Convoluted Tubule (DCT) และส่วนต้นของ Connecting tubule ส่งผลให้มีการดูดกลับ Ca2+ เพิ่มขึ้น ขณะเดียวกัน PTH จะยับยั้งการดูดกลับฟอสเฟตที่ PCT เพื่อขับฟอสเฟตทิ้งทางปัสสาวะ\n\n📌 สรุปจุดชี้ตำแหน่งในภาพประกอบ (Nephron Tubular Segments: PCT, Loop of Henle, DCT & Collecting Duct): จุดที่เกี่ยวข้องโดยตรงกับข้อนี้คือตำแหน่ง [E] (Distal Convoluted Tubule (DCT) — ไม่มี Brush border ดูดกลับ Ca2+ (กระตุ้นโดย PTH) และ NaCl (Thiazides)) สามารถกดสลับดู \"ภาพเฉลยครบทุกจุด (Master Labeled Diagram)\" ด้านบนเพื่อทบทวนตำแหน่ง [A] ถึง [F] ทั้งหมดได้ทันที",
     "system": "Urinary System",
     "topic": "Nephron Structure & Histology",
     "difficulty": "Hard",
@@ -682,15 +1241,58 @@ export const urinaryQuestions: Question[] = [
     "tags": [
       "pth",
       "calcium-reabsorption",
-      "dct"
+      "dct",
+      "has-diagram",
+      "diagram-nephron_tubules"
     ],
     "createdAt": "2026-10-24",
     "updatedAt": "2026-10-24",
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "imageUrl": "/images/anatomy/nephron_tubules_exam.svg",
+    "labeledImageUrl": "/images/anatomy/nephron_tubules_labeled.svg",
+    "imageCaption": "Nephron Tubular Segments: PCT, Loop of Henle, DCT & Collecting Duct — ท่อหน่วยไตส่วนต่างๆ และกลไกการดูดซึมกลับและสร้างปัสสาวะเข้มข้น",
+    "imageLabels": [
+      {
+        "pin": "A",
+        "term": "Proximal Convoluted Tubule (PCT)",
+        "thaiName": "ดูดกลับน้ำ/Na+ 65-70% และดูดกลับ Glucose/Amino acids 100%",
+        "description": "ตำแหน่ง [A] คือ Proximal Convoluted Tubule (PCT) — ดูดกลับน้ำ/Na+ 65-70% และดูดกลับ Glucose/Amino acids 100%"
+      },
+      {
+        "pin": "B",
+        "term": "Thin Descending Limb of Loop of Henle",
+        "thaiName": "ยอมให้น้ำซึมออกอย่างอิสระ (Aquaporin-1) แต่ไม่ยอมให้เกลือผ่าน",
+        "description": "ตำแหน่ง [B] คือ Thin Descending Limb of Loop of Henle — ยอมให้น้ำซึมออกอย่างอิสระ (Aquaporin-1) แต่ไม่ยอมให้เกลือผ่าน"
+      },
+      {
+        "pin": "C",
+        "term": "Hairpin Turn of Juxtamedullary Loop (1200 mOsm)",
+        "thaiName": "ก้นห่วงเฮนเลใน Medulla ชั้นลึก ล้อมรอบด้วยหลอดเลือด Vasa recta",
+        "description": "ตำแหน่ง [C] คือ Hairpin Turn of Juxtamedullary Loop (1200 mOsm) — ก้นห่วงเฮนเลใน Medulla ชั้นลึก ล้อมรอบด้วยหลอดเลือด Vasa recta"
+      },
+      {
+        "pin": "D",
+        "term": "Thick Ascending Limb (NKCC2 Symporter)",
+        "thaiName": "ไม่ยอมให้น้ำผ่านเลย แต่ปั๊ม Na+/K+/2Cl- ออก (เป้าหมายยา Furosemide)",
+        "description": "ตำแหน่ง [D] คือ Thick Ascending Limb (NKCC2 Symporter) — ไม่ยอมให้น้ำผ่านเลย แต่ปั๊ม Na+/K+/2Cl- ออก (เป้าหมายยา Furosemide)"
+      },
+      {
+        "pin": "E",
+        "term": "Distal Convoluted Tubule (DCT)",
+        "thaiName": "ไม่มี Brush border ดูดกลับ Ca2+ (กระตุ้นโดย PTH) และ NaCl (Thiazides)",
+        "description": "ตำแหน่ง [E] คือ Distal Convoluted Tubule (DCT) — ไม่มี Brush border ดูดกลับ Ca2+ (กระตุ้นโดย PTH) และ NaCl (Thiazides)"
+      },
+      {
+        "pin": "F",
+        "term": "Collecting Duct (Principal & Intercalated Cells)",
+        "thaiName": "ท่อรวม (ออกฤทธิ์โดย Aldosterone และ ADH ผ่าน Aquaporin-2)",
+        "description": "ตำแหน่ง [F] คือ Collecting Duct (Principal & Intercalated Cells) — ท่อรวม (ออกฤทธิ์โดย Aldosterone และ ADH ผ่าน Aquaporin-2)"
+      }
+    ]
   },
   {
     "id": "URINARY-028",
-    "questionText": "ท่อรวมน้ำปัสสาวะ (Collecting Duct) ประกอบด้วยเซลล์หลัก 2 ชนิด เซลล์ชนิด Principal cells (P cells) มีบทบาทสรีรวิทยาและตอบสนองต่อฮอร์โมนชนิดใด?",
+    "questionText": "[🖼️ ข้อสอบวิเคราะห์ภาพประกอบกายวิภาค — พิจารณาแผนภาพและจุดชี้ตำแหน่ง [A]–[F] โดยเฉพาะบริเวณตำแหน่ง [F]] ท่อรวมน้ำปัสสาวะ (Collecting Duct) ประกอบด้วยเซลล์หลัก 2 ชนิด เซลล์ชนิด Principal cells (P cells) มีบทบาทสรีรวิทยาและตอบสนองต่อฮอร์โมนชนิดใด?",
     "options": {
       "A": "ทำหน้าที่กรองเม็ดเลือดแดง",
       "B": "ทำหน้าที่ควบคุมสมดุลกรด-ด่างโดยการหลั่งไบคาร์บอเนต",
@@ -698,7 +1300,7 @@ export const urinaryQuestions: Question[] = [
       "D": "ทำหน้าที่ดูดซึม Na+ และน้ำกลับ พร้อมกับขับ K+ ออกสู่ท่อ โดยตอบสนองต่อฮอร์โมน Aldosterone และฮอร์โมน Antidiuretic Hormone (ADH / Vasopressin)"
     },
     "correctOption": "D",
-    "explanation": "Collecting duct มีเซลล์ 2 ชนิด: 1. Principal cells (P cells, มีจำนวนมากที่สุด): มีตัวรับของ Aldosterone (กระตุ้นปั๊ม ENaC ดูดซึม Na+ และขับ K+) และตัวรับ V2 ของ ADH (แทรกช่อง Aquaporin-2 ดูดซึมน้ำกลับ) 2. Intercalated cells (I cells): ควบคุมสมดุลกรด-ด่าง (Type A ขับ H+, Type B ขับ HCO3-)",
+    "explanation": "Collecting duct มีเซลล์ 2 ชนิด: 1. Principal cells (P cells, มีจำนวนมากที่สุด): มีตัวรับของ Aldosterone (กระตุ้นปั๊ม ENaC ดูดซึม Na+ และขับ K+) และตัวรับ V2 ของ ADH (แทรกช่อง Aquaporin-2 ดูดซึมน้ำกลับ) 2. Intercalated cells (I cells): ควบคุมสมดุลกรด-ด่าง (Type A ขับ H+, Type B ขับ HCO3-)\n\n📌 สรุปจุดชี้ตำแหน่งในภาพประกอบ (Nephron Tubular Segments: PCT, Loop of Henle, DCT & Collecting Duct): จุดที่เกี่ยวข้องโดยตรงกับข้อนี้คือตำแหน่ง [F] (Collecting Duct (Principal & Intercalated Cells) — ท่อรวม (ออกฤทธิ์โดย Aldosterone และ ADH ผ่าน Aquaporin-2)) สามารถกดสลับดู \"ภาพเฉลยครบทุกจุด (Master Labeled Diagram)\" ด้านบนเพื่อทบทวนตำแหน่ง [A] ถึง [F] ทั้งหมดได้ทันที",
     "system": "Urinary System",
     "topic": "Nephron Structure & Histology",
     "difficulty": "Hard",
@@ -708,15 +1310,58 @@ export const urinaryQuestions: Question[] = [
       "principal-cells",
       "aldosterone",
       "adh",
-      "collecting-duct"
+      "collecting-duct",
+      "has-diagram",
+      "diagram-nephron_tubules"
     ],
     "createdAt": "2026-10-24",
     "updatedAt": "2026-10-24",
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "imageUrl": "/images/anatomy/nephron_tubules_exam.svg",
+    "labeledImageUrl": "/images/anatomy/nephron_tubules_labeled.svg",
+    "imageCaption": "Nephron Tubular Segments: PCT, Loop of Henle, DCT & Collecting Duct — ท่อหน่วยไตส่วนต่างๆ และกลไกการดูดซึมกลับและสร้างปัสสาวะเข้มข้น",
+    "imageLabels": [
+      {
+        "pin": "A",
+        "term": "Proximal Convoluted Tubule (PCT)",
+        "thaiName": "ดูดกลับน้ำ/Na+ 65-70% และดูดกลับ Glucose/Amino acids 100%",
+        "description": "ตำแหน่ง [A] คือ Proximal Convoluted Tubule (PCT) — ดูดกลับน้ำ/Na+ 65-70% และดูดกลับ Glucose/Amino acids 100%"
+      },
+      {
+        "pin": "B",
+        "term": "Thin Descending Limb of Loop of Henle",
+        "thaiName": "ยอมให้น้ำซึมออกอย่างอิสระ (Aquaporin-1) แต่ไม่ยอมให้เกลือผ่าน",
+        "description": "ตำแหน่ง [B] คือ Thin Descending Limb of Loop of Henle — ยอมให้น้ำซึมออกอย่างอิสระ (Aquaporin-1) แต่ไม่ยอมให้เกลือผ่าน"
+      },
+      {
+        "pin": "C",
+        "term": "Hairpin Turn of Juxtamedullary Loop (1200 mOsm)",
+        "thaiName": "ก้นห่วงเฮนเลใน Medulla ชั้นลึก ล้อมรอบด้วยหลอดเลือด Vasa recta",
+        "description": "ตำแหน่ง [C] คือ Hairpin Turn of Juxtamedullary Loop (1200 mOsm) — ก้นห่วงเฮนเลใน Medulla ชั้นลึก ล้อมรอบด้วยหลอดเลือด Vasa recta"
+      },
+      {
+        "pin": "D",
+        "term": "Thick Ascending Limb (NKCC2 Symporter)",
+        "thaiName": "ไม่ยอมให้น้ำผ่านเลย แต่ปั๊ม Na+/K+/2Cl- ออก (เป้าหมายยา Furosemide)",
+        "description": "ตำแหน่ง [D] คือ Thick Ascending Limb (NKCC2 Symporter) — ไม่ยอมให้น้ำผ่านเลย แต่ปั๊ม Na+/K+/2Cl- ออก (เป้าหมายยา Furosemide)"
+      },
+      {
+        "pin": "E",
+        "term": "Distal Convoluted Tubule (DCT)",
+        "thaiName": "ไม่มี Brush border ดูดกลับ Ca2+ (กระตุ้นโดย PTH) และ NaCl (Thiazides)",
+        "description": "ตำแหน่ง [E] คือ Distal Convoluted Tubule (DCT) — ไม่มี Brush border ดูดกลับ Ca2+ (กระตุ้นโดย PTH) และ NaCl (Thiazides)"
+      },
+      {
+        "pin": "F",
+        "term": "Collecting Duct (Principal & Intercalated Cells)",
+        "thaiName": "ท่อรวม (ออกฤทธิ์โดย Aldosterone และ ADH ผ่าน Aquaporin-2)",
+        "description": "ตำแหน่ง [F] คือ Collecting Duct (Principal & Intercalated Cells) — ท่อรวม (ออกฤทธิ์โดย Aldosterone และ ADH ผ่าน Aquaporin-2)"
+      }
+    ]
   },
   {
     "id": "URINARY-029",
-    "questionText": "ฮอร์โมนแอนติไดอูเรติก (Antidiuretic Hormone: ADH หรือ Vasopressin) ควบคุมการดูดซึมน้ำกลับที่ Collecting duct โดยกระตุ้นการเคลื่อนย้ายของช่องทางผ่านน้ำชนิดใดไปแทรกบนเยื่อหุ้มเซลล์ด้านลูเมน (Apical membrane)?",
+    "questionText": "[🖼️ ข้อสอบวิเคราะห์ภาพประกอบกายวิภาค — พิจารณาแผนภาพและจุดชี้ตำแหน่ง [A]–[F] โดยเฉพาะบริเวณตำแหน่ง [F]] ฮอร์โมนแอนติไดอูเรติก (Antidiuretic Hormone: ADH หรือ Vasopressin) ควบคุมการดูดซึมน้ำกลับที่ Collecting duct โดยกระตุ้นการเคลื่อนย้ายของช่องทางผ่านน้ำชนิดใดไปแทรกบนเยื่อหุ้มเซลล์ด้านลูเมน (Apical membrane)?",
     "options": {
       "A": "Aquaporin-2 (AQP2)",
       "B": "Aquaporin-1 (AQP1)",
@@ -724,7 +1369,7 @@ export const urinaryQuestions: Question[] = [
       "D": "GLUT4"
     },
     "correctOption": "A",
-    "explanation": "ADH สร้างจากไฮโปทาลามัส หลั่งจากต่อมใต้สมองส่วนหลัง เมื่อจับกับ V2 receptors บน Principal cells จะกระตุ้นสัญญาณผ่าน cAMP ทำให้ถุง Vesicles ที่บรรจุช่องน้ำ Aquaporin-2 เคลื่อนตัวไปเชื่อมรวม (Exocytosis) กับ Apical membrane ยอมให้น้ำออสโมซิสกลับคืนสู่กระแสเลือด ปัสสาวะจึงมีปริมาณลดลงและเข้มข้นขึ้น",
+    "explanation": "ADH สร้างจากไฮโปทาลามัส หลั่งจากต่อมใต้สมองส่วนหลัง เมื่อจับกับ V2 receptors บน Principal cells จะกระตุ้นสัญญาณผ่าน cAMP ทำให้ถุง Vesicles ที่บรรจุช่องน้ำ Aquaporin-2 เคลื่อนตัวไปเชื่อมรวม (Exocytosis) กับ Apical membrane ยอมให้น้ำออสโมซิสกลับคืนสู่กระแสเลือด ปัสสาวะจึงมีปริมาณลดลงและเข้มข้นขึ้น\n\n📌 สรุปจุดชี้ตำแหน่งในภาพประกอบ (Nephron Tubular Segments: PCT, Loop of Henle, DCT & Collecting Duct): จุดที่เกี่ยวข้องโดยตรงกับข้อนี้คือตำแหน่ง [F] (Collecting Duct (Principal & Intercalated Cells) — ท่อรวม (ออกฤทธิ์โดย Aldosterone และ ADH ผ่าน Aquaporin-2)) สามารถกดสลับดู \"ภาพเฉลยครบทุกจุด (Master Labeled Diagram)\" ด้านบนเพื่อทบทวนตำแหน่ง [A] ถึง [F] ทั้งหมดได้ทันที",
     "system": "Urinary System",
     "topic": "Nephron Structure & Histology",
     "difficulty": "Hard",
@@ -734,11 +1379,54 @@ export const urinaryQuestions: Question[] = [
       "adh",
       "aquaporin-2",
       "water-conservation",
-      "vasopressin"
+      "vasopressin",
+      "has-diagram",
+      "diagram-nephron_tubules"
     ],
     "createdAt": "2026-10-24",
     "updatedAt": "2026-10-24",
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "imageUrl": "/images/anatomy/nephron_tubules_exam.svg",
+    "labeledImageUrl": "/images/anatomy/nephron_tubules_labeled.svg",
+    "imageCaption": "Nephron Tubular Segments: PCT, Loop of Henle, DCT & Collecting Duct — ท่อหน่วยไตส่วนต่างๆ และกลไกการดูดซึมกลับและสร้างปัสสาวะเข้มข้น",
+    "imageLabels": [
+      {
+        "pin": "A",
+        "term": "Proximal Convoluted Tubule (PCT)",
+        "thaiName": "ดูดกลับน้ำ/Na+ 65-70% และดูดกลับ Glucose/Amino acids 100%",
+        "description": "ตำแหน่ง [A] คือ Proximal Convoluted Tubule (PCT) — ดูดกลับน้ำ/Na+ 65-70% และดูดกลับ Glucose/Amino acids 100%"
+      },
+      {
+        "pin": "B",
+        "term": "Thin Descending Limb of Loop of Henle",
+        "thaiName": "ยอมให้น้ำซึมออกอย่างอิสระ (Aquaporin-1) แต่ไม่ยอมให้เกลือผ่าน",
+        "description": "ตำแหน่ง [B] คือ Thin Descending Limb of Loop of Henle — ยอมให้น้ำซึมออกอย่างอิสระ (Aquaporin-1) แต่ไม่ยอมให้เกลือผ่าน"
+      },
+      {
+        "pin": "C",
+        "term": "Hairpin Turn of Juxtamedullary Loop (1200 mOsm)",
+        "thaiName": "ก้นห่วงเฮนเลใน Medulla ชั้นลึก ล้อมรอบด้วยหลอดเลือด Vasa recta",
+        "description": "ตำแหน่ง [C] คือ Hairpin Turn of Juxtamedullary Loop (1200 mOsm) — ก้นห่วงเฮนเลใน Medulla ชั้นลึก ล้อมรอบด้วยหลอดเลือด Vasa recta"
+      },
+      {
+        "pin": "D",
+        "term": "Thick Ascending Limb (NKCC2 Symporter)",
+        "thaiName": "ไม่ยอมให้น้ำผ่านเลย แต่ปั๊ม Na+/K+/2Cl- ออก (เป้าหมายยา Furosemide)",
+        "description": "ตำแหน่ง [D] คือ Thick Ascending Limb (NKCC2 Symporter) — ไม่ยอมให้น้ำผ่านเลย แต่ปั๊ม Na+/K+/2Cl- ออก (เป้าหมายยา Furosemide)"
+      },
+      {
+        "pin": "E",
+        "term": "Distal Convoluted Tubule (DCT)",
+        "thaiName": "ไม่มี Brush border ดูดกลับ Ca2+ (กระตุ้นโดย PTH) และ NaCl (Thiazides)",
+        "description": "ตำแหน่ง [E] คือ Distal Convoluted Tubule (DCT) — ไม่มี Brush border ดูดกลับ Ca2+ (กระตุ้นโดย PTH) และ NaCl (Thiazides)"
+      },
+      {
+        "pin": "F",
+        "term": "Collecting Duct (Principal & Intercalated Cells)",
+        "thaiName": "ท่อรวม (ออกฤทธิ์โดย Aldosterone และ ADH ผ่าน Aquaporin-2)",
+        "description": "ตำแหน่ง [F] คือ Collecting Duct (Principal & Intercalated Cells) — ท่อรวม (ออกฤทธิ์โดย Aldosterone และ ADH ผ่าน Aquaporin-2)"
+      }
+    ]
   },
   {
     "id": "URINARY-030",
@@ -792,7 +1480,7 @@ export const urinaryQuestions: Question[] = [
   },
   {
     "id": "URINARY-032",
-    "questionText": "หลอดเลือดฝอยเส้นตรง (Vasa Recta) เป็นโครงสร้างหลอดเลือดพิเศษที่แตกแขนงออกมาจาก Efferent arteriole ของเนฟรอนชนิดใด และทำหน้าที่สำคัญอย่างไร?",
+    "questionText": "[🖼️ ข้อสอบวิเคราะห์ภาพประกอบกายวิภาค — พิจารณาแผนภาพและจุดชี้ตำแหน่ง [A]–[F] โดยเฉพาะบริเวณตำแหน่ง [C]] หลอดเลือดฝอยเส้นตรง (Vasa Recta) เป็นโครงสร้างหลอดเลือดพิเศษที่แตกแขนงออกมาจาก Efferent arteriole ของเนฟรอนชนิดใด และทำหน้าที่สำคัญอย่างไร?",
     "options": {
       "A": "เป็นหลอดเลือดดำที่ไม่มีการแลกเปลี่ยนสาร",
       "B": "แตกออกมาจาก Cortical nephrons เพื่อไปเลี้ยงกระเพาะอาหาร",
@@ -800,7 +1488,7 @@ export const urinaryQuestions: Question[] = [
       "D": "แตกออกมาจาก Efferent arteriole ของ Juxtamedullary nephrons ทอดตัวขนานคู่กับห่วงเฮนเลยาว ทำหน้าที่ในระบบ Countercurrent Exchanger เพื่อคงสภาพความเข้มข้นสูงของ Medullary osmotic gradient"
     },
     "correctOption": "D",
-    "explanation": "Vasa recta เป็นร่างแหหลอดเลือดฝอยยาวรูปตัวยู (Hairpin loop) ที่แตกแขนงมาจาก Efferent arteriole ของ Juxtamedullary nephrons โดยเฉพาะ ทอดขนานแนบชิดกับ Long loop of Henle ทำหน้าที่เป็น Countercurrent Exchanger ลำเลียงสารอาหารและออกซิเจนไปเลี้ยงเนื้อไตชั้น Medulla และดึงน้ำกลับเข้ากระแสเลือดอย่างช้าๆ โดยไม่ชะล้าง (Without washing out) สารละลายเกลือและยูเรียใน Medulla",
+    "explanation": "Vasa recta เป็นร่างแหหลอดเลือดฝอยยาวรูปตัวยู (Hairpin loop) ที่แตกแขนงมาจาก Efferent arteriole ของ Juxtamedullary nephrons โดยเฉพาะ ทอดขนานแนบชิดกับ Long loop of Henle ทำหน้าที่เป็น Countercurrent Exchanger ลำเลียงสารอาหารและออกซิเจนไปเลี้ยงเนื้อไตชั้น Medulla และดึงน้ำกลับเข้ากระแสเลือดอย่างช้าๆ โดยไม่ชะล้าง (Without washing out) สารละลายเกลือและยูเรียใน Medulla\n\n📌 สรุปจุดชี้ตำแหน่งในภาพประกอบ (Nephron Tubular Segments: PCT, Loop of Henle, DCT & Collecting Duct): จุดที่เกี่ยวข้องโดยตรงกับข้อนี้คือตำแหน่ง [C] (Hairpin Turn of Juxtamedullary Loop (1200 mOsm) — ก้นห่วงเฮนเลใน Medulla ชั้นลึก ล้อมรอบด้วยหลอดเลือด Vasa recta) สามารถกดสลับดู \"ภาพเฉลยครบทุกจุด (Master Labeled Diagram)\" ด้านบนเพื่อทบทวนตำแหน่ง [A] ถึง [F] ทั้งหมดได้ทันที",
     "system": "Urinary System",
     "topic": "Cortical vs Juxtamedullary Nephrons",
     "difficulty": "Hard",
@@ -809,11 +1497,54 @@ export const urinaryQuestions: Question[] = [
     "tags": [
       "vasa-recta",
       "countercurrent-exchanger",
-      "juxtamedullary-nephron"
+      "juxtamedullary-nephron",
+      "has-diagram",
+      "diagram-nephron_tubules"
     ],
     "createdAt": "2026-10-24",
     "updatedAt": "2026-10-24",
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "imageUrl": "/images/anatomy/nephron_tubules_exam.svg",
+    "labeledImageUrl": "/images/anatomy/nephron_tubules_labeled.svg",
+    "imageCaption": "Nephron Tubular Segments: PCT, Loop of Henle, DCT & Collecting Duct — ท่อหน่วยไตส่วนต่างๆ และกลไกการดูดซึมกลับและสร้างปัสสาวะเข้มข้น",
+    "imageLabels": [
+      {
+        "pin": "A",
+        "term": "Proximal Convoluted Tubule (PCT)",
+        "thaiName": "ดูดกลับน้ำ/Na+ 65-70% และดูดกลับ Glucose/Amino acids 100%",
+        "description": "ตำแหน่ง [A] คือ Proximal Convoluted Tubule (PCT) — ดูดกลับน้ำ/Na+ 65-70% และดูดกลับ Glucose/Amino acids 100%"
+      },
+      {
+        "pin": "B",
+        "term": "Thin Descending Limb of Loop of Henle",
+        "thaiName": "ยอมให้น้ำซึมออกอย่างอิสระ (Aquaporin-1) แต่ไม่ยอมให้เกลือผ่าน",
+        "description": "ตำแหน่ง [B] คือ Thin Descending Limb of Loop of Henle — ยอมให้น้ำซึมออกอย่างอิสระ (Aquaporin-1) แต่ไม่ยอมให้เกลือผ่าน"
+      },
+      {
+        "pin": "C",
+        "term": "Hairpin Turn of Juxtamedullary Loop (1200 mOsm)",
+        "thaiName": "ก้นห่วงเฮนเลใน Medulla ชั้นลึก ล้อมรอบด้วยหลอดเลือด Vasa recta",
+        "description": "ตำแหน่ง [C] คือ Hairpin Turn of Juxtamedullary Loop (1200 mOsm) — ก้นห่วงเฮนเลใน Medulla ชั้นลึก ล้อมรอบด้วยหลอดเลือด Vasa recta"
+      },
+      {
+        "pin": "D",
+        "term": "Thick Ascending Limb (NKCC2 Symporter)",
+        "thaiName": "ไม่ยอมให้น้ำผ่านเลย แต่ปั๊ม Na+/K+/2Cl- ออก (เป้าหมายยา Furosemide)",
+        "description": "ตำแหน่ง [D] คือ Thick Ascending Limb (NKCC2 Symporter) — ไม่ยอมให้น้ำผ่านเลย แต่ปั๊ม Na+/K+/2Cl- ออก (เป้าหมายยา Furosemide)"
+      },
+      {
+        "pin": "E",
+        "term": "Distal Convoluted Tubule (DCT)",
+        "thaiName": "ไม่มี Brush border ดูดกลับ Ca2+ (กระตุ้นโดย PTH) และ NaCl (Thiazides)",
+        "description": "ตำแหน่ง [E] คือ Distal Convoluted Tubule (DCT) — ไม่มี Brush border ดูดกลับ Ca2+ (กระตุ้นโดย PTH) และ NaCl (Thiazides)"
+      },
+      {
+        "pin": "F",
+        "term": "Collecting Duct (Principal & Intercalated Cells)",
+        "thaiName": "ท่อรวม (ออกฤทธิ์โดย Aldosterone และ ADH ผ่าน Aquaporin-2)",
+        "description": "ตำแหน่ง [F] คือ Collecting Duct (Principal & Intercalated Cells) — ท่อรวม (ออกฤทธิ์โดย Aldosterone และ ADH ผ่าน Aquaporin-2)"
+      }
+    ]
   },
   {
     "id": "URINARY-033",
@@ -892,7 +1623,7 @@ export const urinaryQuestions: Question[] = [
   },
   {
     "id": "URINARY-036",
-    "questionText": "โครงสร้าง Juxtaglomerular Apparatus (JGA) เป็นโครงสร้างควบคุมความดันโลหิตและอัตราการกรองของไต เกิดจากการสัมผัสกันระหว่างโครงสร้างคู่ใดของหน่วยไต?",
+    "questionText": "[🖼️ ข้อสอบวิเคราะห์ภาพประกอบกายวิภาค — พิจารณาแผนภาพและจุดชี้ตำแหน่ง [A]–[F] โดยเฉพาะบริเวณตำแหน่ง [B]] โครงสร้าง Juxtaglomerular Apparatus (JGA) เป็นโครงสร้างควบคุมความดันโลหิตและอัตราการกรองของไต เกิดจากการสัมผัสกันระหว่างโครงสร้างคู่ใดของหน่วยไต?",
     "options": {
       "A": "Bowman's capsule กับ Ureter",
       "B": "Proximal tubule กับ Loop of Henle",
@@ -900,7 +1631,7 @@ export const urinaryQuestions: Question[] = [
       "D": "ส่วนต้นของ Distal Convoluted Tubule (DCT) กับขั้วหลอดเลือด Afferent และ Efferent arterioles ของเนฟรอนเดียวกัน"
     },
     "correctOption": "D",
-    "explanation": "JGA เกิดจากการที่ท่อหน่วยไตส่วนต้นของ DCT ทอดตัววกกลับมาแตะชิดกับขั้วหลอดเลือด (Vascular pole) ของ Renal corpuscle เดียวกัน ระหว่าง Afferent arteriole และ Efferent arteriole ทำหน้าที่เป็น Sensor ตรวจสอบคุณสมบัติของของเหลวในท่อและควบคุมอัตราการกรอง (Tubuloglomerular feedback)",
+    "explanation": "JGA เกิดจากการที่ท่อหน่วยไตส่วนต้นของ DCT ทอดตัววกกลับมาแตะชิดกับขั้วหลอดเลือด (Vascular pole) ของ Renal corpuscle เดียวกัน ระหว่าง Afferent arteriole และ Efferent arteriole ทำหน้าที่เป็น Sensor ตรวจสอบคุณสมบัติของของเหลวในท่อและควบคุมอัตราการกรอง (Tubuloglomerular feedback)\n\n📌 สรุปจุดชี้ตำแหน่งในภาพประกอบ (Renal Corpuscle, Glomerular Filtration Barrier & Juxtaglomerular Apparatus): จุดที่เกี่ยวข้องโดยตรงกับข้อนี้คือตำแหน่ง [B] (Macula Densa (in Distal Tubule) — กลุ่มเซลล์ทรงสูงในผนัง DCT ทำหน้าที่ตรวจจับความเข้มข้น NaCl) สามารถกดสลับดู \"ภาพเฉลยครบทุกจุด (Master Labeled Diagram)\" ด้านบนเพื่อทบทวนตำแหน่ง [A] ถึง [F] ทั้งหมดได้ทันที",
     "system": "Urinary System",
     "topic": "Juxtaglomerular Apparatus (JGA)",
     "difficulty": "Medium",
@@ -909,15 +1640,58 @@ export const urinaryQuestions: Question[] = [
     "tags": [
       "jga",
       "vascular-pole",
-      "dct-contact"
+      "dct-contact",
+      "has-diagram",
+      "diagram-renal_corpuscle_jga"
     ],
     "createdAt": "2026-10-24",
     "updatedAt": "2026-10-24",
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "imageUrl": "/images/anatomy/renal_corpuscle_jga_exam.svg",
+    "labeledImageUrl": "/images/anatomy/renal_corpuscle_jga_labeled.svg",
+    "imageCaption": "Renal Corpuscle, Glomerular Filtration Barrier & Juxtaglomerular Apparatus — โครงสร้างโกลเมอรูลัส เซลล์มีเท้า Podocytes และชุดควบคุมความดัน JGA",
+    "imageLabels": [
+      {
+        "pin": "A",
+        "term": "Afferent Arteriole & JG Granular Cells",
+        "thaiName": "หลอดเลือดแดงขาเข้า (กว้างกว่า) และเซลล์ JG ที่หลั่งเอนไซม์ Renin",
+        "description": "ตำแหน่ง [A] คือ Afferent Arteriole & JG Granular Cells — หลอดเลือดแดงขาเข้า (กว้างกว่า) และเซลล์ JG ที่หลั่งเอนไซม์ Renin"
+      },
+      {
+        "pin": "B",
+        "term": "Macula Densa (in Distal Tubule)",
+        "thaiName": "กลุ่มเซลล์ทรงสูงในผนัง DCT ทำหน้าที่ตรวจจับความเข้มข้น NaCl",
+        "description": "ตำแหน่ง [B] คือ Macula Densa (in Distal Tubule) — กลุ่มเซลล์ทรงสูงในผนัง DCT ทำหน้าที่ตรวจจับความเข้มข้น NaCl"
+      },
+      {
+        "pin": "C",
+        "term": "Efferent Arteriole (Narrower Lumen)",
+        "thaiName": "หลอดเลือดแดงขาออก (แคบกว่า เพื่อสร้างแรงดันกรอง GHP สูง 55 mmHg)",
+        "description": "ตำแหน่ง [C] คือ Efferent Arteriole (Narrower Lumen) — หลอดเลือดแดงขาออก (แคบกว่า เพื่อสร้างแรงดันกรอง GHP สูง 55 mmHg)"
+      },
+      {
+        "pin": "D",
+        "term": "Podocytes & Filtration Slits (Visceral Layer)",
+        "thaiName": "เซลล์มีเท้าโอบรอบโกลเมอรูลัส เกิดเป็นร่องกรอง Filtration slits",
+        "description": "ตำแหน่ง [D] คือ Podocytes & Filtration Slits (Visceral Layer) — เซลล์มีเท้าโอบรอบโกลเมอรูลัส เกิดเป็นร่องกรอง Filtration slits"
+      },
+      {
+        "pin": "E",
+        "term": "Bowman's Capsule (Parietal Layer & Space)",
+        "thaiName": "ถุงหุ้มโกลเมอรูลัสชั้นนอก (Simple squamous) และช่องรับน้ำกรอง",
+        "description": "ตำแหน่ง [E] คือ Bowman's Capsule (Parietal Layer & Space) — ถุงหุ้มโกลเมอรูลัสชั้นนอก (Simple squamous) และช่องรับน้ำกรอง"
+      },
+      {
+        "pin": "F",
+        "term": "Proximal Convoluted Tubule (Urinary Pole)",
+        "thaiName": "ท่อหน่วยไตส่วนต้น (PCT) มี Brush border ดูดกลับน้ำตาล 100%",
+        "description": "ตำแหน่ง [F] คือ Proximal Convoluted Tubule (Urinary Pole) — ท่อหน่วยไตส่วนต้น (PCT) มี Brush border ดูดกลับน้ำตาล 100%"
+      }
+    ]
   },
   {
     "id": "URINARY-037",
-    "questionText": "กลุ่มเซลล์ชนิด Macula Densa ซึ่งเป็นส่วนประกอบหนึ่งของ JGA ตั้งอยู่ที่ผนังของท่อใด และทำหน้าที่เป็นตัวรับรู้ (Sensor) ตรวจจับสิ่งใด?",
+    "questionText": "[🖼️ ข้อสอบวิเคราะห์ภาพประกอบกายวิภาค — พิจารณาแผนภาพและจุดชี้ตำแหน่ง [A]–[F] โดยเฉพาะบริเวณตำแหน่ง [B]] กลุ่มเซลล์ชนิด Macula Densa ซึ่งเป็นส่วนประกอบหนึ่งของ JGA ตั้งอยู่ที่ผนังของท่อใด และทำหน้าที่เป็นตัวรับรู้ (Sensor) ตรวจจับสิ่งใด?",
     "options": {
       "A": "ตั้งอยู่ที่ผนังของท่อ Distal Convoluted Tubule (DCT) ทำหน้าที่เป็น Chemoreceptors/Osmoreceptors ตรวจจับความเข้มข้นของโซเดียมและคลอไรด์ (NaCl concentration) และอัตราการไหลของของเหลวในท่อ",
       "B": "ตั้งอยู่ที่ผนังหลอดเลือดแดง ทำหน้าที่ตรวจจับออกซิเจน",
@@ -925,7 +1699,7 @@ export const urinaryQuestions: Question[] = [
       "D": "ตั้งอยู่ที่ Loop of Henle ตรวจจับกลูโคส"
     },
     "correctOption": "A",
-    "explanation": "Macula densa เป็นกลุ่มเซลล์รูปทรงกระบอกสูงเรียงตัวเบียดกันแน่น นิวเคลียสติดสีเข้ม อยู่บนผนังของ DCT ด้านที่ชิดกับ Afferent arteriole ทำหน้าที่ตรวจวัดความเข้มข้นของไอออน Na+ และ Cl- ใน Filtrate ที่ไหลผ่าน หาก NaCl ต่ำลง บ่งชี้ว่า GFR ต่ำ เซลล์จะส่งสัญญาณเคมี (Adenosine / Nitric oxide) ไปสั่งให้ JG cells หลั่ง Renin",
+    "explanation": "Macula densa เป็นกลุ่มเซลล์รูปทรงกระบอกสูงเรียงตัวเบียดกันแน่น นิวเคลียสติดสีเข้ม อยู่บนผนังของ DCT ด้านที่ชิดกับ Afferent arteriole ทำหน้าที่ตรวจวัดความเข้มข้นของไอออน Na+ และ Cl- ใน Filtrate ที่ไหลผ่าน หาก NaCl ต่ำลง บ่งชี้ว่า GFR ต่ำ เซลล์จะส่งสัญญาณเคมี (Adenosine / Nitric oxide) ไปสั่งให้ JG cells หลั่ง Renin\n\n📌 สรุปจุดชี้ตำแหน่งในภาพประกอบ (Renal Corpuscle, Glomerular Filtration Barrier & Juxtaglomerular Apparatus): จุดที่เกี่ยวข้องโดยตรงกับข้อนี้คือตำแหน่ง [B] (Macula Densa (in Distal Tubule) — กลุ่มเซลล์ทรงสูงในผนัง DCT ทำหน้าที่ตรวจจับความเข้มข้น NaCl) สามารถกดสลับดู \"ภาพเฉลยครบทุกจุด (Master Labeled Diagram)\" ด้านบนเพื่อทบทวนตำแหน่ง [A] ถึง [F] ทั้งหมดได้ทันที",
     "system": "Urinary System",
     "topic": "Juxtaglomerular Apparatus (JGA)",
     "difficulty": "Hard",
@@ -935,15 +1709,58 @@ export const urinaryQuestions: Question[] = [
       "macula-densa",
       "nacl-sensor",
       "dct-wall",
-      "chemoreceptors"
+      "chemoreceptors",
+      "has-diagram",
+      "diagram-renal_corpuscle_jga"
     ],
     "createdAt": "2026-10-24",
     "updatedAt": "2026-10-24",
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "imageUrl": "/images/anatomy/renal_corpuscle_jga_exam.svg",
+    "labeledImageUrl": "/images/anatomy/renal_corpuscle_jga_labeled.svg",
+    "imageCaption": "Renal Corpuscle, Glomerular Filtration Barrier & Juxtaglomerular Apparatus — โครงสร้างโกลเมอรูลัส เซลล์มีเท้า Podocytes และชุดควบคุมความดัน JGA",
+    "imageLabels": [
+      {
+        "pin": "A",
+        "term": "Afferent Arteriole & JG Granular Cells",
+        "thaiName": "หลอดเลือดแดงขาเข้า (กว้างกว่า) และเซลล์ JG ที่หลั่งเอนไซม์ Renin",
+        "description": "ตำแหน่ง [A] คือ Afferent Arteriole & JG Granular Cells — หลอดเลือดแดงขาเข้า (กว้างกว่า) และเซลล์ JG ที่หลั่งเอนไซม์ Renin"
+      },
+      {
+        "pin": "B",
+        "term": "Macula Densa (in Distal Tubule)",
+        "thaiName": "กลุ่มเซลล์ทรงสูงในผนัง DCT ทำหน้าที่ตรวจจับความเข้มข้น NaCl",
+        "description": "ตำแหน่ง [B] คือ Macula Densa (in Distal Tubule) — กลุ่มเซลล์ทรงสูงในผนัง DCT ทำหน้าที่ตรวจจับความเข้มข้น NaCl"
+      },
+      {
+        "pin": "C",
+        "term": "Efferent Arteriole (Narrower Lumen)",
+        "thaiName": "หลอดเลือดแดงขาออก (แคบกว่า เพื่อสร้างแรงดันกรอง GHP สูง 55 mmHg)",
+        "description": "ตำแหน่ง [C] คือ Efferent Arteriole (Narrower Lumen) — หลอดเลือดแดงขาออก (แคบกว่า เพื่อสร้างแรงดันกรอง GHP สูง 55 mmHg)"
+      },
+      {
+        "pin": "D",
+        "term": "Podocytes & Filtration Slits (Visceral Layer)",
+        "thaiName": "เซลล์มีเท้าโอบรอบโกลเมอรูลัส เกิดเป็นร่องกรอง Filtration slits",
+        "description": "ตำแหน่ง [D] คือ Podocytes & Filtration Slits (Visceral Layer) — เซลล์มีเท้าโอบรอบโกลเมอรูลัส เกิดเป็นร่องกรอง Filtration slits"
+      },
+      {
+        "pin": "E",
+        "term": "Bowman's Capsule (Parietal Layer & Space)",
+        "thaiName": "ถุงหุ้มโกลเมอรูลัสชั้นนอก (Simple squamous) และช่องรับน้ำกรอง",
+        "description": "ตำแหน่ง [E] คือ Bowman's Capsule (Parietal Layer & Space) — ถุงหุ้มโกลเมอรูลัสชั้นนอก (Simple squamous) และช่องรับน้ำกรอง"
+      },
+      {
+        "pin": "F",
+        "term": "Proximal Convoluted Tubule (Urinary Pole)",
+        "thaiName": "ท่อหน่วยไตส่วนต้น (PCT) มี Brush border ดูดกลับน้ำตาล 100%",
+        "description": "ตำแหน่ง [F] คือ Proximal Convoluted Tubule (Urinary Pole) — ท่อหน่วยไตส่วนต้น (PCT) มี Brush border ดูดกลับน้ำตาล 100%"
+      }
+    ]
   },
   {
     "id": "URINARY-038",
-    "questionText": "เซลล์ชนิด Juxtaglomerular cells (JG cells หรือ Granular cells) ซึ่งทำหน้าที่สร้าง เก็บสะสม และหลั่งเอนไซม์เรนิน (Renin) ดัดแปลงมาจากเซลล์ชนิดใดและตั้งอยู่ที่โครงสร้างใด?",
+    "questionText": "[🖼️ ข้อสอบวิเคราะห์ภาพประกอบกายวิภาค — พิจารณาแผนภาพและจุดชี้ตำแหน่ง [A]–[F] โดยเฉพาะบริเวณตำแหน่ง [A]] เซลล์ชนิด Juxtaglomerular cells (JG cells หรือ Granular cells) ซึ่งทำหน้าที่สร้าง เก็บสะสม และหลั่งเอนไซม์เรนิน (Renin) ดัดแปลงมาจากเซลล์ชนิดใดและตั้งอยู่ที่โครงสร้างใด?",
     "options": {
       "A": "ดัดแปลงมาจากเซลล์เยื่อบุผิวของ Bowman's capsule",
       "B": "ดัดแปลงมาจากเซลล์กล้ามเนื้อเรียบ (Modified smooth muscle cells) ในชั้น Tunica media ของผนังหลอดเลือด Afferent arteriole",
@@ -951,7 +1768,7 @@ export const urinaryQuestions: Question[] = [
       "D": "ดัดแปลงมาจากเซลล์ประสาทซิมพาเทติก"
     },
     "correctOption": "B",
-    "explanation": "Juxtaglomerular (Granular) cells เป็นเซลล์กล้ามเนื้อเรียบที่ดัดแปลงเป็นพิเศษ อยู่ในผนังของ Afferent arteriole (ใกล้ Glomerulus) ภายในมีแกรนูลบรรจุเอนไซม์ Renin เซลล์นี้ทำหน้าที่เป็น Baroreceptors วัดแรงดันเลือดโดยตรง หากความดันเลือดใน Affiole ลดลง หรือได้รับการกระตุ้นจาก Macula densa หรือ Sympathetic nerves จะหลั่ง Renin ออกสู่กระแสเลือดทันที",
+    "explanation": "Juxtaglomerular (Granular) cells เป็นเซลล์กล้ามเนื้อเรียบที่ดัดแปลงเป็นพิเศษ อยู่ในผนังของ Afferent arteriole (ใกล้ Glomerulus) ภายในมีแกรนูลบรรจุเอนไซม์ Renin เซลล์นี้ทำหน้าที่เป็น Baroreceptors วัดแรงดันเลือดโดยตรง หากความดันเลือดใน Affiole ลดลง หรือได้รับการกระตุ้นจาก Macula densa หรือ Sympathetic nerves จะหลั่ง Renin ออกสู่กระแสเลือดทันที\n\n📌 สรุปจุดชี้ตำแหน่งในภาพประกอบ (Renal Corpuscle, Glomerular Filtration Barrier & Juxtaglomerular Apparatus): จุดที่เกี่ยวข้องโดยตรงกับข้อนี้คือตำแหน่ง [A] (Afferent Arteriole & JG Granular Cells — หลอดเลือดแดงขาเข้า (กว้างกว่า) และเซลล์ JG ที่หลั่งเอนไซม์ Renin) สามารถกดสลับดู \"ภาพเฉลยครบทุกจุด (Master Labeled Diagram)\" ด้านบนเพื่อทบทวนตำแหน่ง [A] ถึง [F] ทั้งหมดได้ทันที",
     "system": "Urinary System",
     "topic": "Juxtaglomerular Apparatus (JGA)",
     "difficulty": "Hard",
@@ -961,15 +1778,58 @@ export const urinaryQuestions: Question[] = [
       "jg-cells",
       "granular-cells",
       "renin",
-      "afferent-arteriole-smooth-muscle"
+      "afferent-arteriole-smooth-muscle",
+      "has-diagram",
+      "diagram-renal_corpuscle_jga"
     ],
     "createdAt": "2026-10-24",
     "updatedAt": "2026-10-24",
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "imageUrl": "/images/anatomy/renal_corpuscle_jga_exam.svg",
+    "labeledImageUrl": "/images/anatomy/renal_corpuscle_jga_labeled.svg",
+    "imageCaption": "Renal Corpuscle, Glomerular Filtration Barrier & Juxtaglomerular Apparatus — โครงสร้างโกลเมอรูลัส เซลล์มีเท้า Podocytes และชุดควบคุมความดัน JGA",
+    "imageLabels": [
+      {
+        "pin": "A",
+        "term": "Afferent Arteriole & JG Granular Cells",
+        "thaiName": "หลอดเลือดแดงขาเข้า (กว้างกว่า) และเซลล์ JG ที่หลั่งเอนไซม์ Renin",
+        "description": "ตำแหน่ง [A] คือ Afferent Arteriole & JG Granular Cells — หลอดเลือดแดงขาเข้า (กว้างกว่า) และเซลล์ JG ที่หลั่งเอนไซม์ Renin"
+      },
+      {
+        "pin": "B",
+        "term": "Macula Densa (in Distal Tubule)",
+        "thaiName": "กลุ่มเซลล์ทรงสูงในผนัง DCT ทำหน้าที่ตรวจจับความเข้มข้น NaCl",
+        "description": "ตำแหน่ง [B] คือ Macula Densa (in Distal Tubule) — กลุ่มเซลล์ทรงสูงในผนัง DCT ทำหน้าที่ตรวจจับความเข้มข้น NaCl"
+      },
+      {
+        "pin": "C",
+        "term": "Efferent Arteriole (Narrower Lumen)",
+        "thaiName": "หลอดเลือดแดงขาออก (แคบกว่า เพื่อสร้างแรงดันกรอง GHP สูง 55 mmHg)",
+        "description": "ตำแหน่ง [C] คือ Efferent Arteriole (Narrower Lumen) — หลอดเลือดแดงขาออก (แคบกว่า เพื่อสร้างแรงดันกรอง GHP สูง 55 mmHg)"
+      },
+      {
+        "pin": "D",
+        "term": "Podocytes & Filtration Slits (Visceral Layer)",
+        "thaiName": "เซลล์มีเท้าโอบรอบโกลเมอรูลัส เกิดเป็นร่องกรอง Filtration slits",
+        "description": "ตำแหน่ง [D] คือ Podocytes & Filtration Slits (Visceral Layer) — เซลล์มีเท้าโอบรอบโกลเมอรูลัส เกิดเป็นร่องกรอง Filtration slits"
+      },
+      {
+        "pin": "E",
+        "term": "Bowman's Capsule (Parietal Layer & Space)",
+        "thaiName": "ถุงหุ้มโกลเมอรูลัสชั้นนอก (Simple squamous) และช่องรับน้ำกรอง",
+        "description": "ตำแหน่ง [E] คือ Bowman's Capsule (Parietal Layer & Space) — ถุงหุ้มโกลเมอรูลัสชั้นนอก (Simple squamous) และช่องรับน้ำกรอง"
+      },
+      {
+        "pin": "F",
+        "term": "Proximal Convoluted Tubule (Urinary Pole)",
+        "thaiName": "ท่อหน่วยไตส่วนต้น (PCT) มี Brush border ดูดกลับน้ำตาล 100%",
+        "description": "ตำแหน่ง [F] คือ Proximal Convoluted Tubule (Urinary Pole) — ท่อหน่วยไตส่วนต้น (PCT) มี Brush border ดูดกลับน้ำตาล 100%"
+      }
+    ]
   },
   {
     "id": "URINARY-039",
-    "questionText": "ในระบบ Renin-Angiotensin-Aldosterone System (RAAS) เอนไซม์เรนิน (Renin) ที่หลั่งออกจากไตทำหน้าที่เร่งปฏิกิริยาเคมีใดในกระแสเลือด?",
+    "questionText": "[🖼️ ข้อสอบวิเคราะห์ภาพประกอบกายวิภาค — พิจารณาแผนภาพและจุดชี้ตำแหน่ง [A]–[F] โดยเฉพาะบริเวณตำแหน่ง [D]] ในระบบ Renin-Angiotensin-Aldosterone System (RAAS) เอนไซม์เรนิน (Renin) ที่หลั่งออกจากไตทำหน้าที่เร่งปฏิกิริยาเคมีใดในกระแสเลือด?",
     "options": {
       "A": "เปลี่ยน Angiotensin II ให้กลายเป็น Aldosterone",
       "B": "เปลี่ยน Angiotensin I ให้กลายเป็น Angiotensin II โดยตรง",
@@ -977,7 +1837,7 @@ export const urinaryQuestions: Question[] = [
       "D": "เปลี่ยน Prothrombin เป็น Thrombin"
     },
     "correctOption": "C",
-    "explanation": "เมื่อความดันเลือดตก ไตหลั่ง Renin เข้าสู่กระแสเลือด Renin จะทำหน้าที่ตัดพันธะของ Angiotensinogen (โปรตีนพลาสมาที่สร้างจากตับ) เปลี่ยนให้กลายเป็น Angiotensin I ซึ่งยังไม่มีฤทธิ์หดหลอดเลือด จากนั้น Angiotensin I จะไหลผ่านหลอดเลือดฝอยของปอดและไตเพื่อเปลี่ยนเป็น Angiotensin II ต่อไป",
+    "explanation": "เมื่อความดันเลือดตก ไตหลั่ง Renin เข้าสู่กระแสเลือด Renin จะทำหน้าที่ตัดพันธะของ Angiotensinogen (โปรตีนพลาสมาที่สร้างจากตับ) เปลี่ยนให้กลายเป็น Angiotensin I ซึ่งยังไม่มีฤทธิ์หดหลอดเลือด จากนั้น Angiotensin I จะไหลผ่านหลอดเลือดฝอยของปอดและไตเพื่อเปลี่ยนเป็น Angiotensin II ต่อไป\n\n📌 สรุปจุดชี้ตำแหน่งในภาพประกอบ (Glomerular Filtration Pressures (NFP) & RAAS Hormonal Cascade): จุดที่เกี่ยวข้องโดยตรงกับข้อนี้คือตำแหน่ง [D] (Renin (from JG cells) + Angiotensinogen (Liver) — เรนินจากไตเปลี่ยน Angiotensinogen จากตับให้เป็น Angiotensin I) สามารถกดสลับดู \"ภาพเฉลยครบทุกจุด (Master Labeled Diagram)\" ด้านบนเพื่อทบทวนตำแหน่ง [A] ถึง [F] ทั้งหมดได้ทันที",
     "system": "Urinary System",
     "topic": "Juxtaglomerular Apparatus (JGA)",
     "difficulty": "Medium",
@@ -987,15 +1847,58 @@ export const urinaryQuestions: Question[] = [
       "raas",
       "renin",
       "angiotensinogen",
-      "angiotensin-i"
+      "angiotensin-i",
+      "has-diagram",
+      "diagram-raas_filtration"
     ],
     "createdAt": "2026-10-24",
     "updatedAt": "2026-10-24",
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "imageUrl": "/images/anatomy/raas_filtration_exam.svg",
+    "labeledImageUrl": "/images/anatomy/raas_filtration_labeled.svg",
+    "imageCaption": "Glomerular Filtration Pressures (NFP) & RAAS Hormonal Cascade — แรงดันสุทธิในการกรอง (NFP = 10 mmHg) และกลไกควบคุมความดันโลหิต RAAS",
+    "imageLabels": [
+      {
+        "pin": "A",
+        "term": "Glomerular Hydrostatic Pressure (GHP = 55 mmHg)",
+        "thaiName": "แรงดันเลือดในโกลเมอรูลัส ทำหน้าที่ผลักดันน้ำกรองออกสู่แคปซูล",
+        "description": "ตำแหน่ง [A] คือ Glomerular Hydrostatic Pressure (GHP = 55 mmHg) — แรงดันเลือดในโกลเมอรูลัส ทำหน้าที่ผลักดันน้ำกรองออกสู่แคปซูล"
+      },
+      {
+        "pin": "B",
+        "term": "Capsular Hydrostatic Pressure (CHP = 15 mmHg)",
+        "thaiName": "แรงดันน้ำในถุงโบว์แมนที่ต้านการกรองกลับเข้ามา",
+        "description": "ตำแหน่ง [B] คือ Capsular Hydrostatic Pressure (CHP = 15 mmHg) — แรงดันน้ำในถุงโบว์แมนที่ต้านการกรองกลับเข้ามา"
+      },
+      {
+        "pin": "C",
+        "term": "Blood Colloid Osmotic Pressure (BCOP = 30 mmHg)",
+        "thaiName": "แรงดึงออสโมติกของโปรตีน Albumin ในเลือดที่ดึงน้ำไว้ไม่ให้ถูกกรอง",
+        "description": "ตำแหน่ง [C] คือ Blood Colloid Osmotic Pressure (BCOP = 30 mmHg) — แรงดึงออสโมติกของโปรตีน Albumin ในเลือดที่ดึงน้ำไว้ไม่ให้ถูกกรอง"
+      },
+      {
+        "pin": "D",
+        "term": "Renin (from JG cells) + Angiotensinogen (Liver)",
+        "thaiName": "เรนินจากไตเปลี่ยน Angiotensinogen จากตับให้เป็น Angiotensin I",
+        "description": "ตำแหน่ง [D] คือ Renin (from JG cells) + Angiotensinogen (Liver) — เรนินจากไตเปลี่ยน Angiotensinogen จากตับให้เป็น Angiotensin I"
+      },
+      {
+        "pin": "E",
+        "term": "ACE (in Lungs) -> Angiotensin II",
+        "thaiName": "เอนไซม์ ACE ที่หลอดเลือดฝอยปอดเปลี่ยน Ang I เป็น Ang II (หดหลอดเลือด)",
+        "description": "ตำแหน่ง [E] คือ ACE (in Lungs) -> Angiotensin II — เอนไซม์ ACE ที่หลอดเลือดฝอยปอดเปลี่ยน Ang I เป็น Ang II (หดหลอดเลือด)"
+      },
+      {
+        "pin": "F",
+        "term": "Aldosterone (Adrenal Cortex) & ADH",
+        "thaiName": "อัลโดสเตอโรนสั่งดูดกลับ Na+/น้ำ และขับ K+ ที่ท่อรวมเพื่อเพิ่มความดัน",
+        "description": "ตำแหน่ง [F] คือ Aldosterone (Adrenal Cortex) & ADH — อัลโดสเตอโรนสั่งดูดกลับ Na+/น้ำ และขับ K+ ที่ท่อรวมเพื่อเพิ่มความดัน"
+      }
+    ]
   },
   {
     "id": "URINARY-040",
-    "questionText": "เอนไซม์ Angiotensin-Converting Enzyme (ACE) ซึ่งพบหนาแน่นที่สุดบนเยื่อบุหลอดเลือดฝอยของปอด (Pulmonary capillaries) และไต ทำหน้าที่ใดในระบบ RAAS?",
+    "questionText": "[🖼️ ข้อสอบวิเคราะห์ภาพประกอบกายวิภาค — พิจารณาแผนภาพและจุดชี้ตำแหน่ง [A]–[F] โดยเฉพาะบริเวณตำแหน่ง [E]] เอนไซม์ Angiotensin-Converting Enzyme (ACE) ซึ่งพบหนาแน่นที่สุดบนเยื่อบุหลอดเลือดฝอยของปอด (Pulmonary capillaries) และไต ทำหน้าที่ใดในระบบ RAAS?",
     "options": {
       "A": "เปลี่ยนแองจิโอเทนซิโนเจนเป็นเรนิน",
       "B": "สลายฮอร์โมน Aldosterone ทิ้ง",
@@ -1003,7 +1906,7 @@ export const urinaryQuestions: Question[] = [
       "D": "เปลี่ยน Angiotensin I ให้กลายเป็น Angiotensin II ซึ่งมีฤทธิ์หดหลอดเลือดรุนแรง"
     },
     "correctOption": "D",
-    "explanation": "Angiotensin-Converting Enzyme (ACE) ตรึงอยู่บน Endothelial cell membrane ของหลอดเลือดฝอยในปอด ทำหน้าที่ตัดกรดอะมิโน 2 ตัวออกจาก Angiotensin I กลายเป็น Angiotensin II ซึ่งเป็นฮอร์โมนที่มีฤทธิ์หดหลอดเลือดแดงทั่วร่างกายอย่างทรงพลัง (Potent vasoconstrictor) ยาลดความดันกลุ่ม ACE inhibitors (เช่น Enalapril) ออกฤทธิ์ยับยั้งเอนไซม์นี้",
+    "explanation": "Angiotensin-Converting Enzyme (ACE) ตรึงอยู่บน Endothelial cell membrane ของหลอดเลือดฝอยในปอด ทำหน้าที่ตัดกรดอะมิโน 2 ตัวออกจาก Angiotensin I กลายเป็น Angiotensin II ซึ่งเป็นฮอร์โมนที่มีฤทธิ์หดหลอดเลือดแดงทั่วร่างกายอย่างทรงพลัง (Potent vasoconstrictor) ยาลดความดันกลุ่ม ACE inhibitors (เช่น Enalapril) ออกฤทธิ์ยับยั้งเอนไซม์นี้\n\n📌 สรุปจุดชี้ตำแหน่งในภาพประกอบ (Glomerular Filtration Pressures (NFP) & RAAS Hormonal Cascade): จุดที่เกี่ยวข้องโดยตรงกับข้อนี้คือตำแหน่ง [E] (ACE (in Lungs) -> Angiotensin II — เอนไซม์ ACE ที่หลอดเลือดฝอยปอดเปลี่ยน Ang I เป็น Ang II (หดหลอดเลือด)) สามารถกดสลับดู \"ภาพเฉลยครบทุกจุด (Master Labeled Diagram)\" ด้านบนเพื่อทบทวนตำแหน่ง [A] ถึง [F] ทั้งหมดได้ทันที",
     "system": "Urinary System",
     "topic": "Juxtaglomerular Apparatus (JGA)",
     "difficulty": "Medium",
@@ -1013,11 +1916,54 @@ export const urinaryQuestions: Question[] = [
       "ace",
       "angiotensin-converting-enzyme",
       "angiotensin-ii",
-      "ace-inhibitors"
+      "ace-inhibitors",
+      "has-diagram",
+      "diagram-raas_filtration"
     ],
     "createdAt": "2026-10-24",
     "updatedAt": "2026-10-24",
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "imageUrl": "/images/anatomy/raas_filtration_exam.svg",
+    "labeledImageUrl": "/images/anatomy/raas_filtration_labeled.svg",
+    "imageCaption": "Glomerular Filtration Pressures (NFP) & RAAS Hormonal Cascade — แรงดันสุทธิในการกรอง (NFP = 10 mmHg) และกลไกควบคุมความดันโลหิต RAAS",
+    "imageLabels": [
+      {
+        "pin": "A",
+        "term": "Glomerular Hydrostatic Pressure (GHP = 55 mmHg)",
+        "thaiName": "แรงดันเลือดในโกลเมอรูลัส ทำหน้าที่ผลักดันน้ำกรองออกสู่แคปซูล",
+        "description": "ตำแหน่ง [A] คือ Glomerular Hydrostatic Pressure (GHP = 55 mmHg) — แรงดันเลือดในโกลเมอรูลัส ทำหน้าที่ผลักดันน้ำกรองออกสู่แคปซูล"
+      },
+      {
+        "pin": "B",
+        "term": "Capsular Hydrostatic Pressure (CHP = 15 mmHg)",
+        "thaiName": "แรงดันน้ำในถุงโบว์แมนที่ต้านการกรองกลับเข้ามา",
+        "description": "ตำแหน่ง [B] คือ Capsular Hydrostatic Pressure (CHP = 15 mmHg) — แรงดันน้ำในถุงโบว์แมนที่ต้านการกรองกลับเข้ามา"
+      },
+      {
+        "pin": "C",
+        "term": "Blood Colloid Osmotic Pressure (BCOP = 30 mmHg)",
+        "thaiName": "แรงดึงออสโมติกของโปรตีน Albumin ในเลือดที่ดึงน้ำไว้ไม่ให้ถูกกรอง",
+        "description": "ตำแหน่ง [C] คือ Blood Colloid Osmotic Pressure (BCOP = 30 mmHg) — แรงดึงออสโมติกของโปรตีน Albumin ในเลือดที่ดึงน้ำไว้ไม่ให้ถูกกรอง"
+      },
+      {
+        "pin": "D",
+        "term": "Renin (from JG cells) + Angiotensinogen (Liver)",
+        "thaiName": "เรนินจากไตเปลี่ยน Angiotensinogen จากตับให้เป็น Angiotensin I",
+        "description": "ตำแหน่ง [D] คือ Renin (from JG cells) + Angiotensinogen (Liver) — เรนินจากไตเปลี่ยน Angiotensinogen จากตับให้เป็น Angiotensin I"
+      },
+      {
+        "pin": "E",
+        "term": "ACE (in Lungs) -> Angiotensin II",
+        "thaiName": "เอนไซม์ ACE ที่หลอดเลือดฝอยปอดเปลี่ยน Ang I เป็น Ang II (หดหลอดเลือด)",
+        "description": "ตำแหน่ง [E] คือ ACE (in Lungs) -> Angiotensin II — เอนไซม์ ACE ที่หลอดเลือดฝอยปอดเปลี่ยน Ang I เป็น Ang II (หดหลอดเลือด)"
+      },
+      {
+        "pin": "F",
+        "term": "Aldosterone (Adrenal Cortex) & ADH",
+        "thaiName": "อัลโดสเตอโรนสั่งดูดกลับ Na+/น้ำ และขับ K+ ที่ท่อรวมเพื่อเพิ่มความดัน",
+        "description": "ตำแหน่ง [F] คือ Aldosterone (Adrenal Cortex) & ADH — อัลโดสเตอโรนสั่งดูดกลับ Na+/น้ำ และขับ K+ ที่ท่อรวมเพื่อเพิ่มความดัน"
+      }
+    ]
   },
   {
     "id": "URINARY-041",
@@ -1046,7 +1992,7 @@ export const urinaryQuestions: Question[] = [
   },
   {
     "id": "URINARY-042",
-    "questionText": "ฮอร์โมนอัลโดสเตอโรน (Aldosterone) สร้างและหลั่งมาจากต่อมหมวกไตชั้นใด และออกฤทธิ์ที่ท่อไตส่วนใดในการควบคุมอิเล็กโทรไลต์?",
+    "questionText": "[🖼️ ข้อสอบวิเคราะห์ภาพประกอบกายวิภาค — พิจารณาแผนภาพและจุดชี้ตำแหน่ง [A]–[F] โดยเฉพาะบริเวณตำแหน่ง [F]] ฮอร์โมนอัลโดสเตอโรน (Aldosterone) สร้างและหลั่งมาจากต่อมหมวกไตชั้นใด และออกฤทธิ์ที่ท่อไตส่วนใดในการควบคุมอิเล็กโทรไลต์?",
     "options": {
       "A": "สร้างจาก Adrenal medulla ออกฤทธิ์ที่ Glomerulus",
       "B": "สร้างจากชั้น Zona glomerulosa ของต่อมหมวกไตชั้นนอก ออกฤทธิ์ที่ Late DCT และ Collecting duct ในการดูดซึม Na+ และน้ำกลับเข้ากระแสเลือด พร้อมกับขับ K+ ทิ้งทางปัสสาวะ",
@@ -1054,7 +2000,7 @@ export const urinaryQuestions: Question[] = [
       "D": "สร้างจากต่อมไทรอยด์ ออกฤทธิ์ที่กระเพาะปัสสาวะ"
     },
     "correctOption": "B",
-    "explanation": "Aldosterone (Mineralocorticoid) สังเคราะห์จากชั้นนอกสุดของต่อมหมวกไต (Zona glomerulosa) ออกฤทธิ์ผ่าน Nuclear mineralocorticoid receptors ใน Principal cells ของ Late DCT และ Cortical Collecting Duct เพิ่มการสร้าง Na+/K+ ATPase pumps และ ENaC channels ดูดกลับโซเดียมและน้ำตามแรงดึงออสโมติก พร้อมกับขับโพแทสเซียม (K+) ทิ้งไปกับปัสสาวะ",
+    "explanation": "Aldosterone (Mineralocorticoid) สังเคราะห์จากชั้นนอกสุดของต่อมหมวกไต (Zona glomerulosa) ออกฤทธิ์ผ่าน Nuclear mineralocorticoid receptors ใน Principal cells ของ Late DCT และ Cortical Collecting Duct เพิ่มการสร้าง Na+/K+ ATPase pumps และ ENaC channels ดูดกลับโซเดียมและน้ำตามแรงดึงออสโมติก พร้อมกับขับโพแทสเซียม (K+) ทิ้งไปกับปัสสาวะ\n\n📌 สรุปจุดชี้ตำแหน่งในภาพประกอบ (Glomerular Filtration Pressures (NFP) & RAAS Hormonal Cascade): จุดที่เกี่ยวข้องโดยตรงกับข้อนี้คือตำแหน่ง [F] (Aldosterone (Adrenal Cortex) & ADH — อัลโดสเตอโรนสั่งดูดกลับ Na+/น้ำ และขับ K+ ที่ท่อรวมเพื่อเพิ่มความดัน) สามารถกดสลับดู \"ภาพเฉลยครบทุกจุด (Master Labeled Diagram)\" ด้านบนเพื่อทบทวนตำแหน่ง [A] ถึง [F] ทั้งหมดได้ทันที",
     "system": "Urinary System",
     "topic": "Juxtaglomerular Apparatus (JGA)",
     "difficulty": "Hard",
@@ -1064,11 +2010,54 @@ export const urinaryQuestions: Question[] = [
       "aldosterone",
       "zona-glomerulosa",
       "sodium-retention",
-      "potassium-excretion"
+      "potassium-excretion",
+      "has-diagram",
+      "diagram-raas_filtration"
     ],
     "createdAt": "2026-10-24",
     "updatedAt": "2026-10-24",
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "imageUrl": "/images/anatomy/raas_filtration_exam.svg",
+    "labeledImageUrl": "/images/anatomy/raas_filtration_labeled.svg",
+    "imageCaption": "Glomerular Filtration Pressures (NFP) & RAAS Hormonal Cascade — แรงดันสุทธิในการกรอง (NFP = 10 mmHg) และกลไกควบคุมความดันโลหิต RAAS",
+    "imageLabels": [
+      {
+        "pin": "A",
+        "term": "Glomerular Hydrostatic Pressure (GHP = 55 mmHg)",
+        "thaiName": "แรงดันเลือดในโกลเมอรูลัส ทำหน้าที่ผลักดันน้ำกรองออกสู่แคปซูล",
+        "description": "ตำแหน่ง [A] คือ Glomerular Hydrostatic Pressure (GHP = 55 mmHg) — แรงดันเลือดในโกลเมอรูลัส ทำหน้าที่ผลักดันน้ำกรองออกสู่แคปซูล"
+      },
+      {
+        "pin": "B",
+        "term": "Capsular Hydrostatic Pressure (CHP = 15 mmHg)",
+        "thaiName": "แรงดันน้ำในถุงโบว์แมนที่ต้านการกรองกลับเข้ามา",
+        "description": "ตำแหน่ง [B] คือ Capsular Hydrostatic Pressure (CHP = 15 mmHg) — แรงดันน้ำในถุงโบว์แมนที่ต้านการกรองกลับเข้ามา"
+      },
+      {
+        "pin": "C",
+        "term": "Blood Colloid Osmotic Pressure (BCOP = 30 mmHg)",
+        "thaiName": "แรงดึงออสโมติกของโปรตีน Albumin ในเลือดที่ดึงน้ำไว้ไม่ให้ถูกกรอง",
+        "description": "ตำแหน่ง [C] คือ Blood Colloid Osmotic Pressure (BCOP = 30 mmHg) — แรงดึงออสโมติกของโปรตีน Albumin ในเลือดที่ดึงน้ำไว้ไม่ให้ถูกกรอง"
+      },
+      {
+        "pin": "D",
+        "term": "Renin (from JG cells) + Angiotensinogen (Liver)",
+        "thaiName": "เรนินจากไตเปลี่ยน Angiotensinogen จากตับให้เป็น Angiotensin I",
+        "description": "ตำแหน่ง [D] คือ Renin (from JG cells) + Angiotensinogen (Liver) — เรนินจากไตเปลี่ยน Angiotensinogen จากตับให้เป็น Angiotensin I"
+      },
+      {
+        "pin": "E",
+        "term": "ACE (in Lungs) -> Angiotensin II",
+        "thaiName": "เอนไซม์ ACE ที่หลอดเลือดฝอยปอดเปลี่ยน Ang I เป็น Ang II (หดหลอดเลือด)",
+        "description": "ตำแหน่ง [E] คือ ACE (in Lungs) -> Angiotensin II — เอนไซม์ ACE ที่หลอดเลือดฝอยปอดเปลี่ยน Ang I เป็น Ang II (หดหลอดเลือด)"
+      },
+      {
+        "pin": "F",
+        "term": "Aldosterone (Adrenal Cortex) & ADH",
+        "thaiName": "อัลโดสเตอโรนสั่งดูดกลับ Na+/น้ำ และขับ K+ ที่ท่อรวมเพื่อเพิ่มความดัน",
+        "description": "ตำแหน่ง [F] คือ Aldosterone (Adrenal Cortex) & ADH — อัลโดสเตอโรนสั่งดูดกลับ Na+/น้ำ และขับ K+ ที่ท่อรวมเพื่อเพิ่มความดัน"
+      }
+    ]
   },
   {
     "id": "URINARY-043",
@@ -1099,7 +2088,7 @@ export const urinaryQuestions: Question[] = [
   },
   {
     "id": "URINARY-044",
-    "questionText": "อัตราการกรองของไต (Glomerular Filtration Rate: GFR) ในผู้ใหญ่สุขภาพดีเพศชายและเพศหญิงมีค่าเฉลี่ยปกติประมาณเท่าใดต่อวัน?",
+    "questionText": "[🖼️ ข้อสอบวิเคราะห์ภาพประกอบกายวิภาค — พิจารณาแผนภาพและจุดชี้ตำแหน่ง [A]–[F] โดยเฉพาะบริเวณตำแหน่ง [A]] อัตราการกรองของไต (Glomerular Filtration Rate: GFR) ในผู้ใหญ่สุขภาพดีเพศชายและเพศหญิงมีค่าเฉลี่ยปกติประมาณเท่าใดต่อวัน?",
     "options": {
       "A": "ประมาณ 1.5 ลิตรต่อวันเท่ากับปริมาณปัสสาวะ",
       "B": "ประมาณ 10 มล./นาที หรือ 15 ลิตรต่อวัน",
@@ -1107,7 +2096,7 @@ export const urinaryQuestions: Question[] = [
       "D": "ประมาณ 125 มิลลิลิตรต่อนาที (mL/min) ในเพศชาย และ 105 mL/min ในเพศหญิง คิดเป็นปริมาตรน้ำกรองรวมประมาณ 180 ลิตรต่อวัน"
     },
     "correctOption": "D",
-    "explanation": "GFR คือปริมาตรของน้ำกรอง (Filtrate) ทั้งหมดที่สร้างขึ้นจากเนฟรอนของไตทั้งสองข้างรวมกันใน 1 นาที มีค่าเฉลี่ยประมาณ 125 mL/min (หรือ 180 ลิตรต่อวันในผู้ชาย และ 150 ลิตรต่อวันในผู้หญิง) โดยน้ำกรอง 180 ลิตรนี้จะถูกดูดซึมกลับเข้าสู่กระแสเลือดถึงกว่า 99% เหลือขับถ่ายออกเป็นน้ำปัสสาวะจริงเพียงวันละประมาณ 1 - 1.5 ลิตร (น้อยกว่า 1%)",
+    "explanation": "GFR คือปริมาตรของน้ำกรอง (Filtrate) ทั้งหมดที่สร้างขึ้นจากเนฟรอนของไตทั้งสองข้างรวมกันใน 1 นาที มีค่าเฉลี่ยประมาณ 125 mL/min (หรือ 180 ลิตรต่อวันในผู้ชาย และ 150 ลิตรต่อวันในผู้หญิง) โดยน้ำกรอง 180 ลิตรนี้จะถูกดูดซึมกลับเข้าสู่กระแสเลือดถึงกว่า 99% เหลือขับถ่ายออกเป็นน้ำปัสสาวะจริงเพียงวันละประมาณ 1 - 1.5 ลิตร (น้อยกว่า 1%)\n\n📌 สรุปจุดชี้ตำแหน่งในภาพประกอบ (Glomerular Filtration Pressures (NFP) & RAAS Hormonal Cascade): จุดที่เกี่ยวข้องโดยตรงกับข้อนี้คือตำแหน่ง [A] (Glomerular Hydrostatic Pressure (GHP = 55 mmHg) — แรงดันเลือดในโกลเมอรูลัส ทำหน้าที่ผลักดันน้ำกรองออกสู่แคปซูล) สามารถกดสลับดู \"ภาพเฉลยครบทุกจุด (Master Labeled Diagram)\" ด้านบนเพื่อทบทวนตำแหน่ง [A] ถึง [F] ทั้งหมดได้ทันที",
     "system": "Urinary System",
     "topic": "Urine Formation & Filtration Dynamics",
     "difficulty": "Medium",
@@ -1117,15 +2106,58 @@ export const urinaryQuestions: Question[] = [
       "gfr",
       "125-ml-min",
       "180-liters-per-day",
-      "reabsorption-fraction"
+      "reabsorption-fraction",
+      "has-diagram",
+      "diagram-raas_filtration"
     ],
     "createdAt": "2026-10-24",
     "updatedAt": "2026-10-24",
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "imageUrl": "/images/anatomy/raas_filtration_exam.svg",
+    "labeledImageUrl": "/images/anatomy/raas_filtration_labeled.svg",
+    "imageCaption": "Glomerular Filtration Pressures (NFP) & RAAS Hormonal Cascade — แรงดันสุทธิในการกรอง (NFP = 10 mmHg) และกลไกควบคุมความดันโลหิต RAAS",
+    "imageLabels": [
+      {
+        "pin": "A",
+        "term": "Glomerular Hydrostatic Pressure (GHP = 55 mmHg)",
+        "thaiName": "แรงดันเลือดในโกลเมอรูลัส ทำหน้าที่ผลักดันน้ำกรองออกสู่แคปซูล",
+        "description": "ตำแหน่ง [A] คือ Glomerular Hydrostatic Pressure (GHP = 55 mmHg) — แรงดันเลือดในโกลเมอรูลัส ทำหน้าที่ผลักดันน้ำกรองออกสู่แคปซูล"
+      },
+      {
+        "pin": "B",
+        "term": "Capsular Hydrostatic Pressure (CHP = 15 mmHg)",
+        "thaiName": "แรงดันน้ำในถุงโบว์แมนที่ต้านการกรองกลับเข้ามา",
+        "description": "ตำแหน่ง [B] คือ Capsular Hydrostatic Pressure (CHP = 15 mmHg) — แรงดันน้ำในถุงโบว์แมนที่ต้านการกรองกลับเข้ามา"
+      },
+      {
+        "pin": "C",
+        "term": "Blood Colloid Osmotic Pressure (BCOP = 30 mmHg)",
+        "thaiName": "แรงดึงออสโมติกของโปรตีน Albumin ในเลือดที่ดึงน้ำไว้ไม่ให้ถูกกรอง",
+        "description": "ตำแหน่ง [C] คือ Blood Colloid Osmotic Pressure (BCOP = 30 mmHg) — แรงดึงออสโมติกของโปรตีน Albumin ในเลือดที่ดึงน้ำไว้ไม่ให้ถูกกรอง"
+      },
+      {
+        "pin": "D",
+        "term": "Renin (from JG cells) + Angiotensinogen (Liver)",
+        "thaiName": "เรนินจากไตเปลี่ยน Angiotensinogen จากตับให้เป็น Angiotensin I",
+        "description": "ตำแหน่ง [D] คือ Renin (from JG cells) + Angiotensinogen (Liver) — เรนินจากไตเปลี่ยน Angiotensinogen จากตับให้เป็น Angiotensin I"
+      },
+      {
+        "pin": "E",
+        "term": "ACE (in Lungs) -> Angiotensin II",
+        "thaiName": "เอนไซม์ ACE ที่หลอดเลือดฝอยปอดเปลี่ยน Ang I เป็น Ang II (หดหลอดเลือด)",
+        "description": "ตำแหน่ง [E] คือ ACE (in Lungs) -> Angiotensin II — เอนไซม์ ACE ที่หลอดเลือดฝอยปอดเปลี่ยน Ang I เป็น Ang II (หดหลอดเลือด)"
+      },
+      {
+        "pin": "F",
+        "term": "Aldosterone (Adrenal Cortex) & ADH",
+        "thaiName": "อัลโดสเตอโรนสั่งดูดกลับ Na+/น้ำ และขับ K+ ที่ท่อรวมเพื่อเพิ่มความดัน",
+        "description": "ตำแหน่ง [F] คือ Aldosterone (Adrenal Cortex) & ADH — อัลโดสเตอโรนสั่งดูดกลับ Na+/น้ำ และขับ K+ ที่ท่อรวมเพื่อเพิ่มความดัน"
+      }
+    ]
   },
   {
     "id": "URINARY-045",
-    "questionText": "แรงดันสุทธิในการกรองของโกลเมอรูลัส (Net Filtration Pressure: NFP) คำนวณได้จากผลลัพธ์ของแรงดัน 3 ชนิดตามสมการ NFP = GHP - (CHP + BCOP) หากกำหนดให้ GHP = 55 mmHg, CHP = 15 mmHg, และ BCOP = 30 mmHg ค่า NFP ปกติจะมีค่าเท่าใด?",
+    "questionText": "[🖼️ ข้อสอบวิเคราะห์ภาพประกอบกายวิภาค — พิจารณาแผนภาพและจุดชี้ตำแหน่ง [A]–[F] โดยเฉพาะบริเวณตำแหน่ง [C]] แรงดันสุทธิในการกรองของโกลเมอรูลัส (Net Filtration Pressure: NFP) คำนวณได้จากผลลัพธ์ของแรงดัน 3 ชนิดตามสมการ NFP = GHP - (CHP + BCOP) หากกำหนดให้ GHP = 55 mmHg, CHP = 15 mmHg, และ BCOP = 30 mmHg ค่า NFP ปกติจะมีค่าเท่าใด?",
     "options": {
       "A": "10 mmHg ซึ่งเป็นแรงดันสุทธิที่เป็นบวกและเพียงพอที่จะผลักดันให้เกิดการกรองพลาสมาเข้าสู่ Bowman's space",
       "B": "55 mmHg",
@@ -1133,7 +2165,7 @@ export const urinaryQuestions: Question[] = [
       "D": "0 mmHg"
     },
     "correctOption": "A",
-    "explanation": "การคำนวณ NFP: 1. แรงดันผลักออก (Outward pressure): Glomerular Hydrostatic Pressure (GHP) = 55 mmHg 2. แรงดันต้านทาน (Inward pressures): Capsular Hydrostatic Pressure (CHP) = 15 mmHg + Blood Colloid Osmotic Pressure (BCOP) = 30 mmHg (รวมต้าน 45 mmHg) ดังนั้น NFP = 55 - (15 + 30) = +10 mmHg หากความดันเลือดตกลงจน NFP ต่ำกว่าศูนย์ ไตจะหยุดการกรองทันที (Anuria)",
+    "explanation": "การคำนวณ NFP: 1. แรงดันผลักออก (Outward pressure): Glomerular Hydrostatic Pressure (GHP) = 55 mmHg 2. แรงดันต้านทาน (Inward pressures): Capsular Hydrostatic Pressure (CHP) = 15 mmHg + Blood Colloid Osmotic Pressure (BCOP) = 30 mmHg (รวมต้าน 45 mmHg) ดังนั้น NFP = 55 - (15 + 30) = +10 mmHg หากความดันเลือดตกลงจน NFP ต่ำกว่าศูนย์ ไตจะหยุดการกรองทันที (Anuria)\n\n📌 สรุปจุดชี้ตำแหน่งในภาพประกอบ (Glomerular Filtration Pressures (NFP) & RAAS Hormonal Cascade): จุดที่เกี่ยวข้องโดยตรงกับข้อนี้คือตำแหน่ง [C] (Blood Colloid Osmotic Pressure (BCOP = 30 mmHg) — แรงดึงออสโมติกของโปรตีน Albumin ในเลือดที่ดึงน้ำไว้ไม่ให้ถูกกรอง) สามารถกดสลับดู \"ภาพเฉลยครบทุกจุด (Master Labeled Diagram)\" ด้านบนเพื่อทบทวนตำแหน่ง [A] ถึง [F] ทั้งหมดได้ทันที",
     "system": "Urinary System",
     "topic": "Urine Formation & Filtration Dynamics",
     "difficulty": "Hard",
@@ -1145,15 +2177,58 @@ export const urinaryQuestions: Question[] = [
       "ghp",
       "chp",
       "bcop",
-      "starling-forces"
+      "starling-forces",
+      "has-diagram",
+      "diagram-raas_filtration"
     ],
     "createdAt": "2026-10-24",
     "updatedAt": "2026-10-24",
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "imageUrl": "/images/anatomy/raas_filtration_exam.svg",
+    "labeledImageUrl": "/images/anatomy/raas_filtration_labeled.svg",
+    "imageCaption": "Glomerular Filtration Pressures (NFP) & RAAS Hormonal Cascade — แรงดันสุทธิในการกรอง (NFP = 10 mmHg) และกลไกควบคุมความดันโลหิต RAAS",
+    "imageLabels": [
+      {
+        "pin": "A",
+        "term": "Glomerular Hydrostatic Pressure (GHP = 55 mmHg)",
+        "thaiName": "แรงดันเลือดในโกลเมอรูลัส ทำหน้าที่ผลักดันน้ำกรองออกสู่แคปซูล",
+        "description": "ตำแหน่ง [A] คือ Glomerular Hydrostatic Pressure (GHP = 55 mmHg) — แรงดันเลือดในโกลเมอรูลัส ทำหน้าที่ผลักดันน้ำกรองออกสู่แคปซูล"
+      },
+      {
+        "pin": "B",
+        "term": "Capsular Hydrostatic Pressure (CHP = 15 mmHg)",
+        "thaiName": "แรงดันน้ำในถุงโบว์แมนที่ต้านการกรองกลับเข้ามา",
+        "description": "ตำแหน่ง [B] คือ Capsular Hydrostatic Pressure (CHP = 15 mmHg) — แรงดันน้ำในถุงโบว์แมนที่ต้านการกรองกลับเข้ามา"
+      },
+      {
+        "pin": "C",
+        "term": "Blood Colloid Osmotic Pressure (BCOP = 30 mmHg)",
+        "thaiName": "แรงดึงออสโมติกของโปรตีน Albumin ในเลือดที่ดึงน้ำไว้ไม่ให้ถูกกรอง",
+        "description": "ตำแหน่ง [C] คือ Blood Colloid Osmotic Pressure (BCOP = 30 mmHg) — แรงดึงออสโมติกของโปรตีน Albumin ในเลือดที่ดึงน้ำไว้ไม่ให้ถูกกรอง"
+      },
+      {
+        "pin": "D",
+        "term": "Renin (from JG cells) + Angiotensinogen (Liver)",
+        "thaiName": "เรนินจากไตเปลี่ยน Angiotensinogen จากตับให้เป็น Angiotensin I",
+        "description": "ตำแหน่ง [D] คือ Renin (from JG cells) + Angiotensinogen (Liver) — เรนินจากไตเปลี่ยน Angiotensinogen จากตับให้เป็น Angiotensin I"
+      },
+      {
+        "pin": "E",
+        "term": "ACE (in Lungs) -> Angiotensin II",
+        "thaiName": "เอนไซม์ ACE ที่หลอดเลือดฝอยปอดเปลี่ยน Ang I เป็น Ang II (หดหลอดเลือด)",
+        "description": "ตำแหน่ง [E] คือ ACE (in Lungs) -> Angiotensin II — เอนไซม์ ACE ที่หลอดเลือดฝอยปอดเปลี่ยน Ang I เป็น Ang II (หดหลอดเลือด)"
+      },
+      {
+        "pin": "F",
+        "term": "Aldosterone (Adrenal Cortex) & ADH",
+        "thaiName": "อัลโดสเตอโรนสั่งดูดกลับ Na+/น้ำ และขับ K+ ที่ท่อรวมเพื่อเพิ่มความดัน",
+        "description": "ตำแหน่ง [F] คือ Aldosterone (Adrenal Cortex) & ADH — อัลโดสเตอโรนสั่งดูดกลับ Na+/น้ำ และขับ K+ ที่ท่อรวมเพื่อเพิ่มความดัน"
+      }
+    ]
   },
   {
     "id": "URINARY-046",
-    "questionText": "กลไกการควบคุมอัตราการกรองของไตด้วยตนเอง (Renal Autoregulation) ผ่าน Myogenic mechanism มีการตอบสนองอย่างไรเมื่อความดันโลหิตในร่างกาย (Systemic BP) สูงขึ้นอย่างกะทันหัน?",
+    "questionText": "[🖼️ ข้อสอบวิเคราะห์ภาพประกอบกายวิภาค — พิจารณาแผนภาพและจุดชี้ตำแหน่ง [A]–[F] โดยเฉพาะบริเวณตำแหน่ง [A]] กลไกการควบคุมอัตราการกรองของไตด้วยตนเอง (Renal Autoregulation) ผ่าน Myogenic mechanism มีการตอบสนองอย่างไรเมื่อความดันโลหิตในร่างกาย (Systemic BP) สูงขึ้นอย่างกะทันหัน?",
     "options": {
       "A": "Afferent arteriole จะขยายตัวกว้างขึ้นเพื่อให้เลือดไหลผ่านได้เร็ว",
       "B": "เซลล์กล้ามเนื้อเรียบในผนัง Afferent arteriole จะถูกยืดขยายตัวและตอบสนองด้วยการหดตัวลงโดยอัตโนมัติ (Vasoconstriction) เพื่อจำกัดแรงดันและปริมาณเลือดไม่ให้พุ่งเข้าทำลายโกลเมอรูลัส",
@@ -1161,7 +2236,7 @@ export const urinaryQuestions: Question[] = [
       "D": "ไตจะส่งสัญญาณไปหยุดการเต้นของหัวใจ"
     },
     "correctOption": "B",
-    "explanation": "Myogenic mechanism เป็นคุณสมบัติเฉพาะของกล้ามเนื้อเรียบหลอดเลือด: เมื่อความดันเลือดสูงขึ้น แรงดันจะยืดผนัง Afferent arteriole ทำให้ Stretch-activated Ca2+ channels เปิด เซลล์กล้ามเนื้อเรียบจึงหดตัว (Vasoconstriction) เพิ่มแรงต้านทาน ช่วยคงความดัน GHP ในโกลเมอรูลัสและ GFR ให้คงที่อยู่ในช่วงความดัน Mean Arterial Pressure 80-180 mmHg",
+    "explanation": "Myogenic mechanism เป็นคุณสมบัติเฉพาะของกล้ามเนื้อเรียบหลอดเลือด: เมื่อความดันเลือดสูงขึ้น แรงดันจะยืดผนัง Afferent arteriole ทำให้ Stretch-activated Ca2+ channels เปิด เซลล์กล้ามเนื้อเรียบจึงหดตัว (Vasoconstriction) เพิ่มแรงต้านทาน ช่วยคงความดัน GHP ในโกลเมอรูลัสและ GFR ให้คงที่อยู่ในช่วงความดัน Mean Arterial Pressure 80-180 mmHg\n\n📌 สรุปจุดชี้ตำแหน่งในภาพประกอบ (Glomerular Filtration Pressures (NFP) & RAAS Hormonal Cascade): จุดที่เกี่ยวข้องโดยตรงกับข้อนี้คือตำแหน่ง [A] (Glomerular Hydrostatic Pressure (GHP = 55 mmHg) — แรงดันเลือดในโกลเมอรูลัส ทำหน้าที่ผลักดันน้ำกรองออกสู่แคปซูล) สามารถกดสลับดู \"ภาพเฉลยครบทุกจุด (Master Labeled Diagram)\" ด้านบนเพื่อทบทวนตำแหน่ง [A] ถึง [F] ทั้งหมดได้ทันที",
     "system": "Urinary System",
     "topic": "Urine Formation & Filtration Dynamics",
     "difficulty": "Hard",
@@ -1170,15 +2245,58 @@ export const urinaryQuestions: Question[] = [
     "tags": [
       "myogenic-mechanism",
       "autoregulation",
-      "afferent-vasoconstriction"
+      "afferent-vasoconstriction",
+      "has-diagram",
+      "diagram-raas_filtration"
     ],
     "createdAt": "2026-10-24",
     "updatedAt": "2026-10-24",
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "imageUrl": "/images/anatomy/raas_filtration_exam.svg",
+    "labeledImageUrl": "/images/anatomy/raas_filtration_labeled.svg",
+    "imageCaption": "Glomerular Filtration Pressures (NFP) & RAAS Hormonal Cascade — แรงดันสุทธิในการกรอง (NFP = 10 mmHg) และกลไกควบคุมความดันโลหิต RAAS",
+    "imageLabels": [
+      {
+        "pin": "A",
+        "term": "Glomerular Hydrostatic Pressure (GHP = 55 mmHg)",
+        "thaiName": "แรงดันเลือดในโกลเมอรูลัส ทำหน้าที่ผลักดันน้ำกรองออกสู่แคปซูล",
+        "description": "ตำแหน่ง [A] คือ Glomerular Hydrostatic Pressure (GHP = 55 mmHg) — แรงดันเลือดในโกลเมอรูลัส ทำหน้าที่ผลักดันน้ำกรองออกสู่แคปซูล"
+      },
+      {
+        "pin": "B",
+        "term": "Capsular Hydrostatic Pressure (CHP = 15 mmHg)",
+        "thaiName": "แรงดันน้ำในถุงโบว์แมนที่ต้านการกรองกลับเข้ามา",
+        "description": "ตำแหน่ง [B] คือ Capsular Hydrostatic Pressure (CHP = 15 mmHg) — แรงดันน้ำในถุงโบว์แมนที่ต้านการกรองกลับเข้ามา"
+      },
+      {
+        "pin": "C",
+        "term": "Blood Colloid Osmotic Pressure (BCOP = 30 mmHg)",
+        "thaiName": "แรงดึงออสโมติกของโปรตีน Albumin ในเลือดที่ดึงน้ำไว้ไม่ให้ถูกกรอง",
+        "description": "ตำแหน่ง [C] คือ Blood Colloid Osmotic Pressure (BCOP = 30 mmHg) — แรงดึงออสโมติกของโปรตีน Albumin ในเลือดที่ดึงน้ำไว้ไม่ให้ถูกกรอง"
+      },
+      {
+        "pin": "D",
+        "term": "Renin (from JG cells) + Angiotensinogen (Liver)",
+        "thaiName": "เรนินจากไตเปลี่ยน Angiotensinogen จากตับให้เป็น Angiotensin I",
+        "description": "ตำแหน่ง [D] คือ Renin (from JG cells) + Angiotensinogen (Liver) — เรนินจากไตเปลี่ยน Angiotensinogen จากตับให้เป็น Angiotensin I"
+      },
+      {
+        "pin": "E",
+        "term": "ACE (in Lungs) -> Angiotensin II",
+        "thaiName": "เอนไซม์ ACE ที่หลอดเลือดฝอยปอดเปลี่ยน Ang I เป็น Ang II (หดหลอดเลือด)",
+        "description": "ตำแหน่ง [E] คือ ACE (in Lungs) -> Angiotensin II — เอนไซม์ ACE ที่หลอดเลือดฝอยปอดเปลี่ยน Ang I เป็น Ang II (หดหลอดเลือด)"
+      },
+      {
+        "pin": "F",
+        "term": "Aldosterone (Adrenal Cortex) & ADH",
+        "thaiName": "อัลโดสเตอโรนสั่งดูดกลับ Na+/น้ำ และขับ K+ ที่ท่อรวมเพื่อเพิ่มความดัน",
+        "description": "ตำแหน่ง [F] คือ Aldosterone (Adrenal Cortex) & ADH — อัลโดสเตอโรนสั่งดูดกลับ Na+/น้ำ และขับ K+ ที่ท่อรวมเพื่อเพิ่มความดัน"
+      }
+    ]
   },
   {
     "id": "URINARY-047",
-    "questionText": "การขับสารออกทางท่อหน่วยไต (Tubular Secretion) มีบทบาทสำคัญในการกำจัดสารกลุ่มใดออกจากร่างกายเข้าสู่น้ำปัสสาวะ?",
+    "questionText": "[🖼️ ข้อสอบวิเคราะห์ภาพประกอบกายวิภาค — พิจารณาแผนภาพและจุดชี้ตำแหน่ง [A]–[F] โดยเฉพาะบริเวณตำแหน่ง [B]] การขับสารออกทางท่อหน่วยไต (Tubular Secretion) มีบทบาทสำคัญในการกำจัดสารกลุ่มใดออกจากร่างกายเข้าสู่น้ำปัสสาวะ?",
     "options": {
       "A": "กำจัดโปรตีนอัลบูมินและฮีโมโกลบิน",
       "B": "กำจัดน้ำตาลกลูโคสและกรดอะมิโน",
@@ -1186,7 +2304,7 @@ export const urinaryQuestions: Question[] = [
       "D": "กำจัดเซลล์เม็ดเลือดแดงที่แก่ชรา"
     },
     "correctOption": "C",
-    "explanation": "Tubular secretion เป็นกระบวนการที่สารใน Peritubular capillaries หรือเซลล์ท่อไตถูกลำเลียงเข้าสู่ Tubular lumen ตรงข้ามกับ Reabsorption เพื่อ: 1. กำจัดยาและสารพิษ (ผ่าน Organic anion/cation transporters) 2. กำจัดของเสียที่ไม่ได้ถูกกรอง 3. ควบคุมสมดุล K+ (หลั่งที่ Collecting duct) 4. ควบคุม pH เลือด (หลั่ง H+ ออกไป)",
+    "explanation": "Tubular secretion เป็นกระบวนการที่สารใน Peritubular capillaries หรือเซลล์ท่อไตถูกลำเลียงเข้าสู่ Tubular lumen ตรงข้ามกับ Reabsorption เพื่อ: 1. กำจัดยาและสารพิษ (ผ่าน Organic anion/cation transporters) 2. กำจัดของเสียที่ไม่ได้ถูกกรอง 3. ควบคุมสมดุล K+ (หลั่งที่ Collecting duct) 4. ควบคุม pH เลือด (หลั่ง H+ ออกไป)\n\n📌 สรุปจุดชี้ตำแหน่งในภาพประกอบ (Glomerular Filtration Pressures (NFP) & RAAS Hormonal Cascade): จุดที่เกี่ยวข้องโดยตรงกับข้อนี้คือตำแหน่ง [B] (Capsular Hydrostatic Pressure (CHP = 15 mmHg) — แรงดันน้ำในถุงโบว์แมนที่ต้านการกรองกลับเข้ามา) สามารถกดสลับดู \"ภาพเฉลยครบทุกจุด (Master Labeled Diagram)\" ด้านบนเพื่อทบทวนตำแหน่ง [A] ถึง [F] ทั้งหมดได้ทันที",
     "system": "Urinary System",
     "topic": "Urine Formation & Filtration Dynamics",
     "difficulty": "Medium",
@@ -1196,11 +2314,54 @@ export const urinaryQuestions: Question[] = [
       "tubular-secretion",
       "potassium-excretion",
       "drug-elimination",
-      "h-secretion"
+      "h-secretion",
+      "has-diagram",
+      "diagram-raas_filtration"
     ],
     "createdAt": "2026-10-24",
     "updatedAt": "2026-10-24",
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "imageUrl": "/images/anatomy/raas_filtration_exam.svg",
+    "labeledImageUrl": "/images/anatomy/raas_filtration_labeled.svg",
+    "imageCaption": "Glomerular Filtration Pressures (NFP) & RAAS Hormonal Cascade — แรงดันสุทธิในการกรอง (NFP = 10 mmHg) และกลไกควบคุมความดันโลหิต RAAS",
+    "imageLabels": [
+      {
+        "pin": "A",
+        "term": "Glomerular Hydrostatic Pressure (GHP = 55 mmHg)",
+        "thaiName": "แรงดันเลือดในโกลเมอรูลัส ทำหน้าที่ผลักดันน้ำกรองออกสู่แคปซูล",
+        "description": "ตำแหน่ง [A] คือ Glomerular Hydrostatic Pressure (GHP = 55 mmHg) — แรงดันเลือดในโกลเมอรูลัส ทำหน้าที่ผลักดันน้ำกรองออกสู่แคปซูล"
+      },
+      {
+        "pin": "B",
+        "term": "Capsular Hydrostatic Pressure (CHP = 15 mmHg)",
+        "thaiName": "แรงดันน้ำในถุงโบว์แมนที่ต้านการกรองกลับเข้ามา",
+        "description": "ตำแหน่ง [B] คือ Capsular Hydrostatic Pressure (CHP = 15 mmHg) — แรงดันน้ำในถุงโบว์แมนที่ต้านการกรองกลับเข้ามา"
+      },
+      {
+        "pin": "C",
+        "term": "Blood Colloid Osmotic Pressure (BCOP = 30 mmHg)",
+        "thaiName": "แรงดึงออสโมติกของโปรตีน Albumin ในเลือดที่ดึงน้ำไว้ไม่ให้ถูกกรอง",
+        "description": "ตำแหน่ง [C] คือ Blood Colloid Osmotic Pressure (BCOP = 30 mmHg) — แรงดึงออสโมติกของโปรตีน Albumin ในเลือดที่ดึงน้ำไว้ไม่ให้ถูกกรอง"
+      },
+      {
+        "pin": "D",
+        "term": "Renin (from JG cells) + Angiotensinogen (Liver)",
+        "thaiName": "เรนินจากไตเปลี่ยน Angiotensinogen จากตับให้เป็น Angiotensin I",
+        "description": "ตำแหน่ง [D] คือ Renin (from JG cells) + Angiotensinogen (Liver) — เรนินจากไตเปลี่ยน Angiotensinogen จากตับให้เป็น Angiotensin I"
+      },
+      {
+        "pin": "E",
+        "term": "ACE (in Lungs) -> Angiotensin II",
+        "thaiName": "เอนไซม์ ACE ที่หลอดเลือดฝอยปอดเปลี่ยน Ang I เป็น Ang II (หดหลอดเลือด)",
+        "description": "ตำแหน่ง [E] คือ ACE (in Lungs) -> Angiotensin II — เอนไซม์ ACE ที่หลอดเลือดฝอยปอดเปลี่ยน Ang I เป็น Ang II (หดหลอดเลือด)"
+      },
+      {
+        "pin": "F",
+        "term": "Aldosterone (Adrenal Cortex) & ADH",
+        "thaiName": "อัลโดสเตอโรนสั่งดูดกลับ Na+/น้ำ และขับ K+ ที่ท่อรวมเพื่อเพิ่มความดัน",
+        "description": "ตำแหน่ง [F] คือ Aldosterone (Adrenal Cortex) & ADH — อัลโดสเตอโรนสั่งดูดกลับ Na+/น้ำ และขับ K+ ที่ท่อรวมเพื่อเพิ่มความดัน"
+      }
+    ]
   },
   {
     "id": "URINARY-048",
@@ -1281,7 +2442,7 @@ export const urinaryQuestions: Question[] = [
   },
   {
     "id": "URINARY-051",
-    "questionText": "ท่อไต (Ureter) มีความยาวประมาณ 25-30 เซนติเมตร ทอดตัวลงสู่ช่องเชิงกรานในตำแหน่งใด และผนังของท่อไตประกอบด้วยชั้นเนื้อเยื่อ 3 ชั้นใดบ้าง?",
+    "questionText": "[🖼️ ข้อสอบวิเคราะห์ภาพประกอบกายวิภาค — พิจารณาแผนภาพและจุดชี้ตำแหน่ง [A]–[F] โดยเฉพาะบริเวณตำแหน่ง [A]] ท่อไต (Ureter) มีความยาวประมาณ 25-30 เซนติเมตร ทอดตัวลงสู่ช่องเชิงกรานในตำแหน่งใด และผนังของท่อไตประกอบด้วยชั้นเนื้อเยื่อ 3 ชั้นใดบ้าง?",
     "options": {
       "A": "ทอดตัวอยู่หน้ากระดูกอก ผนังประกอบด้วยกล้ามเนื้อลายล้วน",
       "B": "ทอดตัวในช่องท้องแบบ Intraperitoneal มีชั้น Serosa บุผิวนอก",
@@ -1289,7 +2450,7 @@ export const urinaryQuestions: Question[] = [
       "D": "ทอดตัวอยู่ภายในหลอดเลือดดำ Vena cava"
     },
     "correctOption": "C",
-    "explanation": "Ureter ทอดตัวอยู่ใน Retroperitoneum วางตัวบนกล้ามเนื้อ Psoas major ทอดข้าม Pelvic brim บริเวณ Bifurcation ของ Common iliac vessels ผนังมี 3 ชั้น: 1. Mucosa (Transitional epithelium / Urothelium ยืดหยุ่นได้ดี) 2. Muscularis (เรียงตัวตรงข้ามกับทางเดินอาหาร คือ วงในเป็นแนวยาว Inner longitudinal, วงนอกเป็นวงกลม Outer circular) 3. Adventitia",
+    "explanation": "Ureter ทอดตัวอยู่ใน Retroperitoneum วางตัวบนกล้ามเนื้อ Psoas major ทอดข้าม Pelvic brim บริเวณ Bifurcation ของ Common iliac vessels ผนังมี 3 ชั้น: 1. Mucosa (Transitional epithelium / Urothelium ยืดหยุ่นได้ดี) 2. Muscularis (เรียงตัวตรงข้ามกับทางเดินอาหาร คือ วงในเป็นแนวยาว Inner longitudinal, วงนอกเป็นวงกลม Outer circular) 3. Adventitia\n\n📌 สรุปจุดชี้ตำแหน่งในภาพประกอบ (Ureters, Urinary Bladder (Trigone & Sphincters) & Male Urethra Divisions): จุดที่เกี่ยวข้องโดยตรงกับข้อนี้คือตำแหน่ง [A] (Ureter (3 Constriction Sites: UPJ, Brim, UVJ) — ท่อไต (มีจุดคอดแคบ 3 ตำแหน่งที่นิ่วมักติดค้างและเกิด Renal colic)) สามารถกดสลับดู \"ภาพเฉลยครบทุกจุด (Master Labeled Diagram)\" ด้านบนเพื่อทบทวนตำแหน่ง [A] ถึง [F] ทั้งหมดได้ทันที",
     "system": "Urinary System",
     "topic": "Ureters, Bladder & Urethra",
     "difficulty": "Medium",
@@ -1299,11 +2460,54 @@ export const urinaryQuestions: Question[] = [
       "ureter-anatomy",
       "retroperitoneal",
       "transitional-epithelium",
-      "ureter-muscularis"
+      "ureter-muscularis",
+      "has-diagram",
+      "diagram-ureter_bladder_urethra"
     ],
     "createdAt": "2026-10-24",
     "updatedAt": "2026-10-24",
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "imageUrl": "/images/anatomy/ureter_bladder_urethra_exam.svg",
+    "labeledImageUrl": "/images/anatomy/ureter_bladder_urethra_labeled.svg",
+    "imageCaption": "Ureters, Urinary Bladder (Trigone & Sphincters) & Male Urethra Divisions — ท่อไต 3 จุดคอดแคบ กระเพาะปัสสาวะ (Detrusor, Trigone) และท่อปัสสาวะ 3 ส่วน",
+    "imageLabels": [
+      {
+        "pin": "A",
+        "term": "Ureter (3 Constriction Sites: UPJ, Brim, UVJ)",
+        "thaiName": "ท่อไต (มีจุดคอดแคบ 3 ตำแหน่งที่นิ่วมักติดค้างและเกิด Renal colic)",
+        "description": "ตำแหน่ง [A] คือ Ureter (3 Constriction Sites: UPJ, Brim, UVJ) — ท่อไต (มีจุดคอดแคบ 3 ตำแหน่งที่นิ่วมักติดค้างและเกิด Renal colic)"
+      },
+      {
+        "pin": "B",
+        "term": "Detrusor Muscle & Transitional Epithelium",
+        "thaiName": "กล้ามเนื้อเรียบกระเพาะปัสสาวะ 3 ชั้น (บีบตัวด้วย Parasympathetic S2-S4)",
+        "description": "ตำแหน่ง [B] คือ Detrusor Muscle & Transitional Epithelium — กล้ามเนื้อเรียบกระเพาะปัสสาวะ 3 ชั้น (บีบตัวด้วย Parasympathetic S2-S4)"
+      },
+      {
+        "pin": "C",
+        "term": "Trigone of Urinary Bladder",
+        "thaiName": "บริเวณสามเหลี่ยมเรียบที่ฐานกระเพาะปัสสาวะ (2 รูท่อไต + 1 รูท่อปัสสาวะ)",
+        "description": "ตำแหน่ง [C] คือ Trigone of Urinary Bladder — บริเวณสามเหลี่ยมเรียบที่ฐานกระเพาะปัสสาวะ (2 รูท่อไต + 1 รูท่อปัสสาวะ)"
+      },
+      {
+        "pin": "D",
+        "term": "Internal Urethral Sphincter (Smooth Muscle)",
+        "thaiName": "หูรูดท่อปัสสาวะชั้นใน (กล้ามเนื้อเรียบ อยู่นอกอำนาจจิตใจ Autonomic)",
+        "description": "ตำแหน่ง [D] คือ Internal Urethral Sphincter (Smooth Muscle) — หูรูดท่อปัสสาวะชั้นใน (กล้ามเนื้อเรียบ อยู่นอกอำนาจจิตใจ Autonomic)"
+      },
+      {
+        "pin": "E",
+        "term": "Prostatic Urethra (Surrounded by Prostate)",
+        "thaiName": "ท่อปัสสาวะส่วนผ่านต่อมลูกหมาก (ตีบแคบในผู้สูงอายุที่เป็นโรค BPH)",
+        "description": "ตำแหน่ง [E] คือ Prostatic Urethra (Surrounded by Prostate) — ท่อปัสสาวะส่วนผ่านต่อมลูกหมาก (ตีบแคบในผู้สูงอายุที่เป็นโรค BPH)"
+      },
+      {
+        "pin": "F",
+        "term": "Membranous Urethra & External Sphincter",
+        "thaiName": "ท่อปัสสาวะส่วนผ่านกล้ามเนื้อหูรูดชั้นนอก (กล้ามเนื้อลาย สั่งกลั้นได้ผ่าน Pudendal n.)",
+        "description": "ตำแหน่ง [F] คือ Membranous Urethra & External Sphincter — ท่อปัสสาวะส่วนผ่านกล้ามเนื้อหูรูดชั้นนอก (กล้ามเนื้อลาย สั่งกลั้นได้ผ่าน Pudendal n.)"
+      }
+    ]
   },
   {
     "id": "URINARY-052",
@@ -1332,7 +2536,7 @@ export const urinaryQuestions: Question[] = [
   },
   {
     "id": "URINARY-053",
-    "questionText": "ท่อไต (Ureter) มีจุดคอดแคบตามธรรมชาติทางกายวิภาค 3 ตำแหน่ง (Three physiological constrictions) ซึ่งเป็นจุดที่ก้อนนิ่วในไตมักเลื่อนมาติดค้างและทำให้เกิดอาการปวดเกร็งรุนแรง (Renal colic) ตำแหน่งทั้งสามได้แก่บริเวณใดบ้าง?",
+    "questionText": "[🖼️ ข้อสอบวิเคราะห์ภาพประกอบกายวิภาค — พิจารณาแผนภาพและจุดชี้ตำแหน่ง [A]–[F] โดยเฉพาะบริเวณตำแหน่ง [A]] ท่อไต (Ureter) มีจุดคอดแคบตามธรรมชาติทางกายวิภาค 3 ตำแหน่ง (Three physiological constrictions) ซึ่งเป็นจุดที่ก้อนนิ่วในไตมักเลื่อนมาติดค้างและทำให้เกิดอาการปวดเกร็งรุนแรง (Renal colic) ตำแหน่งทั้งสามได้แก่บริเวณใดบ้าง?",
     "options": {
       "A": "1. Ureteropelvic junction (UPJ รอยต่อกรวยไตกับท่อไต) 2. Crossing of the pelvic brim / Iliac vessels (จุดข้ามขอบเชิงกรานและเส้นเลือดอีเลียก) 3. Ureterovesical junction (UVJ จุดเจาะทะลุเข้าผนังกระเพาะปัสสาวะ)",
       "B": "1. ขั้วไต 2. สะดือ 3. รูเปิดทวารหนัก",
@@ -1340,7 +2544,7 @@ export const urinaryQuestions: Question[] = [
       "D": "1. Subclavian crossing 2. Pylorus 3. Appendix"
     },
     "correctOption": "A",
-    "explanation": "จุดคอดแคบ 3 จุดของ Ureter ที่พบนิ่วติดบ่อยที่สุด: 1. Ureteropelvic Junction (UPJ): จุดที่ Renal pelvis สอบเล็กลงกลายเป็น Ureter 2. Pelvic Brim: จุดที่ท่อไตทอดข้าม Common/External Iliac artery เข้าสู่ช่องเชิงกราน 3. Ureterovesical Junction (UVJ): จุดที่แคบที่สุด โดยท่อไตเจาะเฉียงผ่านผนังกล้ามเนื้อ Detrusor ของกระเพาะปัสสาวะ",
+    "explanation": "จุดคอดแคบ 3 จุดของ Ureter ที่พบนิ่วติดบ่อยที่สุด: 1. Ureteropelvic Junction (UPJ): จุดที่ Renal pelvis สอบเล็กลงกลายเป็น Ureter 2. Pelvic Brim: จุดที่ท่อไตทอดข้าม Common/External Iliac artery เข้าสู่ช่องเชิงกราน 3. Ureterovesical Junction (UVJ): จุดที่แคบที่สุด โดยท่อไตเจาะเฉียงผ่านผนังกล้ามเนื้อ Detrusor ของกระเพาะปัสสาวะ\n\n📌 สรุปจุดชี้ตำแหน่งในภาพประกอบ (Ureters, Urinary Bladder (Trigone & Sphincters) & Male Urethra Divisions): จุดที่เกี่ยวข้องโดยตรงกับข้อนี้คือตำแหน่ง [A] (Ureter (3 Constriction Sites: UPJ, Brim, UVJ) — ท่อไต (มีจุดคอดแคบ 3 ตำแหน่งที่นิ่วมักติดค้างและเกิด Renal colic)) สามารถกดสลับดู \"ภาพเฉลยครบทุกจุด (Master Labeled Diagram)\" ด้านบนเพื่อทบทวนตำแหน่ง [A] ถึง [F] ทั้งหมดได้ทันที",
     "system": "Urinary System",
     "topic": "Ureters, Bladder & Urethra",
     "difficulty": "Hard",
@@ -1351,11 +2555,54 @@ export const urinaryQuestions: Question[] = [
       "upj",
       "pelvic-brim",
       "uvj",
-      "renal-colic"
+      "renal-colic",
+      "has-diagram",
+      "diagram-ureter_bladder_urethra"
     ],
     "createdAt": "2026-10-24",
     "updatedAt": "2026-10-24",
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "imageUrl": "/images/anatomy/ureter_bladder_urethra_exam.svg",
+    "labeledImageUrl": "/images/anatomy/ureter_bladder_urethra_labeled.svg",
+    "imageCaption": "Ureters, Urinary Bladder (Trigone & Sphincters) & Male Urethra Divisions — ท่อไต 3 จุดคอดแคบ กระเพาะปัสสาวะ (Detrusor, Trigone) และท่อปัสสาวะ 3 ส่วน",
+    "imageLabels": [
+      {
+        "pin": "A",
+        "term": "Ureter (3 Constriction Sites: UPJ, Brim, UVJ)",
+        "thaiName": "ท่อไต (มีจุดคอดแคบ 3 ตำแหน่งที่นิ่วมักติดค้างและเกิด Renal colic)",
+        "description": "ตำแหน่ง [A] คือ Ureter (3 Constriction Sites: UPJ, Brim, UVJ) — ท่อไต (มีจุดคอดแคบ 3 ตำแหน่งที่นิ่วมักติดค้างและเกิด Renal colic)"
+      },
+      {
+        "pin": "B",
+        "term": "Detrusor Muscle & Transitional Epithelium",
+        "thaiName": "กล้ามเนื้อเรียบกระเพาะปัสสาวะ 3 ชั้น (บีบตัวด้วย Parasympathetic S2-S4)",
+        "description": "ตำแหน่ง [B] คือ Detrusor Muscle & Transitional Epithelium — กล้ามเนื้อเรียบกระเพาะปัสสาวะ 3 ชั้น (บีบตัวด้วย Parasympathetic S2-S4)"
+      },
+      {
+        "pin": "C",
+        "term": "Trigone of Urinary Bladder",
+        "thaiName": "บริเวณสามเหลี่ยมเรียบที่ฐานกระเพาะปัสสาวะ (2 รูท่อไต + 1 รูท่อปัสสาวะ)",
+        "description": "ตำแหน่ง [C] คือ Trigone of Urinary Bladder — บริเวณสามเหลี่ยมเรียบที่ฐานกระเพาะปัสสาวะ (2 รูท่อไต + 1 รูท่อปัสสาวะ)"
+      },
+      {
+        "pin": "D",
+        "term": "Internal Urethral Sphincter (Smooth Muscle)",
+        "thaiName": "หูรูดท่อปัสสาวะชั้นใน (กล้ามเนื้อเรียบ อยู่นอกอำนาจจิตใจ Autonomic)",
+        "description": "ตำแหน่ง [D] คือ Internal Urethral Sphincter (Smooth Muscle) — หูรูดท่อปัสสาวะชั้นใน (กล้ามเนื้อเรียบ อยู่นอกอำนาจจิตใจ Autonomic)"
+      },
+      {
+        "pin": "E",
+        "term": "Prostatic Urethra (Surrounded by Prostate)",
+        "thaiName": "ท่อปัสสาวะส่วนผ่านต่อมลูกหมาก (ตีบแคบในผู้สูงอายุที่เป็นโรค BPH)",
+        "description": "ตำแหน่ง [E] คือ Prostatic Urethra (Surrounded by Prostate) — ท่อปัสสาวะส่วนผ่านต่อมลูกหมาก (ตีบแคบในผู้สูงอายุที่เป็นโรค BPH)"
+      },
+      {
+        "pin": "F",
+        "term": "Membranous Urethra & External Sphincter",
+        "thaiName": "ท่อปัสสาวะส่วนผ่านกล้ามเนื้อหูรูดชั้นนอก (กล้ามเนื้อลาย สั่งกลั้นได้ผ่าน Pudendal n.)",
+        "description": "ตำแหน่ง [F] คือ Membranous Urethra & External Sphincter — ท่อปัสสาวะส่วนผ่านกล้ามเนื้อหูรูดชั้นนอก (กล้ามเนื้อลาย สั่งกลั้นได้ผ่าน Pudendal n.)"
+      }
+    ]
   },
   {
     "id": "URINARY-054",
@@ -1384,7 +2631,7 @@ export const urinaryQuestions: Question[] = [
   },
   {
     "id": "URINARY-055",
-    "questionText": "กระเพาะปัสสาวะ (Urinary Bladder) ตั้งอยู่ในช่องเชิงกราน (Pelvic cavity) มีความสัมพันธ์ทางกายวิภาคกับอวัยวะข้างเคียงในเพศชายและเพศหญิงแตกต่างกันอย่างไร?",
+    "questionText": "[🖼️ ข้อสอบวิเคราะห์ภาพประกอบกายวิภาค — พิจารณาแผนภาพและจุดชี้ตำแหน่ง [A]–[F] โดยเฉพาะบริเวณตำแหน่ง [C]] กระเพาะปัสสาวะ (Urinary Bladder) ตั้งอยู่ในช่องเชิงกราน (Pelvic cavity) มีความสัมพันธ์ทางกายวิภาคกับอวัยวะข้างเคียงในเพศชายและเพศหญิงแตกต่างกันอย่างไร?",
     "options": {
       "A": "ทั้งสองเพศอยู่เหนือกระดูกเชิงกรานและติดกับตับ",
       "B": "ในเพศหญิงอยู่หลังมดลูก ส่วนในเพศชายอยู่ใต้ต่อมลูกหมาก",
@@ -1392,7 +2639,7 @@ export const urinaryQuestions: Question[] = [
       "D": "ในเพศชายอยู่หลังทวารหนัก"
     },
     "correctOption": "C",
-    "explanation": "กายวิภาคสัมพันธ์ของกระเพาะปัสสาวะ: ในเพศชาย ฐานกระเพาะปัสสาวะอยู่เหนือต่อมลูกหมาก (Prostate) และอยู่หน้าต่อ Rectum (มี Rectovesical pouch คั่น) ส่วนในเพศหญิง กระเพาะปัสสาวะอยู่ด้านหน้าและด้านล่างต่อมดลูก (Uterus) และผนังหน้าช่องคลอด (Vagina) โดยมี Vesicouterine pouch คั่น ทำให้เมื่อมดลูกขยายตัวขณะตั้งครรภ์จะกดเบียดกระเพาะปัสสาวะทำให้ปัสสาวะบ่อย",
+    "explanation": "กายวิภาคสัมพันธ์ของกระเพาะปัสสาวะ: ในเพศชาย ฐานกระเพาะปัสสาวะอยู่เหนือต่อมลูกหมาก (Prostate) และอยู่หน้าต่อ Rectum (มี Rectovesical pouch คั่น) ส่วนในเพศหญิง กระเพาะปัสสาวะอยู่ด้านหน้าและด้านล่างต่อมดลูก (Uterus) และผนังหน้าช่องคลอด (Vagina) โดยมี Vesicouterine pouch คั่น ทำให้เมื่อมดลูกขยายตัวขณะตั้งครรภ์จะกดเบียดกระเพาะปัสสาวะทำให้ปัสสาวะบ่อย\n\n📌 สรุปจุดชี้ตำแหน่งในภาพประกอบ (Ureters, Urinary Bladder (Trigone & Sphincters) & Male Urethra Divisions): จุดที่เกี่ยวข้องโดยตรงกับข้อนี้คือตำแหน่ง [C] (Trigone of Urinary Bladder — บริเวณสามเหลี่ยมเรียบที่ฐานกระเพาะปัสสาวะ (2 รูท่อไต + 1 รูท่อปัสสาวะ)) สามารถกดสลับดู \"ภาพเฉลยครบทุกจุด (Master Labeled Diagram)\" ด้านบนเพื่อทบทวนตำแหน่ง [A] ถึง [F] ทั้งหมดได้ทันที",
     "system": "Urinary System",
     "topic": "Ureters, Bladder & Urethra",
     "difficulty": "Medium",
@@ -1402,11 +2649,54 @@ export const urinaryQuestions: Question[] = [
       "bladder-anatomy",
       "male-vs-female-pelvis",
       "prostate",
-      "uterus-relation"
+      "uterus-relation",
+      "has-diagram",
+      "diagram-ureter_bladder_urethra"
     ],
     "createdAt": "2026-10-24",
     "updatedAt": "2026-10-24",
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "imageUrl": "/images/anatomy/ureter_bladder_urethra_exam.svg",
+    "labeledImageUrl": "/images/anatomy/ureter_bladder_urethra_labeled.svg",
+    "imageCaption": "Ureters, Urinary Bladder (Trigone & Sphincters) & Male Urethra Divisions — ท่อไต 3 จุดคอดแคบ กระเพาะปัสสาวะ (Detrusor, Trigone) และท่อปัสสาวะ 3 ส่วน",
+    "imageLabels": [
+      {
+        "pin": "A",
+        "term": "Ureter (3 Constriction Sites: UPJ, Brim, UVJ)",
+        "thaiName": "ท่อไต (มีจุดคอดแคบ 3 ตำแหน่งที่นิ่วมักติดค้างและเกิด Renal colic)",
+        "description": "ตำแหน่ง [A] คือ Ureter (3 Constriction Sites: UPJ, Brim, UVJ) — ท่อไต (มีจุดคอดแคบ 3 ตำแหน่งที่นิ่วมักติดค้างและเกิด Renal colic)"
+      },
+      {
+        "pin": "B",
+        "term": "Detrusor Muscle & Transitional Epithelium",
+        "thaiName": "กล้ามเนื้อเรียบกระเพาะปัสสาวะ 3 ชั้น (บีบตัวด้วย Parasympathetic S2-S4)",
+        "description": "ตำแหน่ง [B] คือ Detrusor Muscle & Transitional Epithelium — กล้ามเนื้อเรียบกระเพาะปัสสาวะ 3 ชั้น (บีบตัวด้วย Parasympathetic S2-S4)"
+      },
+      {
+        "pin": "C",
+        "term": "Trigone of Urinary Bladder",
+        "thaiName": "บริเวณสามเหลี่ยมเรียบที่ฐานกระเพาะปัสสาวะ (2 รูท่อไต + 1 รูท่อปัสสาวะ)",
+        "description": "ตำแหน่ง [C] คือ Trigone of Urinary Bladder — บริเวณสามเหลี่ยมเรียบที่ฐานกระเพาะปัสสาวะ (2 รูท่อไต + 1 รูท่อปัสสาวะ)"
+      },
+      {
+        "pin": "D",
+        "term": "Internal Urethral Sphincter (Smooth Muscle)",
+        "thaiName": "หูรูดท่อปัสสาวะชั้นใน (กล้ามเนื้อเรียบ อยู่นอกอำนาจจิตใจ Autonomic)",
+        "description": "ตำแหน่ง [D] คือ Internal Urethral Sphincter (Smooth Muscle) — หูรูดท่อปัสสาวะชั้นใน (กล้ามเนื้อเรียบ อยู่นอกอำนาจจิตใจ Autonomic)"
+      },
+      {
+        "pin": "E",
+        "term": "Prostatic Urethra (Surrounded by Prostate)",
+        "thaiName": "ท่อปัสสาวะส่วนผ่านต่อมลูกหมาก (ตีบแคบในผู้สูงอายุที่เป็นโรค BPH)",
+        "description": "ตำแหน่ง [E] คือ Prostatic Urethra (Surrounded by Prostate) — ท่อปัสสาวะส่วนผ่านต่อมลูกหมาก (ตีบแคบในผู้สูงอายุที่เป็นโรค BPH)"
+      },
+      {
+        "pin": "F",
+        "term": "Membranous Urethra & External Sphincter",
+        "thaiName": "ท่อปัสสาวะส่วนผ่านกล้ามเนื้อหูรูดชั้นนอก (กล้ามเนื้อลาย สั่งกลั้นได้ผ่าน Pudendal n.)",
+        "description": "ตำแหน่ง [F] คือ Membranous Urethra & External Sphincter — ท่อปัสสาวะส่วนผ่านกล้ามเนื้อหูรูดชั้นนอก (กล้ามเนื้อลาย สั่งกลั้นได้ผ่าน Pudendal n.)"
+      }
+    ]
   },
   {
     "id": "URINARY-056",
@@ -1435,7 +2725,7 @@ export const urinaryQuestions: Question[] = [
   },
   {
     "id": "URINARY-057",
-    "questionText": "ผนังกล้ามเนื้อหนาของกระเพาะปัสสาวะประกอบด้วยกล้ามเนื้อเรียบ 3 ชั้นสานประสานกันเป็นร่างแหตาข่าย กล้ามเนื้อนี้มีชื่อเรียกว่าอะไร และมีบทบาทอย่างไรในการขับถ่ายปัสสาวะ?",
+    "questionText": "[🖼️ ข้อสอบวิเคราะห์ภาพประกอบกายวิภาค — พิจารณาแผนภาพและจุดชี้ตำแหน่ง [A]–[F] โดยเฉพาะบริเวณตำแหน่ง [B]] ผนังกล้ามเนื้อหนาของกระเพาะปัสสาวะประกอบด้วยกล้ามเนื้อเรียบ 3 ชั้นสานประสานกันเป็นร่างแหตาข่าย กล้ามเนื้อนี้มีชื่อเรียกว่าอะไร และมีบทบาทอย่างไรในการขับถ่ายปัสสาวะ?",
     "options": {
       "A": "Detrusor muscle ทำหน้าที่คลายตัวเพื่อกักเก็บปัสสาวะ และหดตัวพร้อมกันทั้งผืนเพื่อบีบไล่น้ำปัสสาวะออกทางท่อปัสสาวะเมื่อได้รับการกระตุ้นจากระบบประสาทพาราซิมพาเทติก",
       "B": "Dartos muscle",
@@ -1443,7 +2733,7 @@ export const urinaryQuestions: Question[] = [
       "D": "Pectinate muscle"
     },
     "correctOption": "A",
-    "explanation": "Detrusor muscle ประกอบด้วยกล้ามเนื้อเรียบ 3 ชั้น (Inner longitudinal, Middle circular, Outer longitudinal) สานกันเป็นร่างแห เมื่อปัสสาวะสะสมเต็ม เส้นประสาท Parasympathetic (Pelvic splanchnic nerves S2-S4) จะกระตุ้น Muscarinic M3 receptors ทำให้ Detrusor บีบตัวพร้อมกันทุกทิศทางสร้างแรงดันขับปัสสาวะออกอย่างรวดเร็ว",
+    "explanation": "Detrusor muscle ประกอบด้วยกล้ามเนื้อเรียบ 3 ชั้น (Inner longitudinal, Middle circular, Outer longitudinal) สานกันเป็นร่างแห เมื่อปัสสาวะสะสมเต็ม เส้นประสาท Parasympathetic (Pelvic splanchnic nerves S2-S4) จะกระตุ้น Muscarinic M3 receptors ทำให้ Detrusor บีบตัวพร้อมกันทุกทิศทางสร้างแรงดันขับปัสสาวะออกอย่างรวดเร็ว\n\n📌 สรุปจุดชี้ตำแหน่งในภาพประกอบ (Ureters, Urinary Bladder (Trigone & Sphincters) & Male Urethra Divisions): จุดที่เกี่ยวข้องโดยตรงกับข้อนี้คือตำแหน่ง [B] (Detrusor Muscle & Transitional Epithelium — กล้ามเนื้อเรียบกระเพาะปัสสาวะ 3 ชั้น (บีบตัวด้วย Parasympathetic S2-S4)) สามารถกดสลับดู \"ภาพเฉลยครบทุกจุด (Master Labeled Diagram)\" ด้านบนเพื่อทบทวนตำแหน่ง [A] ถึง [F] ทั้งหมดได้ทันที",
     "system": "Urinary System",
     "topic": "Ureters, Bladder & Urethra",
     "difficulty": "Medium",
@@ -1452,11 +2742,54 @@ export const urinaryQuestions: Question[] = [
     "tags": [
       "detrusor-muscle",
       "bladder-smooth-muscle",
-      "parasympathetic-m3"
+      "parasympathetic-m3",
+      "has-diagram",
+      "diagram-ureter_bladder_urethra"
     ],
     "createdAt": "2026-10-24",
     "updatedAt": "2026-10-24",
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "imageUrl": "/images/anatomy/ureter_bladder_urethra_exam.svg",
+    "labeledImageUrl": "/images/anatomy/ureter_bladder_urethra_labeled.svg",
+    "imageCaption": "Ureters, Urinary Bladder (Trigone & Sphincters) & Male Urethra Divisions — ท่อไต 3 จุดคอดแคบ กระเพาะปัสสาวะ (Detrusor, Trigone) และท่อปัสสาวะ 3 ส่วน",
+    "imageLabels": [
+      {
+        "pin": "A",
+        "term": "Ureter (3 Constriction Sites: UPJ, Brim, UVJ)",
+        "thaiName": "ท่อไต (มีจุดคอดแคบ 3 ตำแหน่งที่นิ่วมักติดค้างและเกิด Renal colic)",
+        "description": "ตำแหน่ง [A] คือ Ureter (3 Constriction Sites: UPJ, Brim, UVJ) — ท่อไต (มีจุดคอดแคบ 3 ตำแหน่งที่นิ่วมักติดค้างและเกิด Renal colic)"
+      },
+      {
+        "pin": "B",
+        "term": "Detrusor Muscle & Transitional Epithelium",
+        "thaiName": "กล้ามเนื้อเรียบกระเพาะปัสสาวะ 3 ชั้น (บีบตัวด้วย Parasympathetic S2-S4)",
+        "description": "ตำแหน่ง [B] คือ Detrusor Muscle & Transitional Epithelium — กล้ามเนื้อเรียบกระเพาะปัสสาวะ 3 ชั้น (บีบตัวด้วย Parasympathetic S2-S4)"
+      },
+      {
+        "pin": "C",
+        "term": "Trigone of Urinary Bladder",
+        "thaiName": "บริเวณสามเหลี่ยมเรียบที่ฐานกระเพาะปัสสาวะ (2 รูท่อไต + 1 รูท่อปัสสาวะ)",
+        "description": "ตำแหน่ง [C] คือ Trigone of Urinary Bladder — บริเวณสามเหลี่ยมเรียบที่ฐานกระเพาะปัสสาวะ (2 รูท่อไต + 1 รูท่อปัสสาวะ)"
+      },
+      {
+        "pin": "D",
+        "term": "Internal Urethral Sphincter (Smooth Muscle)",
+        "thaiName": "หูรูดท่อปัสสาวะชั้นใน (กล้ามเนื้อเรียบ อยู่นอกอำนาจจิตใจ Autonomic)",
+        "description": "ตำแหน่ง [D] คือ Internal Urethral Sphincter (Smooth Muscle) — หูรูดท่อปัสสาวะชั้นใน (กล้ามเนื้อเรียบ อยู่นอกอำนาจจิตใจ Autonomic)"
+      },
+      {
+        "pin": "E",
+        "term": "Prostatic Urethra (Surrounded by Prostate)",
+        "thaiName": "ท่อปัสสาวะส่วนผ่านต่อมลูกหมาก (ตีบแคบในผู้สูงอายุที่เป็นโรค BPH)",
+        "description": "ตำแหน่ง [E] คือ Prostatic Urethra (Surrounded by Prostate) — ท่อปัสสาวะส่วนผ่านต่อมลูกหมาก (ตีบแคบในผู้สูงอายุที่เป็นโรค BPH)"
+      },
+      {
+        "pin": "F",
+        "term": "Membranous Urethra & External Sphincter",
+        "thaiName": "ท่อปัสสาวะส่วนผ่านกล้ามเนื้อหูรูดชั้นนอก (กล้ามเนื้อลาย สั่งกลั้นได้ผ่าน Pudendal n.)",
+        "description": "ตำแหน่ง [F] คือ Membranous Urethra & External Sphincter — ท่อปัสสาวะส่วนผ่านกล้ามเนื้อหูรูดชั้นนอก (กล้ามเนื้อลาย สั่งกลั้นได้ผ่าน Pudendal n.)"
+      }
+    ]
   },
   {
     "id": "URINARY-058",
@@ -1511,7 +2844,7 @@ export const urinaryQuestions: Question[] = [
   },
   {
     "id": "URINARY-060",
-    "questionText": "ท่อปัสสาวะของเพศหญิง (Female urethra) มีความยาวทางกายวิภาคประมาณเท่าใด และลักษณะทางกายวิภาคนี้สัมพันธ์กับการเกิดโรคติดเชื้อในระบบทางเดินปัสสาวะ (Urinary Tract Infection: UTI) อย่างไร?",
+    "questionText": "[🖼️ ข้อสอบวิเคราะห์ภาพประกอบกายวิภาค — พิจารณาแผนภาพและจุดชี้ตำแหน่ง [A]–[F] โดยเฉพาะบริเวณตำแหน่ง [D]] ท่อปัสสาวะของเพศหญิง (Female urethra) มีความยาวทางกายวิภาคประมาณเท่าใด และลักษณะทางกายวิภาคนี้สัมพันธ์กับการเกิดโรคติดเชื้อในระบบทางเดินปัสสาวะ (Urinary Tract Infection: UTI) อย่างไร?",
     "options": {
       "A": "ท่อปัสสาวะสั้นทำให้ไม่สามารถกลั้นปัสสาวะได้",
       "B": "ยาวประมาณ 20 เซนติเมตร ทำให้ไม่เคยเกิดการติดเชื้อ",
@@ -1519,7 +2852,7 @@ export const urinaryQuestions: Question[] = [
       "D": "ยาวเพียงประมาณ 3 - 5 เซนติเมตร (สั้นกว่าเพศชายมาก) และรูเปิดอยู่ใกล้กับช่องคลอดและทวารหนัก ทำให้เชื้อแบคทีเรีย (โดยเฉพาะ E. coli) สามารถเดินทางผ่านท่อปัสสาวะเข้าสู่กระเพาะปัสสาวะได้ง่าย ส่งผลให้เพศหญิงเป็นโรคกระเพาะปัสสาวะอักเสบ (Cystitis) ได้บ่อยกว่าเพศชาย"
     },
     "correctOption": "D",
-    "explanation": "ท่อปัสสาวะเพศหญิงสั้นมาก (ยาวเพียง 3.5 - 4 ซม.) ทอดตรงจาก Bladder neck ไปเปิดที่ External urethral orifice ใน Vestibule ด้านหน้าต่อช่องคลอด ทางเดินที่สั้นร่วมกับตำแหน่งที่อยู่ใกล้ชิดกับทวารหนักซึ่งเป็นแหล่งสะสมของแบคทีเรียจากอุจจาระ (เช่น E. coli) ทำให้เชื้อสามารถเล็ดลอดเข้าสู่กระเพาะปัสสาวะได้ง่ายกว่าเพศชายหลายเท่า",
+    "explanation": "ท่อปัสสาวะเพศหญิงสั้นมาก (ยาวเพียง 3.5 - 4 ซม.) ทอดตรงจาก Bladder neck ไปเปิดที่ External urethral orifice ใน Vestibule ด้านหน้าต่อช่องคลอด ทางเดินที่สั้นร่วมกับตำแหน่งที่อยู่ใกล้ชิดกับทวารหนักซึ่งเป็นแหล่งสะสมของแบคทีเรียจากอุจจาระ (เช่น E. coli) ทำให้เชื้อสามารถเล็ดลอดเข้าสู่กระเพาะปัสสาวะได้ง่ายกว่าเพศชายหลายเท่า\n\n📌 สรุปจุดชี้ตำแหน่งในภาพประกอบ (Ureters, Urinary Bladder (Trigone & Sphincters) & Male Urethra Divisions): จุดที่เกี่ยวข้องโดยตรงกับข้อนี้คือตำแหน่ง [D] (Internal Urethral Sphincter (Smooth Muscle) — หูรูดท่อปัสสาวะชั้นใน (กล้ามเนื้อเรียบ อยู่นอกอำนาจจิตใจ Autonomic)) สามารถกดสลับดู \"ภาพเฉลยครบทุกจุด (Master Labeled Diagram)\" ด้านบนเพื่อทบทวนตำแหน่ง [A] ถึง [F] ทั้งหมดได้ทันที",
     "system": "Urinary System",
     "topic": "Anatomical Differences Between Males and Females",
     "difficulty": "Medium",
@@ -1529,15 +2862,58 @@ export const urinaryQuestions: Question[] = [
       "female-urethra",
       "short-urethra",
       "uti-predisposition",
-      "cystitis"
+      "cystitis",
+      "has-diagram",
+      "diagram-ureter_bladder_urethra"
     ],
     "createdAt": "2026-10-24",
     "updatedAt": "2026-10-24",
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "imageUrl": "/images/anatomy/ureter_bladder_urethra_exam.svg",
+    "labeledImageUrl": "/images/anatomy/ureter_bladder_urethra_labeled.svg",
+    "imageCaption": "Ureters, Urinary Bladder (Trigone & Sphincters) & Male Urethra Divisions — ท่อไต 3 จุดคอดแคบ กระเพาะปัสสาวะ (Detrusor, Trigone) และท่อปัสสาวะ 3 ส่วน",
+    "imageLabels": [
+      {
+        "pin": "A",
+        "term": "Ureter (3 Constriction Sites: UPJ, Brim, UVJ)",
+        "thaiName": "ท่อไต (มีจุดคอดแคบ 3 ตำแหน่งที่นิ่วมักติดค้างและเกิด Renal colic)",
+        "description": "ตำแหน่ง [A] คือ Ureter (3 Constriction Sites: UPJ, Brim, UVJ) — ท่อไต (มีจุดคอดแคบ 3 ตำแหน่งที่นิ่วมักติดค้างและเกิด Renal colic)"
+      },
+      {
+        "pin": "B",
+        "term": "Detrusor Muscle & Transitional Epithelium",
+        "thaiName": "กล้ามเนื้อเรียบกระเพาะปัสสาวะ 3 ชั้น (บีบตัวด้วย Parasympathetic S2-S4)",
+        "description": "ตำแหน่ง [B] คือ Detrusor Muscle & Transitional Epithelium — กล้ามเนื้อเรียบกระเพาะปัสสาวะ 3 ชั้น (บีบตัวด้วย Parasympathetic S2-S4)"
+      },
+      {
+        "pin": "C",
+        "term": "Trigone of Urinary Bladder",
+        "thaiName": "บริเวณสามเหลี่ยมเรียบที่ฐานกระเพาะปัสสาวะ (2 รูท่อไต + 1 รูท่อปัสสาวะ)",
+        "description": "ตำแหน่ง [C] คือ Trigone of Urinary Bladder — บริเวณสามเหลี่ยมเรียบที่ฐานกระเพาะปัสสาวะ (2 รูท่อไต + 1 รูท่อปัสสาวะ)"
+      },
+      {
+        "pin": "D",
+        "term": "Internal Urethral Sphincter (Smooth Muscle)",
+        "thaiName": "หูรูดท่อปัสสาวะชั้นใน (กล้ามเนื้อเรียบ อยู่นอกอำนาจจิตใจ Autonomic)",
+        "description": "ตำแหน่ง [D] คือ Internal Urethral Sphincter (Smooth Muscle) — หูรูดท่อปัสสาวะชั้นใน (กล้ามเนื้อเรียบ อยู่นอกอำนาจจิตใจ Autonomic)"
+      },
+      {
+        "pin": "E",
+        "term": "Prostatic Urethra (Surrounded by Prostate)",
+        "thaiName": "ท่อปัสสาวะส่วนผ่านต่อมลูกหมาก (ตีบแคบในผู้สูงอายุที่เป็นโรค BPH)",
+        "description": "ตำแหน่ง [E] คือ Prostatic Urethra (Surrounded by Prostate) — ท่อปัสสาวะส่วนผ่านต่อมลูกหมาก (ตีบแคบในผู้สูงอายุที่เป็นโรค BPH)"
+      },
+      {
+        "pin": "F",
+        "term": "Membranous Urethra & External Sphincter",
+        "thaiName": "ท่อปัสสาวะส่วนผ่านกล้ามเนื้อหูรูดชั้นนอก (กล้ามเนื้อลาย สั่งกลั้นได้ผ่าน Pudendal n.)",
+        "description": "ตำแหน่ง [F] คือ Membranous Urethra & External Sphincter — ท่อปัสสาวะส่วนผ่านกล้ามเนื้อหูรูดชั้นนอก (กล้ามเนื้อลาย สั่งกลั้นได้ผ่าน Pudendal n.)"
+      }
+    ]
   },
   {
     "id": "URINARY-061",
-    "questionText": "ท่อปัสสาวะของเพศชาย (Male urethra) มีความยาวเฉลี่ยประมาณ 18-20 เซนติเมตร แบ่งออกเป็น 3 ส่วนตามตำแหน่งทางกายวิภาค เรียงลำดับจากกระเพาะปัสสาวะออกสู่ปลายอวัยวะเพศข้อใดถูกต้อง?",
+    "questionText": "[🖼️ ข้อสอบวิเคราะห์ภาพประกอบกายวิภาค — พิจารณาแผนภาพและจุดชี้ตำแหน่ง [A]–[F] โดยเฉพาะบริเวณตำแหน่ง [E]] ท่อปัสสาวะของเพศชาย (Male urethra) มีความยาวเฉลี่ยประมาณ 18-20 เซนติเมตร แบ่งออกเป็น 3 ส่วนตามตำแหน่งทางกายวิภาค เรียงลำดับจากกระเพาะปัสสาวะออกสู่ปลายอวัยวะเพศข้อใดถูกต้อง?",
     "options": {
       "A": "Prostatic urethra -> Membranous urethra -> Spongy (Penile) urethra",
       "B": "Spongy urethra -> Membranous urethra -> Prostatic urethra",
@@ -1545,7 +2921,7 @@ export const urinaryQuestions: Question[] = [
       "D": "Prostatic urethra -> Penile urethra -> Membranous urethra"
     },
     "correctOption": "A",
-    "explanation": "ท่อปัสสาวะเพศชายแบ่งเป็น 3 ส่วน: 1. Prostatic urethra (ยาว ~3 ซม. ทอดผ่านเนื้อต่อมลูกหมาก) 2. Membranous urethra (สั้นที่สุดและแคบที่สุด ~1-2 ซม. ทอดผ่าน Urogenital diaphragm และหุ้มด้วย External urethral sphincter) 3. Spongy / Penile urethra (ยาวที่สุด ~15 ซม. ทอดใน Corpus spongiosum ขององคชาต)",
+    "explanation": "ท่อปัสสาวะเพศชายแบ่งเป็น 3 ส่วน: 1. Prostatic urethra (ยาว ~3 ซม. ทอดผ่านเนื้อต่อมลูกหมาก) 2. Membranous urethra (สั้นที่สุดและแคบที่สุด ~1-2 ซม. ทอดผ่าน Urogenital diaphragm และหุ้มด้วย External urethral sphincter) 3. Spongy / Penile urethra (ยาวที่สุด ~15 ซม. ทอดใน Corpus spongiosum ขององคชาต)\n\n📌 สรุปจุดชี้ตำแหน่งในภาพประกอบ (Ureters, Urinary Bladder (Trigone & Sphincters) & Male Urethra Divisions): จุดที่เกี่ยวข้องโดยตรงกับข้อนี้คือตำแหน่ง [E] (Prostatic Urethra (Surrounded by Prostate) — ท่อปัสสาวะส่วนผ่านต่อมลูกหมาก (ตีบแคบในผู้สูงอายุที่เป็นโรค BPH)) สามารถกดสลับดู \"ภาพเฉลยครบทุกจุด (Master Labeled Diagram)\" ด้านบนเพื่อทบทวนตำแหน่ง [A] ถึง [F] ทั้งหมดได้ทันที",
     "system": "Urinary System",
     "topic": "Anatomical Differences Between Males and Females",
     "difficulty": "Medium",
@@ -1555,11 +2931,54 @@ export const urinaryQuestions: Question[] = [
       "male-urethra-divisions",
       "prostatic",
       "membranous",
-      "spongy-urethra"
+      "spongy-urethra",
+      "has-diagram",
+      "diagram-ureter_bladder_urethra"
     ],
     "createdAt": "2026-10-24",
     "updatedAt": "2026-10-24",
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "imageUrl": "/images/anatomy/ureter_bladder_urethra_exam.svg",
+    "labeledImageUrl": "/images/anatomy/ureter_bladder_urethra_labeled.svg",
+    "imageCaption": "Ureters, Urinary Bladder (Trigone & Sphincters) & Male Urethra Divisions — ท่อไต 3 จุดคอดแคบ กระเพาะปัสสาวะ (Detrusor, Trigone) และท่อปัสสาวะ 3 ส่วน",
+    "imageLabels": [
+      {
+        "pin": "A",
+        "term": "Ureter (3 Constriction Sites: UPJ, Brim, UVJ)",
+        "thaiName": "ท่อไต (มีจุดคอดแคบ 3 ตำแหน่งที่นิ่วมักติดค้างและเกิด Renal colic)",
+        "description": "ตำแหน่ง [A] คือ Ureter (3 Constriction Sites: UPJ, Brim, UVJ) — ท่อไต (มีจุดคอดแคบ 3 ตำแหน่งที่นิ่วมักติดค้างและเกิด Renal colic)"
+      },
+      {
+        "pin": "B",
+        "term": "Detrusor Muscle & Transitional Epithelium",
+        "thaiName": "กล้ามเนื้อเรียบกระเพาะปัสสาวะ 3 ชั้น (บีบตัวด้วย Parasympathetic S2-S4)",
+        "description": "ตำแหน่ง [B] คือ Detrusor Muscle & Transitional Epithelium — กล้ามเนื้อเรียบกระเพาะปัสสาวะ 3 ชั้น (บีบตัวด้วย Parasympathetic S2-S4)"
+      },
+      {
+        "pin": "C",
+        "term": "Trigone of Urinary Bladder",
+        "thaiName": "บริเวณสามเหลี่ยมเรียบที่ฐานกระเพาะปัสสาวะ (2 รูท่อไต + 1 รูท่อปัสสาวะ)",
+        "description": "ตำแหน่ง [C] คือ Trigone of Urinary Bladder — บริเวณสามเหลี่ยมเรียบที่ฐานกระเพาะปัสสาวะ (2 รูท่อไต + 1 รูท่อปัสสาวะ)"
+      },
+      {
+        "pin": "D",
+        "term": "Internal Urethral Sphincter (Smooth Muscle)",
+        "thaiName": "หูรูดท่อปัสสาวะชั้นใน (กล้ามเนื้อเรียบ อยู่นอกอำนาจจิตใจ Autonomic)",
+        "description": "ตำแหน่ง [D] คือ Internal Urethral Sphincter (Smooth Muscle) — หูรูดท่อปัสสาวะชั้นใน (กล้ามเนื้อเรียบ อยู่นอกอำนาจจิตใจ Autonomic)"
+      },
+      {
+        "pin": "E",
+        "term": "Prostatic Urethra (Surrounded by Prostate)",
+        "thaiName": "ท่อปัสสาวะส่วนผ่านต่อมลูกหมาก (ตีบแคบในผู้สูงอายุที่เป็นโรค BPH)",
+        "description": "ตำแหน่ง [E] คือ Prostatic Urethra (Surrounded by Prostate) — ท่อปัสสาวะส่วนผ่านต่อมลูกหมาก (ตีบแคบในผู้สูงอายุที่เป็นโรค BPH)"
+      },
+      {
+        "pin": "F",
+        "term": "Membranous Urethra & External Sphincter",
+        "thaiName": "ท่อปัสสาวะส่วนผ่านกล้ามเนื้อหูรูดชั้นนอก (กล้ามเนื้อลาย สั่งกลั้นได้ผ่าน Pudendal n.)",
+        "description": "ตำแหน่ง [F] คือ Membranous Urethra & External Sphincter — ท่อปัสสาวะส่วนผ่านกล้ามเนื้อหูรูดชั้นนอก (กล้ามเนื้อลาย สั่งกลั้นได้ผ่าน Pudendal n.)"
+      }
+    ]
   },
   {
     "id": "URINARY-062",
@@ -1589,7 +3008,7 @@ export const urinaryQuestions: Question[] = [
   },
   {
     "id": "URINARY-063",
-    "questionText": "ท่อปัสสาวะเพศชายส่วน Membranous Urethra ทอดตัวผ่านแผ่นกล้ามเนื้ออุ้งเชิงกราน (Urogenital diaphragm) และถูกโอบล้อมรอบด้วยกล้ามเนื้อหูรูดชนิดใดที่มีการควบคุมภายใต้อำนาจจิตใจ?",
+    "questionText": "[🖼️ ข้อสอบวิเคราะห์ภาพประกอบกายวิภาค — พิจารณาแผนภาพและจุดชี้ตำแหน่ง [A]–[F] โดยเฉพาะบริเวณตำแหน่ง [F]] ท่อปัสสาวะเพศชายส่วน Membranous Urethra ทอดตัวผ่านแผ่นกล้ามเนื้ออุ้งเชิงกราน (Urogenital diaphragm) และถูกโอบล้อมรอบด้วยกล้ามเนื้อหูรูดชนิดใดที่มีการควบคุมภายใต้อำนาจจิตใจ?",
     "options": {
       "A": "Bulbospongiosus muscle",
       "B": "Internal urethral sphincter (กล้ามเนื้อเรียบ)",
@@ -1597,7 +3016,7 @@ export const urinaryQuestions: Question[] = [
       "D": "Detrusor sphincter"
     },
     "correctOption": "C",
-    "explanation": "Membranous urethra ทอดผ่าน Deep perineal pouch (Urogenital diaphragm) ถูกล้อมรอบด้วย External urethral sphincter ซึ่งเป็นกล้ามเนื้อลายรูปวงแหวน ทำหน้าที่เป็นหูรูดกลั้นปัสสาวะที่ควบคุมได้ตามความตั้งใจ (Voluntary somatic control) ผ่านทางแขนงของเส้นประสาท Pudendal nerve (S2-S4)",
+    "explanation": "Membranous urethra ทอดผ่าน Deep perineal pouch (Urogenital diaphragm) ถูกล้อมรอบด้วย External urethral sphincter ซึ่งเป็นกล้ามเนื้อลายรูปวงแหวน ทำหน้าที่เป็นหูรูดกลั้นปัสสาวะที่ควบคุมได้ตามความตั้งใจ (Voluntary somatic control) ผ่านทางแขนงของเส้นประสาท Pudendal nerve (S2-S4)\n\n📌 สรุปจุดชี้ตำแหน่งในภาพประกอบ (Ureters, Urinary Bladder (Trigone & Sphincters) & Male Urethra Divisions): จุดที่เกี่ยวข้องโดยตรงกับข้อนี้คือตำแหน่ง [F] (Membranous Urethra & External Sphincter — ท่อปัสสาวะส่วนผ่านกล้ามเนื้อหูรูดชั้นนอก (กล้ามเนื้อลาย สั่งกลั้นได้ผ่าน Pudendal n.)) สามารถกดสลับดู \"ภาพเฉลยครบทุกจุด (Master Labeled Diagram)\" ด้านบนเพื่อทบทวนตำแหน่ง [A] ถึง [F] ทั้งหมดได้ทันที",
     "system": "Urinary System",
     "topic": "Anatomical Differences Between Males and Females",
     "difficulty": "Hard",
@@ -1607,11 +3026,54 @@ export const urinaryQuestions: Question[] = [
       "membranous-urethra",
       "external-urethral-sphincter",
       "pudendal-nerve",
-      "voluntary-control"
+      "voluntary-control",
+      "has-diagram",
+      "diagram-ureter_bladder_urethra"
     ],
     "createdAt": "2026-10-24",
     "updatedAt": "2026-10-24",
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "imageUrl": "/images/anatomy/ureter_bladder_urethra_exam.svg",
+    "labeledImageUrl": "/images/anatomy/ureter_bladder_urethra_labeled.svg",
+    "imageCaption": "Ureters, Urinary Bladder (Trigone & Sphincters) & Male Urethra Divisions — ท่อไต 3 จุดคอดแคบ กระเพาะปัสสาวะ (Detrusor, Trigone) และท่อปัสสาวะ 3 ส่วน",
+    "imageLabels": [
+      {
+        "pin": "A",
+        "term": "Ureter (3 Constriction Sites: UPJ, Brim, UVJ)",
+        "thaiName": "ท่อไต (มีจุดคอดแคบ 3 ตำแหน่งที่นิ่วมักติดค้างและเกิด Renal colic)",
+        "description": "ตำแหน่ง [A] คือ Ureter (3 Constriction Sites: UPJ, Brim, UVJ) — ท่อไต (มีจุดคอดแคบ 3 ตำแหน่งที่นิ่วมักติดค้างและเกิด Renal colic)"
+      },
+      {
+        "pin": "B",
+        "term": "Detrusor Muscle & Transitional Epithelium",
+        "thaiName": "กล้ามเนื้อเรียบกระเพาะปัสสาวะ 3 ชั้น (บีบตัวด้วย Parasympathetic S2-S4)",
+        "description": "ตำแหน่ง [B] คือ Detrusor Muscle & Transitional Epithelium — กล้ามเนื้อเรียบกระเพาะปัสสาวะ 3 ชั้น (บีบตัวด้วย Parasympathetic S2-S4)"
+      },
+      {
+        "pin": "C",
+        "term": "Trigone of Urinary Bladder",
+        "thaiName": "บริเวณสามเหลี่ยมเรียบที่ฐานกระเพาะปัสสาวะ (2 รูท่อไต + 1 รูท่อปัสสาวะ)",
+        "description": "ตำแหน่ง [C] คือ Trigone of Urinary Bladder — บริเวณสามเหลี่ยมเรียบที่ฐานกระเพาะปัสสาวะ (2 รูท่อไต + 1 รูท่อปัสสาวะ)"
+      },
+      {
+        "pin": "D",
+        "term": "Internal Urethral Sphincter (Smooth Muscle)",
+        "thaiName": "หูรูดท่อปัสสาวะชั้นใน (กล้ามเนื้อเรียบ อยู่นอกอำนาจจิตใจ Autonomic)",
+        "description": "ตำแหน่ง [D] คือ Internal Urethral Sphincter (Smooth Muscle) — หูรูดท่อปัสสาวะชั้นใน (กล้ามเนื้อเรียบ อยู่นอกอำนาจจิตใจ Autonomic)"
+      },
+      {
+        "pin": "E",
+        "term": "Prostatic Urethra (Surrounded by Prostate)",
+        "thaiName": "ท่อปัสสาวะส่วนผ่านต่อมลูกหมาก (ตีบแคบในผู้สูงอายุที่เป็นโรค BPH)",
+        "description": "ตำแหน่ง [E] คือ Prostatic Urethra (Surrounded by Prostate) — ท่อปัสสาวะส่วนผ่านต่อมลูกหมาก (ตีบแคบในผู้สูงอายุที่เป็นโรค BPH)"
+      },
+      {
+        "pin": "F",
+        "term": "Membranous Urethra & External Sphincter",
+        "thaiName": "ท่อปัสสาวะส่วนผ่านกล้ามเนื้อหูรูดชั้นนอก (กล้ามเนื้อลาย สั่งกลั้นได้ผ่าน Pudendal n.)",
+        "description": "ตำแหน่ง [F] คือ Membranous Urethra & External Sphincter — ท่อปัสสาวะส่วนผ่านกล้ามเนื้อหูรูดชั้นนอก (กล้ามเนื้อลาย สั่งกลั้นได้ผ่าน Pudendal n.)"
+      }
+    ]
   },
   {
     "id": "URINARY-064",
@@ -2428,7 +3890,7 @@ export const urinaryQuestions: Question[] = [
   },
   {
     "id": "URINARY-096",
-    "questionText": "ต่อมหมวกไต (Adrenal / Suprarenal glands) ตั้งอยู่บนขั้วบนของไตทั้งสองข้าง โดยบรรจุอยู่ร่วมกับไตภายในชั้นเนื้อเยื่อเกี่ยวพันชนิดใด?",
+    "questionText": "[🖼️ ข้อสอบวิเคราะห์ภาพประกอบกายวิภาค — พิจารณาแผนภาพและจุดชี้ตำแหน่ง [A]–[F] โดยเฉพาะบริเวณตำแหน่ง [F]] ต่อมหมวกไต (Adrenal / Suprarenal glands) ตั้งอยู่บนขั้วบนของไตทั้งสองข้าง โดยบรรจุอยู่ร่วมกับไตภายในชั้นเนื้อเยื่อเกี่ยวพันชนิดใด?",
     "options": {
       "A": "บรรจุอยู่ในถุงเยื่อหุ้มหัวใจ",
       "B": "อยู่นอก Renal fascia และมีกระดูกซี่โครงกั้นกลาง",
@@ -2436,7 +3898,7 @@ export const urinaryQuestions: Question[] = [
       "D": "บรรจุอยู่ร่วมกันภายในชั้น Renal fascia (Gerota's fascia) และถูกห่อหุ้มด้วย Perirenal fat"
     },
     "correctOption": "D",
-    "explanation": "ต่อมหมวกไตตั้งอยู่บนขั้วบนของไตแต่ละข้าง โดยบรรจุอยู่ภายในช่องเดียวกันของ Renal fascia (Gerota's fascia) และรายล้อมด้วย Perirenal fat แต่จะมีแผ่นกั้นบางๆ (Thin septum) แยกต่อมหมวกไตออกจากไต ทำให้เมื่อไตเลื่อนหลุดลงล่าง (Nephroptosis) หรือเมื่อผ่าตัดตัดไตออก ต่อมหมวกไตจะยังคงเกาะติดอยู่ที่เดิมใต้กะบังลม",
+    "explanation": "ต่อมหมวกไตตั้งอยู่บนขั้วบนของไตแต่ละข้าง โดยบรรจุอยู่ภายในช่องเดียวกันของ Renal fascia (Gerota's fascia) และรายล้อมด้วย Perirenal fat แต่จะมีแผ่นกั้นบางๆ (Thin septum) แยกต่อมหมวกไตออกจากไต ทำให้เมื่อไตเลื่อนหลุดลงล่าง (Nephroptosis) หรือเมื่อผ่าตัดตัดไตออก ต่อมหมวกไตจะยังคงเกาะติดอยู่ที่เดิมใต้กะบังลม\n\n📌 สรุปจุดชี้ตำแหน่งในภาพประกอบ (Internal Structure of the Kidney: Cortex, Medulla, Calyces & Hilum): จุดที่เกี่ยวข้องโดยตรงกับข้อนี้คือตำแหน่ง [F] (Renal Pelvis & Ureter — แอ่งกรวยไตใหญ่ต่อลงไปเป็นท่อไต (Ureter) สู่กระเพาะปัสสาวะ) สามารถกดสลับดู \"ภาพเฉลยครบทุกจุด (Master Labeled Diagram)\" ด้านบนเพื่อทบทวนตำแหน่ง [A] ถึง [F] ทั้งหมดได้ทันที",
     "system": "Urinary System",
     "topic": "Kidney Gross Anatomy & Position",
     "difficulty": "Medium",
@@ -2445,11 +3907,54 @@ export const urinaryQuestions: Question[] = [
     "tags": [
       "adrenal-glands",
       "gerotas-fascia",
-      "perirenal-fat"
+      "perirenal-fat",
+      "has-diagram",
+      "diagram-kidney_gross_internal"
     ],
     "createdAt": "2026-10-24",
     "updatedAt": "2026-10-24",
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "imageUrl": "/images/anatomy/kidney_gross_internal_exam.svg",
+    "labeledImageUrl": "/images/anatomy/kidney_gross_internal_labeled.svg",
+    "imageCaption": "Internal Structure of the Kidney: Cortex, Medulla, Calyces & Hilum — โครงสร้างภายในไต ชั้น Cortex, Medullary Pyramids, กรวยไต และหลอดเลือดไต",
+    "imageLabels": [
+      {
+        "pin": "A",
+        "term": "Renal Cortex & Fibrous Capsule",
+        "thaiName": "เนื้อไตชั้นนอก (ที่อยู่ของ Renal corpuscles ทั้งหมด) และแคปซูลหุ้มไต",
+        "description": "ตำแหน่ง [A] คือ Renal Cortex & Fibrous Capsule — เนื้อไตชั้นนอก (ที่อยู่ของ Renal corpuscles ทั้งหมด) และแคปซูลหุ้มไต"
+      },
+      {
+        "pin": "B",
+        "term": "Renal Pyramid in Medulla & Papilla",
+        "thaiName": "พีระมิดไตในชั้น Medulla มียอดแหลม Renal papilla เปิดเข้ากรวยไต",
+        "description": "ตำแหน่ง [B] คือ Renal Pyramid in Medulla & Papilla — พีระมิดไตในชั้น Medulla มียอดแหลม Renal papilla เปิดเข้ากรวยไต"
+      },
+      {
+        "pin": "C",
+        "term": "Renal Column (Column of Bertin)",
+        "thaiName": "เนื้อไตชั้น Cortex ที่ยื่นแทรกคั่นระหว่างพีระมิดไต (ทางผ่าน Interlobar a.)",
+        "description": "ตำแหน่ง [C] คือ Renal Column (Column of Bertin) — เนื้อไตชั้น Cortex ที่ยื่นแทรกคั่นระหว่างพีระมิดไต (ทางผ่าน Interlobar a.)"
+      },
+      {
+        "pin": "D",
+        "term": "Minor & Major Calyces",
+        "thaiName": "กรวยไตย่อย (รองรับปัสสาวะจาก Renal papilla) รวมเป็นกรวยไตใหญ่",
+        "description": "ตำแหน่ง [D] คือ Minor & Major Calyces — กรวยไตย่อย (รองรับปัสสาวะจาก Renal papilla) รวมเป็นกรวยไตใหญ่"
+      },
+      {
+        "pin": "E",
+        "term": "Renal Hilum (Vein-Artery-Pelvis)",
+        "thaiName": "ขั้วไตทางด้านใน เรียงจากหน้าไปหลัง: Renal Vein -> Artery -> Pelvis",
+        "description": "ตำแหน่ง [E] คือ Renal Hilum (Vein-Artery-Pelvis) — ขั้วไตทางด้านใน เรียงจากหน้าไปหลัง: Renal Vein -> Artery -> Pelvis"
+      },
+      {
+        "pin": "F",
+        "term": "Renal Pelvis & Ureter",
+        "thaiName": "แอ่งกรวยไตใหญ่ต่อลงไปเป็นท่อไต (Ureter) สู่กระเพาะปัสสาวะ",
+        "description": "ตำแหน่ง [F] คือ Renal Pelvis & Ureter — แอ่งกรวยไตใหญ่ต่อลงไปเป็นท่อไต (Ureter) สู่กระเพาะปัสสาวะ"
+      }
+    ]
   },
   {
     "id": "URINARY-097",

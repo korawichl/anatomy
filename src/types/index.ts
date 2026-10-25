@@ -8,6 +8,13 @@ export type Difficulty = 'Easy' | 'Medium' | 'Hard' | 'Mixed';
 
 export type OptionKey = 'A' | 'B' | 'C' | 'D';
 
+export interface AnatomicalLandmarkLabel {
+  pin: string;
+  term: string;
+  thaiName: string;
+  description: string;
+}
+
 export interface Question {
   id: string;
   questionText: string;
@@ -28,6 +35,10 @@ export interface Question {
   createdAt: string;
   updatedAt: string;
   verificationStatus: 'verified' | 'unverified';
+  imageUrl?: string;
+  labeledImageUrl?: string;
+  imageCaption?: string;
+  imageLabels?: AnatomicalLandmarkLabel[];
 }
 
 export interface AttemptAnswer {
@@ -65,6 +76,7 @@ export interface ExamConfig {
   timeLimitMinutes: number;
   shuffleQuestions: boolean;
   shuffleOptions: boolean;
+  diagramOnly?: boolean;
 }
 
 export interface TopicAnalytics {

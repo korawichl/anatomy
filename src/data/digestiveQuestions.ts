@@ -3,7 +3,7 @@ import { Question } from '../types';
 export const digestiveQuestions: Question[] = [
   {
     "id": "DIGEST-001",
-    "questionText": "ผนังของท่อทางเดินอาหาร (Gastrointestinal tract) โดยทั่วไปประกอบด้วยชั้นเนื้อเยื่อหลัก 4 ชั้น ลำดับจากด้านในลูเมนออกสู่ผิวนอกข้อใดถูกต้อง และชั้นใดเป็นที่อยู่ของหลอดเลือด หลอดน้ำเหลือง และร่างแหประสาท Meissner's plexus?",
+    "questionText": "[🖼️ ข้อสอบวิเคราะห์ภาพประกอบกายวิภาค — พิจารณาแผนภาพและจุดชี้ตำแหน่ง [A]–[F] โดยเฉพาะบริเวณตำแหน่ง [A]] ผนังของท่อทางเดินอาหาร (Gastrointestinal tract) โดยทั่วไปประกอบด้วยชั้นเนื้อเยื่อหลัก 4 ชั้น ลำดับจากด้านในลูเมนออกสู่ผิวนอกข้อใดถูกต้อง และชั้นใดเป็นที่อยู่ของหลอดเลือด หลอดน้ำเหลือง และร่างแหประสาท Meissner's plexus?",
     "options": {
       "A": "Mucosa -> Submucosa -> Muscularis externa -> Serosa / Adventitia โดย Submucosa เป็นที่อยู่ของ Meissner's plexus",
       "B": "Submucosa -> Mucosa -> Muscularis externa -> Serosa โดย Mucosa เป็นที่อยู่ของ Meissner's plexus",
@@ -11,7 +11,7 @@ export const digestiveQuestions: Question[] = [
       "D": "Serosa -> Muscularis externa -> Submucosa -> Mucosa โดย Adventitia เป็นที่อยู่ของ Meissner's plexus"
     },
     "correctOption": "A",
-    "explanation": "ผนังทางเดินอาหารเรียงจากในออกนอก: 1. Mucosa (Epithelium, Lamina propria, Muscularis mucosae) 2. Submucosa (Dense irregular connective tissue มีหลอดเลือด หลอดน้ำเหลือง และ Submucosal/Meissner's plexus ควบคุมการหลั่งสาร) 3. Muscularis externa (Inner circular, Outer longitudinal มี Myenteric/Auerbach's plexus) 4. Serosa หรือ Adventitia",
+    "explanation": "ผนังทางเดินอาหารเรียงจากในออกนอก: 1. Mucosa (Epithelium, Lamina propria, Muscularis mucosae) 2. Submucosa (Dense irregular connective tissue มีหลอดเลือด หลอดน้ำเหลือง และ Submucosal/Meissner's plexus ควบคุมการหลั่งสาร) 3. Muscularis externa (Inner circular, Outer longitudinal มี Myenteric/Auerbach's plexus) 4. Serosa หรือ Adventitia\n\n📌 สรุปจุดชี้ตำแหน่งในภาพประกอบ (Four Histological Layers of the Gastrointestinal Tract Wall): จุดที่เกี่ยวข้องโดยตรงกับข้อนี้คือตำแหน่ง [A] (Mucosa (Epithelium & Lamina Propria) — ชั้นเยื่อเมือกด้านในสุด (ดูดซึมและหลั่งเมือก)) สามารถกดสลับดู \"ภาพเฉลยครบทุกจุด (Master Labeled Diagram)\" ด้านบนเพื่อทบทวนตำแหน่ง [A] ถึง [F] ทั้งหมดได้ทันที",
     "system": "Digestive System",
     "topic": "Histological Structure of the Digestive Tract",
     "difficulty": "Medium",
@@ -20,15 +20,58 @@ export const digestiveQuestions: Question[] = [
     "tags": [
       "gi-histology",
       "submucosa",
-      "meissners-plexus"
+      "meissners-plexus",
+      "has-diagram",
+      "diagram-gi_wall_peritoneum"
     ],
     "createdAt": "2026-10-24",
     "updatedAt": "2026-10-24",
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "imageUrl": "/images/anatomy/gi_wall_peritoneum_exam.svg",
+    "labeledImageUrl": "/images/anatomy/gi_wall_peritoneum_labeled.svg",
+    "imageCaption": "Four Histological Layers of the Gastrointestinal Tract Wall — โครงสร้างเนื้อเยื่อผนังทางเดินอาหาร 4 ชั้น และระบบประสาทลำไส้ (ENS)",
+    "imageLabels": [
+      {
+        "pin": "A",
+        "term": "Mucosa (Epithelium & Lamina Propria)",
+        "thaiName": "ชั้นเยื่อเมือกด้านในสุด (ดูดซึมและหลั่งเมือก)",
+        "description": "ตำแหน่ง [A] คือ Mucosa (Epithelium & Lamina Propria) — ชั้นเยื่อเมือกด้านในสุด (ดูดซึมและหลั่งเมือก)"
+      },
+      {
+        "pin": "B",
+        "term": "Muscularis Mucosae",
+        "thaiName": "กล้ามเนื้อเรียบบางๆ แยก Mucosa กับ Submucosa",
+        "description": "ตำแหน่ง [B] คือ Muscularis Mucosae — กล้ามเนื้อเรียบบางๆ แยก Mucosa กับ Submucosa"
+      },
+      {
+        "pin": "C",
+        "term": "Submucosa & Meissner's Plexus",
+        "thaiName": "ชั้นใต้เยื่อเมือกและร่างแหประสาทควบคุมการหลั่งสาร",
+        "description": "ตำแหน่ง [C] คือ Submucosa & Meissner's Plexus — ชั้นใต้เยื่อเมือกและร่างแหประสาทควบคุมการหลั่งสาร"
+      },
+      {
+        "pin": "D",
+        "term": "Muscularis Externa (Inner Circular)",
+        "thaiName": "ชั้นกล้ามเนื้อเรียบวงใน (หดตัวบีบรูดลูเมน)",
+        "description": "ตำแหน่ง [D] คือ Muscularis Externa (Inner Circular) — ชั้นกล้ามเนื้อเรียบวงใน (หดตัวบีบรูดลูเมน)"
+      },
+      {
+        "pin": "E",
+        "term": "Myenteric (Auerbach's) Plexus",
+        "thaiName": "ร่างแหประสาทคั่นระหว่างกล้ามเนื้อ 2 ชั้น ควบคุม Peristalsis",
+        "description": "ตำแหน่ง [E] คือ Myenteric (Auerbach's) Plexus — ร่างแหประสาทคั่นระหว่างกล้ามเนื้อ 2 ชั้น ควบคุม Peristalsis"
+      },
+      {
+        "pin": "F",
+        "term": "Serosa (Visceral Peritoneum) / Adventitia",
+        "thaiName": "ผนังชั้นนอกสุดห่อหุ้มทางเดินอาหาร",
+        "description": "ตำแหน่ง [F] คือ Serosa (Visceral Peritoneum) / Adventitia — ผนังชั้นนอกสุดห่อหุ้มทางเดินอาหาร"
+      }
+    ]
   },
   {
     "id": "DIGEST-002",
-    "questionText": "ชั้นเยื่อเมือก (Mucosa) ของระบบทางเดินอาหารประกอบด้วยชั้นย่อย 3 ชั้นเรียงจากด้านในสุดออกสู่ด้านนอกข้อใดถูกต้อง?",
+    "questionText": "[🖼️ ข้อสอบวิเคราะห์ภาพประกอบกายวิภาค — พิจารณาแผนภาพและจุดชี้ตำแหน่ง [A]–[F] โดยเฉพาะบริเวณตำแหน่ง [B]] ชั้นเยื่อเมือก (Mucosa) ของระบบทางเดินอาหารประกอบด้วยชั้นย่อย 3 ชั้นเรียงจากด้านในสุดออกสู่ด้านนอกข้อใดถูกต้อง?",
     "options": {
       "A": "Lamina propria -> Epithelium -> Muscularis mucosae",
       "B": "Epithelium -> Lamina propria -> Muscularis mucosae",
@@ -36,7 +79,7 @@ export const digestiveQuestions: Question[] = [
       "D": "Epithelium -> Submucosa -> Muscularis externa"
     },
     "correctOption": "B",
-    "explanation": "ชั้น Mucosa ประกอบด้วย 3 ชั้นย่อย: 1. Epithelium (สัมผัสอาหาร ทำหน้าที่ดูดซึมและหลั่งเมือก) 2. Lamina propria (เนื้อเยื่อเกี่ยวพันหลวม มีหลอดเลือดฝอยและ MALT) 3. Muscularis mucosae (ชั้นกล้ามเนื้อเรียบบางๆ ช่วยขยับรอยพับของเยื่อเมือก)",
+    "explanation": "ชั้น Mucosa ประกอบด้วย 3 ชั้นย่อย: 1. Epithelium (สัมผัสอาหาร ทำหน้าที่ดูดซึมและหลั่งเมือก) 2. Lamina propria (เนื้อเยื่อเกี่ยวพันหลวม มีหลอดเลือดฝอยและ MALT) 3. Muscularis mucosae (ชั้นกล้ามเนื้อเรียบบางๆ ช่วยขยับรอยพับของเยื่อเมือก)\n\n📌 สรุปจุดชี้ตำแหน่งในภาพประกอบ (Four Histological Layers of the Gastrointestinal Tract Wall): จุดที่เกี่ยวข้องโดยตรงกับข้อนี้คือตำแหน่ง [B] (Muscularis Mucosae — กล้ามเนื้อเรียบบางๆ แยก Mucosa กับ Submucosa) สามารถกดสลับดู \"ภาพเฉลยครบทุกจุด (Master Labeled Diagram)\" ด้านบนเพื่อทบทวนตำแหน่ง [A] ถึง [F] ทั้งหมดได้ทันที",
     "system": "Digestive System",
     "topic": "Histological Structure of the Digestive Tract",
     "difficulty": "Medium",
@@ -45,15 +88,58 @@ export const digestiveQuestions: Question[] = [
     "tags": [
       "mucosa",
       "lamina-propria",
-      "muscularis-mucosae"
+      "muscularis-mucosae",
+      "has-diagram",
+      "diagram-gi_wall_peritoneum"
     ],
     "createdAt": "2026-10-24",
     "updatedAt": "2026-10-24",
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "imageUrl": "/images/anatomy/gi_wall_peritoneum_exam.svg",
+    "labeledImageUrl": "/images/anatomy/gi_wall_peritoneum_labeled.svg",
+    "imageCaption": "Four Histological Layers of the Gastrointestinal Tract Wall — โครงสร้างเนื้อเยื่อผนังทางเดินอาหาร 4 ชั้น และระบบประสาทลำไส้ (ENS)",
+    "imageLabels": [
+      {
+        "pin": "A",
+        "term": "Mucosa (Epithelium & Lamina Propria)",
+        "thaiName": "ชั้นเยื่อเมือกด้านในสุด (ดูดซึมและหลั่งเมือก)",
+        "description": "ตำแหน่ง [A] คือ Mucosa (Epithelium & Lamina Propria) — ชั้นเยื่อเมือกด้านในสุด (ดูดซึมและหลั่งเมือก)"
+      },
+      {
+        "pin": "B",
+        "term": "Muscularis Mucosae",
+        "thaiName": "กล้ามเนื้อเรียบบางๆ แยก Mucosa กับ Submucosa",
+        "description": "ตำแหน่ง [B] คือ Muscularis Mucosae — กล้ามเนื้อเรียบบางๆ แยก Mucosa กับ Submucosa"
+      },
+      {
+        "pin": "C",
+        "term": "Submucosa & Meissner's Plexus",
+        "thaiName": "ชั้นใต้เยื่อเมือกและร่างแหประสาทควบคุมการหลั่งสาร",
+        "description": "ตำแหน่ง [C] คือ Submucosa & Meissner's Plexus — ชั้นใต้เยื่อเมือกและร่างแหประสาทควบคุมการหลั่งสาร"
+      },
+      {
+        "pin": "D",
+        "term": "Muscularis Externa (Inner Circular)",
+        "thaiName": "ชั้นกล้ามเนื้อเรียบวงใน (หดตัวบีบรูดลูเมน)",
+        "description": "ตำแหน่ง [D] คือ Muscularis Externa (Inner Circular) — ชั้นกล้ามเนื้อเรียบวงใน (หดตัวบีบรูดลูเมน)"
+      },
+      {
+        "pin": "E",
+        "term": "Myenteric (Auerbach's) Plexus",
+        "thaiName": "ร่างแหประสาทคั่นระหว่างกล้ามเนื้อ 2 ชั้น ควบคุม Peristalsis",
+        "description": "ตำแหน่ง [E] คือ Myenteric (Auerbach's) Plexus — ร่างแหประสาทคั่นระหว่างกล้ามเนื้อ 2 ชั้น ควบคุม Peristalsis"
+      },
+      {
+        "pin": "F",
+        "term": "Serosa (Visceral Peritoneum) / Adventitia",
+        "thaiName": "ผนังชั้นนอกสุดห่อหุ้มทางเดินอาหาร",
+        "description": "ตำแหน่ง [F] คือ Serosa (Visceral Peritoneum) / Adventitia — ผนังชั้นนอกสุดห่อหุ้มทางเดินอาหาร"
+      }
+    ]
   },
   {
     "id": "DIGEST-003",
-    "questionText": "ในผู้ป่วยโรค Hirschsprung's disease ทารกแรกเกิดไม่สามารถถ่ายขี้เทา (Meconium) ได้เนื่องจากลำไส้ใหญ่ส่วนปลายขาดเซลล์ปมประสาท (Aganglionosis) ร่างแหประสาท Myenteric plexus (Auerbach's plexus) ซึ่งทำหน้าที่ควบคุม Peristalsis ตามปกติจะแทรกตัวอยู่ระหว่างชั้นเนื้อเยื่อใด?",
+    "questionText": "[🖼️ ข้อสอบวิเคราะห์ภาพประกอบกายวิภาค — พิจารณาแผนภาพและจุดชี้ตำแหน่ง [A]–[F] โดยเฉพาะบริเวณตำแหน่ง [C]] ในผู้ป่วยโรค Hirschsprung's disease ทารกแรกเกิดไม่สามารถถ่ายขี้เทา (Meconium) ได้เนื่องจากลำไส้ใหญ่ส่วนปลายขาดเซลล์ปมประสาท (Aganglionosis) ร่างแหประสาท Myenteric plexus (Auerbach's plexus) ซึ่งทำหน้าที่ควบคุม Peristalsis ตามปกติจะแทรกตัวอยู่ระหว่างชั้นเนื้อเยื่อใด?",
     "options": {
       "A": "แทรกอยู่ใต้ชั้น Serosa",
       "B": "แทรกอยู่ระหว่างชั้น Mucosa กับชั้น Submucosa",
@@ -61,7 +147,7 @@ export const digestiveQuestions: Question[] = [
       "D": "แทรกอยู่ภายในชั้น Lamina propria"
     },
     "correctOption": "C",
-    "explanation": "Myenteric (Auerbach's) plexus เป็นส่วนหนึ่งของ Enteric Nervous System ตั้งอยู่ระหว่างชั้น Inner circular และ Outer longitudinal muscle layers ของชั้น Muscularis externa ทำหน้าที่ควบคุมการเคลื่อนไหว (Motility) เช่น Peristalsis และ Segmentation หากขาดเซลล์ประสาทนี้ (Hirschsprung's disease) ลำไส้จะไม่คลายตัวและเกิดลำไส้อุดตัน",
+    "explanation": "Myenteric (Auerbach's) plexus เป็นส่วนหนึ่งของ Enteric Nervous System ตั้งอยู่ระหว่างชั้น Inner circular และ Outer longitudinal muscle layers ของชั้น Muscularis externa ทำหน้าที่ควบคุมการเคลื่อนไหว (Motility) เช่น Peristalsis และ Segmentation หากขาดเซลล์ประสาทนี้ (Hirschsprung's disease) ลำไส้จะไม่คลายตัวและเกิดลำไส้อุดตัน\n\n📌 สรุปจุดชี้ตำแหน่งในภาพประกอบ (Four Histological Layers of the Gastrointestinal Tract Wall): จุดที่เกี่ยวข้องโดยตรงกับข้อนี้คือตำแหน่ง [C] (Submucosa & Meissner's Plexus — ชั้นใต้เยื่อเมือกและร่างแหประสาทควบคุมการหลั่งสาร) สามารถกดสลับดู \"ภาพเฉลยครบทุกจุด (Master Labeled Diagram)\" ด้านบนเพื่อทบทวนตำแหน่ง [A] ถึง [F] ทั้งหมดได้ทันที",
     "system": "Digestive System",
     "topic": "Histological Structure of the Digestive Tract",
     "difficulty": "Hard",
@@ -71,15 +157,58 @@ export const digestiveQuestions: Question[] = [
       "myenteric-plexus",
       "auerbachs-plexus",
       "hirschsprungs-disease",
-      "muscularis-externa"
+      "muscularis-externa",
+      "has-diagram",
+      "diagram-gi_wall_peritoneum"
     ],
     "createdAt": "2026-10-24",
     "updatedAt": "2026-10-24",
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "imageUrl": "/images/anatomy/gi_wall_peritoneum_exam.svg",
+    "labeledImageUrl": "/images/anatomy/gi_wall_peritoneum_labeled.svg",
+    "imageCaption": "Four Histological Layers of the Gastrointestinal Tract Wall — โครงสร้างเนื้อเยื่อผนังทางเดินอาหาร 4 ชั้น และระบบประสาทลำไส้ (ENS)",
+    "imageLabels": [
+      {
+        "pin": "A",
+        "term": "Mucosa (Epithelium & Lamina Propria)",
+        "thaiName": "ชั้นเยื่อเมือกด้านในสุด (ดูดซึมและหลั่งเมือก)",
+        "description": "ตำแหน่ง [A] คือ Mucosa (Epithelium & Lamina Propria) — ชั้นเยื่อเมือกด้านในสุด (ดูดซึมและหลั่งเมือก)"
+      },
+      {
+        "pin": "B",
+        "term": "Muscularis Mucosae",
+        "thaiName": "กล้ามเนื้อเรียบบางๆ แยก Mucosa กับ Submucosa",
+        "description": "ตำแหน่ง [B] คือ Muscularis Mucosae — กล้ามเนื้อเรียบบางๆ แยก Mucosa กับ Submucosa"
+      },
+      {
+        "pin": "C",
+        "term": "Submucosa & Meissner's Plexus",
+        "thaiName": "ชั้นใต้เยื่อเมือกและร่างแหประสาทควบคุมการหลั่งสาร",
+        "description": "ตำแหน่ง [C] คือ Submucosa & Meissner's Plexus — ชั้นใต้เยื่อเมือกและร่างแหประสาทควบคุมการหลั่งสาร"
+      },
+      {
+        "pin": "D",
+        "term": "Muscularis Externa (Inner Circular)",
+        "thaiName": "ชั้นกล้ามเนื้อเรียบวงใน (หดตัวบีบรูดลูเมน)",
+        "description": "ตำแหน่ง [D] คือ Muscularis Externa (Inner Circular) — ชั้นกล้ามเนื้อเรียบวงใน (หดตัวบีบรูดลูเมน)"
+      },
+      {
+        "pin": "E",
+        "term": "Myenteric (Auerbach's) Plexus",
+        "thaiName": "ร่างแหประสาทคั่นระหว่างกล้ามเนื้อ 2 ชั้น ควบคุม Peristalsis",
+        "description": "ตำแหน่ง [E] คือ Myenteric (Auerbach's) Plexus — ร่างแหประสาทคั่นระหว่างกล้ามเนื้อ 2 ชั้น ควบคุม Peristalsis"
+      },
+      {
+        "pin": "F",
+        "term": "Serosa (Visceral Peritoneum) / Adventitia",
+        "thaiName": "ผนังชั้นนอกสุดห่อหุ้มทางเดินอาหาร",
+        "description": "ตำแหน่ง [F] คือ Serosa (Visceral Peritoneum) / Adventitia — ผนังชั้นนอกสุดห่อหุ้มทางเดินอาหาร"
+      }
+    ]
   },
   {
     "id": "DIGEST-004",
-    "questionText": "เยื่อบุผิว (Epithelium) ของระบบทางเดินอาหารมีการเปลี่ยนแปลงชนิดของเนื้อเยื่อตามหน้าที่ของแต่ละส่วน ข้อใดจับคู่ระหว่างอวัยวะกับชนิดของเนื้อเยื่อบุผิวได้ถูกต้องและแม่นยำที่สุด?",
+    "questionText": "[🖼️ ข้อสอบวิเคราะห์ภาพประกอบกายวิภาค — พิจารณาแผนภาพและจุดชี้ตำแหน่ง [A]–[F] โดยเฉพาะบริเวณตำแหน่ง [E]] เยื่อบุผิว (Epithelium) ของระบบทางเดินอาหารมีการเปลี่ยนแปลงชนิดของเนื้อเยื่อตามหน้าที่ของแต่ละส่วน ข้อใดจับคู่ระหว่างอวัยวะกับชนิดของเนื้อเยื่อบุผิวได้ถูกต้องและแม่นยำที่สุด?",
     "options": {
       "A": "ลำไส้ใหญ่: Stratified cuboidal epithelium; ทวารหนัก: Simple squamous epithelium",
       "B": "หลอดอาหาร: Simple columnar epithelium; ลำไส้เล็ก: Stratified squamous epithelium",
@@ -87,7 +216,7 @@ export const digestiveQuestions: Question[] = [
       "D": "หลอดอาหาร (Esophagus): Non-keratinized stratified squamous epithelium; กระเพาะอาหารและลำไส้เล็ก: Simple columnar epithelium"
     },
     "correctOption": "D",
-    "explanation": "ส่วนที่ต้องทนต่อแรงเสียดทานจากการกลืนอาหาร (ช่องปาก คอหอย และหลอดอาหาร) จะบุด้วย Non-keratinized stratified squamous epithelium เพื่อป้องกันการสึกหรอ ส่วนที่มีการหลั่งน้ำย่อยและดูดซึมสารอาหาร (กระเพาะอาหาร ลำไส้เล็ก และลำไส้ใหญ่) จะเปลี่ยนเป็น Simple columnar epithelium พร้อมด้วย Goblet cells และ Microvilli",
+    "explanation": "ส่วนที่ต้องทนต่อแรงเสียดทานจากการกลืนอาหาร (ช่องปาก คอหอย และหลอดอาหาร) จะบุด้วย Non-keratinized stratified squamous epithelium เพื่อป้องกันการสึกหรอ ส่วนที่มีการหลั่งน้ำย่อยและดูดซึมสารอาหาร (กระเพาะอาหาร ลำไส้เล็ก และลำไส้ใหญ่) จะเปลี่ยนเป็น Simple columnar epithelium พร้อมด้วย Goblet cells และ Microvilli\n\n📌 สรุปจุดชี้ตำแหน่งในภาพประกอบ (Four Histological Layers of the Gastrointestinal Tract Wall): จุดที่เกี่ยวข้องโดยตรงกับข้อนี้คือตำแหน่ง [E] (Myenteric (Auerbach's) Plexus — ร่างแหประสาทคั่นระหว่างกล้ามเนื้อ 2 ชั้น ควบคุม Peristalsis) สามารถกดสลับดู \"ภาพเฉลยครบทุกจุด (Master Labeled Diagram)\" ด้านบนเพื่อทบทวนตำแหน่ง [A] ถึง [F] ทั้งหมดได้ทันที",
     "system": "Digestive System",
     "topic": "Histological Structure of the Digestive Tract",
     "difficulty": "Medium",
@@ -96,15 +225,58 @@ export const digestiveQuestions: Question[] = [
     "tags": [
       "gi-epithelium",
       "stratified-squamous",
-      "simple-columnar"
+      "simple-columnar",
+      "has-diagram",
+      "diagram-gi_wall_peritoneum"
     ],
     "createdAt": "2026-10-24",
     "updatedAt": "2026-10-24",
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "imageUrl": "/images/anatomy/gi_wall_peritoneum_exam.svg",
+    "labeledImageUrl": "/images/anatomy/gi_wall_peritoneum_labeled.svg",
+    "imageCaption": "Four Histological Layers of the Gastrointestinal Tract Wall — โครงสร้างเนื้อเยื่อผนังทางเดินอาหาร 4 ชั้น และระบบประสาทลำไส้ (ENS)",
+    "imageLabels": [
+      {
+        "pin": "A",
+        "term": "Mucosa (Epithelium & Lamina Propria)",
+        "thaiName": "ชั้นเยื่อเมือกด้านในสุด (ดูดซึมและหลั่งเมือก)",
+        "description": "ตำแหน่ง [A] คือ Mucosa (Epithelium & Lamina Propria) — ชั้นเยื่อเมือกด้านในสุด (ดูดซึมและหลั่งเมือก)"
+      },
+      {
+        "pin": "B",
+        "term": "Muscularis Mucosae",
+        "thaiName": "กล้ามเนื้อเรียบบางๆ แยก Mucosa กับ Submucosa",
+        "description": "ตำแหน่ง [B] คือ Muscularis Mucosae — กล้ามเนื้อเรียบบางๆ แยก Mucosa กับ Submucosa"
+      },
+      {
+        "pin": "C",
+        "term": "Submucosa & Meissner's Plexus",
+        "thaiName": "ชั้นใต้เยื่อเมือกและร่างแหประสาทควบคุมการหลั่งสาร",
+        "description": "ตำแหน่ง [C] คือ Submucosa & Meissner's Plexus — ชั้นใต้เยื่อเมือกและร่างแหประสาทควบคุมการหลั่งสาร"
+      },
+      {
+        "pin": "D",
+        "term": "Muscularis Externa (Inner Circular)",
+        "thaiName": "ชั้นกล้ามเนื้อเรียบวงใน (หดตัวบีบรูดลูเมน)",
+        "description": "ตำแหน่ง [D] คือ Muscularis Externa (Inner Circular) — ชั้นกล้ามเนื้อเรียบวงใน (หดตัวบีบรูดลูเมน)"
+      },
+      {
+        "pin": "E",
+        "term": "Myenteric (Auerbach's) Plexus",
+        "thaiName": "ร่างแหประสาทคั่นระหว่างกล้ามเนื้อ 2 ชั้น ควบคุม Peristalsis",
+        "description": "ตำแหน่ง [E] คือ Myenteric (Auerbach's) Plexus — ร่างแหประสาทคั่นระหว่างกล้ามเนื้อ 2 ชั้น ควบคุม Peristalsis"
+      },
+      {
+        "pin": "F",
+        "term": "Serosa (Visceral Peritoneum) / Adventitia",
+        "thaiName": "ผนังชั้นนอกสุดห่อหุ้มทางเดินอาหาร",
+        "description": "ตำแหน่ง [F] คือ Serosa (Visceral Peritoneum) / Adventitia — ผนังชั้นนอกสุดห่อหุ้มทางเดินอาหาร"
+      }
+    ]
   },
   {
     "id": "DIGEST-005",
-    "questionText": "อวัยวะในทางเดินอาหารส่วนที่อยู่นอกช่องเยื่อบุช่องท้อง (Retroperitoneal organs) เช่น หลอดอาหารและลำไส้ตรงส่วนล่าง จะมีผนังชั้นนอกสุดห่อหุ้มเป็นเนื้อเยื่อชนิดใดที่แตกต่างจากกระเพาะอาหาร?",
+    "questionText": "[🖼️ ข้อสอบวิเคราะห์ภาพประกอบกายวิภาค — พิจารณาแผนภาพและจุดชี้ตำแหน่ง [A]–[F] โดยเฉพาะบริเวณตำแหน่ง [F]] อวัยวะในทางเดินอาหารส่วนที่อยู่นอกช่องเยื่อบุช่องท้อง (Retroperitoneal organs) เช่น หลอดอาหารและลำไส้ตรงส่วนล่าง จะมีผนังชั้นนอกสุดห่อหุ้มเป็นเนื้อเยื่อชนิดใดที่แตกต่างจากกระเพาะอาหาร?",
     "options": {
       "A": "Adventitia ซึ่งเป็นเนื้อเยื่อเกี่ยวพันชนิด Areolar connective tissue ที่ไม่มี Mesothelium บุผิวด้านนอก",
       "B": "Serosa ซึ่งมีชั้น Mesothelium ชัดเจน",
@@ -112,7 +284,7 @@ export const digestiveQuestions: Question[] = [
       "D": "Dense regular tendon"
     },
     "correctOption": "A",
-    "explanation": "อวัยวะ Intraperitoneal จะมีผนังชั้นนอกสุดเป็น Serosa (ประกอบด้วยเนื้อเยื่อเกี่ยวพันบางๆ คลุมด้วย Simple squamous mesothelium หรือ Visceral peritoneum) ส่วนอวัยวะ Retroperitoneal หรือนอกช่องท้อง (เช่น หลอดอาหาร ลำไส้ตรงส่วนล่าง) ผนังจะยึดติดกับเนื้อเยื่อข้างเคียงด้วยชั้น Adventitia (ไม่มี Mesothelium)",
+    "explanation": "อวัยวะ Intraperitoneal จะมีผนังชั้นนอกสุดเป็น Serosa (ประกอบด้วยเนื้อเยื่อเกี่ยวพันบางๆ คลุมด้วย Simple squamous mesothelium หรือ Visceral peritoneum) ส่วนอวัยวะ Retroperitoneal หรือนอกช่องท้อง (เช่น หลอดอาหาร ลำไส้ตรงส่วนล่าง) ผนังจะยึดติดกับเนื้อเยื่อข้างเคียงด้วยชั้น Adventitia (ไม่มี Mesothelium)\n\n📌 สรุปจุดชี้ตำแหน่งในภาพประกอบ (Four Histological Layers of the Gastrointestinal Tract Wall): จุดที่เกี่ยวข้องโดยตรงกับข้อนี้คือตำแหน่ง [F] (Serosa (Visceral Peritoneum) / Adventitia — ผนังชั้นนอกสุดห่อหุ้มทางเดินอาหาร) สามารถกดสลับดู \"ภาพเฉลยครบทุกจุด (Master Labeled Diagram)\" ด้านบนเพื่อทบทวนตำแหน่ง [A] ถึง [F] ทั้งหมดได้ทันที",
     "system": "Digestive System",
     "topic": "Histological Structure of the Digestive Tract",
     "difficulty": "Hard",
@@ -120,15 +292,58 @@ export const digestiveQuestions: Question[] = [
     "sourcePage": 14,
     "tags": [
       "serosa-vs-adventitia",
-      "retroperitoneal-histology"
+      "retroperitoneal-histology",
+      "has-diagram",
+      "diagram-gi_wall_peritoneum"
     ],
     "createdAt": "2026-10-24",
     "updatedAt": "2026-10-24",
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "imageUrl": "/images/anatomy/gi_wall_peritoneum_exam.svg",
+    "labeledImageUrl": "/images/anatomy/gi_wall_peritoneum_labeled.svg",
+    "imageCaption": "Four Histological Layers of the Gastrointestinal Tract Wall — โครงสร้างเนื้อเยื่อผนังทางเดินอาหาร 4 ชั้น และระบบประสาทลำไส้ (ENS)",
+    "imageLabels": [
+      {
+        "pin": "A",
+        "term": "Mucosa (Epithelium & Lamina Propria)",
+        "thaiName": "ชั้นเยื่อเมือกด้านในสุด (ดูดซึมและหลั่งเมือก)",
+        "description": "ตำแหน่ง [A] คือ Mucosa (Epithelium & Lamina Propria) — ชั้นเยื่อเมือกด้านในสุด (ดูดซึมและหลั่งเมือก)"
+      },
+      {
+        "pin": "B",
+        "term": "Muscularis Mucosae",
+        "thaiName": "กล้ามเนื้อเรียบบางๆ แยก Mucosa กับ Submucosa",
+        "description": "ตำแหน่ง [B] คือ Muscularis Mucosae — กล้ามเนื้อเรียบบางๆ แยก Mucosa กับ Submucosa"
+      },
+      {
+        "pin": "C",
+        "term": "Submucosa & Meissner's Plexus",
+        "thaiName": "ชั้นใต้เยื่อเมือกและร่างแหประสาทควบคุมการหลั่งสาร",
+        "description": "ตำแหน่ง [C] คือ Submucosa & Meissner's Plexus — ชั้นใต้เยื่อเมือกและร่างแหประสาทควบคุมการหลั่งสาร"
+      },
+      {
+        "pin": "D",
+        "term": "Muscularis Externa (Inner Circular)",
+        "thaiName": "ชั้นกล้ามเนื้อเรียบวงใน (หดตัวบีบรูดลูเมน)",
+        "description": "ตำแหน่ง [D] คือ Muscularis Externa (Inner Circular) — ชั้นกล้ามเนื้อเรียบวงใน (หดตัวบีบรูดลูเมน)"
+      },
+      {
+        "pin": "E",
+        "term": "Myenteric (Auerbach's) Plexus",
+        "thaiName": "ร่างแหประสาทคั่นระหว่างกล้ามเนื้อ 2 ชั้น ควบคุม Peristalsis",
+        "description": "ตำแหน่ง [E] คือ Myenteric (Auerbach's) Plexus — ร่างแหประสาทคั่นระหว่างกล้ามเนื้อ 2 ชั้น ควบคุม Peristalsis"
+      },
+      {
+        "pin": "F",
+        "term": "Serosa (Visceral Peritoneum) / Adventitia",
+        "thaiName": "ผนังชั้นนอกสุดห่อหุ้มทางเดินอาหาร",
+        "description": "ตำแหน่ง [F] คือ Serosa (Visceral Peritoneum) / Adventitia — ผนังชั้นนอกสุดห่อหุ้มทางเดินอาหาร"
+      }
+    ]
   },
   {
     "id": "DIGEST-006",
-    "questionText": "แผ่นเยื่อบุช่องท้องขนาดใหญ่ที่มีลักษณะเป็นถุงพับสองชั้น ห้อยย้อยลงมาจากขอบโค้งใหญ่ของกระเพาะอาหาร (Greater curvature) คลุมทับลำไส้เล็กคล้ายผ้ากันเปื้อน บรรจุไขมันและหลอดเลือดจำนวนมาก มีชื่อเรียกว่าอะไร?",
+    "questionText": "[🖼️ ข้อสอบวิเคราะห์ภาพประกอบกายวิภาค — พิจารณาแผนภาพและจุดชี้ตำแหน่ง [A]–[F] โดยเฉพาะบริเวณตำแหน่ง [F]] แผ่นเยื่อบุช่องท้องขนาดใหญ่ที่มีลักษณะเป็นถุงพับสองชั้น ห้อยย้อยลงมาจากขอบโค้งใหญ่ของกระเพาะอาหาร (Greater curvature) คลุมทับลำไส้เล็กคล้ายผ้ากันเปื้อน บรรจุไขมันและหลอดเลือดจำนวนมาก มีชื่อเรียกว่าอะไร?",
     "options": {
       "A": "Lesser Omentum",
       "B": "Greater Omentum (โอเมนตัมใหญ่ หรือฉายา \"Policeman of the abdomen\")",
@@ -136,7 +351,7 @@ export const digestiveQuestions: Question[] = [
       "D": "Falciform ligament"
     },
     "correctOption": "B",
-    "explanation": "Greater omentum ห้อยย้อยลงมาจาก Greater curvature ของกระเพาะอาหารลงมาคลุมลำไส้เล็ก แล้ววกกลับขึ้นไปยึดกับ Transverse colon อุดมด้วยไขมันและ Macrophages ทำหน้าที่ห่อหุ้มบริเวณที่มีการติดเชื้อหรือทะลุในช่องท้องเพื่อจำกัดการแพร่กระจาย จึงได้ฉายาว่า \"Policeman of the abdomen\"",
+    "explanation": "Greater omentum ห้อยย้อยลงมาจาก Greater curvature ของกระเพาะอาหารลงมาคลุมลำไส้เล็ก แล้ววกกลับขึ้นไปยึดกับ Transverse colon อุดมด้วยไขมันและ Macrophages ทำหน้าที่ห่อหุ้มบริเวณที่มีการติดเชื้อหรือทะลุในช่องท้องเพื่อจำกัดการแพร่กระจาย จึงได้ฉายาว่า \"Policeman of the abdomen\"\n\n📌 สรุปจุดชี้ตำแหน่งในภาพประกอบ (Four Histological Layers of the Gastrointestinal Tract Wall): จุดที่เกี่ยวข้องโดยตรงกับข้อนี้คือตำแหน่ง [F] (Serosa (Visceral Peritoneum) / Adventitia — ผนังชั้นนอกสุดห่อหุ้มทางเดินอาหาร) สามารถกดสลับดู \"ภาพเฉลยครบทุกจุด (Master Labeled Diagram)\" ด้านบนเพื่อทบทวนตำแหน่ง [A] ถึง [F] ทั้งหมดได้ทันที",
     "system": "Digestive System",
     "topic": "Peritoneum & Related Structures",
     "difficulty": "Medium",
@@ -145,11 +360,54 @@ export const digestiveQuestions: Question[] = [
     "tags": [
       "greater-omentum",
       "policeman-of-abdomen",
-      "peritoneum"
+      "peritoneum",
+      "has-diagram",
+      "diagram-gi_wall_peritoneum"
     ],
     "createdAt": "2026-10-24",
     "updatedAt": "2026-10-24",
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "imageUrl": "/images/anatomy/gi_wall_peritoneum_exam.svg",
+    "labeledImageUrl": "/images/anatomy/gi_wall_peritoneum_labeled.svg",
+    "imageCaption": "Four Histological Layers of the Gastrointestinal Tract Wall — โครงสร้างเนื้อเยื่อผนังทางเดินอาหาร 4 ชั้น และระบบประสาทลำไส้ (ENS)",
+    "imageLabels": [
+      {
+        "pin": "A",
+        "term": "Mucosa (Epithelium & Lamina Propria)",
+        "thaiName": "ชั้นเยื่อเมือกด้านในสุด (ดูดซึมและหลั่งเมือก)",
+        "description": "ตำแหน่ง [A] คือ Mucosa (Epithelium & Lamina Propria) — ชั้นเยื่อเมือกด้านในสุด (ดูดซึมและหลั่งเมือก)"
+      },
+      {
+        "pin": "B",
+        "term": "Muscularis Mucosae",
+        "thaiName": "กล้ามเนื้อเรียบบางๆ แยก Mucosa กับ Submucosa",
+        "description": "ตำแหน่ง [B] คือ Muscularis Mucosae — กล้ามเนื้อเรียบบางๆ แยก Mucosa กับ Submucosa"
+      },
+      {
+        "pin": "C",
+        "term": "Submucosa & Meissner's Plexus",
+        "thaiName": "ชั้นใต้เยื่อเมือกและร่างแหประสาทควบคุมการหลั่งสาร",
+        "description": "ตำแหน่ง [C] คือ Submucosa & Meissner's Plexus — ชั้นใต้เยื่อเมือกและร่างแหประสาทควบคุมการหลั่งสาร"
+      },
+      {
+        "pin": "D",
+        "term": "Muscularis Externa (Inner Circular)",
+        "thaiName": "ชั้นกล้ามเนื้อเรียบวงใน (หดตัวบีบรูดลูเมน)",
+        "description": "ตำแหน่ง [D] คือ Muscularis Externa (Inner Circular) — ชั้นกล้ามเนื้อเรียบวงใน (หดตัวบีบรูดลูเมน)"
+      },
+      {
+        "pin": "E",
+        "term": "Myenteric (Auerbach's) Plexus",
+        "thaiName": "ร่างแหประสาทคั่นระหว่างกล้ามเนื้อ 2 ชั้น ควบคุม Peristalsis",
+        "description": "ตำแหน่ง [E] คือ Myenteric (Auerbach's) Plexus — ร่างแหประสาทคั่นระหว่างกล้ามเนื้อ 2 ชั้น ควบคุม Peristalsis"
+      },
+      {
+        "pin": "F",
+        "term": "Serosa (Visceral Peritoneum) / Adventitia",
+        "thaiName": "ผนังชั้นนอกสุดห่อหุ้มทางเดินอาหาร",
+        "description": "ตำแหน่ง [F] คือ Serosa (Visceral Peritoneum) / Adventitia — ผนังชั้นนอกสุดห่อหุ้มทางเดินอาหาร"
+      }
+    ]
   },
   {
     "id": "DIGEST-007",
@@ -255,7 +513,7 @@ export const digestiveQuestions: Question[] = [
   },
   {
     "id": "DIGEST-011",
-    "questionText": "ต่อมน้ำลายขนาดใหญ่ที่สุดในร่างกายคือต่อมใด ตั้งอยู่บริเวณใด และท่อน้ำลายของต่อมนี้เจาะเปิดเข้าสู่ช่องปากที่ตำแหน่งใด?",
+    "questionText": "[🖼️ ข้อสอบวิเคราะห์ภาพประกอบกายวิภาค — พิจารณาแผนภาพและจุดชี้ตำแหน่ง [A]–[F] โดยเฉพาะบริเวณตำแหน่ง [F]] ต่อมน้ำลายขนาดใหญ่ที่สุดในร่างกายคือต่อมใด ตั้งอยู่บริเวณใด และท่อน้ำลายของต่อมนี้เจาะเปิดเข้าสู่ช่องปากที่ตำแหน่งใด?",
     "options": {
       "A": "Sublingual gland ท่อ Rivinus เปิดที่พื้นปาก",
       "B": "Submandibular gland ท่อ Wharton's duct เปิดใต้โคนลิ้น",
@@ -263,7 +521,7 @@ export const digestiveQuestions: Question[] = [
       "D": "Von Ebner's gland เปิดที่ร่อง Circumvallate papillae"
     },
     "correctOption": "C",
-    "explanation": "Parotid gland เป็นต่อมน้ำลายขนาดใหญ่ที่สุด ตั้งอยู่หน้าและใต้รูหู (หุ้มด้วย Parotid fascia) หลั่งน้ำลายชนิดใส (Pure serous) มีท่อน้ำลาย Parotid duct (Stensen's duct) ทอดข้ามกล้ามเนื้อ Masseter เจาะผ่าน Buccinator ไปเปิดที่กระพุ้งแก้มตรงข้ามฟันกรามบนซี่ที่ 2",
+    "explanation": "Parotid gland เป็นต่อมน้ำลายขนาดใหญ่ที่สุด ตั้งอยู่หน้าและใต้รูหู (หุ้มด้วย Parotid fascia) หลั่งน้ำลายชนิดใส (Pure serous) มีท่อน้ำลาย Parotid duct (Stensen's duct) ทอดข้ามกล้ามเนื้อ Masseter เจาะผ่าน Buccinator ไปเปิดที่กระพุ้งแก้มตรงข้ามฟันกรามบนซี่ที่ 2\n\n📌 สรุปจุดชี้ตำแหน่งในภาพประกอบ (Major Salivary Glands & Dorsal Surface of the Tongue): จุดที่เกี่ยวข้องโดยตรงกับข้อนี้คือตำแหน่ง [F] (Anterior 2/3 Tongue (Filiform/Fungiform) — ลิ้น 2/3 ส่วนหน้า (Filiform มากสุดไม่มีตุ่มรับรส / รับรสด้วย CN VII)) สามารถกดสลับดู \"ภาพเฉลยครบทุกจุด (Master Labeled Diagram)\" ด้านบนเพื่อทบทวนตำแหน่ง [A] ถึง [F] ทั้งหมดได้ทันที",
     "system": "Digestive System",
     "topic": "Mouth, Tongue & Salivary Glands",
     "difficulty": "Hard",
@@ -272,15 +530,58 @@ export const digestiveQuestions: Question[] = [
     "tags": [
       "parotid-gland",
       "stensens-duct",
-      "upper-2nd-molar"
+      "upper-2nd-molar",
+      "has-diagram",
+      "diagram-oral_salivary_esophagus"
     ],
     "createdAt": "2026-10-24",
     "updatedAt": "2026-10-24",
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "imageUrl": "/images/anatomy/oral_salivary_esophagus_exam.svg",
+    "labeledImageUrl": "/images/anatomy/oral_salivary_esophagus_labeled.svg",
+    "imageCaption": "Major Salivary Glands & Dorsal Surface of the Tongue — ต่อมน้ำลายหลัก 3 คู่ (Parotid, Submandibular, Sublingual) และปุ่มลิ้น",
+    "imageLabels": [
+      {
+        "pin": "A",
+        "term": "Parotid Gland & Stensen's Duct",
+        "thaiName": "ต่อมน้ำลายพารอติด (ใหญ่สุด ผลิตน้ำลายใส เปิดตรงข้ามกรามบนซี่ 2)",
+        "description": "ตำแหน่ง [A] คือ Parotid Gland & Stensen's Duct — ต่อมน้ำลายพารอติด (ใหญ่สุด ผลิตน้ำลายใส เปิดตรงข้ามกรามบนซี่ 2)"
+      },
+      {
+        "pin": "B",
+        "term": "Submandibular Gland & Wharton's Duct",
+        "thaiName": "ต่อมน้ำลายใต้ขากรรไกร (ผลิตน้ำลาย 70% เปิดใต้โคนลิ้น)",
+        "description": "ตำแหน่ง [B] คือ Submandibular Gland & Wharton's Duct — ต่อมน้ำลายใต้ขากรรไกร (ผลิตน้ำลาย 70% เปิดใต้โคนลิ้น)"
+      },
+      {
+        "pin": "C",
+        "term": "Sublingual Gland (Ducts of Rivinus)",
+        "thaiName": "ต่อมน้ำลายใต้ลิ้น (เล็กสุด ผลิตน้ำลายเมือกข้น)",
+        "description": "ตำแหน่ง [C] คือ Sublingual Gland (Ducts of Rivinus) — ต่อมน้ำลายใต้ลิ้น (เล็กสุด ผลิตน้ำลายเมือกข้น)"
+      },
+      {
+        "pin": "D",
+        "term": "Circumvallate Papillae (Von Ebner's glands)",
+        "thaiName": "ปุ่มลิ้นขนาดใหญ่เรียงรูปตัว V หน้า Sulcus terminalis",
+        "description": "ตำแหน่ง [D] คือ Circumvallate Papillae (Von Ebner's glands) — ปุ่มลิ้นขนาดใหญ่เรียงรูปตัว V หน้า Sulcus terminalis"
+      },
+      {
+        "pin": "E",
+        "term": "Sulcus Terminalis & Foramen Cecum",
+        "thaiName": "ร่องตัว V แบ่งลิ้นส่วนหน้า 2/3 กับส่วนหลัง 1/3",
+        "description": "ตำแหน่ง [E] คือ Sulcus Terminalis & Foramen Cecum — ร่องตัว V แบ่งลิ้นส่วนหน้า 2/3 กับส่วนหลัง 1/3"
+      },
+      {
+        "pin": "F",
+        "term": "Anterior 2/3 Tongue (Filiform/Fungiform)",
+        "thaiName": "ลิ้น 2/3 ส่วนหน้า (Filiform มากสุดไม่มีตุ่มรับรส / รับรสด้วย CN VII)",
+        "description": "ตำแหน่ง [F] คือ Anterior 2/3 Tongue (Filiform/Fungiform) — ลิ้น 2/3 ส่วนหน้า (Filiform มากสุดไม่มีตุ่มรับรส / รับรสด้วย CN VII)"
+      }
+    ]
   },
   {
     "id": "DIGEST-012",
-    "questionText": "ผู้ป่วยเด็กเป็นโรคคางทูม (Mumps) มีการอักเสบและบวมโตของต่อมน้ำลาย Parotid gland ทั้งสองข้าง โครงสร้างทางกายวิภาคที่สำคัญเส้นใดที่ทอดผ่านทะลุเข้าไปในเนื้อของต่อมน้ำลายนี้และอาจเกิดการอักเสบกดทับได้?",
+    "questionText": "[🖼️ ข้อสอบวิเคราะห์ภาพประกอบกายวิภาค — พิจารณาแผนภาพและจุดชี้ตำแหน่ง [A]–[F] โดยเฉพาะบริเวณตำแหน่ง [D]] ผู้ป่วยเด็กเป็นโรคคางทูม (Mumps) มีการอักเสบและบวมโตของต่อมน้ำลาย Parotid gland ทั้งสองข้าง โครงสร้างทางกายวิภาคที่สำคัญเส้นใดที่ทอดผ่านทะลุเข้าไปในเนื้อของต่อมน้ำลายนี้และอาจเกิดการอักเสบกดทับได้?",
     "options": {
       "A": "เส้นประสาท Vagus nerve",
       "B": "เส้นประสาทสมองคู่ที่ 5 (Trigeminal nerve)",
@@ -288,7 +589,7 @@ export const digestiveQuestions: Question[] = [
       "D": "เส้นประสาทสมองคู่ที่ 7 (Facial nerve: CN VII) ซึ่งแตกแขนง 5 แขนงภายในเนื้อต่อม"
     },
     "correctOption": "D",
-    "explanation": "โครงสร้างที่ทอดผ่านเนื้อต่อม Parotid gland จากตื้นไปลึก: 1. Facial nerve (CN VII) ซึ่งแยกเป็น 5 แขนงใหญ่เลี้ยงกล้ามเนื้อใบหน้า (Temporal, Zygomatic, Buccal, Marginal mandibular, Cervical) 2. Retromandibular vein 3. External carotid artery การผ่าตัดต่อมพารอติตจึงต้องระมัดระวังไม่ให้เกิด Facial nerve palsy",
+    "explanation": "โครงสร้างที่ทอดผ่านเนื้อต่อม Parotid gland จากตื้นไปลึก: 1. Facial nerve (CN VII) ซึ่งแยกเป็น 5 แขนงใหญ่เลี้ยงกล้ามเนื้อใบหน้า (Temporal, Zygomatic, Buccal, Marginal mandibular, Cervical) 2. Retromandibular vein 3. External carotid artery การผ่าตัดต่อมพารอติตจึงต้องระมัดระวังไม่ให้เกิด Facial nerve palsy\n\n📌 สรุปจุดชี้ตำแหน่งในภาพประกอบ (Major Salivary Glands & Dorsal Surface of the Tongue): จุดที่เกี่ยวข้องโดยตรงกับข้อนี้คือตำแหน่ง [D] (Circumvallate Papillae (Von Ebner's glands) — ปุ่มลิ้นขนาดใหญ่เรียงรูปตัว V หน้า Sulcus terminalis) สามารถกดสลับดู \"ภาพเฉลยครบทุกจุด (Master Labeled Diagram)\" ด้านบนเพื่อทบทวนตำแหน่ง [A] ถึง [F] ทั้งหมดได้ทันที",
     "system": "Digestive System",
     "topic": "Mouth, Tongue & Salivary Glands",
     "difficulty": "Hard",
@@ -298,11 +599,54 @@ export const digestiveQuestions: Question[] = [
       "parotid-gland",
       "facial-nerve",
       "mumps",
-      "cn-vii"
+      "cn-vii",
+      "has-diagram",
+      "diagram-oral_salivary_esophagus"
     ],
     "createdAt": "2026-10-24",
     "updatedAt": "2026-10-24",
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "imageUrl": "/images/anatomy/oral_salivary_esophagus_exam.svg",
+    "labeledImageUrl": "/images/anatomy/oral_salivary_esophagus_labeled.svg",
+    "imageCaption": "Major Salivary Glands & Dorsal Surface of the Tongue — ต่อมน้ำลายหลัก 3 คู่ (Parotid, Submandibular, Sublingual) และปุ่มลิ้น",
+    "imageLabels": [
+      {
+        "pin": "A",
+        "term": "Parotid Gland & Stensen's Duct",
+        "thaiName": "ต่อมน้ำลายพารอติด (ใหญ่สุด ผลิตน้ำลายใส เปิดตรงข้ามกรามบนซี่ 2)",
+        "description": "ตำแหน่ง [A] คือ Parotid Gland & Stensen's Duct — ต่อมน้ำลายพารอติด (ใหญ่สุด ผลิตน้ำลายใส เปิดตรงข้ามกรามบนซี่ 2)"
+      },
+      {
+        "pin": "B",
+        "term": "Submandibular Gland & Wharton's Duct",
+        "thaiName": "ต่อมน้ำลายใต้ขากรรไกร (ผลิตน้ำลาย 70% เปิดใต้โคนลิ้น)",
+        "description": "ตำแหน่ง [B] คือ Submandibular Gland & Wharton's Duct — ต่อมน้ำลายใต้ขากรรไกร (ผลิตน้ำลาย 70% เปิดใต้โคนลิ้น)"
+      },
+      {
+        "pin": "C",
+        "term": "Sublingual Gland (Ducts of Rivinus)",
+        "thaiName": "ต่อมน้ำลายใต้ลิ้น (เล็กสุด ผลิตน้ำลายเมือกข้น)",
+        "description": "ตำแหน่ง [C] คือ Sublingual Gland (Ducts of Rivinus) — ต่อมน้ำลายใต้ลิ้น (เล็กสุด ผลิตน้ำลายเมือกข้น)"
+      },
+      {
+        "pin": "D",
+        "term": "Circumvallate Papillae (Von Ebner's glands)",
+        "thaiName": "ปุ่มลิ้นขนาดใหญ่เรียงรูปตัว V หน้า Sulcus terminalis",
+        "description": "ตำแหน่ง [D] คือ Circumvallate Papillae (Von Ebner's glands) — ปุ่มลิ้นขนาดใหญ่เรียงรูปตัว V หน้า Sulcus terminalis"
+      },
+      {
+        "pin": "E",
+        "term": "Sulcus Terminalis & Foramen Cecum",
+        "thaiName": "ร่องตัว V แบ่งลิ้นส่วนหน้า 2/3 กับส่วนหลัง 1/3",
+        "description": "ตำแหน่ง [E] คือ Sulcus Terminalis & Foramen Cecum — ร่องตัว V แบ่งลิ้นส่วนหน้า 2/3 กับส่วนหลัง 1/3"
+      },
+      {
+        "pin": "F",
+        "term": "Anterior 2/3 Tongue (Filiform/Fungiform)",
+        "thaiName": "ลิ้น 2/3 ส่วนหน้า (Filiform มากสุดไม่มีตุ่มรับรส / รับรสด้วย CN VII)",
+        "description": "ตำแหน่ง [F] คือ Anterior 2/3 Tongue (Filiform/Fungiform) — ลิ้น 2/3 ส่วนหน้า (Filiform มากสุดไม่มีตุ่มรับรส / รับรสด้วย CN VII)"
+      }
+    ]
   },
   {
     "id": "DIGEST-013",
@@ -331,7 +675,7 @@ export const digestiveQuestions: Question[] = [
   },
   {
     "id": "DIGEST-014",
-    "questionText": "ต่อมน้ำลาย Sublingual gland ตั้งอยู่ใต้เยื่อบุพื้นปากด้านหน้า มีลักษณะทางเนื้อเยื่อและการเปิดของท่อน้ำลายอย่างไร?",
+    "questionText": "[🖼️ ข้อสอบวิเคราะห์ภาพประกอบกายวิภาค — พิจารณาแผนภาพและจุดชี้ตำแหน่ง [A]–[F] โดยเฉพาะบริเวณตำแหน่ง [E]] ต่อมน้ำลาย Sublingual gland ตั้งอยู่ใต้เยื่อบุพื้นปากด้านหน้า มีลักษณะทางเนื้อเยื่อและการเปิดของท่อน้ำลายอย่างไร?",
     "options": {
       "A": "ผลิตน้ำลายใสล้วน ผ่านท่อเดียวขนาดใหญ่ชื่อ Stensen's duct",
       "B": "เป็นต่อมน้ำลายขนาดเล็กที่สุด ผลิตน้ำลายชนิดเมือกเหนียวข้นเป็นหลัก (Predominantly mucous) และเปิดเข้าสู่ใต้ลิ้นผ่านท่อขนาดเล็กจำนวนมากเรียกว่า Ducts of Rivinus",
@@ -339,7 +683,7 @@ export const digestiveQuestions: Question[] = [
       "D": "มีเนื้อเยื่อแบบกล้ามเนื้อลายล้วน"
     },
     "correctOption": "B",
-    "explanation": "Sublingual gland เป็นต่อมน้ำลายหลักที่มีขนาดเล็กที่สุด อยู่ใต้ลิ้นเหนือกล้ามเนื้อ Mylohyoid หลั่งน้ำลายที่มีมิวซินสูงเหนียวข้น (Predominantly mucous) น้ำลายจะเปิดออกสู่พื้นปากผ่านท่อเล็กๆ 8-20 ท่อ เรียกว่า Ducts of Rivinus (และบางส่วนรวมเป็นท่อใหญ่ Bartholin's duct ไปเปิดร่วมกับ Wharton's duct)",
+    "explanation": "Sublingual gland เป็นต่อมน้ำลายหลักที่มีขนาดเล็กที่สุด อยู่ใต้ลิ้นเหนือกล้ามเนื้อ Mylohyoid หลั่งน้ำลายที่มีมิวซินสูงเหนียวข้น (Predominantly mucous) น้ำลายจะเปิดออกสู่พื้นปากผ่านท่อเล็กๆ 8-20 ท่อ เรียกว่า Ducts of Rivinus (และบางส่วนรวมเป็นท่อใหญ่ Bartholin's duct ไปเปิดร่วมกับ Wharton's duct)\n\n📌 สรุปจุดชี้ตำแหน่งในภาพประกอบ (Major Salivary Glands & Dorsal Surface of the Tongue): จุดที่เกี่ยวข้องโดยตรงกับข้อนี้คือตำแหน่ง [E] (Sulcus Terminalis & Foramen Cecum — ร่องตัว V แบ่งลิ้นส่วนหน้า 2/3 กับส่วนหลัง 1/3) สามารถกดสลับดู \"ภาพเฉลยครบทุกจุด (Master Labeled Diagram)\" ด้านบนเพื่อทบทวนตำแหน่ง [A] ถึง [F] ทั้งหมดได้ทันที",
     "system": "Digestive System",
     "topic": "Mouth, Tongue & Salivary Glands",
     "difficulty": "Medium",
@@ -348,11 +692,54 @@ export const digestiveQuestions: Question[] = [
     "tags": [
       "sublingual-gland",
       "ducts-of-rivinus",
-      "mucous-saliva"
+      "mucous-saliva",
+      "has-diagram",
+      "diagram-oral_salivary_esophagus"
     ],
     "createdAt": "2026-10-24",
     "updatedAt": "2026-10-24",
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "imageUrl": "/images/anatomy/oral_salivary_esophagus_exam.svg",
+    "labeledImageUrl": "/images/anatomy/oral_salivary_esophagus_labeled.svg",
+    "imageCaption": "Major Salivary Glands & Dorsal Surface of the Tongue — ต่อมน้ำลายหลัก 3 คู่ (Parotid, Submandibular, Sublingual) และปุ่มลิ้น",
+    "imageLabels": [
+      {
+        "pin": "A",
+        "term": "Parotid Gland & Stensen's Duct",
+        "thaiName": "ต่อมน้ำลายพารอติด (ใหญ่สุด ผลิตน้ำลายใส เปิดตรงข้ามกรามบนซี่ 2)",
+        "description": "ตำแหน่ง [A] คือ Parotid Gland & Stensen's Duct — ต่อมน้ำลายพารอติด (ใหญ่สุด ผลิตน้ำลายใส เปิดตรงข้ามกรามบนซี่ 2)"
+      },
+      {
+        "pin": "B",
+        "term": "Submandibular Gland & Wharton's Duct",
+        "thaiName": "ต่อมน้ำลายใต้ขากรรไกร (ผลิตน้ำลาย 70% เปิดใต้โคนลิ้น)",
+        "description": "ตำแหน่ง [B] คือ Submandibular Gland & Wharton's Duct — ต่อมน้ำลายใต้ขากรรไกร (ผลิตน้ำลาย 70% เปิดใต้โคนลิ้น)"
+      },
+      {
+        "pin": "C",
+        "term": "Sublingual Gland (Ducts of Rivinus)",
+        "thaiName": "ต่อมน้ำลายใต้ลิ้น (เล็กสุด ผลิตน้ำลายเมือกข้น)",
+        "description": "ตำแหน่ง [C] คือ Sublingual Gland (Ducts of Rivinus) — ต่อมน้ำลายใต้ลิ้น (เล็กสุด ผลิตน้ำลายเมือกข้น)"
+      },
+      {
+        "pin": "D",
+        "term": "Circumvallate Papillae (Von Ebner's glands)",
+        "thaiName": "ปุ่มลิ้นขนาดใหญ่เรียงรูปตัว V หน้า Sulcus terminalis",
+        "description": "ตำแหน่ง [D] คือ Circumvallate Papillae (Von Ebner's glands) — ปุ่มลิ้นขนาดใหญ่เรียงรูปตัว V หน้า Sulcus terminalis"
+      },
+      {
+        "pin": "E",
+        "term": "Sulcus Terminalis & Foramen Cecum",
+        "thaiName": "ร่องตัว V แบ่งลิ้นส่วนหน้า 2/3 กับส่วนหลัง 1/3",
+        "description": "ตำแหน่ง [E] คือ Sulcus Terminalis & Foramen Cecum — ร่องตัว V แบ่งลิ้นส่วนหน้า 2/3 กับส่วนหลัง 1/3"
+      },
+      {
+        "pin": "F",
+        "term": "Anterior 2/3 Tongue (Filiform/Fungiform)",
+        "thaiName": "ลิ้น 2/3 ส่วนหน้า (Filiform มากสุดไม่มีตุ่มรับรส / รับรสด้วย CN VII)",
+        "description": "ตำแหน่ง [F] คือ Anterior 2/3 Tongue (Filiform/Fungiform) — ลิ้น 2/3 ส่วนหน้า (Filiform มากสุดไม่มีตุ่มรับรส / รับรสด้วย CN VII)"
+      }
+    ]
   },
   {
     "id": "DIGEST-015",
@@ -381,7 +768,7 @@ export const digestiveQuestions: Question[] = [
   },
   {
     "id": "DIGEST-016",
-    "questionText": "ปุ่มลิ้นชนิด Circumvallate (Vallate) papillae มีขนาดใหญ่ที่สุด เรียงตัวเป็นรูปตัววี (V-shaped) อยู่ด้านหน้าของร่องใด และมีต่อมน้ำลายชนิดใดเปิดน้ำลายใสมาชะล้างร่องรอบปุ่ม?",
+    "questionText": "[🖼️ ข้อสอบวิเคราะห์ภาพประกอบกายวิภาค — พิจารณาแผนภาพและจุดชี้ตำแหน่ง [A]–[F] โดยเฉพาะบริเวณตำแหน่ง [A]] ปุ่มลิ้นชนิด Circumvallate (Vallate) papillae มีขนาดใหญ่ที่สุด เรียงตัวเป็นรูปตัววี (V-shaped) อยู่ด้านหน้าของร่องใด และมีต่อมน้ำลายชนิดใดเปิดน้ำลายใสมาชะล้างร่องรอบปุ่ม?",
     "options": {
       "A": "เรียงตัวที่ปลายลิ้น มี Meibomian glands เปิดมาชะล้าง",
       "B": "เรียงตัวอยู่หลังต่อ Lingual tonsil โดยมี Submandibular glands เปิดมาชะล้าง",
@@ -389,7 +776,7 @@ export const digestiveQuestions: Question[] = [
       "D": "เรียงตัวอยู่หน้าต่อ Sulcus terminalis โดยมีต่อมน้ำลายใสของ Von Ebner's glands เปิดมาชะล้าง"
     },
     "correctOption": "D",
-    "explanation": "Circumvallate papillae มีขนาดใหญ่ 8-12 ปุ่ม เรียงเป็นแถวรูปตัววี (V-shape) อยู่ด้านหน้า Sulcus terminalis มี Taste buds จำนวนมากอยู่ตามร่องด้านข้างของปุ่ม และมีต่อมน้ำลายใสบริสุทธิ์ชื่อ Serous glands of Von Ebner หลั่งน้ำลายมาชะล้างร่องเพื่อเตรียมรับสารเคมีใหม่",
+    "explanation": "Circumvallate papillae มีขนาดใหญ่ 8-12 ปุ่ม เรียงเป็นแถวรูปตัววี (V-shape) อยู่ด้านหน้า Sulcus terminalis มี Taste buds จำนวนมากอยู่ตามร่องด้านข้างของปุ่ม และมีต่อมน้ำลายใสบริสุทธิ์ชื่อ Serous glands of Von Ebner หลั่งน้ำลายมาชะล้างร่องเพื่อเตรียมรับสารเคมีใหม่\n\n📌 สรุปจุดชี้ตำแหน่งในภาพประกอบ (Major Salivary Glands & Dorsal Surface of the Tongue): จุดที่เกี่ยวข้องโดยตรงกับข้อนี้คือตำแหน่ง [A] (Parotid Gland & Stensen's Duct — ต่อมน้ำลายพารอติด (ใหญ่สุด ผลิตน้ำลายใส เปิดตรงข้ามกรามบนซี่ 2)) สามารถกดสลับดู \"ภาพเฉลยครบทุกจุด (Master Labeled Diagram)\" ด้านบนเพื่อทบทวนตำแหน่ง [A] ถึง [F] ทั้งหมดได้ทันที",
     "system": "Digestive System",
     "topic": "Mouth, Tongue & Salivary Glands",
     "difficulty": "Hard",
@@ -398,15 +785,58 @@ export const digestiveQuestions: Question[] = [
     "tags": [
       "circumvallate-papillae",
       "sulcus-terminalis",
-      "von-ebners-glands"
+      "von-ebners-glands",
+      "has-diagram",
+      "diagram-oral_salivary_esophagus"
     ],
     "createdAt": "2026-10-24",
     "updatedAt": "2026-10-24",
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "imageUrl": "/images/anatomy/oral_salivary_esophagus_exam.svg",
+    "labeledImageUrl": "/images/anatomy/oral_salivary_esophagus_labeled.svg",
+    "imageCaption": "Major Salivary Glands & Dorsal Surface of the Tongue — ต่อมน้ำลายหลัก 3 คู่ (Parotid, Submandibular, Sublingual) และปุ่มลิ้น",
+    "imageLabels": [
+      {
+        "pin": "A",
+        "term": "Parotid Gland & Stensen's Duct",
+        "thaiName": "ต่อมน้ำลายพารอติด (ใหญ่สุด ผลิตน้ำลายใส เปิดตรงข้ามกรามบนซี่ 2)",
+        "description": "ตำแหน่ง [A] คือ Parotid Gland & Stensen's Duct — ต่อมน้ำลายพารอติด (ใหญ่สุด ผลิตน้ำลายใส เปิดตรงข้ามกรามบนซี่ 2)"
+      },
+      {
+        "pin": "B",
+        "term": "Submandibular Gland & Wharton's Duct",
+        "thaiName": "ต่อมน้ำลายใต้ขากรรไกร (ผลิตน้ำลาย 70% เปิดใต้โคนลิ้น)",
+        "description": "ตำแหน่ง [B] คือ Submandibular Gland & Wharton's Duct — ต่อมน้ำลายใต้ขากรรไกร (ผลิตน้ำลาย 70% เปิดใต้โคนลิ้น)"
+      },
+      {
+        "pin": "C",
+        "term": "Sublingual Gland (Ducts of Rivinus)",
+        "thaiName": "ต่อมน้ำลายใต้ลิ้น (เล็กสุด ผลิตน้ำลายเมือกข้น)",
+        "description": "ตำแหน่ง [C] คือ Sublingual Gland (Ducts of Rivinus) — ต่อมน้ำลายใต้ลิ้น (เล็กสุด ผลิตน้ำลายเมือกข้น)"
+      },
+      {
+        "pin": "D",
+        "term": "Circumvallate Papillae (Von Ebner's glands)",
+        "thaiName": "ปุ่มลิ้นขนาดใหญ่เรียงรูปตัว V หน้า Sulcus terminalis",
+        "description": "ตำแหน่ง [D] คือ Circumvallate Papillae (Von Ebner's glands) — ปุ่มลิ้นขนาดใหญ่เรียงรูปตัว V หน้า Sulcus terminalis"
+      },
+      {
+        "pin": "E",
+        "term": "Sulcus Terminalis & Foramen Cecum",
+        "thaiName": "ร่องตัว V แบ่งลิ้นส่วนหน้า 2/3 กับส่วนหลัง 1/3",
+        "description": "ตำแหน่ง [E] คือ Sulcus Terminalis & Foramen Cecum — ร่องตัว V แบ่งลิ้นส่วนหน้า 2/3 กับส่วนหลัง 1/3"
+      },
+      {
+        "pin": "F",
+        "term": "Anterior 2/3 Tongue (Filiform/Fungiform)",
+        "thaiName": "ลิ้น 2/3 ส่วนหน้า (Filiform มากสุดไม่มีตุ่มรับรส / รับรสด้วย CN VII)",
+        "description": "ตำแหน่ง [F] คือ Anterior 2/3 Tongue (Filiform/Fungiform) — ลิ้น 2/3 ส่วนหน้า (Filiform มากสุดไม่มีตุ่มรับรส / รับรสด้วย CN VII)"
+      }
+    ]
   },
   {
     "id": "DIGEST-017",
-    "questionText": "การรับความรู้สึกรับรส (Taste sensation) จากตุ่มรับรสของลิ้น 2 ใน 3 ส่วนหน้า (Anterior 2/3 of tongue) ส่งสัญญาณประสาทผ่านทางเส้นประสาทสมองคู่ใด?",
+    "questionText": "[🖼️ ข้อสอบวิเคราะห์ภาพประกอบกายวิภาค — พิจารณาแผนภาพและจุดชี้ตำแหน่ง [A]–[F] โดยเฉพาะบริเวณตำแหน่ง [B]] การรับความรู้สึกรับรส (Taste sensation) จากตุ่มรับรสของลิ้น 2 ใน 3 ส่วนหน้า (Anterior 2/3 of tongue) ส่งสัญญาณประสาทผ่านทางเส้นประสาทสมองคู่ใด?",
     "options": {
       "A": "เส้นประสาทสมองคู่ที่ 7 (Facial nerve: CN VII ผ่าน Chorda tympani)",
       "B": "เส้นประสาทสมองคู่ที่ 9 (Glossopharyngeal nerve: CN IX)",
@@ -414,7 +844,7 @@ export const digestiveQuestions: Question[] = [
       "D": "เส้นประสาทสมองคู่ที่ 12 (Hypoglossal nerve: CN XII)"
     },
     "correctOption": "A",
-    "explanation": "การเลี้ยงประสาทของลิ้น: 1. Anterior 2/3: รับรสโดย CN VII (Chorda tympani), รับความรู้สึกทั่วไป (เจ็บ ร้อน) โดย CN V3 (Lingual nerve) 2. Posterior 1/3: ทั้งรับรสและรับความรู้สึกทั่วไปโดย CN IX (Glossopharyngeal nerve) 3. กล้ามเนื้อลิ้นทั้งหมดเลี้ยงโดย CN XII (Hypoglossal nerve ยกเว้น Palatoglossus)",
+    "explanation": "การเลี้ยงประสาทของลิ้น: 1. Anterior 2/3: รับรสโดย CN VII (Chorda tympani), รับความรู้สึกทั่วไป (เจ็บ ร้อน) โดย CN V3 (Lingual nerve) 2. Posterior 1/3: ทั้งรับรสและรับความรู้สึกทั่วไปโดย CN IX (Glossopharyngeal nerve) 3. กล้ามเนื้อลิ้นทั้งหมดเลี้ยงโดย CN XII (Hypoglossal nerve ยกเว้น Palatoglossus)\n\n📌 สรุปจุดชี้ตำแหน่งในภาพประกอบ (Major Salivary Glands & Dorsal Surface of the Tongue): จุดที่เกี่ยวข้องโดยตรงกับข้อนี้คือตำแหน่ง [B] (Submandibular Gland & Wharton's Duct — ต่อมน้ำลายใต้ขากรรไกร (ผลิตน้ำลาย 70% เปิดใต้โคนลิ้น)) สามารถกดสลับดู \"ภาพเฉลยครบทุกจุด (Master Labeled Diagram)\" ด้านบนเพื่อทบทวนตำแหน่ง [A] ถึง [F] ทั้งหมดได้ทันที",
     "system": "Digestive System",
     "topic": "Mouth, Tongue & Salivary Glands",
     "difficulty": "Hard",
@@ -424,15 +854,58 @@ export const digestiveQuestions: Question[] = [
       "tongue-innervation",
       "taste-sensation",
       "chorda-tympani",
-      "cn-vii"
+      "cn-vii",
+      "has-diagram",
+      "diagram-oral_salivary_esophagus"
     ],
     "createdAt": "2026-10-24",
     "updatedAt": "2026-10-24",
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "imageUrl": "/images/anatomy/oral_salivary_esophagus_exam.svg",
+    "labeledImageUrl": "/images/anatomy/oral_salivary_esophagus_labeled.svg",
+    "imageCaption": "Major Salivary Glands & Dorsal Surface of the Tongue — ต่อมน้ำลายหลัก 3 คู่ (Parotid, Submandibular, Sublingual) และปุ่มลิ้น",
+    "imageLabels": [
+      {
+        "pin": "A",
+        "term": "Parotid Gland & Stensen's Duct",
+        "thaiName": "ต่อมน้ำลายพารอติด (ใหญ่สุด ผลิตน้ำลายใส เปิดตรงข้ามกรามบนซี่ 2)",
+        "description": "ตำแหน่ง [A] คือ Parotid Gland & Stensen's Duct — ต่อมน้ำลายพารอติด (ใหญ่สุด ผลิตน้ำลายใส เปิดตรงข้ามกรามบนซี่ 2)"
+      },
+      {
+        "pin": "B",
+        "term": "Submandibular Gland & Wharton's Duct",
+        "thaiName": "ต่อมน้ำลายใต้ขากรรไกร (ผลิตน้ำลาย 70% เปิดใต้โคนลิ้น)",
+        "description": "ตำแหน่ง [B] คือ Submandibular Gland & Wharton's Duct — ต่อมน้ำลายใต้ขากรรไกร (ผลิตน้ำลาย 70% เปิดใต้โคนลิ้น)"
+      },
+      {
+        "pin": "C",
+        "term": "Sublingual Gland (Ducts of Rivinus)",
+        "thaiName": "ต่อมน้ำลายใต้ลิ้น (เล็กสุด ผลิตน้ำลายเมือกข้น)",
+        "description": "ตำแหน่ง [C] คือ Sublingual Gland (Ducts of Rivinus) — ต่อมน้ำลายใต้ลิ้น (เล็กสุด ผลิตน้ำลายเมือกข้น)"
+      },
+      {
+        "pin": "D",
+        "term": "Circumvallate Papillae (Von Ebner's glands)",
+        "thaiName": "ปุ่มลิ้นขนาดใหญ่เรียงรูปตัว V หน้า Sulcus terminalis",
+        "description": "ตำแหน่ง [D] คือ Circumvallate Papillae (Von Ebner's glands) — ปุ่มลิ้นขนาดใหญ่เรียงรูปตัว V หน้า Sulcus terminalis"
+      },
+      {
+        "pin": "E",
+        "term": "Sulcus Terminalis & Foramen Cecum",
+        "thaiName": "ร่องตัว V แบ่งลิ้นส่วนหน้า 2/3 กับส่วนหลัง 1/3",
+        "description": "ตำแหน่ง [E] คือ Sulcus Terminalis & Foramen Cecum — ร่องตัว V แบ่งลิ้นส่วนหน้า 2/3 กับส่วนหลัง 1/3"
+      },
+      {
+        "pin": "F",
+        "term": "Anterior 2/3 Tongue (Filiform/Fungiform)",
+        "thaiName": "ลิ้น 2/3 ส่วนหน้า (Filiform มากสุดไม่มีตุ่มรับรส / รับรสด้วย CN VII)",
+        "description": "ตำแหน่ง [F] คือ Anterior 2/3 Tongue (Filiform/Fungiform) — ลิ้น 2/3 ส่วนหน้า (Filiform มากสุดไม่มีตุ่มรับรส / รับรสด้วย CN VII)"
+      }
+    ]
   },
   {
     "id": "DIGEST-018",
-    "questionText": "สูตรฟันแท้ (Permanent teeth formula) ของมนุษย์ในขากรรไกรแต่ละข้าง (ครึ่งซีกบนหรือล่าง) ประกอบด้วยฟันชนิดต่างๆ รวม 16 ซี่ต่อขากรรไกร ข้อใดเรียงลำดับจากด้านหน้ากึ่งกลางไปสู่ด้านหลังได้ถูกต้อง?",
+    "questionText": "[🖼️ ข้อสอบวิเคราะห์ภาพประกอบกายวิภาค — พิจารณาแผนภาพและจุดชี้ตำแหน่ง [A]–[F] โดยเฉพาะบริเวณตำแหน่ง [C]] สูตรฟันแท้ (Permanent teeth formula) ของมนุษย์ในขากรรไกรแต่ละข้าง (ครึ่งซีกบนหรือล่าง) ประกอบด้วยฟันชนิดต่างๆ รวม 16 ซี่ต่อขากรรไกร ข้อใดเรียงลำดับจากด้านหน้ากึ่งกลางไปสู่ด้านหลังได้ถูกต้อง?",
     "options": {
       "A": "Incisors 2, Canine 1, Premolars 0, Molars 2 (2-1-0-2 ซึ่งเป็นฟันน้ำนม)",
       "B": "Incisors 2, Canine 1, Premolars 2, Molars 3 (2-1-2-3)",
@@ -440,7 +913,7 @@ export const digestiveQuestions: Question[] = [
       "D": "Incisors 3, Canine 1, Premolars 1, Molars 3"
     },
     "correctOption": "B",
-    "explanation": "สูตรฟันแท้ของผู้ใหญ่ในแต่ละเสี้ยว (Quadrant) คือ 2-1-2-3 ได้แก่ Central/Lateral Incisors 2 ซี่, Canine (เขี้ยว) 1 ซี่, Premolars (กรามน้อย) 2 ซี่, และ Molars (กรามใหญ่) 3 ซี่ รวม 8 ซี่ต่อเสี้ยว สองข้างรวมเป็น 16 ซี่ต่อขากรรไกร และรวมทั้งหมด 32 ซี่",
+    "explanation": "สูตรฟันแท้ของผู้ใหญ่ในแต่ละเสี้ยว (Quadrant) คือ 2-1-2-3 ได้แก่ Central/Lateral Incisors 2 ซี่, Canine (เขี้ยว) 1 ซี่, Premolars (กรามน้อย) 2 ซี่, และ Molars (กรามใหญ่) 3 ซี่ รวม 8 ซี่ต่อเสี้ยว สองข้างรวมเป็น 16 ซี่ต่อขากรรไกร และรวมทั้งหมด 32 ซี่\n\n📌 สรุปจุดชี้ตำแหน่งในภาพประกอบ (Major Salivary Glands & Dorsal Surface of the Tongue): จุดที่เกี่ยวข้องโดยตรงกับข้อนี้คือตำแหน่ง [C] (Sublingual Gland (Ducts of Rivinus) — ต่อมน้ำลายใต้ลิ้น (เล็กสุด ผลิตน้ำลายเมือกข้น)) สามารถกดสลับดู \"ภาพเฉลยครบทุกจุด (Master Labeled Diagram)\" ด้านบนเพื่อทบทวนตำแหน่ง [A] ถึง [F] ทั้งหมดได้ทันที",
     "system": "Digestive System",
     "topic": "Mouth, Tongue & Salivary Glands",
     "difficulty": "Medium",
@@ -450,11 +923,54 @@ export const digestiveQuestions: Question[] = [
       "dental-formula",
       "permanent-teeth",
       "incisors",
-      "molars"
+      "molars",
+      "has-diagram",
+      "diagram-oral_salivary_esophagus"
     ],
     "createdAt": "2026-10-24",
     "updatedAt": "2026-10-24",
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "imageUrl": "/images/anatomy/oral_salivary_esophagus_exam.svg",
+    "labeledImageUrl": "/images/anatomy/oral_salivary_esophagus_labeled.svg",
+    "imageCaption": "Major Salivary Glands & Dorsal Surface of the Tongue — ต่อมน้ำลายหลัก 3 คู่ (Parotid, Submandibular, Sublingual) และปุ่มลิ้น",
+    "imageLabels": [
+      {
+        "pin": "A",
+        "term": "Parotid Gland & Stensen's Duct",
+        "thaiName": "ต่อมน้ำลายพารอติด (ใหญ่สุด ผลิตน้ำลายใส เปิดตรงข้ามกรามบนซี่ 2)",
+        "description": "ตำแหน่ง [A] คือ Parotid Gland & Stensen's Duct — ต่อมน้ำลายพารอติด (ใหญ่สุด ผลิตน้ำลายใส เปิดตรงข้ามกรามบนซี่ 2)"
+      },
+      {
+        "pin": "B",
+        "term": "Submandibular Gland & Wharton's Duct",
+        "thaiName": "ต่อมน้ำลายใต้ขากรรไกร (ผลิตน้ำลาย 70% เปิดใต้โคนลิ้น)",
+        "description": "ตำแหน่ง [B] คือ Submandibular Gland & Wharton's Duct — ต่อมน้ำลายใต้ขากรรไกร (ผลิตน้ำลาย 70% เปิดใต้โคนลิ้น)"
+      },
+      {
+        "pin": "C",
+        "term": "Sublingual Gland (Ducts of Rivinus)",
+        "thaiName": "ต่อมน้ำลายใต้ลิ้น (เล็กสุด ผลิตน้ำลายเมือกข้น)",
+        "description": "ตำแหน่ง [C] คือ Sublingual Gland (Ducts of Rivinus) — ต่อมน้ำลายใต้ลิ้น (เล็กสุด ผลิตน้ำลายเมือกข้น)"
+      },
+      {
+        "pin": "D",
+        "term": "Circumvallate Papillae (Von Ebner's glands)",
+        "thaiName": "ปุ่มลิ้นขนาดใหญ่เรียงรูปตัว V หน้า Sulcus terminalis",
+        "description": "ตำแหน่ง [D] คือ Circumvallate Papillae (Von Ebner's glands) — ปุ่มลิ้นขนาดใหญ่เรียงรูปตัว V หน้า Sulcus terminalis"
+      },
+      {
+        "pin": "E",
+        "term": "Sulcus Terminalis & Foramen Cecum",
+        "thaiName": "ร่องตัว V แบ่งลิ้นส่วนหน้า 2/3 กับส่วนหลัง 1/3",
+        "description": "ตำแหน่ง [E] คือ Sulcus Terminalis & Foramen Cecum — ร่องตัว V แบ่งลิ้นส่วนหน้า 2/3 กับส่วนหลัง 1/3"
+      },
+      {
+        "pin": "F",
+        "term": "Anterior 2/3 Tongue (Filiform/Fungiform)",
+        "thaiName": "ลิ้น 2/3 ส่วนหน้า (Filiform มากสุดไม่มีตุ่มรับรส / รับรสด้วย CN VII)",
+        "description": "ตำแหน่ง [F] คือ Anterior 2/3 Tongue (Filiform/Fungiform) — ลิ้น 2/3 ส่วนหน้า (Filiform มากสุดไม่มีตุ่มรับรส / รับรสด้วย CN VII)"
+      }
+    ]
   },
   {
     "id": "DIGEST-019",
@@ -633,7 +1149,7 @@ export const digestiveQuestions: Question[] = [
   },
   {
     "id": "DIGEST-026",
-    "questionText": "กระเพาะอาหาร (Stomach) แบ่งออกเป็น 4 ส่วนทางกายวิภาค ส่วนโค้งกระเปาะที่ยื่นนูนขึ้นไปอยู่เหนือระดับของจุดเชื่อมต่อระหว่างหลอดอาหารกับกระเพาะอาหาร (Cardia) ใต้กะบังลมด้านซ้าย มีชื่อเรียกว่าอะไร?",
+    "questionText": "[🖼️ ข้อสอบวิเคราะห์ภาพประกอบกายวิภาค — พิจารณาแผนภาพและจุดชี้ตำแหน่ง [A]–[F] โดยเฉพาะบริเวณตำแหน่ง [A]] กระเพาะอาหาร (Stomach) แบ่งออกเป็น 4 ส่วนทางกายวิภาค ส่วนโค้งกระเปาะที่ยื่นนูนขึ้นไปอยู่เหนือระดับของจุดเชื่อมต่อระหว่างหลอดอาหารกับกระเพาะอาหาร (Cardia) ใต้กะบังลมด้านซ้าย มีชื่อเรียกว่าอะไร?",
     "options": {
       "A": "Body (Corpus)",
       "B": "Fundus",
@@ -641,7 +1157,7 @@ export const digestiveQuestions: Question[] = [
       "D": "Cardia"
     },
     "correctOption": "B",
-    "explanation": "ส่วนของกระเพาะอาหาร: 1. Cardia (ส่วนต้นล้อมรอบรูเปิดของหลอดอาหาร) 2. Fundus (ส่วนกระเปาะโค้งนูนขึ้นด้านบนซ้ายเหนือแนวระนาบ Cardia มักเป็นที่ขังของแก๊สในกระเพาะที่เห็นบนภาพ X-ray) 3. Body (ส่วนกลางขนาดใหญ่ที่สุด) 4. Pylorus (ส่วนปลายเชื่อมกับ Duodenum)",
+    "explanation": "ส่วนของกระเพาะอาหาร: 1. Cardia (ส่วนต้นล้อมรอบรูเปิดของหลอดอาหาร) 2. Fundus (ส่วนกระเปาะโค้งนูนขึ้นด้านบนซ้ายเหนือแนวระนาบ Cardia มักเป็นที่ขังของแก๊สในกระเพาะที่เห็นบนภาพ X-ray) 3. Body (ส่วนกลางขนาดใหญ่ที่สุด) 4. Pylorus (ส่วนปลายเชื่อมกับ Duodenum)\n\n📌 สรุปจุดชี้ตำแหน่งในภาพประกอบ (Stomach Regions, Three Muscular Layers & Gastric Gland Cells): จุดที่เกี่ยวข้องโดยตรงกับข้อนี้คือตำแหน่ง [A] (Fundus of Stomach — กระเปาะส่วนบนสุดโค้งอยู่เหนือระดับ Cardia) สามารถกดสลับดู \"ภาพเฉลยครบทุกจุด (Master Labeled Diagram)\" ด้านบนเพื่อทบทวนตำแหน่ง [A] ถึง [F] ทั้งหมดได้ทันที",
     "system": "Digestive System",
     "topic": "Stomach Anatomy & Secretions",
     "difficulty": "Medium",
@@ -650,15 +1166,58 @@ export const digestiveQuestions: Question[] = [
     "tags": [
       "stomach-regions",
       "fundus",
-      "cardia"
+      "cardia",
+      "has-diagram",
+      "diagram-stomach_anatomy"
     ],
     "createdAt": "2026-10-24",
     "updatedAt": "2026-10-24",
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "imageUrl": "/images/anatomy/stomach_anatomy_exam.svg",
+    "labeledImageUrl": "/images/anatomy/stomach_anatomy_labeled.svg",
+    "imageCaption": "Stomach Regions, Three Muscular Layers & Gastric Gland Cells — กายวิภาคกระเพาะอาหาร 4 ส่วน กล้ามเนื้อ 3 ชั้น และเซลล์ต่อมกระเพาะอาหาร",
+    "imageLabels": [
+      {
+        "pin": "A",
+        "term": "Fundus of Stomach",
+        "thaiName": "กระเปาะส่วนบนสุดโค้งอยู่เหนือระดับ Cardia",
+        "description": "ตำแหน่ง [A] คือ Fundus of Stomach — กระเปาะส่วนบนสุดโค้งอยู่เหนือระดับ Cardia"
+      },
+      {
+        "pin": "B",
+        "term": "Gastric Rugae & 3 Muscle Layers",
+        "thaiName": "รอยพับเยื่อเมือก Rugae และกล้ามเนื้อเรียบ 3 ชั้น (มี Inner oblique)",
+        "description": "ตำแหน่ง [B] คือ Gastric Rugae & 3 Muscle Layers — รอยพับเยื่อเมือก Rugae และกล้ามเนื้อเรียบ 3 ชั้น (มี Inner oblique)"
+      },
+      {
+        "pin": "C",
+        "term": "Pyloric Sphincter",
+        "thaiName": "หูรูดไพโลริก (ควบคุมการปล่อย Chyme ลงสู่ Duodenum)",
+        "description": "ตำแหน่ง [C] คือ Pyloric Sphincter — หูรูดไพโลริก (ควบคุมการปล่อย Chyme ลงสู่ Duodenum)"
+      },
+      {
+        "pin": "D",
+        "term": "Parietal (Oxyntic) Cells",
+        "thaiName": "หลั่งกรด HCl และ Intrinsic Factor (ช่วยดูดซึม B12)",
+        "description": "ตำแหน่ง [D] คือ Parietal (Oxyntic) Cells — หลั่งกรด HCl และ Intrinsic Factor (ช่วยดูดซึม B12)"
+      },
+      {
+        "pin": "E",
+        "term": "Chief (Zymogenic) Cells",
+        "thaiName": "หลั่งเอนไซม์ตั้งต้น Pepsinogen และ Gastric lipase",
+        "description": "ตำแหน่ง [E] คือ Chief (Zymogenic) Cells — หลั่งเอนไซม์ตั้งต้น Pepsinogen และ Gastric lipase"
+      },
+      {
+        "pin": "F",
+        "term": "Enteroendocrine G Cells",
+        "thaiName": "หลั่งฮอร์โมน Gastrin เข้าสู่กระแสเลือดไปกระตุ้นการหลั่งกรด",
+        "description": "ตำแหน่ง [F] คือ Enteroendocrine G Cells — หลั่งฮอร์โมน Gastrin เข้าสู่กระแสเลือดไปกระตุ้นการหลั่งกรด"
+      }
+    ]
   },
   {
     "id": "DIGEST-027",
-    "questionText": "ชั้นกล้ามเนื้อ Muscularis externa ของกระเพาะอาหารมีความพิเศษแตกต่างจากอวัยวะอื่นในทางเดินอาหารทั้งหมดอย่างไร?",
+    "questionText": "[🖼️ ข้อสอบวิเคราะห์ภาพประกอบกายวิภาค — พิจารณาแผนภาพและจุดชี้ตำแหน่ง [A]–[F] โดยเฉพาะบริเวณตำแหน่ง [C]] ชั้นกล้ามเนื้อ Muscularis externa ของกระเพาะอาหารมีความพิเศษแตกต่างจากอวัยวะอื่นในทางเดินอาหารทั้งหมดอย่างไร?",
     "options": {
       "A": "มีกล้ามเนื้อเพียงชั้นเดียวเพื่อเพิ่มความจุ",
       "B": "มีเฉพาะกล้ามเนื้อลายเท่านั้น",
@@ -666,7 +1225,7 @@ export const digestiveQuestions: Question[] = [
       "D": "มีแผ่นกระดูกอ่อนแทรกในชั้นกล้ามเนื้อ"
     },
     "correctOption": "C",
-    "explanation": "กระเพาะอาหารเป็นอวัยวะเดียวในทางเดินอาหารที่มีกล้ามเนื้อเรียบ 3 ชั้นในชั้น Muscularis externa ได้แก่: 1. Inner oblique layer (ชั้นในสุด ทอดเฉียง ช่วยบดและขยี้อาหาร) 2. Middle circular layer (ชั้นกลาง หนาตัวขึ้นเป็น Pyloric sphincter) 3. Outer longitudinal layer (ชั้นนอกสุด)",
+    "explanation": "กระเพาะอาหารเป็นอวัยวะเดียวในทางเดินอาหารที่มีกล้ามเนื้อเรียบ 3 ชั้นในชั้น Muscularis externa ได้แก่: 1. Inner oblique layer (ชั้นในสุด ทอดเฉียง ช่วยบดและขยี้อาหาร) 2. Middle circular layer (ชั้นกลาง หนาตัวขึ้นเป็น Pyloric sphincter) 3. Outer longitudinal layer (ชั้นนอกสุด)\n\n📌 สรุปจุดชี้ตำแหน่งในภาพประกอบ (Stomach Regions, Three Muscular Layers & Gastric Gland Cells): จุดที่เกี่ยวข้องโดยตรงกับข้อนี้คือตำแหน่ง [C] (Pyloric Sphincter — หูรูดไพโลริก (ควบคุมการปล่อย Chyme ลงสู่ Duodenum)) สามารถกดสลับดู \"ภาพเฉลยครบทุกจุด (Master Labeled Diagram)\" ด้านบนเพื่อทบทวนตำแหน่ง [A] ถึง [F] ทั้งหมดได้ทันที",
     "system": "Digestive System",
     "topic": "Stomach Anatomy & Secretions",
     "difficulty": "Medium",
@@ -675,15 +1234,58 @@ export const digestiveQuestions: Question[] = [
     "tags": [
       "stomach-muscularis",
       "three-muscle-layers",
-      "inner-oblique"
+      "inner-oblique",
+      "has-diagram",
+      "diagram-stomach_anatomy"
     ],
     "createdAt": "2026-10-24",
     "updatedAt": "2026-10-24",
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "imageUrl": "/images/anatomy/stomach_anatomy_exam.svg",
+    "labeledImageUrl": "/images/anatomy/stomach_anatomy_labeled.svg",
+    "imageCaption": "Stomach Regions, Three Muscular Layers & Gastric Gland Cells — กายวิภาคกระเพาะอาหาร 4 ส่วน กล้ามเนื้อ 3 ชั้น และเซลล์ต่อมกระเพาะอาหาร",
+    "imageLabels": [
+      {
+        "pin": "A",
+        "term": "Fundus of Stomach",
+        "thaiName": "กระเปาะส่วนบนสุดโค้งอยู่เหนือระดับ Cardia",
+        "description": "ตำแหน่ง [A] คือ Fundus of Stomach — กระเปาะส่วนบนสุดโค้งอยู่เหนือระดับ Cardia"
+      },
+      {
+        "pin": "B",
+        "term": "Gastric Rugae & 3 Muscle Layers",
+        "thaiName": "รอยพับเยื่อเมือก Rugae และกล้ามเนื้อเรียบ 3 ชั้น (มี Inner oblique)",
+        "description": "ตำแหน่ง [B] คือ Gastric Rugae & 3 Muscle Layers — รอยพับเยื่อเมือก Rugae และกล้ามเนื้อเรียบ 3 ชั้น (มี Inner oblique)"
+      },
+      {
+        "pin": "C",
+        "term": "Pyloric Sphincter",
+        "thaiName": "หูรูดไพโลริก (ควบคุมการปล่อย Chyme ลงสู่ Duodenum)",
+        "description": "ตำแหน่ง [C] คือ Pyloric Sphincter — หูรูดไพโลริก (ควบคุมการปล่อย Chyme ลงสู่ Duodenum)"
+      },
+      {
+        "pin": "D",
+        "term": "Parietal (Oxyntic) Cells",
+        "thaiName": "หลั่งกรด HCl และ Intrinsic Factor (ช่วยดูดซึม B12)",
+        "description": "ตำแหน่ง [D] คือ Parietal (Oxyntic) Cells — หลั่งกรด HCl และ Intrinsic Factor (ช่วยดูดซึม B12)"
+      },
+      {
+        "pin": "E",
+        "term": "Chief (Zymogenic) Cells",
+        "thaiName": "หลั่งเอนไซม์ตั้งต้น Pepsinogen และ Gastric lipase",
+        "description": "ตำแหน่ง [E] คือ Chief (Zymogenic) Cells — หลั่งเอนไซม์ตั้งต้น Pepsinogen และ Gastric lipase"
+      },
+      {
+        "pin": "F",
+        "term": "Enteroendocrine G Cells",
+        "thaiName": "หลั่งฮอร์โมน Gastrin เข้าสู่กระแสเลือดไปกระตุ้นการหลั่งกรด",
+        "description": "ตำแหน่ง [F] คือ Enteroendocrine G Cells — หลั่งฮอร์โมน Gastrin เข้าสู่กระแสเลือดไปกระตุ้นการหลั่งกรด"
+      }
+    ]
   },
   {
     "id": "DIGEST-028",
-    "questionText": "รอยพับของชั้นเยื่อเมือก (Mucosa and Submucosa) ภายในกระเพาะอาหารที่มองเห็นได้ด้วยตาเปล่าในขณะที่กระเพาะอาหารว่างและแฟบลง แต่จะขยายเรียบตึงเมื่อมีอาหารบรรจุอยู่ เรียกว่าอะไร?",
+    "questionText": "[🖼️ ข้อสอบวิเคราะห์ภาพประกอบกายวิภาค — พิจารณาแผนภาพและจุดชี้ตำแหน่ง [A]–[F] โดยเฉพาะบริเวณตำแหน่ง [B]] รอยพับของชั้นเยื่อเมือก (Mucosa and Submucosa) ภายในกระเพาะอาหารที่มองเห็นได้ด้วยตาเปล่าในขณะที่กระเพาะอาหารว่างและแฟบลง แต่จะขยายเรียบตึงเมื่อมีอาหารบรรจุอยู่ เรียกว่าอะไร?",
     "options": {
       "A": "Haustra",
       "B": "Plicae circulares",
@@ -691,7 +1293,7 @@ export const digestiveQuestions: Question[] = [
       "D": "Rugae (Gastric folds)"
     },
     "correctOption": "D",
-    "explanation": "Rugae คือรอยพับตามยาวของชั้น Mucosa และ Submucosa ภายในกระเพาะอาหาร ช่วยให้กระเพาะอาหารสามารถยืดขยายตัว (Distension) รองรับปริมาตรอาหารได้มากถึง 1.5 - 2 ลิตรเมื่ออิ่ม และจะหดพับตัวกลับเป็นสันนูนเมื่อกระเพาะว่าง",
+    "explanation": "Rugae คือรอยพับตามยาวของชั้น Mucosa และ Submucosa ภายในกระเพาะอาหาร ช่วยให้กระเพาะอาหารสามารถยืดขยายตัว (Distension) รองรับปริมาตรอาหารได้มากถึง 1.5 - 2 ลิตรเมื่ออิ่ม และจะหดพับตัวกลับเป็นสันนูนเมื่อกระเพาะว่าง\n\n📌 สรุปจุดชี้ตำแหน่งในภาพประกอบ (Stomach Regions, Three Muscular Layers & Gastric Gland Cells): จุดที่เกี่ยวข้องโดยตรงกับข้อนี้คือตำแหน่ง [B] (Gastric Rugae & 3 Muscle Layers — รอยพับเยื่อเมือก Rugae และกล้ามเนื้อเรียบ 3 ชั้น (มี Inner oblique)) สามารถกดสลับดู \"ภาพเฉลยครบทุกจุด (Master Labeled Diagram)\" ด้านบนเพื่อทบทวนตำแหน่ง [A] ถึง [F] ทั้งหมดได้ทันที",
     "system": "Digestive System",
     "topic": "Stomach Anatomy & Secretions",
     "difficulty": "Easy",
@@ -700,11 +1302,54 @@ export const digestiveQuestions: Question[] = [
     "tags": [
       "rugae",
       "gastric-folds",
-      "stomach-capacity"
+      "stomach-capacity",
+      "has-diagram",
+      "diagram-stomach_anatomy"
     ],
     "createdAt": "2026-10-24",
     "updatedAt": "2026-10-24",
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "imageUrl": "/images/anatomy/stomach_anatomy_exam.svg",
+    "labeledImageUrl": "/images/anatomy/stomach_anatomy_labeled.svg",
+    "imageCaption": "Stomach Regions, Three Muscular Layers & Gastric Gland Cells — กายวิภาคกระเพาะอาหาร 4 ส่วน กล้ามเนื้อ 3 ชั้น และเซลล์ต่อมกระเพาะอาหาร",
+    "imageLabels": [
+      {
+        "pin": "A",
+        "term": "Fundus of Stomach",
+        "thaiName": "กระเปาะส่วนบนสุดโค้งอยู่เหนือระดับ Cardia",
+        "description": "ตำแหน่ง [A] คือ Fundus of Stomach — กระเปาะส่วนบนสุดโค้งอยู่เหนือระดับ Cardia"
+      },
+      {
+        "pin": "B",
+        "term": "Gastric Rugae & 3 Muscle Layers",
+        "thaiName": "รอยพับเยื่อเมือก Rugae และกล้ามเนื้อเรียบ 3 ชั้น (มี Inner oblique)",
+        "description": "ตำแหน่ง [B] คือ Gastric Rugae & 3 Muscle Layers — รอยพับเยื่อเมือก Rugae และกล้ามเนื้อเรียบ 3 ชั้น (มี Inner oblique)"
+      },
+      {
+        "pin": "C",
+        "term": "Pyloric Sphincter",
+        "thaiName": "หูรูดไพโลริก (ควบคุมการปล่อย Chyme ลงสู่ Duodenum)",
+        "description": "ตำแหน่ง [C] คือ Pyloric Sphincter — หูรูดไพโลริก (ควบคุมการปล่อย Chyme ลงสู่ Duodenum)"
+      },
+      {
+        "pin": "D",
+        "term": "Parietal (Oxyntic) Cells",
+        "thaiName": "หลั่งกรด HCl และ Intrinsic Factor (ช่วยดูดซึม B12)",
+        "description": "ตำแหน่ง [D] คือ Parietal (Oxyntic) Cells — หลั่งกรด HCl และ Intrinsic Factor (ช่วยดูดซึม B12)"
+      },
+      {
+        "pin": "E",
+        "term": "Chief (Zymogenic) Cells",
+        "thaiName": "หลั่งเอนไซม์ตั้งต้น Pepsinogen และ Gastric lipase",
+        "description": "ตำแหน่ง [E] คือ Chief (Zymogenic) Cells — หลั่งเอนไซม์ตั้งต้น Pepsinogen และ Gastric lipase"
+      },
+      {
+        "pin": "F",
+        "term": "Enteroendocrine G Cells",
+        "thaiName": "หลั่งฮอร์โมน Gastrin เข้าสู่กระแสเลือดไปกระตุ้นการหลั่งกรด",
+        "description": "ตำแหน่ง [F] คือ Enteroendocrine G Cells — หลั่งฮอร์โมน Gastrin เข้าสู่กระแสเลือดไปกระตุ้นการหลั่งกรด"
+      }
+    ]
   },
   {
     "id": "DIGEST-029",
@@ -733,7 +1378,7 @@ export const digestiveQuestions: Question[] = [
   },
   {
     "id": "DIGEST-030",
-    "questionText": "เซลล์ชนิดใดในต่อมกระเพาะอาหาร (Gastric glands) ที่ทำหน้าที่สร้างและหลั่งกรดไฮโดรคลอริก (HCl) และ Intrinsic Factor?",
+    "questionText": "[🖼️ ข้อสอบวิเคราะห์ภาพประกอบกายวิภาค — พิจารณาแผนภาพและจุดชี้ตำแหน่ง [A]–[F] โดยเฉพาะบริเวณตำแหน่ง [D]] เซลล์ชนิดใดในต่อมกระเพาะอาหาร (Gastric glands) ที่ทำหน้าที่สร้างและหลั่งกรดไฮโดรคลอริก (HCl) และ Intrinsic Factor?",
     "options": {
       "A": "Chief cells (Zymogenic cells)",
       "B": "Parietal cells (Oxyntic cells)",
@@ -741,7 +1386,7 @@ export const digestiveQuestions: Question[] = [
       "D": "Mucous neck cells"
     },
     "correctOption": "B",
-    "explanation": "Parietal (Oxyntic) cells เป็นเซลล์รูปพีระมิดย้อมติดสีชมพูเข้ม (Eosinophilic) พบมากใน Fundic glands มีปั๊ม H+/K+ ATPase ทำหน้าที่หลั่งกรดเกลือ (HCl) สร้างสภาวะ pH 1.5-2.0 และหลั่ง Glycoprotein ชื่อ Intrinsic factor ซึ่งจำเป็นต่อการดูดซึมวิตามิน B12 ที่ปลายลำไส้เล็ก (Ileum)",
+    "explanation": "Parietal (Oxyntic) cells เป็นเซลล์รูปพีระมิดย้อมติดสีชมพูเข้ม (Eosinophilic) พบมากใน Fundic glands มีปั๊ม H+/K+ ATPase ทำหน้าที่หลั่งกรดเกลือ (HCl) สร้างสภาวะ pH 1.5-2.0 และหลั่ง Glycoprotein ชื่อ Intrinsic factor ซึ่งจำเป็นต่อการดูดซึมวิตามิน B12 ที่ปลายลำไส้เล็ก (Ileum)\n\n📌 สรุปจุดชี้ตำแหน่งในภาพประกอบ (Stomach Regions, Three Muscular Layers & Gastric Gland Cells): จุดที่เกี่ยวข้องโดยตรงกับข้อนี้คือตำแหน่ง [D] (Parietal (Oxyntic) Cells — หลั่งกรด HCl และ Intrinsic Factor (ช่วยดูดซึม B12)) สามารถกดสลับดู \"ภาพเฉลยครบทุกจุด (Master Labeled Diagram)\" ด้านบนเพื่อทบทวนตำแหน่ง [A] ถึง [F] ทั้งหมดได้ทันที",
     "system": "Digestive System",
     "topic": "Stomach Anatomy & Secretions",
     "difficulty": "Medium",
@@ -751,15 +1396,58 @@ export const digestiveQuestions: Question[] = [
       "parietal-cells",
       "hcl",
       "intrinsic-factor",
-      "oxyntic-cells"
+      "oxyntic-cells",
+      "has-diagram",
+      "diagram-stomach_anatomy"
     ],
     "createdAt": "2026-10-24",
     "updatedAt": "2026-10-24",
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "imageUrl": "/images/anatomy/stomach_anatomy_exam.svg",
+    "labeledImageUrl": "/images/anatomy/stomach_anatomy_labeled.svg",
+    "imageCaption": "Stomach Regions, Three Muscular Layers & Gastric Gland Cells — กายวิภาคกระเพาะอาหาร 4 ส่วน กล้ามเนื้อ 3 ชั้น และเซลล์ต่อมกระเพาะอาหาร",
+    "imageLabels": [
+      {
+        "pin": "A",
+        "term": "Fundus of Stomach",
+        "thaiName": "กระเปาะส่วนบนสุดโค้งอยู่เหนือระดับ Cardia",
+        "description": "ตำแหน่ง [A] คือ Fundus of Stomach — กระเปาะส่วนบนสุดโค้งอยู่เหนือระดับ Cardia"
+      },
+      {
+        "pin": "B",
+        "term": "Gastric Rugae & 3 Muscle Layers",
+        "thaiName": "รอยพับเยื่อเมือก Rugae และกล้ามเนื้อเรียบ 3 ชั้น (มี Inner oblique)",
+        "description": "ตำแหน่ง [B] คือ Gastric Rugae & 3 Muscle Layers — รอยพับเยื่อเมือก Rugae และกล้ามเนื้อเรียบ 3 ชั้น (มี Inner oblique)"
+      },
+      {
+        "pin": "C",
+        "term": "Pyloric Sphincter",
+        "thaiName": "หูรูดไพโลริก (ควบคุมการปล่อย Chyme ลงสู่ Duodenum)",
+        "description": "ตำแหน่ง [C] คือ Pyloric Sphincter — หูรูดไพโลริก (ควบคุมการปล่อย Chyme ลงสู่ Duodenum)"
+      },
+      {
+        "pin": "D",
+        "term": "Parietal (Oxyntic) Cells",
+        "thaiName": "หลั่งกรด HCl และ Intrinsic Factor (ช่วยดูดซึม B12)",
+        "description": "ตำแหน่ง [D] คือ Parietal (Oxyntic) Cells — หลั่งกรด HCl และ Intrinsic Factor (ช่วยดูดซึม B12)"
+      },
+      {
+        "pin": "E",
+        "term": "Chief (Zymogenic) Cells",
+        "thaiName": "หลั่งเอนไซม์ตั้งต้น Pepsinogen และ Gastric lipase",
+        "description": "ตำแหน่ง [E] คือ Chief (Zymogenic) Cells — หลั่งเอนไซม์ตั้งต้น Pepsinogen และ Gastric lipase"
+      },
+      {
+        "pin": "F",
+        "term": "Enteroendocrine G Cells",
+        "thaiName": "หลั่งฮอร์โมน Gastrin เข้าสู่กระแสเลือดไปกระตุ้นการหลั่งกรด",
+        "description": "ตำแหน่ง [F] คือ Enteroendocrine G Cells — หลั่งฮอร์โมน Gastrin เข้าสู่กระแสเลือดไปกระตุ้นการหลั่งกรด"
+      }
+    ]
   },
   {
     "id": "DIGEST-031",
-    "questionText": "ผู้ป่วยผ่าตัดตัดกระเพาะอาหารออกทั้งหมด (Total Gastrectomy) จะเกิดภาวะโลหิตจางชนิด Pernicious anemia (Megaloblastic anemia) พยาธิกำเนิดเกิดจากการขาดสารใดที่สร้างจากเซลล์ในกระเพาะอาหาร?",
+    "questionText": "[🖼️ ข้อสอบวิเคราะห์ภาพประกอบกายวิภาค — พิจารณาแผนภาพและจุดชี้ตำแหน่ง [A]–[F] โดยเฉพาะบริเวณตำแหน่ง [D]] ผู้ป่วยผ่าตัดตัดกระเพาะอาหารออกทั้งหมด (Total Gastrectomy) จะเกิดภาวะโลหิตจางชนิด Pernicious anemia (Megaloblastic anemia) พยาธิกำเนิดเกิดจากการขาดสารใดที่สร้างจากเซลล์ในกระเพาะอาหาร?",
     "options": {
       "A": "ขาดเมือกป้องกันจาก Goblet cells",
       "B": "ขาด Pepsinogen จาก Chief cells ทำให้ย่อยโปรตีนไม่ได้",
@@ -767,7 +1455,7 @@ export const digestiveQuestions: Question[] = [
       "D": "ขาด Gastrin จาก G cells"
     },
     "correctOption": "C",
-    "explanation": "Intrinsic factor สร้างจาก Parietal cells ในกระเพาะอาหาร เมื่อถูกตัดกระเพาะออก ร่างกายจะขาด Intrinsic factor ทำให้วิตามิน B12 ไม่สามารถจับตัวและดูดซึมที่ Terminal ileum ได้ ส่งผลให้การสร้าง DNA ของเซลล์เม็ดเลือดแดงในไขกระดูกล้มเหลว เกิดโรคโลหิตจางเม็ดเลือดขนาดใหญ่ (Pernicious/Megaloblastic anemia)",
+    "explanation": "Intrinsic factor สร้างจาก Parietal cells ในกระเพาะอาหาร เมื่อถูกตัดกระเพาะออก ร่างกายจะขาด Intrinsic factor ทำให้วิตามิน B12 ไม่สามารถจับตัวและดูดซึมที่ Terminal ileum ได้ ส่งผลให้การสร้าง DNA ของเซลล์เม็ดเลือดแดงในไขกระดูกล้มเหลว เกิดโรคโลหิตจางเม็ดเลือดขนาดใหญ่ (Pernicious/Megaloblastic anemia)\n\n📌 สรุปจุดชี้ตำแหน่งในภาพประกอบ (Stomach Regions, Three Muscular Layers & Gastric Gland Cells): จุดที่เกี่ยวข้องโดยตรงกับข้อนี้คือตำแหน่ง [D] (Parietal (Oxyntic) Cells — หลั่งกรด HCl และ Intrinsic Factor (ช่วยดูดซึม B12)) สามารถกดสลับดู \"ภาพเฉลยครบทุกจุด (Master Labeled Diagram)\" ด้านบนเพื่อทบทวนตำแหน่ง [A] ถึง [F] ทั้งหมดได้ทันที",
     "system": "Digestive System",
     "topic": "Stomach Anatomy & Secretions",
     "difficulty": "Hard",
@@ -777,15 +1465,58 @@ export const digestiveQuestions: Question[] = [
       "pernicious-anemia",
       "gastrectomy",
       "intrinsic-factor",
-      "vitamin-b12"
+      "vitamin-b12",
+      "has-diagram",
+      "diagram-stomach_anatomy"
     ],
     "createdAt": "2026-10-24",
     "updatedAt": "2026-10-24",
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "imageUrl": "/images/anatomy/stomach_anatomy_exam.svg",
+    "labeledImageUrl": "/images/anatomy/stomach_anatomy_labeled.svg",
+    "imageCaption": "Stomach Regions, Three Muscular Layers & Gastric Gland Cells — กายวิภาคกระเพาะอาหาร 4 ส่วน กล้ามเนื้อ 3 ชั้น และเซลล์ต่อมกระเพาะอาหาร",
+    "imageLabels": [
+      {
+        "pin": "A",
+        "term": "Fundus of Stomach",
+        "thaiName": "กระเปาะส่วนบนสุดโค้งอยู่เหนือระดับ Cardia",
+        "description": "ตำแหน่ง [A] คือ Fundus of Stomach — กระเปาะส่วนบนสุดโค้งอยู่เหนือระดับ Cardia"
+      },
+      {
+        "pin": "B",
+        "term": "Gastric Rugae & 3 Muscle Layers",
+        "thaiName": "รอยพับเยื่อเมือก Rugae และกล้ามเนื้อเรียบ 3 ชั้น (มี Inner oblique)",
+        "description": "ตำแหน่ง [B] คือ Gastric Rugae & 3 Muscle Layers — รอยพับเยื่อเมือก Rugae และกล้ามเนื้อเรียบ 3 ชั้น (มี Inner oblique)"
+      },
+      {
+        "pin": "C",
+        "term": "Pyloric Sphincter",
+        "thaiName": "หูรูดไพโลริก (ควบคุมการปล่อย Chyme ลงสู่ Duodenum)",
+        "description": "ตำแหน่ง [C] คือ Pyloric Sphincter — หูรูดไพโลริก (ควบคุมการปล่อย Chyme ลงสู่ Duodenum)"
+      },
+      {
+        "pin": "D",
+        "term": "Parietal (Oxyntic) Cells",
+        "thaiName": "หลั่งกรด HCl และ Intrinsic Factor (ช่วยดูดซึม B12)",
+        "description": "ตำแหน่ง [D] คือ Parietal (Oxyntic) Cells — หลั่งกรด HCl และ Intrinsic Factor (ช่วยดูดซึม B12)"
+      },
+      {
+        "pin": "E",
+        "term": "Chief (Zymogenic) Cells",
+        "thaiName": "หลั่งเอนไซม์ตั้งต้น Pepsinogen และ Gastric lipase",
+        "description": "ตำแหน่ง [E] คือ Chief (Zymogenic) Cells — หลั่งเอนไซม์ตั้งต้น Pepsinogen และ Gastric lipase"
+      },
+      {
+        "pin": "F",
+        "term": "Enteroendocrine G Cells",
+        "thaiName": "หลั่งฮอร์โมน Gastrin เข้าสู่กระแสเลือดไปกระตุ้นการหลั่งกรด",
+        "description": "ตำแหน่ง [F] คือ Enteroendocrine G Cells — หลั่งฮอร์โมน Gastrin เข้าสู่กระแสเลือดไปกระตุ้นการหลั่งกรด"
+      }
+    ]
   },
   {
     "id": "DIGEST-032",
-    "questionText": "เซลล์ชนิด Chief cells (Peptic/Zymogenic cells) ในต่อมกระเพาะอาหารทำหน้าที่สร้างและหลั่งสารตั้งต้นของเอนไซม์ชนิดใด และสารนี้จะถูกกระตุ้นให้เปลี่ยนเป็นเอนไซม์ที่ทำงานได้ด้วยปัจจัยใด?",
+    "questionText": "[🖼️ ข้อสอบวิเคราะห์ภาพประกอบกายวิภาค — พิจารณาแผนภาพและจุดชี้ตำแหน่ง [A]–[F] โดยเฉพาะบริเวณตำแหน่ง [E]] เซลล์ชนิด Chief cells (Peptic/Zymogenic cells) ในต่อมกระเพาะอาหารทำหน้าที่สร้างและหลั่งสารตั้งต้นของเอนไซม์ชนิดใด และสารนี้จะถูกกระตุ้นให้เปลี่ยนเป็นเอนไซม์ที่ทำงานได้ด้วยปัจจัยใด?",
     "options": {
       "A": "หลั่ง Lipase ซึ่งกระตุ้นด้วยน้ำดี",
       "B": "หลั่ง Trypsinogen ซึ่งกระตุ้นด้วย Enterokinase",
@@ -793,7 +1524,7 @@ export const digestiveQuestions: Question[] = [
       "D": "หลั่ง Pepsinogen ซึ่งจะถูกกระตุ้นให้เปลี่ยนเป็น Active Pepsin โดยกรดไฮโดรคลอริก (HCl) ที่มีสภาวะเป็นกรดจัด"
     },
     "correctOption": "D",
-    "explanation": "Chief cells อยู่ที่ฐานของ Gastric glands ย้อมติดสีม่วงเข้ม (Basophilic) ทำหน้าที่หลั่งเอนไซม์ที่ยังไม่ทำงาน (Proenzyme) คือ Pepsinogen และ Gastric lipase เมื่อ Pepsinogen สัมผัสกับกรด HCl ในลูเมนของกระเพาะอาหาร จะถูกตัดสายเปปไทด์กลายเป็นเอนไซม์ Pepsin ที่ทำงานย่อยโปรตีนได้อย่างเต็มที่",
+    "explanation": "Chief cells อยู่ที่ฐานของ Gastric glands ย้อมติดสีม่วงเข้ม (Basophilic) ทำหน้าที่หลั่งเอนไซม์ที่ยังไม่ทำงาน (Proenzyme) คือ Pepsinogen และ Gastric lipase เมื่อ Pepsinogen สัมผัสกับกรด HCl ในลูเมนของกระเพาะอาหาร จะถูกตัดสายเปปไทด์กลายเป็นเอนไซม์ Pepsin ที่ทำงานย่อยโปรตีนได้อย่างเต็มที่\n\n📌 สรุปจุดชี้ตำแหน่งในภาพประกอบ (Stomach Regions, Three Muscular Layers & Gastric Gland Cells): จุดที่เกี่ยวข้องโดยตรงกับข้อนี้คือตำแหน่ง [E] (Chief (Zymogenic) Cells — หลั่งเอนไซม์ตั้งต้น Pepsinogen และ Gastric lipase) สามารถกดสลับดู \"ภาพเฉลยครบทุกจุด (Master Labeled Diagram)\" ด้านบนเพื่อทบทวนตำแหน่ง [A] ถึง [F] ทั้งหมดได้ทันที",
     "system": "Digestive System",
     "topic": "Stomach Anatomy & Secretions",
     "difficulty": "Medium",
@@ -803,11 +1534,54 @@ export const digestiveQuestions: Question[] = [
       "chief-cells",
       "pepsinogen",
       "pepsin",
-      "zymogen"
+      "zymogen",
+      "has-diagram",
+      "diagram-stomach_anatomy"
     ],
     "createdAt": "2026-10-24",
     "updatedAt": "2026-10-24",
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "imageUrl": "/images/anatomy/stomach_anatomy_exam.svg",
+    "labeledImageUrl": "/images/anatomy/stomach_anatomy_labeled.svg",
+    "imageCaption": "Stomach Regions, Three Muscular Layers & Gastric Gland Cells — กายวิภาคกระเพาะอาหาร 4 ส่วน กล้ามเนื้อ 3 ชั้น และเซลล์ต่อมกระเพาะอาหาร",
+    "imageLabels": [
+      {
+        "pin": "A",
+        "term": "Fundus of Stomach",
+        "thaiName": "กระเปาะส่วนบนสุดโค้งอยู่เหนือระดับ Cardia",
+        "description": "ตำแหน่ง [A] คือ Fundus of Stomach — กระเปาะส่วนบนสุดโค้งอยู่เหนือระดับ Cardia"
+      },
+      {
+        "pin": "B",
+        "term": "Gastric Rugae & 3 Muscle Layers",
+        "thaiName": "รอยพับเยื่อเมือก Rugae และกล้ามเนื้อเรียบ 3 ชั้น (มี Inner oblique)",
+        "description": "ตำแหน่ง [B] คือ Gastric Rugae & 3 Muscle Layers — รอยพับเยื่อเมือก Rugae และกล้ามเนื้อเรียบ 3 ชั้น (มี Inner oblique)"
+      },
+      {
+        "pin": "C",
+        "term": "Pyloric Sphincter",
+        "thaiName": "หูรูดไพโลริก (ควบคุมการปล่อย Chyme ลงสู่ Duodenum)",
+        "description": "ตำแหน่ง [C] คือ Pyloric Sphincter — หูรูดไพโลริก (ควบคุมการปล่อย Chyme ลงสู่ Duodenum)"
+      },
+      {
+        "pin": "D",
+        "term": "Parietal (Oxyntic) Cells",
+        "thaiName": "หลั่งกรด HCl และ Intrinsic Factor (ช่วยดูดซึม B12)",
+        "description": "ตำแหน่ง [D] คือ Parietal (Oxyntic) Cells — หลั่งกรด HCl และ Intrinsic Factor (ช่วยดูดซึม B12)"
+      },
+      {
+        "pin": "E",
+        "term": "Chief (Zymogenic) Cells",
+        "thaiName": "หลั่งเอนไซม์ตั้งต้น Pepsinogen และ Gastric lipase",
+        "description": "ตำแหน่ง [E] คือ Chief (Zymogenic) Cells — หลั่งเอนไซม์ตั้งต้น Pepsinogen และ Gastric lipase"
+      },
+      {
+        "pin": "F",
+        "term": "Enteroendocrine G Cells",
+        "thaiName": "หลั่งฮอร์โมน Gastrin เข้าสู่กระแสเลือดไปกระตุ้นการหลั่งกรด",
+        "description": "ตำแหน่ง [F] คือ Enteroendocrine G Cells — หลั่งฮอร์โมน Gastrin เข้าสู่กระแสเลือดไปกระตุ้นการหลั่งกรด"
+      }
+    ]
   },
   {
     "id": "DIGEST-033",
@@ -837,7 +1611,7 @@ export const digestiveQuestions: Question[] = [
   },
   {
     "id": "DIGEST-034",
-    "questionText": "กลไกทางกายวิภาคและสรีรวิทยาที่สำคัญที่สุดที่ป้องกันไม่ให้กรดไฮโดรคลอริกและเอนไซม์เปปซินย่อยทำลายผนังกระเพาะอาหารของตนเอง (Gastric mucosal barrier) ประกอบด้วยปัจจัยใดบ้าง?",
+    "questionText": "[🖼️ ข้อสอบวิเคราะห์ภาพประกอบกายวิภาค — พิจารณาแผนภาพและจุดชี้ตำแหน่ง [A]–[F] โดยเฉพาะบริเวณตำแหน่ง [F]] กลไกทางกายวิภาคและสรีรวิทยาที่สำคัญที่สุดที่ป้องกันไม่ให้กรดไฮโดรคลอริกและเอนไซม์เปปซินย่อยทำลายผนังกระเพาะอาหารของตนเอง (Gastric mucosal barrier) ประกอบด้วยปัจจัยใดบ้าง?",
     "options": {
       "A": "การมีชั้นกระดูกอ่อนโปร่งแสงคั่นกลาง",
       "B": "ชั้นเมือกเจลที่มีไบคาร์บอเนตเคลือบผิว (Mucus-bicarbonate barrier), รอยต่อระหว่างเซลล์ที่แนบสนิท (Tight junctions), และการไหลเวียนเลือดที่สมบูรณ์ช่วยผลัดเปลี่ยนเซลล์ใหม่อย่างรวดเร็ว",
@@ -845,7 +1619,7 @@ export const digestiveQuestions: Question[] = [
       "D": "การมีชั้นกล้ามเนื้อลายหนาแน่นสะท้อนกรดออกไป"
     },
     "correctOption": "B",
-    "explanation": "Gastric mucosal barrier ประกอบด้วย 3 องค์ประกอบหลัก: 1. Insoluble mucus gel หนาที่มีด่าง Bicarbonate (HCO3-) ดักจับกรดไว้ที่ผิว 2. Tight junctions ระหว่างเซลล์บุผิวป้องกันไม่ให้กรดรั่วซึมลงสู่ชั้นล่าง 3. Prostaglandins และ Rich mucosal microcirculation ช่วยซ่อมแซมและผลัดเปลี่ยนเซลล์ใหม่ทุกๆ 3-5 วัน",
+    "explanation": "Gastric mucosal barrier ประกอบด้วย 3 องค์ประกอบหลัก: 1. Insoluble mucus gel หนาที่มีด่าง Bicarbonate (HCO3-) ดักจับกรดไว้ที่ผิว 2. Tight junctions ระหว่างเซลล์บุผิวป้องกันไม่ให้กรดรั่วซึมลงสู่ชั้นล่าง 3. Prostaglandins และ Rich mucosal microcirculation ช่วยซ่อมแซมและผลัดเปลี่ยนเซลล์ใหม่ทุกๆ 3-5 วัน\n\n📌 สรุปจุดชี้ตำแหน่งในภาพประกอบ (Stomach Regions, Three Muscular Layers & Gastric Gland Cells): จุดที่เกี่ยวข้องโดยตรงกับข้อนี้คือตำแหน่ง [F] (Enteroendocrine G Cells — หลั่งฮอร์โมน Gastrin เข้าสู่กระแสเลือดไปกระตุ้นการหลั่งกรด) สามารถกดสลับดู \"ภาพเฉลยครบทุกจุด (Master Labeled Diagram)\" ด้านบนเพื่อทบทวนตำแหน่ง [A] ถึง [F] ทั้งหมดได้ทันที",
     "system": "Digestive System",
     "topic": "Stomach Anatomy & Secretions",
     "difficulty": "Hard",
@@ -855,11 +1629,54 @@ export const digestiveQuestions: Question[] = [
       "mucosal-barrier",
       "tight-junctions",
       "bicarbonate",
-      "peptic-ulcer"
+      "peptic-ulcer",
+      "has-diagram",
+      "diagram-stomach_anatomy"
     ],
     "createdAt": "2026-10-24",
     "updatedAt": "2026-10-24",
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "imageUrl": "/images/anatomy/stomach_anatomy_exam.svg",
+    "labeledImageUrl": "/images/anatomy/stomach_anatomy_labeled.svg",
+    "imageCaption": "Stomach Regions, Three Muscular Layers & Gastric Gland Cells — กายวิภาคกระเพาะอาหาร 4 ส่วน กล้ามเนื้อ 3 ชั้น และเซลล์ต่อมกระเพาะอาหาร",
+    "imageLabels": [
+      {
+        "pin": "A",
+        "term": "Fundus of Stomach",
+        "thaiName": "กระเปาะส่วนบนสุดโค้งอยู่เหนือระดับ Cardia",
+        "description": "ตำแหน่ง [A] คือ Fundus of Stomach — กระเปาะส่วนบนสุดโค้งอยู่เหนือระดับ Cardia"
+      },
+      {
+        "pin": "B",
+        "term": "Gastric Rugae & 3 Muscle Layers",
+        "thaiName": "รอยพับเยื่อเมือก Rugae และกล้ามเนื้อเรียบ 3 ชั้น (มี Inner oblique)",
+        "description": "ตำแหน่ง [B] คือ Gastric Rugae & 3 Muscle Layers — รอยพับเยื่อเมือก Rugae และกล้ามเนื้อเรียบ 3 ชั้น (มี Inner oblique)"
+      },
+      {
+        "pin": "C",
+        "term": "Pyloric Sphincter",
+        "thaiName": "หูรูดไพโลริก (ควบคุมการปล่อย Chyme ลงสู่ Duodenum)",
+        "description": "ตำแหน่ง [C] คือ Pyloric Sphincter — หูรูดไพโลริก (ควบคุมการปล่อย Chyme ลงสู่ Duodenum)"
+      },
+      {
+        "pin": "D",
+        "term": "Parietal (Oxyntic) Cells",
+        "thaiName": "หลั่งกรด HCl และ Intrinsic Factor (ช่วยดูดซึม B12)",
+        "description": "ตำแหน่ง [D] คือ Parietal (Oxyntic) Cells — หลั่งกรด HCl และ Intrinsic Factor (ช่วยดูดซึม B12)"
+      },
+      {
+        "pin": "E",
+        "term": "Chief (Zymogenic) Cells",
+        "thaiName": "หลั่งเอนไซม์ตั้งต้น Pepsinogen และ Gastric lipase",
+        "description": "ตำแหน่ง [E] คือ Chief (Zymogenic) Cells — หลั่งเอนไซม์ตั้งต้น Pepsinogen และ Gastric lipase"
+      },
+      {
+        "pin": "F",
+        "term": "Enteroendocrine G Cells",
+        "thaiName": "หลั่งฮอร์โมน Gastrin เข้าสู่กระแสเลือดไปกระตุ้นการหลั่งกรด",
+        "description": "ตำแหน่ง [F] คือ Enteroendocrine G Cells — หลั่งฮอร์โมน Gastrin เข้าสู่กระแสเลือดไปกระตุ้นการหลั่งกรด"
+      }
+    ]
   },
   {
     "id": "DIGEST-035",
@@ -914,7 +1731,7 @@ export const digestiveQuestions: Question[] = [
   },
   {
     "id": "DIGEST-037",
-    "questionText": "โครงสร้างทางจุลกายวิภาคที่พบได้เฉพาะในชั้นใต้เยื่อเมือก (Submucosa) ของลำไส้เล็กส่วน Duodenum เท่านั้น แต่ไม่พบใน Jejunum และ Ileum ทำหน้าที่หลั่งเมือกด่างเข้มข้นเพื่อปรับกรดจากกระเพาะอาหาร คือโครงสร้างใด?",
+    "questionText": "[🖼️ ข้อสอบวิเคราะห์ภาพประกอบกายวิภาค — พิจารณาแผนภาพและจุดชี้ตำแหน่ง [A]–[F] โดยเฉพาะบริเวณตำแหน่ง [B]] โครงสร้างทางจุลกายวิภาคที่พบได้เฉพาะในชั้นใต้เยื่อเมือก (Submucosa) ของลำไส้เล็กส่วน Duodenum เท่านั้น แต่ไม่พบใน Jejunum และ Ileum ทำหน้าที่หลั่งเมือกด่างเข้มข้นเพื่อปรับกรดจากกระเพาะอาหาร คือโครงสร้างใด?",
     "options": {
       "A": "Brunner's glands (Duodenal glands)",
       "B": "Peyer's patches",
@@ -922,7 +1739,7 @@ export const digestiveQuestions: Question[] = [
       "D": "Islets of Langerhans"
     },
     "correctOption": "A",
-    "explanation": "Brunner's glands (Duodenal glands) เป็นต่อมท่อขดในชั้น Submucosa ที่พบเฉพาะใน Duodenum ทำหน้าที่หลั่งของเหลวเมือกที่เป็นด่างสูง (Bicarbonate-rich mucus, pH 8.1 - 9.3) เพื่อสะเทินกรด HCl จาก Chyme ที่ผ่านลงมาจากกระเพาะอาหาร ปกป้องเยื่อบุลำไส้ไม่ให้เกิดแผลดูโอดีนัม (Duodenal ulcer)",
+    "explanation": "Brunner's glands (Duodenal glands) เป็นต่อมท่อขดในชั้น Submucosa ที่พบเฉพาะใน Duodenum ทำหน้าที่หลั่งของเหลวเมือกที่เป็นด่างสูง (Bicarbonate-rich mucus, pH 8.1 - 9.3) เพื่อสะเทินกรด HCl จาก Chyme ที่ผ่านลงมาจากกระเพาะอาหาร ปกป้องเยื่อบุลำไส้ไม่ให้เกิดแผลดูโอดีนัม (Duodenal ulcer)\n\n📌 สรุปจุดชี้ตำแหน่งในภาพประกอบ (Small Intestine Villi/Submucosa & Large Intestine Anatomy): จุดที่เกี่ยวข้องโดยตรงกับข้อนี้คือตำแหน่ง [B] (Brunner's Glands (Duodenum Submucosa) — ต่อมบรุนเนอร์ในชั้น Submucosa ของ Duodenum (หลั่งเมือกด่าง)) สามารถกดสลับดู \"ภาพเฉลยครบทุกจุด (Master Labeled Diagram)\" ด้านบนเพื่อทบทวนตำแหน่ง [A] ถึง [F] ทั้งหมดได้ทันที",
     "system": "Digestive System",
     "topic": "Small Intestine Anatomy",
     "difficulty": "Hard",
@@ -931,11 +1748,54 @@ export const digestiveQuestions: Question[] = [
     "tags": [
       "brunners-glands",
       "duodenum-submucosa",
-      "bicarbonate-mucus"
+      "bicarbonate-mucus",
+      "has-diagram",
+      "diagram-small_large_intestine"
     ],
     "createdAt": "2026-10-24",
     "updatedAt": "2026-10-24",
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "imageUrl": "/images/anatomy/small_large_intestine_exam.svg",
+    "labeledImageUrl": "/images/anatomy/small_large_intestine_labeled.svg",
+    "imageCaption": "Small Intestine Villi/Submucosa & Large Intestine Anatomy — เปรียบเทียบลำไส้เล็ก (Villi, Lacteals, Peyer's patches) และลำไส้ใหญ่ (Taeniae coli, Appendix)",
+    "imageLabels": [
+      {
+        "pin": "A",
+        "term": "Villus & Central Lacteal",
+        "thaiName": "วิลไลและหลอดน้ำเหลือง Lacteal (ดูดซึมไขมัน Chylomicrons)",
+        "description": "ตำแหน่ง [A] คือ Villus & Central Lacteal — วิลไลและหลอดน้ำเหลือง Lacteal (ดูดซึมไขมัน Chylomicrons)"
+      },
+      {
+        "pin": "B",
+        "term": "Brunner's Glands (Duodenum Submucosa)",
+        "thaiName": "ต่อมบรุนเนอร์ในชั้น Submucosa ของ Duodenum (หลั่งเมือกด่าง)",
+        "description": "ตำแหน่ง [B] คือ Brunner's Glands (Duodenum Submucosa) — ต่อมบรุนเนอร์ในชั้น Submucosa ของ Duodenum (หลั่งเมือกด่าง)"
+      },
+      {
+        "pin": "C",
+        "term": "Peyer's Patches (Ileum Submucosa)",
+        "thaiName": "กลุ่มเนื้อเยื่อน้ำเหลือง MALT หนาแน่นในลำไส้เล็กส่วน Ileum",
+        "description": "ตำแหน่ง [C] คือ Peyer's Patches (Ileum Submucosa) — กลุ่มเนื้อเยื่อน้ำเหลือง MALT หนาแน่นในลำไส้เล็กส่วน Ileum"
+      },
+      {
+        "pin": "D",
+        "term": "Taeniae Coli & Haustra",
+        "thaiName": "แถบกล้ามเนื้อแนวยาว 3 แถบ ดึงให้ลำไส้ใหญ่โป่งเป็นกระพุ้ง Haustra",
+        "description": "ตำแหน่ง [D] คือ Taeniae Coli & Haustra — แถบกล้ามเนื้อแนวยาว 3 แถบ ดึงให้ลำไส้ใหญ่โป่งเป็นกระพุ้ง Haustra"
+      },
+      {
+        "pin": "E",
+        "term": "Ileocecal Valve & Cecum",
+        "thaiName": "ลิ้นกั้นระหว่าง Ileum กับ Cecum ป้องกันแบคทีเรียไหลย้อนกลับ",
+        "description": "ตำแหน่ง [E] คือ Ileocecal Valve & Cecum — ลิ้นกั้นระหว่าง Ileum กับ Cecum ป้องกันแบคทีเรียไหลย้อนกลับ"
+      },
+      {
+        "pin": "F",
+        "term": "Vermiform Appendix (McBurney's Point)",
+        "thaiName": "ไส้ติ่ง (โคนอยู่จุดรวม Taeniae coli ตรงกับ McBurney's point)",
+        "description": "ตำแหน่ง [F] คือ Vermiform Appendix (McBurney's Point) — ไส้ติ่ง (โคนอยู่จุดรวม Taeniae coli ตรงกับ McBurney's point)"
+      }
+    ]
   },
   {
     "id": "DIGEST-038",
@@ -964,7 +1824,7 @@ export const digestiveQuestions: Question[] = [
   },
   {
     "id": "DIGEST-039",
-    "questionText": "กล้ามเนื้อหูรูดที่ล้อมรอบทางออกของ Hepatopancreatic ampulla ทำหน้าที่ควบคุมการไหลของน้ำดีและน้ำย่อยจากตับอ่อนเข้าสู่ลำไส้เล็ก และป้องกันการไหลย้อนกลับคือกล้ามเนื้อหูรูดใด?",
+    "questionText": "[🖼️ ข้อสอบวิเคราะห์ภาพประกอบกายวิภาค — พิจารณาแผนภาพและจุดชี้ตำแหน่ง [A]–[F] โดยเฉพาะบริเวณตำแหน่ง [C]] กล้ามเนื้อหูรูดที่ล้อมรอบทางออกของ Hepatopancreatic ampulla ทำหน้าที่ควบคุมการไหลของน้ำดีและน้ำย่อยจากตับอ่อนเข้าสู่ลำไส้เล็ก และป้องกันการไหลย้อนกลับคือกล้ามเนื้อหูรูดใด?",
     "options": {
       "A": "Ileocecal sphincter",
       "B": "Pyloric sphincter",
@@ -972,7 +1832,7 @@ export const digestiveQuestions: Question[] = [
       "D": "Lower esophageal sphincter"
     },
     "correctOption": "C",
-    "explanation": "Sphincter of Oddi เป็นมัดกล้ามเนื้อเรียบวงแหวนล้อมรอบ Ampulla of Vater ปกติจะหดเกร็งปิดไว้ แต่เมื่ออาหารที่มีไขมันและกรดอะมิโนเข้าสู่ Duodenum จะกระตุ้นการหลั่งฮอร์โมน Cholecystokinin (CCK) ส่งผลให้ Sphincter of Oddi คลายตัว เปิดทางให้น้ำดีและน้ำย่อยตับอ่อนพุ่งเข้าสู่ลำไส้เล็ก",
+    "explanation": "Sphincter of Oddi เป็นมัดกล้ามเนื้อเรียบวงแหวนล้อมรอบ Ampulla of Vater ปกติจะหดเกร็งปิดไว้ แต่เมื่ออาหารที่มีไขมันและกรดอะมิโนเข้าสู่ Duodenum จะกระตุ้นการหลั่งฮอร์โมน Cholecystokinin (CCK) ส่งผลให้ Sphincter of Oddi คลายตัว เปิดทางให้น้ำดีและน้ำย่อยตับอ่อนพุ่งเข้าสู่ลำไส้เล็ก\n\n📌 สรุปจุดชี้ตำแหน่งในภาพประกอบ (Small Intestine Villi/Submucosa & Large Intestine Anatomy): จุดที่เกี่ยวข้องโดยตรงกับข้อนี้คือตำแหน่ง [C] (Peyer's Patches (Ileum Submucosa) — กลุ่มเนื้อเยื่อน้ำเหลือง MALT หนาแน่นในลำไส้เล็กส่วน Ileum) สามารถกดสลับดู \"ภาพเฉลยครบทุกจุด (Master Labeled Diagram)\" ด้านบนเพื่อทบทวนตำแหน่ง [A] ถึง [F] ทั้งหมดได้ทันที",
     "system": "Digestive System",
     "topic": "Small Intestine Anatomy",
     "difficulty": "Medium",
@@ -981,11 +1841,54 @@ export const digestiveQuestions: Question[] = [
     "tags": [
       "sphincter-of-oddi",
       "cck",
-      "bile-flow"
+      "bile-flow",
+      "has-diagram",
+      "diagram-small_large_intestine"
     ],
     "createdAt": "2026-10-24",
     "updatedAt": "2026-10-24",
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "imageUrl": "/images/anatomy/small_large_intestine_exam.svg",
+    "labeledImageUrl": "/images/anatomy/small_large_intestine_labeled.svg",
+    "imageCaption": "Small Intestine Villi/Submucosa & Large Intestine Anatomy — เปรียบเทียบลำไส้เล็ก (Villi, Lacteals, Peyer's patches) และลำไส้ใหญ่ (Taeniae coli, Appendix)",
+    "imageLabels": [
+      {
+        "pin": "A",
+        "term": "Villus & Central Lacteal",
+        "thaiName": "วิลไลและหลอดน้ำเหลือง Lacteal (ดูดซึมไขมัน Chylomicrons)",
+        "description": "ตำแหน่ง [A] คือ Villus & Central Lacteal — วิลไลและหลอดน้ำเหลือง Lacteal (ดูดซึมไขมัน Chylomicrons)"
+      },
+      {
+        "pin": "B",
+        "term": "Brunner's Glands (Duodenum Submucosa)",
+        "thaiName": "ต่อมบรุนเนอร์ในชั้น Submucosa ของ Duodenum (หลั่งเมือกด่าง)",
+        "description": "ตำแหน่ง [B] คือ Brunner's Glands (Duodenum Submucosa) — ต่อมบรุนเนอร์ในชั้น Submucosa ของ Duodenum (หลั่งเมือกด่าง)"
+      },
+      {
+        "pin": "C",
+        "term": "Peyer's Patches (Ileum Submucosa)",
+        "thaiName": "กลุ่มเนื้อเยื่อน้ำเหลือง MALT หนาแน่นในลำไส้เล็กส่วน Ileum",
+        "description": "ตำแหน่ง [C] คือ Peyer's Patches (Ileum Submucosa) — กลุ่มเนื้อเยื่อน้ำเหลือง MALT หนาแน่นในลำไส้เล็กส่วน Ileum"
+      },
+      {
+        "pin": "D",
+        "term": "Taeniae Coli & Haustra",
+        "thaiName": "แถบกล้ามเนื้อแนวยาว 3 แถบ ดึงให้ลำไส้ใหญ่โป่งเป็นกระพุ้ง Haustra",
+        "description": "ตำแหน่ง [D] คือ Taeniae Coli & Haustra — แถบกล้ามเนื้อแนวยาว 3 แถบ ดึงให้ลำไส้ใหญ่โป่งเป็นกระพุ้ง Haustra"
+      },
+      {
+        "pin": "E",
+        "term": "Ileocecal Valve & Cecum",
+        "thaiName": "ลิ้นกั้นระหว่าง Ileum กับ Cecum ป้องกันแบคทีเรียไหลย้อนกลับ",
+        "description": "ตำแหน่ง [E] คือ Ileocecal Valve & Cecum — ลิ้นกั้นระหว่าง Ileum กับ Cecum ป้องกันแบคทีเรียไหลย้อนกลับ"
+      },
+      {
+        "pin": "F",
+        "term": "Vermiform Appendix (McBurney's Point)",
+        "thaiName": "ไส้ติ่ง (โคนอยู่จุดรวม Taeniae coli ตรงกับ McBurney's point)",
+        "description": "ตำแหน่ง [F] คือ Vermiform Appendix (McBurney's Point) — ไส้ติ่ง (โคนอยู่จุดรวม Taeniae coli ตรงกับ McBurney's point)"
+      }
+    ]
   },
   {
     "id": "DIGEST-040",
@@ -1039,7 +1942,7 @@ export const digestiveQuestions: Question[] = [
   },
   {
     "id": "DIGEST-042",
-    "questionText": "โครงสร้างทางกายวิภาค 3 ระดับที่ช่วยเพิ่มพื้นที่ผิวในการย่อยและการดูดซึมสารอาหารของลำไส้เล็กให้กว้างขึ้นถึงกว่า 200-300 ตารางเมตร เรียงลำดับจากขนาดใหญ่ที่เห็นด้วยตาเปล่าลงไปสู่ระดับจุลกายวิภาคคือข้อใด?",
+    "questionText": "[🖼️ ข้อสอบวิเคราะห์ภาพประกอบกายวิภาค — พิจารณาแผนภาพและจุดชี้ตำแหน่ง [A]–[F] โดยเฉพาะบริเวณตำแหน่ง [A]] โครงสร้างทางกายวิภาค 3 ระดับที่ช่วยเพิ่มพื้นที่ผิวในการย่อยและการดูดซึมสารอาหารของลำไส้เล็กให้กว้างขึ้นถึงกว่า 200-300 ตารางเมตร เรียงลำดับจากขนาดใหญ่ที่เห็นด้วยตาเปล่าลงไปสู่ระดับจุลกายวิภาคคือข้อใด?",
     "options": {
       "A": "Rugae -> Haustra -> Taeniae coli",
       "B": "Plicae circulares (Circular folds) -> Villi (วิลไล) -> Microvilli (ไมโครวิลไล / Brush border)",
@@ -1047,7 +1950,7 @@ export const digestiveQuestions: Question[] = [
       "D": "Crypts of Lieberkühn -> Lacteals -> Peyer's patches"
     },
     "correctOption": "B",
-    "explanation": "ลำไส้เล็กเพิ่มพื้นที่ผิวดูดซึม 3 ระดับ: 1. Plicae circulares (วาล์วพับรูปวงกลมถาวร เพิ่มพื้นที่ 3 เท่า) 2. Villi (ส่วนยื่นคล้ายนิ้วมือยาว 0.5-1 มม. เพิ่มพื้นที่ 10 เท่า) 3. Microvilli (ขนเซลล์ขนาดจิ๋วบนผิว Enterocytes รวมกันเป็น Brush border เพิ่มพื้นที่อีก 20 เท่า) รวมกันเพิ่มพื้นที่ผิวกว่า 600 เท่า",
+    "explanation": "ลำไส้เล็กเพิ่มพื้นที่ผิวดูดซึม 3 ระดับ: 1. Plicae circulares (วาล์วพับรูปวงกลมถาวร เพิ่มพื้นที่ 3 เท่า) 2. Villi (ส่วนยื่นคล้ายนิ้วมือยาว 0.5-1 มม. เพิ่มพื้นที่ 10 เท่า) 3. Microvilli (ขนเซลล์ขนาดจิ๋วบนผิว Enterocytes รวมกันเป็น Brush border เพิ่มพื้นที่อีก 20 เท่า) รวมกันเพิ่มพื้นที่ผิวกว่า 600 เท่า\n\n📌 สรุปจุดชี้ตำแหน่งในภาพประกอบ (Small Intestine Villi/Submucosa & Large Intestine Anatomy): จุดที่เกี่ยวข้องโดยตรงกับข้อนี้คือตำแหน่ง [A] (Villus & Central Lacteal — วิลไลและหลอดน้ำเหลือง Lacteal (ดูดซึมไขมัน Chylomicrons)) สามารถกดสลับดู \"ภาพเฉลยครบทุกจุด (Master Labeled Diagram)\" ด้านบนเพื่อทบทวนตำแหน่ง [A] ถึง [F] ทั้งหมดได้ทันที",
     "system": "Digestive System",
     "topic": "Small Intestine Anatomy",
     "difficulty": "Medium",
@@ -1057,11 +1960,54 @@ export const digestiveQuestions: Question[] = [
       "plicae-circulares",
       "villi",
       "microvilli",
-      "surface-area-expansion"
+      "surface-area-expansion",
+      "has-diagram",
+      "diagram-small_large_intestine"
     ],
     "createdAt": "2026-10-24",
     "updatedAt": "2026-10-24",
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "imageUrl": "/images/anatomy/small_large_intestine_exam.svg",
+    "labeledImageUrl": "/images/anatomy/small_large_intestine_labeled.svg",
+    "imageCaption": "Small Intestine Villi/Submucosa & Large Intestine Anatomy — เปรียบเทียบลำไส้เล็ก (Villi, Lacteals, Peyer's patches) และลำไส้ใหญ่ (Taeniae coli, Appendix)",
+    "imageLabels": [
+      {
+        "pin": "A",
+        "term": "Villus & Central Lacteal",
+        "thaiName": "วิลไลและหลอดน้ำเหลือง Lacteal (ดูดซึมไขมัน Chylomicrons)",
+        "description": "ตำแหน่ง [A] คือ Villus & Central Lacteal — วิลไลและหลอดน้ำเหลือง Lacteal (ดูดซึมไขมัน Chylomicrons)"
+      },
+      {
+        "pin": "B",
+        "term": "Brunner's Glands (Duodenum Submucosa)",
+        "thaiName": "ต่อมบรุนเนอร์ในชั้น Submucosa ของ Duodenum (หลั่งเมือกด่าง)",
+        "description": "ตำแหน่ง [B] คือ Brunner's Glands (Duodenum Submucosa) — ต่อมบรุนเนอร์ในชั้น Submucosa ของ Duodenum (หลั่งเมือกด่าง)"
+      },
+      {
+        "pin": "C",
+        "term": "Peyer's Patches (Ileum Submucosa)",
+        "thaiName": "กลุ่มเนื้อเยื่อน้ำเหลือง MALT หนาแน่นในลำไส้เล็กส่วน Ileum",
+        "description": "ตำแหน่ง [C] คือ Peyer's Patches (Ileum Submucosa) — กลุ่มเนื้อเยื่อน้ำเหลือง MALT หนาแน่นในลำไส้เล็กส่วน Ileum"
+      },
+      {
+        "pin": "D",
+        "term": "Taeniae Coli & Haustra",
+        "thaiName": "แถบกล้ามเนื้อแนวยาว 3 แถบ ดึงให้ลำไส้ใหญ่โป่งเป็นกระพุ้ง Haustra",
+        "description": "ตำแหน่ง [D] คือ Taeniae Coli & Haustra — แถบกล้ามเนื้อแนวยาว 3 แถบ ดึงให้ลำไส้ใหญ่โป่งเป็นกระพุ้ง Haustra"
+      },
+      {
+        "pin": "E",
+        "term": "Ileocecal Valve & Cecum",
+        "thaiName": "ลิ้นกั้นระหว่าง Ileum กับ Cecum ป้องกันแบคทีเรียไหลย้อนกลับ",
+        "description": "ตำแหน่ง [E] คือ Ileocecal Valve & Cecum — ลิ้นกั้นระหว่าง Ileum กับ Cecum ป้องกันแบคทีเรียไหลย้อนกลับ"
+      },
+      {
+        "pin": "F",
+        "term": "Vermiform Appendix (McBurney's Point)",
+        "thaiName": "ไส้ติ่ง (โคนอยู่จุดรวม Taeniae coli ตรงกับ McBurney's point)",
+        "description": "ตำแหน่ง [F] คือ Vermiform Appendix (McBurney's Point) — ไส้ติ่ง (โคนอยู่จุดรวม Taeniae coli ตรงกับ McBurney's point)"
+      }
+    ]
   },
   {
     "id": "DIGEST-043",
@@ -1116,7 +2062,7 @@ export const digestiveQuestions: Question[] = [
   },
   {
     "id": "DIGEST-045",
-    "questionText": "ลำไส้เล็กส่วนปลาย ไอเลียม (Ileum) มีหน้าที่ดูดซึมสารสำคัญชนิดใดที่มีความจำเพาะสูง ซึ่งหากถูกตัดลำไส้ส่วนนี้ออกจะทำให้สารดังกล่าวไม่สามารถดูดซึมกลับเข้าสู่ร่างกายได้?",
+    "questionText": "[🖼️ ข้อสอบวิเคราะห์ภาพประกอบกายวิภาค — พิจารณาแผนภาพและจุดชี้ตำแหน่ง [A]–[F] โดยเฉพาะบริเวณตำแหน่ง [E]] ลำไส้เล็กส่วนปลาย ไอเลียม (Ileum) มีหน้าที่ดูดซึมสารสำคัญชนิดใดที่มีความจำเพาะสูง ซึ่งหากถูกตัดลำไส้ส่วนนี้ออกจะทำให้สารดังกล่าวไม่สามารถดูดซึมกลับเข้าสู่ร่างกายได้?",
     "options": {
       "A": "วิตามิน B12 (ที่จับกับ Intrinsic factor) และเกลือน้ำดี (Bile salts ผ่านกลไก Enterohepatic circulation)",
       "B": "ธาตุเหล็ก (Iron) และแคลเซียม",
@@ -1124,7 +2070,7 @@ export const digestiveQuestions: Question[] = [
       "D": "ก๊าซออกซิเจนและไนโตรเจน"
     },
     "correctOption": "A",
-    "explanation": "Terminal ileum มีบทบาทจำเพาะยิ่งยวด 2 ประการ: 1. ดูดซึม Vitamin B12-Intrinsic Factor complex 2. ดูดซึม Bile salts กลับคืนสู่ตับ (ประมาณ 95% ของน้ำดีถูกดูดกลับที่นี่ในกระบวนการ Enterohepatic circulation) หากตัด Ileum ออก ผู้ป่วยจะขาด B12 ท้องเสียเรื้อรัง และขาดวิตามินที่ละลายในไขมัน",
+    "explanation": "Terminal ileum มีบทบาทจำเพาะยิ่งยวด 2 ประการ: 1. ดูดซึม Vitamin B12-Intrinsic Factor complex 2. ดูดซึม Bile salts กลับคืนสู่ตับ (ประมาณ 95% ของน้ำดีถูกดูดกลับที่นี่ในกระบวนการ Enterohepatic circulation) หากตัด Ileum ออก ผู้ป่วยจะขาด B12 ท้องเสียเรื้อรัง และขาดวิตามินที่ละลายในไขมัน\n\n📌 สรุปจุดชี้ตำแหน่งในภาพประกอบ (Small Intestine Villi/Submucosa & Large Intestine Anatomy): จุดที่เกี่ยวข้องโดยตรงกับข้อนี้คือตำแหน่ง [E] (Ileocecal Valve & Cecum — ลิ้นกั้นระหว่าง Ileum กับ Cecum ป้องกันแบคทีเรียไหลย้อนกลับ) สามารถกดสลับดู \"ภาพเฉลยครบทุกจุด (Master Labeled Diagram)\" ด้านบนเพื่อทบทวนตำแหน่ง [A] ถึง [F] ทั้งหมดได้ทันที",
     "system": "Digestive System",
     "topic": "Small Intestine Anatomy",
     "difficulty": "Hard",
@@ -1134,11 +2080,54 @@ export const digestiveQuestions: Question[] = [
       "terminal-ileum",
       "vitamin-b12",
       "bile-salts",
-      "enterohepatic-circulation"
+      "enterohepatic-circulation",
+      "has-diagram",
+      "diagram-small_large_intestine"
     ],
     "createdAt": "2026-10-24",
     "updatedAt": "2026-10-24",
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "imageUrl": "/images/anatomy/small_large_intestine_exam.svg",
+    "labeledImageUrl": "/images/anatomy/small_large_intestine_labeled.svg",
+    "imageCaption": "Small Intestine Villi/Submucosa & Large Intestine Anatomy — เปรียบเทียบลำไส้เล็ก (Villi, Lacteals, Peyer's patches) และลำไส้ใหญ่ (Taeniae coli, Appendix)",
+    "imageLabels": [
+      {
+        "pin": "A",
+        "term": "Villus & Central Lacteal",
+        "thaiName": "วิลไลและหลอดน้ำเหลือง Lacteal (ดูดซึมไขมัน Chylomicrons)",
+        "description": "ตำแหน่ง [A] คือ Villus & Central Lacteal — วิลไลและหลอดน้ำเหลือง Lacteal (ดูดซึมไขมัน Chylomicrons)"
+      },
+      {
+        "pin": "B",
+        "term": "Brunner's Glands (Duodenum Submucosa)",
+        "thaiName": "ต่อมบรุนเนอร์ในชั้น Submucosa ของ Duodenum (หลั่งเมือกด่าง)",
+        "description": "ตำแหน่ง [B] คือ Brunner's Glands (Duodenum Submucosa) — ต่อมบรุนเนอร์ในชั้น Submucosa ของ Duodenum (หลั่งเมือกด่าง)"
+      },
+      {
+        "pin": "C",
+        "term": "Peyer's Patches (Ileum Submucosa)",
+        "thaiName": "กลุ่มเนื้อเยื่อน้ำเหลือง MALT หนาแน่นในลำไส้เล็กส่วน Ileum",
+        "description": "ตำแหน่ง [C] คือ Peyer's Patches (Ileum Submucosa) — กลุ่มเนื้อเยื่อน้ำเหลือง MALT หนาแน่นในลำไส้เล็กส่วน Ileum"
+      },
+      {
+        "pin": "D",
+        "term": "Taeniae Coli & Haustra",
+        "thaiName": "แถบกล้ามเนื้อแนวยาว 3 แถบ ดึงให้ลำไส้ใหญ่โป่งเป็นกระพุ้ง Haustra",
+        "description": "ตำแหน่ง [D] คือ Taeniae Coli & Haustra — แถบกล้ามเนื้อแนวยาว 3 แถบ ดึงให้ลำไส้ใหญ่โป่งเป็นกระพุ้ง Haustra"
+      },
+      {
+        "pin": "E",
+        "term": "Ileocecal Valve & Cecum",
+        "thaiName": "ลิ้นกั้นระหว่าง Ileum กับ Cecum ป้องกันแบคทีเรียไหลย้อนกลับ",
+        "description": "ตำแหน่ง [E] คือ Ileocecal Valve & Cecum — ลิ้นกั้นระหว่าง Ileum กับ Cecum ป้องกันแบคทีเรียไหลย้อนกลับ"
+      },
+      {
+        "pin": "F",
+        "term": "Vermiform Appendix (McBurney's Point)",
+        "thaiName": "ไส้ติ่ง (โคนอยู่จุดรวม Taeniae coli ตรงกับ McBurney's point)",
+        "description": "ตำแหน่ง [F] คือ Vermiform Appendix (McBurney's Point) — ไส้ติ่ง (โคนอยู่จุดรวม Taeniae coli ตรงกับ McBurney's point)"
+      }
+    ]
   },
   {
     "id": "DIGEST-046",
@@ -1269,7 +2258,7 @@ export const digestiveQuestions: Question[] = [
   },
   {
     "id": "DIGEST-051",
-    "questionText": "ลำไส้ใหญ่ (Large Intestine) มีลักษณะโครงสร้างทางกายวิภาคภายนอกที่เด่นชัด 3 ประการซึ่งใช้แยกความแตกต่างจากลำไส้เล็กได้อย่างชัดเจน ข้อใดคือโครงสร้าง 3 ประการดังกล่าว?",
+    "questionText": "[🖼️ ข้อสอบวิเคราะห์ภาพประกอบกายวิภาค — พิจารณาแผนภาพและจุดชี้ตำแหน่ง [A]–[F] โดยเฉพาะบริเวณตำแหน่ง [F]] ลำไส้ใหญ่ (Large Intestine) มีลักษณะโครงสร้างทางกายวิภาคภายนอกที่เด่นชัด 3 ประการซึ่งใช้แยกความแตกต่างจากลำไส้เล็กได้อย่างชัดเจน ข้อใดคือโครงสร้าง 3 ประการดังกล่าว?",
     "options": {
       "A": "Brunner's glands, Peyer's patches, และ Rugae",
       "B": "Villi, Plicae circulares, และ Lacteals",
@@ -1277,7 +2266,7 @@ export const digestiveQuestions: Question[] = [
       "D": "Crypts of Lieberkühn, Microvilli, และ Cilia"
     },
     "correctOption": "C",
-    "explanation": "ลักษณะเฉพาะของลำไส้ใหญ่ (Colon) มี 3 อย่าง: 1. Taeniae coli: การรวมตัวของกล้ามเนื้อเรียบชั้นนอก (Outer longitudinal muscle) เป็นแถบแบน 3 แถบ 2. Haustra: กระเปาะหรือกระพุ้งที่เกิดจากการที่ Taeniae coli สั้นกว่าความยาวลำไส้ 3. Omental/Epiploic appendages: ติ่งถุงเยื่อบุช่องท้องที่บรรจุหย่อมไขมันห้อยตามแนว Taeniae coli",
+    "explanation": "ลักษณะเฉพาะของลำไส้ใหญ่ (Colon) มี 3 อย่าง: 1. Taeniae coli: การรวมตัวของกล้ามเนื้อเรียบชั้นนอก (Outer longitudinal muscle) เป็นแถบแบน 3 แถบ 2. Haustra: กระเปาะหรือกระพุ้งที่เกิดจากการที่ Taeniae coli สั้นกว่าความยาวลำไส้ 3. Omental/Epiploic appendages: ติ่งถุงเยื่อบุช่องท้องที่บรรจุหย่อมไขมันห้อยตามแนว Taeniae coli\n\n📌 สรุปจุดชี้ตำแหน่งในภาพประกอบ (Small Intestine Villi/Submucosa & Large Intestine Anatomy): จุดที่เกี่ยวข้องโดยตรงกับข้อนี้คือตำแหน่ง [F] (Vermiform Appendix (McBurney's Point) — ไส้ติ่ง (โคนอยู่จุดรวม Taeniae coli ตรงกับ McBurney's point)) สามารถกดสลับดู \"ภาพเฉลยครบทุกจุด (Master Labeled Diagram)\" ด้านบนเพื่อทบทวนตำแหน่ง [A] ถึง [F] ทั้งหมดได้ทันที",
     "system": "Digestive System",
     "topic": "Large Intestine Anatomy",
     "difficulty": "Medium",
@@ -1287,15 +2276,58 @@ export const digestiveQuestions: Question[] = [
       "taeniae-coli",
       "haustra",
       "epiploic-appendages",
-      "large-intestine-features"
+      "large-intestine-features",
+      "has-diagram",
+      "diagram-small_large_intestine"
     ],
     "createdAt": "2026-10-24",
     "updatedAt": "2026-10-24",
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "imageUrl": "/images/anatomy/small_large_intestine_exam.svg",
+    "labeledImageUrl": "/images/anatomy/small_large_intestine_labeled.svg",
+    "imageCaption": "Small Intestine Villi/Submucosa & Large Intestine Anatomy — เปรียบเทียบลำไส้เล็ก (Villi, Lacteals, Peyer's patches) และลำไส้ใหญ่ (Taeniae coli, Appendix)",
+    "imageLabels": [
+      {
+        "pin": "A",
+        "term": "Villus & Central Lacteal",
+        "thaiName": "วิลไลและหลอดน้ำเหลือง Lacteal (ดูดซึมไขมัน Chylomicrons)",
+        "description": "ตำแหน่ง [A] คือ Villus & Central Lacteal — วิลไลและหลอดน้ำเหลือง Lacteal (ดูดซึมไขมัน Chylomicrons)"
+      },
+      {
+        "pin": "B",
+        "term": "Brunner's Glands (Duodenum Submucosa)",
+        "thaiName": "ต่อมบรุนเนอร์ในชั้น Submucosa ของ Duodenum (หลั่งเมือกด่าง)",
+        "description": "ตำแหน่ง [B] คือ Brunner's Glands (Duodenum Submucosa) — ต่อมบรุนเนอร์ในชั้น Submucosa ของ Duodenum (หลั่งเมือกด่าง)"
+      },
+      {
+        "pin": "C",
+        "term": "Peyer's Patches (Ileum Submucosa)",
+        "thaiName": "กลุ่มเนื้อเยื่อน้ำเหลือง MALT หนาแน่นในลำไส้เล็กส่วน Ileum",
+        "description": "ตำแหน่ง [C] คือ Peyer's Patches (Ileum Submucosa) — กลุ่มเนื้อเยื่อน้ำเหลือง MALT หนาแน่นในลำไส้เล็กส่วน Ileum"
+      },
+      {
+        "pin": "D",
+        "term": "Taeniae Coli & Haustra",
+        "thaiName": "แถบกล้ามเนื้อแนวยาว 3 แถบ ดึงให้ลำไส้ใหญ่โป่งเป็นกระพุ้ง Haustra",
+        "description": "ตำแหน่ง [D] คือ Taeniae Coli & Haustra — แถบกล้ามเนื้อแนวยาว 3 แถบ ดึงให้ลำไส้ใหญ่โป่งเป็นกระพุ้ง Haustra"
+      },
+      {
+        "pin": "E",
+        "term": "Ileocecal Valve & Cecum",
+        "thaiName": "ลิ้นกั้นระหว่าง Ileum กับ Cecum ป้องกันแบคทีเรียไหลย้อนกลับ",
+        "description": "ตำแหน่ง [E] คือ Ileocecal Valve & Cecum — ลิ้นกั้นระหว่าง Ileum กับ Cecum ป้องกันแบคทีเรียไหลย้อนกลับ"
+      },
+      {
+        "pin": "F",
+        "term": "Vermiform Appendix (McBurney's Point)",
+        "thaiName": "ไส้ติ่ง (โคนอยู่จุดรวม Taeniae coli ตรงกับ McBurney's point)",
+        "description": "ตำแหน่ง [F] คือ Vermiform Appendix (McBurney's Point) — ไส้ติ่ง (โคนอยู่จุดรวม Taeniae coli ตรงกับ McBurney's point)"
+      }
+    ]
   },
   {
     "id": "DIGEST-052",
-    "questionText": "ผู้ป่วยชายอายุ 22 ปี มีอาการปวดท้องรอบสะดือก่อนย้ายมาปวดรุนแรงที่บริเวณท้องน้อยด้านล่างขวา (Right lower quadrant) ตรวจร่างกายพบกดเจ็บชัดเจนที่จุด McBurney's point ตำแหน่งทางกายวิภาคของจุด McBurney's point อยู่ที่ใด?",
+    "questionText": "[🖼️ ข้อสอบวิเคราะห์ภาพประกอบกายวิภาค — พิจารณาแผนภาพและจุดชี้ตำแหน่ง [A]–[F] โดยเฉพาะบริเวณตำแหน่ง [D]] ผู้ป่วยชายอายุ 22 ปี มีอาการปวดท้องรอบสะดือก่อนย้ายมาปวดรุนแรงที่บริเวณท้องน้อยด้านล่างขวา (Right lower quadrant) ตรวจร่างกายพบกดเจ็บชัดเจนที่จุด McBurney's point ตำแหน่งทางกายวิภาคของจุด McBurney's point อยู่ที่ใด?",
     "options": {
       "A": "อยู่ที่ 1/3 ด้านในติดกับสะดือ",
       "B": "อยู่ที่กึ่งกลางระหว่างสะดือกับกระดูกหัวหน่าว (Pubic symphysis)",
@@ -1303,7 +2335,7 @@ export const digestiveQuestions: Question[] = [
       "D": "อยู่ที่ 1/3 ทางด้านข้าง (Lateral 1/3) บนเส้นสมมติที่ลากเชื่อมระหว่าง สะดือ (Umbilicus) กับ Anterior Superior Iliac Spine (ASIS) ด้านขวา"
     },
     "correctOption": "D",
-    "explanation": "McBurney's point เป็นแลนด์มาร์กสำคัญทางศัลยกรรมในการวินิจฉัยไส้ติ่งอักเสบเฉียบพลัน (Acute appendicitis) อยู่ที่ตำแหน่ง 1 ใน 3 จาก ASIS ด้านขวา บนเส้นที่ลากระหว่าง Right ASIS กับ Umbilicus ซึ่งตรงกับตำแหน่งโคนของ Appendix (Base of the appendix) ที่แยกออกจาก Cecum",
+    "explanation": "McBurney's point เป็นแลนด์มาร์กสำคัญทางศัลยกรรมในการวินิจฉัยไส้ติ่งอักเสบเฉียบพลัน (Acute appendicitis) อยู่ที่ตำแหน่ง 1 ใน 3 จาก ASIS ด้านขวา บนเส้นที่ลากระหว่าง Right ASIS กับ Umbilicus ซึ่งตรงกับตำแหน่งโคนของ Appendix (Base of the appendix) ที่แยกออกจาก Cecum\n\n📌 สรุปจุดชี้ตำแหน่งในภาพประกอบ (Small Intestine Villi/Submucosa & Large Intestine Anatomy): จุดที่เกี่ยวข้องโดยตรงกับข้อนี้คือตำแหน่ง [D] (Taeniae Coli & Haustra — แถบกล้ามเนื้อแนวยาว 3 แถบ ดึงให้ลำไส้ใหญ่โป่งเป็นกระพุ้ง Haustra) สามารถกดสลับดู \"ภาพเฉลยครบทุกจุด (Master Labeled Diagram)\" ด้านบนเพื่อทบทวนตำแหน่ง [A] ถึง [F] ทั้งหมดได้ทันที",
     "system": "Digestive System",
     "topic": "Large Intestine Anatomy",
     "difficulty": "Hard",
@@ -1313,11 +2345,54 @@ export const digestiveQuestions: Question[] = [
       "mcburneys-point",
       "appendicitis",
       "appendix-base",
-      "asis"
+      "asis",
+      "has-diagram",
+      "diagram-small_large_intestine"
     ],
     "createdAt": "2026-10-24",
     "updatedAt": "2026-10-24",
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "imageUrl": "/images/anatomy/small_large_intestine_exam.svg",
+    "labeledImageUrl": "/images/anatomy/small_large_intestine_labeled.svg",
+    "imageCaption": "Small Intestine Villi/Submucosa & Large Intestine Anatomy — เปรียบเทียบลำไส้เล็ก (Villi, Lacteals, Peyer's patches) และลำไส้ใหญ่ (Taeniae coli, Appendix)",
+    "imageLabels": [
+      {
+        "pin": "A",
+        "term": "Villus & Central Lacteal",
+        "thaiName": "วิลไลและหลอดน้ำเหลือง Lacteal (ดูดซึมไขมัน Chylomicrons)",
+        "description": "ตำแหน่ง [A] คือ Villus & Central Lacteal — วิลไลและหลอดน้ำเหลือง Lacteal (ดูดซึมไขมัน Chylomicrons)"
+      },
+      {
+        "pin": "B",
+        "term": "Brunner's Glands (Duodenum Submucosa)",
+        "thaiName": "ต่อมบรุนเนอร์ในชั้น Submucosa ของ Duodenum (หลั่งเมือกด่าง)",
+        "description": "ตำแหน่ง [B] คือ Brunner's Glands (Duodenum Submucosa) — ต่อมบรุนเนอร์ในชั้น Submucosa ของ Duodenum (หลั่งเมือกด่าง)"
+      },
+      {
+        "pin": "C",
+        "term": "Peyer's Patches (Ileum Submucosa)",
+        "thaiName": "กลุ่มเนื้อเยื่อน้ำเหลือง MALT หนาแน่นในลำไส้เล็กส่วน Ileum",
+        "description": "ตำแหน่ง [C] คือ Peyer's Patches (Ileum Submucosa) — กลุ่มเนื้อเยื่อน้ำเหลือง MALT หนาแน่นในลำไส้เล็กส่วน Ileum"
+      },
+      {
+        "pin": "D",
+        "term": "Taeniae Coli & Haustra",
+        "thaiName": "แถบกล้ามเนื้อแนวยาว 3 แถบ ดึงให้ลำไส้ใหญ่โป่งเป็นกระพุ้ง Haustra",
+        "description": "ตำแหน่ง [D] คือ Taeniae Coli & Haustra — แถบกล้ามเนื้อแนวยาว 3 แถบ ดึงให้ลำไส้ใหญ่โป่งเป็นกระพุ้ง Haustra"
+      },
+      {
+        "pin": "E",
+        "term": "Ileocecal Valve & Cecum",
+        "thaiName": "ลิ้นกั้นระหว่าง Ileum กับ Cecum ป้องกันแบคทีเรียไหลย้อนกลับ",
+        "description": "ตำแหน่ง [E] คือ Ileocecal Valve & Cecum — ลิ้นกั้นระหว่าง Ileum กับ Cecum ป้องกันแบคทีเรียไหลย้อนกลับ"
+      },
+      {
+        "pin": "F",
+        "term": "Vermiform Appendix (McBurney's Point)",
+        "thaiName": "ไส้ติ่ง (โคนอยู่จุดรวม Taeniae coli ตรงกับ McBurney's point)",
+        "description": "ตำแหน่ง [F] คือ Vermiform Appendix (McBurney's Point) — ไส้ติ่ง (โคนอยู่จุดรวม Taeniae coli ตรงกับ McBurney's point)"
+      }
+    ]
   },
   {
     "id": "DIGEST-053",
@@ -1346,7 +2421,7 @@ export const digestiveQuestions: Question[] = [
   },
   {
     "id": "DIGEST-054",
-    "questionText": "ส่วนโค้งหักมุมของลำไส้ใหญ่บริเวณใต้ผิวด้านล่างของตับ (Right colic flexure) และส่วนโค้งหักมุมบริเวณใต้ผิวด้านล่างของม้าม (Left colic flexure) มีชื่อเรียกทางการแพทย์ว่าอะไร และส่วนใดอยู่ในระดับสูงกว่า?",
+    "questionText": "[🖼️ ข้อสอบวิเคราะห์ภาพประกอบกายวิภาค — พิจารณาแผนภาพและจุดชี้ตำแหน่ง [A]–[F] โดยเฉพาะบริเวณตำแหน่ง [D]] ส่วนโค้งหักมุมของลำไส้ใหญ่บริเวณใต้ผิวด้านล่างของตับ (Right colic flexure) และส่วนโค้งหักมุมบริเวณใต้ผิวด้านล่างของม้าม (Left colic flexure) มีชื่อเรียกทางการแพทย์ว่าอะไร และส่วนใดอยู่ในระดับสูงกว่า?",
     "options": {
       "A": "Duodenal flexure และ Sigmoid flexure",
       "B": "Hepatic flexure และ Splenic flexure โดย Splenic flexure อยู่ในระดับที่สูงกว่าและชิดด้านหลังมากกว่า",
@@ -1354,7 +2429,7 @@ export const digestiveQuestions: Question[] = [
       "D": "Colic angle ทั้งสองข้างอยู่ในระนาบเดียวกันพอดี"
     },
     "correctOption": "B",
-    "explanation": "1. Right colic (Hepatic) flexure เชื่อมระหว่าง Ascending colon กับ Transverse colon อยู่ใต้ตับ 2. Left colic (Splenic) flexure เชื่อมระหว่าง Transverse colon กับ Descending colon อยู่ใต้ม้าม โดย Splenic flexure จะอยู่สูงกว่าและลึกกว่า Hepatic flexure เนื่องจากตับขนาดใหญ่ด้านขวาเบียดกดให้ Hepatic flexure อยู่ต่ำกว่า",
+    "explanation": "1. Right colic (Hepatic) flexure เชื่อมระหว่าง Ascending colon กับ Transverse colon อยู่ใต้ตับ 2. Left colic (Splenic) flexure เชื่อมระหว่าง Transverse colon กับ Descending colon อยู่ใต้ม้าม โดย Splenic flexure จะอยู่สูงกว่าและลึกกว่า Hepatic flexure เนื่องจากตับขนาดใหญ่ด้านขวาเบียดกดให้ Hepatic flexure อยู่ต่ำกว่า\n\n📌 สรุปจุดชี้ตำแหน่งในภาพประกอบ (Small Intestine Villi/Submucosa & Large Intestine Anatomy): จุดที่เกี่ยวข้องโดยตรงกับข้อนี้คือตำแหน่ง [D] (Taeniae Coli & Haustra — แถบกล้ามเนื้อแนวยาว 3 แถบ ดึงให้ลำไส้ใหญ่โป่งเป็นกระพุ้ง Haustra) สามารถกดสลับดู \"ภาพเฉลยครบทุกจุด (Master Labeled Diagram)\" ด้านบนเพื่อทบทวนตำแหน่ง [A] ถึง [F] ทั้งหมดได้ทันที",
     "system": "Digestive System",
     "topic": "Large Intestine Anatomy",
     "difficulty": "Medium",
@@ -1363,11 +2438,54 @@ export const digestiveQuestions: Question[] = [
     "tags": [
       "hepatic-flexure",
       "splenic-flexure",
-      "colon-anatomy"
+      "colon-anatomy",
+      "has-diagram",
+      "diagram-small_large_intestine"
     ],
     "createdAt": "2026-10-24",
     "updatedAt": "2026-10-24",
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "imageUrl": "/images/anatomy/small_large_intestine_exam.svg",
+    "labeledImageUrl": "/images/anatomy/small_large_intestine_labeled.svg",
+    "imageCaption": "Small Intestine Villi/Submucosa & Large Intestine Anatomy — เปรียบเทียบลำไส้เล็ก (Villi, Lacteals, Peyer's patches) และลำไส้ใหญ่ (Taeniae coli, Appendix)",
+    "imageLabels": [
+      {
+        "pin": "A",
+        "term": "Villus & Central Lacteal",
+        "thaiName": "วิลไลและหลอดน้ำเหลือง Lacteal (ดูดซึมไขมัน Chylomicrons)",
+        "description": "ตำแหน่ง [A] คือ Villus & Central Lacteal — วิลไลและหลอดน้ำเหลือง Lacteal (ดูดซึมไขมัน Chylomicrons)"
+      },
+      {
+        "pin": "B",
+        "term": "Brunner's Glands (Duodenum Submucosa)",
+        "thaiName": "ต่อมบรุนเนอร์ในชั้น Submucosa ของ Duodenum (หลั่งเมือกด่าง)",
+        "description": "ตำแหน่ง [B] คือ Brunner's Glands (Duodenum Submucosa) — ต่อมบรุนเนอร์ในชั้น Submucosa ของ Duodenum (หลั่งเมือกด่าง)"
+      },
+      {
+        "pin": "C",
+        "term": "Peyer's Patches (Ileum Submucosa)",
+        "thaiName": "กลุ่มเนื้อเยื่อน้ำเหลือง MALT หนาแน่นในลำไส้เล็กส่วน Ileum",
+        "description": "ตำแหน่ง [C] คือ Peyer's Patches (Ileum Submucosa) — กลุ่มเนื้อเยื่อน้ำเหลือง MALT หนาแน่นในลำไส้เล็กส่วน Ileum"
+      },
+      {
+        "pin": "D",
+        "term": "Taeniae Coli & Haustra",
+        "thaiName": "แถบกล้ามเนื้อแนวยาว 3 แถบ ดึงให้ลำไส้ใหญ่โป่งเป็นกระพุ้ง Haustra",
+        "description": "ตำแหน่ง [D] คือ Taeniae Coli & Haustra — แถบกล้ามเนื้อแนวยาว 3 แถบ ดึงให้ลำไส้ใหญ่โป่งเป็นกระพุ้ง Haustra"
+      },
+      {
+        "pin": "E",
+        "term": "Ileocecal Valve & Cecum",
+        "thaiName": "ลิ้นกั้นระหว่าง Ileum กับ Cecum ป้องกันแบคทีเรียไหลย้อนกลับ",
+        "description": "ตำแหน่ง [E] คือ Ileocecal Valve & Cecum — ลิ้นกั้นระหว่าง Ileum กับ Cecum ป้องกันแบคทีเรียไหลย้อนกลับ"
+      },
+      {
+        "pin": "F",
+        "term": "Vermiform Appendix (McBurney's Point)",
+        "thaiName": "ไส้ติ่ง (โคนอยู่จุดรวม Taeniae coli ตรงกับ McBurney's point)",
+        "description": "ตำแหน่ง [F] คือ Vermiform Appendix (McBurney's Point) — ไส้ติ่ง (โคนอยู่จุดรวม Taeniae coli ตรงกับ McBurney's point)"
+      }
+    ]
   },
   {
     "id": "DIGEST-055",
@@ -1525,7 +2643,7 @@ export const digestiveQuestions: Question[] = [
   },
   {
     "id": "DIGEST-061",
-    "questionText": "ตับ (Liver) เป็นต่อมขนาดใหญ่ที่สุดในร่างกาย ตั้งอยู่ในช่องท้องส่วนบนขวา (Right hypochondrium และ Epigastrium) แบ่งออกเป็น 4 พู (Lobes) ทางกายวิภาค ได้แก่พูใดบ้าง?",
+    "questionText": "[🖼️ ข้อสอบวิเคราะห์ภาพประกอบกายวิภาค — พิจารณาแผนภาพและจุดชี้ตำแหน่ง [A]–[F] โดยเฉพาะบริเวณตำแหน่ง [B]] ตับ (Liver) เป็นต่อมขนาดใหญ่ที่สุดในร่างกาย ตั้งอยู่ในช่องท้องส่วนบนขวา (Right hypochondrium และ Epigastrium) แบ่งออกเป็น 4 พู (Lobes) ทางกายวิภาค ได้แก่พูใดบ้าง?",
     "options": {
       "A": "Right lobe, Left lobe, Caudate lobe (ด้านหลังบน), และ Quadrate lobe (ด้านล่างหน้าถัดจากถุงน้ำดี)",
       "B": "Anterior lobe, Posterior lobe, Superior lobe, และ Inferior lobe",
@@ -1533,7 +2651,7 @@ export const digestiveQuestions: Question[] = [
       "D": "Cranial lobe, Caudal lobe, Apical lobe, และ Basal lobe"
     },
     "correctOption": "A",
-    "explanation": "ตับแบ่งตามกายวิภาคศาสตร์มหภาคเป็น 4 Lobes: 1. Right lobe (ขนาดใหญ่ที่สุด) 2. Left lobe (แยกจาก Right lobe ด้วย Falciform ligament) 3. Caudate lobe (อยู่ผิวด้านหลัง ระหว่าง IVC กับ Fossa for ductus venosus) 4. Quadrate lobe (อยู่ผิวด้านล่าง ระหว่างถุงน้ำดีกับ Ligamentum teres hepatis)",
+    "explanation": "ตับแบ่งตามกายวิภาคศาสตร์มหภาคเป็น 4 Lobes: 1. Right lobe (ขนาดใหญ่ที่สุด) 2. Left lobe (แยกจาก Right lobe ด้วย Falciform ligament) 3. Caudate lobe (อยู่ผิวด้านหลัง ระหว่าง IVC กับ Fossa for ductus venosus) 4. Quadrate lobe (อยู่ผิวด้านล่าง ระหว่างถุงน้ำดีกับ Ligamentum teres hepatis)\n\n📌 สรุปจุดชี้ตำแหน่งในภาพประกอบ (Liver, Biliary Tree, Gallbladder, Pancreas & Duodenum): จุดที่เกี่ยวข้องโดยตรงกับข้อนี้คือตำแหน่ง [B] (Common Hepatic Duct — ท่อน้ำดีตับร่วม (เกิดจาก Right และ Left hepatic ducts รวมกัน)) สามารถกดสลับดู \"ภาพเฉลยครบทุกจุด (Master Labeled Diagram)\" ด้านบนเพื่อทบทวนตำแหน่ง [A] ถึง [F] ทั้งหมดได้ทันที",
     "system": "Digestive System",
     "topic": "Liver, Gallbladder & Pancreas",
     "difficulty": "Medium",
@@ -1542,11 +2660,54 @@ export const digestiveQuestions: Question[] = [
     "tags": [
       "liver-lobes",
       "caudate-lobe",
-      "quadrate-lobe"
+      "quadrate-lobe",
+      "has-diagram",
+      "diagram-hepatobiliary_pancreas"
     ],
     "createdAt": "2026-10-24",
     "updatedAt": "2026-10-24",
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "imageUrl": "/images/anatomy/hepatobiliary_pancreas_exam.svg",
+    "labeledImageUrl": "/images/anatomy/hepatobiliary_pancreas_labeled.svg",
+    "imageCaption": "Liver, Biliary Tree, Gallbladder, Pancreas & Duodenum — โครงสร้างตับ ทางเดินน้ำดี ถุงน้ำดี ตับอ่อน และกระเปาะ Ampulla of Vater",
+    "imageLabels": [
+      {
+        "pin": "A",
+        "term": "Gallbladder & Cystic Duct",
+        "thaiName": "ถุงน้ำดี (กักเก็บและทำให้น้ำดีเข้มข้น 5-10 เท่า บีบตัวด้วย CCK)",
+        "description": "ตำแหน่ง [A] คือ Gallbladder & Cystic Duct — ถุงน้ำดี (กักเก็บและทำให้น้ำดีเข้มข้น 5-10 เท่า บีบตัวด้วย CCK)"
+      },
+      {
+        "pin": "B",
+        "term": "Common Hepatic Duct",
+        "thaiName": "ท่อน้ำดีตับร่วม (เกิดจาก Right และ Left hepatic ducts รวมกัน)",
+        "description": "ตำแหน่ง [B] คือ Common Hepatic Duct — ท่อน้ำดีตับร่วม (เกิดจาก Right และ Left hepatic ducts รวมกัน)"
+      },
+      {
+        "pin": "C",
+        "term": "Common Bile Duct (CBD)",
+        "thaiName": "ท่อน้ำดีร่วม (เกิดจาก Common hepatic รวมกับ Cystic duct)",
+        "description": "ตำแหน่ง [C] คือ Common Bile Duct (CBD) — ท่อน้ำดีร่วม (เกิดจาก Common hepatic รวมกับ Cystic duct)"
+      },
+      {
+        "pin": "D",
+        "term": "Duodenum (C-shaped Loop)",
+        "thaiName": "ลำไส้เล็กส่วนต้นโค้งรูปตัว C โอบรอบหัวตับอ่อน",
+        "description": "ตำแหน่ง [D] คือ Duodenum (C-shaped Loop) — ลำไส้เล็กส่วนต้นโค้งรูปตัว C โอบรอบหัวตับอ่อน"
+      },
+      {
+        "pin": "E",
+        "term": "Pancreas & Main Pancreatic Duct",
+        "thaiName": "ตับอ่อน (Acinar หลั่งเอนไซม์ / Duct หลั่ง HCO3- / Islets หลั่งอินซูลิน)",
+        "description": "ตำแหน่ง [E] คือ Pancreas & Main Pancreatic Duct — ตับอ่อน (Acinar หลั่งเอนไซม์ / Duct หลั่ง HCO3- / Islets หลั่งอินซูลิน)"
+      },
+      {
+        "pin": "F",
+        "term": "Hepatopancreatic Ampulla (Vater) & Oddi",
+        "thaiName": "กระเปาะรวมท่อน้ำดีกับท่อตับอ่อน และหูรูด Sphincter of Oddi",
+        "description": "ตำแหน่ง [F] คือ Hepatopancreatic Ampulla (Vater) & Oddi — กระเปาะรวมท่อน้ำดีกับท่อตับอ่อน และหูรูด Sphincter of Oddi"
+      }
+    ]
   },
   {
     "id": "DIGEST-062",
@@ -1625,7 +2786,7 @@ export const digestiveQuestions: Question[] = [
   },
   {
     "id": "DIGEST-065",
-    "questionText": "เซลล์แมคโครฟาจประจำที่ (Resident macrophages) ที่อาศัยอยู่ภายในหลอดเลือดฝอย Sinusoids ของตับ ทำหน้าที่ตรวจจับและทำลายแบคทีเรีย เศษซากเซลล์ และสารพิษที่มาจากทางเดินอาหารคือเซลล์ชนิดใด?",
+    "questionText": "[🖼️ ข้อสอบวิเคราะห์ภาพประกอบกายวิภาค — พิจารณาแผนภาพและจุดชี้ตำแหน่ง [A]–[F] โดยเฉพาะบริเวณตำแหน่ง [B]] เซลล์แมคโครฟาจประจำที่ (Resident macrophages) ที่อาศัยอยู่ภายในหลอดเลือดฝอย Sinusoids ของตับ ทำหน้าที่ตรวจจับและทำลายแบคทีเรีย เศษซากเซลล์ และสารพิษที่มาจากทางเดินอาหารคือเซลล์ชนิดใด?",
     "options": {
       "A": "Kupffer cells (Stellate macrophages)",
       "B": "Ito cells (Hepatic stellate cells)",
@@ -1633,7 +2794,7 @@ export const digestiveQuestions: Question[] = [
       "D": "Endothelial cells"
     },
     "correctOption": "A",
-    "explanation": "Kupffer cells (Stellate macrophages) เป็นเซลล์ในระบบ Mononuclear phagocyte เกาะติดอยู่ตามผนังของ Hepatic sinusoids ทำหน้าที่เก็บกินเชื้อแบคทีเรียที่เล็ดลอดมาจากลำไส้ผ่านทาง Portal vein เม็ดเลือดแดงที่ผิดปกติ และอนุภาคสิ่งแปลกปลอมได้อย่างมีประสิทธิภาพสูง",
+    "explanation": "Kupffer cells (Stellate macrophages) เป็นเซลล์ในระบบ Mononuclear phagocyte เกาะติดอยู่ตามผนังของ Hepatic sinusoids ทำหน้าที่เก็บกินเชื้อแบคทีเรียที่เล็ดลอดมาจากลำไส้ผ่านทาง Portal vein เม็ดเลือดแดงที่ผิดปกติ และอนุภาคสิ่งแปลกปลอมได้อย่างมีประสิทธิภาพสูง\n\n📌 สรุปจุดชี้ตำแหน่งในภาพประกอบ (Liver, Biliary Tree, Gallbladder, Pancreas & Duodenum): จุดที่เกี่ยวข้องโดยตรงกับข้อนี้คือตำแหน่ง [B] (Common Hepatic Duct — ท่อน้ำดีตับร่วม (เกิดจาก Right และ Left hepatic ducts รวมกัน)) สามารถกดสลับดู \"ภาพเฉลยครบทุกจุด (Master Labeled Diagram)\" ด้านบนเพื่อทบทวนตำแหน่ง [A] ถึง [F] ทั้งหมดได้ทันที",
     "system": "Digestive System",
     "topic": "Liver, Gallbladder & Pancreas",
     "difficulty": "Medium",
@@ -1642,15 +2803,58 @@ export const digestiveQuestions: Question[] = [
     "tags": [
       "kupffer-cells",
       "hepatic-macrophages",
-      "sinusoids"
+      "sinusoids",
+      "has-diagram",
+      "diagram-hepatobiliary_pancreas"
     ],
     "createdAt": "2026-10-24",
     "updatedAt": "2026-10-24",
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "imageUrl": "/images/anatomy/hepatobiliary_pancreas_exam.svg",
+    "labeledImageUrl": "/images/anatomy/hepatobiliary_pancreas_labeled.svg",
+    "imageCaption": "Liver, Biliary Tree, Gallbladder, Pancreas & Duodenum — โครงสร้างตับ ทางเดินน้ำดี ถุงน้ำดี ตับอ่อน และกระเปาะ Ampulla of Vater",
+    "imageLabels": [
+      {
+        "pin": "A",
+        "term": "Gallbladder & Cystic Duct",
+        "thaiName": "ถุงน้ำดี (กักเก็บและทำให้น้ำดีเข้มข้น 5-10 เท่า บีบตัวด้วย CCK)",
+        "description": "ตำแหน่ง [A] คือ Gallbladder & Cystic Duct — ถุงน้ำดี (กักเก็บและทำให้น้ำดีเข้มข้น 5-10 เท่า บีบตัวด้วย CCK)"
+      },
+      {
+        "pin": "B",
+        "term": "Common Hepatic Duct",
+        "thaiName": "ท่อน้ำดีตับร่วม (เกิดจาก Right และ Left hepatic ducts รวมกัน)",
+        "description": "ตำแหน่ง [B] คือ Common Hepatic Duct — ท่อน้ำดีตับร่วม (เกิดจาก Right และ Left hepatic ducts รวมกัน)"
+      },
+      {
+        "pin": "C",
+        "term": "Common Bile Duct (CBD)",
+        "thaiName": "ท่อน้ำดีร่วม (เกิดจาก Common hepatic รวมกับ Cystic duct)",
+        "description": "ตำแหน่ง [C] คือ Common Bile Duct (CBD) — ท่อน้ำดีร่วม (เกิดจาก Common hepatic รวมกับ Cystic duct)"
+      },
+      {
+        "pin": "D",
+        "term": "Duodenum (C-shaped Loop)",
+        "thaiName": "ลำไส้เล็กส่วนต้นโค้งรูปตัว C โอบรอบหัวตับอ่อน",
+        "description": "ตำแหน่ง [D] คือ Duodenum (C-shaped Loop) — ลำไส้เล็กส่วนต้นโค้งรูปตัว C โอบรอบหัวตับอ่อน"
+      },
+      {
+        "pin": "E",
+        "term": "Pancreas & Main Pancreatic Duct",
+        "thaiName": "ตับอ่อน (Acinar หลั่งเอนไซม์ / Duct หลั่ง HCO3- / Islets หลั่งอินซูลิน)",
+        "description": "ตำแหน่ง [E] คือ Pancreas & Main Pancreatic Duct — ตับอ่อน (Acinar หลั่งเอนไซม์ / Duct หลั่ง HCO3- / Islets หลั่งอินซูลิน)"
+      },
+      {
+        "pin": "F",
+        "term": "Hepatopancreatic Ampulla (Vater) & Oddi",
+        "thaiName": "กระเปาะรวมท่อน้ำดีกับท่อตับอ่อน และหูรูด Sphincter of Oddi",
+        "description": "ตำแหน่ง [F] คือ Hepatopancreatic Ampulla (Vater) & Oddi — กระเปาะรวมท่อน้ำดีกับท่อตับอ่อน และหูรูด Sphincter of Oddi"
+      }
+    ]
   },
   {
     "id": "DIGEST-066",
-    "questionText": "เซลล์ชนิด Hepatic Stellate Cells (Ito cells) ซึ่งตั้งอยู่ในช่องว่างใต้เยื่อบุโพรงไซนูซอยด์ (Space of Disse) มีบทบาทสรีรวิทยาปกติในการสะสมสารใด และในภาวะตับอักเสบเรื้อรังมีบทบาททำให้เกิดพยาธิสภาพใด?",
+    "questionText": "[🖼️ ข้อสอบวิเคราะห์ภาพประกอบกายวิภาค — พิจารณาแผนภาพและจุดชี้ตำแหน่ง [A]–[F] โดยเฉพาะบริเวณตำแหน่ง [C]] เซลล์ชนิด Hepatic Stellate Cells (Ito cells) ซึ่งตั้งอยู่ในช่องว่างใต้เยื่อบุโพรงไซนูซอยด์ (Space of Disse) มีบทบาทสรีรวิทยาปกติในการสะสมสารใด และในภาวะตับอักเสบเรื้อรังมีบทบาททำให้เกิดพยาธิสภาพใด?",
     "options": {
       "A": "ทำหน้าที่สร้างฮีโมโกลบิน และทำให้เกิดโรคตับแข็ง",
       "B": "ในภาวะปกติทำหน้าที่สะสมวิตามิน A (Fat-soluble Vitamin A storage) และในภาวะตับอักเสบเรื้อรังจะเปลี่ยนรูปเป็น Myofibroblasts หลั่งเส้นใยคอลลาเจนจนเกิดพังผืดในตับ (Liver Cirrhosis)",
@@ -1658,7 +2862,7 @@ export const digestiveQuestions: Question[] = [
       "D": "ทำหน้าที่กำจัดยูเรีย"
     },
     "correctOption": "B",
-    "explanation": "Ito cells (Hepatic stellate cells) อยู่ใน Perisinusoidal space (Space of Disse) สภาวะปกติเก็บสะสม Vitamin A ถึง 80% ของร่างกาย แต่เมื่อตับได้รับบาดเจ็บเรื้อรัง (เช่น จากแอลกอฮอล์หรือไวรัสตับอักเสบ) เซลล์จะถูกกระตุ้นเปลี่ยนเป็น Myofibroblasts สร้าง Collagen Type I และ III ก่อให้เกิด Fibrosis และ Liver cirrhosis",
+    "explanation": "Ito cells (Hepatic stellate cells) อยู่ใน Perisinusoidal space (Space of Disse) สภาวะปกติเก็บสะสม Vitamin A ถึง 80% ของร่างกาย แต่เมื่อตับได้รับบาดเจ็บเรื้อรัง (เช่น จากแอลกอฮอล์หรือไวรัสตับอักเสบ) เซลล์จะถูกกระตุ้นเปลี่ยนเป็น Myofibroblasts สร้าง Collagen Type I และ III ก่อให้เกิด Fibrosis และ Liver cirrhosis\n\n📌 สรุปจุดชี้ตำแหน่งในภาพประกอบ (Liver, Biliary Tree, Gallbladder, Pancreas & Duodenum): จุดที่เกี่ยวข้องโดยตรงกับข้อนี้คือตำแหน่ง [C] (Common Bile Duct (CBD) — ท่อน้ำดีร่วม (เกิดจาก Common hepatic รวมกับ Cystic duct)) สามารถกดสลับดู \"ภาพเฉลยครบทุกจุด (Master Labeled Diagram)\" ด้านบนเพื่อทบทวนตำแหน่ง [A] ถึง [F] ทั้งหมดได้ทันที",
     "system": "Digestive System",
     "topic": "Liver, Gallbladder & Pancreas",
     "difficulty": "Hard",
@@ -1668,15 +2872,58 @@ export const digestiveQuestions: Question[] = [
       "ito-cells",
       "hepatic-stellate-cells",
       "vitamin-a-storage",
-      "cirrhosis"
+      "cirrhosis",
+      "has-diagram",
+      "diagram-hepatobiliary_pancreas"
     ],
     "createdAt": "2026-10-24",
     "updatedAt": "2026-10-24",
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "imageUrl": "/images/anatomy/hepatobiliary_pancreas_exam.svg",
+    "labeledImageUrl": "/images/anatomy/hepatobiliary_pancreas_labeled.svg",
+    "imageCaption": "Liver, Biliary Tree, Gallbladder, Pancreas & Duodenum — โครงสร้างตับ ทางเดินน้ำดี ถุงน้ำดี ตับอ่อน และกระเปาะ Ampulla of Vater",
+    "imageLabels": [
+      {
+        "pin": "A",
+        "term": "Gallbladder & Cystic Duct",
+        "thaiName": "ถุงน้ำดี (กักเก็บและทำให้น้ำดีเข้มข้น 5-10 เท่า บีบตัวด้วย CCK)",
+        "description": "ตำแหน่ง [A] คือ Gallbladder & Cystic Duct — ถุงน้ำดี (กักเก็บและทำให้น้ำดีเข้มข้น 5-10 เท่า บีบตัวด้วย CCK)"
+      },
+      {
+        "pin": "B",
+        "term": "Common Hepatic Duct",
+        "thaiName": "ท่อน้ำดีตับร่วม (เกิดจาก Right และ Left hepatic ducts รวมกัน)",
+        "description": "ตำแหน่ง [B] คือ Common Hepatic Duct — ท่อน้ำดีตับร่วม (เกิดจาก Right และ Left hepatic ducts รวมกัน)"
+      },
+      {
+        "pin": "C",
+        "term": "Common Bile Duct (CBD)",
+        "thaiName": "ท่อน้ำดีร่วม (เกิดจาก Common hepatic รวมกับ Cystic duct)",
+        "description": "ตำแหน่ง [C] คือ Common Bile Duct (CBD) — ท่อน้ำดีร่วม (เกิดจาก Common hepatic รวมกับ Cystic duct)"
+      },
+      {
+        "pin": "D",
+        "term": "Duodenum (C-shaped Loop)",
+        "thaiName": "ลำไส้เล็กส่วนต้นโค้งรูปตัว C โอบรอบหัวตับอ่อน",
+        "description": "ตำแหน่ง [D] คือ Duodenum (C-shaped Loop) — ลำไส้เล็กส่วนต้นโค้งรูปตัว C โอบรอบหัวตับอ่อน"
+      },
+      {
+        "pin": "E",
+        "term": "Pancreas & Main Pancreatic Duct",
+        "thaiName": "ตับอ่อน (Acinar หลั่งเอนไซม์ / Duct หลั่ง HCO3- / Islets หลั่งอินซูลิน)",
+        "description": "ตำแหน่ง [E] คือ Pancreas & Main Pancreatic Duct — ตับอ่อน (Acinar หลั่งเอนไซม์ / Duct หลั่ง HCO3- / Islets หลั่งอินซูลิน)"
+      },
+      {
+        "pin": "F",
+        "term": "Hepatopancreatic Ampulla (Vater) & Oddi",
+        "thaiName": "กระเปาะรวมท่อน้ำดีกับท่อตับอ่อน และหูรูด Sphincter of Oddi",
+        "description": "ตำแหน่ง [F] คือ Hepatopancreatic Ampulla (Vater) & Oddi — กระเปาะรวมท่อน้ำดีกับท่อตับอ่อน และหูรูด Sphincter of Oddi"
+      }
+    ]
   },
   {
     "id": "DIGEST-067",
-    "questionText": "ลำดับเส้นทางทางเดินน้ำดี (Biliary tree pathway) ตั้งแต่จุดเริ่มต้นการสร้างจากเซลล์ตับจนกระทั่งไหลออกสู่ท่อน้ำดีใหญ่ข้อใดถูกต้อง?",
+    "questionText": "[🖼️ ข้อสอบวิเคราะห์ภาพประกอบกายวิภาค — พิจารณาแผนภาพและจุดชี้ตำแหน่ง [A]–[F] โดยเฉพาะบริเวณตำแหน่ง [F]] ลำดับเส้นทางทางเดินน้ำดี (Biliary tree pathway) ตั้งแต่จุดเริ่มต้นการสร้างจากเซลล์ตับจนกระทั่งไหลออกสู่ท่อน้ำดีใหญ่ข้อใดถูกต้อง?",
     "options": {
       "A": "Cystic duct -> Pancreatic duct -> Hepatic duct -> Duodenum",
       "B": "Gallbladder -> Central vein -> Common bile duct -> Liver",
@@ -1684,7 +2931,7 @@ export const digestiveQuestions: Question[] = [
       "D": "Hepatocytes -> Portal vein -> Hepatic vein -> Common bile duct"
     },
     "correctOption": "C",
-    "explanation": "เส้นทางน้ำดี: 1. Hepatocytes สังเคราะห์น้ำดี 2. หลั่งเข้าสู่ Bile canaliculi (ร่องเล็กๆ ระหว่างเซลล์ตับ) 3. ไหลเข้า Canals of Hering 4. เข้าสู่ Interlobular bile ducts ใน Portal triad 5. รวมกันเป็น Right & Left hepatic ducts 6. ไหลมารวมเป็น Common hepatic duct ออกจากขั้วตับ (Porta hepatis)",
+    "explanation": "เส้นทางน้ำดี: 1. Hepatocytes สังเคราะห์น้ำดี 2. หลั่งเข้าสู่ Bile canaliculi (ร่องเล็กๆ ระหว่างเซลล์ตับ) 3. ไหลเข้า Canals of Hering 4. เข้าสู่ Interlobular bile ducts ใน Portal triad 5. รวมกันเป็น Right & Left hepatic ducts 6. ไหลมารวมเป็น Common hepatic duct ออกจากขั้วตับ (Porta hepatis)\n\n📌 สรุปจุดชี้ตำแหน่งในภาพประกอบ (Liver, Biliary Tree, Gallbladder, Pancreas & Duodenum): จุดที่เกี่ยวข้องโดยตรงกับข้อนี้คือตำแหน่ง [F] (Hepatopancreatic Ampulla (Vater) & Oddi — กระเปาะรวมท่อน้ำดีกับท่อตับอ่อน และหูรูด Sphincter of Oddi) สามารถกดสลับดู \"ภาพเฉลยครบทุกจุด (Master Labeled Diagram)\" ด้านบนเพื่อทบทวนตำแหน่ง [A] ถึง [F] ทั้งหมดได้ทันที",
     "system": "Digestive System",
     "topic": "Liver, Gallbladder & Pancreas",
     "difficulty": "Hard",
@@ -1693,11 +2940,54 @@ export const digestiveQuestions: Question[] = [
     "tags": [
       "biliary-tree",
       "bile-canaliculi",
-      "common-hepatic-duct"
+      "common-hepatic-duct",
+      "has-diagram",
+      "diagram-hepatobiliary_pancreas"
     ],
     "createdAt": "2026-10-24",
     "updatedAt": "2026-10-24",
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "imageUrl": "/images/anatomy/hepatobiliary_pancreas_exam.svg",
+    "labeledImageUrl": "/images/anatomy/hepatobiliary_pancreas_labeled.svg",
+    "imageCaption": "Liver, Biliary Tree, Gallbladder, Pancreas & Duodenum — โครงสร้างตับ ทางเดินน้ำดี ถุงน้ำดี ตับอ่อน และกระเปาะ Ampulla of Vater",
+    "imageLabels": [
+      {
+        "pin": "A",
+        "term": "Gallbladder & Cystic Duct",
+        "thaiName": "ถุงน้ำดี (กักเก็บและทำให้น้ำดีเข้มข้น 5-10 เท่า บีบตัวด้วย CCK)",
+        "description": "ตำแหน่ง [A] คือ Gallbladder & Cystic Duct — ถุงน้ำดี (กักเก็บและทำให้น้ำดีเข้มข้น 5-10 เท่า บีบตัวด้วย CCK)"
+      },
+      {
+        "pin": "B",
+        "term": "Common Hepatic Duct",
+        "thaiName": "ท่อน้ำดีตับร่วม (เกิดจาก Right และ Left hepatic ducts รวมกัน)",
+        "description": "ตำแหน่ง [B] คือ Common Hepatic Duct — ท่อน้ำดีตับร่วม (เกิดจาก Right และ Left hepatic ducts รวมกัน)"
+      },
+      {
+        "pin": "C",
+        "term": "Common Bile Duct (CBD)",
+        "thaiName": "ท่อน้ำดีร่วม (เกิดจาก Common hepatic รวมกับ Cystic duct)",
+        "description": "ตำแหน่ง [C] คือ Common Bile Duct (CBD) — ท่อน้ำดีร่วม (เกิดจาก Common hepatic รวมกับ Cystic duct)"
+      },
+      {
+        "pin": "D",
+        "term": "Duodenum (C-shaped Loop)",
+        "thaiName": "ลำไส้เล็กส่วนต้นโค้งรูปตัว C โอบรอบหัวตับอ่อน",
+        "description": "ตำแหน่ง [D] คือ Duodenum (C-shaped Loop) — ลำไส้เล็กส่วนต้นโค้งรูปตัว C โอบรอบหัวตับอ่อน"
+      },
+      {
+        "pin": "E",
+        "term": "Pancreas & Main Pancreatic Duct",
+        "thaiName": "ตับอ่อน (Acinar หลั่งเอนไซม์ / Duct หลั่ง HCO3- / Islets หลั่งอินซูลิน)",
+        "description": "ตำแหน่ง [E] คือ Pancreas & Main Pancreatic Duct — ตับอ่อน (Acinar หลั่งเอนไซม์ / Duct หลั่ง HCO3- / Islets หลั่งอินซูลิน)"
+      },
+      {
+        "pin": "F",
+        "term": "Hepatopancreatic Ampulla (Vater) & Oddi",
+        "thaiName": "กระเปาะรวมท่อน้ำดีกับท่อตับอ่อน และหูรูด Sphincter of Oddi",
+        "description": "ตำแหน่ง [F] คือ Hepatopancreatic Ampulla (Vater) & Oddi — กระเปาะรวมท่อน้ำดีกับท่อตับอ่อน และหูรูด Sphincter of Oddi"
+      }
+    ]
   },
   {
     "id": "DIGEST-068",
@@ -1726,7 +3016,7 @@ export const digestiveQuestions: Question[] = [
   },
   {
     "id": "DIGEST-069",
-    "questionText": "ถุงน้ำดี (Gallbladder) ตั้งอยู่บนผิวด้านล่างของตับ (Visceral surface) มีหน้าที่ทางสรีรวิทยาที่สำคัญที่สุดคือข้อใด?",
+    "questionText": "[🖼️ ข้อสอบวิเคราะห์ภาพประกอบกายวิภาค — พิจารณาแผนภาพและจุดชี้ตำแหน่ง [A]–[F] โดยเฉพาะบริเวณตำแหน่ง [A]] ถุงน้ำดี (Gallbladder) ตั้งอยู่บนผิวด้านล่างของตับ (Visceral surface) มีหน้าที่ทางสรีรวิทยาที่สำคัญที่สุดคือข้อใด?",
     "options": {
       "A": "กักเก็บน้ำดี (Storage) และดูดซึมน้ำและอิเล็กโทรไลต์ออกเพื่อทำให้น้ำดีเข้มข้นขึ้น 5 ถึง 10 เท่า (Concentration of bile)",
       "B": "สร้างน้ำดีขึ้นมาใหม่ทั้งหมด",
@@ -1734,7 +3024,7 @@ export const digestiveQuestions: Question[] = [
       "D": "สร้างฮอร์โมนอินซูลินและกลูคากอน"
     },
     "correctOption": "A",
-    "explanation": "ถุงน้ำดีไม่ได้ทำหน้าที่สร้างน้ำดี (น้ำดีสร้างจากตับ Hepatocytes ตลอด 24 ชม.) แต่ทำหน้าที่เป็นอ่างกักเก็บน้ำดีสำรอง (กักเก็บได้ 30-50 มล.) และมีเยื่อบุ Simple columnar epithelium ดึงน้ำและเกลือแร่กลับ ทำให้สารน้ำดีมีความเข้มข้นขึ้นถึง 5-10 เท่า เพื่อเตรียมพร้อมฉีดออกเมื่อรับประทานอาหารมัน",
+    "explanation": "ถุงน้ำดีไม่ได้ทำหน้าที่สร้างน้ำดี (น้ำดีสร้างจากตับ Hepatocytes ตลอด 24 ชม.) แต่ทำหน้าที่เป็นอ่างกักเก็บน้ำดีสำรอง (กักเก็บได้ 30-50 มล.) และมีเยื่อบุ Simple columnar epithelium ดึงน้ำและเกลือแร่กลับ ทำให้สารน้ำดีมีความเข้มข้นขึ้นถึง 5-10 เท่า เพื่อเตรียมพร้อมฉีดออกเมื่อรับประทานอาหารมัน\n\n📌 สรุปจุดชี้ตำแหน่งในภาพประกอบ (Liver, Biliary Tree, Gallbladder, Pancreas & Duodenum): จุดที่เกี่ยวข้องโดยตรงกับข้อนี้คือตำแหน่ง [A] (Gallbladder & Cystic Duct — ถุงน้ำดี (กักเก็บและทำให้น้ำดีเข้มข้น 5-10 เท่า บีบตัวด้วย CCK)) สามารถกดสลับดู \"ภาพเฉลยครบทุกจุด (Master Labeled Diagram)\" ด้านบนเพื่อทบทวนตำแหน่ง [A] ถึง [F] ทั้งหมดได้ทันที",
     "system": "Digestive System",
     "topic": "Liver, Gallbladder & Pancreas",
     "difficulty": "Medium",
@@ -1743,11 +3033,54 @@ export const digestiveQuestions: Question[] = [
     "tags": [
       "gallbladder-functions",
       "bile-storage",
-      "bile-concentration"
+      "bile-concentration",
+      "has-diagram",
+      "diagram-hepatobiliary_pancreas"
     ],
     "createdAt": "2026-10-24",
     "updatedAt": "2026-10-24",
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "imageUrl": "/images/anatomy/hepatobiliary_pancreas_exam.svg",
+    "labeledImageUrl": "/images/anatomy/hepatobiliary_pancreas_labeled.svg",
+    "imageCaption": "Liver, Biliary Tree, Gallbladder, Pancreas & Duodenum — โครงสร้างตับ ทางเดินน้ำดี ถุงน้ำดี ตับอ่อน และกระเปาะ Ampulla of Vater",
+    "imageLabels": [
+      {
+        "pin": "A",
+        "term": "Gallbladder & Cystic Duct",
+        "thaiName": "ถุงน้ำดี (กักเก็บและทำให้น้ำดีเข้มข้น 5-10 เท่า บีบตัวด้วย CCK)",
+        "description": "ตำแหน่ง [A] คือ Gallbladder & Cystic Duct — ถุงน้ำดี (กักเก็บและทำให้น้ำดีเข้มข้น 5-10 เท่า บีบตัวด้วย CCK)"
+      },
+      {
+        "pin": "B",
+        "term": "Common Hepatic Duct",
+        "thaiName": "ท่อน้ำดีตับร่วม (เกิดจาก Right และ Left hepatic ducts รวมกัน)",
+        "description": "ตำแหน่ง [B] คือ Common Hepatic Duct — ท่อน้ำดีตับร่วม (เกิดจาก Right และ Left hepatic ducts รวมกัน)"
+      },
+      {
+        "pin": "C",
+        "term": "Common Bile Duct (CBD)",
+        "thaiName": "ท่อน้ำดีร่วม (เกิดจาก Common hepatic รวมกับ Cystic duct)",
+        "description": "ตำแหน่ง [C] คือ Common Bile Duct (CBD) — ท่อน้ำดีร่วม (เกิดจาก Common hepatic รวมกับ Cystic duct)"
+      },
+      {
+        "pin": "D",
+        "term": "Duodenum (C-shaped Loop)",
+        "thaiName": "ลำไส้เล็กส่วนต้นโค้งรูปตัว C โอบรอบหัวตับอ่อน",
+        "description": "ตำแหน่ง [D] คือ Duodenum (C-shaped Loop) — ลำไส้เล็กส่วนต้นโค้งรูปตัว C โอบรอบหัวตับอ่อน"
+      },
+      {
+        "pin": "E",
+        "term": "Pancreas & Main Pancreatic Duct",
+        "thaiName": "ตับอ่อน (Acinar หลั่งเอนไซม์ / Duct หลั่ง HCO3- / Islets หลั่งอินซูลิน)",
+        "description": "ตำแหน่ง [E] คือ Pancreas & Main Pancreatic Duct — ตับอ่อน (Acinar หลั่งเอนไซม์ / Duct หลั่ง HCO3- / Islets หลั่งอินซูลิน)"
+      },
+      {
+        "pin": "F",
+        "term": "Hepatopancreatic Ampulla (Vater) & Oddi",
+        "thaiName": "กระเปาะรวมท่อน้ำดีกับท่อตับอ่อน และหูรูด Sphincter of Oddi",
+        "description": "ตำแหน่ง [F] คือ Hepatopancreatic Ampulla (Vater) & Oddi — กระเปาะรวมท่อน้ำดีกับท่อตับอ่อน และหูรูด Sphincter of Oddi"
+      }
+    ]
   },
   {
     "id": "DIGEST-070",
@@ -1776,7 +3109,7 @@ export const digestiveQuestions: Question[] = [
   },
   {
     "id": "DIGEST-071",
-    "questionText": "ตับอ่อน (Pancreas) จัดเป็นต่อมผสม (Mixed gland) โดยโครงสร้างเนื้อเยื่อส่วนใหญ่ประมาณ 98-99% ทำหน้าที่เป็นต่อมมีท่อ (Exocrine pancreas) เซลล์หน่วยย่อยที่ทำหน้าที่สร้างเอนไซม์ย่อยอาหารคือเซลล์ชนิดใด?",
+    "questionText": "[🖼️ ข้อสอบวิเคราะห์ภาพประกอบกายวิภาค — พิจารณาแผนภาพและจุดชี้ตำแหน่ง [A]–[F] โดยเฉพาะบริเวณตำแหน่ง [D]] ตับอ่อน (Pancreas) จัดเป็นต่อมผสม (Mixed gland) โดยโครงสร้างเนื้อเยื่อส่วนใหญ่ประมาณ 98-99% ทำหน้าที่เป็นต่อมมีท่อ (Exocrine pancreas) เซลล์หน่วยย่อยที่ทำหน้าที่สร้างเอนไซม์ย่อยอาหารคือเซลล์ชนิดใด?",
     "options": {
       "A": "Hepatocytes",
       "B": "Islets of Langerhans",
@@ -1784,7 +3117,7 @@ export const digestiveQuestions: Question[] = [
       "D": "Goblet cells"
     },
     "correctOption": "C",
-    "explanation": "เนื้อเยื่อส่วน Exocrine ของตับอ่อนประกอบด้วย Pancreatic acini ซึ่งสร้างขึ้นจาก Acinar cells ทรงพีระมิด ภายในบรรจุ Zymogen granules ทำหน้าที่ผลิตและหลั่งเอนไซม์ย่อยอาหารหลัก 3 หมู่ (Amylase, Lipase, Proteases เช่น Trypsinogen, Chymotrypsinogen) เข้าสู่ระบบท่อน้ำย่อยตับอ่อน",
+    "explanation": "เนื้อเยื่อส่วน Exocrine ของตับอ่อนประกอบด้วย Pancreatic acini ซึ่งสร้างขึ้นจาก Acinar cells ทรงพีระมิด ภายในบรรจุ Zymogen granules ทำหน้าที่ผลิตและหลั่งเอนไซม์ย่อยอาหารหลัก 3 หมู่ (Amylase, Lipase, Proteases เช่น Trypsinogen, Chymotrypsinogen) เข้าสู่ระบบท่อน้ำย่อยตับอ่อน\n\n📌 สรุปจุดชี้ตำแหน่งในภาพประกอบ (Liver, Biliary Tree, Gallbladder, Pancreas & Duodenum): จุดที่เกี่ยวข้องโดยตรงกับข้อนี้คือตำแหน่ง [D] (Duodenum (C-shaped Loop) — ลำไส้เล็กส่วนต้นโค้งรูปตัว C โอบรอบหัวตับอ่อน) สามารถกดสลับดู \"ภาพเฉลยครบทุกจุด (Master Labeled Diagram)\" ด้านบนเพื่อทบทวนตำแหน่ง [A] ถึง [F] ทั้งหมดได้ทันที",
     "system": "Digestive System",
     "topic": "Liver, Gallbladder & Pancreas",
     "difficulty": "Medium",
@@ -1793,11 +3126,54 @@ export const digestiveQuestions: Question[] = [
     "tags": [
       "exocrine-pancreas",
       "acinar-cells",
-      "zymogen-granules"
+      "zymogen-granules",
+      "has-diagram",
+      "diagram-hepatobiliary_pancreas"
     ],
     "createdAt": "2026-10-24",
     "updatedAt": "2026-10-24",
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "imageUrl": "/images/anatomy/hepatobiliary_pancreas_exam.svg",
+    "labeledImageUrl": "/images/anatomy/hepatobiliary_pancreas_labeled.svg",
+    "imageCaption": "Liver, Biliary Tree, Gallbladder, Pancreas & Duodenum — โครงสร้างตับ ทางเดินน้ำดี ถุงน้ำดี ตับอ่อน และกระเปาะ Ampulla of Vater",
+    "imageLabels": [
+      {
+        "pin": "A",
+        "term": "Gallbladder & Cystic Duct",
+        "thaiName": "ถุงน้ำดี (กักเก็บและทำให้น้ำดีเข้มข้น 5-10 เท่า บีบตัวด้วย CCK)",
+        "description": "ตำแหน่ง [A] คือ Gallbladder & Cystic Duct — ถุงน้ำดี (กักเก็บและทำให้น้ำดีเข้มข้น 5-10 เท่า บีบตัวด้วย CCK)"
+      },
+      {
+        "pin": "B",
+        "term": "Common Hepatic Duct",
+        "thaiName": "ท่อน้ำดีตับร่วม (เกิดจาก Right และ Left hepatic ducts รวมกัน)",
+        "description": "ตำแหน่ง [B] คือ Common Hepatic Duct — ท่อน้ำดีตับร่วม (เกิดจาก Right และ Left hepatic ducts รวมกัน)"
+      },
+      {
+        "pin": "C",
+        "term": "Common Bile Duct (CBD)",
+        "thaiName": "ท่อน้ำดีร่วม (เกิดจาก Common hepatic รวมกับ Cystic duct)",
+        "description": "ตำแหน่ง [C] คือ Common Bile Duct (CBD) — ท่อน้ำดีร่วม (เกิดจาก Common hepatic รวมกับ Cystic duct)"
+      },
+      {
+        "pin": "D",
+        "term": "Duodenum (C-shaped Loop)",
+        "thaiName": "ลำไส้เล็กส่วนต้นโค้งรูปตัว C โอบรอบหัวตับอ่อน",
+        "description": "ตำแหน่ง [D] คือ Duodenum (C-shaped Loop) — ลำไส้เล็กส่วนต้นโค้งรูปตัว C โอบรอบหัวตับอ่อน"
+      },
+      {
+        "pin": "E",
+        "term": "Pancreas & Main Pancreatic Duct",
+        "thaiName": "ตับอ่อน (Acinar หลั่งเอนไซม์ / Duct หลั่ง HCO3- / Islets หลั่งอินซูลิน)",
+        "description": "ตำแหน่ง [E] คือ Pancreas & Main Pancreatic Duct — ตับอ่อน (Acinar หลั่งเอนไซม์ / Duct หลั่ง HCO3- / Islets หลั่งอินซูลิน)"
+      },
+      {
+        "pin": "F",
+        "term": "Hepatopancreatic Ampulla (Vater) & Oddi",
+        "thaiName": "กระเปาะรวมท่อน้ำดีกับท่อตับอ่อน และหูรูด Sphincter of Oddi",
+        "description": "ตำแหน่ง [F] คือ Hepatopancreatic Ampulla (Vater) & Oddi — กระเปาะรวมท่อน้ำดีกับท่อตับอ่อน และหูรูด Sphincter of Oddi"
+      }
+    ]
   },
   {
     "id": "DIGEST-072",
@@ -1827,7 +3203,7 @@ export const digestiveQuestions: Question[] = [
   },
   {
     "id": "DIGEST-073",
-    "questionText": "เอนไซม์ชนิดใดบนเยื่อบุ Brush border ของลำไส้เล็กส่วนต้น (Duodenum) ที่ทำหน้าที่ตัดสายเปปไทด์ของ Trypsinogen จากตับอ่อนให้กลายเป็น Active Trypsin ซึ่งจะไปกระตุ้น Zymogens อื่นๆ ทั้งหมดต่อไป?",
+    "questionText": "[🖼️ ข้อสอบวิเคราะห์ภาพประกอบกายวิภาค — พิจารณาแผนภาพและจุดชี้ตำแหน่ง [A]–[F] โดยเฉพาะบริเวณตำแหน่ง [E]] เอนไซม์ชนิดใดบนเยื่อบุ Brush border ของลำไส้เล็กส่วนต้น (Duodenum) ที่ทำหน้าที่ตัดสายเปปไทด์ของ Trypsinogen จากตับอ่อนให้กลายเป็น Active Trypsin ซึ่งจะไปกระตุ้น Zymogens อื่นๆ ทั้งหมดต่อไป?",
     "options": {
       "A": "Enteropeptidase (Enterokinase)",
       "B": "Pepsin",
@@ -1835,7 +3211,7 @@ export const digestiveQuestions: Question[] = [
       "D": "Lipase"
     },
     "correctOption": "A",
-    "explanation": "Enteropeptidase (เดิมเรียก Enterokinase) เป็นเอนไซม์ที่ตรึงอยู่บน Microvilli ของ Duodenal enterocytes เมื่อสัมผัสกับ Pancreatic juice จะตัดสาย Hexapeptide ของ Trypsinogen ให้กลายเป็น Trypsin จากนั้น Trypsin จะทำหน้าที่เป็น Master activator ไปเร่งกระตุ้น Chymotrypsinogen, Procarboxypeptidase, และ Proelastase ให้กลายเป็น Active enzymes พร้อมย่อยอาหาร",
+    "explanation": "Enteropeptidase (เดิมเรียก Enterokinase) เป็นเอนไซม์ที่ตรึงอยู่บน Microvilli ของ Duodenal enterocytes เมื่อสัมผัสกับ Pancreatic juice จะตัดสาย Hexapeptide ของ Trypsinogen ให้กลายเป็น Trypsin จากนั้น Trypsin จะทำหน้าที่เป็น Master activator ไปเร่งกระตุ้น Chymotrypsinogen, Procarboxypeptidase, และ Proelastase ให้กลายเป็น Active enzymes พร้อมย่อยอาหาร\n\n📌 สรุปจุดชี้ตำแหน่งในภาพประกอบ (Liver, Biliary Tree, Gallbladder, Pancreas & Duodenum): จุดที่เกี่ยวข้องโดยตรงกับข้อนี้คือตำแหน่ง [E] (Pancreas & Main Pancreatic Duct — ตับอ่อน (Acinar หลั่งเอนไซม์ / Duct หลั่ง HCO3- / Islets หลั่งอินซูลิน)) สามารถกดสลับดู \"ภาพเฉลยครบทุกจุด (Master Labeled Diagram)\" ด้านบนเพื่อทบทวนตำแหน่ง [A] ถึง [F] ทั้งหมดได้ทันที",
     "system": "Digestive System",
     "topic": "Liver, Gallbladder & Pancreas",
     "difficulty": "Hard",
@@ -1844,11 +3220,54 @@ export const digestiveQuestions: Question[] = [
     "tags": [
       "enteropeptidase",
       "enterokinase",
-      "trypsin-activation"
+      "trypsin-activation",
+      "has-diagram",
+      "diagram-hepatobiliary_pancreas"
     ],
     "createdAt": "2026-10-24",
     "updatedAt": "2026-10-24",
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "imageUrl": "/images/anatomy/hepatobiliary_pancreas_exam.svg",
+    "labeledImageUrl": "/images/anatomy/hepatobiliary_pancreas_labeled.svg",
+    "imageCaption": "Liver, Biliary Tree, Gallbladder, Pancreas & Duodenum — โครงสร้างตับ ทางเดินน้ำดี ถุงน้ำดี ตับอ่อน และกระเปาะ Ampulla of Vater",
+    "imageLabels": [
+      {
+        "pin": "A",
+        "term": "Gallbladder & Cystic Duct",
+        "thaiName": "ถุงน้ำดี (กักเก็บและทำให้น้ำดีเข้มข้น 5-10 เท่า บีบตัวด้วย CCK)",
+        "description": "ตำแหน่ง [A] คือ Gallbladder & Cystic Duct — ถุงน้ำดี (กักเก็บและทำให้น้ำดีเข้มข้น 5-10 เท่า บีบตัวด้วย CCK)"
+      },
+      {
+        "pin": "B",
+        "term": "Common Hepatic Duct",
+        "thaiName": "ท่อน้ำดีตับร่วม (เกิดจาก Right และ Left hepatic ducts รวมกัน)",
+        "description": "ตำแหน่ง [B] คือ Common Hepatic Duct — ท่อน้ำดีตับร่วม (เกิดจาก Right และ Left hepatic ducts รวมกัน)"
+      },
+      {
+        "pin": "C",
+        "term": "Common Bile Duct (CBD)",
+        "thaiName": "ท่อน้ำดีร่วม (เกิดจาก Common hepatic รวมกับ Cystic duct)",
+        "description": "ตำแหน่ง [C] คือ Common Bile Duct (CBD) — ท่อน้ำดีร่วม (เกิดจาก Common hepatic รวมกับ Cystic duct)"
+      },
+      {
+        "pin": "D",
+        "term": "Duodenum (C-shaped Loop)",
+        "thaiName": "ลำไส้เล็กส่วนต้นโค้งรูปตัว C โอบรอบหัวตับอ่อน",
+        "description": "ตำแหน่ง [D] คือ Duodenum (C-shaped Loop) — ลำไส้เล็กส่วนต้นโค้งรูปตัว C โอบรอบหัวตับอ่อน"
+      },
+      {
+        "pin": "E",
+        "term": "Pancreas & Main Pancreatic Duct",
+        "thaiName": "ตับอ่อน (Acinar หลั่งเอนไซม์ / Duct หลั่ง HCO3- / Islets หลั่งอินซูลิน)",
+        "description": "ตำแหน่ง [E] คือ Pancreas & Main Pancreatic Duct — ตับอ่อน (Acinar หลั่งเอนไซม์ / Duct หลั่ง HCO3- / Islets หลั่งอินซูลิน)"
+      },
+      {
+        "pin": "F",
+        "term": "Hepatopancreatic Ampulla (Vater) & Oddi",
+        "thaiName": "กระเปาะรวมท่อน้ำดีกับท่อตับอ่อน และหูรูด Sphincter of Oddi",
+        "description": "ตำแหน่ง [F] คือ Hepatopancreatic Ampulla (Vater) & Oddi — กระเปาะรวมท่อน้ำดีกับท่อตับอ่อน และหูรูด Sphincter of Oddi"
+      }
+    ]
   },
   {
     "id": "DIGEST-074",
@@ -2204,7 +3623,7 @@ export const digestiveQuestions: Question[] = [
   },
   {
     "id": "DIGEST-088",
-    "questionText": "สารคัดหลั่งน้ำลาย (Saliva) ประกอบด้วยสารใดที่มีคุณสมบัติทำลายผนังเซลล์ของแบคทีเรีย และแอนติบอดีชนิดใดที่ทำหน้าที่เป็นด่านหน้าทางภูมิคุ้มกันในช่องปาก?",
+    "questionText": "[🖼️ ข้อสอบวิเคราะห์ภาพประกอบกายวิภาค — พิจารณาแผนภาพและจุดชี้ตำแหน่ง [A]–[F] โดยเฉพาะบริเวณตำแหน่ง [A]] สารคัดหลั่งน้ำลาย (Saliva) ประกอบด้วยสารใดที่มีคุณสมบัติทำลายผนังเซลล์ของแบคทีเรีย และแอนติบอดีชนิดใดที่ทำหน้าที่เป็นด่านหน้าทางภูมิคุ้มกันในช่องปาก?",
     "options": {
       "A": "กรดเกลือและฮิสตามีน",
       "B": "เอนไซม์ Pepsin และแอนติบอดีชนิด IgG",
@@ -2212,7 +3631,7 @@ export const digestiveQuestions: Question[] = [
       "D": "เอนไซม์ Lysozyme และแอนติบอดีชนิด Secretory IgA"
     },
     "correctOption": "D",
-    "explanation": "น้ำลายมีบทบาทสำคัญในการป้องกันการติดเชื้อในช่องปาก: 1. Lysozyme ย่อยผนังเซลล์แบคทีเรีย 2. Secretory IgA (sIgA) ดักจับเชื้อโรคไม่ให้เกาะติดเยื่อบุผิว 3. Lactoferrin แย่งจับธาตุเหล็กไม่ให้แบคทีเรียเจริญเติบโต 4. Bicarbonate ช่วยปรับสะเทินกรดจากแบคทีเรียป้องกันฟันผุ",
+    "explanation": "น้ำลายมีบทบาทสำคัญในการป้องกันการติดเชื้อในช่องปาก: 1. Lysozyme ย่อยผนังเซลล์แบคทีเรีย 2. Secretory IgA (sIgA) ดักจับเชื้อโรคไม่ให้เกาะติดเยื่อบุผิว 3. Lactoferrin แย่งจับธาตุเหล็กไม่ให้แบคทีเรียเจริญเติบโต 4. Bicarbonate ช่วยปรับสะเทินกรดจากแบคทีเรียป้องกันฟันผุ\n\n📌 สรุปจุดชี้ตำแหน่งในภาพประกอบ (Major Salivary Glands & Dorsal Surface of the Tongue): จุดที่เกี่ยวข้องโดยตรงกับข้อนี้คือตำแหน่ง [A] (Parotid Gland & Stensen's Duct — ต่อมน้ำลายพารอติด (ใหญ่สุด ผลิตน้ำลายใส เปิดตรงข้ามกรามบนซี่ 2)) สามารถกดสลับดู \"ภาพเฉลยครบทุกจุด (Master Labeled Diagram)\" ด้านบนเพื่อทบทวนตำแหน่ง [A] ถึง [F] ทั้งหมดได้ทันที",
     "system": "Digestive System",
     "topic": "Mouth, Tongue & Salivary Glands",
     "difficulty": "Medium",
@@ -2221,11 +3640,54 @@ export const digestiveQuestions: Question[] = [
     "tags": [
       "saliva-components",
       "lysozyme",
-      "secretory-iga"
+      "secretory-iga",
+      "has-diagram",
+      "diagram-oral_salivary_esophagus"
     ],
     "createdAt": "2026-10-24",
     "updatedAt": "2026-10-24",
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "imageUrl": "/images/anatomy/oral_salivary_esophagus_exam.svg",
+    "labeledImageUrl": "/images/anatomy/oral_salivary_esophagus_labeled.svg",
+    "imageCaption": "Major Salivary Glands & Dorsal Surface of the Tongue — ต่อมน้ำลายหลัก 3 คู่ (Parotid, Submandibular, Sublingual) และปุ่มลิ้น",
+    "imageLabels": [
+      {
+        "pin": "A",
+        "term": "Parotid Gland & Stensen's Duct",
+        "thaiName": "ต่อมน้ำลายพารอติด (ใหญ่สุด ผลิตน้ำลายใส เปิดตรงข้ามกรามบนซี่ 2)",
+        "description": "ตำแหน่ง [A] คือ Parotid Gland & Stensen's Duct — ต่อมน้ำลายพารอติด (ใหญ่สุด ผลิตน้ำลายใส เปิดตรงข้ามกรามบนซี่ 2)"
+      },
+      {
+        "pin": "B",
+        "term": "Submandibular Gland & Wharton's Duct",
+        "thaiName": "ต่อมน้ำลายใต้ขากรรไกร (ผลิตน้ำลาย 70% เปิดใต้โคนลิ้น)",
+        "description": "ตำแหน่ง [B] คือ Submandibular Gland & Wharton's Duct — ต่อมน้ำลายใต้ขากรรไกร (ผลิตน้ำลาย 70% เปิดใต้โคนลิ้น)"
+      },
+      {
+        "pin": "C",
+        "term": "Sublingual Gland (Ducts of Rivinus)",
+        "thaiName": "ต่อมน้ำลายใต้ลิ้น (เล็กสุด ผลิตน้ำลายเมือกข้น)",
+        "description": "ตำแหน่ง [C] คือ Sublingual Gland (Ducts of Rivinus) — ต่อมน้ำลายใต้ลิ้น (เล็กสุด ผลิตน้ำลายเมือกข้น)"
+      },
+      {
+        "pin": "D",
+        "term": "Circumvallate Papillae (Von Ebner's glands)",
+        "thaiName": "ปุ่มลิ้นขนาดใหญ่เรียงรูปตัว V หน้า Sulcus terminalis",
+        "description": "ตำแหน่ง [D] คือ Circumvallate Papillae (Von Ebner's glands) — ปุ่มลิ้นขนาดใหญ่เรียงรูปตัว V หน้า Sulcus terminalis"
+      },
+      {
+        "pin": "E",
+        "term": "Sulcus Terminalis & Foramen Cecum",
+        "thaiName": "ร่องตัว V แบ่งลิ้นส่วนหน้า 2/3 กับส่วนหลัง 1/3",
+        "description": "ตำแหน่ง [E] คือ Sulcus Terminalis & Foramen Cecum — ร่องตัว V แบ่งลิ้นส่วนหน้า 2/3 กับส่วนหลัง 1/3"
+      },
+      {
+        "pin": "F",
+        "term": "Anterior 2/3 Tongue (Filiform/Fungiform)",
+        "thaiName": "ลิ้น 2/3 ส่วนหน้า (Filiform มากสุดไม่มีตุ่มรับรส / รับรสด้วย CN VII)",
+        "description": "ตำแหน่ง [F] คือ Anterior 2/3 Tongue (Filiform/Fungiform) — ลิ้น 2/3 ส่วนหน้า (Filiform มากสุดไม่มีตุ่มรับรส / รับรสด้วย CN VII)"
+      }
+    ]
   },
   {
     "id": "DIGEST-089",
@@ -2480,7 +3942,7 @@ export const digestiveQuestions: Question[] = [
   },
   {
     "id": "DIGEST-099",
-    "questionText": "โครงสร้างใดทำหน้าที่ควบคุมการเคลื่อนไหวและการหลั่งของระบบทางเดินอาหารโดยอัตโนมัติ โดยมีจำนวนเซลล์ประสาทมากกว่า 100 ล้านเซลล์ จนได้รับฉายาว่า \"สมองที่สองของร่างกาย\" (The second brain)?",
+    "questionText": "[🖼️ ข้อสอบวิเคราะห์ภาพประกอบกายวิภาค — พิจารณาแผนภาพและจุดชี้ตำแหน่ง [A]–[F] โดยเฉพาะบริเวณตำแหน่ง [D]] โครงสร้างใดทำหน้าที่ควบคุมการเคลื่อนไหวและการหลั่งของระบบทางเดินอาหารโดยอัตโนมัติ โดยมีจำนวนเซลล์ประสาทมากกว่า 100 ล้านเซลล์ จนได้รับฉายาว่า \"สมองที่สองของร่างกาย\" (The second brain)?",
     "options": {
       "A": "Sympathetic chain ganglia",
       "B": "Central Nervous System",
@@ -2488,7 +3950,7 @@ export const digestiveQuestions: Question[] = [
       "D": "Somatic motor system"
     },
     "correctOption": "C",
-    "explanation": "Enteric Nervous System (ENS) เป็นเครือข่ายร่างแหเซลล์ประสาทอิสระที่ฝังตัวอยู่ในผนังทางเดินอาหารตั้งแต่หลอดอาหารจนถึงทวารหนัก ประกอบด้วย Myenteric (Auerbach's) plexus และ Submucosal (Meissner's) plexus สามารถควบคุม Reflexes ของการเคลื่อนไหว การหลั่ง และการไหลเวียนเลือดได้ด้วยตนเองแม้ถูกตัดขาดจากสมอง",
+    "explanation": "Enteric Nervous System (ENS) เป็นเครือข่ายร่างแหเซลล์ประสาทอิสระที่ฝังตัวอยู่ในผนังทางเดินอาหารตั้งแต่หลอดอาหารจนถึงทวารหนัก ประกอบด้วย Myenteric (Auerbach's) plexus และ Submucosal (Meissner's) plexus สามารถควบคุม Reflexes ของการเคลื่อนไหว การหลั่ง และการไหลเวียนเลือดได้ด้วยตนเองแม้ถูกตัดขาดจากสมอง\n\n📌 สรุปจุดชี้ตำแหน่งในภาพประกอบ (Four Histological Layers of the Gastrointestinal Tract Wall): จุดที่เกี่ยวข้องโดยตรงกับข้อนี้คือตำแหน่ง [D] (Muscularis Externa (Inner Circular) — ชั้นกล้ามเนื้อเรียบวงใน (หดตัวบีบรูดลูเมน)) สามารถกดสลับดู \"ภาพเฉลยครบทุกจุด (Master Labeled Diagram)\" ด้านบนเพื่อทบทวนตำแหน่ง [A] ถึง [F] ทั้งหมดได้ทันที",
     "system": "Digestive System",
     "topic": "Histological Structure of the Digestive Tract",
     "difficulty": "Medium",
@@ -2498,11 +3960,54 @@ export const digestiveQuestions: Question[] = [
       "enteric-nervous-system",
       "ens",
       "second-brain",
-      "myenteric-submucosal"
+      "myenteric-submucosal",
+      "has-diagram",
+      "diagram-gi_wall_peritoneum"
     ],
     "createdAt": "2026-10-24",
     "updatedAt": "2026-10-24",
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "imageUrl": "/images/anatomy/gi_wall_peritoneum_exam.svg",
+    "labeledImageUrl": "/images/anatomy/gi_wall_peritoneum_labeled.svg",
+    "imageCaption": "Four Histological Layers of the Gastrointestinal Tract Wall — โครงสร้างเนื้อเยื่อผนังทางเดินอาหาร 4 ชั้น และระบบประสาทลำไส้ (ENS)",
+    "imageLabels": [
+      {
+        "pin": "A",
+        "term": "Mucosa (Epithelium & Lamina Propria)",
+        "thaiName": "ชั้นเยื่อเมือกด้านในสุด (ดูดซึมและหลั่งเมือก)",
+        "description": "ตำแหน่ง [A] คือ Mucosa (Epithelium & Lamina Propria) — ชั้นเยื่อเมือกด้านในสุด (ดูดซึมและหลั่งเมือก)"
+      },
+      {
+        "pin": "B",
+        "term": "Muscularis Mucosae",
+        "thaiName": "กล้ามเนื้อเรียบบางๆ แยก Mucosa กับ Submucosa",
+        "description": "ตำแหน่ง [B] คือ Muscularis Mucosae — กล้ามเนื้อเรียบบางๆ แยก Mucosa กับ Submucosa"
+      },
+      {
+        "pin": "C",
+        "term": "Submucosa & Meissner's Plexus",
+        "thaiName": "ชั้นใต้เยื่อเมือกและร่างแหประสาทควบคุมการหลั่งสาร",
+        "description": "ตำแหน่ง [C] คือ Submucosa & Meissner's Plexus — ชั้นใต้เยื่อเมือกและร่างแหประสาทควบคุมการหลั่งสาร"
+      },
+      {
+        "pin": "D",
+        "term": "Muscularis Externa (Inner Circular)",
+        "thaiName": "ชั้นกล้ามเนื้อเรียบวงใน (หดตัวบีบรูดลูเมน)",
+        "description": "ตำแหน่ง [D] คือ Muscularis Externa (Inner Circular) — ชั้นกล้ามเนื้อเรียบวงใน (หดตัวบีบรูดลูเมน)"
+      },
+      {
+        "pin": "E",
+        "term": "Myenteric (Auerbach's) Plexus",
+        "thaiName": "ร่างแหประสาทคั่นระหว่างกล้ามเนื้อ 2 ชั้น ควบคุม Peristalsis",
+        "description": "ตำแหน่ง [E] คือ Myenteric (Auerbach's) Plexus — ร่างแหประสาทคั่นระหว่างกล้ามเนื้อ 2 ชั้น ควบคุม Peristalsis"
+      },
+      {
+        "pin": "F",
+        "term": "Serosa (Visceral Peritoneum) / Adventitia",
+        "thaiName": "ผนังชั้นนอกสุดห่อหุ้มทางเดินอาหาร",
+        "description": "ตำแหน่ง [F] คือ Serosa (Visceral Peritoneum) / Adventitia — ผนังชั้นนอกสุดห่อหุ้มทางเดินอาหาร"
+      }
+    ]
   },
   {
     "id": "DIGEST-100",

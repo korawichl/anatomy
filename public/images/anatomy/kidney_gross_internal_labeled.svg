@@ -1,0 +1,179 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 620" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f8fafc" />
+      <stop offset="100%" stop-color="#eff6ff" />
+    </linearGradient>
+    <linearGradient id="oxyBlood" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ef4444" />
+      <stop offset="100%" stop-color="#b91c1c" />
+    </linearGradient>
+    <linearGradient id="deoxyBlood" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3b82f6" />
+      <stop offset="100%" stop-color="#1d4ed8" />
+    </linearGradient>
+    <linearGradient id="organPink" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fda4af" />
+      <stop offset="100%" stop-color="#e11d48" />
+    </linearGradient>
+    <linearGradient id="liverBrown" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#b45309" />
+      <stop offset="100%" stop-color="#78350f" />
+    </linearGradient>
+    <linearGradient id="kidneyRed" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#be123c" />
+      <stop offset="100%" stop-color="#881337" />
+    </linearGradient>
+    <linearGradient id="lymphGreen" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#10b981" />
+      <stop offset="100%" stop-color="#047857" />
+    </linearGradient>
+    <linearGradient id="urineYellow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fde047" />
+      <stop offset="100%" stop-color="#eab308" />
+    </linearGradient>
+    <filter id="dropShadow" x="-10%" y="-10%" width="125%" height="125%">
+      <feDropShadow dx="0" dy="3" stdDeviation="4" flood-color="#0f172a" flood-opacity="0.22" />
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1000" height="620" rx="18" fill="url(#bgGrad)" stroke="#cbd5e1" stroke-width="2" />
+  
+  <!-- Subtle Medical Grid -->
+  <g stroke="#e2e8f0" stroke-width="1" opacity="0.55">
+    <line x1="0" y1="150" x2="1000" y2="150" />
+    <line x1="0" y1="300" x2="1000" y2="300" />
+    <line x1="0" y1="450" x2="1000" y2="450" />
+    <line x1="250" y1="65" x2="250" y2="620" />
+    <line x1="500" y1="65" x2="500" y2="620" />
+    <line x1="750" y1="65" x2="750" y2="620" />
+  </g>
+
+  <!-- Header Banner -->
+  <rect x="0" y="0" width="1000" height="66" rx="18" fill="#0f172a" />
+  <rect x="0" y="48" width="1000" height="18" fill="#0f172a" />
+  <text x="28" y="30" font-family="Inter, Sarabun, sans-serif" font-size="17" font-weight="800" fill="#f8fafc">Internal Structure of the Kidney: Cortex, Medulla, Calyces & Hilum</text>
+  <text x="28" y="51" font-family="Sarabun, Inter, sans-serif" font-size="12.5" font-weight="500" fill="#38bdf8">Urinary System • โครงสร้างภายในไต ชั้น Cortex, Medullary Pyramids, กรวยไต และหลอดเลือดไต</text>
+  <rect x="750" y="18" width="225" height="30" rx="15" fill="#059669" /><text x="862" y="38" font-family="Sarabun, sans-serif" font-size="12" font-weight="700" fill="#ffffff" text-anchor="middle">✓ เฉลยโครงสร้างครบทุกจุด (Master)</text>
+
+  <!-- Main Anatomical Illustration -->
+  <g transform="translate(0, 10)">
+    
+      <!-- Kidney Bean Outer Contour (Renal Capsule + Cortex) -->
+      <path d="M460,105 C265,105 225,515 460,520 C555,520 595,435 555,365 C525,325 525,295 555,255 C595,185 555,105 460,105 Z" fill="#fda4af" stroke="#881337" stroke-width="5" filter="url(#dropShadow)"/>
+      <!-- Renal Pyramids (Triangular striated in Medulla) -->
+      <polygon points="335,185 415,155 445,245" fill="#9f1239" stroke="#ffffff" stroke-width="1.5"/>
+      <polygon points="295,280 345,220 430,285" fill="#9f1239" stroke="#ffffff" stroke-width="1.5"/>
+      <polygon points="295,355 320,425 430,340" fill="#9f1239" stroke="#ffffff" stroke-width="1.5"/>
+      <polygon points="355,465 430,490 455,380" fill="#9f1239" stroke="#ffffff" stroke-width="1.5"/>
+      <!-- Renal Pelvis, Major & Minor Calyces & Ureter -->
+      <path d="M445,245 L485,275 M430,285 L485,295 M430,340 L485,325 M455,380 L485,350" stroke="#fde047" stroke-width="14" stroke-linecap="round"/>
+      <path d="M475,265 C535,280 565,315 585,375 L585,535" fill="none" stroke="#eab308" stroke-width="26" stroke-linecap="round"/>
+      <!-- Renal Artery & Vein at Hilum -->
+      <path d="M535,285 L685,265" stroke="#dc2626" stroke-width="14" stroke-linecap="round"/>
+      <path d="M535,315 L685,315" stroke="#2563eb" stroke-width="16" stroke-linecap="round"/>
+      <!-- Arcuate & Interlobar Vessels -->
+      <path d="M535,285 L415,255 C365,240 335,260 325,295" fill="none" stroke="#dc2626" stroke-width="3.5" stroke-dasharray="4,2"/>
+    
+  </g>
+
+  <!-- Callout Pins -->
+  <g transform="translate(0, 10)">
+    
+    <!-- Landmark Pin A -->
+    <g class="landmark-group">
+      <line x1="315" y1="155" x2="250" y2="145" stroke="#e11d48" stroke-width="2.2" stroke-dasharray="none" />
+      <circle cx="315" cy="155" r="6" fill="#e11d48" stroke="#ffffff" stroke-width="2" />
+      <circle cx="315" cy="155" r="11" fill="none" stroke="#e11d48" stroke-width="1.5" opacity="0.5" />
+      
+        <rect x="-5" y="123" width="255" height="44" rx="8" fill="#0f172a" fill-opacity="0.93" stroke="#e11d48" stroke-width="2" filter="url(#dropShadow)" />
+        <rect x="-5" y="123" width="28" height="44" rx="8" fill="#e11d48" />
+        <text x="9" y="150" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="800" fill="#ffffff" text-anchor="middle">A</text>
+        <text x="31" y="141" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="700" fill="#f8fafc">Renal Cortex & Fibrous Capsule</text>
+        <text x="31" y="158" font-family="Sarabun, Inter, sans-serif" font-size="11" font-weight="500" fill="#94a3b8">เนื้อไตชั้นนอก (ที่อยู่ของ Renal corpuscles ทั้งหมด) และแคปซูลหุ้มไต</text>
+      
+    </g>
+  
+
+    <!-- Landmark Pin B -->
+    <g class="landmark-group">
+      <line x1="345" y1="265" x2="250" y2="265" stroke="#9f1239" stroke-width="2.2" stroke-dasharray="none" />
+      <circle cx="345" cy="265" r="6" fill="#9f1239" stroke="#ffffff" stroke-width="2" />
+      <circle cx="345" cy="265" r="11" fill="none" stroke="#9f1239" stroke-width="1.5" opacity="0.5" />
+      
+        <rect x="-5" y="243" width="255" height="44" rx="8" fill="#0f172a" fill-opacity="0.93" stroke="#9f1239" stroke-width="2" filter="url(#dropShadow)" />
+        <rect x="-5" y="243" width="28" height="44" rx="8" fill="#9f1239" />
+        <text x="9" y="270" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="800" fill="#ffffff" text-anchor="middle">B</text>
+        <text x="31" y="261" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="700" fill="#f8fafc">Renal Pyramid in Medulla & Papilla</text>
+        <text x="31" y="278" font-family="Sarabun, Inter, sans-serif" font-size="11" font-weight="500" fill="#94a3b8">พีระมิดไตในชั้น Medulla มียอดแหลม Renal papilla เปิดเข้ากรวยไต</text>
+      
+    </g>
+  
+
+    <!-- Landmark Pin C -->
+    <g class="landmark-group">
+      <line x1="375" y1="310" x2="250" y2="385" stroke="#db2777" stroke-width="2.2" stroke-dasharray="none" />
+      <circle cx="375" cy="310" r="6" fill="#db2777" stroke="#ffffff" stroke-width="2" />
+      <circle cx="375" cy="310" r="11" fill="none" stroke="#db2777" stroke-width="1.5" opacity="0.5" />
+      
+        <rect x="-5" y="363" width="255" height="44" rx="8" fill="#0f172a" fill-opacity="0.93" stroke="#db2777" stroke-width="2" filter="url(#dropShadow)" />
+        <rect x="-5" y="363" width="28" height="44" rx="8" fill="#db2777" />
+        <text x="9" y="390" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="800" fill="#ffffff" text-anchor="middle">C</text>
+        <text x="31" y="381" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="700" fill="#f8fafc">Renal Column (Column of Bertin)</text>
+        <text x="31" y="398" font-family="Sarabun, Inter, sans-serif" font-size="11" font-weight="500" fill="#94a3b8">เนื้อไตชั้น Cortex ที่ยื่นแทรกคั่นระหว่างพีระมิดไต (ทางผ่าน Interlobar a.)</text>
+      
+    </g>
+  
+
+    <!-- Landmark Pin D -->
+    <g class="landmark-group">
+      <line x1="455" y1="288" x2="715" y2="205" stroke="#ca8a04" stroke-width="2.2" stroke-dasharray="none" />
+      <circle cx="455" cy="288" r="6" fill="#ca8a04" stroke="#ffffff" stroke-width="2" />
+      <circle cx="455" cy="288" r="11" fill="none" stroke="#ca8a04" stroke-width="1.5" opacity="0.5" />
+      
+        <rect x="715" y="183" width="255" height="44" rx="8" fill="#0f172a" fill-opacity="0.93" stroke="#ca8a04" stroke-width="2" filter="url(#dropShadow)" />
+        <rect x="715" y="183" width="28" height="44" rx="8" fill="#ca8a04" />
+        <text x="729" y="210" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="800" fill="#ffffff" text-anchor="middle">D</text>
+        <text x="751" y="201" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="700" fill="#f8fafc">Minor & Major Calyces</text>
+        <text x="751" y="218" font-family="Sarabun, Inter, sans-serif" font-size="11" font-weight="500" fill="#94a3b8">กรวยไตย่อย (รองรับปัสสาวะจาก Renal papilla) รวมเป็นกรวยไตใหญ่</text>
+      
+    </g>
+  
+
+    <!-- Landmark Pin E -->
+    <g class="landmark-group">
+      <line x1="625" y1="285" x2="715" y2="315" stroke="#2563eb" stroke-width="2.2" stroke-dasharray="none" />
+      <circle cx="625" cy="285" r="6" fill="#2563eb" stroke="#ffffff" stroke-width="2" />
+      <circle cx="625" cy="285" r="11" fill="none" stroke="#2563eb" stroke-width="1.5" opacity="0.5" />
+      
+        <rect x="715" y="293" width="255" height="44" rx="8" fill="#0f172a" fill-opacity="0.93" stroke="#2563eb" stroke-width="2" filter="url(#dropShadow)" />
+        <rect x="715" y="293" width="28" height="44" rx="8" fill="#2563eb" />
+        <text x="729" y="320" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="800" fill="#ffffff" text-anchor="middle">E</text>
+        <text x="751" y="311" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="700" fill="#f8fafc">Renal Hilum (Vein-Artery-Pelvis)</text>
+        <text x="751" y="328" font-family="Sarabun, Inter, sans-serif" font-size="11" font-weight="500" fill="#94a3b8">ขั้วไตทางด้านใน เรียงจากหน้าไปหลัง: Renal Vein -> Artery -> Pelvis</text>
+      
+    </g>
+  
+
+    <!-- Landmark Pin F -->
+    <g class="landmark-group">
+      <line x1="585" y1="455" x2="715" y2="465" stroke="#d97706" stroke-width="2.2" stroke-dasharray="none" />
+      <circle cx="585" cy="455" r="6" fill="#d97706" stroke="#ffffff" stroke-width="2" />
+      <circle cx="585" cy="455" r="11" fill="none" stroke="#d97706" stroke-width="1.5" opacity="0.5" />
+      
+        <rect x="715" y="443" width="255" height="44" rx="8" fill="#0f172a" fill-opacity="0.93" stroke="#d97706" stroke-width="2" filter="url(#dropShadow)" />
+        <rect x="715" y="443" width="28" height="44" rx="8" fill="#d97706" />
+        <text x="729" y="470" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="800" fill="#ffffff" text-anchor="middle">F</text>
+        <text x="751" y="461" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="700" fill="#f8fafc">Renal Pelvis & Ureter</text>
+        <text x="751" y="478" font-family="Sarabun, Inter, sans-serif" font-size="11" font-weight="500" fill="#94a3b8">แอ่งกรวยไตใหญ่ต่อลงไปเป็นท่อไต (Ureter) สู่กระเพาะปัสสาวะ</text>
+      
+    </g>
+  
+  </g>
+
+  <!-- Footer -->
+  <text x="500" y="606" font-family="Sarabun, Inter, sans-serif" font-size="11" fill="#64748b" text-anchor="middle">
+    Anatomy Exam Lab — High-Resolution Medical Vector Atlas (Aligned with BNS102 RSU Lecture Slides)
+  </text>
+</svg>

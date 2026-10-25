@@ -1,0 +1,190 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 620" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f8fafc" />
+      <stop offset="100%" stop-color="#eff6ff" />
+    </linearGradient>
+    <linearGradient id="oxyBlood" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ef4444" />
+      <stop offset="100%" stop-color="#b91c1c" />
+    </linearGradient>
+    <linearGradient id="deoxyBlood" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3b82f6" />
+      <stop offset="100%" stop-color="#1d4ed8" />
+    </linearGradient>
+    <linearGradient id="organPink" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fda4af" />
+      <stop offset="100%" stop-color="#e11d48" />
+    </linearGradient>
+    <linearGradient id="liverBrown" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#b45309" />
+      <stop offset="100%" stop-color="#78350f" />
+    </linearGradient>
+    <linearGradient id="kidneyRed" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#be123c" />
+      <stop offset="100%" stop-color="#881337" />
+    </linearGradient>
+    <linearGradient id="lymphGreen" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#10b981" />
+      <stop offset="100%" stop-color="#047857" />
+    </linearGradient>
+    <linearGradient id="urineYellow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fde047" />
+      <stop offset="100%" stop-color="#eab308" />
+    </linearGradient>
+    <filter id="dropShadow" x="-10%" y="-10%" width="125%" height="125%">
+      <feDropShadow dx="0" dy="3" stdDeviation="4" flood-color="#0f172a" flood-opacity="0.22" />
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1000" height="620" rx="18" fill="url(#bgGrad)" stroke="#cbd5e1" stroke-width="2" />
+  
+  <!-- Subtle Medical Grid -->
+  <g stroke="#e2e8f0" stroke-width="1" opacity="0.55">
+    <line x1="0" y1="150" x2="1000" y2="150" />
+    <line x1="0" y1="300" x2="1000" y2="300" />
+    <line x1="0" y1="450" x2="1000" y2="450" />
+    <line x1="250" y1="65" x2="250" y2="620" />
+    <line x1="500" y1="65" x2="500" y2="620" />
+    <line x1="750" y1="65" x2="750" y2="620" />
+  </g>
+
+  <!-- Header Banner -->
+  <rect x="0" y="0" width="1000" height="66" rx="18" fill="#0f172a" />
+  <rect x="0" y="48" width="1000" height="18" fill="#0f172a" />
+  <text x="28" y="30" font-family="Inter, Sarabun, sans-serif" font-size="17" font-weight="800" fill="#f8fafc">Cardiac Conduction System & Electrocardiogram (ECG) Correlation</text>
+  <text x="28" y="51" font-family="Sarabun, Inter, sans-serif" font-size="12.5" font-weight="500" fill="#38bdf8">Cardiovascular System • ระบบนำกระแสไฟฟ้าของหัวใจและกราฟคลื่นไฟฟ้าหัวใจ</text>
+  <rect x="750" y="18" width="225" height="30" rx="15" fill="#059669" /><text x="862" y="38" font-family="Sarabun, sans-serif" font-size="12" font-weight="700" fill="#ffffff" text-anchor="middle">✓ เฉลยโครงสร้างครบทุกจุด (Master)</text>
+
+  <!-- Main Anatomical Illustration -->
+  <g transform="translate(0, 10)">
+    
+      <!-- Heart Silhouette -->
+      <path d="M260,180 C200,230 205,360 280,440 L450,520 C540,470 590,350 560,220 C530,165 440,160 390,180 Z" fill="#ffe4e6" stroke="#be123c" stroke-width="3.5" filter="url(#dropShadow)"/>
+      <path d="M395,310 L415,310 L410,490 L385,480 Z" fill="#fda4af" stroke="#e11d48" stroke-width="2"/>
+      <!-- SA Node (Glowing Gold) -->
+      <circle cx="285" cy="225" r="16" fill="#facc15" stroke="#b45309" stroke-width="3"/>
+      <!-- Internodal Pathways -->
+      <path d="M285,225 Q335,230 375,295" fill="none" stroke="#eab308" stroke-width="3.5" stroke-dasharray="6,4"/>
+      <path d="M285,225 Q310,275 375,295" fill="none" stroke="#eab308" stroke-width="3.5" stroke-dasharray="6,4"/>
+      <!-- AV Node -->
+      <circle cx="382" cy="300" r="13" fill="#f59e0b" stroke="#92400e" stroke-width="3"/>
+      <!-- Bundle of His -->
+      <path d="M382,313 L398,350" fill="none" stroke="#ea580c" stroke-width="6" stroke-linecap="round"/>
+      <!-- Right & Left Bundle Branches -->
+      <path d="M398,350 L385,465 Q330,445 305,380" fill="none" stroke="#f97316" stroke-width="4"/>
+      <path d="M398,350 L415,470 Q495,435 515,345" fill="none" stroke="#f97316" stroke-width="4"/>
+      <!-- Purkinje Fibers arborization -->
+      <path d="M320,410 L295,400 M345,445 L325,455 M485,415 L515,410 M465,450 L495,465" stroke="#ea580c" stroke-width="3"/>
+
+      <!-- ECG Panel on Right -->
+      <rect x="615" y="145" width="340" height="230" rx="14" fill="#0f172a" stroke="#334155" stroke-width="2.5" filter="url(#dropShadow)"/>
+      <text x="785" y="175" font-family="Inter, sans-serif" font-size="13" font-weight="700" fill="#38bdf8" text-anchor="middle">NORMAL SINUS RHYTHM (ECG)</text>
+      <!-- ECG Trace -->
+      <path d="M635,285 L665,285 Q680,255 695,285 L715,285 L725,305 L742,190 L758,330 L770,285 L810,285 Q835,240 860,285 L925,285" fill="none" stroke="#22c55e" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+      <text x="680" y="250" font-family="Inter, sans-serif" font-size="13" font-weight="800" fill="#fde047" text-anchor="middle">P</text>
+      <text x="742" y="180" font-family="Inter, sans-serif" font-size="13" font-weight="800" fill="#f87171" text-anchor="middle">QRS</text>
+      <text x="835" y="235" font-family="Inter, sans-serif" font-size="13" font-weight="800" fill="#38bdf8" text-anchor="middle">T</text>
+    
+  </g>
+
+  <!-- Callout Pins -->
+  <g transform="translate(0, 10)">
+    
+    <!-- Landmark Pin A -->
+    <g class="landmark-group">
+      <line x1="285" y1="225" x2="265" y2="120" stroke="#d97706" stroke-width="2.2" stroke-dasharray="none" />
+      <circle cx="285" cy="225" r="6" fill="#d97706" stroke="#ffffff" stroke-width="2" />
+      <circle cx="285" cy="225" r="11" fill="none" stroke="#d97706" stroke-width="1.5" opacity="0.5" />
+      
+        <rect x="10" y="98" width="255" height="44" rx="8" fill="#0f172a" fill-opacity="0.93" stroke="#d97706" stroke-width="2" filter="url(#dropShadow)" />
+        <rect x="10" y="98" width="28" height="44" rx="8" fill="#d97706" />
+        <text x="24" y="125" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="800" fill="#ffffff" text-anchor="middle">A</text>
+        <text x="46" y="116" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="700" fill="#f8fafc">Sinoatrial (SA) Node</text>
+        <text x="46" y="133" font-family="Sarabun, Inter, sans-serif" font-size="11" font-weight="500" fill="#94a3b8">ศูนย์กำเนิดจังหวะหลัก (Primary Pacemaker)</text>
+      
+    </g>
+  
+
+    <!-- Landmark Pin B -->
+    <g class="landmark-group">
+      <line x1="382" y1="300" x2="265" y2="295" stroke="#ea580c" stroke-width="2.2" stroke-dasharray="none" />
+      <circle cx="382" cy="300" r="6" fill="#ea580c" stroke="#ffffff" stroke-width="2" />
+      <circle cx="382" cy="300" r="11" fill="none" stroke="#ea580c" stroke-width="1.5" opacity="0.5" />
+      
+        <rect x="10" y="273" width="255" height="44" rx="8" fill="#0f172a" fill-opacity="0.93" stroke="#ea580c" stroke-width="2" filter="url(#dropShadow)" />
+        <rect x="10" y="273" width="28" height="44" rx="8" fill="#ea580c" />
+        <text x="24" y="300" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="800" fill="#ffffff" text-anchor="middle">B</text>
+        <text x="46" y="291" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="700" fill="#f8fafc">Atrioventricular (AV) Node</text>
+        <text x="46" y="308" font-family="Sarabun, Inter, sans-serif" font-size="11" font-weight="500" fill="#94a3b8">ปม AV (หน่วงสัญญาณไฟฟ้า 0.1 วินาที)</text>
+      
+    </g>
+  
+
+    <!-- Landmark Pin C -->
+    <g class="landmark-group">
+      <line x1="392" y1="335" x2="265" y2="395" stroke="#dc2626" stroke-width="2.2" stroke-dasharray="none" />
+      <circle cx="392" cy="335" r="6" fill="#dc2626" stroke="#ffffff" stroke-width="2" />
+      <circle cx="392" cy="335" r="11" fill="none" stroke="#dc2626" stroke-width="1.5" opacity="0.5" />
+      
+        <rect x="10" y="373" width="255" height="44" rx="8" fill="#0f172a" fill-opacity="0.93" stroke="#dc2626" stroke-width="2" filter="url(#dropShadow)" />
+        <rect x="10" y="373" width="28" height="44" rx="8" fill="#dc2626" />
+        <text x="24" y="400" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="800" fill="#ffffff" text-anchor="middle">C</text>
+        <text x="46" y="391" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="700" fill="#f8fafc">AV Bundle (Bundle of His)</text>
+        <text x="46" y="408" font-family="Sarabun, Inter, sans-serif" font-size="11" font-weight="500" fill="#94a3b8">ทางเชื่อมไฟฟ้าหนึ่งเดียวที่ทะลุ Fibrous skeleton</text>
+      
+    </g>
+  
+
+    <!-- Landmark Pin D -->
+    <g class="landmark-group">
+      <line x1="495" y1="410" x2="670" y2="465" stroke="#e11d48" stroke-width="2.2" stroke-dasharray="none" />
+      <circle cx="495" cy="410" r="6" fill="#e11d48" stroke="#ffffff" stroke-width="2" />
+      <circle cx="495" cy="410" r="11" fill="none" stroke="#e11d48" stroke-width="1.5" opacity="0.5" />
+      
+        <rect x="670" y="443" width="255" height="44" rx="8" fill="#0f172a" fill-opacity="0.93" stroke="#e11d48" stroke-width="2" filter="url(#dropShadow)" />
+        <rect x="670" y="443" width="28" height="44" rx="8" fill="#e11d48" />
+        <text x="684" y="470" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="800" fill="#ffffff" text-anchor="middle">D</text>
+        <text x="706" y="461" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="700" fill="#f8fafc">Purkinje Fibers</text>
+        <text x="706" y="478" font-family="Sarabun, Inter, sans-serif" font-size="11" font-weight="500" fill="#94a3b8">เส้นใยเพอร์คินเจ (นำไฟฟ้าเร็วที่สุด 4 m/s)</text>
+      
+    </g>
+  
+
+    <!-- Landmark Pin E -->
+    <g class="landmark-group">
+      <line x1="680" y1="270" x2="690" y2="110" stroke="#16a34a" stroke-width="2.2" stroke-dasharray="none" />
+      <circle cx="680" cy="270" r="6" fill="#16a34a" stroke="#ffffff" stroke-width="2" />
+      <circle cx="680" cy="270" r="11" fill="none" stroke="#16a34a" stroke-width="1.5" opacity="0.5" />
+      
+        <rect x="690" y="88" width="255" height="44" rx="8" fill="#0f172a" fill-opacity="0.93" stroke="#16a34a" stroke-width="2" filter="url(#dropShadow)" />
+        <rect x="690" y="88" width="28" height="44" rx="8" fill="#16a34a" />
+        <text x="704" y="115" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="800" fill="#ffffff" text-anchor="middle">E</text>
+        <text x="726" y="106" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="700" fill="#f8fafc">P Wave (Atrial Depolarization)</text>
+        <text x="726" y="123" font-family="Sarabun, Inter, sans-serif" font-size="11" font-weight="500" fill="#94a3b8">คลื่นกระตุ้นการหดตัวของหัวใจห้องบน</text>
+      
+    </g>
+  
+
+    <!-- Landmark Pin F -->
+    <g class="landmark-group">
+      <line x1="742" y1="215" x2="690" y2="405" stroke="#0284c7" stroke-width="2.2" stroke-dasharray="none" />
+      <circle cx="742" cy="215" r="6" fill="#0284c7" stroke="#ffffff" stroke-width="2" />
+      <circle cx="742" cy="215" r="11" fill="none" stroke="#0284c7" stroke-width="1.5" opacity="0.5" />
+      
+        <rect x="435" y="383" width="255" height="44" rx="8" fill="#0f172a" fill-opacity="0.93" stroke="#0284c7" stroke-width="2" filter="url(#dropShadow)" />
+        <rect x="435" y="383" width="28" height="44" rx="8" fill="#0284c7" />
+        <text x="449" y="410" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="800" fill="#ffffff" text-anchor="middle">F</text>
+        <text x="471" y="401" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="700" fill="#f8fafc">QRS Complex (Ventricular Depolarization)</text>
+        <text x="471" y="418" font-family="Sarabun, Inter, sans-serif" font-size="11" font-weight="500" fill="#94a3b8">คลื่นกระตุ้นการบีบตัวของหัวใจห้องล่าง</text>
+      
+    </g>
+  
+  </g>
+
+  <!-- Footer -->
+  <text x="500" y="606" font-family="Sarabun, Inter, sans-serif" font-size="11" fill="#64748b" text-anchor="middle">
+    Anatomy Exam Lab — High-Resolution Medical Vector Atlas (Aligned with BNS102 RSU Lecture Slides)
+  </text>
+</svg>

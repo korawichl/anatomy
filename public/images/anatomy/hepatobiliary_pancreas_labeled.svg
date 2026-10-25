@@ -1,0 +1,180 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 620" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f8fafc" />
+      <stop offset="100%" stop-color="#eff6ff" />
+    </linearGradient>
+    <linearGradient id="oxyBlood" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ef4444" />
+      <stop offset="100%" stop-color="#b91c1c" />
+    </linearGradient>
+    <linearGradient id="deoxyBlood" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3b82f6" />
+      <stop offset="100%" stop-color="#1d4ed8" />
+    </linearGradient>
+    <linearGradient id="organPink" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fda4af" />
+      <stop offset="100%" stop-color="#e11d48" />
+    </linearGradient>
+    <linearGradient id="liverBrown" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#b45309" />
+      <stop offset="100%" stop-color="#78350f" />
+    </linearGradient>
+    <linearGradient id="kidneyRed" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#be123c" />
+      <stop offset="100%" stop-color="#881337" />
+    </linearGradient>
+    <linearGradient id="lymphGreen" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#10b981" />
+      <stop offset="100%" stop-color="#047857" />
+    </linearGradient>
+    <linearGradient id="urineYellow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fde047" />
+      <stop offset="100%" stop-color="#eab308" />
+    </linearGradient>
+    <filter id="dropShadow" x="-10%" y="-10%" width="125%" height="125%">
+      <feDropShadow dx="0" dy="3" stdDeviation="4" flood-color="#0f172a" flood-opacity="0.22" />
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1000" height="620" rx="18" fill="url(#bgGrad)" stroke="#cbd5e1" stroke-width="2" />
+  
+  <!-- Subtle Medical Grid -->
+  <g stroke="#e2e8f0" stroke-width="1" opacity="0.55">
+    <line x1="0" y1="150" x2="1000" y2="150" />
+    <line x1="0" y1="300" x2="1000" y2="300" />
+    <line x1="0" y1="450" x2="1000" y2="450" />
+    <line x1="250" y1="65" x2="250" y2="620" />
+    <line x1="500" y1="65" x2="500" y2="620" />
+    <line x1="750" y1="65" x2="750" y2="620" />
+  </g>
+
+  <!-- Header Banner -->
+  <rect x="0" y="0" width="1000" height="66" rx="18" fill="#0f172a" />
+  <rect x="0" y="48" width="1000" height="18" fill="#0f172a" />
+  <text x="28" y="30" font-family="Inter, Sarabun, sans-serif" font-size="17" font-weight="800" fill="#f8fafc">Liver, Biliary Tree, Gallbladder, Pancreas & Duodenum</text>
+  <text x="28" y="51" font-family="Sarabun, Inter, sans-serif" font-size="12.5" font-weight="500" fill="#38bdf8">Digestive System • โครงสร้างตับ ทางเดินน้ำดี ถุงน้ำดี ตับอ่อน และกระเปาะ Ampulla of Vater</text>
+  <rect x="750" y="18" width="225" height="30" rx="15" fill="#059669" /><text x="862" y="38" font-family="Sarabun, sans-serif" font-size="12" font-weight="700" fill="#ffffff" text-anchor="middle">✓ เฉลยโครงสร้างครบทุกจุด (Master)</text>
+
+  <!-- Main Anatomical Illustration -->
+  <g transform="translate(0, 10)">
+    
+      <!-- Liver Lobes Top -->
+      <path d="M180,195 C180,105 385,95 565,125 L495,235 C375,235 255,245 180,195 Z" fill="url(#liverBrown)" stroke="#451a03" stroke-width="3.5" filter="url(#dropShadow)"/>
+      <!-- Gallbladder (Green) -->
+      <ellipse cx="285" cy="255" rx="45" ry="26" transform="rotate(-18 285 255)" fill="#15803d" stroke="#052e16" stroke-width="3"/>
+      <!-- Biliary Tree: Right & Left Hepatic -> Common Hepatic + Cystic -> CBD -->
+      <path d="M375,180 L410,215 M445,180 L410,215 L410,265" fill="none" stroke="#16a34a" stroke-width="6" stroke-linecap="round"/>
+      <path d="M328,245 L410,265 L410,415" fill="none" stroke="#15803d" stroke-width="7" stroke-linecap="round"/>
+      <!-- Duodenum C-Loop -->
+      <path d="M465,280 C345,280 345,495 475,495" fill="none" stroke="#fda4af" stroke-width="46" stroke-linecap="round"/>
+      <path d="M465,280 C345,280 345,495 475,495" fill="none" stroke="#fecdd3" stroke-width="36" stroke-linecap="round"/>
+      <!-- Pancreas (Head in C-loop, Body, Tail towards Spleen) -->
+      <path d="M445,355 C415,355 415,435 455,435 L735,385 C775,375 775,335 735,335 Z" fill="#fde047" stroke="#ca8a04" stroke-width="3" filter="url(#dropShadow)"/>
+      <!-- Main Pancreatic Duct (Wirsung) -->
+      <path d="M715,365 L410,415" fill="none" stroke="#eab308" stroke-width="5" stroke-dasharray="6,3"/>
+      <!-- Hepatopancreatic Ampulla (Vater) & Sphincter of Oddi -->
+      <circle cx="395" cy="415" r="14" fill="#dc2626" stroke="#ffffff" stroke-width="2.5"/>
+    
+  </g>
+
+  <!-- Callout Pins -->
+  <g transform="translate(0, 10)">
+    
+    <!-- Landmark Pin A -->
+    <g class="landmark-group">
+      <line x1="285" y1="255" x2="250" y2="315" stroke="#15803d" stroke-width="2.2" stroke-dasharray="none" />
+      <circle cx="285" cy="255" r="6" fill="#15803d" stroke="#ffffff" stroke-width="2" />
+      <circle cx="285" cy="255" r="11" fill="none" stroke="#15803d" stroke-width="1.5" opacity="0.5" />
+      
+        <rect x="-5" y="293" width="255" height="44" rx="8" fill="#0f172a" fill-opacity="0.93" stroke="#15803d" stroke-width="2" filter="url(#dropShadow)" />
+        <rect x="-5" y="293" width="28" height="44" rx="8" fill="#15803d" />
+        <text x="9" y="320" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="800" fill="#ffffff" text-anchor="middle">A</text>
+        <text x="31" y="311" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="700" fill="#f8fafc">Gallbladder & Cystic Duct</text>
+        <text x="31" y="328" font-family="Sarabun, Inter, sans-serif" font-size="11" font-weight="500" fill="#94a3b8">ถุงน้ำดี (กักเก็บและทำให้น้ำดีเข้มข้น 5-10 เท่า บีบตัวด้วย CCK)</text>
+      
+    </g>
+  
+
+    <!-- Landmark Pin B -->
+    <g class="landmark-group">
+      <line x1="410" y1="225" x2="670" y2="165" stroke="#16a34a" stroke-width="2.2" stroke-dasharray="none" />
+      <circle cx="410" cy="225" r="6" fill="#16a34a" stroke="#ffffff" stroke-width="2" />
+      <circle cx="410" cy="225" r="11" fill="none" stroke="#16a34a" stroke-width="1.5" opacity="0.5" />
+      
+        <rect x="670" y="143" width="255" height="44" rx="8" fill="#0f172a" fill-opacity="0.93" stroke="#16a34a" stroke-width="2" filter="url(#dropShadow)" />
+        <rect x="670" y="143" width="28" height="44" rx="8" fill="#16a34a" />
+        <text x="684" y="170" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="800" fill="#ffffff" text-anchor="middle">B</text>
+        <text x="706" y="161" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="700" fill="#f8fafc">Common Hepatic Duct</text>
+        <text x="706" y="178" font-family="Sarabun, Inter, sans-serif" font-size="11" font-weight="500" fill="#94a3b8">ท่อน้ำดีตับร่วม (เกิดจาก Right และ Left hepatic ducts รวมกัน)</text>
+      
+    </g>
+  
+
+    <!-- Landmark Pin C -->
+    <g class="landmark-group">
+      <line x1="410" y1="315" x2="670" y2="250" stroke="#0d9488" stroke-width="2.2" stroke-dasharray="none" />
+      <circle cx="410" cy="315" r="6" fill="#0d9488" stroke="#ffffff" stroke-width="2" />
+      <circle cx="410" cy="315" r="11" fill="none" stroke="#0d9488" stroke-width="1.5" opacity="0.5" />
+      
+        <rect x="670" y="228" width="255" height="44" rx="8" fill="#0f172a" fill-opacity="0.93" stroke="#0d9488" stroke-width="2" filter="url(#dropShadow)" />
+        <rect x="670" y="228" width="28" height="44" rx="8" fill="#0d9488" />
+        <text x="684" y="255" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="800" fill="#ffffff" text-anchor="middle">C</text>
+        <text x="706" y="246" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="700" fill="#f8fafc">Common Bile Duct (CBD)</text>
+        <text x="706" y="263" font-family="Sarabun, Inter, sans-serif" font-size="11" font-weight="500" fill="#94a3b8">ท่อน้ำดีร่วม (เกิดจาก Common hepatic รวมกับ Cystic duct)</text>
+      
+    </g>
+  
+
+    <!-- Landmark Pin D -->
+    <g class="landmark-group">
+      <line x1="355" y1="365" x2="250" y2="425" stroke="#e11d48" stroke-width="2.2" stroke-dasharray="none" />
+      <circle cx="355" cy="365" r="6" fill="#e11d48" stroke="#ffffff" stroke-width="2" />
+      <circle cx="355" cy="365" r="11" fill="none" stroke="#e11d48" stroke-width="1.5" opacity="0.5" />
+      
+        <rect x="-5" y="403" width="255" height="44" rx="8" fill="#0f172a" fill-opacity="0.93" stroke="#e11d48" stroke-width="2" filter="url(#dropShadow)" />
+        <rect x="-5" y="403" width="28" height="44" rx="8" fill="#e11d48" />
+        <text x="9" y="430" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="800" fill="#ffffff" text-anchor="middle">D</text>
+        <text x="31" y="421" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="700" fill="#f8fafc">Duodenum (C-shaped Loop)</text>
+        <text x="31" y="438" font-family="Sarabun, Inter, sans-serif" font-size="11" font-weight="500" fill="#94a3b8">ลำไส้เล็กส่วนต้นโค้งรูปตัว C โอบรอบหัวตับอ่อน</text>
+      
+    </g>
+  
+
+    <!-- Landmark Pin E -->
+    <g class="landmark-group">
+      <line x1="615" y1="368" x2="715" y2="425" stroke="#ca8a04" stroke-width="2.2" stroke-dasharray="none" />
+      <circle cx="615" cy="368" r="6" fill="#ca8a04" stroke="#ffffff" stroke-width="2" />
+      <circle cx="615" cy="368" r="11" fill="none" stroke="#ca8a04" stroke-width="1.5" opacity="0.5" />
+      
+        <rect x="715" y="403" width="255" height="44" rx="8" fill="#0f172a" fill-opacity="0.93" stroke="#ca8a04" stroke-width="2" filter="url(#dropShadow)" />
+        <rect x="715" y="403" width="28" height="44" rx="8" fill="#ca8a04" />
+        <text x="729" y="430" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="800" fill="#ffffff" text-anchor="middle">E</text>
+        <text x="751" y="421" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="700" fill="#f8fafc">Pancreas & Main Pancreatic Duct</text>
+        <text x="751" y="438" font-family="Sarabun, Inter, sans-serif" font-size="11" font-weight="500" fill="#94a3b8">ตับอ่อน (Acinar หลั่งเอนไซม์ / Duct หลั่ง HCO3- / Islets หลั่งอินซูลิน)</text>
+      
+    </g>
+  
+
+    <!-- Landmark Pin F -->
+    <g class="landmark-group">
+      <line x1="395" y1="415" x2="670" y2="505" stroke="#dc2626" stroke-width="2.2" stroke-dasharray="none" />
+      <circle cx="395" cy="415" r="6" fill="#dc2626" stroke="#ffffff" stroke-width="2" />
+      <circle cx="395" cy="415" r="11" fill="none" stroke="#dc2626" stroke-width="1.5" opacity="0.5" />
+      
+        <rect x="670" y="483" width="255" height="44" rx="8" fill="#0f172a" fill-opacity="0.93" stroke="#dc2626" stroke-width="2" filter="url(#dropShadow)" />
+        <rect x="670" y="483" width="28" height="44" rx="8" fill="#dc2626" />
+        <text x="684" y="510" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="800" fill="#ffffff" text-anchor="middle">F</text>
+        <text x="706" y="501" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="700" fill="#f8fafc">Hepatopancreatic Ampulla (Vater) & Oddi</text>
+        <text x="706" y="518" font-family="Sarabun, Inter, sans-serif" font-size="11" font-weight="500" fill="#94a3b8">กระเปาะรวมท่อน้ำดีกับท่อตับอ่อน และหูรูด Sphincter of Oddi</text>
+      
+    </g>
+  
+  </g>
+
+  <!-- Footer -->
+  <text x="500" y="606" font-family="Sarabun, Inter, sans-serif" font-size="11" fill="#64748b" text-anchor="middle">
+    Anatomy Exam Lab — High-Resolution Medical Vector Atlas (Aligned with BNS102 RSU Lecture Slides)
+  </text>
+</svg>

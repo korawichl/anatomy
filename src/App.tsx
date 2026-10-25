@@ -98,14 +98,15 @@ export const App: React.FC = () => {
       // Review mode: questions previously missed
       const analytics = AnalyticsService.computeAnalytics(attempts);
       const missedSet = new Set(analytics.missedQuestionIds);
-      pool = allQuestions.filter(q => missedSet.has(q.id));
+      pool = allQuestions.filter(q => missedSet.has(q.id) && (!config.diagramOnly || Boolean(q.imageUrl)));
       if (pool.length === 0) {
-        pool = allQuestions.slice(0, 30);
+        pool = allQuestions.filter(q => !config.diagramOnly || Boolean(q.imageUrl)).slice(0, 30);
       }
     } else {
       pool = allQuestions.filter(q => {
         if (config.system !== 'All Systems' && q.system !== config.system) return false;
         if (config.difficulty !== 'Mixed' && q.difficulty !== config.difficulty) return false;
+        if (config.diagramOnly && !q.imageUrl) return false;
         return true;
       });
     }

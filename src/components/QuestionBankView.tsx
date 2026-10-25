@@ -15,18 +15,20 @@ import {
 import { Question, OrganSystem, Difficulty } from '../types';
 import { allQuestions, questionBankSummary, getFilteredQuestions } from '../data/questionBank';
 import { ExportService } from '../services/export';
+import { AnatomyImageViewer } from './AnatomyImageViewer';
 
 export const QuestionBankView: React.FC = () => {
   const [searchTerm, setSearchTerm] = useState<string>('');
   const [selectedSystem, setSelectedSystem] = useState<OrganSystem | 'All Systems'>('All Systems');
   const [selectedDifficulty, setSelectedDifficulty] = useState<Difficulty>('Mixed');
+  const [diagramOnly, setDiagramOnly] = useState<boolean>(false);
   const [expandedId, setExpandedId] = useState<string | null>(null);
 
   const filtered = getFilteredQuestions({
     system: selectedSystem,
     difficulty: selectedDifficulty,
     search: searchTerm
-  });
+  }).filter(q => !diagramOnly || Boolean(q.imageUrl));
 
   const toggleExpand = (id: string) => {
     setExpandedId(prev => (prev === id ? null : id));
@@ -138,6 +140,19 @@ export const QuestionBankView: React.FC = () => {
           </select>
         </div>
 
+        {/* Diagram Filter Toggle */}
+        <button
+          type="button"
+          onClick={() => setDiagramOnly(prev => !prev)}
+          className={`py-1.5 px-3 rounded-xl border text-xs font-bold transition-all cursor-pointer flex items-center gap-1.5 ${
+            diagramOnly
+              ? 'border-indigo-600 bg-indigo-600 text-white shadow-xs'
+              : 'border-slate-200 dark:border-slate-700 bg-slate-50 dark:bg-slate-900 text-slate-700 dark:text-slate-300 hover:border-indigo-400'
+          }`}
+        >
+          <span>🖼️ เฉพาะข้อที่มีภาพประกอบ</span>
+        </button>
+
         <div className="text-xs text-slate-500 font-medium">
           แสดงผล: <strong className="text-slate-800 dark:text-slate-200">{filtered.length}</strong> / {allQuestions.length} ข้อ
         </div>
@@ -173,6 +188,11 @@ export const QuestionBankView: React.FC = () => {
                     <span className="px-1.5 py-0.2 rounded bg-slate-100 dark:bg-slate-700 text-slate-500 text-[10px]">
                       {q.difficulty}
                     </span>
+                    {q.imageUrl && (
+                      <span className="px-2 py-0.5 rounded-full bg-indigo-100 dark:bg-indigo-950 text-indigo-700 dark:text-indigo-300 font-bold text-[10px]">
+                        🖼️ มีภาพประกอบ
+                      </span>
+                    )}
                   </div>
 
                   <h3 className="text-sm sm:text-base font-bold text-slate-900 dark:text-white leading-relaxed">
@@ -188,6 +208,18 @@ export const QuestionBankView: React.FC = () => {
               {/* Expanded Details */}
               {isExpanded && (
                 <div className="px-5 pb-5 pt-2 border-t border-slate-100 dark:border-slate-700/60 bg-slate-50/50 dark:bg-slate-900/40 space-y-4 text-xs animate-fadeIn">
+                  
+                  {/* Diagram Viewer */}
+                  {q.imageUrl && (
+                    <AnatomyImageViewer
+                      imageUrl={q.imageUrl}
+                      labeledImageUrl={q.labeledImageUrl}
+                      imageCaption={q.imageCaption}
+                      imageLabels={q.imageLabels}
+                      showSolution={true}
+                      compact={true}
+                    />
+                  )}
                   
                   {/* 4 Choices */}
                   <div className="grid grid-cols-1 sm:grid-cols-2 gap-2 pt-2">

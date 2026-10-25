@@ -33,13 +33,21 @@ export const ExamSetup: React.FC<ExamSetupProps> = ({
   const [timeLimitMinutes, setTimeLimitMinutes] = useState<number>(70); // 1 min per question default
   const [shuffleQuestions, setShuffleQuestions] = useState<boolean>(true);
   const [shuffleOptions, setShuffleOptions] = useState<boolean>(false);
+  const [diagramOnly, setDiagramOnly] = useState<boolean>(false);
 
   // Available count check
   const availablePool = allQuestions.filter(q => {
     if (selectedSystem !== 'All Systems' && q.system !== selectedSystem) return false;
     if (difficulty !== 'Mixed' && q.difficulty !== difficulty) return false;
+    if (diagramOnly && !q.imageUrl) return false;
     return true;
   });
+
+  const diagramCountInSelection = allQuestions.filter(q => {
+    if (selectedSystem !== 'All Systems' && q.system !== selectedSystem) return false;
+    if (difficulty !== 'Mixed' && q.difficulty !== difficulty) return false;
+    return Boolean(q.imageUrl);
+  }).length;
 
   const availableCount = availablePool.length;
   const actualCount = Math.min(questionCount, availableCount);
@@ -64,7 +72,8 @@ export const ExamSetup: React.FC<ExamSetupProps> = ({
       timed,
       timeLimitMinutes: timed ? timeLimitMinutes : 0,
       shuffleQuestions,
-      shuffleOptions
+      shuffleOptions,
+      diagramOnly
     });
   };
 
@@ -393,7 +402,53 @@ export const ExamSetup: React.FC<ExamSetupProps> = ({
 
         </div>
 
-        {/* 5. Shuffling options */}
+        {/* 5. Diagram-Only Lab Mode Filter */}
+        <div
+          onClick={() => setDiagramOnly(prev => !prev)}
+          className={`p-4 rounded-xl border-2 transition-all cursor-pointer flex flex-wrap items-center justify-between gap-4 ${
+            diagramOnly
+              ? 'border-indigo-500 bg-indigo-50/70 dark:bg-indigo-950/40 ring-2 ring-indigo-500/20'
+              : 'border-slate-200 dark:border-slate-700 bg-slate-50/60 dark:bg-slate-900/40 hover:border-indigo-300'
+          }`}
+        >
+          <div className="flex items-center gap-3">
+            <div className={`w-10 h-10 rounded-xl flex items-center justify-center shrink-0 ${
+              diagramOnly ? 'bg-indigo-600 text-white' : 'bg-indigo-100 dark:bg-indigo-900/60 text-indigo-600 dark:text-indigo-300'
+            }`}>
+              <Sparkles className="w-5 h-5" />
+            </div>
+            <div>
+              <div className="flex items-center gap-2">
+                <p className="text-sm font-bold text-slate-900 dark:text-white">
+                  🔬 เฉพาะข้อสอบที่มีภาพประกอบแผนภาพ (Diagram & Landmark Lab Mode)
+                </p>
+                <span className="text-xs px-2 py-0.5 rounded-full font-bold bg-indigo-100 dark:bg-indigo-900 text-indigo-700 dark:text-indigo-300">
+                  {diagramCountInSelection} ข้อที่มีรูปภาพ
+                </span>
+              </div>
+              <p className="text-xs text-slate-500 dark:text-slate-400 mt-0.5">
+                ฝึกวิเคราะห์โครงสร้างจากภาพเวกเตอร์ทางการแพทย์ความละเอียดสูง พร้อมจุดชี้ตำแหน่ง [A]–[F] และภาพเฉลยครบทุกจุด
+              </p>
+            </div>
+          </div>
+
+          <div className="flex items-center gap-2">
+            <input
+              type="checkbox"
+              checked={diagramOnly}
+              onChange={e => {
+                e.stopPropagation();
+                setDiagramOnly(e.target.checked);
+              }}
+              className="w-5 h-5 rounded text-indigo-600 focus:ring-indigo-500 border-slate-300 cursor-pointer"
+            />
+            <span className="text-xs font-bold text-indigo-700 dark:text-indigo-300">
+              {diagramOnly ? 'เปิดเฉพาะข้อที่มีรูปภาพ' : 'รวมทุกข้อสอบ'}
+            </span>
+          </div>
+        </div>
+
+        {/* 6. Shuffling options */}
         <div className="p-4 rounded-xl bg-slate-50 dark:bg-slate-900/60 border border-slate-200 dark:border-slate-700 flex flex-wrap items-center justify-between gap-4">
           <div className="flex items-center gap-3">
             <Shuffle className="w-5 h-5 text-indigo-500" />

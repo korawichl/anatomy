@@ -99,4 +99,34 @@ if (hasBom) {
   console.log("  -> [PASS] UTF-8 BOM (\\uFEFF) is present to prevent Thai encoding corruption in MS Excel!\n");
 }
 
+// Test 5: Verify Anatomical Diagram Questions & SVG Assets
+console.log("TEST 5: Verifying Anatomical Diagram Questions & High-Resolution SVG Assets...");
+const diagramQuestions = all.filter(q => Boolean(q.imageUrl));
+let diagErrors = 0;
+diagramQuestions.forEach(q => {
+  const examFullPath = path.join(__dirname, '..', 'public', q.imageUrl.replace(/^\//, ''));
+  const labeledFullPath = q.labeledImageUrl
+    ? path.join(__dirname, '..', 'public', q.labeledImageUrl.replace(/^\//, ''))
+    : '';
+  if (!fs.existsSync(examFullPath)) {
+    console.error(`Missing exam SVG for ${q.id}: ${examFullPath}`);
+    diagErrors++;
+  }
+  if (!labeledFullPath || !fs.existsSync(labeledFullPath)) {
+    console.error(`Missing labeled SVG for ${q.id}: ${labeledFullPath}`);
+    diagErrors++;
+  }
+  if (!Array.isArray(q.imageLabels) || q.imageLabels.length < 4) {
+    console.error(`Incomplete imageLabels for ${q.id}`);
+    diagErrors++;
+  }
+});
+console.log(`  Diagram-enabled questions: ${diagramQuestions.length} / ${all.length}`);
+if (diagErrors === 0 && diagramQuestions.length >= 100) {
+  console.log(`  -> [PASS] All ${diagramQuestions.length} diagram questions have verified *_exam.svg, *_labeled.svg, and complete landmark labels!\n`);
+} else {
+  console.error(`  -> [FAIL] Found ${diagErrors} diagram errors!\n`);
+  process.exit(1);
+}
+
 console.log("=== ALL TEST SUITES COMPLETED SUCCESSFULLY ===");

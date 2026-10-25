@@ -1,0 +1,184 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 620" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f8fafc" />
+      <stop offset="100%" stop-color="#eff6ff" />
+    </linearGradient>
+    <linearGradient id="oxyBlood" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ef4444" />
+      <stop offset="100%" stop-color="#b91c1c" />
+    </linearGradient>
+    <linearGradient id="deoxyBlood" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3b82f6" />
+      <stop offset="100%" stop-color="#1d4ed8" />
+    </linearGradient>
+    <linearGradient id="organPink" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fda4af" />
+      <stop offset="100%" stop-color="#e11d48" />
+    </linearGradient>
+    <linearGradient id="liverBrown" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#b45309" />
+      <stop offset="100%" stop-color="#78350f" />
+    </linearGradient>
+    <linearGradient id="kidneyRed" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#be123c" />
+      <stop offset="100%" stop-color="#881337" />
+    </linearGradient>
+    <linearGradient id="lymphGreen" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#10b981" />
+      <stop offset="100%" stop-color="#047857" />
+    </linearGradient>
+    <linearGradient id="urineYellow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fde047" />
+      <stop offset="100%" stop-color="#eab308" />
+    </linearGradient>
+    <filter id="dropShadow" x="-10%" y="-10%" width="125%" height="125%">
+      <feDropShadow dx="0" dy="3" stdDeviation="4" flood-color="#0f172a" flood-opacity="0.22" />
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1000" height="620" rx="18" fill="url(#bgGrad)" stroke="#cbd5e1" stroke-width="2" />
+  
+  <!-- Subtle Medical Grid -->
+  <g stroke="#e2e8f0" stroke-width="1" opacity="0.55">
+    <line x1="0" y1="150" x2="1000" y2="150" />
+    <line x1="0" y1="300" x2="1000" y2="300" />
+    <line x1="0" y1="450" x2="1000" y2="450" />
+    <line x1="250" y1="65" x2="250" y2="620" />
+    <line x1="500" y1="65" x2="500" y2="620" />
+    <line x1="750" y1="65" x2="750" y2="620" />
+  </g>
+
+  <!-- Header Banner -->
+  <rect x="0" y="0" width="1000" height="66" rx="18" fill="#0f172a" />
+  <rect x="0" y="48" width="1000" height="18" fill="#0f172a" />
+  <text x="28" y="30" font-family="Inter, Sarabun, sans-serif" font-size="17" font-weight="800" fill="#f8fafc">Stomach Regions, Three Muscular Layers & Gastric Gland Cells</text>
+  <text x="28" y="51" font-family="Sarabun, Inter, sans-serif" font-size="12.5" font-weight="500" fill="#38bdf8">Digestive System • กายวิภาคกระเพาะอาหาร 4 ส่วน กล้ามเนื้อ 3 ชั้น และเซลล์ต่อมกระเพาะอาหาร</text>
+  <rect x="750" y="18" width="225" height="30" rx="15" fill="#059669" /><text x="862" y="38" font-family="Sarabun, sans-serif" font-size="12" font-weight="700" fill="#ffffff" text-anchor="middle">✓ เฉลยโครงสร้างครบทุกจุด (Master)</text>
+
+  <!-- Main Anatomical Illustration -->
+  <g transform="translate(0, 10)">
+    
+      <!-- Stomach J-Shape -->
+      <path d="M275,130 L275,195 C230,145 135,165 130,265 C125,385 215,495 365,485 L455,445 L455,385 L375,405 C295,405 275,325 295,235 L315,130 Z" fill="#fda4af" stroke="#9f1239" stroke-width="4" filter="url(#dropShadow)"/>
+      <!-- Gastric Rugae folds inside -->
+      <path d="M175,245 C175,345 245,445 360,445 M210,255 C210,335 265,415 355,420" fill="none" stroke="#be123c" stroke-width="3.5" stroke-dasharray="10,5"/>
+      <!-- Pyloric Sphincter -->
+      <ellipse cx="450" cy="415" rx="14" ry="34" fill="#9f1239" stroke="#ffffff" stroke-width="2"/>
+
+      <!-- Right Side: Gastric Pit & Gland Histology -->
+      <rect x="545" y="105" width="395" height="430" rx="16" fill="#ffffff" stroke="#cbd5e1" stroke-width="2" filter="url(#dropShadow)"/>
+      <text x="742" y="135" font-family="Inter, sans-serif" font-size="14" font-weight="800" fill="#0f172a" text-anchor="middle">GASTRIC GLAND SECRETORY CELLS</text>
+      <!-- Tubular Gastric Gland -->
+      <path d="M645,165 L695,165 L695,475 C695,505 785,505 785,475 L785,165 L835,165" fill="none" stroke="#f43f5e" stroke-width="18" stroke-linecap="round"/>
+      <!-- Parietal Cells (Pink triangular) -->
+      <circle cx="685" cy="275" r="20" fill="#fb7185" stroke="#881337" stroke-width="2.5"/>
+      <circle cx="795" cy="295" r="20" fill="#fb7185" stroke="#881337" stroke-width="2.5"/>
+      <!-- Chief Cells (Purple basal) -->
+      <circle cx="690" cy="390" r="19" fill="#a855f7" stroke="#4c1d95" stroke-width="2.5"/>
+      <circle cx="790" cy="390" r="19" fill="#a855f7" stroke="#4c1d95" stroke-width="2.5"/>
+      <!-- Enteroendocrine G Cell (Base) -->
+      <circle cx="740" cy="495" r="20" fill="#eab308" stroke="#713f12" stroke-width="2.5"/>
+    
+  </g>
+
+  <!-- Callout Pins -->
+  <g transform="translate(0, 10)">
+    
+    <!-- Landmark Pin A -->
+    <g class="landmark-group">
+      <line x1="185" y1="195" x2="280" y2="135" stroke="#e11d48" stroke-width="2.2" stroke-dasharray="none" />
+      <circle cx="185" cy="195" r="6" fill="#e11d48" stroke="#ffffff" stroke-width="2" />
+      <circle cx="185" cy="195" r="11" fill="none" stroke="#e11d48" stroke-width="1.5" opacity="0.5" />
+      
+        <rect x="280" y="113" width="255" height="44" rx="8" fill="#0f172a" fill-opacity="0.93" stroke="#e11d48" stroke-width="2" filter="url(#dropShadow)" />
+        <rect x="280" y="113" width="28" height="44" rx="8" fill="#e11d48" />
+        <text x="294" y="140" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="800" fill="#ffffff" text-anchor="middle">A</text>
+        <text x="316" y="131" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="700" fill="#f8fafc">Fundus of Stomach</text>
+        <text x="316" y="148" font-family="Sarabun, Inter, sans-serif" font-size="11" font-weight="500" fill="#94a3b8">กระเปาะส่วนบนสุดโค้งอยู่เหนือระดับ Cardia</text>
+      
+    </g>
+  
+
+    <!-- Landmark Pin B -->
+    <g class="landmark-group">
+      <line x1="235" y1="385" x2="280" y2="365" stroke="#be123c" stroke-width="2.2" stroke-dasharray="none" />
+      <circle cx="235" cy="385" r="6" fill="#be123c" stroke="#ffffff" stroke-width="2" />
+      <circle cx="235" cy="385" r="11" fill="none" stroke="#be123c" stroke-width="1.5" opacity="0.5" />
+      
+        <rect x="280" y="343" width="255" height="44" rx="8" fill="#0f172a" fill-opacity="0.93" stroke="#be123c" stroke-width="2" filter="url(#dropShadow)" />
+        <rect x="280" y="343" width="28" height="44" rx="8" fill="#be123c" />
+        <text x="294" y="370" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="800" fill="#ffffff" text-anchor="middle">B</text>
+        <text x="316" y="361" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="700" fill="#f8fafc">Gastric Rugae & 3 Muscle Layers</text>
+        <text x="316" y="378" font-family="Sarabun, Inter, sans-serif" font-size="11" font-weight="500" fill="#94a3b8">รอยพับเยื่อเมือก Rugae และกล้ามเนื้อเรียบ 3 ชั้น (มี Inner oblique)</text>
+      
+    </g>
+  
+
+    <!-- Landmark Pin C -->
+    <g class="landmark-group">
+      <line x1="450" y1="415" x2="280" y2="485" stroke="#881337" stroke-width="2.2" stroke-dasharray="none" />
+      <circle cx="450" cy="415" r="6" fill="#881337" stroke="#ffffff" stroke-width="2" />
+      <circle cx="450" cy="415" r="11" fill="none" stroke="#881337" stroke-width="1.5" opacity="0.5" />
+      
+        <rect x="25" y="463" width="255" height="44" rx="8" fill="#0f172a" fill-opacity="0.93" stroke="#881337" stroke-width="2" filter="url(#dropShadow)" />
+        <rect x="25" y="463" width="28" height="44" rx="8" fill="#881337" />
+        <text x="39" y="490" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="800" fill="#ffffff" text-anchor="middle">C</text>
+        <text x="61" y="481" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="700" fill="#f8fafc">Pyloric Sphincter</text>
+        <text x="61" y="498" font-family="Sarabun, Inter, sans-serif" font-size="11" font-weight="500" fill="#94a3b8">หูรูดไพโลริก (ควบคุมการปล่อย Chyme ลงสู่ Duodenum)</text>
+      
+    </g>
+  
+
+    <!-- Landmark Pin D -->
+    <g class="landmark-group">
+      <line x1="685" y1="275" x2="715" y2="235" stroke="#db2777" stroke-width="2.2" stroke-dasharray="none" />
+      <circle cx="685" cy="275" r="6" fill="#db2777" stroke="#ffffff" stroke-width="2" />
+      <circle cx="685" cy="275" r="11" fill="none" stroke="#db2777" stroke-width="1.5" opacity="0.5" />
+      
+        <rect x="715" y="213" width="255" height="44" rx="8" fill="#0f172a" fill-opacity="0.93" stroke="#db2777" stroke-width="2" filter="url(#dropShadow)" />
+        <rect x="715" y="213" width="28" height="44" rx="8" fill="#db2777" />
+        <text x="729" y="240" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="800" fill="#ffffff" text-anchor="middle">D</text>
+        <text x="751" y="231" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="700" fill="#f8fafc">Parietal (Oxyntic) Cells</text>
+        <text x="751" y="248" font-family="Sarabun, Inter, sans-serif" font-size="11" font-weight="500" fill="#94a3b8">หลั่งกรด HCl และ Intrinsic Factor (ช่วยดูดซึม B12)</text>
+      
+    </g>
+  
+
+    <!-- Landmark Pin E -->
+    <g class="landmark-group">
+      <line x1="690" y1="390" x2="715" y2="365" stroke="#7e22ce" stroke-width="2.2" stroke-dasharray="none" />
+      <circle cx="690" cy="390" r="6" fill="#7e22ce" stroke="#ffffff" stroke-width="2" />
+      <circle cx="690" cy="390" r="11" fill="none" stroke="#7e22ce" stroke-width="1.5" opacity="0.5" />
+      
+        <rect x="715" y="343" width="255" height="44" rx="8" fill="#0f172a" fill-opacity="0.93" stroke="#7e22ce" stroke-width="2" filter="url(#dropShadow)" />
+        <rect x="715" y="343" width="28" height="44" rx="8" fill="#7e22ce" />
+        <text x="729" y="370" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="800" fill="#ffffff" text-anchor="middle">E</text>
+        <text x="751" y="361" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="700" fill="#f8fafc">Chief (Zymogenic) Cells</text>
+        <text x="751" y="378" font-family="Sarabun, Inter, sans-serif" font-size="11" font-weight="500" fill="#94a3b8">หลั่งเอนไซม์ตั้งต้น Pepsinogen และ Gastric lipase</text>
+      
+    </g>
+  
+
+    <!-- Landmark Pin F -->
+    <g class="landmark-group">
+      <line x1="740" y1="495" x2="715" y2="485" stroke="#ca8a04" stroke-width="2.2" stroke-dasharray="none" />
+      <circle cx="740" cy="495" r="6" fill="#ca8a04" stroke="#ffffff" stroke-width="2" />
+      <circle cx="740" cy="495" r="11" fill="none" stroke="#ca8a04" stroke-width="1.5" opacity="0.5" />
+      
+        <rect x="460" y="463" width="255" height="44" rx="8" fill="#0f172a" fill-opacity="0.93" stroke="#ca8a04" stroke-width="2" filter="url(#dropShadow)" />
+        <rect x="460" y="463" width="28" height="44" rx="8" fill="#ca8a04" />
+        <text x="474" y="490" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="800" fill="#ffffff" text-anchor="middle">F</text>
+        <text x="496" y="481" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="700" fill="#f8fafc">Enteroendocrine G Cells</text>
+        <text x="496" y="498" font-family="Sarabun, Inter, sans-serif" font-size="11" font-weight="500" fill="#94a3b8">หลั่งฮอร์โมน Gastrin เข้าสู่กระแสเลือดไปกระตุ้นการหลั่งกรด</text>
+      
+    </g>
+  
+  </g>
+
+  <!-- Footer -->
+  <text x="500" y="606" font-family="Sarabun, Inter, sans-serif" font-size="11" fill="#64748b" text-anchor="middle">
+    Anatomy Exam Lab — High-Resolution Medical Vector Atlas (Aligned with BNS102 RSU Lecture Slides)
+  </text>
+</svg>

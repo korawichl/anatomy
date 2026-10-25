@@ -25,6 +25,7 @@ import {
 import { ExamAttempt, OptionKey } from '../types';
 import { ScoringService } from '../services/scoring';
 import { ExportService } from '../services/export';
+import { AnatomyImageViewer } from './AnatomyImageViewer';
 
 interface ExamResultProps {
   attempt: ExamAttempt;
@@ -356,6 +357,18 @@ export const ExamResult: React.FC<ExamResultProps> = ({
                 <div className="py-3 text-base font-bold text-slate-900 dark:text-white leading-relaxed">
                   {q.questionText}
                 </div>
+
+                {/* Master Labeled Diagram & Landmark Table */}
+                {q.imageUrl && (
+                  <AnatomyImageViewer
+                    imageUrl={q.imageUrl}
+                    labeledImageUrl={q.labeledImageUrl}
+                    imageCaption={q.imageCaption}
+                    imageLabels={q.imageLabels}
+                    showSolution={true}
+                    compact={true}
+                  />
+                )}
 
                 {/* Options Review */}
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-2.5 pt-1">
