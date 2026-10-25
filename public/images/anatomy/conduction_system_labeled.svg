@@ -53,7 +53,7 @@
   <!-- Header Banner -->
   <rect x="0" y="0" width="1000" height="66" rx="18" fill="#0f172a" />
   <rect x="0" y="48" width="1000" height="18" fill="#0f172a" />
-  <text x="28" y="30" font-family="Inter, Sarabun, sans-serif" font-size="17" font-weight="800" fill="#f8fafc">Cardiac Conduction System & Electrocardiogram (ECG) Correlation</text>
+  <text x="28" y="30" font-family="Inter, Sarabun, sans-serif" font-size="17" font-weight="800" fill="#f8fafc">Cardiac Conduction System &amp; Electrocardiogram (ECG) Correlation</text>
   <text x="28" y="51" font-family="Sarabun, Inter, sans-serif" font-size="12.5" font-weight="500" fill="#38bdf8">Cardiovascular System • ระบบนำกระแสไฟฟ้าของหัวใจและกราฟคลื่นไฟฟ้าหัวใจ</text>
   <rect x="750" y="18" width="225" height="30" rx="15" fill="#059669" /><text x="862" y="38" font-family="Sarabun, sans-serif" font-size="12" font-weight="700" fill="#ffffff" text-anchor="middle">✓ เฉลยโครงสร้างครบทุกจุด (Master)</text>
 
@@ -72,7 +72,7 @@
       <circle cx="382" cy="300" r="13" fill="#f59e0b" stroke="#92400e" stroke-width="3"/>
       <!-- Bundle of His -->
       <path d="M382,313 L398,350" fill="none" stroke="#ea580c" stroke-width="6" stroke-linecap="round"/>
-      <!-- Right & Left Bundle Branches -->
+      <!-- Right &amp; Left Bundle Branches -->
       <path d="M398,350 L385,465 Q330,445 305,380" fill="none" stroke="#f97316" stroke-width="4"/>
       <path d="M398,350 L415,470 Q495,435 515,345" fill="none" stroke="#f97316" stroke-width="4"/>
       <!-- Purkinje Fibers arborization -->

@@ -53,7 +53,7 @@
   <!-- Header Banner -->
   <rect x="0" y="0" width="1000" height="66" rx="18" fill="#0f172a" />
   <rect x="0" y="48" width="1000" height="18" fill="#0f172a" />
-  <text x="28" y="30" font-family="Inter, Sarabun, sans-serif" font-size="17" font-weight="800" fill="#f8fafc">Stomach Regions, Three Muscular Layers & Gastric Gland Cells</text>
+  <text x="28" y="30" font-family="Inter, Sarabun, sans-serif" font-size="17" font-weight="800" fill="#f8fafc">Stomach Regions, Three Muscular Layers &amp; Gastric Gland Cells</text>
   <text x="28" y="51" font-family="Sarabun, Inter, sans-serif" font-size="12.5" font-weight="500" fill="#38bdf8">Digestive System • กายวิภาคกระเพาะอาหาร 4 ส่วน กล้ามเนื้อ 3 ชั้น และเซลล์ต่อมกระเพาะอาหาร</text>
   <rect x="770" y="18" width="205" height="30" rx="15" fill="#dc2626" /><text x="872" y="38" font-family="Sarabun, sans-serif" font-size="12" font-weight="700" fill="#ffffff" text-anchor="middle">❓ ภาพโจทย์สอบระบุตำแหน่ง (Exam)</text>
 
@@ -67,7 +67,7 @@
       <!-- Pyloric Sphincter -->
       <ellipse cx="450" cy="415" rx="14" ry="34" fill="#9f1239" stroke="#ffffff" stroke-width="2"/>
 
-      <!-- Right Side: Gastric Pit & Gland Histology -->
+      <!-- Right Side: Gastric Pit &amp; Gland Histology -->
       <rect x="545" y="105" width="395" height="430" rx="16" fill="#ffffff" stroke="#cbd5e1" stroke-width="2" filter="url(#dropShadow)"/>
       <text x="742" y="135" font-family="Inter, sans-serif" font-size="14" font-weight="800" fill="#0f172a" text-anchor="middle">GASTRIC GLAND SECRETORY CELLS</text>
       <!-- Tubular Gastric Gland -->

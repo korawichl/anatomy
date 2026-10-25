@@ -111,10 +111,22 @@ diagramQuestions.forEach(q => {
   if (!fs.existsSync(examFullPath)) {
     console.error(`Missing exam SVG for ${q.id}: ${examFullPath}`);
     diagErrors++;
+  } else {
+    const svgContent = fs.readFileSync(examFullPath, 'utf8');
+    if (/&(?!amp;|lt;|gt;|quot;|apos;|#\d+;)/.test(svgContent)) {
+      console.error(`Unescaped XML ampersand in ${examFullPath}`);
+      diagErrors++;
+    }
   }
   if (!labeledFullPath || !fs.existsSync(labeledFullPath)) {
     console.error(`Missing labeled SVG for ${q.id}: ${labeledFullPath}`);
     diagErrors++;
+  } else {
+    const svgContent = fs.readFileSync(labeledFullPath, 'utf8');
+    if (/&(?!amp;|lt;|gt;|quot;|apos;|#\d+;)/.test(svgContent)) {
+      console.error(`Unescaped XML ampersand in ${labeledFullPath}`);
+      diagErrors++;
+    }
   }
   if (!Array.isArray(q.imageLabels) || q.imageLabels.length < 4) {
     console.error(`Incomplete imageLabels for ${q.id}`);

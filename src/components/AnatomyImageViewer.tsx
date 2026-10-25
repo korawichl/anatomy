@@ -12,6 +12,7 @@ import {
   Sparkles
 } from 'lucide-react';
 import { AnatomicalLandmarkLabel } from '../types';
+import { anatomySvgMap } from '../data/anatomySvgMap';
 
 interface AnatomyImageViewerProps {
   imageUrl?: string;
@@ -66,8 +67,9 @@ export const AnatomyImageViewer: React.FC<AnatomyImageViewerProps> = ({
 
   if (!imageUrl) return null;
 
-  const activeImageSrc =
+  const activeImagePath =
     viewMode === 'labeled' && labeledImageUrl ? labeledImageUrl : imageUrl;
+  const activeImageSrc = anatomySvgMap[activeImagePath] || activeImagePath;
 
   const handleOpenLightbox = () => {
     setZoom(1);
@@ -115,6 +117,28 @@ export const AnatomyImageViewer: React.FC<AnatomyImageViewerProps> = ({
   };
 
   const handleMouseUp = () => {
+    setIsDragging(false);
+  };
+
+  const handleTouchStart = (e: React.TouchEvent) => {
+    if (e.touches.length === 1) {
+      setIsDragging(true);
+      dragStartRef.current = {
+        x: e.touches[0].clientX - pan.x,
+        y: e.touches[0].clientY - pan.y
+      };
+    }
+  };
+
+  const handleTouchMove = (e: React.TouchEvent) => {
+    if (!isDragging || e.touches.length !== 1) return;
+    setPan({
+      x: e.touches[0].clientX - dragStartRef.current.x,
+      y: e.touches[0].clientY - dragStartRef.current.y
+    });
+  };
+
+  const handleTouchEnd = () => {
     setIsDragging(false);
   };
 
@@ -338,12 +362,15 @@ export const AnatomyImageViewer: React.FC<AnatomyImageViewerProps> = ({
 
           {/* Interactive Zoom & Pan Canvas */}
           <div
-            className={`flex-1 overflow-hidden relative flex items-center justify-center select-none ${
+            className={`flex-1 overflow-hidden relative flex items-center justify-center select-none touch-none ${
               isDragging ? 'cursor-grabbing' : 'cursor-grab'
             }`}
             onWheel={handleWheel}
             onMouseDown={handleMouseDown}
             onMouseMove={handleMouseMove}
+            onTouchStart={handleTouchStart}
+            onTouchMove={handleTouchMove}
+            onTouchEnd={handleTouchEnd}
           >
             <img
               src={activeImageSrc}

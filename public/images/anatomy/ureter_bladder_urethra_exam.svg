@@ -53,14 +53,14 @@
   <!-- Header Banner -->
   <rect x="0" y="0" width="1000" height="66" rx="18" fill="#0f172a" />
   <rect x="0" y="48" width="1000" height="18" fill="#0f172a" />
-  <text x="28" y="30" font-family="Inter, Sarabun, sans-serif" font-size="17" font-weight="800" fill="#f8fafc">Ureters, Urinary Bladder (Trigone & Sphincters) & Male Urethra Divisions</text>
+  <text x="28" y="30" font-family="Inter, Sarabun, sans-serif" font-size="17" font-weight="800" fill="#f8fafc">Ureters, Urinary Bladder (Trigone &amp; Sphincters) &amp; Male Urethra Divisions</text>
   <text x="28" y="51" font-family="Sarabun, Inter, sans-serif" font-size="12.5" font-weight="500" fill="#38bdf8">Urinary System • ท่อไต 3 จุดคอดแคบ กระเพาะปัสสาวะ (Detrusor, Trigone) และท่อปัสสาวะ 3 ส่วน</text>
   <rect x="770" y="18" width="205" height="30" rx="15" fill="#dc2626" /><text x="872" y="38" font-family="Sarabun, sans-serif" font-size="12" font-weight="700" fill="#ffffff" text-anchor="middle">❓ ภาพโจทย์สอบระบุตำแหน่ง (Exam)</text>
 
   <!-- Main Anatomical Illustration -->
   <g transform="translate(0, 10)">
     
-      <!-- Left & Right Ureters descending -->
+      <!-- Left &amp; Right Ureters descending -->
       <path d="M355,100 C355,180 390,220 405,285" fill="none" stroke="#fde047" stroke-width="10" stroke-linecap="round"/>
       <path d="M645,100 C645,180 610,220 595,285" fill="none" stroke="#fde047" stroke-width="10" stroke-linecap="round"/>
       <!-- Urinary Bladder (Detrusor Muscle Wall) -->
@@ -71,7 +71,7 @@
       <circle cx="435" cy="275" r="6" fill="#854d0e"/><circle cx="565" cy="275" r="6" fill="#854d0e"/>
       <!-- Prostate Gland surrounding Prostatic Urethra -->
       <path d="M445,380 L555,380 L535,445 L465,445 Z" fill="#c084fc" stroke="#6b21a8" stroke-width="3"/>
-      <!-- Urogenital Diaphragm & External Urethral Sphincter (Skeletal) -->
+      <!-- Urogenital Diaphragm &amp; External Urethral Sphincter (Skeletal) -->
       <rect x="415" y="445" width="170" height="25" rx="6" fill="#dc2626" stroke="#7f1d1d" stroke-width="2"/>
       <!-- Spongy (Penile) Urethra in Corpus Spongiosum -->
       <path d="M475,470 L475,545 L525,545 L525,470 Z" fill="#f43f5e" stroke="#881337" stroke-width="2.5"/>

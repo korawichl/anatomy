@@ -53,7 +53,7 @@
   <!-- Header Banner -->
   <rect x="0" y="0" width="1000" height="66" rx="18" fill="#0f172a" />
   <rect x="0" y="48" width="1000" height="18" fill="#0f172a" />
-  <text x="28" y="30" font-family="Inter, Sarabun, sans-serif" font-size="17" font-weight="800" fill="#f8fafc">Liver, Biliary Tree, Gallbladder, Pancreas & Duodenum</text>
+  <text x="28" y="30" font-family="Inter, Sarabun, sans-serif" font-size="17" font-weight="800" fill="#f8fafc">Liver, Biliary Tree, Gallbladder, Pancreas &amp; Duodenum</text>
   <text x="28" y="51" font-family="Sarabun, Inter, sans-serif" font-size="12.5" font-weight="500" fill="#38bdf8">Digestive System • โครงสร้างตับ ทางเดินน้ำดี ถุงน้ำดี ตับอ่อน และกระเปาะ Ampulla of Vater</text>
   <rect x="770" y="18" width="205" height="30" rx="15" fill="#dc2626" /><text x="872" y="38" font-family="Sarabun, sans-serif" font-size="12" font-weight="700" fill="#ffffff" text-anchor="middle">❓ ภาพโจทย์สอบระบุตำแหน่ง (Exam)</text>
 
@@ -64,7 +64,7 @@
       <path d="M180,195 C180,105 385,95 565,125 L495,235 C375,235 255,245 180,195 Z" fill="url(#liverBrown)" stroke="#451a03" stroke-width="3.5" filter="url(#dropShadow)"/>
       <!-- Gallbladder (Green) -->
       <ellipse cx="285" cy="255" rx="45" ry="26" transform="rotate(-18 285 255)" fill="#15803d" stroke="#052e16" stroke-width="3"/>
-      <!-- Biliary Tree: Right & Left Hepatic -> Common Hepatic + Cystic -> CBD -->
+      <!-- Biliary Tree: Right &amp; Left Hepatic -> Common Hepatic + Cystic -> CBD -->
       <path d="M375,180 L410,215 M445,180 L410,215 L410,265" fill="none" stroke="#16a34a" stroke-width="6" stroke-linecap="round"/>
       <path d="M328,245 L410,265 L410,415" fill="none" stroke="#15803d" stroke-width="7" stroke-linecap="round"/>
       <!-- Duodenum C-Loop -->
@@ -74,7 +74,7 @@
       <path d="M445,355 C415,355 415,435 455,435 L735,385 C775,375 775,335 735,335 Z" fill="#fde047" stroke="#ca8a04" stroke-width="3" filter="url(#dropShadow)"/>
       <!-- Main Pancreatic Duct (Wirsung) -->
       <path d="M715,365 L410,415" fill="none" stroke="#eab308" stroke-width="5" stroke-dasharray="6,3"/>
-      <!-- Hepatopancreatic Ampulla (Vater) & Sphincter of Oddi -->
+      <!-- Hepatopancreatic Ampulla (Vater) &amp; Sphincter of Oddi -->
       <circle cx="395" cy="415" r="14" fill="#dc2626" stroke="#ffffff" stroke-width="2.5"/>
     
   </g>

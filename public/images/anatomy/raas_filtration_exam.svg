@@ -53,7 +53,7 @@
   <!-- Header Banner -->
   <rect x="0" y="0" width="1000" height="66" rx="18" fill="#0f172a" />
   <rect x="0" y="48" width="1000" height="18" fill="#0f172a" />
-  <text x="28" y="30" font-family="Inter, Sarabun, sans-serif" font-size="17" font-weight="800" fill="#f8fafc">Glomerular Filtration Pressures (NFP) & RAAS Hormonal Cascade</text>
+  <text x="28" y="30" font-family="Inter, Sarabun, sans-serif" font-size="17" font-weight="800" fill="#f8fafc">Glomerular Filtration Pressures (NFP) &amp; RAAS Hormonal Cascade</text>
   <text x="28" y="51" font-family="Sarabun, Inter, sans-serif" font-size="12.5" font-weight="500" fill="#38bdf8">Urinary System • แรงดันสุทธิในการกรอง (NFP = 10 mmHg) และกลไกควบคุมความดันโลหิต RAAS</text>
   <rect x="770" y="18" width="205" height="30" rx="15" fill="#dc2626" /><text x="872" y="38" font-family="Sarabun, sans-serif" font-size="12" font-weight="700" fill="#ffffff" text-anchor="middle">❓ ภาพโจทย์สอบระบุตำแหน่ง (Exam)</text>
 

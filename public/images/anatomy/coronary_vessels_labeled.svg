@@ -53,18 +53,18 @@
   <!-- Header Banner -->
   <rect x="0" y="0" width="1000" height="66" rx="18" fill="#0f172a" />
   <rect x="0" y="48" width="1000" height="18" fill="#0f172a" />
-  <text x="28" y="30" font-family="Inter, Sarabun, sans-serif" font-size="17" font-weight="800" fill="#f8fafc">Coronary Arteries & Cardiac Venous Drainage</text>
+  <text x="28" y="30" font-family="Inter, Sarabun, sans-serif" font-size="17" font-weight="800" fill="#f8fafc">Coronary Arteries &amp; Cardiac Venous Drainage</text>
   <text x="28" y="51" font-family="Sarabun, Inter, sans-serif" font-size="12.5" font-weight="500" fill="#38bdf8">Cardiovascular System • หลอดเลือดแดงโคโรนารี (RCA, LCA, LAD, LCx) และหลอดเลือดดำหัวใจ</text>
   <rect x="750" y="18" width="225" height="30" rx="15" fill="#059669" /><text x="862" y="38" font-family="Sarabun, sans-serif" font-size="12" font-weight="700" fill="#ffffff" text-anchor="middle">✓ เฉลยโครงสร้างครบทุกจุด (Master)</text>
 
   <!-- Main Anatomical Illustration -->
   <g transform="translate(0, 10)">
     
-      <!-- Heart Base & Surface -->
+      <!-- Heart Base &amp; Surface -->
       <path d="M350,175 C295,225 300,375 375,460 L535,535 C635,480 685,355 650,220 C620,170 530,160 470,175 Z" fill="#fecdd3" stroke="#9f1239" stroke-width="3.5" filter="url(#dropShadow)"/>
       <!-- Ascending Aorta Root -->
       <path d="M465,110 L465,215 C465,235 535,235 535,215 L535,110 Z" fill="url(#oxyBlood)" stroke="#7f1d1d" stroke-width="3"/>
-      <!-- Right Coronary Artery (RCA) & Marginal Branch -->
+      <!-- Right Coronary Artery (RCA) &amp; Marginal Branch -->
       <path d="M465,205 C405,215 355,255 345,335 C340,385 370,435 430,465" fill="none" stroke="#dc2626" stroke-width="6" stroke-linecap="round"/>
       <!-- Left Coronary Artery (LCA) main stem -->
       <path d="M535,200 L585,215" fill="none" stroke="#dc2626" stroke-width="7" stroke-linecap="round"/>
@@ -73,7 +73,7 @@
       <!-- Anterior Interventricular Artery (LAD - Widow Maker) -->
       <path d="M585,215 C555,280 540,395 525,515" fill="none" stroke="#b91c1c" stroke-width="6.5" stroke-linecap="round"/>
       <path d="M560,310 L605,360 M545,390 L585,435" fill="none" stroke="#dc2626" stroke-width="4" stroke-linecap="round"/>
-      <!-- Great Cardiac Vein & Coronary Sinus (Dashed Blue) -->
+      <!-- Great Cardiac Vein &amp; Coronary Sinus (Dashed Blue) -->
       <path d="M510,505 C525,390 540,285 575,230 C615,245 620,295 580,315 L445,315" fill="none" stroke="#2563eb" stroke-width="5" stroke-dasharray="8,4" stroke-linecap="round"/>
       <!-- Ischemic Zone Highlight at Apex/Anterior Wall -->
       <ellipse cx="550" cy="445" rx="45" ry="35" fill="#7f1d1d" fill-opacity="0.28" stroke="#dc2626" stroke-width="2" stroke-dasharray="4,3"/>
@@ -138,7 +138,7 @@
         <rect x="715" y="343" width="28" height="44" rx="8" fill="#991b1b" />
         <text x="729" y="370" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="800" fill="#ffffff" text-anchor="middle">D</text>
         <text x="751" y="361" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="700" fill="#f8fafc">Anterior Interventricular Artery (LAD)</text>
-        <text x="751" y="378" font-family="Sarabun, Inter, sans-serif" font-size="11" font-weight="500" fill="#94a3b8">หลอดเลือด LAD ("Widow maker" เลี้ยงผนังหน้า LV)</text>
+        <text x="751" y="378" font-family="Sarabun, Inter, sans-serif" font-size="11" font-weight="500" fill="#94a3b8">หลอดเลือด LAD (&quot;Widow maker&quot; เลี้ยงผนังหน้า LV)</text>
       
     </g>
   
@@ -167,7 +167,7 @@
         <rect x="715" y="453" width="255" height="44" rx="8" fill="#0f172a" fill-opacity="0.93" stroke="#2563eb" stroke-width="2" filter="url(#dropShadow)" />
         <rect x="715" y="453" width="28" height="44" rx="8" fill="#2563eb" />
         <text x="729" y="480" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="800" fill="#ffffff" text-anchor="middle">F</text>
-        <text x="751" y="471" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="700" fill="#f8fafc">Coronary Sinus & Great Cardiac Vein</text>
+        <text x="751" y="471" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="700" fill="#f8fafc">Coronary Sinus &amp; Great Cardiac Vein</text>
         <text x="751" y="488" font-family="Sarabun, Inter, sans-serif" font-size="11" font-weight="500" fill="#94a3b8">แอ่งรวมเลือดดำหัวใจเทเข้าสู่ Right Atrium</text>
       
     </g>

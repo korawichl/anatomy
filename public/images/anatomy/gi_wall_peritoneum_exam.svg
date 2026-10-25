@@ -75,7 +75,7 @@
       <circle cx="640" cy="290" r="13" fill="#facc15" stroke="#713f12" stroke-width="2.5"/>
       <!-- Layer 3: Muscularis Externa (Inner Circular + Myenteric Plexus + Outer Longitudinal) -->
       <rect x="180" y="340" width="640" height="70" fill="#fca5a5" stroke="#dc2626" stroke-width="3"/>
-      <!-- Myenteric (Auerbach's) Plexus between circular & longitudinal -->
+      <!-- Myenteric (Auerbach's) Plexus between circular &amp; longitudinal -->
       <circle cx="430" cy="410" r="15" fill="#fde047" stroke="#b45309" stroke-width="3"/>
       <circle cx="590" cy="410" r="15" fill="#fde047" stroke="#b45309" stroke-width="3"/>
       <rect x="180" y="410" width="640" height="65" fill="#f87171" stroke="#991b1b" stroke-width="3"/>

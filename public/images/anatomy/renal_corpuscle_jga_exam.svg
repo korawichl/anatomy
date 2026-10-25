@@ -53,7 +53,7 @@
   <!-- Header Banner -->
   <rect x="0" y="0" width="1000" height="66" rx="18" fill="#0f172a" />
   <rect x="0" y="48" width="1000" height="18" fill="#0f172a" />
-  <text x="28" y="30" font-family="Inter, Sarabun, sans-serif" font-size="17" font-weight="800" fill="#f8fafc">Renal Corpuscle, Glomerular Filtration Barrier & Juxtaglomerular Apparatus</text>
+  <text x="28" y="30" font-family="Inter, Sarabun, sans-serif" font-size="17" font-weight="800" fill="#f8fafc">Renal Corpuscle, Glomerular Filtration Barrier &amp; Juxtaglomerular Apparatus</text>
   <text x="28" y="51" font-family="Sarabun, Inter, sans-serif" font-size="12.5" font-weight="500" fill="#38bdf8">Urinary System • โครงสร้างโกลเมอรูลัส เซลล์มีเท้า Podocytes และชุดควบคุมความดัน JGA</text>
   <rect x="770" y="18" width="205" height="30" rx="15" fill="#dc2626" /><text x="872" y="38" font-family="Sarabun, sans-serif" font-size="12" font-weight="700" fill="#ffffff" text-anchor="middle">❓ ภาพโจทย์สอบระบุตำแหน่ง (Exam)</text>
 
@@ -71,14 +71,14 @@
       <circle cx="315" cy="235" r="9" fill="#fde047" stroke="#713f12" stroke-width="2"/>
       <circle cx="335" cy="240" r="9" fill="#fde047" stroke="#713f12" stroke-width="2"/>
       <circle cx="315" cy="265" r="9" fill="#fde047" stroke="#713f12" stroke-width="2"/>
-      <!-- Distal Convoluted Tubule & Macula Densa touching Vascular Pole -->
+      <!-- Distal Convoluted Tubule &amp; Macula Densa touching Vascular Pole -->
       <ellipse cx="265" cy="320" rx="42" ry="52" fill="#fed7aa" stroke="#ea580c" stroke-width="3.5"/>
       <ellipse cx="265" cy="320" rx="22" ry="30" fill="#ffffff"/>
       <!-- Tall crowded Macula Densa cells on right side of DCT -->
       <rect x="292" y="295" width="14" height="50" rx="4" fill="#9a3412"/>
-      <!-- Glomerular Capillary Tuft covered by Podocytes & Pedicels -->
+      <!-- Glomerular Capillary Tuft covered by Podocytes &amp; Pedicels -->
       <path d="M385,265 C485,215 585,255 565,320 C585,385 485,425 385,375" fill="none" stroke="#dc2626" stroke-width="22" stroke-linecap="round"/>
-      <!-- Podocyte Cell Body & Foot Processes (Pedicels) -->
+      <!-- Podocyte Cell Body &amp; Foot Processes (Pedicels) -->
       <circle cx="515" cy="265" r="18" fill="#38bdf8" stroke="#0369a1" stroke-width="2.5"/>
       <path d="M515,283 L495,305 M515,283 L515,305 M515,283 L535,305" stroke="#0284c7" stroke-width="4" stroke-linecap="round"/>
     

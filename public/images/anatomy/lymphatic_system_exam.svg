@@ -53,7 +53,7 @@
   <!-- Header Banner -->
   <rect x="0" y="0" width="1000" height="66" rx="18" fill="#0f172a" />
   <rect x="0" y="48" width="1000" height="18" fill="#0f172a" />
-  <text x="28" y="30" font-family="Inter, Sarabun, sans-serif" font-size="17" font-weight="800" fill="#f8fafc">Lymph Node Structure, Spleen Pulp & Thoracic Duct Drainage</text>
+  <text x="28" y="30" font-family="Inter, Sarabun, sans-serif" font-size="17" font-weight="800" fill="#f8fafc">Lymph Node Structure, Spleen Pulp &amp; Thoracic Duct Drainage</text>
   <text x="28" y="51" font-family="Sarabun, Inter, sans-serif" font-size="12.5" font-weight="500" fill="#38bdf8">Lymphatic System • โครงสร้างต่อมน้ำเหลือง ม้าม (White/Red Pulp) และท่อน้ำเหลืองใหญ่</text>
   <rect x="770" y="18" width="205" height="30" rx="15" fill="#dc2626" /><text x="872" y="38" font-family="Sarabun, sans-serif" font-size="12" font-weight="700" fill="#ffffff" text-anchor="middle">❓ ภาพโจทย์สอบระบุตำแหน่ง (Exam)</text>
 
@@ -74,7 +74,7 @@
       <!-- Efferent Vessel at Hilum -->
       <path d="M298,305 L385,295 M298,330 L385,345" stroke="#047857" stroke-width="8" stroke-linecap="round"/>
 
-      <!-- Right Side: Spleen & Thoracic Duct Diagram -->
+      <!-- Right Side: Spleen &amp; Thoracic Duct Diagram -->
       <rect x="490" y="110" width="445" height="200" rx="14" fill="#ffffff" stroke="#cbd5e1" stroke-width="2" filter="url(#dropShadow)"/>
       <text x="712" y="138" font-family="Inter, sans-serif" font-size="13" font-weight="800" fill="#881337" text-anchor="middle">SPLEEN HISTOLOGY (WHITE PULP vs RED PULP)</text>
       <ellipse cx="712" cy="215" rx="165" ry="65" fill="#9f1239" stroke="#4c0519" stroke-width="3"/>
@@ -83,7 +83,7 @@
       <circle cx="765" cy="215" r="28" fill="#c084fc" stroke="#ffffff" stroke-width="2"/>
       <circle cx="765" cy="215" r="7" fill="#ef4444"/>
 
-      <!-- Cisterna Chyli & Thoracic Duct -->
+      <!-- Cisterna Chyli &amp; Thoracic Duct -->
       <rect x="490" y="335" width="445" height="195" rx="14" fill="#ffffff" stroke="#cbd5e1" stroke-width="2" filter="url(#dropShadow)"/>
       <path d="M710,505 C690,485 690,455 710,445 L710,365 L645,365" fill="none" stroke="#059669" stroke-width="9" stroke-linecap="round"/>
       <ellipse cx="710" cy="480" rx="22" ry="30" fill="#10b981" stroke="#065f46" stroke-width="2.5"/>

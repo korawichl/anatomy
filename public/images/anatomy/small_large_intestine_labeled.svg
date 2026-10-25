@@ -53,14 +53,14 @@
   <!-- Header Banner -->
   <rect x="0" y="0" width="1000" height="66" rx="18" fill="#0f172a" />
   <rect x="0" y="48" width="1000" height="18" fill="#0f172a" />
-  <text x="28" y="30" font-family="Inter, Sarabun, sans-serif" font-size="17" font-weight="800" fill="#f8fafc">Small Intestine Villi/Submucosa & Large Intestine Anatomy</text>
-  <text x="28" y="51" font-family="Sarabun, Inter, sans-serif" font-size="12.5" font-weight="500" fill="#38bdf8">Digestive System • เปรียบเทียบลำไส้เล็ก (Villi, Lacteals, Peyer's patches) และลำไส้ใหญ่ (Taeniae coli, Appendix)</text>
+  <text x="28" y="30" font-family="Inter, Sarabun, sans-serif" font-size="17" font-weight="800" fill="#f8fafc">Small Intestine Villi/Submucosa &amp; Large Intestine Anatomy</text>
+  <text x="28" y="51" font-family="Sarabun, Inter, sans-serif" font-size="12.5" font-weight="500" fill="#38bdf8">Digestive System • เปรียบเทียบลำไส้เล็ก (Villi, Lacteals, Peyer&apos;s patches) และลำไส้ใหญ่ (Taeniae coli, Appendix)</text>
   <rect x="750" y="18" width="225" height="30" rx="15" fill="#059669" /><text x="862" y="38" font-family="Sarabun, sans-serif" font-size="12" font-weight="700" fill="#ffffff" text-anchor="middle">✓ เฉลยโครงสร้างครบทุกจุด (Master)</text>
 
   <!-- Main Anatomical Illustration -->
   <g transform="translate(0, 10)">
     
-      <!-- Left Box: Intestinal Villus & Submucosal Features -->
+      <!-- Left Box: Intestinal Villus &amp; Submucosal Features -->
       <rect x="60" y="95" width="420" height="445" rx="16" fill="#ffffff" stroke="#cbd5e1" stroke-width="2" filter="url(#dropShadow)"/>
       <text x="270" y="125" font-family="Inter, sans-serif" font-size="13" font-weight="800" fill="#0f172a" text-anchor="middle">SMALL INTESTINE VILLUS &amp; SUBMUCOSA</text>
       <!-- Finger-like Villi -->
@@ -72,7 +72,7 @@
       <circle cx="165" cy="445" r="28" fill="#fde047" stroke="#ca8a04" stroke-width="2.5"/>
       <circle cx="335" cy="445" r="32" fill="#c084fc" stroke="#6b21a8" stroke-width="2.5"/>
 
-      <!-- Right Box: Large Intestine Frame, Cecum & Appendix -->
+      <!-- Right Box: Large Intestine Frame, Cecum &amp; Appendix -->
       <rect x="515" y="95" width="425" height="445" rx="16" fill="#ffffff" stroke="#cbd5e1" stroke-width="2" filter="url(#dropShadow)"/>
       <text x="727" y="125" font-family="Inter, sans-serif" font-size="13" font-weight="800" fill="#0f172a" text-anchor="middle">LARGE INTESTINE (COLON, CECUM &amp; APPENDIX)</text>
       <!-- Colon Frame with Haustra -->
@@ -98,7 +98,7 @@
         <rect x="270" y="153" width="255" height="44" rx="8" fill="#0f172a" fill-opacity="0.93" stroke="#059669" stroke-width="2" filter="url(#dropShadow)" />
         <rect x="270" y="153" width="28" height="44" rx="8" fill="#059669" />
         <text x="284" y="180" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="800" fill="#ffffff" text-anchor="middle">A</text>
-        <text x="306" y="171" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="700" fill="#f8fafc">Villus & Central Lacteal</text>
+        <text x="306" y="171" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="700" fill="#f8fafc">Villus &amp; Central Lacteal</text>
         <text x="306" y="188" font-family="Sarabun, Inter, sans-serif" font-size="11" font-weight="500" fill="#94a3b8">วิลไลและหลอดน้ำเหลือง Lacteal (ดูดซึมไขมัน Chylomicrons)</text>
       
     </g>
@@ -113,7 +113,7 @@
         <rect x="270" y="333" width="255" height="44" rx="8" fill="#0f172a" fill-opacity="0.93" stroke="#d97706" stroke-width="2" filter="url(#dropShadow)" />
         <rect x="270" y="333" width="28" height="44" rx="8" fill="#d97706" />
         <text x="284" y="360" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="800" fill="#ffffff" text-anchor="middle">B</text>
-        <text x="306" y="351" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="700" fill="#f8fafc">Brunner's Glands (Duodenum Submucosa)</text>
+        <text x="306" y="351" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="700" fill="#f8fafc">Brunner&apos;s Glands (Duodenum Submucosa)</text>
         <text x="306" y="368" font-family="Sarabun, Inter, sans-serif" font-size="11" font-weight="500" fill="#94a3b8">ต่อมบรุนเนอร์ในชั้น Submucosa ของ Duodenum (หลั่งเมือกด่าง)</text>
       
     </g>
@@ -128,7 +128,7 @@
         <rect x="15" y="473" width="255" height="44" rx="8" fill="#0f172a" fill-opacity="0.93" stroke="#7e22ce" stroke-width="2" filter="url(#dropShadow)" />
         <rect x="15" y="473" width="28" height="44" rx="8" fill="#7e22ce" />
         <text x="29" y="500" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="800" fill="#ffffff" text-anchor="middle">C</text>
-        <text x="51" y="491" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="700" fill="#f8fafc">Peyer's Patches (Ileum Submucosa)</text>
+        <text x="51" y="491" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="700" fill="#f8fafc">Peyer&apos;s Patches (Ileum Submucosa)</text>
         <text x="51" y="508" font-family="Sarabun, Inter, sans-serif" font-size="11" font-weight="500" fill="#94a3b8">กลุ่มเนื้อเยื่อน้ำเหลือง MALT หนาแน่นในลำไส้เล็กส่วน Ileum</text>
       
     </g>
@@ -143,7 +143,7 @@
         <rect x="460" y="158" width="255" height="44" rx="8" fill="#0f172a" fill-opacity="0.93" stroke="#ca8a04" stroke-width="2" filter="url(#dropShadow)" />
         <rect x="460" y="158" width="28" height="44" rx="8" fill="#ca8a04" />
         <text x="474" y="185" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="800" fill="#ffffff" text-anchor="middle">D</text>
-        <text x="496" y="176" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="700" fill="#f8fafc">Taeniae Coli & Haustra</text>
+        <text x="496" y="176" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="700" fill="#f8fafc">Taeniae Coli &amp; Haustra</text>
         <text x="496" y="193" font-family="Sarabun, Inter, sans-serif" font-size="11" font-weight="500" fill="#94a3b8">แถบกล้ามเนื้อแนวยาว 3 แถบ ดึงให้ลำไส้ใหญ่โป่งเป็นกระพุ้ง Haustra</text>
       
     </g>
@@ -158,7 +158,7 @@
         <rect x="715" y="323" width="255" height="44" rx="8" fill="#0f172a" fill-opacity="0.93" stroke="#e11d48" stroke-width="2" filter="url(#dropShadow)" />
         <rect x="715" y="323" width="28" height="44" rx="8" fill="#e11d48" />
         <text x="729" y="350" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="800" fill="#ffffff" text-anchor="middle">E</text>
-        <text x="751" y="341" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="700" fill="#f8fafc">Ileocecal Valve & Cecum</text>
+        <text x="751" y="341" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="700" fill="#f8fafc">Ileocecal Valve &amp; Cecum</text>
         <text x="751" y="358" font-family="Sarabun, Inter, sans-serif" font-size="11" font-weight="500" fill="#94a3b8">ลิ้นกั้นระหว่าง Ileum กับ Cecum ป้องกันแบคทีเรียไหลย้อนกลับ</text>
       
     </g>
@@ -173,8 +173,8 @@
         <rect x="715" y="463" width="255" height="44" rx="8" fill="#0f172a" fill-opacity="0.93" stroke="#be123c" stroke-width="2" filter="url(#dropShadow)" />
         <rect x="715" y="463" width="28" height="44" rx="8" fill="#be123c" />
         <text x="729" y="490" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="800" fill="#ffffff" text-anchor="middle">F</text>
-        <text x="751" y="481" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="700" fill="#f8fafc">Vermiform Appendix (McBurney's Point)</text>
-        <text x="751" y="498" font-family="Sarabun, Inter, sans-serif" font-size="11" font-weight="500" fill="#94a3b8">ไส้ติ่ง (โคนอยู่จุดรวม Taeniae coli ตรงกับ McBurney's point)</text>
+        <text x="751" y="481" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="700" fill="#f8fafc">Vermiform Appendix (McBurney&apos;s Point)</text>
+        <text x="751" y="498" font-family="Sarabun, Inter, sans-serif" font-size="11" font-weight="500" fill="#94a3b8">ไส้ติ่ง (โคนอยู่จุดรวม Taeniae coli ตรงกับ McBurney&apos;s point)</text>
       
     </g>
   

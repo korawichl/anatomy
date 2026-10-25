@@ -11,8 +11,20 @@ const path = require('path');
 const OUT_DIR = path.join(__dirname, '../public/images/anatomy');
 fs.mkdirSync(OUT_DIR, { recursive: true });
 
+function escapeXml(str) {
+  return String(str || '')
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;')
+    .replace(/'/g, '&apos;');
+}
+
 function renderCalloutPin(pinObj, isLabeled) {
   const { pin, x, y, labelX, labelY, term, thaiName, color = '#0284c7' } = pinObj;
+  const safePin = escapeXml(pin);
+  const safeTerm = escapeXml(term);
+  const safeThaiName = escapeXml(thaiName);
   const isRight = labelX >= x;
   const boxWidth = isLabeled ? 255 : 44;
   const boxHeight = isLabeled ? 44 : 34;
@@ -20,7 +32,7 @@ function renderCalloutPin(pinObj, isLabeled) {
   const boxY = labelY - boxHeight / 2;
 
   return `
-    <!-- Landmark Pin ${pin} -->
+    <!-- Landmark Pin ${safePin} -->
     <g class="landmark-group">
       <line x1="${x}" y1="${y}" x2="${labelX}" y2="${labelY}" stroke="${color}" stroke-width="2.2" stroke-dasharray="${isLabeled ? 'none' : '4,3'}" />
       <circle cx="${x}" cy="${y}" r="6" fill="${color}" stroke="#ffffff" stroke-width="2" />
@@ -30,13 +42,13 @@ function renderCalloutPin(pinObj, isLabeled) {
           ? `
         <rect x="${boxX}" y="${boxY}" width="${boxWidth}" height="${boxHeight}" rx="8" fill="#0f172a" fill-opacity="0.93" stroke="${color}" stroke-width="2" filter="url(#dropShadow)" />
         <rect x="${boxX}" y="${boxY}" width="28" height="${boxHeight}" rx="8" fill="${color}" />
-        <text x="${boxX + 14}" y="${labelY + 5}" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="800" fill="#ffffff" text-anchor="middle">${pin}</text>
-        <text x="${boxX + 36}" y="${labelY - 4}" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="700" fill="#f8fafc">${term}</text>
-        <text x="${boxX + 36}" y="${labelY + 13}" font-family="Sarabun, Inter, sans-serif" font-size="11" font-weight="500" fill="#94a3b8">${thaiName}</text>
+        <text x="${boxX + 14}" y="${labelY + 5}" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="800" fill="#ffffff" text-anchor="middle">${safePin}</text>
+        <text x="${boxX + 36}" y="${labelY - 4}" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="700" fill="#f8fafc">${safeTerm}</text>
+        <text x="${boxX + 36}" y="${labelY + 13}" font-family="Sarabun, Inter, sans-serif" font-size="11" font-weight="500" fill="#94a3b8">${safeThaiName}</text>
       `
           : `
         <rect x="${boxX}" y="${boxY}" width="${boxWidth}" height="${boxHeight}" rx="8" fill="${color}" stroke="#ffffff" stroke-width="2.5" filter="url(#dropShadow)" />
-        <text x="${boxX + boxWidth / 2}" y="${labelY + 6}" font-family="Inter, system-ui, sans-serif" font-size="16" font-weight="900" fill="#ffffff" text-anchor="middle">${pin}</text>
+        <text x="${boxX + boxWidth / 2}" y="${labelY + 6}" font-family="Inter, system-ui, sans-serif" font-size="16" font-weight="900" fill="#ffffff" text-anchor="middle">${safePin}</text>
       `
       }
     </g>
@@ -44,6 +56,9 @@ function renderCalloutPin(pinObj, isLabeled) {
 }
 
 function wrapSvg(title, subtitle, systemBadge, innerGraphic, pins, isLabeled) {
+  const safeTitle = escapeXml(title);
+  const safeSubtitle = escapeXml(subtitle);
+  const safeBadge = escapeXml(systemBadge);
   const modeBadge = isLabeled
     ? `<rect x="750" y="18" width="225" height="30" rx="15" fill="#059669" /><text x="862" y="38" font-family="Sarabun, sans-serif" font-size="12" font-weight="700" fill="#ffffff" text-anchor="middle">✓ เฉลยโครงสร้างครบทุกจุด (Master)</text>`
     : `<rect x="770" y="18" width="205" height="30" rx="15" fill="#dc2626" /><text x="872" y="38" font-family="Sarabun, sans-serif" font-size="12" font-weight="700" fill="#ffffff" text-anchor="middle">❓ ภาพโจทย์สอบระบุตำแหน่ง (Exam)</text>`;
@@ -105,13 +120,13 @@ function wrapSvg(title, subtitle, systemBadge, innerGraphic, pins, isLabeled) {
   <!-- Header Banner -->
   <rect x="0" y="0" width="1000" height="66" rx="18" fill="#0f172a" />
   <rect x="0" y="48" width="1000" height="18" fill="#0f172a" />
-  <text x="28" y="30" font-family="Inter, Sarabun, sans-serif" font-size="17" font-weight="800" fill="#f8fafc">${title}</text>
-  <text x="28" y="51" font-family="Sarabun, Inter, sans-serif" font-size="12.5" font-weight="500" fill="#38bdf8">${systemBadge} • ${subtitle}</text>
+  <text x="28" y="30" font-family="Inter, Sarabun, sans-serif" font-size="17" font-weight="800" fill="#f8fafc">${safeTitle}</text>
+  <text x="28" y="51" font-family="Sarabun, Inter, sans-serif" font-size="12.5" font-weight="500" fill="#38bdf8">${safeBadge} • ${safeSubtitle}</text>
   ${modeBadge}
 
   <!-- Main Anatomical Illustration -->
   <g transform="translate(0, 10)">
-    ${innerGraphic}
+    ${innerGraphic.replace(/&(?!amp;|lt;|gt;|quot;|apos;|#\d+;)/g, '&amp;')}
   </g>
 
   <!-- Callout Pins -->
@@ -776,6 +791,8 @@ const diagrams = [
 ];
 
 let createdCount = 0;
+const svgDataUriMap = {};
+
 diagrams.forEach(diag => {
   const examSvg = wrapSvg(diag.title, diag.subtitle, diag.systemBadge, diag.graphic, diag.pins, false);
   const labeledSvg = wrapSvg(diag.title, diag.subtitle, diag.systemBadge, diag.graphic, diag.pins, true);
@@ -785,8 +802,19 @@ diagrams.forEach(diag => {
 
   fs.writeFileSync(examPath, examSvg, 'utf8');
   fs.writeFileSync(labeledPath, labeledSvg, 'utf8');
+
+  svgDataUriMap[`/images/anatomy/${diag.id}_exam.svg`] = `data:image/svg+xml;charset=utf-8,${encodeURIComponent(examSvg)}`;
+  svgDataUriMap[`/images/anatomy/${diag.id}_labeled.svg`] = `data:image/svg+xml;charset=utf-8,${encodeURIComponent(labeledSvg)}`;
+
   createdCount += 2;
 });
 
-console.log(`Successfully generated ${createdCount} high-resolution medical SVG files in ${OUT_DIR}`);
+const mapTsPath = path.join(__dirname, '../src/data/anatomySvgMap.ts');
+fs.writeFileSync(
+  mapTsPath,
+  `// Auto-generated embedded SVG Data URIs for instant zero-latency rendering\nexport const anatomySvgMap: Record<string, string> = ${JSON.stringify(svgDataUriMap, null, 2)};\n`,
+  'utf8'
+);
+
+console.log(`Successfully generated ${createdCount} high-resolution medical SVG files in ${OUT_DIR} and embedded map in ${mapTsPath}`);
 module.exports = { diagrams };

@@ -53,14 +53,14 @@
   <!-- Header Banner -->
   <rect x="0" y="0" width="1000" height="66" rx="18" fill="#0f172a" />
   <rect x="0" y="48" width="1000" height="18" fill="#0f172a" />
-  <text x="28" y="30" font-family="Inter, Sarabun, sans-serif" font-size="17" font-weight="800" fill="#f8fafc">Ureters, Urinary Bladder (Trigone & Sphincters) & Male Urethra Divisions</text>
+  <text x="28" y="30" font-family="Inter, Sarabun, sans-serif" font-size="17" font-weight="800" fill="#f8fafc">Ureters, Urinary Bladder (Trigone &amp; Sphincters) &amp; Male Urethra Divisions</text>
   <text x="28" y="51" font-family="Sarabun, Inter, sans-serif" font-size="12.5" font-weight="500" fill="#38bdf8">Urinary System • ท่อไต 3 จุดคอดแคบ กระเพาะปัสสาวะ (Detrusor, Trigone) และท่อปัสสาวะ 3 ส่วน</text>
   <rect x="750" y="18" width="225" height="30" rx="15" fill="#059669" /><text x="862" y="38" font-family="Sarabun, sans-serif" font-size="12" font-weight="700" fill="#ffffff" text-anchor="middle">✓ เฉลยโครงสร้างครบทุกจุด (Master)</text>
 
   <!-- Main Anatomical Illustration -->
   <g transform="translate(0, 10)">
     
-      <!-- Left & Right Ureters descending -->
+      <!-- Left &amp; Right Ureters descending -->
       <path d="M355,100 C355,180 390,220 405,285" fill="none" stroke="#fde047" stroke-width="10" stroke-linecap="round"/>
       <path d="M645,100 C645,180 610,220 595,285" fill="none" stroke="#fde047" stroke-width="10" stroke-linecap="round"/>
       <!-- Urinary Bladder (Detrusor Muscle Wall) -->
@@ -71,7 +71,7 @@
       <circle cx="435" cy="275" r="6" fill="#854d0e"/><circle cx="565" cy="275" r="6" fill="#854d0e"/>
       <!-- Prostate Gland surrounding Prostatic Urethra -->
       <path d="M445,380 L555,380 L535,445 L465,445 Z" fill="#c084fc" stroke="#6b21a8" stroke-width="3"/>
-      <!-- Urogenital Diaphragm & External Urethral Sphincter (Skeletal) -->
+      <!-- Urogenital Diaphragm &amp; External Urethral Sphincter (Skeletal) -->
       <rect x="415" y="445" width="170" height="25" rx="6" fill="#dc2626" stroke="#7f1d1d" stroke-width="2"/>
       <!-- Spongy (Penile) Urethra in Corpus Spongiosum -->
       <path d="M475,470 L475,545 L525,545 L525,470 Z" fill="#f43f5e" stroke="#881337" stroke-width="2.5"/>
@@ -107,7 +107,7 @@
         <rect x="0" y="253" width="255" height="44" rx="8" fill="#0f172a" fill-opacity="0.93" stroke="#e11d48" stroke-width="2" filter="url(#dropShadow)" />
         <rect x="0" y="253" width="28" height="44" rx="8" fill="#e11d48" />
         <text x="14" y="280" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="800" fill="#ffffff" text-anchor="middle">B</text>
-        <text x="36" y="271" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="700" fill="#f8fafc">Detrusor Muscle & Transitional Epithelium</text>
+        <text x="36" y="271" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="700" fill="#f8fafc">Detrusor Muscle &amp; Transitional Epithelium</text>
         <text x="36" y="288" font-family="Sarabun, Inter, sans-serif" font-size="11" font-weight="500" fill="#94a3b8">กล้ามเนื้อเรียบกระเพาะปัสสาวะ 3 ชั้น (บีบตัวด้วย Parasympathetic S2-S4)</text>
       
     </g>
@@ -167,7 +167,7 @@
         <rect x="715" y="458" width="255" height="44" rx="8" fill="#0f172a" fill-opacity="0.93" stroke="#dc2626" stroke-width="2" filter="url(#dropShadow)" />
         <rect x="715" y="458" width="28" height="44" rx="8" fill="#dc2626" />
         <text x="729" y="485" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="800" fill="#ffffff" text-anchor="middle">F</text>
-        <text x="751" y="476" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="700" fill="#f8fafc">Membranous Urethra & External Sphincter</text>
+        <text x="751" y="476" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="700" fill="#f8fafc">Membranous Urethra &amp; External Sphincter</text>
         <text x="751" y="493" font-family="Sarabun, Inter, sans-serif" font-size="11" font-weight="500" fill="#94a3b8">ท่อปัสสาวะส่วนผ่านกล้ามเนื้อหูรูดชั้นนอก (กล้ามเนื้อลาย สั่งกลั้นได้ผ่าน Pudendal n.)</text>
       
     </g>

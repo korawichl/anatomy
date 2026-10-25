@@ -53,7 +53,7 @@
   <!-- Header Banner -->
   <rect x="0" y="0" width="1000" height="66" rx="18" fill="#0f172a" />
   <rect x="0" y="48" width="1000" height="18" fill="#0f172a" />
-  <text x="28" y="30" font-family="Inter, Sarabun, sans-serif" font-size="17" font-weight="800" fill="#f8fafc">Renal Corpuscle, Glomerular Filtration Barrier & Juxtaglomerular Apparatus</text>
+  <text x="28" y="30" font-family="Inter, Sarabun, sans-serif" font-size="17" font-weight="800" fill="#f8fafc">Renal Corpuscle, Glomerular Filtration Barrier &amp; Juxtaglomerular Apparatus</text>
   <text x="28" y="51" font-family="Sarabun, Inter, sans-serif" font-size="12.5" font-weight="500" fill="#38bdf8">Urinary System • โครงสร้างโกลเมอรูลัส เซลล์มีเท้า Podocytes และชุดควบคุมความดัน JGA</text>
   <rect x="750" y="18" width="225" height="30" rx="15" fill="#059669" /><text x="862" y="38" font-family="Sarabun, sans-serif" font-size="12" font-weight="700" fill="#ffffff" text-anchor="middle">✓ เฉลยโครงสร้างครบทุกจุด (Master)</text>
 
@@ -71,14 +71,14 @@
       <circle cx="315" cy="235" r="9" fill="#fde047" stroke="#713f12" stroke-width="2"/>
       <circle cx="335" cy="240" r="9" fill="#fde047" stroke="#713f12" stroke-width="2"/>
       <circle cx="315" cy="265" r="9" fill="#fde047" stroke="#713f12" stroke-width="2"/>
-      <!-- Distal Convoluted Tubule & Macula Densa touching Vascular Pole -->
+      <!-- Distal Convoluted Tubule &amp; Macula Densa touching Vascular Pole -->
       <ellipse cx="265" cy="320" rx="42" ry="52" fill="#fed7aa" stroke="#ea580c" stroke-width="3.5"/>
       <ellipse cx="265" cy="320" rx="22" ry="30" fill="#ffffff"/>
       <!-- Tall crowded Macula Densa cells on right side of DCT -->
       <rect x="292" y="295" width="14" height="50" rx="4" fill="#9a3412"/>
-      <!-- Glomerular Capillary Tuft covered by Podocytes & Pedicels -->
+      <!-- Glomerular Capillary Tuft covered by Podocytes &amp; Pedicels -->
       <path d="M385,265 C485,215 585,255 565,320 C585,385 485,425 385,375" fill="none" stroke="#dc2626" stroke-width="22" stroke-linecap="round"/>
-      <!-- Podocyte Cell Body & Foot Processes (Pedicels) -->
+      <!-- Podocyte Cell Body &amp; Foot Processes (Pedicels) -->
       <circle cx="515" cy="265" r="18" fill="#38bdf8" stroke="#0369a1" stroke-width="2.5"/>
       <path d="M515,283 L495,305 M515,283 L515,305 M515,283 L535,305" stroke="#0284c7" stroke-width="4" stroke-linecap="round"/>
     
@@ -96,7 +96,7 @@
         <rect x="260" y="113" width="255" height="44" rx="8" fill="#0f172a" fill-opacity="0.93" stroke="#dc2626" stroke-width="2" filter="url(#dropShadow)" />
         <rect x="260" y="113" width="28" height="44" rx="8" fill="#dc2626" />
         <text x="274" y="140" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="800" fill="#ffffff" text-anchor="middle">A</text>
-        <text x="296" y="131" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="700" fill="#f8fafc">Afferent Arteriole & JG Granular Cells</text>
+        <text x="296" y="131" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="700" fill="#f8fafc">Afferent Arteriole &amp; JG Granular Cells</text>
         <text x="296" y="148" font-family="Sarabun, Inter, sans-serif" font-size="11" font-weight="500" fill="#94a3b8">หลอดเลือดแดงขาเข้า (กว้างกว่า) และเซลล์ JG ที่หลั่งเอนไซม์ Renin</text>
       
     </g>
@@ -141,7 +141,7 @@
         <rect x="715" y="153" width="255" height="44" rx="8" fill="#0f172a" fill-opacity="0.93" stroke="#0284c7" stroke-width="2" filter="url(#dropShadow)" />
         <rect x="715" y="153" width="28" height="44" rx="8" fill="#0284c7" />
         <text x="729" y="180" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="800" fill="#ffffff" text-anchor="middle">D</text>
-        <text x="751" y="171" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="700" fill="#f8fafc">Podocytes & Filtration Slits (Visceral Layer)</text>
+        <text x="751" y="171" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="700" fill="#f8fafc">Podocytes &amp; Filtration Slits (Visceral Layer)</text>
         <text x="751" y="188" font-family="Sarabun, Inter, sans-serif" font-size="11" font-weight="500" fill="#94a3b8">เซลล์มีเท้าโอบรอบโกลเมอรูลัส เกิดเป็นร่องกรอง Filtration slits</text>
       
     </g>
@@ -156,7 +156,7 @@
         <rect x="715" y="243" width="255" height="44" rx="8" fill="#0f172a" fill-opacity="0.93" stroke="#ca8a04" stroke-width="2" filter="url(#dropShadow)" />
         <rect x="715" y="243" width="28" height="44" rx="8" fill="#ca8a04" />
         <text x="729" y="270" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="800" fill="#ffffff" text-anchor="middle">E</text>
-        <text x="751" y="261" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="700" fill="#f8fafc">Bowman's Capsule (Parietal Layer & Space)</text>
+        <text x="751" y="261" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="700" fill="#f8fafc">Bowman&apos;s Capsule (Parietal Layer &amp; Space)</text>
         <text x="751" y="278" font-family="Sarabun, Inter, sans-serif" font-size="11" font-weight="500" fill="#94a3b8">ถุงหุ้มโกลเมอรูลัสชั้นนอก (Simple squamous) และช่องรับน้ำกรอง</text>
       
     </g>

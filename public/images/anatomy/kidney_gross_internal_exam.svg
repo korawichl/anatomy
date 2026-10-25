@@ -53,7 +53,7 @@
   <!-- Header Banner -->
   <rect x="0" y="0" width="1000" height="66" rx="18" fill="#0f172a" />
   <rect x="0" y="48" width="1000" height="18" fill="#0f172a" />
-  <text x="28" y="30" font-family="Inter, Sarabun, sans-serif" font-size="17" font-weight="800" fill="#f8fafc">Internal Structure of the Kidney: Cortex, Medulla, Calyces & Hilum</text>
+  <text x="28" y="30" font-family="Inter, Sarabun, sans-serif" font-size="17" font-weight="800" fill="#f8fafc">Internal Structure of the Kidney: Cortex, Medulla, Calyces &amp; Hilum</text>
   <text x="28" y="51" font-family="Sarabun, Inter, sans-serif" font-size="12.5" font-weight="500" fill="#38bdf8">Urinary System • โครงสร้างภายในไต ชั้น Cortex, Medullary Pyramids, กรวยไต และหลอดเลือดไต</text>
   <rect x="770" y="18" width="205" height="30" rx="15" fill="#dc2626" /><text x="872" y="38" font-family="Sarabun, sans-serif" font-size="12" font-weight="700" fill="#ffffff" text-anchor="middle">❓ ภาพโจทย์สอบระบุตำแหน่ง (Exam)</text>
 
@@ -67,13 +67,13 @@
       <polygon points="295,280 345,220 430,285" fill="#9f1239" stroke="#ffffff" stroke-width="1.5"/>
       <polygon points="295,355 320,425 430,340" fill="#9f1239" stroke="#ffffff" stroke-width="1.5"/>
       <polygon points="355,465 430,490 455,380" fill="#9f1239" stroke="#ffffff" stroke-width="1.5"/>
-      <!-- Renal Pelvis, Major & Minor Calyces & Ureter -->
+      <!-- Renal Pelvis, Major &amp; Minor Calyces &amp; Ureter -->
       <path d="M445,245 L485,275 M430,285 L485,295 M430,340 L485,325 M455,380 L485,350" stroke="#fde047" stroke-width="14" stroke-linecap="round"/>
       <path d="M475,265 C535,280 565,315 585,375 L585,535" fill="none" stroke="#eab308" stroke-width="26" stroke-linecap="round"/>
-      <!-- Renal Artery & Vein at Hilum -->
+      <!-- Renal Artery &amp; Vein at Hilum -->
       <path d="M535,285 L685,265" stroke="#dc2626" stroke-width="14" stroke-linecap="round"/>
       <path d="M535,315 L685,315" stroke="#2563eb" stroke-width="16" stroke-linecap="round"/>
-      <!-- Arcuate & Interlobar Vessels -->
+      <!-- Arcuate &amp; Interlobar Vessels -->
       <path d="M535,285 L415,255 C365,240 335,260 325,295" fill="none" stroke="#dc2626" stroke-width="3.5" stroke-dasharray="4,2"/>
     
   </g>

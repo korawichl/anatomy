@@ -53,7 +53,7 @@
   <!-- Header Banner -->
   <rect x="0" y="0" width="1000" height="66" rx="18" fill="#0f172a" />
   <rect x="0" y="48" width="1000" height="18" fill="#0f172a" />
-  <text x="28" y="30" font-family="Inter, Sarabun, sans-serif" font-size="17" font-weight="800" fill="#f8fafc">Glomerular Filtration Pressures (NFP) & RAAS Hormonal Cascade</text>
+  <text x="28" y="30" font-family="Inter, Sarabun, sans-serif" font-size="17" font-weight="800" fill="#f8fafc">Glomerular Filtration Pressures (NFP) &amp; RAAS Hormonal Cascade</text>
   <text x="28" y="51" font-family="Sarabun, Inter, sans-serif" font-size="12.5" font-weight="500" fill="#38bdf8">Urinary System • แรงดันสุทธิในการกรอง (NFP = 10 mmHg) และกลไกควบคุมความดันโลหิต RAAS</text>
   <rect x="750" y="18" width="225" height="30" rx="15" fill="#059669" /><text x="862" y="38" font-family="Sarabun, sans-serif" font-size="12" font-weight="700" fill="#ffffff" text-anchor="middle">✓ เฉลยโครงสร้างครบทุกจุด (Master)</text>
 
@@ -161,7 +161,7 @@
         <rect x="460" y="313" width="255" height="44" rx="8" fill="#0f172a" fill-opacity="0.93" stroke="#dc2626" stroke-width="2" filter="url(#dropShadow)" />
         <rect x="460" y="313" width="28" height="44" rx="8" fill="#dc2626" />
         <text x="474" y="340" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="800" fill="#ffffff" text-anchor="middle">E</text>
-        <text x="496" y="331" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="700" fill="#f8fafc">ACE (in Lungs) -> Angiotensin II</text>
+        <text x="496" y="331" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="700" fill="#f8fafc">ACE (in Lungs) -&gt; Angiotensin II</text>
         <text x="496" y="348" font-family="Sarabun, Inter, sans-serif" font-size="11" font-weight="500" fill="#94a3b8">เอนไซม์ ACE ที่หลอดเลือดฝอยปอดเปลี่ยน Ang I เป็น Ang II (หดหลอดเลือด)</text>
       
     </g>
@@ -176,7 +176,7 @@
         <rect x="460" y="458" width="255" height="44" rx="8" fill="#0f172a" fill-opacity="0.93" stroke="#d97706" stroke-width="2" filter="url(#dropShadow)" />
         <rect x="460" y="458" width="28" height="44" rx="8" fill="#d97706" />
         <text x="474" y="485" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="800" fill="#ffffff" text-anchor="middle">F</text>
-        <text x="496" y="476" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="700" fill="#f8fafc">Aldosterone (Adrenal Cortex) & ADH</text>
+        <text x="496" y="476" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="700" fill="#f8fafc">Aldosterone (Adrenal Cortex) &amp; ADH</text>
         <text x="496" y="493" font-family="Sarabun, Inter, sans-serif" font-size="11" font-weight="500" fill="#94a3b8">อัลโดสเตอโรนสั่งดูดกลับ Na+/น้ำ และขับ K+ ที่ท่อรวมเพื่อเพิ่มความดัน</text>
       
     </g>

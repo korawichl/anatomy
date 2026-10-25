@@ -75,7 +75,7 @@
       <circle cx="640" cy="290" r="13" fill="#facc15" stroke="#713f12" stroke-width="2.5"/>
       <!-- Layer 3: Muscularis Externa (Inner Circular + Myenteric Plexus + Outer Longitudinal) -->
       <rect x="180" y="340" width="640" height="70" fill="#fca5a5" stroke="#dc2626" stroke-width="3"/>
-      <!-- Myenteric (Auerbach's) Plexus between circular & longitudinal -->
+      <!-- Myenteric (Auerbach's) Plexus between circular &amp; longitudinal -->
       <circle cx="430" cy="410" r="15" fill="#fde047" stroke="#b45309" stroke-width="3"/>
       <circle cx="590" cy="410" r="15" fill="#fde047" stroke="#b45309" stroke-width="3"/>
       <rect x="180" y="410" width="640" height="65" fill="#f87171" stroke="#991b1b" stroke-width="3"/>
@@ -96,7 +96,7 @@
         <rect x="280" y="163" width="255" height="44" rx="8" fill="#0f172a" fill-opacity="0.93" stroke="#db2777" stroke-width="2" filter="url(#dropShadow)" />
         <rect x="280" y="163" width="28" height="44" rx="8" fill="#db2777" />
         <text x="294" y="190" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="800" fill="#ffffff" text-anchor="middle">A</text>
-        <text x="316" y="181" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="700" fill="#f8fafc">Mucosa (Epithelium & Lamina Propria)</text>
+        <text x="316" y="181" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="700" fill="#f8fafc">Mucosa (Epithelium &amp; Lamina Propria)</text>
         <text x="316" y="198" font-family="Sarabun, Inter, sans-serif" font-size="11" font-weight="500" fill="#94a3b8">ชั้นเยื่อเมือกด้านในสุด (ดูดซึมและหลั่งเมือก)</text>
       
     </g>
@@ -126,7 +126,7 @@
         <rect x="715" y="248" width="255" height="44" rx="8" fill="#0f172a" fill-opacity="0.93" stroke="#d97706" stroke-width="2" filter="url(#dropShadow)" />
         <rect x="715" y="248" width="28" height="44" rx="8" fill="#d97706" />
         <text x="729" y="275" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="800" fill="#ffffff" text-anchor="middle">C</text>
-        <text x="751" y="266" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="700" fill="#f8fafc">Submucosa & Meissner's Plexus</text>
+        <text x="751" y="266" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="700" fill="#f8fafc">Submucosa &amp; Meissner&apos;s Plexus</text>
         <text x="751" y="283" font-family="Sarabun, Inter, sans-serif" font-size="11" font-weight="500" fill="#94a3b8">ชั้นใต้เยื่อเมือกและร่างแหประสาทควบคุมการหลั่งสาร</text>
       
     </g>
@@ -156,7 +156,7 @@
         <rect x="715" y="383" width="255" height="44" rx="8" fill="#0f172a" fill-opacity="0.93" stroke="#b45309" stroke-width="2" filter="url(#dropShadow)" />
         <rect x="715" y="383" width="28" height="44" rx="8" fill="#b45309" />
         <text x="729" y="410" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="800" fill="#ffffff" text-anchor="middle">E</text>
-        <text x="751" y="401" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="700" fill="#f8fafc">Myenteric (Auerbach's) Plexus</text>
+        <text x="751" y="401" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="700" fill="#f8fafc">Myenteric (Auerbach&apos;s) Plexus</text>
         <text x="751" y="418" font-family="Sarabun, Inter, sans-serif" font-size="11" font-weight="500" fill="#94a3b8">ร่างแหประสาทคั่นระหว่างกล้ามเนื้อ 2 ชั้น ควบคุม Peristalsis</text>
       
     </g>
